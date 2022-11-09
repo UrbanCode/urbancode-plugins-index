@@ -23,8 +23,9 @@ There are 2 main file types that must abide by strict guidelines:
 
     | Field | Type | Required | Description |
     | ----- | ---- | -------- | ----------- |
-    | name | string | yes | The display name of the plugin. This is how users will identify the plugin in UrbanCode Velocity. |
-    | url | string | yes | A URL to a website containing information about the plugin. A user would use this information to find out more about the plugin. |
+    | name   | string | yes | The display name of the plugin. This is how users will identify the plugin in UrbanCode Velocity. |
+    | docdir | string | yes | Documentation directory name |
+    | plugindir | string | yes | Plugin files directory name |
     | description | string | yes | A short description about what the plugin does. This should provide enough context for a user to determine whether the plugin is right for their needs. |
     | author | object | yes | Who is responsible for creating/updating the plugin. This will let a user know who is responsible for maintaining the plugin. |
     | author.name | string | yes | The name of the author. If the plugin is tied to an organization, this should be the name of the organization. A user might check this name to ensure the plugin is written by a reliable source. |
@@ -50,30 +51,4 @@ To prevent errors and regressions, there are several lint scripts. These can be 
 
 ## Adding A New Plugin
 
-To add a new plugin to the `index.json`, follow these steps:
-
-1. Create a new directory under the `plugins` directory with the name of the `pluginId` of the new plugin.
-
-2. Create an `info.json` file in that new directory containing a JSON object following the structure defined in [JSON Structures](#jSON-structures)
-
-3. Create a `releases.json` file in that new directory containing a JSON array, whose objects have the structure defined in [JSON Structures](#jSON-structures)
-
-4. [Generate the index.json file](#generate-index.json)
-
-5. Create a Pull Request to this repository with your changes.
-
 ## Releasing A New Plugin Version
-
-To add a new released version of a plugin to the `index.json`, follow these steps:
-
-1. Run the following in the root directory of this repository:
-
-    ```sh
-    xxxxx
-    ```
-
-    where `<pluginId>` is the `pluginId` for the plugin with the new release, `<semver>` is the new version being released, `<image>` is the Docker image that corresponds to the new plugin for the release, `<date>` is the date that the plugin is being released (as an ISO string), `<notes>` is an array containing strings of features/bug-fixes introduced in the new plugin version, and `<supports>` is the minimum version of velocity that the release can be installed on. Note that `<date>`, `<notes>`, and `<supports>` are optional and can be omitted.
-
-2. [Generate the index.json file](#generate-index.json)
-
-3. Create a Pull Request to this repository with your changes.
