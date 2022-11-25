@@ -148,10 +148,10 @@ def create_dirtree_without_files(src, dst):
 # calling the above function
 def main():
     config = ucutil.get_config()
-    create_dirs_and_move_images(f"{config[ucutil.PLUGIN_DOCS_ROOT]}/{config[ucutil.PLUGIN_DOCS_FOLDER]}",
-                                 f"{config[ucutil.PLUGIN_DOCS_ROOT]}/{config[ucutil.PLUGIN_DOCS_FOLDER]}")
-#    create_dirtree_without_files(f"{config[ucutil.PLUGIN_DOCS_ROOT]}/{config[ucutil.PLUGIN_DOCS_FOLDER]}",
-#                                 f"{config[ucutil.PLUGIN_DOCS_ROOT]}/{config[ucutil.PLUGIN_DOCS_FILES_FOLDER]}")
+    # create_dirs_and_move_images(f"{config[ucutil.PLUGIN_DOCS_ROOT]}/{config[ucutil.PLUGIN_DOCS_FOLDER]}",
+    #                             f"{config[ucutil.PLUGIN_DOCS_ROOT]}/{config[ucutil.PLUGIN_DOCS_FOLDER]}")
+    create_dirtree_without_files(f"{config[ucutil.PLUGIN_DOCS_ROOT]}/{config[ucutil.PLUGIN_DOCS_FOLDER]}",
+                                 f"{config[ucutil.PLUGIN_DOCS_ROOT]}/{config[ucutil.PLUGIN_DOCS_FILES_FOLDER]}")
 if __name__ == '__main__':
     main()
                 

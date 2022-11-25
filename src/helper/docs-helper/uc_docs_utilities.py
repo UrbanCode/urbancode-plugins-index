@@ -1,5 +1,7 @@
 import os
 import logging
+import pathlib
+import markdown
 
 script_name="uc_docs_utility"
 logging.basicConfig()
@@ -44,7 +46,7 @@ def get_release_template():
         RELEASE_SEMVER:"", 
         RELEASE_DATE:"",  
         RELEASE_FILE:"",
-        RELEASE_NOTES:[""],
+        RELEASE_NOTES:[],
         RELEASE_SUPPORTS:""
     }
 
@@ -88,7 +90,7 @@ def get_info_template():
         INFO_DOCS: "",
         INFO_DOCS_URL: "",
         INFO_PLUGIN_FOLDER:"",
-        INFO_FILES: [""],
+        INFO_FILES: [],
         INFO_DESCRIPTION: "",
         INFO_PLUGIN_SPECIFICATION: get_plugin_specification_template(),
         INFO_AUTHOR: get_author_template()
@@ -106,30 +108,57 @@ def get_docfile_template():
     return {
         DOCFILE_NAME:"",
         DOCFILE_FILE_NAME:"",
-        DOCFILE_SUB_DOCUMENTS:[""],
+        DOCFILE_SUB_DOCUMENTS:[],
         DOCFILE_FOLDER_NAME:""
     }
+
+def get_docfile_info(docfile_path, filename, docfile_folder=""):
+    docfile_info=get_docfile_template()
+
+    docfile_info[DOCFILE_FILE_NAME]=filename
+    docfile_info[DOCFILE_FOLDER_NAME]=docfile_folder
+
+    
+    mddata=pathlib.Path(os.path.join(docfile_path, filename)).read_text(encoding='utf-8')
+    mdmeta=markdown.Markdown(extensions=['meta'])
+    mdmeta.convert(mddata)
+    logger1.info(f"mdmeta.title={mdmeta.META['title']}")
+    return docfile_info 
 
 def get_info(plugin_path):
     # get the plug-in name from README.md from plugin_path
     logger1.info(f"passed plugin_path={plugin_path}")
-    for root, dirs, files in os.walk(plugin_path):
 
-        # if dirs is empty then iterate over files
-        # else it is either the media dir or subdir 
+    dir_list=os.listdir(plugin_path)
+    logger1.info(f"dir_list={dir_list}")
 
-        if (dirs):
-            for dir in dirs:
-                # if dir is media, ignore else
-                # add to subdir in subdocs list?
-                logger1.info(f"dir={dir}")
+    plugin_info=get_info_template()
+    plugin_dir = pathlib.PurePath(plugin_path)
+    plugin_info[INFO_NAME] = plugin_dir.name
+    
+    for dir_item in dir_list:
+        if dir_item == "media": continue
+        if ".md" in dir_item:
+            docfile_info=get_docfile_info(plugin_path, dir_item)
+            plugin_info[INFO_FILES].append(docfile_info)
+    # for root, dirs, files in os.walk(plugin_path):
 
-        # for file in files:
-        # # if readme - get plugin file name
-        # # else add to list of docs?
-        #     logger1.info(f"dir/file={dir}/{file}")            
+    #     # if dirs is empty then iterate over files
+    #     # else it is either the media dir or subdir 
+    #     logger1.info(f"root={root}")
+    #     if ("media" in root): continue
+    #     if (dirs):
+    #         for dir in dirs:
+    #             # if dir is media, ignore else
+    #             # add to subdir in subdocs list?
+    #             logger1.info(f"dir={dir}")
+    #     else:
+    #         for file in files:
+    #         # # if readme - get plugin file name
+    #         # # else add to list of docs?
+    #             logger1.info(f"dir/file={plugin_path}/{file}")            
 
-    #return get_info_template()
+    return plugin_info
 
 def main():
 
