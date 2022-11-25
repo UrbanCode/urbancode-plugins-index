@@ -1,13 +1,15 @@
 import os
 import logging
 
+script_name = "uc_plugin_utilities"
+
 logging.basicConfig()
 logging.root.setLevel(logging.DEBUG)
 logging.basicConfig(format="[%(filename)s:%(lineno)s - %(funcName)20s() ] %(message)s")
 logging.basicConfig(level=logging.DEBUG)
 
 # create file handler which logs even debug messages
-fh = logging.FileHandler(f"{__name__}.log", 'w+')
+fh = logging.FileHandler(f"{script_name}.log", 'w+')
 fh.setLevel(logging.DEBUG)
 # create console handler with a higher log level
 ch = logging.StreamHandler()
@@ -17,7 +19,7 @@ lformat=logging.Formatter("[%(filename)s:%(lineno)s - %(funcName)20s() ] %(messa
 fh.setFormatter(lformat)
 ch.setFormatter(lformat)
 #logger1 = logging.getLogger(script_name)
-logger1 = logging.getLogger(__name__)
+logger1 = logging.getLogger(script_name)
 
 logger1.addHandler(fh)
 logger1.addHandler(ch)

@@ -3,6 +3,7 @@
 # Define environment variables for source repositories 
 
 export PLUGIN_DOCS_ROOT="/Users/ozzy/RnD/Source/PLUGINS/IBM-UCx-PLUGIN-DOCS.BAK"
+#export PLUGIN_DOCS_ROOT="/Users/ozzy/RnD/Source/PLUGINS/IBM-UCx-PLUGIN-DOCS"
 export PLUGIN_DOCS_FOLDER="docs"
 export PLUGIN_DOCS_FILES_FOLDER="files"
 export PLUGIN_DOCS_REPO="https://github.com/UrbanCode/IBM-UCx-PLUGIN-DOCS.git"
