@@ -1,0 +1,11 @@
+| Name | Type | Description                                                                                                          | Required |
+| ---- | ---- | -------------------------------------------------------------------------------------------------------------------- | -------- |
+
+| Name | Type | Description | Required |
+| --- | --- | --- | --- |
+
+
+dir_list=['overview.md', 'troubleshooting.md', 'usage.md', 'usage-pages', 'README.md', 'steps.md', 'downloads.md', 'media']
+
+
+-authtoken 681881a6-2ac7-4e84-9e14-5ed8cefec32f -weburl https://ucd.nbg-demo.cloud:8443 getAllApplicationProcessesForApplication -application DUMMY

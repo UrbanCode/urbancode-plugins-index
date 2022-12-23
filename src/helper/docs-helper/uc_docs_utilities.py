@@ -112,6 +112,29 @@ def get_docfile_template():
         DOCFILE_FOLDER_NAME:""
     }
 
+def get_name_from_header(mddata):
+    docfilename= "Readme"
+
+    logger1.debug(f"mddata={mddata}")
+    splitted=mddata.split("\n")
+    checkindex=0
+    logger1.debug(f"splitted[checkindex]={splitted[checkindex]}")
+    logger1.debug(f"length of splitted[checkindex]={len(splitted[checkindex].strip())}")
+
+    if len(splitted[checkindex].strip())==0: checkindex +=1
+    headerline=splitted[checkindex].replace("#", "").strip()
+    logger1.debug(f"headerline={headerline}")
+
+    splitted2=headerline.split("-")
+    logger1.debug(f"splitted2={splitted2}")
+
+    plugin_name=splitted2[0].strip()
+    logger1.debug(f"plugin_name={plugin_name}")
+    if len(splitted2) > 1: docfilename = splitted2[1].strip()
+    logger1.debug(f"docfilename={docfilename}")
+    # os.exit(1)
+    return docfilename
+
 def get_docfile_info(docfile_path, filename, docfile_folder=""):
     docfile_info=get_docfile_template()
 
@@ -119,10 +142,12 @@ def get_docfile_info(docfile_path, filename, docfile_folder=""):
     docfile_info[DOCFILE_FOLDER_NAME]=docfile_folder
 
     
-    mddata=pathlib.Path(os.path.join(docfile_path, filename)).read_text(encoding='utf-8')
+    fdata=pathlib.Path(os.path.join(docfile_path, filename)).read_text(encoding='utf-8')
     mdmeta=markdown.Markdown(extensions=['meta'])
-    mdmeta.convert(mddata)
-    logger1.info(f"mdmeta.title={mdmeta.META['title']}")
+    mdmeta.convert(fdata)
+    # as the markdownfiles do not contain metadata, we need to get them from header data
+
+    docfile_info[DOCFILE_NAME]=get_name_from_header(fdata)
     return docfile_info 
 
 def get_info(plugin_path):
