@@ -1,0 +1,743 @@
+{
+    "UCB": [],
+    "UCD": [],
+    "UCR": [],
+    "UCV": [
+        {
+            "name": "PLUGINS-NOT-FOUND",
+            "docs": "selenium-ucv",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "PLUGINS-NOT-FOUND",
+            "docs": "testcomplete-ucv",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-agility",
+            "docs": "ucv-ext-agility",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-agility",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-appscan",
+            "docs": "ucv-ext-appscan",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-appscan",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-asoc",
+            "docs": "ucv-ext-asoc",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-asoc",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-azure",
+            "docs": "ucv-ext-azure",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-azure",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-bitbucket-cloud",
+            "docs": "ucv-ext-bitbucket-cloud",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-bitbucket-cloud",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-bitbucket-server",
+            "docs": "ucv-ext-bitbucket-server",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-bitbucket-server",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-blackduck",
+            "docs": "ucv-ext-blackduck",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-blackduck",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-circleci",
+            "docs": "ucv-ext-circleci",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-circleci",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-coverage-core",
+            "docs": "ucv-ext-coverage-core",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-coverage-core",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-cucumber",
+            "docs": "ucv-ext-cucumber",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-cucumber",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-dependabot",
+            "docs": "ucv-ext-dependabot",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-dependabot",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-ewm",
+            "docs": "ucv-ext-ewm",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-ewm",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-fortify-ssc",
+            "docs": "ucv-ext-fortify-ssc",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-fortify-ssc",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-github",
+            "docs": "ucv-ext-github",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-github",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-gitlab",
+            "docs": "ucv-ext-gitlab",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-gitlab",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-handlebars-reporter",
+            "docs": "ucv-ext-handlebars-reporter",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-handlebars-reporter",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-jira",
+            "docs": "ucv-ext-jira",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-jira",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-jmeter",
+            "docs": "ucv-ext-jmeter",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-jmeter",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-junit",
+            "docs": "ucv-ext-junit",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-junit",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-leankit",
+            "docs": "ucv-ext-leankit",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-leankit",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-onetest",
+            "docs": "ucv-ext-onetest",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-onetest",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-onetest-server",
+            "docs": "ucv-ext-onetest-server",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-onetest-server",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-rally",
+            "docs": "ucv-ext-rally",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-rally",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-rtas",
+            "docs": "ucv-ext-rtas",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-rtas",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-sap-charm",
+            "docs": "ucv-ext-sap-charm",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-sap-charm",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-servicenow",
+            "docs": "ucv-ext-servicenow",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-servicenow",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-shell",
+            "docs": "ucv-ext-shell",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-shell",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-snyk",
+            "docs": "ucv-ext-snyk",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-snyk",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-sonarqube",
+            "docs": "ucv-ext-sonarqube",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-sonarqube",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-testng",
+            "docs": "ucv-ext-testng",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-testng",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-twistlock",
+            "docs": "ucv-ext-twistlock",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-twistlock",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-ucd",
+            "docs": "ucv-ext-ucd",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-ucd",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-versionone",
+            "docs": "ucv-ext-versionone",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-versionone",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-vs-quality",
+            "docs": "ucv-ext-vs-quality",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-vs-quality",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucv-ext-whitesource",
+            "docs": "ucv-ext-whitesource",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-whitesource",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "PLUGINS-NOT-FOUND",
+            "docs": "urbancode-velocity",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "CICS",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "acc-ext-generator",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "jenkins",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-bottleneck-detection",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-jenkins",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-jira-test",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-salesforce",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-sdk-template",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        }
+    ]
+}

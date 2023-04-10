@@ -1,0 +1,343 @@
+{
+    "UCB": [],
+    "UCD": [],
+    "UCR": [
+        {
+            "name": "DeployReport",
+            "docs": "DeployReport",
+            "docsURL": "",
+            "pluginFolder": "DeployReport",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "RTC",
+            "docs": "RTC",
+            "docsURL": "",
+            "pluginFolder": "RTC",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Rally",
+            "docs": "Rally",
+            "docsURL": "",
+            "pluginFolder": "Rally",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "PLUGINS-NOT-FOUND",
+            "docs": "ibm-urbancode-deploy",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "PLUGINS-NOT-FOUND",
+            "docs": "servicenow-4",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucr-jenkins-ci",
+            "docs": "ucr-jenkins-ci",
+            "docsURL": "",
+            "pluginFolder": "ucr-jenkins-ci",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucr-plugin-ansible",
+            "docs": "ucr-plugin-ansible",
+            "docsURL": "",
+            "pluginFolder": "ucr-plugin-ansible",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucr-plugin-hp-alm",
+            "docs": "ucr-plugin-hp-alm",
+            "docsURL": "",
+            "pluginFolder": "ucr-plugin-hp-alm",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucr-plugin-jira",
+            "docs": "ucr-plugin-jira",
+            "docsURL": "",
+            "pluginFolder": "ucr-plugin-jira",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucr-plugin-nolio",
+            "docs": "ucr-plugin-nolio",
+            "docsURL": "",
+            "pluginFolder": "ucr-plugin-nolio",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucr-plugin-slack",
+            "docs": "ucr-plugin-slack",
+            "docsURL": "",
+            "pluginFolder": "ucr-plugin-slack",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucr-plugin-tfs",
+            "docs": "ucr-plugin-tfs",
+            "docsURL": "",
+            "pluginFolder": "ucr-plugin-tfs",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ucr-xl-deploy",
+            "docs": "ucr-xl-deploy",
+            "docsURL": "",
+            "pluginFolder": "ucr-xl-deploy",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "jenkins-ucr-plugin",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "reporting-ucd-plugin",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "sync-ucd-plugin",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "sync-ucr-plugin",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "ucr-plugin-deploy",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "ucr-plugin-jenkins",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "ucr-plugin-servicenow",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "ucr-plugin-uccloud",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        }
+    ],
+    "UCV": []
+}

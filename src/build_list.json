@@ -1,0 +1,1095 @@
+{
+    "UCB": [
+        {
+            "name": "AccuRev",
+            "docs": "AccuRev",
+            "docsURL": "",
+            "pluginFolder": "AccuRev",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "AccuWork",
+            "docs": "AccuWork",
+            "docsURL": "",
+            "pluginFolder": "AccuWork",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Ant",
+            "docs": "Ant",
+            "docsURL": "",
+            "pluginFolder": "Ant",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Artifactory",
+            "docs": "Artifactory",
+            "docsURL": "",
+            "pluginFolder": "Artifactory",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ClearCaseBaseSnapshot",
+            "docs": "ClearCaseBaseSnapshot",
+            "docsURL": "",
+            "pluginFolder": "ClearCaseBaseSnapshot",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ClearCaseUCM",
+            "docs": "ClearCaseUCM",
+            "docsURL": "",
+            "pluginFolder": "ClearCaseUCM",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ClearQuest",
+            "docs": "ClearQuest",
+            "docsURL": "",
+            "pluginFolder": "ClearQuest",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Clover",
+            "docs": "Clover",
+            "docsURL": "",
+            "pluginFolder": "Clover",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Cobertura",
+            "docs": "Cobertura",
+            "docsURL": "",
+            "pluginFolder": "Cobertura",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "CodeStation",
+            "docs": "CodeStation",
+            "docsURL": "",
+            "pluginFolder": "CodeStation",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "CppUnit",
+            "docs": "CppUnit",
+            "docsURL": "",
+            "pluginFolder": "CppUnit",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Cucumber",
+            "docs": "Cucumber",
+            "docsURL": "",
+            "pluginFolder": "Cucumber",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Docker",
+            "docs": "Docker",
+            "docsURL": "",
+            "pluginFolder": "Docker",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "FileSystem",
+            "docs": "FileSystem",
+            "docsURL": "",
+            "pluginFolder": "FileSystem",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "FileUtils",
+            "docs": "FileUtils",
+            "docsURL": "",
+            "pluginFolder": "FileUtils",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "FindBugs",
+            "docs": "FindBugs",
+            "docsURL": "",
+            "pluginFolder": "FindBugs",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Gerrit",
+            "docs": "Gerrit",
+            "docsURL": "",
+            "pluginFolder": "Gerrit",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Git",
+            "docs": "Git",
+            "docsURL": "",
+            "pluginFolder": "Git",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Groovy",
+            "docs": "Groovy",
+            "docsURL": "",
+            "pluginFolder": "Groovy",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "HPFortify",
+            "docs": "HPFortify",
+            "docsURL": "",
+            "pluginFolder": "HPFortify",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "HPQualityCenter",
+            "docs": "HPQualityCenter",
+            "docsURL": "",
+            "pluginFolder": "HPQualityCenter",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Harvest",
+            "docs": "Harvest",
+            "docsURL": "",
+            "pluginFolder": "Harvest",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "JIRA",
+            "docs": "JIRA",
+            "docsURL": "",
+            "pluginFolder": "JIRA",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "JUnit",
+            "docs": "JUnit",
+            "docsURL": "",
+            "pluginFolder": "JUnit",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Jacoco",
+            "docs": "Jacoco",
+            "docsURL": "",
+            "pluginFolder": "Jacoco",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "MSBuild",
+            "docs": "MSBuild",
+            "docsURL": "",
+            "pluginFolder": "MSBuild",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "MSTest",
+            "docs": "MSTest",
+            "docsURL": "",
+            "pluginFolder": "MSTest",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Make",
+            "docs": "Make",
+            "docsURL": "",
+            "pluginFolder": "Make",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Maven",
+            "docs": "Maven",
+            "docsURL": "",
+            "pluginFolder": "Maven",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Mercurial",
+            "docs": "Mercurial",
+            "docsURL": "",
+            "pluginFolder": "Mercurial",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Mocha",
+            "docs": "Mocha",
+            "docsURL": "",
+            "pluginFolder": "Mocha",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "NAnt",
+            "docs": "NAnt",
+            "docsURL": "",
+            "pluginFolder": "NAnt",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "NCover",
+            "docs": "NCover",
+            "docsURL": "",
+            "pluginFolder": "NCover",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "NPM",
+            "docs": "NPM",
+            "docsURL": "",
+            "pluginFolder": "NPM",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "NUnit",
+            "docs": "NUnit",
+            "docsURL": "",
+            "pluginFolder": "NUnit",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "PMD",
+            "docs": "PMD",
+            "docsURL": "",
+            "pluginFolder": "PMD",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Perforce",
+            "docs": "Perforce",
+            "docsURL": "",
+            "pluginFolder": "Perforce",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Preflight",
+            "docs": "Preflight",
+            "docsURL": "",
+            "pluginFolder": "Preflight",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "QTP",
+            "docs": "QTP",
+            "docsURL": "",
+            "pluginFolder": "QTP",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "RTCWorkItems",
+            "docs": "RTCWorkItems",
+            "docsURL": "",
+            "pluginFolder": "RTCWorkItems",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Rake",
+            "docs": "Rake",
+            "docsURL": "",
+            "pluginFolder": "Rake",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Rally",
+            "docs": "Rally",
+            "docsURL": "",
+            "pluginFolder": "Rally",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "RationalAppScan",
+            "docs": "RationalAppScan",
+            "docsURL": "",
+            "pluginFolder": "RationalAppScan",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "RationalTeamConcert",
+            "docs": "RationalTeamConcert",
+            "docsURL": "",
+            "pluginFolder": "RationalTeamConcert",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ReportPublisher",
+            "docs": "ReportPublisher",
+            "docsURL": "",
+            "pluginFolder": "ReportPublisher",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Reporting",
+            "docs": "Reporting",
+            "docsURL": "",
+            "pluginFolder": "Reporting",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Selenium",
+            "docs": "Selenium",
+            "docsURL": "",
+            "pluginFolder": "Selenium",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Shell",
+            "docs": "Shell",
+            "docsURL": "",
+            "pluginFolder": "Shell",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Sonar",
+            "docs": "Sonar",
+            "docsURL": "",
+            "pluginFolder": "Sonar",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Sonargraph",
+            "docs": "Sonargraph",
+            "docsURL": "",
+            "pluginFolder": "Sonargraph",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Subversion",
+            "docs": "Subversion",
+            "docsURL": "",
+            "pluginFolder": "Subversion",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "TFS",
+            "docs": "TFS",
+            "docsURL": "",
+            "pluginFolder": "TFS",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "TFS-WorkItems",
+            "docs": "TFS-WorkItems",
+            "docsURL": "",
+            "pluginFolder": "TFS-WorkItems",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "UCBUtils",
+            "docs": "UCBUtils",
+            "docsURL": "",
+            "pluginFolder": "UCBUtils",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "VisualStudio",
+            "docs": "VisualStudio",
+            "docsURL": "",
+            "pluginFolder": "VisualStudio",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Xcode",
+            "docs": "Xcode",
+            "docsURL": "",
+            "pluginFolder": "Xcode",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "bluemix-deployment-risk-analytics",
+            "docs": "bluemix-deployment-risk-analytics",
+            "docsURL": "",
+            "pluginFolder": "bluemix-deployment-risk-analytics",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "checkstyle",
+            "docs": "checkstyle",
+            "docsURL": "",
+            "pluginFolder": "checkstyle",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM UrbanCode Build Gradle Plug-in",
+            "docs": "gradle-2",
+            "docsURL": "",
+            "pluginFolder": "https://github.com/UrbanCode/Gradle-UCB",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": "OSS"
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ibm-dbb",
+            "docs": "ibm-dbb",
+            "docsURL": "",
+            "pluginFolder": "ibm-dbb",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ibmucd",
+            "docs": "ibmucd",
+            "docsURL": "",
+            "pluginFolder": "ibmucd",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM UrbanCode Deploy and Build LogiGear TestArchitect Plug-in",
+            "docs": "logigear-testarchitect-2",
+            "docsURL": "",
+            "pluginFolder": "https://github.com/UrbanCode/LogiGear-TestArchitect-UCB-UCD",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": "OSS"
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "salesforce",
+            "docs": "salesforce",
+            "docsURL": "",
+            "pluginFolder": "salesforce",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "UrbanCode Velocity",
+            "docs": "urbancode-velocity",
+            "docsURL": "",
+            "pluginFolder": "UCB-Velocity",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "SonarQube",
+            "files": [],
+            "description": "OLD will not be used anymore..",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "digital-experience",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "dimensions",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "jac",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        }
+    ],
+    "UCD": [],
+    "UCR": [],
+    "UCV": []
+}
