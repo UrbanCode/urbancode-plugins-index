@@ -49,7 +49,7 @@
             }
         },
         {
-            "name": "Artifactory",
+            "name": "Artifactory for IBM UrbanCode Build",
             "docs": "Artifactory",
             "docsURL": "",
             "pluginFolder": "Artifactory",
@@ -65,7 +65,7 @@
             }
         },
         {
-            "name": "ClearCaseBaseSnapshot",
+            "name": "ClearCase Base Snapshot",
             "docs": "ClearCaseBaseSnapshot",
             "docsURL": "",
             "pluginFolder": "ClearCaseBaseSnapshot",
@@ -81,7 +81,7 @@
             }
         },
         {
-            "name": "ClearCaseUCM",
+            "name": "ClearCase UCM",
             "docs": "ClearCaseUCM",
             "docsURL": "",
             "pluginFolder": "ClearCaseUCM",
@@ -193,7 +193,7 @@
             }
         },
         {
-            "name": "Docker",
+            "name": "Docker Build",
             "docs": "Docker",
             "docsURL": "",
             "pluginFolder": "Docker",
@@ -209,7 +209,7 @@
             }
         },
         {
-            "name": "FileSystem",
+            "name": "File System for IBM UrbanCode Build",
             "docs": "FileSystem",
             "docsURL": "",
             "pluginFolder": "FileSystem",
@@ -225,7 +225,7 @@
             }
         },
         {
-            "name": "FileUtils",
+            "name": "File Utils for IBM UrbanCode Build",
             "docs": "FileUtils",
             "docsURL": "",
             "pluginFolder": "FileUtils",
@@ -273,7 +273,7 @@
             }
         },
         {
-            "name": "Git",
+            "name": "Git for IBM UrbanCode Build",
             "docs": "Git",
             "docsURL": "",
             "pluginFolder": "Git",
@@ -289,7 +289,7 @@
             }
         },
         {
-            "name": "Groovy",
+            "name": "Groovy for IBM UrbanCode Build",
             "docs": "Groovy",
             "docsURL": "",
             "pluginFolder": "Groovy",
@@ -305,7 +305,7 @@
             }
         },
         {
-            "name": "HPFortify",
+            "name": "HP Fortify",
             "docs": "HPFortify",
             "docsURL": "",
             "pluginFolder": "HPFortify",
@@ -321,7 +321,7 @@
             }
         },
         {
-            "name": "HPQualityCenter",
+            "name": "HP Quality Center",
             "docs": "HPQualityCenter",
             "docsURL": "",
             "pluginFolder": "HPQualityCenter",
@@ -337,7 +337,7 @@
             }
         },
         {
-            "name": "Harvest",
+            "name": "CA Harvest SCM",
             "docs": "Harvest",
             "docsURL": "",
             "pluginFolder": "Harvest",
@@ -353,7 +353,7 @@
             }
         },
         {
-            "name": "JIRA",
+            "name": "JIRA for IBM UrbanCode Build",
             "docs": "JIRA",
             "docsURL": "",
             "pluginFolder": "JIRA",
@@ -369,7 +369,7 @@
             }
         },
         {
-            "name": "JUnit",
+            "name": "JUnit for IBM UrbanCode Build",
             "docs": "JUnit",
             "docsURL": "",
             "pluginFolder": "JUnit",
@@ -385,7 +385,7 @@
             }
         },
         {
-            "name": "Jacoco",
+            "name": "JaCoCo",
             "docs": "Jacoco",
             "docsURL": "",
             "pluginFolder": "Jacoco",
@@ -449,7 +449,7 @@
             }
         },
         {
-            "name": "Maven",
+            "name": "Maven for IBM UrbanCode Build",
             "docs": "Maven",
             "docsURL": "",
             "pluginFolder": "Maven",
@@ -529,7 +529,7 @@
             }
         },
         {
-            "name": "NPM",
+            "name": "NPM for IBM UrbanCode Build",
             "docs": "NPM",
             "docsURL": "",
             "pluginFolder": "NPM",
@@ -625,7 +625,7 @@
             }
         },
         {
-            "name": "RTCWorkItems",
+            "name": "Rational Team Concert Work Items",
             "docs": "RTCWorkItems",
             "docsURL": "",
             "pluginFolder": "RTCWorkItems",
@@ -657,7 +657,7 @@
             }
         },
         {
-            "name": "Rally",
+            "name": "Rally for IBM UrbanCode Build",
             "docs": "Rally",
             "docsURL": "",
             "pluginFolder": "Rally",
@@ -673,7 +673,7 @@
             }
         },
         {
-            "name": "RationalAppScan",
+            "name": "IBM Security AppScan Source",
             "docs": "RationalAppScan",
             "docsURL": "",
             "pluginFolder": "RationalAppScan",
@@ -689,7 +689,7 @@
             }
         },
         {
-            "name": "RationalTeamConcert",
+            "name": "Rational Team Concert SCM",
             "docs": "RationalTeamConcert",
             "docsURL": "",
             "pluginFolder": "RationalTeamConcert",
@@ -705,7 +705,7 @@
             }
         },
         {
-            "name": "ReportPublisher",
+            "name": "Report Publisher",
             "docs": "ReportPublisher",
             "docsURL": "",
             "pluginFolder": "ReportPublisher",
@@ -737,7 +737,7 @@
             }
         },
         {
-            "name": "Selenium",
+            "name": "Selenium for IBM UrbanCode Build",
             "docs": "Selenium",
             "docsURL": "",
             "pluginFolder": "Selenium",
@@ -753,7 +753,7 @@
             }
         },
         {
-            "name": "Shell",
+            "name": "Shell for IBM UrbanCode Build",
             "docs": "Shell",
             "docsURL": "",
             "pluginFolder": "Shell",
@@ -769,7 +769,7 @@
             }
         },
         {
-            "name": "Sonar",
+            "name": "SonarQube (formerly Sonar)",
             "docs": "Sonar",
             "docsURL": "",
             "pluginFolder": "Sonar",
@@ -801,7 +801,7 @@
             }
         },
         {
-            "name": "Subversion",
+            "name": "Subversion for IBM UrbanCode Build",
             "docs": "Subversion",
             "docsURL": "",
             "pluginFolder": "Subversion",
@@ -817,7 +817,7 @@
             }
         },
         {
-            "name": "TFS",
+            "name": "Team Foundation Server",
             "docs": "TFS",
             "docsURL": "",
             "pluginFolder": "TFS",
@@ -833,7 +833,7 @@
             }
         },
         {
-            "name": "TFS-WorkItems",
+            "name": "TFS Work Items",
             "docs": "TFS-WorkItems",
             "docsURL": "",
             "pluginFolder": "TFS-WorkItems",
@@ -849,7 +849,7 @@
             }
         },
         {
-            "name": "UCBUtils",
+            "name": "UCB Utilities",
             "docs": "UCBUtils",
             "docsURL": "",
             "pluginFolder": "UCBUtils",
@@ -865,7 +865,7 @@
             }
         },
         {
-            "name": "VisualStudio",
+            "name": "Visual Studio",
             "docs": "VisualStudio",
             "docsURL": "",
             "pluginFolder": "VisualStudio",
@@ -897,7 +897,7 @@
             }
         },
         {
-            "name": "bluemix-deployment-risk-analytics",
+            "name": "DevOps Insights - Deployment Risk Analytics (DRA)",
             "docs": "bluemix-deployment-risk-analytics",
             "docsURL": "",
             "pluginFolder": "bluemix-deployment-risk-analytics",
@@ -913,7 +913,7 @@
             }
         },
         {
-            "name": "checkstyle",
+            "name": "Checkstyle",
             "docs": "checkstyle",
             "docsURL": "",
             "pluginFolder": "checkstyle",
@@ -929,7 +929,7 @@
             }
         },
         {
-            "name": "IBM UrbanCode Build Gradle Plug-in",
+            "name": "Gradle for IBM UrbanCode Build",
             "docs": "gradle-2",
             "docsURL": "",
             "pluginFolder": "https://github.com/UrbanCode/Gradle-UCB",
@@ -945,7 +945,7 @@
             }
         },
         {
-            "name": "ibm-dbb",
+            "name": "IBM Dependency Based Build",
             "docs": "ibm-dbb",
             "docsURL": "",
             "pluginFolder": "ibm-dbb",
@@ -961,7 +961,7 @@
             }
         },
         {
-            "name": "ibmucd",
+            "name": "IBM UrbanCode Deploy for IBM UrbanCode Build",
             "docs": "ibmucd",
             "docsURL": "",
             "pluginFolder": "ibmucd",
@@ -977,7 +977,7 @@
             }
         },
         {
-            "name": "IBM UrbanCode Deploy and Build LogiGear TestArchitect Plug-in",
+            "name": "LogiGear TestArchitect for IBM UrbanCode Build",
             "docs": "logigear-testarchitect-2",
             "docsURL": "",
             "pluginFolder": "https://github.com/UrbanCode/LogiGear-TestArchitect-UCB-UCD",
@@ -993,7 +993,7 @@
             }
         },
         {
-            "name": "salesforce",
+            "name": "Salesforce",
             "docs": "salesforce",
             "docsURL": "",
             "pluginFolder": "salesforce",

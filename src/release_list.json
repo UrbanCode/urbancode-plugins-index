@@ -3,7 +3,7 @@
     "UCD": [],
     "UCR": [
         {
-            "name": "DeployReport",
+            "name": "Deployment Reports",
             "docs": "DeployReport",
             "docsURL": "",
             "pluginFolder": "DeployReport",
@@ -19,7 +19,7 @@
             }
         },
         {
-            "name": "RTC",
+            "name": "Rational Team Concert v6",
             "docs": "RTC",
             "docsURL": "",
             "pluginFolder": "RTC",
@@ -51,7 +51,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "IBM UrbanCode Deploy",
             "docs": "ibm-urbancode-deploy",
             "docsURL": "",
             "pluginFolder": "",
@@ -67,7 +67,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "ServiceNow",
             "docs": "servicenow-4",
             "docsURL": "",
             "pluginFolder": "",
@@ -83,7 +83,7 @@
             }
         },
         {
-            "name": "ucr-jenkins-ci",
+            "name": "Jenkins for IBM UrbanCode Release",
             "docs": "ucr-jenkins-ci",
             "docsURL": "",
             "pluginFolder": "ucr-jenkins-ci",
@@ -99,7 +99,7 @@
             }
         },
         {
-            "name": "ucr-plugin-ansible",
+            "name": "Ansible Tower",
             "docs": "ucr-plugin-ansible",
             "docsURL": "",
             "pluginFolder": "ucr-plugin-ansible",
@@ -115,7 +115,7 @@
             }
         },
         {
-            "name": "ucr-plugin-hp-alm",
+            "name": "HP Quality Center (ALM)",
             "docs": "ucr-plugin-hp-alm",
             "docsURL": "",
             "pluginFolder": "ucr-plugin-hp-alm",
@@ -131,7 +131,7 @@
             }
         },
         {
-            "name": "ucr-plugin-jira",
+            "name": "Jira for IBM UrbanCode Release",
             "docs": "ucr-plugin-jira",
             "docsURL": "",
             "pluginFolder": "ucr-plugin-jira",
@@ -147,7 +147,7 @@
             }
         },
         {
-            "name": "ucr-plugin-nolio",
+            "name": "CA Nolio",
             "docs": "ucr-plugin-nolio",
             "docsURL": "",
             "pluginFolder": "ucr-plugin-nolio",
@@ -163,7 +163,7 @@
             }
         },
         {
-            "name": "ucr-plugin-slack",
+            "name": "Slack for IBM UrbanCode Release",
             "docs": "ucr-plugin-slack",
             "docsURL": "",
             "pluginFolder": "ucr-plugin-slack",
@@ -179,7 +179,7 @@
             }
         },
         {
-            "name": "ucr-plugin-tfs",
+            "name": "Microsoft Team Foundation Server (TFS)",
             "docs": "ucr-plugin-tfs",
             "docsURL": "",
             "pluginFolder": "ucr-plugin-tfs",
@@ -195,7 +195,7 @@
             }
         },
         {
-            "name": "ucr-xl-deploy",
+            "name": "XL Deploy",
             "docs": "ucr-xl-deploy",
             "docsURL": "",
             "pluginFolder": "ucr-xl-deploy",

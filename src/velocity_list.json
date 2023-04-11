@@ -4,7 +4,7 @@
     "UCR": [],
     "UCV": [
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "Selenium",
             "docs": "selenium-ucv",
             "docsURL": "",
             "pluginFolder": "",
@@ -20,7 +20,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "TestComplete",
             "docs": "testcomplete-ucv",
             "docsURL": "",
             "pluginFolder": "",
@@ -36,7 +36,7 @@
             }
         },
         {
-            "name": "ucv-ext-agility",
+            "name": "Digital.ai Agility",
             "docs": "ucv-ext-agility",
             "docsURL": "",
             "pluginFolder": "ucv-ext-agility",
@@ -52,7 +52,7 @@
             }
         },
         {
-            "name": "ucv-ext-appscan",
+            "name": "HCL AppScan Enterprise (ASE)",
             "docs": "ucv-ext-appscan",
             "docsURL": "",
             "pluginFolder": "ucv-ext-appscan",
@@ -68,7 +68,7 @@
             }
         },
         {
-            "name": "ucv-ext-asoc",
+            "name": "HCL AppScan on Cloud (ASoC)",
             "docs": "ucv-ext-asoc",
             "docsURL": "",
             "pluginFolder": "ucv-ext-asoc",
@@ -84,7 +84,7 @@
             }
         },
         {
-            "name": "ucv-ext-azure",
+            "name": "Azure DevOps",
             "docs": "ucv-ext-azure",
             "docsURL": "",
             "pluginFolder": "ucv-ext-azure",
@@ -100,7 +100,7 @@
             }
         },
         {
-            "name": "ucv-ext-bitbucket-cloud",
+            "name": "BitBucket Cloud",
             "docs": "ucv-ext-bitbucket-cloud",
             "docsURL": "",
             "pluginFolder": "ucv-ext-bitbucket-cloud",
@@ -116,7 +116,7 @@
             }
         },
         {
-            "name": "ucv-ext-bitbucket-server",
+            "name": "BitBucket Server",
             "docs": "ucv-ext-bitbucket-server",
             "docsURL": "",
             "pluginFolder": "ucv-ext-bitbucket-server",
@@ -132,7 +132,7 @@
             }
         },
         {
-            "name": "ucv-ext-blackduck",
+            "name": "Black Duck",
             "docs": "ucv-ext-blackduck",
             "docsURL": "",
             "pluginFolder": "ucv-ext-blackduck",
@@ -148,7 +148,7 @@
             }
         },
         {
-            "name": "ucv-ext-circleci",
+            "name": "CircleCI",
             "docs": "ucv-ext-circleci",
             "docsURL": "",
             "pluginFolder": "ucv-ext-circleci",
@@ -164,7 +164,7 @@
             }
         },
         {
-            "name": "ucv-ext-coverage-core",
+            "name": "Code Coverage",
             "docs": "ucv-ext-coverage-core",
             "docsURL": "",
             "pluginFolder": "ucv-ext-coverage-core",
@@ -180,7 +180,7 @@
             }
         },
         {
-            "name": "ucv-ext-cucumber",
+            "name": "Cucumber",
             "docs": "ucv-ext-cucumber",
             "docsURL": "",
             "pluginFolder": "ucv-ext-cucumber",
@@ -196,7 +196,7 @@
             }
         },
         {
-            "name": "ucv-ext-dependabot",
+            "name": "GitHub Dependabot",
             "docs": "ucv-ext-dependabot",
             "docsURL": "",
             "pluginFolder": "ucv-ext-dependabot",
@@ -212,7 +212,7 @@
             }
         },
         {
-            "name": "ucv-ext-ewm",
+            "name": "IBM Engineering Workflow Management (EWM)",
             "docs": "ucv-ext-ewm",
             "docsURL": "",
             "pluginFolder": "ucv-ext-ewm",
@@ -228,7 +228,7 @@
             }
         },
         {
-            "name": "ucv-ext-fortify-ssc",
+            "name": "Fortify SSC",
             "docs": "ucv-ext-fortify-ssc",
             "docsURL": "",
             "pluginFolder": "ucv-ext-fortify-ssc",
@@ -244,7 +244,7 @@
             }
         },
         {
-            "name": "ucv-ext-github",
+            "name": "GitHub",
             "docs": "ucv-ext-github",
             "docsURL": "",
             "pluginFolder": "ucv-ext-github",
@@ -260,7 +260,7 @@
             }
         },
         {
-            "name": "ucv-ext-gitlab",
+            "name": "GitLab",
             "docs": "ucv-ext-gitlab",
             "docsURL": "",
             "pluginFolder": "ucv-ext-gitlab",
@@ -276,7 +276,7 @@
             }
         },
         {
-            "name": "ucv-ext-handlebars-reporter",
+            "name": "Handlebar Reporter",
             "docs": "ucv-ext-handlebars-reporter",
             "docsURL": "",
             "pluginFolder": "ucv-ext-handlebars-reporter",
@@ -292,7 +292,7 @@
             }
         },
         {
-            "name": "ucv-ext-jira",
+            "name": "Jira",
             "docs": "ucv-ext-jira",
             "docsURL": "",
             "pluginFolder": "ucv-ext-jira",
@@ -308,7 +308,7 @@
             }
         },
         {
-            "name": "ucv-ext-jmeter",
+            "name": "Apache JMeter",
             "docs": "ucv-ext-jmeter",
             "docsURL": "",
             "pluginFolder": "ucv-ext-jmeter",
@@ -324,7 +324,7 @@
             }
         },
         {
-            "name": "ucv-ext-junit",
+            "name": "JUnit",
             "docs": "ucv-ext-junit",
             "docsURL": "",
             "pluginFolder": "ucv-ext-junit",
@@ -340,7 +340,7 @@
             }
         },
         {
-            "name": "ucv-ext-leankit",
+            "name": "Planview Leankit",
             "docs": "ucv-ext-leankit",
             "docsURL": "",
             "pluginFolder": "ucv-ext-leankit",
@@ -356,7 +356,7 @@
             }
         },
         {
-            "name": "ucv-ext-onetest",
+            "name": "HCL OneTest",
             "docs": "ucv-ext-onetest",
             "docsURL": "",
             "pluginFolder": "ucv-ext-onetest",
@@ -372,7 +372,7 @@
             }
         },
         {
-            "name": "ucv-ext-onetest-server",
+            "name": "HCL OneTest Server",
             "docs": "ucv-ext-onetest-server",
             "docsURL": "",
             "pluginFolder": "ucv-ext-onetest-server",
@@ -388,7 +388,7 @@
             }
         },
         {
-            "name": "ucv-ext-rally",
+            "name": "Rally",
             "docs": "ucv-ext-rally",
             "docsURL": "",
             "pluginFolder": "ucv-ext-rally",
@@ -404,7 +404,7 @@
             }
         },
         {
-            "name": "ucv-ext-rtas",
+            "name": "Rational Test Automation Server",
             "docs": "ucv-ext-rtas",
             "docsURL": "",
             "pluginFolder": "ucv-ext-rtas",
@@ -420,7 +420,7 @@
             }
         },
         {
-            "name": "ucv-ext-sap-charm",
+            "name": "SAP ChaRM",
             "docs": "ucv-ext-sap-charm",
             "docsURL": "",
             "pluginFolder": "ucv-ext-sap-charm",
@@ -436,7 +436,7 @@
             }
         },
         {
-            "name": "ucv-ext-servicenow",
+            "name": "ServiceNow",
             "docs": "ucv-ext-servicenow",
             "docsURL": "",
             "pluginFolder": "ucv-ext-servicenow",
@@ -452,7 +452,7 @@
             }
         },
         {
-            "name": "ucv-ext-shell",
+            "name": "Shell",
             "docs": "ucv-ext-shell",
             "docsURL": "",
             "pluginFolder": "ucv-ext-shell",
@@ -468,7 +468,7 @@
             }
         },
         {
-            "name": "ucv-ext-snyk",
+            "name": "Snyk",
             "docs": "ucv-ext-snyk",
             "docsURL": "",
             "pluginFolder": "ucv-ext-snyk",
@@ -484,7 +484,7 @@
             }
         },
         {
-            "name": "ucv-ext-sonarqube",
+            "name": "SonarQube",
             "docs": "ucv-ext-sonarqube",
             "docsURL": "",
             "pluginFolder": "ucv-ext-sonarqube",
@@ -500,7 +500,7 @@
             }
         },
         {
-            "name": "ucv-ext-testng",
+            "name": "TestNG",
             "docs": "ucv-ext-testng",
             "docsURL": "",
             "pluginFolder": "ucv-ext-testng",
@@ -516,7 +516,7 @@
             }
         },
         {
-            "name": "ucv-ext-twistlock",
+            "name": "Twistlock",
             "docs": "ucv-ext-twistlock",
             "docsURL": "",
             "pluginFolder": "ucv-ext-twistlock",
@@ -532,7 +532,7 @@
             }
         },
         {
-            "name": "ucv-ext-ucd",
+            "name": "Urbancode Deploy",
             "docs": "ucv-ext-ucd",
             "docsURL": "",
             "pluginFolder": "ucv-ext-ucd",
@@ -548,7 +548,7 @@
             }
         },
         {
-            "name": "ucv-ext-versionone",
+            "name": "CollabNet VersionOne",
             "docs": "ucv-ext-versionone",
             "docsURL": "",
             "pluginFolder": "ucv-ext-versionone",
@@ -564,7 +564,7 @@
             }
         },
         {
-            "name": "ucv-ext-vs-quality",
+            "name": "Microsoft Visual Studio Testing",
             "docs": "ucv-ext-vs-quality",
             "docsURL": "",
             "pluginFolder": "ucv-ext-vs-quality",
@@ -580,7 +580,7 @@
             }
         },
         {
-            "name": "ucv-ext-whitesource",
+            "name": "WhiteSource",
             "docs": "ucv-ext-whitesource",
             "docsURL": "",
             "pluginFolder": "ucv-ext-whitesource",
@@ -596,7 +596,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "Jenkins For Urbancode Velocity",
             "docs": "urbancode-velocity",
             "docsURL": "",
             "pluginFolder": "",

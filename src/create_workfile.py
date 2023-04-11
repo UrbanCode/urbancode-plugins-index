@@ -89,10 +89,10 @@ def get_workfile(config):
 
 
     adict = {
-            "UCB":get_list_of_all_names(UCB_Docs, UCB_Files),
-            "UCD":"", # "UCD":get_list_of_all_names(UCD_Docs, UCD_Files),
-            "UCR":"", # "UCR":get_list_of_all_names(UCR_Docs, UCR_Files),
-            "UCV":"" # "UCV":get_list_of_all_names(UCV_Docs, UCV_Files)
+            "UCB" : get_list_of_all_names(UCB_Docs, UCB_Files),
+            "UCD" : get_list_of_all_names(UCD_Docs, UCD_Files),
+            "UCR" : get_list_of_all_names(UCR_Docs, UCR_Files),
+            "UCV" : get_list_of_all_names(UCV_Docs, UCV_Files)
             }
 
 

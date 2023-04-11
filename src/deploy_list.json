@@ -2,7 +2,7 @@
     "UCB": [],
     "UCD": [
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "7-Zip",
             "docs": "7-zip",
             "docsURL": "",
             "pluginFolder": "",
@@ -18,7 +18,7 @@
             }
         },
         {
-            "name": "ASOC",
+            "name": "HCL ASoC plug-in for UCD",
             "docs": "ASOC",
             "docsURL": "",
             "pluginFolder": "ASOC",
@@ -34,7 +34,7 @@
             }
         },
         {
-            "name": "AccuRevSourceConfig",
+            "name": "AccuRev SCM",
             "docs": "AccuRevSourceConfig",
             "docsURL": "",
             "pluginFolder": "AccuRevSourceConfig",
@@ -50,7 +50,7 @@
             }
         },
         {
-            "name": "AgentScript",
+            "name": "IBM UrbanCode Deploy Agent Package for Dynamic Cloud Environments",
             "docs": "AgentScript",
             "docsURL": "",
             "pluginFolder": "AgentScript",
@@ -66,7 +66,7 @@
             }
         },
         {
-            "name": "AmazonEC2",
+            "name": "Amazon EC2",
             "docs": "AmazonEC2",
             "docsURL": "",
             "pluginFolder": "AmazonEC2",
@@ -82,7 +82,7 @@
             }
         },
         {
-            "name": "Ant",
+            "name": "Apache Ant",
             "docs": "Ant",
             "docsURL": "",
             "pluginFolder": "Ant",
@@ -98,7 +98,7 @@
             }
         },
         {
-            "name": "Apache",
+            "name": "Apache HTTP Server",
             "docs": "Apache",
             "docsURL": "",
             "pluginFolder": "Apache",
@@ -130,7 +130,7 @@
             }
         },
         {
-            "name": "ArtifactorySourceConfig",
+            "name": "Artifactory Source Config",
             "docs": "ArtifactorySourceConfig",
             "docsURL": "",
             "pluginFolder": "ArtifactorySourceConfig",
@@ -162,7 +162,7 @@
             }
         },
         {
-            "name": "AzureDevopsSourceconfig",
+            "name": "Azure DevOps",
             "docs": "AzureDevopsSourceconfig",
             "docsURL": "",
             "pluginFolder": "AzureDevopsSourceconfig",
@@ -178,7 +178,7 @@
             }
         },
         {
-            "name": "BizTalk",
+            "name": "Microsoft BizTalk",
             "docs": "BizTalk",
             "docsURL": "",
             "pluginFolder": "BizTalk",
@@ -194,7 +194,7 @@
             }
         },
         {
-            "name": "CICS",
+            "name": "CICS TS",
             "docs": "CICS",
             "docsURL": "",
             "pluginFolder": "CICS",
@@ -210,7 +210,7 @@
             }
         },
         {
-            "name": "CICS-CM",
+            "name": "CICS CM (Beta)",
             "docs": "CICS-CM",
             "docsURL": "",
             "pluginFolder": "CICS-CM",
@@ -242,7 +242,7 @@
             }
         },
         {
-            "name": "ClearCaseSourceConfig",
+            "name": "IBM Rational ClearCase",
             "docs": "ClearCaseSourceConfig",
             "docsURL": "",
             "pluginFolder": "ClearCaseSourceConfig",
@@ -258,7 +258,7 @@
             }
         },
         {
-            "name": "Cognos",
+            "name": "IBM Cognos",
             "docs": "Cognos",
             "docsURL": "",
             "pluginFolder": "Cognos",
@@ -274,7 +274,7 @@
             }
         },
         {
-            "name": "DBUpgrader",
+            "name": "IBM UrbanCode DBUpgrader",
             "docs": "DBUpgrader",
             "docsURL": "",
             "pluginFolder": "DBUpgrader",
@@ -290,7 +290,7 @@
             }
         },
         {
-            "name": "DeployTools",
+            "name": "IBM UrbanCode Deploy Tools",
             "docs": "DeployTools",
             "docsURL": "",
             "pluginFolder": "DeployTools",
@@ -306,7 +306,7 @@
             }
         },
         {
-            "name": "DimensionsSourceConfig",
+            "name": "Dimensions",
             "docs": "DimensionsSourceConfig",
             "docsURL": "",
             "pluginFolder": "DimensionsSourceConfig",
@@ -322,7 +322,7 @@
             }
         },
         {
-            "name": "DockerSourceConfig",
+            "name": "Docker Registry",
             "docs": "DockerSourceConfig",
             "docsURL": "",
             "pluginFolder": "DockerSourceConfig",
@@ -338,7 +338,7 @@
             }
         },
         {
-            "name": "F5",
+            "name": "F5 BIG-IP",
             "docs": "F5",
             "docsURL": "",
             "pluginFolder": "F5",
@@ -354,7 +354,7 @@
             }
         },
         {
-            "name": "FileNet-CaseManager",
+            "name": "FileNet - IBM Case Manager",
             "docs": "FileNet-CaseManager",
             "docsURL": "",
             "pluginFolder": "FileNet-CaseManager",
@@ -370,7 +370,7 @@
             }
         },
         {
-            "name": "FileSystemSourceConfig",
+            "name": "File System",
             "docs": "FileSystemSourceConfig",
             "docsURL": "",
             "pluginFolder": "FileSystemSourceConfig",
@@ -386,7 +386,7 @@
             }
         },
         {
-            "name": "FileSystemVersionedSourceConfig",
+            "name": "File System (Versioned)",
             "docs": "FileSystemVersionedSourceConfig",
             "docsURL": "",
             "pluginFolder": "FileSystemVersionedSourceConfig",
@@ -402,7 +402,7 @@
             }
         },
         {
-            "name": "FileUtils",
+            "name": "File Utils",
             "docs": "FileUtils",
             "docsURL": "",
             "pluginFolder": "FileUtils",
@@ -418,7 +418,7 @@
             }
         },
         {
-            "name": "GitSourceConfig",
+            "name": "Git",
             "docs": "GitSourceConfig",
             "docsURL": "",
             "pluginFolder": "GitSourceConfig",
@@ -450,7 +450,7 @@
             }
         },
         {
-            "name": "HCLOneTestAPI",
+            "name": "HCL OneTest API",
             "docs": "HCLOneTestAPI",
             "docsURL": "",
             "pluginFolder": "HCLOneTestAPI",
@@ -466,7 +466,7 @@
             }
         },
         {
-            "name": "HCLOneTestPerf",
+            "name": "HCL OneTest Performance",
             "docs": "HCLOneTestPerf",
             "docsURL": "",
             "pluginFolder": "HCLOneTestPerf",
@@ -482,7 +482,7 @@
             }
         },
         {
-            "name": "HCLOneTestUI",
+            "name": "HCL OneTest UI",
             "docs": "HCLOneTestUI",
             "docsURL": "",
             "pluginFolder": "HCLOneTestUI",
@@ -498,7 +498,7 @@
             }
         },
         {
-            "name": "HCLOneTestVirtualization",
+            "name": "HCL OneTest Virtualization",
             "docs": "HCLOneTestVirtualization",
             "docsURL": "",
             "pluginFolder": "HCLOneTestVirtualization",
@@ -514,7 +514,7 @@
             }
         },
         {
-            "name": "HCLOneTestWebUI",
+            "name": "HCL OneTest WebUI",
             "docs": "HCLOneTestWebUI",
             "docsURL": "",
             "pluginFolder": "HCLOneTestWebUI",
@@ -530,7 +530,7 @@
             }
         },
         {
-            "name": "HPQualityCenter",
+            "name": "MicroFocus ALM (formerly HP Quality Center)",
             "docs": "HPQualityCenter",
             "docsURL": "",
             "pluginFolder": "HPQualityCenter",
@@ -546,7 +546,7 @@
             }
         },
         {
-            "name": "IIS-AdminScripts",
+            "name": "Microsoft IIS AdminScripts",
             "docs": "IIS-AdminScripts",
             "docsURL": "",
             "pluginFolder": "IIS-AdminScripts",
@@ -562,7 +562,7 @@
             }
         },
         {
-            "name": "IIS-AppCmd",
+            "name": "Microsoft IIS AppCmd",
             "docs": "IIS-AppCmd",
             "docsURL": "",
             "pluginFolder": "IIS-AppCmd",
@@ -578,7 +578,7 @@
             }
         },
         {
-            "name": "IIS-MSDeploy",
+            "name": "Microsoft IIS MS-Deploy (Azure App Service)",
             "docs": "IIS-MSDeploy",
             "docsURL": "",
             "pluginFolder": "IIS-MSDeploy",
@@ -594,7 +594,7 @@
             }
         },
         {
-            "name": "IMSz",
+            "name": "IBM IMS",
             "docs": "IMSz",
             "docsURL": "",
             "pluginFolder": "IMSz",
@@ -610,7 +610,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "Informatica",
             "docs": "Informatica",
             "docsURL": "",
             "pluginFolder": "",
@@ -626,7 +626,7 @@
             }
         },
         {
-            "name": "JBoss",
+            "name": "JBoss Application Server",
             "docs": "JBoss",
             "docsURL": "",
             "pluginFolder": "JBoss",
@@ -642,7 +642,7 @@
             }
         },
         {
-            "name": "JIRA",
+            "name": "JIRA for IBM UrbanCode Deploy",
             "docs": "JIRA",
             "docsURL": "",
             "pluginFolder": "JIRA",
@@ -658,7 +658,7 @@
             }
         },
         {
-            "name": "LinuxSystemTools",
+            "name": "Linux System Tools",
             "docs": "LinuxSystemTools",
             "docsURL": "",
             "pluginFolder": "LinuxSystemTools",
@@ -674,7 +674,7 @@
             }
         },
         {
-            "name": "MFPFC",
+            "name": "IBM MobileFirst Platform Foundation on IBM Containers",
             "docs": "MFPFC",
             "docsURL": "",
             "pluginFolder": "MFPFC",
@@ -690,7 +690,7 @@
             }
         },
         {
-            "name": "MSI",
+            "name": "Microsoft Software Installer (MSI)",
             "docs": "MSI",
             "docsURL": "",
             "pluginFolder": "MSI",
@@ -706,7 +706,7 @@
             }
         },
         {
-            "name": "Maven",
+            "name": "Maven Resolve",
             "docs": "Maven",
             "docsURL": "",
             "pluginFolder": "Maven",
@@ -722,7 +722,7 @@
             }
         },
         {
-            "name": "MavenSourceConfig",
+            "name": "Maven",
             "docs": "MavenSourceConfig",
             "docsURL": "",
             "pluginFolder": "MavenSourceConfig",
@@ -738,7 +738,7 @@
             }
         },
         {
-            "name": "MicrosoftSSIS",
+            "name": "Microsoft SSIS",
             "docs": "MicrosoftSSIS",
             "docsURL": "",
             "pluginFolder": "MicrosoftSSIS",
@@ -754,7 +754,7 @@
             }
         },
         {
-            "name": "Netscaler",
+            "name": "Citrix NetScaler",
             "docs": "Netscaler",
             "docsURL": "",
             "pluginFolder": "Netscaler",
@@ -770,7 +770,7 @@
             }
         },
         {
-            "name": "OpenShiftSourceConfig",
+            "name": "OpenShift",
             "docs": "OpenShiftSourceConfig",
             "docsURL": "",
             "pluginFolder": "OpenShiftSourceConfig",
@@ -786,7 +786,7 @@
             }
         },
         {
-            "name": "PHPCLI",
+            "name": "IBM UrbanCode PHP CLI Tool",
             "docs": "PHPCLI",
             "docsURL": "",
             "pluginFolder": "PHPCLI",
@@ -802,7 +802,7 @@
             }
         },
         {
-            "name": "PerforceSourceConfig",
+            "name": "Perforce Helix",
             "docs": "PerforceSourceConfig",
             "docsURL": "",
             "pluginFolder": "PerforceSourceConfig",
@@ -818,7 +818,7 @@
             }
         },
         {
-            "name": "PvcsSourceConfig",
+            "name": "PVCS",
             "docs": "PvcsSourceConfig",
             "docsURL": "",
             "pluginFolder": "PvcsSourceConfig",
@@ -834,7 +834,7 @@
             }
         },
         {
-            "name": "QTP",
+            "name": "HP Unified Functional Testing (QTP)",
             "docs": "QTP",
             "docsURL": "",
             "pluginFolder": "QTP",
@@ -850,7 +850,7 @@
             }
         },
         {
-            "name": "RAM",
+            "name": "IBM Rational Asset Manager",
             "docs": "RAM",
             "docsURL": "",
             "pluginFolder": "RAM",
@@ -866,7 +866,7 @@
             }
         },
         {
-            "name": "RAMSourceConfig",
+            "name": "IBM Rational Asset Manager for IBM UrbanCode Deploy",
             "docs": "RAMSourceConfig",
             "docsURL": "",
             "pluginFolder": "RAMSourceConfig",
@@ -882,7 +882,7 @@
             }
         },
         {
-            "name": "RFT-UCD",
+            "name": "IBM Rational Functional Tester (RFT)",
             "docs": "RFT-UCD",
             "docsURL": "",
             "pluginFolder": "RFT-UCD",
@@ -898,7 +898,7 @@
             }
         },
         {
-            "name": "RFT-WebUI-UCD",
+            "name": "IBM Rational Test Workbench Web UI Tester",
             "docs": "RFT-WebUI-UCD",
             "docsURL": "",
             "pluginFolder": "RFT-WebUI-UCD",
@@ -914,7 +914,7 @@
             }
         },
         {
-            "name": "RIT-UCD",
+            "name": "IBM Rational Integration Tester (RIT)",
             "docs": "RIT-UCD",
             "docsURL": "",
             "pluginFolder": "RIT-UCD",
@@ -946,7 +946,7 @@
             }
         },
         {
-            "name": "RPT-UCD",
+            "name": "IBM Rational Performance Tester (RPT)",
             "docs": "RPT-UCD",
             "docsURL": "",
             "pluginFolder": "RPT-UCD",
@@ -962,7 +962,7 @@
             }
         },
         {
-            "name": "RTAS-UCD",
+            "name": "IBM Rational Test Automation Server (RTAS)",
             "docs": "RTAS-UCD",
             "docsURL": "",
             "pluginFolder": "RTAS-UCD",
@@ -978,7 +978,7 @@
             }
         },
         {
-            "name": "RTVS-UCD",
+            "name": "IBM Rational Test Virtualization Server (RTVS)",
             "docs": "RTVS-UCD",
             "docsURL": "",
             "pluginFolder": "RTVS-UCD",
@@ -994,7 +994,7 @@
             }
         },
         {
-            "name": "Rally",
+            "name": "Rally for IBM UrbanCode Deploy",
             "docs": "Rally",
             "docsURL": "",
             "pluginFolder": "Rally",
@@ -1010,7 +1010,7 @@
             }
         },
         {
-            "name": "Remedy",
+            "name": "BMC Remedy Action Request System",
             "docs": "Remedy",
             "docsURL": "",
             "pluginFolder": "Remedy",
@@ -1026,7 +1026,7 @@
             }
         },
         {
-            "name": "SAP-CTS",
+            "name": "SAP Change and Transport System (CTS)",
             "docs": "SAP-CTS",
             "docsURL": "",
             "pluginFolder": "SAP-CTS",
@@ -1058,7 +1058,7 @@
             }
         },
         {
-            "name": "SQLCmd",
+            "name": "Microsoft SQL Server SQLCmd",
             "docs": "SQLCmd",
             "docsURL": "",
             "pluginFolder": "SQLCmd",
@@ -1074,7 +1074,7 @@
             }
         },
         {
-            "name": "SQLPlus",
+            "name": "Oracle SQLPlus",
             "docs": "SQLPlus",
             "docsURL": "",
             "pluginFolder": "SQLPlus",
@@ -1106,7 +1106,7 @@
             }
         },
         {
-            "name": "ServiceControlManager",
+            "name": "Microsoft Windows Services",
             "docs": "ServiceControlManager",
             "docsURL": "",
             "pluginFolder": "ServiceControlManager",
@@ -1138,7 +1138,7 @@
             }
         },
         {
-            "name": "Sharepoint",
+            "name": "Microsoft SharePoint",
             "docs": "Sharepoint",
             "docsURL": "",
             "pluginFolder": "Sharepoint",
@@ -1170,7 +1170,7 @@
             }
         },
         {
-            "name": "Subversion-export",
+            "name": "Subversion-Export",
             "docs": "Subversion-export",
             "docsURL": "",
             "pluginFolder": "Subversion-export",
@@ -1186,7 +1186,7 @@
             }
         },
         {
-            "name": "SubversionSourceConfig",
+            "name": "Subversion",
             "docs": "SubversionSourceConfig",
             "docsURL": "",
             "pluginFolder": "SubversionSourceConfig",
@@ -1202,7 +1202,7 @@
             }
         },
         {
-            "name": "SystemInformation",
+            "name": "System Information",
             "docs": "SystemInformation",
             "docsURL": "",
             "pluginFolder": "SystemInformation",
@@ -1218,7 +1218,7 @@
             }
         },
         {
-            "name": "TFS-SourceConfig",
+            "name": "Microsoft TFS (Team Foundation Server)",
             "docs": "TFS-SourceConfig",
             "docsURL": "",
             "pluginFolder": "TFS-SourceConfig",
@@ -1234,7 +1234,7 @@
             }
         },
         {
-            "name": "TFS_SCM-SourceConfig",
+            "name": "Microsoft TFS_SCM (Team Foundation Server)",
             "docs": "TFS_SCM-SourceConfig",
             "docsURL": "",
             "pluginFolder": "TFS_SCM-SourceConfig",
@@ -1250,7 +1250,7 @@
             }
         },
         {
-            "name": "TeamCitySourceConfig",
+            "name": "TeamCity",
             "docs": "TeamCitySourceConfig",
             "docsURL": "",
             "pluginFolder": "TeamCitySourceConfig",
@@ -1266,7 +1266,7 @@
             }
         },
         {
-            "name": "Tomcat",
+            "name": "Apache Tomcat",
             "docs": "Tomcat",
             "docsURL": "",
             "pluginFolder": "Tomcat",
@@ -1282,7 +1282,7 @@
             }
         },
         {
-            "name": "UrbanCodePackageManager",
+            "name": "IBM UrbanCode Package Manager",
             "docs": "UrbanCodePackageManager",
             "docsURL": "",
             "pluginFolder": "UrbanCodePackageManager",
@@ -1298,7 +1298,7 @@
             }
         },
         {
-            "name": "UrbancodeVFS",
+            "name": "IBM UrbanCode Deploy Versioned File Storage",
             "docs": "UrbancodeVFS",
             "docsURL": "",
             "pluginFolder": "UrbancodeVFS",
@@ -1314,7 +1314,7 @@
             }
         },
         {
-            "name": "WLDeploy",
+            "name": "Oracle WebLogic WLDeploy",
             "docs": "WLDeploy",
             "docsURL": "",
             "pluginFolder": "WLDeploy",
@@ -1330,7 +1330,7 @@
             }
         },
         {
-            "name": "WSRR",
+            "name": "IBM WebSphere Service Registry and Repository",
             "docs": "WSRR",
             "docsURL": "",
             "pluginFolder": "WSRR",
@@ -1346,7 +1346,7 @@
             }
         },
         {
-            "name": "WebLogic-WLST",
+            "name": "Oracle WebLogic Scripting Tool (WLST)",
             "docs": "WebLogic-WLST",
             "docsURL": "",
             "pluginFolder": "WebLogic-WLST",
@@ -1362,7 +1362,7 @@
             }
         },
         {
-            "name": "WebLogicSecurityMgmt",
+            "name": "Oracle WebLogic Server Security Management",
             "docs": "WebLogicSecurityMgmt",
             "docsURL": "",
             "pluginFolder": "WebLogicSecurityMgmt",
@@ -1378,7 +1378,7 @@
             }
         },
         {
-            "name": "WebSphereBPM",
+            "name": "IBM Business Process Manager (WebSphere BPM) for IBM UrbanCode Deploy",
             "docs": "WebSphereBPM",
             "docsURL": "",
             "pluginFolder": "WebSphereBPM",
@@ -1394,7 +1394,7 @@
             }
         },
         {
-            "name": "WebSphereBPMSourceConfig",
+            "name": "IBM Business Process Manager (WebSphere BPM)",
             "docs": "WebSphereBPMSourceConfig",
             "docsURL": "",
             "pluginFolder": "WebSphereBPMSourceConfig",
@@ -1410,7 +1410,7 @@
             }
         },
         {
-            "name": "WebSphereCommerce",
+            "name": "IBM WebSphere Commerce",
             "docs": "WebSphereCommerce",
             "docsURL": "",
             "pluginFolder": "WebSphereCommerce",
@@ -1426,7 +1426,7 @@
             }
         },
         {
-            "name": "WebSphereConfiguration",
+            "name": "WebSphere Application Server - Configure",
             "docs": "WebSphereConfiguration",
             "docsURL": "",
             "pluginFolder": "WebSphereConfiguration",
@@ -1442,7 +1442,7 @@
             }
         },
         {
-            "name": "WebSphereLiberty",
+            "name": "IBM WebSphere Liberty",
             "docs": "WebSphereLiberty",
             "docsURL": "",
             "pluginFolder": "WebSphereLiberty",
@@ -1458,7 +1458,7 @@
             }
         },
         {
-            "name": "WebSphereMQ",
+            "name": "IBM-MQ",
             "docs": "WebSphereMQ",
             "docsURL": "",
             "pluginFolder": "WebSphereMQ",
@@ -1474,7 +1474,7 @@
             }
         },
         {
-            "name": "WebSphereMessageBroker-CMP",
+            "name": "IBM Integration Bus (formerly WebSphere Message Broker) - CMP",
             "docs": "WebSphereMessageBroker-CMP",
             "docsURL": "",
             "pluginFolder": "WebSphereMessageBroker-CMP",
@@ -1490,7 +1490,7 @@
             }
         },
         {
-            "name": "WebSpherePortal",
+            "name": "IBM WebSphere Portal",
             "docs": "WebSpherePortal",
             "docsURL": "",
             "pluginFolder": "WebSpherePortal",
@@ -1506,7 +1506,7 @@
             }
         },
         {
-            "name": "Websphere",
+            "name": "WebSphere Application Server - Deployment",
             "docs": "Websphere",
             "docsURL": "",
             "pluginFolder": "Websphere",
@@ -1522,7 +1522,7 @@
             }
         },
         {
-            "name": "WinRSAgentInstall",
+            "name": "WinRS Agent Install",
             "docs": "WinRSAgentInstall",
             "docsURL": "",
             "pluginFolder": "WinRSAgentInstall",
@@ -1538,7 +1538,7 @@
             }
         },
         {
-            "name": "WindowsFailoverCluster",
+            "name": "Microsoft Windows Failover Clusters",
             "docs": "WindowsFailoverCluster",
             "docsURL": "",
             "pluginFolder": "WindowsFailoverCluster",
@@ -1554,7 +1554,7 @@
             }
         },
         {
-            "name": "WindowsSystemTools",
+            "name": "Microsoft Windows System Tools",
             "docs": "WindowsSystemTools",
             "docsURL": "",
             "pluginFolder": "WindowsSystemTools",
@@ -1570,7 +1570,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "Actifio",
             "docs": "actifio",
             "docsURL": "",
             "pluginFolder": "",
@@ -1586,7 +1586,7 @@
             }
         },
         {
-            "name": "air-plugin-CASCM",
+            "name": "CA SCM (formerly Harvest)",
             "docs": "air-plugin-CASCM",
             "docsURL": "",
             "pluginFolder": "air-plugin-CASCM",
@@ -1602,7 +1602,7 @@
             }
         },
         {
-            "name": "air-plugin-RTC-scm",
+            "name": "IBM Rational Team Concert - SCM",
             "docs": "air-plugin-RTC-scm",
             "docsURL": "",
             "pluginFolder": "air-plugin-RTC-scm",
@@ -1618,7 +1618,7 @@
             }
         },
         {
-            "name": "air-worklight",
+            "name": "IBM MobileFirst Platform (formerly Worklight)",
             "docs": "air-worklight",
             "docsURL": "",
             "pluginFolder": "air-worklight",
@@ -1634,7 +1634,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "Ansible",
             "docs": "ansible",
             "docsURL": "",
             "pluginFolder": "",
@@ -1650,7 +1650,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "Apache Hadoop",
             "docs": "apache-hadoop",
             "docsURL": "",
             "pluginFolder": "",
@@ -1666,7 +1666,7 @@
             }
         },
         {
-            "name": "apiconnect",
+            "name": "IBM API Connect",
             "docs": "apiconnect",
             "docsURL": "",
             "pluginFolder": "apiconnect",
@@ -1682,7 +1682,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "Apple Xcode",
             "docs": "apple-xcode",
             "docsURL": "",
             "pluginFolder": "",
@@ -1698,7 +1698,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "Apprenda",
             "docs": "apprenda",
             "docsURL": "",
             "pluginFolder": "",
@@ -1714,7 +1714,7 @@
             }
         },
         {
-            "name": "appscan",
+            "name": "IBM AppScan Enterprise",
             "docs": "appscan",
             "docsURL": "",
             "pluginFolder": "appscan",
@@ -1730,7 +1730,7 @@
             }
         },
         {
-            "name": "aspera",
+            "name": "Aspera",
             "docs": "aspera",
             "docsURL": "",
             "pluginFolder": "aspera",
@@ -1746,7 +1746,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "Avnet Talos",
             "docs": "avnet-talos",
             "docsURL": "",
             "pluginFolder": "",
@@ -1762,7 +1762,7 @@
             }
         },
         {
-            "name": "aws-lambda",
+            "name": "Amazon Web Services (AWS) Lambda",
             "docs": "aws-lambda",
             "docsURL": "",
             "pluginFolder": "aws-lambda",
@@ -1778,7 +1778,7 @@
             }
         },
         {
-            "name": "bigfix",
+            "name": "IBM BigFix",
             "docs": "bigfix",
             "docsURL": "",
             "pluginFolder": "bigfix",
@@ -1794,7 +1794,7 @@
             }
         },
         {
-            "name": "bluemix-autoscale",
+            "name": "IBM Bluemix Auto-Scaling",
             "docs": "bluemix-autoscale",
             "docsURL": "",
             "pluginFolder": "bluemix-autoscale",
@@ -1810,7 +1810,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "Box",
             "docs": "box",
             "docsURL": "",
             "pluginFolder": "",
@@ -1826,7 +1826,7 @@
             }
         },
         {
-            "name": "cloud-foundry",
+            "name": "Cloud Foundry",
             "docs": "cloud-foundry",
             "docsURL": "",
             "pluginFolder": "cloud-foundry",
@@ -1842,7 +1842,7 @@
             }
         },
         {
-            "name": "cloud-foundry-ibm-containers",
+            "name": "IBM Containers",
             "docs": "cloud-foundry-ibm-containers",
             "docsURL": "",
             "pluginFolder": "cloud-foundry-ibm-containers",
@@ -1858,7 +1858,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "Cloudant",
             "docs": "cloudant",
             "docsURL": "",
             "pluginFolder": "",
@@ -1874,7 +1874,7 @@
             }
         },
         {
-            "name": "cognos-analytics",
+            "name": "IBM Cognos Analytics",
             "docs": "cognos-analytics",
             "docsURL": "",
             "pluginFolder": "cognos-analytics",
@@ -1890,7 +1890,7 @@
             }
         },
         {
-            "name": "cyberark",
+            "name": "CyberArk",
             "docs": "cyberark",
             "docsURL": "",
             "pluginFolder": "cyberark",
@@ -1906,7 +1906,7 @@
             }
         },
         {
-            "name": "datapower",
+            "name": "IBM DataPower Configuration Manager",
             "docs": "datapower",
             "docsURL": "",
             "pluginFolder": "datapower",
@@ -1922,7 +1922,7 @@
             }
         },
         {
-            "name": "datastage",
+            "name": "IBM InfoSphere DataStage",
             "docs": "datastage",
             "docsURL": "",
             "pluginFolder": "datastage",
@@ -1938,7 +1938,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "Datical DB",
             "docs": "datical-db",
             "docsURL": "",
             "pluginFolder": "",
@@ -1954,7 +1954,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "DBmaestro",
             "docs": "dbmaestro",
             "docsURL": "",
             "pluginFolder": "",
@@ -1970,7 +1970,7 @@
             }
         },
         {
-            "name": "docker-compose",
+            "name": "Docker Compose",
             "docs": "docker-compose",
             "docsURL": "",
             "pluginFolder": "docker-compose",
@@ -1986,7 +1986,7 @@
             }
         },
         {
-            "name": "docker-plugin",
+            "name": "Docker",
             "docs": "docker-plugin",
             "docsURL": "",
             "pluginFolder": "docker-plugin",
@@ -2002,7 +2002,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "eggPlant",
             "docs": "eggplant",
             "docsURL": "",
             "pluginFolder": "",
@@ -2018,7 +2018,7 @@
             }
         },
         {
-            "name": "general-utilities",
+            "name": "IBM UrbanCode Deploy General Utilites",
             "docs": "general-utilities",
             "docsURL": "",
             "pluginFolder": "general-utilities",
@@ -2034,7 +2034,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "Git Install",
             "docs": "git-install",
             "docsURL": "",
             "pluginFolder": "",
@@ -2050,7 +2050,7 @@
             }
         },
         {
-            "name": "gitlab-sourceconfig-generic-packages",
+            "name": "GitLab Generic Packages",
             "docs": "gitlab-sourceconfig-generic-packages",
             "docsURL": "",
             "pluginFolder": "gitlab-sourceconfig-generic-packages",
@@ -2066,7 +2066,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "Gradle",
             "docs": "gradle",
             "docsURL": "",
             "pluginFolder": "",
@@ -2082,7 +2082,7 @@
             }
         },
         {
-            "name": "hp-loadrunner",
+            "name": "HP LoadRunner",
             "docs": "hp-loadrunner",
             "docsURL": "",
             "pluginFolder": "hp-loadrunner",
@@ -2098,7 +2098,7 @@
             }
         },
         {
-            "name": "ibm-ace",
+            "name": "App Connect Enterprise",
             "docs": "ibm-ace",
             "docsURL": "",
             "pluginFolder": "ibm-ace",
@@ -2114,7 +2114,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "IBM Db2 for z/OS Package",
             "docs": "ibm-db2-for-z-os-package",
             "docsURL": "",
             "pluginFolder": "",
@@ -2130,7 +2130,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "IBM Globalization Pipeline",
             "docs": "ibm-globalization-pipeline",
             "docsURL": "",
             "pluginFolder": "",
@@ -2146,7 +2146,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "IBM Installation Manager",
             "docs": "ibm-installation-manager",
             "docsURL": "",
             "pluginFolder": "",
@@ -2162,7 +2162,7 @@
             }
         },
         {
-            "name": "ibm-instana",
+            "name": "IBM Instana",
             "docs": "ibm-instana",
             "docsURL": "",
             "pluginFolder": "ibm-instana",
@@ -2178,7 +2178,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "IBM MaaS360",
             "docs": "ibm-maas360",
             "docsURL": "",
             "pluginFolder": "",
@@ -2194,7 +2194,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "IBM Maximo",
             "docs": "ibm-maximo",
             "docsURL": "",
             "pluginFolder": "",
@@ -2210,7 +2210,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "IBM MQ for z/OS - Generate MQSC Commands",
             "docs": "ibm-mq-for-z-os-generate-mqsc-commands",
             "docsURL": "",
             "pluginFolder": "",
@@ -2226,7 +2226,7 @@
             }
         },
         {
-            "name": "ibm-odm",
+            "name": "IBM Operational Decision Manager (ODM)",
             "docs": "ibm-odm",
             "docsURL": "",
             "pluginFolder": "ibm-odm",
@@ -2242,7 +2242,7 @@
             }
         },
         {
-            "name": "ibm-odm-source-config",
+            "name": "IBM Operational Decision Manager (ODM) Source Config",
             "docs": "ibm-odm-source-config",
             "docsURL": "",
             "pluginFolder": "ibm-odm-source-config",
@@ -2258,7 +2258,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "IBM Rational Automation Framework for WebSphere",
             "docs": "ibm-rational-automation-framework-for-websphere",
             "docsURL": "",
             "pluginFolder": "",
@@ -2274,7 +2274,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "IBM Rational ClearQuest",
             "docs": "ibm-rational-clearquest",
             "docsURL": "",
             "pluginFolder": "",
@@ -2290,7 +2290,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "IBM Rational Quality Manager (RQM)",
             "docs": "ibm-rational-quality-manager-rqm",
             "docsURL": "",
             "pluginFolder": "",
@@ -2306,7 +2306,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "IBM Rational Team Concert - Build",
             "docs": "ibm-rational-team-concert-build",
             "docsURL": "",
             "pluginFolder": "",
@@ -2322,7 +2322,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "IBM Sterling B2B Integrator",
             "docs": "ibm-sterling-b2b-integrator",
             "docsURL": "",
             "pluginFolder": "",
@@ -2338,7 +2338,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "IBM VDP",
             "docs": "ibm-vdp",
             "docsURL": "",
             "pluginFolder": "",
@@ -2354,7 +2354,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "IBM Workload Automation",
             "docs": "ibm-workload-automation",
             "docsURL": "",
             "pluginFolder": "",
@@ -2370,7 +2370,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "IBM z/TPF Beta",
             "docs": "ibm-z-tpf-beta",
             "docsURL": "",
             "pluginFolder": "",
@@ -2386,7 +2386,7 @@
             }
         },
         {
-            "name": "iis-configuration",
+            "name": "Microsoft IIS - Configure",
             "docs": "iis-configuration",
             "docsURL": "",
             "pluginFolder": "iis-configuration",
@@ -2402,7 +2402,7 @@
             }
         },
         {
-            "name": "infosphere-isd",
+            "name": "InfoSphere-ISD",
             "docs": "infosphere-isd",
             "docsURL": "",
             "pluginFolder": "infosphere-isd",
@@ -2418,7 +2418,7 @@
             }
         },
         {
-            "name": "java-shell",
+            "name": "z/OS Shell",
             "docs": "java-shell",
             "docsURL": "",
             "pluginFolder": "java-shell",
@@ -2434,7 +2434,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "JBoss-ON",
             "docs": "jboss-on",
             "docsURL": "",
             "pluginFolder": "",
@@ -2450,7 +2450,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "Jenkins Job Manager",
             "docs": "jenkins-job-manager",
             "docsURL": "",
             "pluginFolder": "",
@@ -2466,7 +2466,7 @@
             }
         },
         {
-            "name": "jenkins-pipeline-ud-plugin",
+            "name": "Jenkins Pipeline",
             "docs": "jenkins-pipeline-ud-plugin",
             "docsURL": "",
             "pluginFolder": "jenkins-pipeline-ud-plugin",
@@ -2482,7 +2482,7 @@
             }
         },
         {
-            "name": "jenkins-ud-plugin",
+            "name": "Jenkins Publisher",
             "docs": "jenkins-ud-plugin",
             "docsURL": "",
             "pluginFolder": "jenkins-ud-plugin",
@@ -2498,7 +2498,7 @@
             }
         },
         {
-            "name": "kubernetes",
+            "name": "Kubernetes",
             "docs": "kubernetes",
             "docsURL": "",
             "pluginFolder": "kubernetes",
@@ -2514,7 +2514,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "Liquibase",
             "docs": "liquibase",
             "docsURL": "",
             "pluginFolder": "",
@@ -2530,7 +2530,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "LogiGear TestArchitect",
             "docs": "logigear-testarchitect",
             "docsURL": "",
             "pluginFolder": "",
@@ -2546,7 +2546,7 @@
             }
         },
         {
-            "name": "mesos-marathon",
+            "name": "Mesos Marathon",
             "docs": "mesos-marathon",
             "docsURL": "",
             "pluginFolder": "mesos-marathon",
@@ -2562,7 +2562,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "Microsoft Visual Studio Team Services (VSTS)",
             "docs": "microsoft-visual-studio-team-services-vsts",
             "docsURL": "",
             "pluginFolder": "",
@@ -2578,7 +2578,7 @@
             }
         },
         {
-            "name": "mulesoft",
+            "name": "Mulesoft",
             "docs": "mulesoft",
             "docsURL": "",
             "pluginFolder": "mulesoft",
@@ -2594,7 +2594,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "New Relic",
             "docs": "new-relic",
             "docsURL": "",
             "pluginFolder": "",
@@ -2610,7 +2610,7 @@
             }
         },
         {
-            "name": "nexus",
+            "name": "Nexus",
             "docs": "nexus",
             "docsURL": "",
             "pluginFolder": "nexus",
@@ -2626,7 +2626,7 @@
             }
         },
         {
-            "name": "nexus-source-config",
+            "name": "Nexus Source Config",
             "docs": "nexus-source-config",
             "docsURL": "",
             "pluginFolder": "nexus-source-config",
@@ -2642,7 +2642,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "Node.js",
             "docs": "node-js",
             "docsURL": "",
             "pluginFolder": "",
@@ -2658,7 +2658,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "Node-RED",
             "docs": "node-red",
             "docsURL": "",
             "pluginFolder": "",
@@ -2674,7 +2674,7 @@
             }
         },
         {
-            "name": "nuget-source-config",
+            "name": "NuGet",
             "docs": "nuget-source-config",
             "docsURL": "",
             "pluginFolder": "nuget-source-config",
@@ -2690,7 +2690,7 @@
             }
         },
         {
-            "name": "onetest-server",
+            "name": "HCL OneTest Server",
             "docs": "onetest-server",
             "docsURL": "",
             "pluginFolder": "onetest-server",
@@ -2706,7 +2706,7 @@
             }
         },
         {
-            "name": "openshift",
+            "name": "OpenShift for IBM UrbanCode Deploy",
             "docs": "openshift",
             "docsURL": "",
             "pluginFolder": "openshift",
@@ -2722,7 +2722,7 @@
             }
         },
         {
-            "name": "optim",
+            "name": "IBM InfoSphere Optim",
             "docs": "optim",
             "docsURL": "",
             "pluginFolder": "optim",
@@ -2738,7 +2738,7 @@
             }
         },
         {
-            "name": "plugin-air-Android",
+            "name": "Google Android SDK",
             "docs": "plugin-air-Android",
             "docsURL": "",
             "pluginFolder": "plugin-air-Android",
@@ -2754,7 +2754,7 @@
             }
         },
         {
-            "name": "plugin-air-OSB-Configuration-Management",
+            "name": "Oracle Service Bus Configuration Management",
             "docs": "plugin-air-OSB-Configuration-Management",
             "docsURL": "",
             "pluginFolder": "plugin-air-OSB-Configuration-Management",
@@ -2770,7 +2770,7 @@
             }
         },
         {
-            "name": "plugin-air-RTC-WorkItems",
+            "name": "IBM Rational Team Concert Work Items",
             "docs": "plugin-air-RTC-WorkItems",
             "docsURL": "",
             "pluginFolder": "plugin-air-RTC-WorkItems",
@@ -2786,7 +2786,7 @@
             }
         },
         {
-            "name": "plugin-air-TFS-WorkItems",
+            "name": "Microsoft TFS Work Items",
             "docs": "plugin-air-TFS-WorkItems",
             "docsURL": "",
             "pluginFolder": "plugin-air-TFS-WorkItems",
@@ -2802,7 +2802,7 @@
             }
         },
         {
-            "name": "plugin-air-WLI-Resource-Management",
+            "name": "Oracle WebLogic Integration Resource Management",
             "docs": "plugin-air-WLI-Resource-Management",
             "docsURL": "",
             "pluginFolder": "plugin-air-WLI-Resource-Management",
@@ -2818,7 +2818,7 @@
             }
         },
         {
-            "name": "plugin-air-WLS-Resource-Management",
+            "name": "Oracle WebLogic Server Resource Management",
             "docs": "plugin-air-WLS-Resource-Management",
             "docsURL": "",
             "pluginFolder": "plugin-air-WLS-Resource-Management",
@@ -2834,7 +2834,7 @@
             }
         },
         {
-            "name": "plugin-air-WebLogic-Application-Deployment",
+            "name": "Oracle WebLogic Application Deployment",
             "docs": "plugin-air-WebLogic-Application-Deployment",
             "docsURL": "",
             "pluginFolder": "plugin-air-WebLogic-Application-Deployment",
@@ -2850,7 +2850,7 @@
             }
         },
         {
-            "name": "powershell-integration",
+            "name": "PowerShell",
             "docs": "powershell-integration",
             "docsURL": "",
             "pluginFolder": "powershell-integration",
@@ -2866,7 +2866,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "Property Utils",
             "docs": "property-utils",
             "docsURL": "",
             "pluginFolder": "",
@@ -2882,7 +2882,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "Puppet",
             "docs": "puppet",
             "docsURL": "",
             "pluginFolder": "",
@@ -2898,7 +2898,7 @@
             }
         },
         {
-            "name": "resource-utilities",
+            "name": "Resource Utilities",
             "docs": "resource-utilities",
             "docsURL": "",
             "pluginFolder": "resource-utilities",
@@ -2914,7 +2914,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "Salesforce",
             "docs": "salesforce",
             "docsURL": "",
             "pluginFolder": "",
@@ -2930,7 +2930,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "Send SMTP Email",
             "docs": "send-smtp-email",
             "docsURL": "",
             "pluginFolder": "",
@@ -2946,7 +2946,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "Siebel",
             "docs": "siebel",
             "docsURL": "",
             "pluginFolder": "",
@@ -2962,7 +2962,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "Skytap Automation Pack",
             "docs": "skytap-automation-pack",
             "docsURL": "",
             "pluginFolder": "",
@@ -2978,7 +2978,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "Slack",
             "docs": "slack",
             "docsURL": "",
             "pluginFolder": "",
@@ -2994,7 +2994,7 @@
             }
         },
         {
-            "name": "sourceconfig-github-release",
+            "name": "GitHub-Release",
             "docs": "sourceconfig-github-release",
             "docsURL": "",
             "pluginFolder": "sourceconfig-github-release",
@@ -3010,7 +3010,7 @@
             }
         },
         {
-            "name": "sourceconfig-nexus-v3",
+            "name": "Nexus Repository Manager V3",
             "docs": "sourceconfig-nexus-v3",
             "docsURL": "",
             "pluginFolder": "sourceconfig-nexus-v3",
@@ -3026,7 +3026,7 @@
             }
         },
         {
-            "name": "sourceconfig-npm",
+            "name": "NPM",
             "docs": "sourceconfig-npm",
             "docsURL": "",
             "pluginFolder": "sourceconfig-npm",
@@ -3042,7 +3042,7 @@
             }
         },
         {
-            "name": "sybase",
+            "name": "Sybase",
             "docs": "sybase",
             "docsURL": "",
             "pluginFolder": "sybase",
@@ -3058,7 +3058,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "Text Utility",
             "docs": "text-utility",
             "docsURL": "",
             "pluginFolder": "",
@@ -3074,7 +3074,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "TIBCO",
             "docs": "tibco",
             "docsURL": "",
             "pluginFolder": "",
@@ -3090,7 +3090,7 @@
             }
         },
         {
-            "name": "uBuild",
+            "name": "IBM UrbanCode uBuild",
             "docs": "uBuild",
             "docsURL": "",
             "pluginFolder": "uBuild",
@@ -3106,7 +3106,7 @@
             }
         },
         {
-            "name": "uBuildSourceConfig",
+            "name": "IBM UrbanCode Build",
             "docs": "uBuildSourceConfig",
             "docsURL": "",
             "pluginFolder": "uBuildSourceConfig",
@@ -3122,7 +3122,7 @@
             }
         },
         {
-            "name": "uDeploy-Application",
+            "name": "IBM UrbanCode Deploy Applications",
             "docs": "uDeploy-Application",
             "docsURL": "",
             "pluginFolder": "uDeploy-Application",
@@ -3138,7 +3138,7 @@
             }
         },
         {
-            "name": "uDeploy-Component",
+            "name": "IBM UrbanCode Deploy Components",
             "docs": "uDeploy-Component",
             "docsURL": "",
             "pluginFolder": "uDeploy-Component",
@@ -3154,7 +3154,7 @@
             }
         },
         {
-            "name": "uDeploy-Environment",
+            "name": "IBM UrbanCode Deploy Environments",
             "docs": "uDeploy-Environment",
             "docsURL": "",
             "pluginFolder": "uDeploy-Environment",
@@ -3170,7 +3170,7 @@
             }
         },
         {
-            "name": "uDeploy-Process",
+            "name": "IBM UrbanCode Deploy Process",
             "docs": "uDeploy-Process",
             "docsURL": "",
             "pluginFolder": "uDeploy-Process",
@@ -3186,7 +3186,7 @@
             }
         },
         {
-            "name": "uDeploy-Resource",
+            "name": "IBM UrbanCode Deploy Resources",
             "docs": "uDeploy-Resource",
             "docsURL": "",
             "pluginFolder": "uDeploy-Resource",
@@ -3202,7 +3202,7 @@
             }
         },
         {
-            "name": "uDeploy-System",
+            "name": "IBM UrbanCode Deploy System",
             "docs": "uDeploy-System",
             "docsURL": "",
             "pluginFolder": "uDeploy-System",
@@ -3218,7 +3218,7 @@
             }
         },
         {
-            "name": "uDeploy-Version",
+            "name": "IBM UrbanCode Deploy Versions",
             "docs": "uDeploy-Version",
             "docsURL": "",
             "pluginFolder": "uDeploy-Version",
@@ -3234,7 +3234,7 @@
             }
         },
         {
-            "name": "uDeployConfigManagement",
+            "name": "IBM UrbanCode Deploy Configuration Management",
             "docs": "uDeployConfigManagement",
             "docsURL": "",
             "pluginFolder": "uDeployConfigManagement",
@@ -3250,7 +3250,7 @@
             }
         },
         {
-            "name": "ucr-plugin",
+            "name": "IBM UrbanCode Release",
             "docs": "ucr-plugin",
             "docsURL": "",
             "pluginFolder": "ucr-plugin",
@@ -3266,7 +3266,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "Venafi",
             "docs": "venafi",
             "docsURL": "",
             "pluginFolder": "",
@@ -3282,7 +3282,7 @@
             }
         },
         {
-            "name": "PLUGINS-NOT-FOUND",
+            "name": "VMware AirWatch",
             "docs": "vmware-airwatch",
             "docsURL": "",
             "pluginFolder": "",
@@ -3298,7 +3298,7 @@
             }
         },
         {
-            "name": "web-utilities",
+            "name": "Web Utilities",
             "docs": "web-utilities",
             "docsURL": "",
             "pluginFolder": "web-utilities",
@@ -3314,7 +3314,7 @@
             }
         },
         {
-            "name": "webseal",
+            "name": "IBM Security Access Manager (WebSEAL)",
             "docs": "webseal",
             "docsURL": "",
             "pluginFolder": "webseal",
@@ -3330,7 +3330,7 @@
             }
         },
         {
-            "name": "websphere-install",
+            "name": "WebSphere Application Server - Install",
             "docs": "websphere-install",
             "docsURL": "",
             "pluginFolder": "websphere-install",
@@ -3346,7 +3346,7 @@
             }
         },
         {
-            "name": "zOS-external-artifact-download",
+            "name": "z/OS External Artifact Repository",
             "docs": "zOS-external-artifact-download",
             "docsURL": "",
             "pluginFolder": "zOS-external-artifact-download",
@@ -3362,7 +3362,7 @@
             }
         },
         {
-            "name": "zOSFileSourceConfig",
+            "name": "z/OS File Source Config",
             "docs": "zOSFileSourceConfig",
             "docsURL": "",
             "pluginFolder": "zOSFileSourceConfig",
@@ -3378,7 +3378,7 @@
             }
         },
         {
-            "name": "zos-dataset-writer",
+            "name": "z/OS Dataset Writer",
             "docs": "zos-dataset-writer",
             "docsURL": "",
             "pluginFolder": "zos-dataset-writer",
@@ -3394,7 +3394,7 @@
             }
         },
         {
-            "name": "zos-deploy",
+            "name": "z/OS Utility",
             "docs": "zos-deploy",
             "docsURL": "",
             "pluginFolder": "zos-deploy",
@@ -3410,7 +3410,7 @@
             }
         },
         {
-            "name": "zos-ftp",
+            "name": "z/OS FTP Utility",
             "docs": "zos-ftp",
             "docsURL": "",
             "pluginFolder": "zos-ftp",
@@ -3426,7 +3426,7 @@
             }
         },
         {
-            "name": "zos-ibm-integration-bus-ucd",
+            "name": "IBM Integration Bus (IIB) plugin Deploy step for zOS",
             "docs": "zos-ibm-integration-bus-ucd",
             "docsURL": "",
             "pluginFolder": "zos-ibm-integration-bus-ucd",
@@ -3442,7 +3442,7 @@
             }
         },
         {
-            "name": "zos-multi-generate-artifact-info",
+            "name": "z/OS Multi Generate Artifact Information",
             "docs": "zos-multi-generate-artifact-info",
             "docsURL": "",
             "pluginFolder": "zos-multi-generate-artifact-info",
@@ -3458,7 +3458,7 @@
             }
         },
         {
-            "name": "zos-replacetokens-uss",
+            "name": "z/OS USS Utility",
             "docs": "zos-replacetokens-uss",
             "docsURL": "",
             "pluginFolder": "zos-replacetokens-uss",
@@ -3474,7 +3474,7 @@
             }
         },
         {
-            "name": "zos-rexx",
+            "name": "zOS Rexx Executor",
             "docs": "zos-rexx",
             "docsURL": "",
             "pluginFolder": "zos-rexx",
@@ -3490,7 +3490,7 @@
             }
         },
         {
-            "name": "zosmf",
+            "name": "z/OS Management Facility",
             "docs": "zosmf",
             "docsURL": "",
             "pluginFolder": "zosmf",

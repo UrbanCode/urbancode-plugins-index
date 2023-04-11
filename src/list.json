@@ -1137,7 +1137,5866 @@
             }
         }
     ],
-    "UCD": "",
-    "UCR": "",
-    "UCV": ""
+    "UCD": [
+        {
+            "name": "7-Zip",
+            "docs": "7-zip",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "HCL ASoC plug-in for UCD",
+            "docs": "ASOC",
+            "docsURL": "",
+            "pluginFolder": "ASOC",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "AccuRev SCM",
+            "docs": "AccuRevSourceConfig",
+            "docsURL": "",
+            "pluginFolder": "AccuRevSourceConfig",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM UrbanCode Deploy Agent Package for Dynamic Cloud Environments",
+            "docs": "AgentScript",
+            "docsURL": "",
+            "pluginFolder": "AgentScript",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Amazon EC2",
+            "docs": "AmazonEC2",
+            "docsURL": "",
+            "pluginFolder": "AmazonEC2",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Apache Ant",
+            "docs": "Ant",
+            "docsURL": "",
+            "pluginFolder": "Ant",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Apache HTTP Server",
+            "docs": "Apache",
+            "docsURL": "",
+            "pluginFolder": "Apache",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Artifactory",
+            "docs": "Artifactory",
+            "docsURL": "",
+            "pluginFolder": "Artifactory",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Artifactory Source Config",
+            "docs": "ArtifactorySourceConfig",
+            "docsURL": "",
+            "pluginFolder": "ArtifactorySourceConfig",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Autosys",
+            "docs": "Autosys",
+            "docsURL": "",
+            "pluginFolder": "Autosys",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Azure DevOps",
+            "docs": "AzureDevopsSourceconfig",
+            "docsURL": "",
+            "pluginFolder": "AzureDevopsSourceconfig",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Microsoft BizTalk",
+            "docs": "BizTalk",
+            "docsURL": "",
+            "pluginFolder": "BizTalk",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "CICS TS",
+            "docs": "CICS",
+            "docsURL": "",
+            "pluginFolder": "CICS",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "CICS CM (Beta)",
+            "docs": "CICS-CM",
+            "docsURL": "",
+            "pluginFolder": "CICS-CM",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Chef",
+            "docs": "Chef",
+            "docsURL": "",
+            "pluginFolder": "Chef",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Rational ClearCase",
+            "docs": "ClearCaseSourceConfig",
+            "docsURL": "",
+            "pluginFolder": "ClearCaseSourceConfig",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Cognos",
+            "docs": "Cognos",
+            "docsURL": "",
+            "pluginFolder": "Cognos",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM UrbanCode DBUpgrader",
+            "docs": "DBUpgrader",
+            "docsURL": "",
+            "pluginFolder": "DBUpgrader",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM UrbanCode Deploy Tools",
+            "docs": "DeployTools",
+            "docsURL": "",
+            "pluginFolder": "DeployTools",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Dimensions",
+            "docs": "DimensionsSourceConfig",
+            "docsURL": "",
+            "pluginFolder": "DimensionsSourceConfig",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Docker Registry",
+            "docs": "DockerSourceConfig",
+            "docsURL": "",
+            "pluginFolder": "DockerSourceConfig",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "F5 BIG-IP",
+            "docs": "F5",
+            "docsURL": "",
+            "pluginFolder": "F5",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "FileNet - IBM Case Manager",
+            "docs": "FileNet-CaseManager",
+            "docsURL": "",
+            "pluginFolder": "FileNet-CaseManager",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "File System",
+            "docs": "FileSystemSourceConfig",
+            "docsURL": "",
+            "pluginFolder": "FileSystemSourceConfig",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "File System (Versioned)",
+            "docs": "FileSystemVersionedSourceConfig",
+            "docsURL": "",
+            "pluginFolder": "FileSystemVersionedSourceConfig",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "File Utils",
+            "docs": "FileUtils",
+            "docsURL": "",
+            "pluginFolder": "FileUtils",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Git",
+            "docs": "GitSourceConfig",
+            "docsURL": "",
+            "pluginFolder": "GitSourceConfig",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Groovy",
+            "docs": "Groovy",
+            "docsURL": "",
+            "pluginFolder": "Groovy",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "HCL OneTest API",
+            "docs": "HCLOneTestAPI",
+            "docsURL": "",
+            "pluginFolder": "HCLOneTestAPI",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "HCL OneTest Performance",
+            "docs": "HCLOneTestPerf",
+            "docsURL": "",
+            "pluginFolder": "HCLOneTestPerf",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "HCL OneTest UI",
+            "docs": "HCLOneTestUI",
+            "docsURL": "",
+            "pluginFolder": "HCLOneTestUI",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "HCL OneTest Virtualization",
+            "docs": "HCLOneTestVirtualization",
+            "docsURL": "",
+            "pluginFolder": "HCLOneTestVirtualization",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "HCL OneTest WebUI",
+            "docs": "HCLOneTestWebUI",
+            "docsURL": "",
+            "pluginFolder": "HCLOneTestWebUI",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "MicroFocus ALM (formerly HP Quality Center)",
+            "docs": "HPQualityCenter",
+            "docsURL": "",
+            "pluginFolder": "HPQualityCenter",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Microsoft IIS AdminScripts",
+            "docs": "IIS-AdminScripts",
+            "docsURL": "",
+            "pluginFolder": "IIS-AdminScripts",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Microsoft IIS AppCmd",
+            "docs": "IIS-AppCmd",
+            "docsURL": "",
+            "pluginFolder": "IIS-AppCmd",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Microsoft IIS MS-Deploy (Azure App Service)",
+            "docs": "IIS-MSDeploy",
+            "docsURL": "",
+            "pluginFolder": "IIS-MSDeploy",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM IMS",
+            "docs": "IMSz",
+            "docsURL": "",
+            "pluginFolder": "IMSz",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Informatica",
+            "docs": "Informatica",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "JBoss Application Server",
+            "docs": "JBoss",
+            "docsURL": "",
+            "pluginFolder": "JBoss",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "JIRA for IBM UrbanCode Deploy",
+            "docs": "JIRA",
+            "docsURL": "",
+            "pluginFolder": "JIRA",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Linux System Tools",
+            "docs": "LinuxSystemTools",
+            "docsURL": "",
+            "pluginFolder": "LinuxSystemTools",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM MobileFirst Platform Foundation on IBM Containers",
+            "docs": "MFPFC",
+            "docsURL": "",
+            "pluginFolder": "MFPFC",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Microsoft Software Installer (MSI)",
+            "docs": "MSI",
+            "docsURL": "",
+            "pluginFolder": "MSI",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Maven Resolve",
+            "docs": "Maven",
+            "docsURL": "",
+            "pluginFolder": "Maven",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Maven",
+            "docs": "MavenSourceConfig",
+            "docsURL": "",
+            "pluginFolder": "MavenSourceConfig",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Microsoft SSIS",
+            "docs": "MicrosoftSSIS",
+            "docsURL": "",
+            "pluginFolder": "MicrosoftSSIS",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Citrix NetScaler",
+            "docs": "Netscaler",
+            "docsURL": "",
+            "pluginFolder": "Netscaler",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "OpenShift",
+            "docs": "OpenShiftSourceConfig",
+            "docsURL": "",
+            "pluginFolder": "OpenShiftSourceConfig",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM UrbanCode PHP CLI Tool",
+            "docs": "PHPCLI",
+            "docsURL": "",
+            "pluginFolder": "PHPCLI",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Perforce Helix",
+            "docs": "PerforceSourceConfig",
+            "docsURL": "",
+            "pluginFolder": "PerforceSourceConfig",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "PVCS",
+            "docs": "PvcsSourceConfig",
+            "docsURL": "",
+            "pluginFolder": "PvcsSourceConfig",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "HP Unified Functional Testing (QTP)",
+            "docs": "QTP",
+            "docsURL": "",
+            "pluginFolder": "QTP",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Rational Asset Manager",
+            "docs": "RAM",
+            "docsURL": "",
+            "pluginFolder": "RAM",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Rational Asset Manager for IBM UrbanCode Deploy",
+            "docs": "RAMSourceConfig",
+            "docsURL": "",
+            "pluginFolder": "RAMSourceConfig",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Rational Functional Tester (RFT)",
+            "docs": "RFT-UCD",
+            "docsURL": "",
+            "pluginFolder": "RFT-UCD",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Rational Test Workbench Web UI Tester",
+            "docs": "RFT-WebUI-UCD",
+            "docsURL": "",
+            "pluginFolder": "RFT-WebUI-UCD",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Rational Integration Tester (RIT)",
+            "docs": "RIT-UCD",
+            "docsURL": "",
+            "pluginFolder": "RIT-UCD",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "RPM",
+            "docs": "RPM",
+            "docsURL": "",
+            "pluginFolder": "RPM",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Rational Performance Tester (RPT)",
+            "docs": "RPT-UCD",
+            "docsURL": "",
+            "pluginFolder": "RPT-UCD",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Rational Test Automation Server (RTAS)",
+            "docs": "RTAS-UCD",
+            "docsURL": "",
+            "pluginFolder": "RTAS-UCD",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Rational Test Virtualization Server (RTVS)",
+            "docs": "RTVS-UCD",
+            "docsURL": "",
+            "pluginFolder": "RTVS-UCD",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Rally for IBM UrbanCode Deploy",
+            "docs": "Rally",
+            "docsURL": "",
+            "pluginFolder": "Rally",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "BMC Remedy Action Request System",
+            "docs": "Remedy",
+            "docsURL": "",
+            "pluginFolder": "Remedy",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "SAP Change and Transport System (CTS)",
+            "docs": "SAP-CTS",
+            "docsURL": "",
+            "pluginFolder": "SAP-CTS",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "SQL-JDBC",
+            "docs": "SQL-JDBC",
+            "docsURL": "",
+            "pluginFolder": "SQL-JDBC",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Microsoft SQL Server SQLCmd",
+            "docs": "SQLCmd",
+            "docsURL": "",
+            "pluginFolder": "SQLCmd",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Oracle SQLPlus",
+            "docs": "SQLPlus",
+            "docsURL": "",
+            "pluginFolder": "SQLPlus",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Selenium",
+            "docs": "Selenium",
+            "docsURL": "",
+            "pluginFolder": "Selenium",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Microsoft Windows Services",
+            "docs": "ServiceControlManager",
+            "docsURL": "",
+            "pluginFolder": "ServiceControlManager",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ServiceNow",
+            "docs": "ServiceNow",
+            "docsURL": "",
+            "pluginFolder": "ServiceNow",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Microsoft SharePoint",
+            "docs": "Sharepoint",
+            "docsURL": "",
+            "pluginFolder": "Sharepoint",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Shell",
+            "docs": "Shell",
+            "docsURL": "",
+            "pluginFolder": "Shell",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Subversion-Export",
+            "docs": "Subversion-export",
+            "docsURL": "",
+            "pluginFolder": "Subversion-export",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Subversion",
+            "docs": "SubversionSourceConfig",
+            "docsURL": "",
+            "pluginFolder": "SubversionSourceConfig",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "System Information",
+            "docs": "SystemInformation",
+            "docsURL": "",
+            "pluginFolder": "SystemInformation",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Microsoft TFS (Team Foundation Server)",
+            "docs": "TFS-SourceConfig",
+            "docsURL": "",
+            "pluginFolder": "TFS-SourceConfig",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Microsoft TFS_SCM (Team Foundation Server)",
+            "docs": "TFS_SCM-SourceConfig",
+            "docsURL": "",
+            "pluginFolder": "TFS_SCM-SourceConfig",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "TeamCity",
+            "docs": "TeamCitySourceConfig",
+            "docsURL": "",
+            "pluginFolder": "TeamCitySourceConfig",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Apache Tomcat",
+            "docs": "Tomcat",
+            "docsURL": "",
+            "pluginFolder": "Tomcat",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM UrbanCode Package Manager",
+            "docs": "UrbanCodePackageManager",
+            "docsURL": "",
+            "pluginFolder": "UrbanCodePackageManager",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM UrbanCode Deploy Versioned File Storage",
+            "docs": "UrbancodeVFS",
+            "docsURL": "",
+            "pluginFolder": "UrbancodeVFS",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Oracle WebLogic WLDeploy",
+            "docs": "WLDeploy",
+            "docsURL": "",
+            "pluginFolder": "WLDeploy",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM WebSphere Service Registry and Repository",
+            "docs": "WSRR",
+            "docsURL": "",
+            "pluginFolder": "WSRR",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Oracle WebLogic Scripting Tool (WLST)",
+            "docs": "WebLogic-WLST",
+            "docsURL": "",
+            "pluginFolder": "WebLogic-WLST",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Oracle WebLogic Server Security Management",
+            "docs": "WebLogicSecurityMgmt",
+            "docsURL": "",
+            "pluginFolder": "WebLogicSecurityMgmt",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Business Process Manager (WebSphere BPM) for IBM UrbanCode Deploy",
+            "docs": "WebSphereBPM",
+            "docsURL": "",
+            "pluginFolder": "WebSphereBPM",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Business Process Manager (WebSphere BPM)",
+            "docs": "WebSphereBPMSourceConfig",
+            "docsURL": "",
+            "pluginFolder": "WebSphereBPMSourceConfig",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM WebSphere Commerce",
+            "docs": "WebSphereCommerce",
+            "docsURL": "",
+            "pluginFolder": "WebSphereCommerce",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "WebSphere Application Server - Configure",
+            "docs": "WebSphereConfiguration",
+            "docsURL": "",
+            "pluginFolder": "WebSphereConfiguration",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM WebSphere Liberty",
+            "docs": "WebSphereLiberty",
+            "docsURL": "",
+            "pluginFolder": "WebSphereLiberty",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM-MQ",
+            "docs": "WebSphereMQ",
+            "docsURL": "",
+            "pluginFolder": "WebSphereMQ",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Integration Bus (formerly WebSphere Message Broker) - CMP",
+            "docs": "WebSphereMessageBroker-CMP",
+            "docsURL": "",
+            "pluginFolder": "WebSphereMessageBroker-CMP",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM WebSphere Portal",
+            "docs": "WebSpherePortal",
+            "docsURL": "",
+            "pluginFolder": "WebSpherePortal",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "WebSphere Application Server - Deployment",
+            "docs": "Websphere",
+            "docsURL": "",
+            "pluginFolder": "Websphere",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "WinRS Agent Install",
+            "docs": "WinRSAgentInstall",
+            "docsURL": "",
+            "pluginFolder": "WinRSAgentInstall",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Microsoft Windows Failover Clusters",
+            "docs": "WindowsFailoverCluster",
+            "docsURL": "",
+            "pluginFolder": "WindowsFailoverCluster",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Microsoft Windows System Tools",
+            "docs": "WindowsSystemTools",
+            "docsURL": "",
+            "pluginFolder": "WindowsSystemTools",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Actifio",
+            "docs": "actifio",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "CA SCM (formerly Harvest)",
+            "docs": "air-plugin-CASCM",
+            "docsURL": "",
+            "pluginFolder": "air-plugin-CASCM",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Rational Team Concert - SCM",
+            "docs": "air-plugin-RTC-scm",
+            "docsURL": "",
+            "pluginFolder": "air-plugin-RTC-scm",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM MobileFirst Platform (formerly Worklight)",
+            "docs": "air-worklight",
+            "docsURL": "",
+            "pluginFolder": "air-worklight",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Ansible",
+            "docs": "ansible",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Apache Hadoop",
+            "docs": "apache-hadoop",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM API Connect",
+            "docs": "apiconnect",
+            "docsURL": "",
+            "pluginFolder": "apiconnect",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Apple Xcode",
+            "docs": "apple-xcode",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Apprenda",
+            "docs": "apprenda",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM AppScan Enterprise",
+            "docs": "appscan",
+            "docsURL": "",
+            "pluginFolder": "appscan",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Aspera",
+            "docs": "aspera",
+            "docsURL": "",
+            "pluginFolder": "aspera",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Avnet Talos",
+            "docs": "avnet-talos",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Amazon Web Services (AWS) Lambda",
+            "docs": "aws-lambda",
+            "docsURL": "",
+            "pluginFolder": "aws-lambda",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM BigFix",
+            "docs": "bigfix",
+            "docsURL": "",
+            "pluginFolder": "bigfix",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Bluemix Auto-Scaling",
+            "docs": "bluemix-autoscale",
+            "docsURL": "",
+            "pluginFolder": "bluemix-autoscale",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Box",
+            "docs": "box",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Cloud Foundry",
+            "docs": "cloud-foundry",
+            "docsURL": "",
+            "pluginFolder": "cloud-foundry",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Containers",
+            "docs": "cloud-foundry-ibm-containers",
+            "docsURL": "",
+            "pluginFolder": "cloud-foundry-ibm-containers",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Cloudant",
+            "docs": "cloudant",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Cognos Analytics",
+            "docs": "cognos-analytics",
+            "docsURL": "",
+            "pluginFolder": "cognos-analytics",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "CyberArk",
+            "docs": "cyberark",
+            "docsURL": "",
+            "pluginFolder": "cyberark",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM DataPower Configuration Manager",
+            "docs": "datapower",
+            "docsURL": "",
+            "pluginFolder": "datapower",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM InfoSphere DataStage",
+            "docs": "datastage",
+            "docsURL": "",
+            "pluginFolder": "datastage",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Datical DB",
+            "docs": "datical-db",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DBmaestro",
+            "docs": "dbmaestro",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Docker Compose",
+            "docs": "docker-compose",
+            "docsURL": "",
+            "pluginFolder": "docker-compose",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Docker",
+            "docs": "docker-plugin",
+            "docsURL": "",
+            "pluginFolder": "docker-plugin",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "eggPlant",
+            "docs": "eggplant",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM UrbanCode Deploy General Utilites",
+            "docs": "general-utilities",
+            "docsURL": "",
+            "pluginFolder": "general-utilities",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Git Install",
+            "docs": "git-install",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "GitLab Generic Packages",
+            "docs": "gitlab-sourceconfig-generic-packages",
+            "docsURL": "",
+            "pluginFolder": "gitlab-sourceconfig-generic-packages",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Gradle",
+            "docs": "gradle",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "HP LoadRunner",
+            "docs": "hp-loadrunner",
+            "docsURL": "",
+            "pluginFolder": "hp-loadrunner",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "App Connect Enterprise",
+            "docs": "ibm-ace",
+            "docsURL": "",
+            "pluginFolder": "ibm-ace",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Db2 for z/OS Package",
+            "docs": "ibm-db2-for-z-os-package",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Globalization Pipeline",
+            "docs": "ibm-globalization-pipeline",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Installation Manager",
+            "docs": "ibm-installation-manager",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Instana",
+            "docs": "ibm-instana",
+            "docsURL": "",
+            "pluginFolder": "ibm-instana",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM MaaS360",
+            "docs": "ibm-maas360",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Maximo",
+            "docs": "ibm-maximo",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM MQ for z/OS - Generate MQSC Commands",
+            "docs": "ibm-mq-for-z-os-generate-mqsc-commands",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Operational Decision Manager (ODM)",
+            "docs": "ibm-odm",
+            "docsURL": "",
+            "pluginFolder": "ibm-odm",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Operational Decision Manager (ODM) Source Config",
+            "docs": "ibm-odm-source-config",
+            "docsURL": "",
+            "pluginFolder": "ibm-odm-source-config",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Rational Automation Framework for WebSphere",
+            "docs": "ibm-rational-automation-framework-for-websphere",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Rational ClearQuest",
+            "docs": "ibm-rational-clearquest",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Rational Quality Manager (RQM)",
+            "docs": "ibm-rational-quality-manager-rqm",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Rational Team Concert - Build",
+            "docs": "ibm-rational-team-concert-build",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Sterling B2B Integrator",
+            "docs": "ibm-sterling-b2b-integrator",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM VDP",
+            "docs": "ibm-vdp",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Workload Automation",
+            "docs": "ibm-workload-automation",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM z/TPF Beta",
+            "docs": "ibm-z-tpf-beta",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Microsoft IIS - Configure",
+            "docs": "iis-configuration",
+            "docsURL": "",
+            "pluginFolder": "iis-configuration",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "InfoSphere-ISD",
+            "docs": "infosphere-isd",
+            "docsURL": "",
+            "pluginFolder": "infosphere-isd",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "z/OS Shell",
+            "docs": "java-shell",
+            "docsURL": "",
+            "pluginFolder": "java-shell",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "JBoss-ON",
+            "docs": "jboss-on",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Jenkins Job Manager",
+            "docs": "jenkins-job-manager",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Jenkins Pipeline",
+            "docs": "jenkins-pipeline-ud-plugin",
+            "docsURL": "",
+            "pluginFolder": "jenkins-pipeline-ud-plugin",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Jenkins Publisher",
+            "docs": "jenkins-ud-plugin",
+            "docsURL": "",
+            "pluginFolder": "jenkins-ud-plugin",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Kubernetes",
+            "docs": "kubernetes",
+            "docsURL": "",
+            "pluginFolder": "kubernetes",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Liquibase",
+            "docs": "liquibase",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "LogiGear TestArchitect",
+            "docs": "logigear-testarchitect",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Mesos Marathon",
+            "docs": "mesos-marathon",
+            "docsURL": "",
+            "pluginFolder": "mesos-marathon",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Microsoft Visual Studio Team Services (VSTS)",
+            "docs": "microsoft-visual-studio-team-services-vsts",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Mulesoft",
+            "docs": "mulesoft",
+            "docsURL": "",
+            "pluginFolder": "mulesoft",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "New Relic",
+            "docs": "new-relic",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Nexus",
+            "docs": "nexus",
+            "docsURL": "",
+            "pluginFolder": "nexus",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Nexus Source Config",
+            "docs": "nexus-source-config",
+            "docsURL": "",
+            "pluginFolder": "nexus-source-config",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Node.js",
+            "docs": "node-js",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Node-RED",
+            "docs": "node-red",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "NuGet",
+            "docs": "nuget-source-config",
+            "docsURL": "",
+            "pluginFolder": "nuget-source-config",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "HCL OneTest Server",
+            "docs": "onetest-server",
+            "docsURL": "",
+            "pluginFolder": "onetest-server",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "OpenShift for IBM UrbanCode Deploy",
+            "docs": "openshift",
+            "docsURL": "",
+            "pluginFolder": "openshift",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM InfoSphere Optim",
+            "docs": "optim",
+            "docsURL": "",
+            "pluginFolder": "optim",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Google Android SDK",
+            "docs": "plugin-air-Android",
+            "docsURL": "",
+            "pluginFolder": "plugin-air-Android",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Oracle Service Bus Configuration Management",
+            "docs": "plugin-air-OSB-Configuration-Management",
+            "docsURL": "",
+            "pluginFolder": "plugin-air-OSB-Configuration-Management",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Rational Team Concert Work Items",
+            "docs": "plugin-air-RTC-WorkItems",
+            "docsURL": "",
+            "pluginFolder": "plugin-air-RTC-WorkItems",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Microsoft TFS Work Items",
+            "docs": "plugin-air-TFS-WorkItems",
+            "docsURL": "",
+            "pluginFolder": "plugin-air-TFS-WorkItems",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Oracle WebLogic Integration Resource Management",
+            "docs": "plugin-air-WLI-Resource-Management",
+            "docsURL": "",
+            "pluginFolder": "plugin-air-WLI-Resource-Management",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Oracle WebLogic Server Resource Management",
+            "docs": "plugin-air-WLS-Resource-Management",
+            "docsURL": "",
+            "pluginFolder": "plugin-air-WLS-Resource-Management",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Oracle WebLogic Application Deployment",
+            "docs": "plugin-air-WebLogic-Application-Deployment",
+            "docsURL": "",
+            "pluginFolder": "plugin-air-WebLogic-Application-Deployment",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "PowerShell",
+            "docs": "powershell-integration",
+            "docsURL": "",
+            "pluginFolder": "powershell-integration",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Property Utils",
+            "docs": "property-utils",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Puppet",
+            "docs": "puppet",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Resource Utilities",
+            "docs": "resource-utilities",
+            "docsURL": "",
+            "pluginFolder": "resource-utilities",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Salesforce",
+            "docs": "salesforce",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Send SMTP Email",
+            "docs": "send-smtp-email",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Siebel",
+            "docs": "siebel",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Skytap Automation Pack",
+            "docs": "skytap-automation-pack",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Slack",
+            "docs": "slack",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "GitHub-Release",
+            "docs": "sourceconfig-github-release",
+            "docsURL": "",
+            "pluginFolder": "sourceconfig-github-release",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Nexus Repository Manager V3",
+            "docs": "sourceconfig-nexus-v3",
+            "docsURL": "",
+            "pluginFolder": "sourceconfig-nexus-v3",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "NPM",
+            "docs": "sourceconfig-npm",
+            "docsURL": "",
+            "pluginFolder": "sourceconfig-npm",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Sybase",
+            "docs": "sybase",
+            "docsURL": "",
+            "pluginFolder": "sybase",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Text Utility",
+            "docs": "text-utility",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "TIBCO",
+            "docs": "tibco",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM UrbanCode uBuild",
+            "docs": "uBuild",
+            "docsURL": "",
+            "pluginFolder": "uBuild",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM UrbanCode Build",
+            "docs": "uBuildSourceConfig",
+            "docsURL": "",
+            "pluginFolder": "uBuildSourceConfig",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM UrbanCode Deploy Applications",
+            "docs": "uDeploy-Application",
+            "docsURL": "",
+            "pluginFolder": "uDeploy-Application",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM UrbanCode Deploy Components",
+            "docs": "uDeploy-Component",
+            "docsURL": "",
+            "pluginFolder": "uDeploy-Component",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM UrbanCode Deploy Environments",
+            "docs": "uDeploy-Environment",
+            "docsURL": "",
+            "pluginFolder": "uDeploy-Environment",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM UrbanCode Deploy Process",
+            "docs": "uDeploy-Process",
+            "docsURL": "",
+            "pluginFolder": "uDeploy-Process",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM UrbanCode Deploy Resources",
+            "docs": "uDeploy-Resource",
+            "docsURL": "",
+            "pluginFolder": "uDeploy-Resource",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM UrbanCode Deploy System",
+            "docs": "uDeploy-System",
+            "docsURL": "",
+            "pluginFolder": "uDeploy-System",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM UrbanCode Deploy Versions",
+            "docs": "uDeploy-Version",
+            "docsURL": "",
+            "pluginFolder": "uDeploy-Version",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM UrbanCode Deploy Configuration Management",
+            "docs": "uDeployConfigManagement",
+            "docsURL": "",
+            "pluginFolder": "uDeployConfigManagement",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM UrbanCode Release",
+            "docs": "ucr-plugin",
+            "docsURL": "",
+            "pluginFolder": "ucr-plugin",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Venafi",
+            "docs": "venafi",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "VMware AirWatch",
+            "docs": "vmware-airwatch",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Web Utilities",
+            "docs": "web-utilities",
+            "docsURL": "",
+            "pluginFolder": "web-utilities",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Security Access Manager (WebSEAL)",
+            "docs": "webseal",
+            "docsURL": "",
+            "pluginFolder": "webseal",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "WebSphere Application Server - Install",
+            "docs": "websphere-install",
+            "docsURL": "",
+            "pluginFolder": "websphere-install",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "z/OS External Artifact Repository",
+            "docs": "zOS-external-artifact-download",
+            "docsURL": "",
+            "pluginFolder": "zOS-external-artifact-download",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "z/OS File Source Config",
+            "docs": "zOSFileSourceConfig",
+            "docsURL": "",
+            "pluginFolder": "zOSFileSourceConfig",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "z/OS Dataset Writer",
+            "docs": "zos-dataset-writer",
+            "docsURL": "",
+            "pluginFolder": "zos-dataset-writer",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "z/OS Utility",
+            "docs": "zos-deploy",
+            "docsURL": "",
+            "pluginFolder": "zos-deploy",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "z/OS FTP Utility",
+            "docs": "zos-ftp",
+            "docsURL": "",
+            "pluginFolder": "zos-ftp",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Integration Bus (IIB) plugin Deploy step for zOS",
+            "docs": "zos-ibm-integration-bus-ucd",
+            "docsURL": "",
+            "pluginFolder": "zos-ibm-integration-bus-ucd",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "z/OS Multi Generate Artifact Information",
+            "docs": "zos-multi-generate-artifact-info",
+            "docsURL": "",
+            "pluginFolder": "zos-multi-generate-artifact-info",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "z/OS USS Utility",
+            "docs": "zos-replacetokens-uss",
+            "docsURL": "",
+            "pluginFolder": "zos-replacetokens-uss",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "zOS Rexx Executor",
+            "docs": "zos-rexx",
+            "docsURL": "",
+            "pluginFolder": "zos-rexx",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "z/OS Management Facility",
+            "docs": "zosmf",
+            "docsURL": "",
+            "pluginFolder": "zosmf",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "7zip",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "AgentPropertiesCollector",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "Android",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "Anthill",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "AnthillSourceConfig",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "ApacheHTTPServer",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "ApplicationDeploymentForWebSphere",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "ArtifactoryAuto",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "BMCRemedy",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "CloudFoundry",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "DB2z",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "Docker",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "DockerCompose",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "GeneralUtils",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "GreenHat",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "HCLOneTestServer",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "HPQTP",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "IBMAppScan",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "IBMContainers",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "IBMInstallationManager",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "IBMMiddlewareConfigurationForWebSphere",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "IBMUCDApplications",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "IBMUCDComponents",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "IBMUCDConfigurationManagement",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "IBMUCDEnvironments",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "IBMUCDProcess",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "IBMUCDResources",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "IBMUCDSystem",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "IBMUCDVersionedFileStorage",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "IBMUCDVersions",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "IBMWorklight",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "IISAdminScripts",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "IISAppCmd",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "IISMSDeploy",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "InfoSphereOptim",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "JUnit",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "Jenkins",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "LuntbuildSourceConfig",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "MaaS360",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "MavenResolve",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "MicrosoftSQLServerSQLCmd",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "MicrosoftTFS-WorkItems",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "OSB",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "OracleSQLPlus",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "PowerShell",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "RFT",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "RIT",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "RPT",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "RQM",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "RTWec",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "RationalQualityManager",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "SQLJDBC",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "SalesForce",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "ServiceVirtualization",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "SourceConfig",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "StarTeamSourceConfig",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "SubversionExport",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "TeamCity",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "UrbanCodeRelease",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "WASconfigure",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "WASinstall",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "WLIResourceMgmt",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "WLST",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "WebLogicAppDeploy",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "WebLogicResourceMgmt",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "WebUtilities",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "WindowsFailoverClusters",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "air-terraform",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "bluemix",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "iOS",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "ibm-asoc",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "ibm-rtas",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "jenkins-ucr-plugin",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "maximo",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "plugin-air-InstallationManager",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "plugin-air-iOS",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "sourceconfig-azure",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "tririga",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "zOS",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "zos-mvscommand-plugin",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        }
+    ],
+    "UCR": [
+        {
+            "name": "Deployment Reports",
+            "docs": "DeployReport",
+            "docsURL": "",
+            "pluginFolder": "DeployReport",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Rational Team Concert v6",
+            "docs": "RTC",
+            "docsURL": "",
+            "pluginFolder": "RTC",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Rally",
+            "docs": "Rally",
+            "docsURL": "",
+            "pluginFolder": "Rally",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM UrbanCode Deploy",
+            "docs": "ibm-urbancode-deploy",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ServiceNow",
+            "docs": "servicenow-4",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Jenkins for IBM UrbanCode Release",
+            "docs": "ucr-jenkins-ci",
+            "docsURL": "",
+            "pluginFolder": "ucr-jenkins-ci",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Ansible Tower",
+            "docs": "ucr-plugin-ansible",
+            "docsURL": "",
+            "pluginFolder": "ucr-plugin-ansible",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "HP Quality Center (ALM)",
+            "docs": "ucr-plugin-hp-alm",
+            "docsURL": "",
+            "pluginFolder": "ucr-plugin-hp-alm",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Jira for IBM UrbanCode Release",
+            "docs": "ucr-plugin-jira",
+            "docsURL": "",
+            "pluginFolder": "ucr-plugin-jira",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "CA Nolio",
+            "docs": "ucr-plugin-nolio",
+            "docsURL": "",
+            "pluginFolder": "ucr-plugin-nolio",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Slack for IBM UrbanCode Release",
+            "docs": "ucr-plugin-slack",
+            "docsURL": "",
+            "pluginFolder": "ucr-plugin-slack",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Microsoft Team Foundation Server (TFS)",
+            "docs": "ucr-plugin-tfs",
+            "docsURL": "",
+            "pluginFolder": "ucr-plugin-tfs",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "XL Deploy",
+            "docs": "ucr-xl-deploy",
+            "docsURL": "",
+            "pluginFolder": "ucr-xl-deploy",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "jenkins-ucr-plugin",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "reporting-ucd-plugin",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "sync-ucd-plugin",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "sync-ucr-plugin",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "ucr-plugin-deploy",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "ucr-plugin-jenkins",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "ucr-plugin-servicenow",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "ucr-plugin-uccloud",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        }
+    ],
+    "UCV": [
+        {
+            "name": "Selenium",
+            "docs": "selenium-ucv",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "TestComplete",
+            "docs": "testcomplete-ucv",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Digital.ai Agility",
+            "docs": "ucv-ext-agility",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-agility",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "HCL AppScan Enterprise (ASE)",
+            "docs": "ucv-ext-appscan",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-appscan",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "HCL AppScan on Cloud (ASoC)",
+            "docs": "ucv-ext-asoc",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-asoc",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Azure DevOps",
+            "docs": "ucv-ext-azure",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-azure",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "BitBucket Cloud",
+            "docs": "ucv-ext-bitbucket-cloud",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-bitbucket-cloud",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "BitBucket Server",
+            "docs": "ucv-ext-bitbucket-server",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-bitbucket-server",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Black Duck",
+            "docs": "ucv-ext-blackduck",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-blackduck",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "CircleCI",
+            "docs": "ucv-ext-circleci",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-circleci",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Code Coverage",
+            "docs": "ucv-ext-coverage-core",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-coverage-core",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Cucumber",
+            "docs": "ucv-ext-cucumber",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-cucumber",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "GitHub Dependabot",
+            "docs": "ucv-ext-dependabot",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-dependabot",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "IBM Engineering Workflow Management (EWM)",
+            "docs": "ucv-ext-ewm",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-ewm",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Fortify SSC",
+            "docs": "ucv-ext-fortify-ssc",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-fortify-ssc",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "GitHub",
+            "docs": "ucv-ext-github",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-github",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "GitLab",
+            "docs": "ucv-ext-gitlab",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-gitlab",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Handlebar Reporter",
+            "docs": "ucv-ext-handlebars-reporter",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-handlebars-reporter",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Jira",
+            "docs": "ucv-ext-jira",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-jira",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Apache JMeter",
+            "docs": "ucv-ext-jmeter",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-jmeter",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "JUnit",
+            "docs": "ucv-ext-junit",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-junit",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Planview Leankit",
+            "docs": "ucv-ext-leankit",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-leankit",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "HCL OneTest",
+            "docs": "ucv-ext-onetest",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-onetest",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "HCL OneTest Server",
+            "docs": "ucv-ext-onetest-server",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-onetest-server",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Rally",
+            "docs": "ucv-ext-rally",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-rally",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Rational Test Automation Server",
+            "docs": "ucv-ext-rtas",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-rtas",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "SAP ChaRM",
+            "docs": "ucv-ext-sap-charm",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-sap-charm",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "ServiceNow",
+            "docs": "ucv-ext-servicenow",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-servicenow",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Shell",
+            "docs": "ucv-ext-shell",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-shell",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Snyk",
+            "docs": "ucv-ext-snyk",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-snyk",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "SonarQube",
+            "docs": "ucv-ext-sonarqube",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-sonarqube",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "TestNG",
+            "docs": "ucv-ext-testng",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-testng",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Twistlock",
+            "docs": "ucv-ext-twistlock",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-twistlock",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Urbancode Deploy",
+            "docs": "ucv-ext-ucd",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-ucd",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "CollabNet VersionOne",
+            "docs": "ucv-ext-versionone",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-versionone",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Microsoft Visual Studio Testing",
+            "docs": "ucv-ext-vs-quality",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-vs-quality",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "WhiteSource",
+            "docs": "ucv-ext-whitesource",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-whitesource",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "Jenkins For Urbancode Velocity",
+            "docs": "urbancode-velocity",
+            "docsURL": "",
+            "pluginFolder": "",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "CICS",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "acc-ext-generator",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "jenkins",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-bottleneck-detection",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-jenkins",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-jira-test",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-salesforce",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        },
+        {
+            "name": "DOCS-NOT-FOUND",
+            "docs": "",
+            "docsURL": "",
+            "pluginFolder": "ucv-ext-sdk-template",
+            "files": [],
+            "description": "",
+            "specification": {
+                "category": "",
+                "type": ""
+            },
+            "author": {
+                "name": "urbancode",
+                "email": "urbancode-plugin@urbancode.com"
+            }
+        }
+    ]
 }
