@@ -112,6 +112,35 @@ def get_docfile_template():
         DOCFILE_FOLDER_NAME:""
     }
 
+# 
+
+# get Info name from header of README.md
+
+def get_title_from_file(filename):
+    logger1.info (f"File={filename}")
+    title= ""
+    lines=[]
+    with open(filename) as myfile:
+        lines=myfile.readlines()[0:5] #put here the interval you want
+
+    for line in lines:
+        logger1.info(f"line={line}")
+        if line.startswith("#"):
+            title = line.strip("#").strip()  # remove "#" and any additional whitespace
+            logger1.info (f"title={title}")
+            break
+
+    if title=="":
+        titlefound = False
+        for line in reversed(lines):
+            if titlefound: 
+                title = line.strip()
+                break
+            if line.startswith("="):
+                titlefound = True
+    return title
+
+
 def get_name_from_header(mddata):
     docfilename= "Readme"
 

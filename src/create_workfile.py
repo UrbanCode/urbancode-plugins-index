@@ -13,16 +13,16 @@ import uc_docs_utilities as docutil
 script_name = "create_workfile"
 
 logging.basicConfig()
-logging.root.setLevel(logging.DEBUG)
+logging.root.setLevel(logging.INFO)
 logging.basicConfig(format="[%(filename)s:%(lineno)s - %(funcName)20s() ] %(message)s")
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.INFO)
 
 # create file handler which logs even debug messages
 fh = logging.FileHandler(f"{script_name}.log", 'w+')
-fh.setLevel(logging.DEBUG)
+fh.setLevel(logging.INFO)
 # create console handler with a higher log level
 ch = logging.StreamHandler()
-ch.setLevel(logging.DEBUG)
+ch.setLevel(logging.INFO)
 lformat=logging.Formatter("[%(filename)s:%(lineno)s - %(funcName)20s() ] %(message)s")
 
 fh.setFormatter(lformat)
@@ -59,10 +59,13 @@ def get_list_of_all_names(docs, files):
         oneplugin=docutil.get_info_template()
         oneplugin[docutil.INFO_DOCS] = docitem
         if (docitem in all_plugin_files_dir_name):
-            oneplugin[docutil.INFO_NAME] = docitem
+            # oneplugin[docutil.INFO_NAME] = docitem
             oneplugin[docutil.INFO_PLUGIN_FOLDER] = docitem
         else:
             oneplugin[docutil.INFO_NAME] = "PLUGINS-NOT-FOUND"
+        
+        oneplugin[docutil.INFO_NAME] = docutil.get_title_from_file(f"{docs}/{docitem}/README.md")
+
         listofplugins.append(oneplugin)
 
     for plugitem in all_plugin_files_dir_name:
@@ -87,22 +90,19 @@ def get_workfile(config):
 
     adict = {
             "UCB":get_list_of_all_names(UCB_Docs, UCB_Files),
-            "UCD":get_list_of_all_names(UCD_Docs, UCD_Files),
-            "UCR":get_list_of_all_names(UCR_Docs, UCR_Files),
-            "UCV":get_list_of_all_names(UCV_Docs, UCV_Files),}
+            "UCD":"", # "UCD":get_list_of_all_names(UCD_Docs, UCD_Files),
+            "UCR":"", # "UCR":get_list_of_all_names(UCR_Docs, UCR_Files),
+            "UCV":"" # "UCV":get_list_of_all_names(UCV_Docs, UCV_Files)
+            }
 
 
     return adict
 
 def main():
     config = ucutil.get_config()
-    #logger1.info (f"path {config[ucutil.PLUGIN_DOCS_ROOT]}/{config[ucutil.PLUGIN_DOCS_FOLDER]}/UCB")
-    # all_plugin_doc_dir_names=get_plugin_dir_names(f"{config[ucutil.PLUGIN_DOCS_ROOT]}/{config[ucutil.PLUGIN_DOCS_FOLDER]}/UCB")
-    # logger1.info(f"all plugin doc folders: {all_plugin_doc_dir_names}")
-    # all_plugin_files_dir_name=get_plugin_dir_names(f"{config[ucutil.UCB_PLUGIN_FILES_ROOT]}/{config[ucutil.UCX_PLUGIN_FILES_FOLDER]}")
-    # logger1.info(f"all plugin files folders: {all_plugin_files_dir_name}")
+
     adict = get_workfile(config)
-    logger1.info(f"adict={adict}")
+    logger1.debug(f"adict={adict}")
 
     with open (f"list.json", "w") as f:
         json.dump(adict,f, indent=4)
