@@ -980,7 +980,7 @@
             "name": "LogiGear TestArchitect for IBM UrbanCode Build",
             "docs": "logigear-testarchitect-2",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/IBM-UrbanCode/LogiGear-TestArchitect-UCB-UCD",
             "files": [],
             "description": "",
             "specification": {
@@ -1142,7 +1142,7 @@
             "name": "7-Zip",
             "docs": "7-zip",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/7-Zip-UCD",
             "files": [],
             "description": "",
             "specification": {
@@ -1750,7 +1750,7 @@
             "name": "Informatica",
             "docs": "Informatica",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/Informatica-UCD",
             "files": [],
             "description": "",
             "specification": {
@@ -2710,7 +2710,7 @@
             "name": "Actifio",
             "docs": "actifio",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/Actifio/act-ucd-plugin",
             "files": [],
             "description": "",
             "specification": {
@@ -2774,7 +2774,7 @@
             "name": "Ansible",
             "docs": "ansible",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/Ansible-Toolkit-UCD",
             "files": [],
             "description": "",
             "specification": {
@@ -2822,7 +2822,7 @@
             "name": "Apple Xcode",
             "docs": "apple-xcode",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/Apple-Xcode-UCD",
             "files": [],
             "description": "",
             "specification": {
@@ -2950,7 +2950,7 @@
             "name": "Box",
             "docs": "box",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/Box-UCD",
             "files": [],
             "description": "",
             "specification": {
@@ -3078,7 +3078,7 @@
             "name": "Datical DB",
             "docs": "datical-db",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/IBM-UrbanCode/DaticalDB-UCD-UCB",
             "files": [],
             "description": "",
             "specification": {
@@ -3174,7 +3174,7 @@
             "name": "Git Install",
             "docs": "git-install",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/Git-Install-UCD",
             "files": [],
             "description": "",
             "specification": {
@@ -3286,7 +3286,7 @@
             "name": "IBM Installation Manager",
             "docs": "ibm-installation-manager",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/IBM-UrbanCode/IBM-Installation-Manager-UCD",
             "files": [],
             "description": "",
             "specification": {
@@ -3318,7 +3318,7 @@
             "name": "IBM MaaS360",
             "docs": "ibm-maas360",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/IBM-MaaS360-UCD",
             "files": [],
             "description": "",
             "specification": {
@@ -3350,7 +3350,7 @@
             "name": "IBM MQ for z/OS - Generate MQSC Commands",
             "docs": "ibm-mq-for-z-os-generate-mqsc-commands",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/IBM-UrbanCode/IBM-MQ-zOS-UCD",
             "files": [],
             "description": "",
             "specification": {
@@ -3462,7 +3462,7 @@
             "name": "IBM Sterling B2B Integrator",
             "docs": "ibm-sterling-b2b-integrator",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/IBM-Sterling-B2B-Integrator-UCD",
             "files": [],
             "description": "",
             "specification": {
@@ -3478,7 +3478,7 @@
             "name": "IBM VDP",
             "docs": "ibm-vdp",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/Actifio/vdp-ucd-plugin",
             "files": [],
             "description": "",
             "specification": {
@@ -3494,7 +3494,7 @@
             "name": "IBM Workload Automation",
             "docs": "ibm-workload-automation",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/IBM-Workload-Automation-UCD",
             "files": [],
             "description": "",
             "specification": {
@@ -3574,7 +3574,7 @@
             "name": "JBoss-ON",
             "docs": "jboss-on",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/JBoss-ON-UCD",
             "files": [],
             "description": "",
             "specification": {
@@ -3654,7 +3654,7 @@
             "name": "Liquibase",
             "docs": "liquibase",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/Liquibase-UCD",
             "files": [],
             "description": "",
             "specification": {
@@ -3670,7 +3670,7 @@
             "name": "LogiGear TestArchitect",
             "docs": "logigear-testarchitect",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/LogiGear-TestArchitect-UCB-UCD",
             "files": [],
             "description": "",
             "specification": {
@@ -3734,7 +3734,7 @@
             "name": "New Relic",
             "docs": "new-relic",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/New-Relic-UCD",
             "files": [],
             "description": "",
             "specification": {
@@ -3782,7 +3782,7 @@
             "name": "Node.js",
             "docs": "node-js",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/Node.js-UCD",
             "files": [],
             "description": "",
             "specification": {
@@ -3798,7 +3798,7 @@
             "name": "Node-RED",
             "docs": "node-red",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/Node-RED-UCD",
             "files": [],
             "description": "",
             "specification": {
@@ -4006,7 +4006,7 @@
             "name": "Property Utils",
             "docs": "property-utils",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/Property-Utils-UCD",
             "files": [],
             "description": "",
             "specification": {
@@ -4022,7 +4022,7 @@
             "name": "Puppet",
             "docs": "puppet",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/Puppet-UCD",
             "files": [],
             "description": "",
             "specification": {
@@ -4086,7 +4086,7 @@
             "name": "Siebel",
             "docs": "siebel",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/Siebel-UCD",
             "files": [],
             "description": "",
             "specification": {
@@ -4118,7 +4118,7 @@
             "name": "Slack",
             "docs": "slack",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/Slack-UCD",
             "files": [],
             "description": "",
             "specification": {
@@ -4198,7 +4198,7 @@
             "name": "Text Utility",
             "docs": "text-utility",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/Text-Utils-UCD",
             "files": [],
             "description": "",
             "specification": {
@@ -4406,7 +4406,7 @@
             "name": "Venafi",
             "docs": "venafi",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/Venafi-UCD",
             "files": [],
             "description": "",
             "specification": {
@@ -4422,7 +4422,7 @@
             "name": "VMware AirWatch",
             "docs": "vmware-airwatch",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/AirWatch-UCD",
             "files": [],
             "description": "",
             "specification": {

@@ -5,12 +5,12 @@
             "name": "7-Zip",
             "docs": "7-zip",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/7-Zip-UCD",
             "files": [],
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -613,12 +613,12 @@
             "name": "Informatica",
             "docs": "Informatica",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/Informatica-UCD",
             "files": [],
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -1573,7 +1573,7 @@
             "name": "Actifio",
             "docs": "actifio",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/Actifio/act-ucd-plugin",
             "files": [],
             "description": "",
             "specification": {

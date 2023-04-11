@@ -140,6 +140,16 @@ def get_title_from_file(filename):
                 titlefound = True
     return title
 
+def get_source_repository_from_file(filename):
+    source_repo_url = ""
+    with open(filename) as file:
+       for line in file:
+        if "[Source project](" in line:
+            print ("found the line")
+            splitted = line.split("[Source project](")
+            source_repo_url = splitted[1].strip()[:-1]
+            break
+    return source_repo_url
 
 def get_name_from_header(mddata):
     docfilename= "Readme"

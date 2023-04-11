@@ -62,7 +62,7 @@ def get_list_of_all_names(docs, files):
             # oneplugin[docutil.INFO_NAME] = docitem
             oneplugin[docutil.INFO_PLUGIN_FOLDER] = docitem
         else:
-            oneplugin[docutil.INFO_NAME] = "PLUGINS-NOT-FOUND"
+            oneplugin[docutil.INFO_PLUGIN_FOLDER] = docutil.get_source_repository_from_file(f"{docs}/{docitem}/README.md")
         
         oneplugin[docutil.INFO_NAME] = docutil.get_title_from_file(f"{docs}/{docitem}/README.md")
 
