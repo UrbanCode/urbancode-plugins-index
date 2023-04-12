@@ -932,12 +932,12 @@
             "name": "Gradle for IBM UrbanCode Build",
             "docs": "gradle-2",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/Gradle-UCB",
             "files": [],
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -985,7 +985,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -1147,7 +1147,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -2715,7 +2715,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Partner"
             },
             "author": {
                 "name": "urbancode",
@@ -2779,7 +2779,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -2790,12 +2790,12 @@
             "name": "Apache Hadoop",
             "docs": "apache-hadoop",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/Hadoop-UCD",
             "files": [],
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -2827,7 +2827,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -2838,12 +2838,12 @@
             "name": "Apprenda",
             "docs": "apprenda",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/apprenda/Urbancode-Automation-Plugin",
             "files": [],
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Partner"
             },
             "author": {
                 "name": "urbancode",
@@ -2891,7 +2891,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Partner"
             },
             "author": {
                 "name": "urbancode",
@@ -2955,7 +2955,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -3003,7 +3003,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -3083,7 +3083,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Partner"
             },
             "author": {
                 "name": "urbancode",
@@ -3099,7 +3099,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Partner"
             },
             "author": {
                 "name": "urbancode",
@@ -3147,7 +3147,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Partner"
             },
             "author": {
                 "name": "urbancode",
@@ -3179,7 +3179,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -3211,7 +3211,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -3270,12 +3270,12 @@
             "name": "IBM Globalization Pipeline",
             "docs": "ibm-globalization-pipeline",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/IBM-Bluemix/gp-ucd-plugin",
             "files": [],
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -3323,7 +3323,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -3355,7 +3355,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -3403,7 +3403,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -3414,12 +3414,12 @@
             "name": "IBM Rational ClearQuest",
             "docs": "ibm-rational-clearquest",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/Rational-ClearQuest-UCD",
             "files": [],
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -3467,7 +3467,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -3483,7 +3483,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Partner"
             },
             "author": {
                 "name": "urbancode",
@@ -3499,7 +3499,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -3579,7 +3579,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -3590,12 +3590,12 @@
             "name": "Jenkins Job Manager",
             "docs": "jenkins-job-manager",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/Jenkins-Job-Manager-UCD",
             "files": [],
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -3659,7 +3659,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -3675,7 +3675,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -3707,7 +3707,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Partner"
             },
             "author": {
                 "name": "urbancode",
@@ -3739,7 +3739,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -3787,7 +3787,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -3803,7 +3803,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -4011,7 +4011,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -4027,7 +4027,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -4070,12 +4070,12 @@
             "name": "Send SMTP Email",
             "docs": "send-smtp-email",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/Send-SMTP-Email-UCD",
             "files": [],
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -4091,7 +4091,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -4102,12 +4102,12 @@
             "name": "Skytap Automation Pack",
             "docs": "skytap-automation-pack",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/skytap/Skytap-UCD-Plugin",
             "files": [],
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Partner"
             },
             "author": {
                 "name": "urbancode",
@@ -4123,7 +4123,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -4203,7 +4203,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -4214,12 +4214,12 @@
             "name": "TIBCO",
             "docs": "tibco",
             "docsURL": "",
-            "pluginFolder": "",
+            "pluginFolder": "https://github.com/UrbanCode/Tibco-UCD",
             "files": [],
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -4411,7 +4411,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",
@@ -4427,7 +4427,7 @@
             "description": "",
             "specification": {
                 "category": "",
-                "type": ""
+                "type": "Community"
             },
             "author": {
                 "name": "urbancode",

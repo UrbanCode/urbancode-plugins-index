@@ -26,7 +26,7 @@ There are 2 main file types that must abide by strict guidelines:
     | description            | string | yes      | A short description about what the plugin does. This should provide enough context for a user to determine whether the plugin is right for their needs. |
     | specification          | object | yes      | Specifiying the plugin |
     | specification.category | string | yes      |  SCM; Source; Automation; ??? |
-    | specification.type     | string | yes      |  OSS (for opensource); PARTNER, IBM; ??? |
+    | specification.type     | string | yes      |  Community (for opensource); Partner, IBM; ??? |
     | author                 | object | yes      | Who is responsible for creating/updating the plugin. This will let a user know who is responsible for maintaining the plugin. |
     | author.name            | string | yes      | The name of the author. If the plugin is tied to an organization, this should be the name of the organization. A user might check this name to ensure the plugin is written by a reliable source. |
     | author.email           | string | yes      | The email of the author. If the plugin is tied to an organization, this should be an email within the organization. A user might reach out to this email for support or to report a bug.          |

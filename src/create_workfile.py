@@ -39,13 +39,31 @@ def get_plugin_dir_names(src):
     src = os.path.abspath(src)
     logger1.info(f"Source: {src}")
 
-    # for root, dirs, files in os.walk(src):
-    #     logger1.info (f"root={root} - dirs={dirs}")
-    #     for dirname in dirs:
-    #         logger1.info (f"dirname={dirname}")            
     list_subfolders_with_paths = [f.name for f in os.scandir(src) if f.is_dir()]
-    # logger1.info (f"list_subfoldes={list_subfolders_with_paths}")
     return sorted(list_subfolders_with_paths)
+
+# try to find the plug-in type
+# either text is found " is a community plug-in" or "This plug-in is developed and supported by the UrbanCode Deploy Community" or "This community supported plug-in " or "is a community supported plug-in"
+# or for partner "This is a partner plug-in" or "This is a partner provided plugin."
+
+def get_plugin_specification(docs_path):
+    plugin_specification = docutil.get_plugin_specification_template()
+
+    community_indicator=["is a community plug-in", "This plug-in is developed and supported by the UrbanCode Deploy Community", "community supported plug-in", "This plug-in is developed and supported by the UrbanCode Build Community"]
+    partner_indicator=["This is a partner plug-in", "This is a partner provided plugin"]
+
+    filename= f"{docs_path}/README.md"
+    source_repo_url = ""
+    with open(filename) as file:
+        for line in file:
+            if bool([x for x in community_indicator if (x in line)]):
+                plugin_specification[docutil.PLUGIN_SPECIFICATION_TYPE] = docutil.PLUGIN_TYPE_COMMUNITY
+                break
+            if bool([x for x in partner_indicator if (x in line)]):
+                plugin_specification[docutil.PLUGIN_SPECIFICATION_TYPE] = docutil.PLUGIN_TYPE_PARTNER
+                break
+
+    return plugin_specification
 
 def get_list_of_all_names(docs, files):
     listofplugins=[]
@@ -63,6 +81,7 @@ def get_list_of_all_names(docs, files):
             oneplugin[docutil.INFO_PLUGIN_FOLDER] = docitem
         else:
             oneplugin[docutil.INFO_PLUGIN_FOLDER] = docutil.get_source_repository_from_file(f"{docs}/{docitem}/README.md")
+            oneplugin[docutil.INFO_PLUGIN_SPECIFICATION] = get_plugin_specification(f"{docs}/{docitem}")
         
         oneplugin[docutil.INFO_NAME] = docutil.get_title_from_file(f"{docs}/{docitem}/README.md")
 

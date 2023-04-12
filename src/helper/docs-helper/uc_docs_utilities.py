@@ -73,6 +73,10 @@ def get_plugin_specification_template():
         PLUGIN_SPECIFICATION_TYPE: ""
     }
 
+PLUGIN_TYPE_COMMUNITY="Community"
+PLUGIN_TYPE_PARTNER="Partner"
+PLUGIN_TYPE_DEFAULT="IBM"
+
 # info template field names
 INFO_NAME="name"
 INFO_DOCS="docs"
