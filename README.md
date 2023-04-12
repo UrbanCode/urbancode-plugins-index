@@ -20,9 +20,9 @@ There are 2 main file types that must abide by strict guidelines:
     | Field                  | Type   | Required | Description             |
     |------------------------|--------|----------|-------------------------|
     | name                   | string | yes      | The display name of the plugin. This is how users will identify the plugin in UrbanCode xxx.  |
-    | docs                   | string | yes      | Documentation directory name |
+    | docs_folder            | string | yes      | Documentation directory name |
     | docsURL                | string | yes      | A URL to a website containing information about the plugin. A user would use this information to find out more about the plugin |
-    | files                  | string | yes      | Plugin files directory |
+    | plugin_files           | string | yes      | Plugin files directory |
     | description            | string | yes      | A short description about what the plugin does. This should provide enough context for a user to determine whether the plugin is right for their needs. |
     | specification          | object | yes      | Specifiying the plugin |
     | specification.category | string | yes      |  SCM; Source; Automation; ??? |

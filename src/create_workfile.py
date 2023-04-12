@@ -75,7 +75,8 @@ def get_list_of_all_names(docs, files):
 
     for docitem in all_plugin_doc_dir_names:
         oneplugin=docutil.get_info_template()
-        oneplugin[docutil.INFO_DOCS] = docitem
+        oneplugin[docutil.INFO_DOCS_FOLDER] = docitem
+        oneplugin["NEW_FOLDER_NAME"]=docitem.lower
         if (docitem in all_plugin_files_dir_name):
             # oneplugin[docutil.INFO_NAME] = docitem
             oneplugin[docutil.INFO_PLUGIN_FOLDER] = docitem

@@ -57,8 +57,8 @@ AUTHOR_EMAIL="email"
 # Author details, default to urbancode
 def get_author_template():
     return {
-        AUTHOR_NAME: "urbancode",
-        AUTHOR_EMAIL: "urbancode-plugin@urbancode.com"
+        AUTHOR_NAME: "",
+        AUTHOR_EMAIL: ""
     }
 
 # Plugin specification field names
@@ -79,26 +79,24 @@ PLUGIN_TYPE_DEFAULT="IBM"
 
 # info template field names
 INFO_NAME="name"
-INFO_DOCS="docs"
+INFO_DOCS_FOLDER="docs_folder"
 INFO_DOCS_URL="docsURL"
-INFO_FILES="files"
-INFO_PLUGIN_FOLDER="pluginFolder"
+INFO_PLUGIN_FOLDER="plugin_folder"
 INFO_DESCRIPTION="description"
 INFO_PLUGIN_SPECIFICATION="specification"
 INFO_AUTHOR="author"
+INFO_FILES="files"
 INFO_DOC_FILES="docFiles"
 
 def get_info_template():
     return {
         INFO_NAME: "",
-        INFO_DOCS: "",
+        INFO_DOCS_FOLDER: "",
         INFO_DOCS_URL: "",
         INFO_PLUGIN_FOLDER:"",
-        INFO_FILES: [],
         INFO_DESCRIPTION: "",
         INFO_PLUGIN_SPECIFICATION: get_plugin_specification_template(),
         INFO_AUTHOR: get_author_template()
-
     }
 
 # Document files fieldnames. Can contain sub documents and will have same structure!
