@@ -9,3 +9,57 @@ dir_list=['overview.md', 'troubleshooting.md', 'usage.md', 'usage-pages', 'READM
 
 
 -authtoken 681881a6-2ac7-4e84-9e14-5ed8cefec32f -weburl https://ucd.nbg-demo.cloud:8443 getAllApplicationProcessesForApplication -application DUMMY
+
+
+Categories:
+Partner Plugins
+Source Config Plugins
+Community
+Application Server
+Automation
+Build Systems
+Change Management
+Cloud
+Configuration
+Cotainers
+Database
+IBM UrbanCode Deploy
+IBM UrbanCode Mobile App
+IBM URbanCode Release
+Infrastructure
+Internet of Things       tag - term_id 231
+Issue Tracking
+Java
+Load Balancing
+Mainframe
+Middleware
+Mobile
+PaaS                     tag - term_id 200
+Package Installers
+
+		<wp:tag>
+			<wp:term_id>233</wp:term_id>
+			<wp:tag_slug><![CDATA[project-and-issue-tracking]]></wp:tag_slug>
+			<wp:tag_name><![CDATA[Project and Issue Tracking]]></wp:tag_name>
+		</wp:tag>
+		<wp:tag>
+			<wp:term_id>197</wp:term_id>
+			<wp:tag_slug><![CDATA[issue-tracking]]></wp:tag_slug>
+			<wp:tag_name><![CDATA[Issue Tracking]]></wp:tag_name>
+		</wp:tag>
+
+a plugin can have several "post_tag" lines:
+			<category domain="post_tag" nicename="issue-tracking"><![CDATA[Issue Tracking]]></category>
+			<category domain="post_tag" nicename="quality"><![CDATA[Quality]]></category>
+
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[type]]></wp:meta_key>
+				<wp:meta_value><![CDATA[source config plugin]]></wp:meta_value>
+			</wp:postmeta>
+			
+			<category domain="category" nicename="community"><![CDATA[Community]]></category>
+			<category domain="post_tag" nicename="internet-of-things"><![CDATA[Internet of Things]]></category>
+			<wp:postmeta>
+				<wp:meta_key><![CDATA[category]]></wp:meta_key>
+				<wp:meta_value><![CDATA[community]]></wp:meta_value>
+			</wp:postmeta>

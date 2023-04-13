@@ -33,6 +33,12 @@ logger1 = logging.getLogger(script_name)
 logger1.addHandler(fh)
 logger1.addHandler(ch)
 
+# generator function to iterate over files in path
+def get_files(path):
+    for file in os.listdir(path):
+        if os.path.isfile(os.path.join(path, file)):
+            yield file
+
 def get_plugin_dir_names(src):
     # getting the absolute path of the source
     # directory
@@ -65,6 +71,15 @@ def get_plugin_specification(docs_path):
 
     return plugin_specification
 
+def get_list_of_plugin_files(plugin_path):
+    logger1.debug(f"{plugin_path}")
+    files=[]
+    for file in get_files(plugin_path):
+        file_info = docutil.get_release_template()
+        file_info[docutil.RELEASE_FILE]=file
+        files.append(file_info)
+    return files
+
 def get_list_of_all_names(docs, files):
     listofplugins=[]
 
@@ -75,17 +90,17 @@ def get_list_of_all_names(docs, files):
 
     for docitem in all_plugin_doc_dir_names:
         oneplugin=docutil.get_info_template()
+        oneplugin[docutil.INFO_NAME] = docutil.get_title_from_file(f"{docs}/{docitem}/README.md")
         oneplugin[docutil.INFO_DOCS_FOLDER] = docitem
-        oneplugin["NEW_FOLDER_NAME"]=docitem.lower
+        oneplugin["NEW_FOLDER_NAME"]=str(docitem).lower()
         if (docitem in all_plugin_files_dir_name):
             # oneplugin[docutil.INFO_NAME] = docitem
             oneplugin[docutil.INFO_PLUGIN_FOLDER] = docitem
+            oneplugin["PLUGIN_FILES"]=get_list_of_plugin_files(f"{files}/{docitem}")
         else:
             oneplugin[docutil.INFO_PLUGIN_FOLDER] = docutil.get_source_repository_from_file(f"{docs}/{docitem}/README.md")
             oneplugin[docutil.INFO_PLUGIN_SPECIFICATION] = get_plugin_specification(f"{docs}/{docitem}")
         
-        oneplugin[docutil.INFO_NAME] = docutil.get_title_from_file(f"{docs}/{docitem}/README.md")
-
         listofplugins.append(oneplugin)
 
     for plugitem in all_plugin_files_dir_name:
@@ -93,6 +108,7 @@ def get_list_of_all_names(docs, files):
             oneplugin=docutil.get_info_template()
             oneplugin[docutil.INFO_NAME] = "DOCS-NOT-FOUND"
             oneplugin[docutil.INFO_PLUGIN_FOLDER] = plugitem
+            oneplugin["PLUGIN_FILES"]=get_list_of_plugin_files(f"{files}/{plugitem}")
             listofplugins.append(oneplugin)        
     return listofplugins
 
@@ -110,9 +126,9 @@ def get_workfile(config):
 
     adict = {
             "UCB" : get_list_of_all_names(UCB_Docs, UCB_Files),
-            "UCD" : get_list_of_all_names(UCD_Docs, UCD_Files),
-            "UCR" : get_list_of_all_names(UCR_Docs, UCR_Files),
-            "UCV" : get_list_of_all_names(UCV_Docs, UCV_Files)
+            "UCD" : [], # get_list_of_all_names(UCD_Docs, UCD_Files),
+            "UCR" : [], # get_list_of_all_names(UCR_Docs, UCR_Files),
+            "UCV" : [] # get_list_of_all_names(UCV_Docs, UCV_Files)
             }
 
 
