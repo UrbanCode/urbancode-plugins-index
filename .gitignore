@@ -160,3 +160,4 @@ cython_debug/
 #.idea/
 src/helper/clone-structure/bin
 src/helper/clone-structure/lib/python3.10/site-packages
+src/info.xml

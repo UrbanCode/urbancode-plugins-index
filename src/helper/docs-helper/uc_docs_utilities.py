@@ -62,14 +62,14 @@ def get_author_template():
     }
 
 # Plugin specification field names
-PLUGIN_SPECIFICATION_CATEGORY="category"
+PLUGIN_SPECIFICATION_CATEGORIES="categories"
 PLUGIN_SPECIFICATION_TYPE="type"
 
 # category: SCM, Source, Automation, ..
 # type: OSS, PARTNER, IBM, ..
 def get_plugin_specification_template():
     return {
-        PLUGIN_SPECIFICATION_CATEGORY: "",
+        PLUGIN_SPECIFICATION_CATEGORIES: [],
         PLUGIN_SPECIFICATION_TYPE: ""
     }
 
@@ -119,14 +119,14 @@ def get_docfile_template():
 # get Info name from header of README.md
 
 def get_title_from_file(filename):
-    logger1.info (f"File={filename}")
+    logger1.debug (f"File={filename}")
     title= ""
     lines=[]
     with open(filename) as myfile:
         lines=myfile.readlines()[0:5] #put here the interval you want
 
     for line in lines:
-        logger1.info(f"line={line}")
+        logger1.debug(f"line={line}")
         if line.startswith("#"):
             title = line.strip("#").strip()  # remove "#" and any additional whitespace
             logger1.info (f"title={title}")
