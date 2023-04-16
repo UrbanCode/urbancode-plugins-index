@@ -82,6 +82,7 @@ INFO_NAME="name"
 INFO_DOCS_FOLDER="docs_folder"
 INFO_DOCS_URL="docsURL"
 INFO_PLUGIN_FOLDER="plugin_folder"
+INFO_SOURCE_PROJECT="source_project"
 INFO_DESCRIPTION="description"
 INFO_PLUGIN_SPECIFICATION="specification"
 INFO_AUTHOR="author"
@@ -94,6 +95,7 @@ def get_info_template():
         INFO_DOCS_FOLDER: "",
         INFO_DOCS_URL: "",
         INFO_PLUGIN_FOLDER:"",
+        INFO_SOURCE_PROJECT: "",
         INFO_DESCRIPTION: "",
         INFO_PLUGIN_SPECIFICATION: get_plugin_specification_template(),
         INFO_AUTHOR: get_author_template()

@@ -3,6 +3,8 @@ import logging
 import sys
 import json
 from zipfile import ZipFile
+import xmltodict
+import zipfile
 import pathlib
 import datetime
 
@@ -41,14 +43,6 @@ def get_extended_release_template():
     extended_template=docutil.get_release_template()
     extended_template[docutil.INFO_DESCRIPTION] = ""
     return extended_template
- #   return {
-        # RELEASE_VERSION:"", 
-        # RELEASE_SEMVER:"", 
-        # RELEASE_DATE:"",  
-        # RELEASE_FILE:"",
-        # RELEASE_NOTES:[],
-        # RELEASE_SUPPORTS:""
- #   }
 
 # generator function to iterate over files in path
 def get_files(path):
@@ -91,17 +85,7 @@ def get_plugin_specification(docs_path):
 def remove_new_lines(value):
     return ''.join(value.splitlines())
 
-import xmltodict
-import zipfile
-
 def get_release_notes (doc, semver):
-#         <release-note plugin-version="4">
-#       Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE.
-#     </release-note>
-
-#   </release-notes>
-#release-note': [{'@plugin-version': '1', '#text': 
-
     logger1.debug(f"doc={doc}")
     version = str(semver.split(".")[0])
     logger1.debug(f"version={version}")
@@ -111,17 +95,98 @@ def get_release_notes (doc, semver):
     logger1.debug(f"raw_release_notes={raw_release_notes}")
 
     # some files do not have an array
+    if not(raw_release_notes): return []
+
     if not (isinstance(raw_release_notes, list)):
-        if (str(raw_release_notes['@plugin-version']) == version): 
-            release_notes = raw_release_notes['#text'].splitlines()
+        if (str(raw_release_notes.get('@plugin-version', "")) == version): 
+            release_notes = raw_release_notes.get('#text', "").splitlines()
     else:
         for release_note in raw_release_notes:
             logger1.debug(f"release_note={release_note}")
-            if (str(release_note['@plugin-version']) == version): 
-                release_notes = release_note['#text'].splitlines()
+            if (str(release_note.get('@plugin-version', "")) == version): 
+                release_notes = release_note.get('#text', "").splitlines()
 
     logger1.debug(f"release_notes{release_notes}")
     return release_notes
+
+def get_tool_description(doc, existing_tool_description):
+    tool_description = ""
+    tool_description = doc.get("pluginInfo", {}).get("tool-description", existing_tool_description) 
+
+    logger1.debug (f"desc={tool_description}")
+    return tool_description
+    
+def get_semver_and_version(doc):
+    semver = "0.0"
+    version = "0"
+
+    semver=doc.get("pluginInfo", {}).get("release-version", "0.0")
+    logger1.debug (f"semver={semver}")
+    
+    if (semver): version = str(semver.split(".")[0])
+    logger1.debug (f"infoxml.version={version}")
+
+    return semver, version
+
+def get_version_from_manifest(doc):
+
+    return "0"
+    # do not use...
+    version = doc.get("pluginInfo", {}).get("versions", {}).get("version_name", "0")
+    logger1.debug (f"version={version}")
+    if int(version) < 0:
+        logger1.debug(f"version < 0 {version}")
+
+    return version 
+
+def get_integration_type(doc):
+
+    # try integrationType found in manfest.xml
+    integration_type = integration_type = doc.get("pluginInfo", {}).get("integrationType", "")
+    logger1.debug (f"integration_type={integration_type}")
+    # try integrationType found in info.xml
+    # integration type 'integration': {'@type': 'Build'},
+    if (not integration_type): 
+        integration=doc.get("pluginInfo", {}).get("integration", "")
+        logger1.debug (f"integration={integration}")
+        if (integration): integration_type = integration.get("@type", "")
+
+    logger1.debug (f"integration_type={integration_type}")
+    return integration_type
+
+def get_categories(doc):
+    list_of_category = []
+    categories=doc.get("pluginInfo", {}).get("categories", "")
+    logger1.debug (f"categories={categories}")
+    if (categories): list_of_category=categories.get("category", [])
+    return list_of_category
+
+def get_content_from_file(file, zf):
+    doc = {"pluginInfo": {'tool-description': "ERROR FILE DAMAGED"}}
+    logger1.debug(f"accessing {file}")
+    try:
+        xfile=zf.read(file)
+    except zipfile.BadZipFile as ex:
+        logger1.warn(f"file is not good={file}")
+        return doc
+    
+    # special work with hpi files and manifest.mf
+    if (file=="META-INF/MANIFEST.MF"):
+        logger1.info(f"content of manifest.mf={xfile}")
+        decoded_string = xfile.decode('utf-8')
+
+        dictionary = {}
+        for line in decoded_string.split('\r\n'):
+            if line.strip() != '':
+                key, value = line.split(': ', maxsplit=1)
+                dictionary[key] = value
+        doc = dictionary
+    else:
+        doc = xmltodict.parse(xfile)
+    
+    logger1.info(f"doc={doc}")
+    
+    return doc 
 
 def get_info_from_zip_file(plugin_path, file):
     file_with_path = f"{plugin_path}/{file}"
@@ -139,69 +204,65 @@ def get_info_from_zip_file(plugin_path, file):
         file_info[docutil.INFO_DESCRIPTION]="NOT PLUGIN FILE"
         return file_info
 
+    # special handling for .hpi
+    # META-INF/MANIFEST.MF
+        # Manifest-Version: 1.0
+        # Archiver-Version: Plexus Archiver
+        # Created-By: Apache Maven
+        # Built-By: anthill
+        # Build-Jdk: 1.7.0
+        # Extension-Name: ibm-ucrelease-pipeline
+        # Specification-Title: The Jenkins Plugins Parent POM Project
+        # Implementation-Title: ibm-ucrelease-pipeline
+        # Implementation-Version: 1.919098
+        # Group-Id: com.urbancode.jenkins.plugins
+        # Short-Name: ibm-ucrelease-pipeline
+        # Long-Name: IBM UrbanCode Release Pipeline Plugin
+        # Url: https://developer.ibm.com/urbancode/plugin/jenkins/
+        # Plugin-Version: 1.919098
+        # Hudson-Version: 1.625.3
+        # Jenkins-Version: 1.625.3
+        # Plugin-Dependencies: workflow-step-api:1.15
+        # Plugin-Developers: 
+
+    if (".hpi" in file_with_path):
+        with ZipFile(file_with_path, 'r') as zf:
+            logger1.info(f"file_list of hpi={zf.infolist()}")
+            doc = get_content_from_file("META-INF/MANIFEST.MF", zf)
+            logger1.info (f" hpi content MANIFEST.MF = {doc}")
+        return file_info
     with ZipFile(file_with_path, 'r') as zf:
         for file in zf.infolist():
             logger1.debug(f"file={file}")
             if file.filename == "info.xml":
-                logger1.debug(f"info.xml found")
-                try:
-                    xfile=zf.read(file)
-                except zipfile.BadZipFile as ex:
-                    logger1.info(f"file is not good={file_with_path}")
-                    return file_info
+                doc = get_content_from_file(file.filename, zf)
+
                 zipfileinfo=zf.getinfo(file.filename).date_time
-                logger1.info(f"zipfileinfo={zipfileinfo}")
+                logger1.debug(f"zipfileinfo={zipfileinfo}")
                 file_info_datetime = datetime.datetime(*zipfileinfo)
                 
-                logger1.info(f"zipfileinfodatetimestring={file_info_datetime.strftime('%Y.%m.%d %H:%M')}")
+                logger1.debug(f"zipfileinfodatetimestring={file_info_datetime.strftime('%Y.%m.%d %H:%M')}")
                 file_info[docutil.RELEASE_DATE]=file_info_datetime.strftime('%Y.%m.%d %H:%M')
-                doc = xmltodict.parse(xfile)
-                tool_description = doc.get("pluginInfo", {}).get("tool-description", "")
-                if (tool_description): file_info[docutil.INFO_DESCRIPTION]=tool_description
-                logger1.debug (f"desc={tool_description}")
+                
+                file_info[docutil.INFO_DESCRIPTION] = get_tool_description(doc, file_info[docutil.INFO_DESCRIPTION])
 
-                semver=doc.get("pluginInfo", {}).get("release-version")
-                logger1.debug (f"semver={semver}")
-                if (semver): 
-                    file_info[docutil.RELEASE_SEMVER]=semver
-                    version = str(semver.split(".")[0])
-                    if (version):file_info[docutil.RELEASE_VERSION]=version
+                file_info[docutil.RELEASE_SEMVER], file_info[docutil.RELEASE_VERSION] = get_semver_and_version(doc)
 
-
-                # integration type 'integration': {'@type': 'Build'},
-                integrationtype=doc.get("pluginInfo", {}).get("integration")
-                logger1.debug (f"integrationtype={integrationtype}")
-                if (integrationtype): file_info[docutil.PLUGIN_SPECIFICATION_TYPE]=integrationtype['@type']
+                file_info[docutil.PLUGIN_SPECIFICATION_TYPE] = get_integration_type(doc)
 
                 # release notes
-                temp_notes=get_release_notes(doc, semver)
-                logger1.info(f"temp_releasenotes={temp_notes}")
-                file_info[docutil.RELEASE_NOTES] =temp_notes
-                logger1.info(f"right after notes=assignment--->{file_info[docutil.RELEASE_NOTES]}")
+                file_info[docutil.RELEASE_NOTES] = get_release_notes(doc, file_info[docutil.RELEASE_SEMVER])
                 
 
             if file.filename == "manifest.xml":
-                logger1.info(f"manifest.xml found")
-                try:
-                    xfile=zf.read(file)
-                except zipfile.BadZipFile as ex:
-                    logger1.info(f"file is not good={file_with_path}")
-                    return file_info               
-                doc = xmltodict.parse(xfile)
-                version_name = doc.get("pluginInfo", {}).get("versions", {}).get("version_name", "")
-                if (version_name): file_info[docutil.RELEASE_VERSION]=version_name
-                logger1.debug (f"desc={version_name}")
+                doc = get_content_from_file(file.filename, zf)
 
-                integrationtype=doc.get("pluginInfo", {}).get("integrationType")
-                logger1.info (f"integrationtype={integrationtype}")
-                if (integrationtype): file_info[docutil.PLUGIN_SPECIFICATION_TYPE]=integrationtype
+                file_info[docutil.PLUGIN_SPECIFICATION_TYPE] = get_integration_type(doc)
 
-                categories=doc.get("pluginInfo", {}).get("categories")
-                logger1.info (f"categories={categories}")
-                if (categories): file_info[docutil.PLUGIN_SPECIFICATION_CATEGORIES]=categories["category"]
+                file_info[docutil.PLUGIN_SPECIFICATION_CATEGORIES] = get_categories(doc)
 
 
-    logger1.info(f"file_info={file_info}")
+    logger1.debug(f"file_info={file_info}")
     return file_info
 
 def get_list_and_info_of_plugin_files(plugin_path):
@@ -221,6 +282,10 @@ def get_list_and_info_of_plugin_files(plugin_path):
 
         files.append(file_info)
         logger1.debug(f"fles={files}")
+
+    # my_list = sorted(my_list, key=lambda k: k['name'])
+    if files:
+        files = sorted(files, key=lambda k: int(k["version"]))
     return files
 
 def get_list_of_all_names(docs, files):
@@ -241,7 +306,7 @@ def get_list_of_all_names(docs, files):
             oneplugin[docutil.INFO_PLUGIN_FOLDER] = docitem
             oneplugin["PLUGIN_FILES"]=get_list_and_info_of_plugin_files(f"{files}/{docitem}")
         else:
-            oneplugin[docutil.INFO_PLUGIN_FOLDER] = docutil.get_source_repository_from_file(f"{docs}/{docitem}/README.md")
+            oneplugin[docutil.INFO_SOURCE_PROJECT] = docutil.get_source_repository_from_file(f"{docs}/{docitem}/README.md")
             oneplugin[docutil.INFO_PLUGIN_SPECIFICATION] = get_plugin_specification(f"{docs}/{docitem}")
         
         logger1.debug(f"oneplugin={oneplugin}")
@@ -269,9 +334,9 @@ def get_workfile(config):
 
 
     adict = {
-            "UCB" : get_list_of_all_names(UCB_Docs, UCB_Files),
+            "UCB" : [], # get_list_of_all_names(UCB_Docs, UCB_Files),
             "UCD" : [], # get_list_of_all_names(UCD_Docs, UCD_Files),
-            "UCR" : [], # get_list_of_all_names(UCR_Docs, UCR_Files),
+            "UCR" : get_list_of_all_names(UCR_Docs, UCR_Files),
             "UCV" : [] # get_list_of_all_names(UCV_Docs, UCV_Files)
             }
 
