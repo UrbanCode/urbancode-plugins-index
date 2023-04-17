@@ -35,6 +35,8 @@ RELEASE_FILE="file"
 RELEASE_NOTES="notes"
 RELEASE_SUPPORTS="supports"
 
+PUBLISH = "publish"
+
 # Version and Semver could be different
 # Date is ISO date YYYY-MM-DDTHH:mm:SS.hhhZ
 # File is the filename
@@ -42,12 +44,13 @@ RELEASE_SUPPORTS="supports"
 # Supports defines minimum supported version of product
 def get_release_template():
     return {
-        RELEASE_VERSION:"", 
-        RELEASE_SEMVER:"", 
+        RELEASE_VERSION:"0", 
+        RELEASE_SEMVER:"0.0", 
         RELEASE_DATE:"",  
         RELEASE_FILE:"",
         RELEASE_NOTES:[],
-        RELEASE_SUPPORTS:""
+        RELEASE_SUPPORTS:"",
+        PUBLISH: True
     }
 
 # Author template field names
@@ -98,7 +101,8 @@ def get_info_template():
         INFO_SOURCE_PROJECT: "",
         INFO_DESCRIPTION: "",
         INFO_PLUGIN_SPECIFICATION: get_plugin_specification_template(),
-        INFO_AUTHOR: get_author_template()
+        INFO_AUTHOR: get_author_template(),
+        PUBLISH: True
     }
 
 # Document files fieldnames. Can contain sub documents and will have same structure!

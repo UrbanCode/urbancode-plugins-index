@@ -85,9 +85,9 @@ def get_plugin_specification(docs_path):
 def remove_new_lines(value):
     return ''.join(value.splitlines())
 
-def get_release_notes (doc, semver):
+def get_release_notes(doc, semver):
     logger1.debug(f"doc={doc}")
-    version = str(semver.split(".")[0])
+    version = semver if "." not in semver else str(semver.split(".")[0])
     logger1.debug(f"version={version}")
 
     release_notes = []
@@ -97,15 +97,14 @@ def get_release_notes (doc, semver):
     # some files do not have an array
     if not(raw_release_notes): return []
 
-    if not (isinstance(raw_release_notes, list)):
-        if (str(raw_release_notes.get('@plugin-version', "")) == version): 
-            release_notes = raw_release_notes.get('#text', "").splitlines()
-    else:
+    if (isinstance(raw_release_notes, list)):
         for release_note in raw_release_notes:
             logger1.debug(f"release_note={release_note}")
             if (str(release_note.get('@plugin-version', "")) == version): 
                 release_notes = release_note.get('#text', "").splitlines()
 
+    elif (str(raw_release_notes.get('@plugin-version', "")) == version): 
+        release_notes = raw_release_notes.get('#text', "").splitlines()
     logger1.debug(f"release_notes{release_notes}")
     return release_notes
 
@@ -122,22 +121,33 @@ def get_semver_and_version(doc):
 
     semver=doc.get("pluginInfo", {}).get("release-version", "0.0")
     logger1.debug (f"semver={semver}")
-    
-    if (semver): version = str(semver.split(".")[0])
+
+    if semver:
+
+        # there is an issue with text #RELEASE_VERSION# in semver
+        if ("#RELEASE_VERSION#" in semver): semver = "0.0"
+        version = semver
+        numberofdots = semver.count(".")
+        if (numberofdots > 0): 
+            semverarray = semver.split(".")
+            version = f"{semverarray[0]}"
+        # there are semver with missing first number -->  .2345
+        if (not version): version = "0"
+        # there
+        if (not int(version)): version = "0"
     logger1.debug (f"infoxml.version={version}")
 
     return semver, version
 
-def get_version_from_manifest(doc):
-
-    return "0"
-    # do not use...
-    version = doc.get("pluginInfo", {}).get("versions", {}).get("version_name", "0")
-    logger1.debug (f"version={version}")
-    if int(version) < 0:
-        logger1.debug(f"version < 0 {version}")
-
-    return version 
+# def get_version_from_manifest(doc):
+#    return "0"
+#    # do not use...
+#    version = doc.get("pluginInfo", {}).get("versions", {}).get("version_name", "0")
+#    logger1.debug (f"version={version}")
+#    if int(version) < 0:
+#        logger1.debug(f"version < 0 {version}")
+#
+#    return version 
 
 def get_integration_type(doc):
 
@@ -155,11 +165,9 @@ def get_integration_type(doc):
     return integration_type
 
 def get_categories(doc):
-    list_of_category = []
     categories=doc.get("pluginInfo", {}).get("categories", "")
     logger1.debug (f"categories={categories}")
-    if (categories): list_of_category=categories.get("category", [])
-    return list_of_category
+    return categories.get("category", []) if categories else []
 
 def get_content_from_file(file, zf):
     doc = {"pluginInfo": {'tool-description': "ERROR FILE DAMAGED"}}
@@ -172,65 +180,66 @@ def get_content_from_file(file, zf):
     
     # special work with hpi files and manifest.mf
     if (file=="META-INF/MANIFEST.MF"):
-        logger1.info(f"content of manifest.mf={xfile}")
+        logger1.debug(f"content of manifest.mf={xfile}")
         decoded_string = xfile.decode('utf-8')
 
         dictionary = {}
         for line in decoded_string.split('\r\n'):
             if line.strip() != '':
-                key, value = line.split(': ', maxsplit=1)
+                logger1.debug(f"line={line}")
+                if ":" in line: 
+                    key, value = line.split(': ', maxsplit=1)
+                else: 
+                    key = "UNKNOWN"
+                    value = line
                 dictionary[key] = value
         doc = dictionary
     else:
+        xfile=xfile.replace(b"'", b"") #replace(b"{", b"#curlybrace-open").replace(b"}", b"#curlybrace-close").
         doc = xmltodict.parse(xfile)
+        logger1.debug(f"DOC = {doc}")
     
-    logger1.info(f"doc={doc}")
+    logger1.debug(f"doc={doc}")
     
     return doc 
 
-def get_info_from_zip_file(plugin_path, file):
+def get_info_from_jenkins_plugin(plugin_path, file):
     file_with_path = f"{plugin_path}/{file}"
-    logger1.info(f"file_with_path={file_with_path}")
-
     file_info = get_extended_release_template()
-
-    # if file extension is 00x then it is packed with 7zip -> extract and use extracted file for processing
-    # TODO: implement handling of 7ziped files
-
-    # when not a zipfile return with info
-    # version info is "" also an indicator
     file_info[docutil.RELEASE_FILE]=file
-    if (not zipfile.is_zipfile(file_with_path)):
-        file_info[docutil.INFO_DESCRIPTION]="NOT PLUGIN FILE"
-        return file_info
 
-    # special handling for .hpi
-    # META-INF/MANIFEST.MF
-        # Manifest-Version: 1.0
-        # Archiver-Version: Plexus Archiver
-        # Created-By: Apache Maven
-        # Built-By: anthill
-        # Build-Jdk: 1.7.0
-        # Extension-Name: ibm-ucrelease-pipeline
-        # Specification-Title: The Jenkins Plugins Parent POM Project
-        # Implementation-Title: ibm-ucrelease-pipeline
-        # Implementation-Version: 1.919098
-        # Group-Id: com.urbancode.jenkins.plugins
-        # Short-Name: ibm-ucrelease-pipeline
-        # Long-Name: IBM UrbanCode Release Pipeline Plugin
-        # Url: https://developer.ibm.com/urbancode/plugin/jenkins/
-        # Plugin-Version: 1.919098
-        # Hudson-Version: 1.625.3
-        # Jenkins-Version: 1.625.3
-        # Plugin-Dependencies: workflow-step-api:1.15
-        # Plugin-Developers: 
+    with ZipFile(file_with_path, 'r') as zf:
+        _extracted_from_get_info_from_jenkins_plugin_7(zf, file_info)
+    return file_info
 
-    if (".hpi" in file_with_path):
-        with ZipFile(file_with_path, 'r') as zf:
-            logger1.info(f"file_list of hpi={zf.infolist()}")
-            doc = get_content_from_file("META-INF/MANIFEST.MF", zf)
-            logger1.info (f" hpi content MANIFEST.MF = {doc}")
-        return file_info
+
+# TODO Rename this here and in `get_info_from_jenkins_plugin`
+def _extracted_from_get_info_from_jenkins_plugin_7(zf, file_info):
+    logger1.debug(f"file_list of hpi={zf.infolist()}")
+
+    semver = "0.0"
+    doc = get_content_from_file("META-INF/MANIFEST.MF", zf)
+    logger1.debug (f" hpi content MANIFEST.MF = {doc}")
+    semver=doc.get("Plugin-Version", "0.0")
+    logger1.debug (f"semver={semver}")
+
+    version = str(semver.split(".")[0]) if semver else "0"
+    logger1.debug (f"infoxml.version={version}")
+
+    file_info[docutil.RELEASE_SEMVER] = semver
+    file_info[docutil.RELEASE_VERSION] = version
+
+def is_standard_plugin(file_with_path) -> bool:
+    standard_plugin = False
+    with ZipFile(file_with_path, 'r') as zf:
+        for file in zf.infolist():
+            logger1.debug(f"file={file}")
+            if file.filename == "info.xml": 
+                standard_plugin = True
+                break
+    return standard_plugin
+
+def get_info_from_standard_plugin (file_with_path, file_info):
     with ZipFile(file_with_path, 'r') as zf:
         for file in zf.infolist():
             logger1.debug(f"file={file}")
@@ -261,6 +270,35 @@ def get_info_from_zip_file(plugin_path, file):
 
                 file_info[docutil.PLUGIN_SPECIFICATION_CATEGORIES] = get_categories(doc)
 
+    return file_info
+
+def get_info_from_zip_file(plugin_path, file):
+    file_with_path = f"{plugin_path}/{file}"
+    logger1.info(f"file_with_path={file_with_path}")
+
+    file_info = get_extended_release_template()
+
+    # if file extension is 00x then it is packed with 7zip -> extract and use extracted file for processing
+    # TODO: implement handling of 7ziped files
+
+    # when not a zipfile return with info
+    # version info is "" also an indicator
+    file_info[docutil.RELEASE_FILE]=file
+    if (not zipfile.is_zipfile(file_with_path)):
+        file_info[docutil.INFO_DESCRIPTION]="NOT PLUGIN FILE"
+        return file_info
+
+
+    if (".hpi" in file_with_path):
+        file_info = get_info_from_jenkins_plugin(plugin_path, file)
+        return file_info
+
+    if (".001" in file_with_path):
+        # need to extract using 7zip and then use new file name to get info...
+        return file_info
+
+    if is_standard_plugin(file_with_path): 
+        file_info = get_info_from_standard_plugin (file_with_path, file_info)
 
     logger1.debug(f"file_info={file_info}")
     return file_info
@@ -271,7 +309,8 @@ def get_list_and_info_of_plugin_files(plugin_path):
     for file in get_files(plugin_path):
         # if zipfile extension is 002 or higher than it is zipped with 7zip and process only 001 
         file_extension = pathlib.Path(file).suffix
-        if (file_extension in [".002", ".003", ".004", ".005"]):
+        if file_extension in {".001", ".002", ".003", ".004", ".005"}:
+            # need to find a solution how to unpack .001 and use unzipped file for further processing.
             continue
         file_info = get_extended_release_template()
         file_info[docutil.RELEASE_FILE]=file
@@ -281,10 +320,11 @@ def get_list_and_info_of_plugin_files(plugin_path):
             file_info[key] = value
 
         files.append(file_info)
-        logger1.debug(f"fles={files}")
 
     # my_list = sorted(my_list, key=lambda k: k['name'])
     if files:
+        logger1.debug (f"all files={files}")
+        # files = sorted(files, key=lambda x: [int(i) if i.isnumeric() else int(i) for i in x["semver"].split('.')])
         files = sorted(files, key=lambda k: int(k["version"]))
     return files
 
@@ -335,8 +375,8 @@ def get_workfile(config):
 
     adict = {
             "UCB" : [], # get_list_of_all_names(UCB_Docs, UCB_Files),
-            "UCD" : [], # get_list_of_all_names(UCD_Docs, UCD_Files),
-            "UCR" : get_list_of_all_names(UCR_Docs, UCR_Files),
+            "UCD" : get_list_of_all_names(UCD_Docs, UCD_Files),
+            "UCR" : [], #get_list_of_all_names(UCR_Docs, UCR_Files),
             "UCV" : [] # get_list_of_all_names(UCV_Docs, UCV_Files)
             }
 
