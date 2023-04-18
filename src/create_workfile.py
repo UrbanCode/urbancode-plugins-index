@@ -39,6 +39,11 @@ logger1.addHandler(fh)
 logger1.addHandler(ch)
 
 SORT_VERSION = "SORT_VERSION"
+NEW_FOLDER_NAME = "NEW_FOLDER_NAME"
+PLUGIN_FILES = "PLUGIN_FILES"
+README = "README.md"
+DOCS_NOT_FOUND = "DOCS_NOT_FOUND"
+
 def get_extended_release_template():
 
     extended_template=docutil.get_release_template()
@@ -55,11 +60,9 @@ def get_files(path):
 def get_files_with_dirs(path):
     for (dir_path, dir_names, file_names) in os.walk(path):
         if file_names:
-            newpath=dir_path.replace(path, "")
+            newpath=dir_path.replace(f"{path}", "").replace("/", "")
             for file in file_names:
-                if newpath: newname=f"{newpath}/file"
-                else: newfilename = file
-                yield newfilename
+                yield f"{newpath}/{file}" if newpath else file
 
 def get_plugin_dir_names(src):
     # getting the absolute path of the source
@@ -80,7 +83,7 @@ def get_plugin_specification(docs_path):
     community_indicator=["is a community plug-in", "This plug-in is developed and supported by the UrbanCode Deploy Community", "community supported plug-in", "This plug-in is developed and supported by the UrbanCode Build Community"]
     partner_indicator=["This is a partner plug-in", "This is a partner provided plugin"]
 
-    filename= f"{docs_path}/README.md"
+    filename= f"{docs_path}/{README}"
     source_repo_url = ""
     with open(filename) as file:
         for line in file:
@@ -123,6 +126,7 @@ def get_tool_description(doc, existing_tool_description):
     tool_description = ""
     tool_description = doc.get("pluginInfo", {}).get("tool-description", existing_tool_description) 
 
+    if (not tool_description): tool_description = ""
     logger1.debug (f"desc={tool_description}")
     return tool_description
     
@@ -150,16 +154,6 @@ def get_semver_and_version(semver):
     logger1.debug (f"infoxml.version={version}")
 
     return semver, version, sort_version
-
-# def get_version_from_manifest(doc):
-#    return "0"
-#    # do not use...
-#    version = doc.get("pluginInfo", {}).get("versions", {}).get("version_name", "0")
-#    logger1.debug (f"version={version}")
-#    if int(version) < 0:
-#        logger1.debug(f"version < 0 {version}")
-#
-#    return version 
 
 def get_integration_type(doc):
 
@@ -215,16 +209,6 @@ def get_content_from_file(file, zf):
     
     return doc 
 
-# def get_info_from_jenkins_plugin(plugin_path, file, file_info):
-#     file_with_path = f"{plugin_path}/{file}"
-#     file_info[docutil.RELEASE_FILE]=file
-
-#     with ZipFile(file_with_path, 'r') as zf:
-#         _extracted_from_get_info_from_jenkins_plugin_6(zf, file_info)
-#     return 
-
-
-# TODO Rename this here and in `get_info_from_jenkins_plugin`
 def get_info_from_jenkins_plugin(zf, file_info):
     logger1.debug(f"file_list of hpi={zf.infolist()}")
     semver = "0.0"
@@ -250,11 +234,6 @@ def is_standard_plugin(file_with_path) -> bool:
                 standard_plugin = True
                 break
     return standard_plugin
-
-# def get_info_from_standard_plugin (file_with_path, file_info):
-#     with ZipFile(file_with_path, 'r') as zf:
-#         _extract_from_get_info_from_standard_plugin(zf, file_info)
-#     return
 
 def get_info_from_standard_plugin(zf, file_info):
     for file in zf.infolist():
@@ -328,7 +307,7 @@ def get_info_from_zip_file(plugin_path, file, file_info):
 def get_list_and_info_of_plugin_files(plugin_path):
     logger1.debug(f"{plugin_path}")
     files=[]
-    for file in get_files(plugin_path):
+    for file in get_files_with_dirs(plugin_path): #get_files(plugin_path):
         # if zipfile extension is 002 or higher than it is zipped with 7zip and process only 001 
         file_extension = pathlib.Path(file).suffix
         if file_extension in { ".002", ".003", ".004", ".005"}:
@@ -363,15 +342,15 @@ def get_list_of_all_names(docs, files):
 
     for docitem in all_plugin_doc_dir_names:
         oneplugin=docutil.get_info_template()
-        oneplugin[docutil.INFO_NAME] = docutil.get_title_from_file(f"{docs}/{docitem}/README.md")
+        oneplugin[docutil.INFO_NAME] = docutil.get_title_from_file(f"{docs}/{docitem}/{README}")
         oneplugin[docutil.INFO_DOCS_FOLDER] = docitem
-        oneplugin["NEW_FOLDER_NAME"]=str(docitem).lower()
+        oneplugin[NEW_FOLDER_NAME]=str(docitem).lower()
         if (docitem in all_plugin_files_dir_name):
             # oneplugin[docutil.INFO_NAME] = docitem
             oneplugin[docutil.INFO_PLUGIN_FOLDER] = docitem
-            oneplugin["PLUGIN_FILES"]=get_list_and_info_of_plugin_files(f"{files}/{docitem}")
+            oneplugin[PLUGIN_FILES]=get_list_and_info_of_plugin_files(f"{files}/{docitem}")
         else:
-            oneplugin[docutil.INFO_SOURCE_PROJECT] = docutil.get_source_repository_from_file(f"{docs}/{docitem}/README.md")
+            oneplugin[docutil.INFO_SOURCE_PROJECT] = docutil.get_source_repository_from_file(f"{docs}/{docitem}/{README}")
             oneplugin[docutil.INFO_PLUGIN_SPECIFICATION] = get_plugin_specification(f"{docs}/{docitem}")
         
         logger1.debug(f"oneplugin={oneplugin}")
@@ -380,9 +359,9 @@ def get_list_of_all_names(docs, files):
     for plugitem in all_plugin_files_dir_name:
         if (plugitem not in all_plugin_doc_dir_names):
             oneplugin=docutil.get_info_template()
-            oneplugin[docutil.INFO_NAME] = "DOCS-NOT-FOUND"
+            oneplugin[docutil.INFO_NAME] = DOCS_NOT_FOUND
             oneplugin[docutil.INFO_PLUGIN_FOLDER] = plugitem
-            oneplugin["PLUGIN_FILES"]=get_list_and_info_of_plugin_files(f"{files}/{plugitem}")
+            oneplugin[PLUGIN_FILES]=get_list_and_info_of_plugin_files(f"{files}/{plugitem}")
             listofplugins.append(oneplugin)        
     return listofplugins
 
@@ -399,9 +378,9 @@ def get_workfile(config):
 
 
     return {
-        "UCB": [],  # get_list_of_all_names(UCB_Docs, UCB_Files),
+        "UCB": get_list_of_all_names(UCB_Docs, UCB_Files),
         "UCD": get_list_of_all_names(UCD_Docs, UCD_Files),
-        "UCR": [],  # get_list_of_all_names(UCR_Docs, UCR_Files),
+        "UCR": get_list_of_all_names(UCR_Docs, UCR_Files),
         "UCV": [],  # get_list_of_all_names(UCV_Docs, UCV_Files)
     }
 

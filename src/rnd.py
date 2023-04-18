@@ -43,8 +43,7 @@ dir_path = '/Volumes/T7/PLUGINS/IBM-UCD-PLUGINS/files'
 def get_files_with_dirs(path):
     for (dir_path, dir_names, file_names) in os.walk(path):
         if file_names:
-            newpath=dir_path.replace(f"{path}/", "")
-            print (f"newpath={newpath}")
+            newpath=dir_path.replace(f"{path}", "").replace("/", "")
             for file in file_names:
                 yield f"{newpath}/{file}" if newpath else file
 # list to store files name
