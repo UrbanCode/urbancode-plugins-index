@@ -159,40 +159,59 @@ def get_source_repository_from_file(filename):
             break
     return source_repo_url
 
-def get_name_from_header(mddata):
-    logger1.debug(f"mddata={mddata}")
-    splitted=mddata.split("\n")
-    checkindex=0
-    logger1.debug(f"splitted[checkindex]={splitted[checkindex]}")
-    logger1.debug(f"length of splitted[checkindex]={len(splitted[checkindex].strip())}")
+def get_name_from_filename(filename):
 
-    if len(splitted[checkindex].strip())==0: checkindex +=1
-    headerline=splitted[checkindex].replace("#", "").strip()
-    logger1.debug(f"headerline={headerline}")
+    # all README's have same name "Readme"
+    temp = filename.split(".md")
+    splitted_file_name = temp[0].split(" ")
 
-    splitted2=headerline.split("-")
-    logger1.debug(f"splitted2={splitted2}")
+    docfilename = ""
+    for x in splitted_file_name:
+        if (x != "and"): x=x.capitalize()
+        docfilename = f"{docfilename} {x}"
 
-    plugin_name=splitted2[0].strip()
-    logger1.debug(f"plugin_name={plugin_name}")
-    docfilename = splitted2[1].strip() if len(splitted2) > 1 else "Readme"
-    logger1.debug(f"docfilename={docfilename}")
-    # os.exit(1)
-    return docfilename
+    return docfilename.strip()
+
+    # logger1.debug(f"mddata={mddata}")
+    # splitted=mddata.split("\n")
+    # checkindex=0
+    # logger1.debug(f"splitted[checkindex]={splitted[checkindex]}")
+    # logger1.debug(f"length of splitted[checkindex]={len(splitted[checkindex].strip())}")
+
+    # if len(splitted[checkindex].strip())==0: checkindex +=1
+    # headerline=splitted[checkindex].replace("#", "").strip()
+    # logger1.debug(f"headerline={headerline}")
+
+    # splitted2=headerline.split("-")
+    # logger1.debug(f"splitted2={splitted2}")
+
+    # plugin_name=splitted2[0].strip()
+    # logger1.debug(f"plugin_name={plugin_name}")
+    # docfilename = splitted2[1].strip() if len(splitted2) > 1 else "Readme"
+    # logger1.debug(f"docfilename={docfilename}")
+    # # os.exit(1)
+    # return docfilename
 
 def get_docfile_info(docfile_path, filename, docfile_folder=""):
     docfile_info=get_docfile_template()
 
-    docfile_info[DOCFILE_FILE_NAME]=filename
-    docfile_info[DOCFILE_FOLDER_NAME]=docfile_folder
+    if ("/" in filename):
+        splitted_file_name = filename.split("/")
+        docfile_info[DOCFILE_FOLDER_NAME] = "".join(splitted_file_name[:-1])
+        docfile_info[DOCFILE_FILE_NAME] = splitted_file_name[-1]
+        logger1.info(f"splitted_file_name={splitted_file_name}")
+    else:
+        docfile_info[DOCFILE_FILE_NAME]=filename
+        docfile_info[DOCFILE_FOLDER_NAME]=docfile_folder
 
-    
+    if ".md" not in filename: return docfile_info
+
     fdata=pathlib.Path(os.path.join(docfile_path, filename)).read_text(encoding='utf-8')
     mdmeta=markdown.Markdown(extensions=['meta'])
     mdmeta.convert(fdata)
     # as the markdownfiles do not contain metadata, we need to get them from header data
 
-    docfile_info[DOCFILE_NAME]=get_name_from_header(fdata)
+    docfile_info[DOCFILE_NAME]=get_name_from_filename(filename)
     return docfile_info 
 
 def get_info(plugin_path):

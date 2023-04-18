@@ -51,11 +51,11 @@ def get_extended_release_template():
     extended_template[SORT_VERSION] = ""
     return extended_template
 
-# generator function to iterate over files in path
-def get_files(path):
-    for file in os.listdir(path):
-        if os.path.isfile(os.path.join(path, file)):
-            yield file
+# # generator function to iterate over files in path
+# def get_files(path):
+#     for file in os.listdir(path):
+#         if os.path.isfile(os.path.join(path, file)):
+#             yield file
 
 def get_files_with_dirs(path):
     for (dir_path, dir_names, file_names) in os.walk(path):
@@ -304,6 +304,19 @@ def get_info_from_zip_file(plugin_path, file, file_info):
     logger1.debug(f"file_info={file_info}")
     return
 
+
+def get_all_doc_files(doc_path):
+    logger1.info (f"docpath={doc_path}")
+    listofdocfiles = []
+
+    for file in get_files_with_dirs(doc_path):
+        logger1.info(f"file={file}")
+        docfile = docutil.get_docfile_info(doc_path, file)
+        logger1.info(f"docfile={docfile}")
+        listofdocfiles.append(docfile)
+    
+    return listofdocfiles
+
 def get_list_and_info_of_plugin_files(plugin_path):
     logger1.debug(f"{plugin_path}")
     files=[]
@@ -353,6 +366,7 @@ def get_list_of_all_names(docs, files):
             oneplugin[docutil.INFO_SOURCE_PROJECT] = docutil.get_source_repository_from_file(f"{docs}/{docitem}/{README}")
             oneplugin[docutil.INFO_PLUGIN_SPECIFICATION] = get_plugin_specification(f"{docs}/{docitem}")
         
+        oneplugin[docutil.INFO_DOC_FILES] = get_all_doc_files(f"{docs}/{docitem}")
         logger1.debug(f"oneplugin={oneplugin}")
         listofplugins.append(oneplugin)
 
@@ -378,10 +392,10 @@ def get_workfile(config):
 
 
     return {
-        "UCB": get_list_of_all_names(UCB_Docs, UCB_Files),
+        "UCB": [],  #get_list_of_all_names(UCB_Docs, UCB_Files),
         "UCD": get_list_of_all_names(UCD_Docs, UCD_Files),
-        "UCR": get_list_of_all_names(UCR_Docs, UCR_Files),
-        "UCV": [],  # get_list_of_all_names(UCV_Docs, UCV_Files)
+        "UCR": [],  #get_list_of_all_names(UCR_Docs, UCR_Files),
+        "UCV": [] # get_list_of_all_names(UCV_Docs, UCV_Files)
     }
 
 def main():
