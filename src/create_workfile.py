@@ -38,10 +38,12 @@ logger1 = logging.getLogger(script_name)
 logger1.addHandler(fh)
 logger1.addHandler(ch)
 
+SORT_VERSION = "SORT_VERSION"
 def get_extended_release_template():
 
     extended_template=docutil.get_release_template()
     extended_template[docutil.INFO_DESCRIPTION] = ""
+    extended_template[SORT_VERSION] = ""
     return extended_template
 
 # generator function to iterate over files in path
@@ -49,6 +51,15 @@ def get_files(path):
     for file in os.listdir(path):
         if os.path.isfile(os.path.join(path, file)):
             yield file
+
+def get_files_with_dirs(path):
+    for (dir_path, dir_names, file_names) in os.walk(path):
+        if file_names:
+            newpath=dir_path.replace(path, "")
+            for file in file_names:
+                if newpath: newname=f"{newpath}/file"
+                else: newfilename = file
+                yield newfilename
 
 def get_plugin_dir_names(src):
     # getting the absolute path of the source
@@ -115,29 +126,30 @@ def get_tool_description(doc, existing_tool_description):
     logger1.debug (f"desc={tool_description}")
     return tool_description
     
-def get_semver_and_version(doc):
-    semver = "0.0"
-    version = "0"
-
-    semver=doc.get("pluginInfo", {}).get("release-version", "0.0")
-    logger1.debug (f"semver={semver}")
-
+def get_semver_and_version(semver):
+    version = "0.0"
+    sort_version = ""
     if semver:
-
         # there is an issue with text #RELEASE_VERSION# in semver
         if ("#RELEASE_VERSION#" in semver): semver = "0.0"
+        if (semver.startswith(".")):
+            semver = f"0.{semver}"
         version = semver
         numberofdots = semver.count(".")
         if (numberofdots > 0): 
             semverarray = semver.split(".")
             version = f"{semverarray[0]}"
+
+        for idx, x in enumerate(semver.split(".")):
+            if idx == 0: version = x
+            sort_version = sort_version + x.zfill(8)
         # there are semver with missing first number -->  .2345
         if (not version): version = "0"
         # there
         if (not int(version)): version = "0"
     logger1.debug (f"infoxml.version={version}")
 
-    return semver, version
+    return semver, version, sort_version
 
 # def get_version_from_manifest(doc):
 #    return "0"
@@ -203,31 +215,31 @@ def get_content_from_file(file, zf):
     
     return doc 
 
-def get_info_from_jenkins_plugin(plugin_path, file):
-    file_with_path = f"{plugin_path}/{file}"
-    file_info = get_extended_release_template()
-    file_info[docutil.RELEASE_FILE]=file
+# def get_info_from_jenkins_plugin(plugin_path, file, file_info):
+#     file_with_path = f"{plugin_path}/{file}"
+#     file_info[docutil.RELEASE_FILE]=file
 
-    with ZipFile(file_with_path, 'r') as zf:
-        _extracted_from_get_info_from_jenkins_plugin_7(zf, file_info)
-    return file_info
+#     with ZipFile(file_with_path, 'r') as zf:
+#         _extracted_from_get_info_from_jenkins_plugin_6(zf, file_info)
+#     return 
 
 
 # TODO Rename this here and in `get_info_from_jenkins_plugin`
-def _extracted_from_get_info_from_jenkins_plugin_7(zf, file_info):
+def get_info_from_jenkins_plugin(zf, file_info):
     logger1.debug(f"file_list of hpi={zf.infolist()}")
-
     semver = "0.0"
-    doc = get_content_from_file("META-INF/MANIFEST.MF", zf)
+    filename = "META-INF/MANIFEST.MF"
+    doc = get_content_from_file(filename, zf)
     logger1.debug (f" hpi content MANIFEST.MF = {doc}")
     semver=doc.get("Plugin-Version", "0.0")
     logger1.debug (f"semver={semver}")
 
-    version = str(semver.split(".")[0]) if semver else "0"
-    logger1.debug (f"infoxml.version={version}")
+    file_info_datetime = get_release_date(zf, filename)
+                
+    logger1.debug(f"zipfileinfodatetimestring={file_info_datetime.strftime('%Y.%m.%d %H:%M')}")
+    file_info[docutil.RELEASE_DATE]=file_info_datetime.strftime('%Y.%m.%d %H:%M')
 
-    file_info[docutil.RELEASE_SEMVER] = semver
-    file_info[docutil.RELEASE_VERSION] = version
+    file_info[docutil.RELEASE_SEMVER], file_info[docutil.RELEASE_VERSION], file_info[SORT_VERSION] = get_semver_and_version(semver)
 
 def is_standard_plugin(file_with_path) -> bool:
     standard_plugin = False
@@ -239,69 +251,79 @@ def is_standard_plugin(file_with_path) -> bool:
                 break
     return standard_plugin
 
-def get_info_from_standard_plugin (file_with_path, file_info):
-    with ZipFile(file_with_path, 'r') as zf:
-        for file in zf.infolist():
-            logger1.debug(f"file={file}")
-            if file.filename == "info.xml":
-                doc = get_content_from_file(file.filename, zf)
+# def get_info_from_standard_plugin (file_with_path, file_info):
+#     with ZipFile(file_with_path, 'r') as zf:
+#         _extract_from_get_info_from_standard_plugin(zf, file_info)
+#     return
 
-                zipfileinfo=zf.getinfo(file.filename).date_time
-                logger1.debug(f"zipfileinfo={zipfileinfo}")
-                file_info_datetime = datetime.datetime(*zipfileinfo)
+def get_info_from_standard_plugin(zf, file_info):
+    for file in zf.infolist():
+        logger1.debug(f"file={file}")
+        if file.filename == "info.xml":
+            get_info_from_infoxml(zf, file, file_info)
+
+        if file.filename == "manifest.xml":
+            get_info_from_manifestxml(zf, file, file_info)
+
+def get_info_from_manifestxml(zf, file, file_info):
+    doc = get_content_from_file(file.filename, zf)
+
+    file_info[docutil.PLUGIN_SPECIFICATION_TYPE] = get_integration_type(doc)
+
+    file_info[docutil.PLUGIN_SPECIFICATION_CATEGORIES] = get_categories(doc)
+
+def get_info_from_infoxml(zf, file, file_info):
+    doc = get_content_from_file(file.filename, zf)
+
+    file_info_datetime = get_release_date(zf, file.filename)
                 
-                logger1.debug(f"zipfileinfodatetimestring={file_info_datetime.strftime('%Y.%m.%d %H:%M')}")
-                file_info[docutil.RELEASE_DATE]=file_info_datetime.strftime('%Y.%m.%d %H:%M')
+    logger1.debug(f"zipfileinfodatetimestring={file_info_datetime.strftime('%Y.%m.%d %H:%M')}")
+    file_info[docutil.RELEASE_DATE]=file_info_datetime.strftime('%Y.%m.%d %H:%M')
                 
-                file_info[docutil.INFO_DESCRIPTION] = get_tool_description(doc, file_info[docutil.INFO_DESCRIPTION])
+    file_info[docutil.INFO_DESCRIPTION] = get_tool_description(doc, file_info[docutil.INFO_DESCRIPTION])
 
-                file_info[docutil.RELEASE_SEMVER], file_info[docutil.RELEASE_VERSION] = get_semver_and_version(doc)
+    semver=doc.get("pluginInfo", {}).get("release-version", "0.0")
+    logger1.debug (f"semver={semver}")
+    file_info[docutil.RELEASE_SEMVER], file_info[docutil.RELEASE_VERSION], file_info[SORT_VERSION] = get_semver_and_version(semver)
 
-                file_info[docutil.PLUGIN_SPECIFICATION_TYPE] = get_integration_type(doc)
+    file_info[docutil.PLUGIN_SPECIFICATION_TYPE] = get_integration_type(doc)
 
-                # release notes
-                file_info[docutil.RELEASE_NOTES] = get_release_notes(doc, file_info[docutil.RELEASE_SEMVER])
-                
+    # release notes
+    file_info[docutil.RELEASE_NOTES] = get_release_notes(doc, file_info[docutil.RELEASE_SEMVER])
 
-            if file.filename == "manifest.xml":
-                doc = get_content_from_file(file.filename, zf)
+def get_release_date(zf, filename):
+    zipfileinfo=zf.getinfo(filename).date_time
+    logger1.debug(f"zipfileinfo={zipfileinfo}")
+    return datetime.datetime(*zipfileinfo)
 
-                file_info[docutil.PLUGIN_SPECIFICATION_TYPE] = get_integration_type(doc)
-
-                file_info[docutil.PLUGIN_SPECIFICATION_CATEGORIES] = get_categories(doc)
-
-    return file_info
-
-def get_info_from_zip_file(plugin_path, file):
+def get_info_from_zip_file(plugin_path, file, file_info):
     file_with_path = f"{plugin_path}/{file}"
     logger1.info(f"file_with_path={file_with_path}")
-
-    file_info = get_extended_release_template()
+    
+    file_info[docutil.RELEASE_FILE]=file
 
     # if file extension is 00x then it is packed with 7zip -> extract and use extracted file for processing
     # TODO: implement handling of 7ziped files
+    if (".001" in file_with_path):
+        # need to extract using 7zip and then use new file name to get info...
+        # file_with_path = extracted file with new path
+        return 
 
     # when not a zipfile return with info
     # version info is "" also an indicator
     file_info[docutil.RELEASE_FILE]=file
     if (not zipfile.is_zipfile(file_with_path)):
         file_info[docutil.INFO_DESCRIPTION]="NOT PLUGIN FILE"
-        return file_info
+        return
 
-
-    if (".hpi" in file_with_path):
-        file_info = get_info_from_jenkins_plugin(plugin_path, file)
-        return file_info
-
-    if (".001" in file_with_path):
-        # need to extract using 7zip and then use new file name to get info...
-        return file_info
-
-    if is_standard_plugin(file_with_path): 
-        file_info = get_info_from_standard_plugin (file_with_path, file_info)
+    with ZipFile(file_with_path, 'r') as zf:
+        if (".hpi" in file_with_path):
+            get_info_from_jenkins_plugin(zf, file_info) # get_info_from_jenkins_plugin(plugin_path, file, file_info)
+        elif is_standard_plugin(file_with_path): 
+            get_info_from_standard_plugin(zf, file_info)
 
     logger1.debug(f"file_info={file_info}")
-    return file_info
+    return
 
 def get_list_and_info_of_plugin_files(plugin_path):
     logger1.debug(f"{plugin_path}")
@@ -309,15 +331,18 @@ def get_list_and_info_of_plugin_files(plugin_path):
     for file in get_files(plugin_path):
         # if zipfile extension is 002 or higher than it is zipped with 7zip and process only 001 
         file_extension = pathlib.Path(file).suffix
-        if file_extension in {".001", ".002", ".003", ".004", ".005"}:
+        if file_extension in { ".002", ".003", ".004", ".005"}:
             # need to find a solution how to unpack .001 and use unzipped file for further processing.
             continue
+        
+        # do not add "._xxxx" type of files, are from mac os
+        if (file.startswith("._")): continue
+
         file_info = get_extended_release_template()
-        file_info[docutil.RELEASE_FILE]=file
-        temp_info=get_info_from_zip_file(plugin_path,file)
-        logger1.debug(f"temp_info={temp_info}")
-        for key, value in temp_info.items():
-            file_info[key] = value
+        get_info_from_zip_file(plugin_path,file, file_info)
+        # logger1.debug(f"temp_info={temp_info}")
+        # for key, value in temp_info.items():
+        #     file_info[key] = value
 
         files.append(file_info)
 
@@ -325,7 +350,7 @@ def get_list_and_info_of_plugin_files(plugin_path):
     if files:
         logger1.debug (f"all files={files}")
         # files = sorted(files, key=lambda x: [int(i) if i.isnumeric() else int(i) for i in x["semver"].split('.')])
-        files = sorted(files, key=lambda k: int(k["version"]))
+        files = sorted(files, key=lambda k: k[SORT_VERSION])
     return files
 
 def get_list_of_all_names(docs, files):
@@ -373,15 +398,12 @@ def get_workfile(config):
     UCV_Files = f"{config[ucutil.UCV_PLUGIN_FILES_ROOT]}/{config[ucutil.UCX_PLUGIN_FILES_FOLDER]}"
 
 
-    adict = {
-            "UCB" : [], # get_list_of_all_names(UCB_Docs, UCB_Files),
-            "UCD" : get_list_of_all_names(UCD_Docs, UCD_Files),
-            "UCR" : [], #get_list_of_all_names(UCR_Docs, UCR_Files),
-            "UCV" : [] # get_list_of_all_names(UCV_Docs, UCV_Files)
-            }
-
-
-    return adict
+    return {
+        "UCB": [],  # get_list_of_all_names(UCB_Docs, UCB_Files),
+        "UCD": get_list_of_all_names(UCD_Docs, UCD_Files),
+        "UCR": [],  # get_list_of_all_names(UCR_Docs, UCR_Files),
+        "UCV": [],  # get_list_of_all_names(UCV_Docs, UCV_Files)
+    }
 
 def main():
     config = ucutil.get_config()
@@ -389,7 +411,7 @@ def main():
     adict = get_workfile(config)
     logger1.debug(f"adict={adict}")
 
-    with open (f"list.json", "w") as f:
+    with open("list.json", "w") as f:
         json.dump(adict,f, indent=4)
 if __name__ == '__main__':
     main()

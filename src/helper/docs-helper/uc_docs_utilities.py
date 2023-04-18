@@ -129,7 +129,7 @@ def get_title_from_file(filename):
     title= ""
     lines=[]
     with open(filename) as myfile:
-        lines=myfile.readlines()[0:5] #put here the interval you want
+        lines = myfile.readlines()[:5]
 
     for line in lines:
         logger1.debug(f"line={line}")
@@ -160,8 +160,6 @@ def get_source_repository_from_file(filename):
     return source_repo_url
 
 def get_name_from_header(mddata):
-    docfilename= "Readme"
-
     logger1.debug(f"mddata={mddata}")
     splitted=mddata.split("\n")
     checkindex=0
@@ -177,7 +175,7 @@ def get_name_from_header(mddata):
 
     plugin_name=splitted2[0].strip()
     logger1.debug(f"plugin_name={plugin_name}")
-    if len(splitted2) > 1: docfilename = splitted2[1].strip()
+    docfilename = splitted2[1].strip() if len(splitted2) > 1 else "Readme"
     logger1.debug(f"docfilename={docfilename}")
     # os.exit(1)
     return docfilename
