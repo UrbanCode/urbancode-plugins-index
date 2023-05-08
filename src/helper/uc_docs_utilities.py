@@ -194,18 +194,21 @@ def get_name_from_filename(filename):
         if (x != "and"): x=x.capitalize()
         docfilename = f"{docfilename} {x}"
 
+    logger1.debug(f"docfilename={docfilename}")
+    
     return docfilename.strip()
 
 def get_docfile_info(docfile_path, filename, docfile_folder=""):
     docfile_info=get_docfile_template()
 
+    newfilename = filename
     if ("/" in filename):
         splitted_file_name = filename.split("/")
-        filename = splitted_file_name[-1]
+        newfilename = splitted_file_name[-1]
         docfile_folder  = "".join(splitted_file_name[:-1])
         logger1.info(f"splitted_file_name={splitted_file_name}")
 
-    docfile_info[DOCFILE_FILE_NAME]=filename
+    docfile_info[DOCFILE_FILE_NAME]=newfilename
     docfile_info[DOCFILE_FOLDER_NAME]=docfile_folder
 
     if ".md" not in filename: return docfile_info
@@ -225,7 +228,7 @@ def get_docfile_info(docfile_path, filename, docfile_folder=""):
     # if header := identify_headers(content):
     #     if (header): docfile_info[DOCFILE_NAME]= header[0]
     # else:
-    docfile_info[DOCFILE_NAME]=get_name_from_filename(filename)
+    docfile_info[DOCFILE_NAME]=get_name_from_filename(newfilename)
     return docfile_info 
 
 def get_info(plugin_path):

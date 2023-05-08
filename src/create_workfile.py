@@ -10,19 +10,17 @@ import datetime
 import py7zr
 import multivolumefile
 
-sys.path.append('/Users/ozzy/RnD/Source/PLUGINS/urbancode-plugins-index/src/helper/')
-sys.path.append('/Users/ozzy/RnD/Source/PLUGINS/urbancode-plugins-index/src/helper/docs-helper')
-
-import uc_plugin_utilities as ucutil
-import uc_docs_utilities as docutil 
+#sys.path.append('/Users/ozzy/RnD/Source/PLUGINS/urbancode-plugins-index/src/helper')
+from helper import uc_docs_utilities as docutil 
+from helper import uc_plugin_utilities as ucutil
 
 
 script_name = "create_workfile"
 
 logging.basicConfig()
-logging.root.setLevel(logging.INFO)
+logging.root.setLevel(logging.DEBUG)
 logging.basicConfig(format="[%(filename)s:%(lineno)s - %(funcName)20s() ] %(message)s")
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.DEBUG)
 
 # create file handler which logs even debug messages
 fh = logging.FileHandler(f"{script_name}.log", 'w+')
@@ -300,8 +298,8 @@ def get_info_from_zip_file(plugin_path, file, file_info):
         import subprocess
 
         # Run 7zip command to extract multi-file 7zip archive
-        subprocess.run(['7z', 'x', file_with_path, f'-o{config[ucutil.ZIP_TEMP_DIR]}'])
-        os.exit(0)
+       # subprocess.run(['7z', 'x', file_with_path, f'-o{config[ucutil.ZIP_TEMP_DIR]}'])
+       # os.exit(0)
         return 
 
     # when not a zipfile return with info
