@@ -7,6 +7,8 @@ import xmltodict
 import zipfile
 import pathlib
 import datetime
+import py7zr
+import multivolumefile
 
 sys.path.append('/Users/ozzy/RnD/Source/PLUGINS/urbancode-plugins-index/src/helper/')
 sys.path.append('/Users/ozzy/RnD/Source/PLUGINS/urbancode-plugins-index/src/helper/docs-helper')
@@ -286,6 +288,20 @@ def get_info_from_zip_file(plugin_path, file, file_info):
     if (".001" in file_with_path):
         # need to extract using 7zip and then use new file name to get info...
         # file_with_path = extracted file with new path
+        config = ucutil.get_config()
+        
+
+        # Open the multi-file 7zip archive
+
+        # new_file_with_path = os.path.splitext(file_with_path)[0]
+        # with multivolumefile.open(new_file_with_path, mode='rb') as target_archive:
+        #     with py7zr.SevenZipFile(target_archive, 'r') as archive:
+        #         archive.extractall()
+        import subprocess
+
+        # Run 7zip command to extract multi-file 7zip archive
+        subprocess.run(['7z', 'x', file_with_path, f'-o{config[ucutil.ZIP_TEMP_DIR]}'])
+        os.exit(0)
         return 
 
     # when not a zipfile return with info

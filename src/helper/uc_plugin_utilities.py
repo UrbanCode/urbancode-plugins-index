@@ -53,6 +53,7 @@ PLUGIN_INDEX_FOLDER="PLUGIN_INDEX_FOLDER"
 # name of the folder which will contain all media files. is used in each plugin folder!
 PLUGIN_DOCS_MEDIA_FOLDER_NAME="media"
 
+ZIP_TEMP_DIR = "ZIP_TEMP_DIR"
 
 def get_config():
     return {
@@ -71,7 +72,8 @@ def get_config():
         UCX_PLUGIN_FILES_FOLDER: os.getenv(UCX_PLUGIN_FILES_FOLDER, ""),
         PLUGIN_INDEX_REPO: os.getenv(PLUGIN_INDEX_REPO, ""),
         PLUGIN_INDEX_ROOT: os.getenv(PLUGIN_INDEX_ROOT, ""),
-        PLUGIN_INDEX_FOLDER: os.getenv(PLUGIN_INDEX_FOLDER, "")
+        PLUGIN_INDEX_FOLDER: os.getenv(PLUGIN_INDEX_FOLDER, ""),
+        ZIP_TEMP_DIR: os.getenv(ZIP_TEMP_DIR, "")
     }
 
 def main():

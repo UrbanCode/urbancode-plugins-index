@@ -1,6 +1,6 @@
 # UrbanCode Plugins Index
 
-This repository hosts the plug-in index for all UrbanCode products (UrbanCode Deploy - UCD, UrbanCode Velocity - UCV, UrbanCode Release - UCR, UrbanCode Build - UCB) and it is based on the UrbanCode/velocity-plugins-index repository.
+This repository hosts the plug-in index for all UrbanCode products (UrbanCode Deploy - UCD, UrbanCode Velocity - UCV, UrbanCode Release - UCR, UrbanCode Build - UCB) and it is based on the UrbanCode/velocity-plugins-index repository. Text is copied from velocity-plugins-index README.
 
 ## Repository Structure
 
@@ -49,8 +49,6 @@ There are 2 main file types that must abide by strict guidelines:
 ## Generate index.json
 
 ## Linting
-
-To prevent errors and regressions, there are several lint scripts. These can be run by executing the following in the root directory of this repository:
 
 ## Adding A New Plugin
 

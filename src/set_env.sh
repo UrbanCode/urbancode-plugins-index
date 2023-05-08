@@ -22,6 +22,7 @@ export UCB_PLUGIN_FILES_REPO="https://github.com/UrbanCode/IBM-UCB-PLUGINS.git"
 
 export UCX_PLUGIN_FILES_FOLDER="files"
 
+export ZIP_TEMP_DIR="/Users/ozzy/RnD/Source/PLUGINS/TEMP"
 # target repo
 
 export PLUGIN_INDEX_REPO="https://github.com/UrbanCode/urbancode-plugins-index.git"
