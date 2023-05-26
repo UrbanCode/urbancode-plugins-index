@@ -24,10 +24,10 @@ logging.basicConfig(level=logging.DEBUG)
 
 # create file handler which logs even debug messages
 fh = logging.FileHandler(f"{script_name}.log", 'w+')
-fh.setLevel(logging.INFO)
+fh.setLevel(logging.DEBUG)
 # create console handler with a higher log level
 ch = logging.StreamHandler()
-ch.setLevel(logging.INFO)
+ch.setLevel(logging.DEBUG)
 lformat=logging.Formatter("[%(filename)s:%(lineno)s - %(funcName)20s() ] %(message)s")
 
 fh.setFormatter(lformat)
@@ -190,15 +190,19 @@ def get_content_from_file(file, zf):
         decoded_string = xfile.decode('utf-8')
 
         dictionary = {}
-        for line in decoded_string.split('\r\n'):
+#        for line in decoded_string.split('\r\n'):
+        for line in decoded_string.splitlines():
             if line.strip() != '':
                 logger1.debug(f"line={line}")
-                if ":" in line: 
-                    key, value = line.split(': ', maxsplit=1)
-                else: 
-                    key = "UNKNOWN"
-                    value = line
-                dictionary[key] = value
+                if ("," in line): 
+                    for line2 in line.split(","):
+                        if line.strip() != '':
+                            logger1.debug(f"line2={line2}")
+                            key, value = get_key_value_from_line(line)
+                            dictionary[key] = value
+                else:
+                    key, value = get_key_value_from_line(line)
+                    dictionary[key] = value
         doc = dictionary
     else:
         xfile=xfile.replace(b"'", b"") #replace(b"{", b"#curlybrace-open").replace(b"}", b"#curlybrace-close").
@@ -208,6 +212,14 @@ def get_content_from_file(file, zf):
     logger1.debug(f"doc={doc}")
     
     return doc 
+
+def get_key_value_from_line(line):
+    if ":" in line: 
+        key, value = line.split(':', maxsplit=1)
+    else: 
+        key = "UNKNOWN"
+        value = line
+    return key.strip(),value.strip()
 
 def get_info_from_jenkins_plugin(zf, file_info):
     logger1.debug(f"file_list of hpi={zf.infolist()}")
@@ -281,9 +293,16 @@ def get_info_from_zip_file(plugin_path, file, file_info):
     
     file_info[docutil.RELEASE_FILE]=file
 
+    ## special treatment for sample application
+    if ("CreateCollectiveSampleApp.zip" in file_with_path):
+        logger1.error("CreateCollectiveSample.zip handling needs to be implemented")
+        file_info[docutil.RELEASE_FILE]=file
+        file_info[docutil.INFO_DESCRIPTION]="NOT PLUGIN FILE - is a Sample"
+        return
     # if file extension is 00x then it is packed with 7zip -> extract and use extracted file for processing
     # TODO: implement handling of 7ziped files
-    if (".001" in file_with_path):
+        
+    if (".7z" in file_with_path):
         # need to extract using 7zip and then use new file name to get info...
         # file_with_path = extracted file with new path
         config = ucutil.get_config()
@@ -298,8 +317,8 @@ def get_info_from_zip_file(plugin_path, file, file_info):
         import subprocess
 
         # Run 7zip command to extract multi-file 7zip archive
-       # subprocess.run(['7z', 'x', file_with_path, f'-o{config[ucutil.ZIP_TEMP_DIR]}'])
-       # os.exit(0)
+        subprocess.run(['7z', 'x', file_with_path, f'-o{config[ucutil.ZIP_TEMP_DIR]}'])
+        os.exit(0)
         return 
 
     # when not a zipfile return with info
@@ -406,17 +425,17 @@ def get_workfile(config):
 
 
     return {
-        "UCB": [],  #get_list_of_all_names(UCB_Docs, UCB_Files),
-        "UCD": get_list_of_all_names(UCD_Docs, UCD_Files),
-        "UCR": [],  #get_list_of_all_names(UCR_Docs, UCR_Files),
-        "UCV": [] # get_list_of_all_names(UCV_Docs, UCV_Files)
+        "UCB": get_list_of_all_names(UCB_Docs, UCB_Files), # [],
+        "UCD": get_list_of_all_names(UCD_Docs, UCD_Files), # [],
+        "UCR": get_list_of_all_names(UCR_Docs, UCR_Files), # [], 
+        "UCV": get_list_of_all_names(UCV_Docs, UCV_Files) #[] # get_list_of_all_names(UCV_Docs, UCV_Files)
     }
 
 def main():
     config = ucutil.get_config()
 
     adict = get_workfile(config)
-    logger1.debug(f"adict={adict}")
+    # logger1.debug(f"adict={adict}")
 
     with open("list.json", "w") as f:
         json.dump(adict,f, indent=4)
