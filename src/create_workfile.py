@@ -423,12 +423,12 @@ def get_workfile(config):
     UCV_Docs = f"{config[ucutil.PLUGIN_DOCS_ROOT]}/{config[ucutil.PLUGIN_DOCS_FOLDER]}/UCV"
     UCV_Files = f"{config[ucutil.UCV_PLUGIN_FILES_ROOT]}/{config[ucutil.UCX_PLUGIN_FILES_FOLDER]}"
 
-
+    # velocity plug-in information is actually available in the velocity-plug-in index
     return {
         "UCB": get_list_of_all_names(UCB_Docs, UCB_Files), # [],
         "UCD": get_list_of_all_names(UCD_Docs, UCD_Files), # [],
         "UCR": get_list_of_all_names(UCR_Docs, UCR_Files), # [], 
-        "UCV": get_list_of_all_names(UCV_Docs, UCV_Files) #[] # get_list_of_all_names(UCV_Docs, UCV_Files)
+        "UCV": [], #get_list_of_all_names(UCV_Docs, UCV_Files) #[] # get_list_of_all_names(UCV_Docs, UCV_Files)
     }
 
 def main():

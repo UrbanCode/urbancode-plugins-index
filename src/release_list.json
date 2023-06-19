@@ -4,339 +4,2171 @@
     "UCR": [
         {
             "name": "Deployment Reports",
-            "docs": "DeployReport",
+            "docs_folder": "DeployReport",
             "docsURL": "",
-            "pluginFolder": "DeployReport",
-            "files": [],
+            "plugin_folder": "DeployReport",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "deployreport",
+            "PLUGIN_FILES": [
+                {
+                    "version": "2",
+                    "semver": "2.636808",
+                    "date": "2015.02.11 11:58",
+                    "file": "ucr-plugin-deployment-reports-2.636808.zip",
+                    "notes": [
+                        "Minor updates to formatting of email content."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000200636808",
+                    "type": "Report"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.674415",
+                    "date": "2015.06.09 17:34",
+                    "file": "ucr-plugin-deployment-reports-2.674415.zip",
+                    "notes": [
+                        "Minor updates to formatting of email content."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000200674415",
+                    "type": "Report"
+                },
+                {
+                    "version": "4",
+                    "semver": "4.953656",
+                    "date": "2017.12.14 16:16",
+                    "file": "ucr-plugin-deployment-reports-4.953656.zip",
+                    "notes": [
+                        "Updated libraries."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000400953656",
+                    "type": "Report"
+                },
+                {
+                    "version": "4",
+                    "semver": "4.953915",
+                    "date": "2017.12.18 11:17",
+                    "file": "ucr-plugin-deployment-reports-4.953915.zip",
+                    "notes": [
+                        "Updated libraries."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000400953915",
+                    "type": "Report"
+                },
+                {
+                    "version": "7",
+                    "semver": "7.987383",
+                    "date": "2018.07.18 15:44",
+                    "file": "ucr-plugin-deployment-reports-7.987383.zip",
+                    "notes": [
+                        "Enhancements to Integration Row.  Added historical view of persisted reports. Added Deployments Summary Reports and enhanced other reports.  Added parameters for remote queries of reports.  Removed sample data generation."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000700987383",
+                    "type": "Report"
+                },
+                {
+                    "version": "7",
+                    "semver": "7.1018228",
+                    "date": "2019.04.05 10:20",
+                    "file": "ucr-plugin-deployment-reports-7.1018228.zip",
+                    "notes": [
+                        "Enhancements to Integration Row.  Added historical view of persisted reports. Added Deployments Summary Reports and enhanced other reports.  Added parameters for remote queries of reports.  Removed sample data generation."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000701018228",
+                    "type": "Report"
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Settings",
+                    "file_name": "settings.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "Rational Team Concert v6",
-            "docs": "RTC",
+            "docs_folder": "RTC",
             "docsURL": "",
-            "pluginFolder": "RTC",
-            "files": [],
+            "plugin_folder": "RTC",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "rtc",
+            "PLUGIN_FILES": [
+                {
+                    "version": "1",
+                    "semver": "1.615897",
+                    "date": "2014.12.11 17:53",
+                    "file": "ucr-plugin-rtc-1.615897.zip",
+                    "notes": [
+                        "Rational Team Concert Plugin for IBM UrbanCode Release plugin helps you to import and manage your Work Items in IBM UrbanCode Release and tie them to your",
+                        "          existing applications, releases, or initiatives."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning",
+                    "SORT_VERSION": "0000000100615897",
+                    "type": ""
+                },
+                {
+                    "version": "1",
+                    "semver": "1.751917",
+                    "date": "2016.02.27 00:07",
+                    "file": "ucr-plugin-rtc-1.751917.zip",
+                    "notes": [
+                        "Rational Team Concert Plugin for IBM UrbanCode Release plugin helps you to import and manage your Work Items in IBM UrbanCode Release and tie them to your",
+                        "          existing applications, releases, or initiatives."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning",
+                    "SORT_VERSION": "0000000100751917",
+                    "type": ""
+                },
+                {
+                    "version": "1",
+                    "semver": "1.773952",
+                    "date": "2016.04.12 11:00",
+                    "file": "ucr-plugin-rtc-1.773952.zip",
+                    "notes": [
+                        "Rational Team Concert Plugin for IBM UrbanCode Release plugin helps you to import and manage your Work Items in IBM UrbanCode Release and tie them to your",
+                        "          existing applications, releases, or initiatives."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning",
+                    "SORT_VERSION": "0000000100773952",
+                    "type": ""
+                },
+                {
+                    "version": "1",
+                    "semver": "1.785495",
+                    "date": "2016.05.11 12:01",
+                    "file": "ucr-plugin-rtc-1.785495.zip",
+                    "notes": [
+                        "Rational Team Concert Plugin for IBM UrbanCode Release plugin helps you to import and manage your Work Items in IBM UrbanCode Release and tie them to your",
+                        "          existing applications, releases, or initiatives."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning",
+                    "SORT_VERSION": "0000000100785495",
+                    "type": ""
+                },
+                {
+                    "version": "2",
+                    "semver": "2.623457",
+                    "date": "2015.01.12 18:18",
+                    "file": "ucr-plugin-rtc-2.623457.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning",
+                    "SORT_VERSION": "0000000200623457",
+                    "type": ""
+                },
+                {
+                    "version": "2",
+                    "semver": "2.629106",
+                    "date": "2015.02.02 14:08",
+                    "file": "ucr-plugin-rtc-2.629106.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning",
+                    "SORT_VERSION": "0000000200629106",
+                    "type": ""
+                },
+                {
+                    "version": "3",
+                    "semver": "3.671039",
+                    "date": "2015.05.18 10:49",
+                    "file": "ucr-plugin-rtc-3.671039.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning",
+                    "SORT_VERSION": "0000000300671039",
+                    "type": ""
+                },
+                {
+                    "version": "3",
+                    "semver": "3.674599",
+                    "date": "2015.06.10 16:19",
+                    "file": "ucr-plugin-rtc-3.674599.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning",
+                    "SORT_VERSION": "0000000300674599",
+                    "type": ""
+                },
+                {
+                    "version": "3",
+                    "semver": "3.785496",
+                    "date": "2016.05.11 12:02",
+                    "file": "ucr-plugin-rtc-3.785496.zip",
+                    "notes": [
+                        "Fix for SSL communication when using self signed certificates"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning",
+                    "SORT_VERSION": "0000000300785496",
+                    "type": ""
+                },
+                {
+                    "version": "3",
+                    "semver": "3.788779",
+                    "date": "2016.05.27 15:48",
+                    "file": "ucr-plugin-rtc-3.788779.zip",
+                    "notes": [
+                        "Fix for SSL communication when using self signed certificates"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning",
+                    "SORT_VERSION": "0000000300788779",
+                    "type": ""
+                },
+                {
+                    "version": "3",
+                    "semver": "3.801190",
+                    "date": "2016.06.25 00:18",
+                    "file": "ucr-plugin-rtc-3.801190.zip",
+                    "notes": [
+                        "Fix for SSL communication when using self signed certificates"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning",
+                    "SORT_VERSION": "0000000300801190",
+                    "type": ""
+                },
+                {
+                    "version": "3",
+                    "semver": "3.801427",
+                    "date": "2016.06.29 09:24",
+                    "file": "ucr-plugin-rtc-3.801427.zip",
+                    "notes": [
+                        "Fix for SSL communication when using self signed certificates"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning",
+                    "SORT_VERSION": "0000000300801427",
+                    "type": ""
+                },
+                {
+                    "version": "3",
+                    "semver": "3.969559",
+                    "date": "2018.02.07 17:59",
+                    "file": "ucr-plugin-rtc-3.969559.zip",
+                    "notes": [
+                        "Fix for SSL communication when using self signed certificates"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning",
+                    "SORT_VERSION": "0000000300969559",
+                    "type": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Settings",
+                    "file_name": "settings.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "Rally",
-            "docs": "Rally",
+            "docs_folder": "Rally",
             "docsURL": "",
-            "pluginFolder": "Rally",
-            "files": [],
+            "plugin_folder": "Rally",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "rally",
+            "PLUGIN_FILES": [
+                {
+                    "version": "2",
+                    "semver": "2.690437",
+                    "date": "2015.08.19 13:56",
+                    "file": "ucr-plugin-rally-2.690437.zip",
+                    "notes": [
+                        "Rally Plugin for UrbanCode Release"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000200690437",
+                    "type": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Settings",
+                    "file_name": "settings.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "IBM UrbanCode Deploy",
-            "docs": "ibm-urbancode-deploy",
+            "docs_folder": "ibm-urbancode-deploy",
             "docsURL": "",
-            "pluginFolder": "",
-            "files": [],
+            "plugin_folder": "",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ibm-urbancode-deploy",
+            "docFiles": [
+                {
+                    "name": "Settings",
+                    "file_name": "settings.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "ServiceNow",
-            "docs": "servicenow-4",
+            "docs_folder": "servicenow-4",
             "docsURL": "",
-            "pluginFolder": "",
-            "files": [],
+            "plugin_folder": "",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "servicenow-4",
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Steps",
+                    "file_name": "steps.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "",
+                    "file_name": "usecase3_step4b.jpg",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                },
+                {
+                    "name": "",
+                    "file_name": "usecase3_step4a.jpg",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                },
+                {
+                    "name": "",
+                    "file_name": "usercase1_authenconfig.jpg",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                },
+                {
+                    "name": "",
+                    "file_name": "usercase1_approvals.jpg",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                },
+                {
+                    "name": "",
+                    "file_name": "usecase2_intro.jpg",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                },
+                {
+                    "name": "",
+                    "file_name": "usercase1_changeinfo.jpg",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                },
+                {
+                    "name": "",
+                    "file_name": "usecase3_step2.jpg",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                },
+                {
+                    "name": "",
+                    "file_name": "usercase1_deploycreatstr.jpg",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                },
+                {
+                    "name": "",
+                    "file_name": "usecase2_step6.jpg",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                },
+                {
+                    "name": "",
+                    "file_name": "usecase2_step5.jpg",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                },
+                {
+                    "name": "",
+                    "file_name": "usercase1_implement.jpg",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                },
+                {
+                    "name": "",
+                    "file_name": "usecase2_step3.jpg",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                },
+                {
+                    "name": "",
+                    "file_name": "usecase2_environment.jpg",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                },
+                {
+                    "name": "",
+                    "file_name": "usercase1_approvconfig.jpg",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                },
+                {
+                    "name": "",
+                    "file_name": "usecase3_step3a.jpg",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                },
+                {
+                    "name": "",
+                    "file_name": "snap27.jpg",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                },
+                {
+                    "name": "",
+                    "file_name": "usecase3_step1b.jpg",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                },
+                {
+                    "name": "",
+                    "file_name": "usecase3_step1a.jpg",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                },
+                {
+                    "name": "",
+                    "file_name": "usecase2_successmessage.jpg",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                },
+                {
+                    "name": "",
+                    "file_name": "usecase3_tryit.jpg",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                },
+                {
+                    "name": "",
+                    "file_name": "usercase1_intergrationtype-1.jpg",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                },
+                {
+                    "name": "",
+                    "file_name": "usercase1_phases.jpg",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                },
+                {
+                    "name": "",
+                    "file_name": "usercase1_intergrationtype-2.jpg",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                },
+                {
+                    "name": "",
+                    "file_name": "usecase2_step2a.jpg",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                },
+                {
+                    "name": "",
+                    "file_name": "usercase1_scheduled.jpg",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                },
+                {
+                    "name": "",
+                    "file_name": "usercase1_phase_prod.jpg",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                },
+                {
+                    "name": "",
+                    "file_name": "usecase2_step2b.jpg",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                }
+            ]
         },
         {
             "name": "Jenkins for IBM UrbanCode Release",
-            "docs": "ucr-jenkins-ci",
+            "docs_folder": "ucr-jenkins-ci",
             "docsURL": "",
-            "pluginFolder": "ucr-jenkins-ci",
-            "files": [],
+            "plugin_folder": "ucr-jenkins-ci",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucr-jenkins-ci",
+            "PLUGIN_FILES": [
+                {
+                    "version": "1",
+                    "semver": "1.1112892",
+                    "date": "2021.07.15 07:44",
+                    "file": "plugins-ucr-jenkins-ci-1.1112892.zip",
+                    "notes": [
+                        "An initial version that supports importing jobs and related information from Jenkins."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000101112892",
+                    "type": ""
+                },
+                {
+                    "version": "2",
+                    "semver": "2.1124702",
+                    "date": "2021.10.26 03:32",
+                    "file": "plugins-ucr-jenkins-ci-2.1124702.zip",
+                    "notes": [
+                        "Support for parameterized jobs has been added."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000201124702",
+                    "type": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Steps",
+                    "file_name": "steps.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "Ansible Tower",
-            "docs": "ucr-plugin-ansible",
+            "docs_folder": "ucr-plugin-ansible",
             "docsURL": "",
-            "pluginFolder": "ucr-plugin-ansible",
-            "files": [],
+            "plugin_folder": "ucr-plugin-ansible",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucr-plugin-ansible",
+            "PLUGIN_FILES": [
+                {
+                    "version": "1",
+                    "semver": "1.1079811",
+                    "date": "2020.12.17 08:17",
+                    "file": "ucr-plugin-ansible-tower-1.1079811.zip",
+                    "notes": [
+                        "The first version of this plugin supports full sync (import all UCD entities) and delta sync (import only objects that have been changed in UCD) with any IBM UrbanCode Deploy server (UCD 6.1.1.4 and above).",
+                        "         Performance of the full sync has been improved and delta sync should not take more than a few seconds.",
+                        "         Compatible with IBM UrbanCode Release 6.1.1.5."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000101079811",
+                    "type": ""
+                },
+                {
+                    "version": "2",
+                    "semver": "2.1106038",
+                    "date": "2021.05.06 12:37",
+                    "file": "ucr-plugin-ansible-tower-2.1106038.zip",
+                    "notes": [
+                        "Provide a new HTTP Timeout field to allow timeout to be set on requests made to UCR and UCD"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000201106038",
+                    "type": ""
+                },
+                {
+                    "version": "3",
+                    "semver": "3.1145832",
+                    "date": "2022.12.02 14:59",
+                    "file": "ucr-plugin-ansible-tower-3.1145832.zip",
+                    "notes": [
+                        "Support property file encryption."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000301145832",
+                    "type": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Steps",
+                    "file_name": "steps.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "HP Quality Center (ALM)",
-            "docs": "ucr-plugin-hp-alm",
+            "docs_folder": "ucr-plugin-hp-alm",
             "docsURL": "",
-            "pluginFolder": "ucr-plugin-hp-alm",
-            "files": [],
+            "plugin_folder": "ucr-plugin-hp-alm",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucr-plugin-hp-alm",
+            "PLUGIN_FILES": [
+                {
+                    "version": "1",
+                    "semver": "1.782317",
+                    "date": "2016.05.04 14:51",
+                    "file": "HP-ALM-1.782317.zip",
+                    "notes": [
+                        "Urbancode Release integration."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "HP ALM is a set of web-based software lifecycle management tools. It offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.",
+                    "SORT_VERSION": "0000000100782317",
+                    "type": ""
+                },
+                {
+                    "version": "1",
+                    "semver": "1.810058",
+                    "date": "2016.08.02 09:41",
+                    "file": "HP-ALM-1.810058.zip",
+                    "notes": [
+                        "Urbancode Release integration."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "HP ALM is a set of web-based software lifecycle management tools. It offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.",
+                    "SORT_VERSION": "0000000100810058",
+                    "type": ""
+                },
+                {
+                    "version": "1",
+                    "semver": "1.827219",
+                    "date": "2016.09.19 14:10",
+                    "file": "HP-ALM-1.827219.zip",
+                    "notes": [
+                        "Urbancode Release integration."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "HP ALM is a set of web-based software lifecycle management tools. It offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.",
+                    "SORT_VERSION": "0000000100827219",
+                    "type": ""
+                },
+                {
+                    "version": "3",
+                    "semver": "3.927684",
+                    "date": "2017.08.03 10:17",
+                    "file": "HP-ALM-3.927684.zip",
+                    "notes": [
+                        "Fixed APAR 155582 Enables option to trust all ssl certificates."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "HP ALM is a set of web-based software lifecycle management tools. It offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.",
+                    "SORT_VERSION": "0000000300927684",
+                    "type": ""
+                },
+                {
+                    "version": "4",
+                    "semver": "4.931916",
+                    "date": "2017.09.01 10:48",
+                    "file": "HP-ALM-4.931916.zip",
+                    "notes": [
+                        "Fixed REST calls to pass all required authentication cookies as headers.",
+                        "Added support for automatically mapping HP ALM Projects to UCR Applications via name."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "HP ALM is a set of web-based software lifecycle management tools. It offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.",
+                    "SORT_VERSION": "0000000400931916",
+                    "type": ""
+                },
+                {
+                    "version": "5",
+                    "semver": "5.942932",
+                    "date": "2017.11.01 10:04",
+                    "file": "HP-ALM-5.942932.zip",
+                    "notes": [
+                        "Fixed a NULL pointer error when mapping requirement statuses."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "HP ALM is a set of web-based software lifecycle management tools. It offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.",
+                    "SORT_VERSION": "0000000500942932",
+                    "type": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Settings",
+                    "file_name": "settings.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "Jira for IBM UrbanCode Release",
-            "docs": "ucr-plugin-jira",
+            "docs_folder": "ucr-plugin-jira",
             "docsURL": "",
-            "pluginFolder": "ucr-plugin-jira",
-            "files": [],
+            "plugin_folder": "ucr-plugin-jira",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucr-plugin-jira",
+            "PLUGIN_FILES": [
+                {
+                    "version": "1",
+                    "semver": "1.834579",
+                    "date": "2016.10.07 10:52",
+                    "file": "ucr-plugin-jira-1.834579.zip",
+                    "notes": [
+                        "Initial JIRA Plugin for IBM UrbanCode Release",
+                        "    - Support for mapping JIRA Work Items to Release Changes.",
+                        "    - Release Applications and JIRA Projects with the same name will be automatically mapped."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000100834579",
+                    "type": ""
+                },
+                {
+                    "version": "2",
+                    "semver": "2.869688",
+                    "date": "2016.12.30 11:01",
+                    "file": "ucr-plugin-jira-2.869688.zip",
+                    "notes": [
+                        "Support property file encryption."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000200869688",
+                    "type": ""
+                },
+                {
+                    "version": "5",
+                    "semver": "5.927256",
+                    "date": "2017.07.29 00:12",
+                    "file": "ucr-plugin-jira-5.927256.zip",
+                    "notes": [
+                        "Resolve assignment of the NONE severity.",
+                        "Mitigate NullPointerException for non existant JIRA Priority."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000500927256",
+                    "type": ""
+                },
+                {
+                    "version": "6",
+                    "semver": "6.932936",
+                    "date": "2017.09.11 09:26",
+                    "file": "ucr-plugin-jira-6.932936.zip",
+                    "notes": [
+                        "Added proxy support."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000600932936",
+                    "type": ""
+                },
+                {
+                    "version": "7",
+                    "semver": "7.953688",
+                    "date": "2017.12.15 11:36",
+                    "file": "ucr-plugin-jira-7.953688.zip",
+                    "notes": [
+                        "Added support for mapping JIRA Projects and Components as UCR Applications.",
+                        "- One Change in UrbanCode Release will be created for every Project and Component found on an Issue.",
+                        "- The Auto Map Applications checkbox has been removed. The same functionality can be found using the value `Project` in Auto Map Applications dropdown value.",
+                        "- In the Manual Mapping selection boxes, to differentiate from Project or conflicting Component names, Components are named using the following syntax: `Project: Component`."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000700953688",
+                    "type": ""
+                },
+                {
+                    "version": "8",
+                    "semver": "8.953913",
+                    "date": "2017.12.18 10:24",
+                    "file": "ucr-plugin-jira-8.953913.zip",
+                    "notes": [
+                        "All property lists are now alphabetically sorted.",
+                        "Resolved an error occurring when the mapped JIRA Release did not have a valid Release Date."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000800953913",
+                    "type": ""
+                },
+                {
+                    "version": "9",
+                    "semver": "9.978511",
+                    "date": "2018.05.17 11:05",
+                    "file": "ucr-plugin-jira-9.978511.zip",
+                    "notes": [
+                        "Added the ability to import Jira epics as UCR Initiatives.  Child Jira tickets will be imported and associated to the proper initiative."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000900978511",
+                    "type": ""
+                },
+                {
+                    "version": "10",
+                    "semver": "10.983756",
+                    "date": "2018.06.21 13:02",
+                    "file": "ucr-plugin-jira-10.983756.zip",
+                    "notes": [
+                        "Enhancements to Epics as Initiatives"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000001000983756",
+                    "type": ""
+                },
+                {
+                    "version": "11",
+                    "semver": "11.991598",
+                    "date": "2018.08.09 14:57",
+                    "file": "ucr-plugin-jira-11.991598.zip",
+                    "notes": [
+                        "Now imports Jira Releases as UCR Releases"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000001100991598",
+                    "type": ""
+                },
+                {
+                    "version": "12",
+                    "semver": "12.1012976",
+                    "date": "2019.02.21 14:44",
+                    "file": "ucr-plugin-jira-12.1012976.zip",
+                    "notes": [
+                        "Custom Issue Types are now imported as initiatives, and this uses custom issue links to associate changes."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000001201012976",
+                    "type": ""
+                },
+                {
+                    "version": "14",
+                    "semver": "14.1035074",
+                    "date": "2019.10.18 16:21",
+                    "file": "ucr-plugin-jira-14.1035074.zip",
+                    "notes": [
+                        "Custom Issue Types bug fixes; Now can exclude Jira Issue Types from being imported"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000001401035074",
+                    "type": ""
+                },
+                {
+                    "version": "15",
+                    "semver": "15.1036688",
+                    "date": "2019.11.13 16:43",
+                    "file": "ucr-plugin-jira-15.1036688.zip",
+                    "notes": [
+                        "APAR PH17367 UCR application mapping select box to be scripted."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000001501036688",
+                    "type": ""
+                },
+                {
+                    "version": "16",
+                    "semver": "16.1065284",
+                    "date": "2020.08.20 11:04",
+                    "file": "ucr-plugin-jira-16.1065284.zip",
+                    "notes": [
+                        "Adding \"Jira Project IDs\" field under Application Mapping for considering specified Projects for issue search."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000001601065284",
+                    "type": ""
+                },
+                {
+                    "version": "17",
+                    "semver": "17.1070184",
+                    "date": "2020.09.08 16:41",
+                    "file": "ucr-plugin-jira-17.1070184.zip",
+                    "notes": [
+                        "Fix the Out of Memory issue"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000001701070184",
+                    "type": ""
+                },
+                {
+                    "version": "18",
+                    "semver": "18.1079383",
+                    "date": "2020.12.11 15:02",
+                    "file": "ucr-plugin-jira-18.1079383.zip",
+                    "notes": [
+                        "Change Jira status to Status types"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000001801079383",
+                    "type": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Settings",
+                    "file_name": "settings.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "CA Nolio",
-            "docs": "ucr-plugin-nolio",
+            "docs_folder": "ucr-plugin-nolio",
             "docsURL": "",
-            "pluginFolder": "ucr-plugin-nolio",
-            "files": [],
+            "plugin_folder": "ucr-plugin-nolio",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucr-plugin-nolio",
+            "PLUGIN_FILES": [
+                {
+                    "version": "4",
+                    "semver": "4.1036957",
+                    "date": "2019.11.15 16:09",
+                    "file": "ucr-plugin-nolio-4.1036957.zip",
+                    "notes": [
+                        "Improved sync to remove applications and templates that no longer exist in Nolio.",
+                        "         Added a check for paused state of deployments and a subsequent comment.",
+                        "         Added comments for percentage completed of an active deployment.",
+                        "         Added parameter passing to deployment task execution.",
+                        "         Added a Project Name field to integration properties.",
+                        "         Added syncing of components and component versions.",
+                        "         Added a customizable full sync interval in minutes to define when items will be imported."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000401036957",
+                    "type": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "Slack for IBM UrbanCode Release",
-            "docs": "ucr-plugin-slack",
+            "docs_folder": "ucr-plugin-slack",
             "docsURL": "",
-            "pluginFolder": "ucr-plugin-slack",
-            "files": [],
+            "plugin_folder": "ucr-plugin-slack",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucr-plugin-slack",
+            "PLUGIN_FILES": [
+                {
+                    "version": "1",
+                    "semver": "1.1027116",
+                    "date": "2019.07.02 14:54",
+                    "file": "ucr-plugin-slack-1.1027116.zip",
+                    "notes": [
+                        "First Demo version of the Slack Plugin for UCR with the following plugin steps: Failure Listener and Notification Task"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000101027116",
+                    "type": ""
+                },
+                {
+                    "version": "2",
+                    "semver": "2.1033741",
+                    "date": "2019.09.26 15:44",
+                    "file": "ucr-plugin-slack-2.1033741.zip",
+                    "notes": [
+                        "RFE 135552 - Added proxy support."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000201033741",
+                    "type": ""
+                },
+                {
+                    "version": "2",
+                    "semver": "2.1070743",
+                    "date": "2020.09.15 11:21",
+                    "file": "ucr-plugin-slack-2.1070743.zip",
+                    "notes": [
+                        "RFE 135552 - Added proxy support."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000201070743",
+                    "type": ""
+                },
+                {
+                    "version": "3",
+                    "semver": "3.1105509",
+                    "date": "2021.04.23 07:04",
+                    "file": "ucr-plugin-slack-3.1105509.zip",
+                    "notes": [
+                        "Create a channel with the deployment name, and invite users to join this channel."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000301105509",
+                    "type": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Steps",
+                    "file_name": "steps.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "Microsoft Team Foundation Server (TFS)",
-            "docs": "ucr-plugin-tfs",
+            "docs_folder": "ucr-plugin-tfs",
             "docsURL": "",
-            "pluginFolder": "ucr-plugin-tfs",
-            "files": [],
+            "plugin_folder": "ucr-plugin-tfs",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucr-plugin-tfs",
+            "PLUGIN_FILES": [
+                {
+                    "version": "2",
+                    "semver": "2.836018",
+                    "date": "2016.10.11 11:19",
+                    "file": "ucr-plugin-tfs-2.836018.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000200836018",
+                    "type": ""
+                },
+                {
+                    "version": "3",
+                    "semver": "3.882972",
+                    "date": "2017.01.30 17:26",
+                    "file": "ucr-plugin-tfs-3.882972.zip",
+                    "notes": [
+                        "Support property file encryption."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000300882972",
+                    "type": ""
+                },
+                {
+                    "version": "5",
+                    "semver": "5.953540",
+                    "date": "2017.12.14 12:08",
+                    "file": "ucr-plugin-tfs-5.953540.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000500953540",
+                    "type": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Settings",
+                    "file_name": "settings.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "XL Deploy",
-            "docs": "ucr-xl-deploy",
+            "docs_folder": "ucr-xl-deploy",
             "docsURL": "",
-            "pluginFolder": "ucr-xl-deploy",
-            "files": [],
+            "plugin_folder": "ucr-xl-deploy",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucr-xl-deploy",
+            "PLUGIN_FILES": [
+                {
+                    "version": "1",
+                    "semver": "1.1015971",
+                    "date": "2019.03.25 11:55",
+                    "file": "plugins-ucr-xl-deploy-1.1015971.zip",
+                    "notes": [
+                        "The initial version of this plugin supports both full sync and delta sync. Full sync",
+                        "         compares all objects in XL Deploy with all integration objects in UCR, while delta sync",
+                        "         only compares whats changed since last execution."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000101015971",
+                    "type": ""
+                },
+                {
+                    "version": "2",
+                    "semver": "2.1028099",
+                    "date": "2019.07.18 15:03",
+                    "file": "plugins-ucr-xl-deploy-2.1028099.zip",
+                    "notes": [
+                        "APAR PH14403 - Spaces in object names causing failures."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000201028099",
+                    "type": ""
+                },
+                {
+                    "version": "3",
+                    "semver": "3.1034152",
+                    "date": "2019.10.04 11:05",
+                    "file": "plugins-ucr-xl-deploy-3.1034152.zip",
+                    "notes": [
+                        "APAR PH17727 - Missing PercentCodec class in Check Authentication task."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000301034152",
+                    "type": ""
+                },
+                {
+                    "version": "4",
+                    "semver": "4.1034706",
+                    "date": "2019.10.15 14:37",
+                    "file": "plugins-ucr-xl-deploy-4.1034706.zip",
+                    "notes": [
+                        "APAR PH18118 - Missing PercentCodec class in Execute Task."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000401034706",
+                    "type": ""
+                },
+                {
+                    "version": "5",
+                    "semver": "5.1035313",
+                    "date": "2019.10.22 16:26",
+                    "file": "plugins-ucr-xl-deploy-5.1035313.zip",
+                    "notes": [
+                        "APAR PH18118 - Re-release fix for Missing PercentCodec with updated classpath."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000501035313",
+                    "type": ""
+                },
+                {
+                    "version": "6",
+                    "semver": "6.1039808",
+                    "date": "2019.12.20 13:48",
+                    "file": "plugins-ucr-xl-deploy-6.1039808.zip",
+                    "notes": [
+                        "APAR PH20204 - Archive completed deployment tasks in XL Deploy."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000601039808",
+                    "type": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Steps",
+                    "file_name": "steps.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
-            "name": "DOCS-NOT-FOUND",
-            "docs": "",
+            "name": "DOCS_NOT_FOUND",
+            "docs_folder": "",
             "docsURL": "",
-            "pluginFolder": "jenkins-ucr-plugin",
-            "files": [],
+            "plugin_folder": "jenkins-ucr-plugin",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "PLUGIN_FILES": [
+                {
+                    "version": "1",
+                    "semver": "1.919098",
+                    "date": "2017.06.05 12:07",
+                    "file": "ibm-ucrelease-pipeline-1.919098.hpi",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000100919098"
+                }
+            ]
         },
         {
-            "name": "DOCS-NOT-FOUND",
-            "docs": "",
+            "name": "DOCS_NOT_FOUND",
+            "docs_folder": "",
             "docsURL": "",
-            "pluginFolder": "reporting-ucd-plugin",
-            "files": [],
+            "plugin_folder": "reporting-ucd-plugin",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "PLUGIN_FILES": [
+                {
+                    "version": "10",
+                    "semver": "10.907592",
+                    "date": "2017.04.13 07:49",
+                    "file": "reporting-ucd-plugin-10.907592.zip",
+                    "notes": [
+                        "IBM UrbanCode Deploy plugin to make data available for the IBM UrbanCode Insights reporting tool.",
+                        "            This will make applications, environments, deployment information consumable for web-based dashboard reporting tool."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000001000907592",
+                    "type": "Integration"
+                }
+            ]
         },
         {
-            "name": "DOCS-NOT-FOUND",
-            "docs": "",
+            "name": "DOCS_NOT_FOUND",
+            "docs_folder": "",
             "docsURL": "",
-            "pluginFolder": "sync-ucd-plugin",
-            "files": [],
+            "plugin_folder": "sync-ucd-plugin",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "PLUGIN_FILES": [
+                {
+                    "version": "2",
+                    "semver": "2.801577",
+                    "date": "2016.06.30 14:13",
+                    "file": "sync-ucd-plugin-2.801577.zip",
+                    "notes": [
+                        "IBM UrbanCode Deploy plugin to make data available for the IBM UrbanCode mobile app.",
+                        "          This will make teams and deployments consumable for the mobile dashboard. Added the",
+                        "          ability to request UrbanCode Deploy application processes."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000200801577",
+                    "type": "Integration"
+                },
+                {
+                    "version": "4",
+                    "semver": "4.869522",
+                    "date": "2016.12.28 10:58",
+                    "file": "sync-ucd-plugin-4.869522.zip",
+                    "notes": [
+                        "Support property file encryption."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000400869522",
+                    "type": "Integration"
+                }
+            ]
         },
         {
-            "name": "DOCS-NOT-FOUND",
-            "docs": "",
+            "name": "DOCS_NOT_FOUND",
+            "docs_folder": "",
             "docsURL": "",
-            "pluginFolder": "sync-ucr-plugin",
-            "files": [],
+            "plugin_folder": "sync-ucr-plugin",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "PLUGIN_FILES": [
+                {
+                    "version": "2",
+                    "semver": "2.801192",
+                    "date": "2016.06.25 00:18",
+                    "file": "sync-ucr-plugin-2.801192.zip",
+                    "notes": [
+                        "IBM UrbanCode Release plugin to make data available for the IBM UrbanCode mobile app.",
+                        "          This will make teams and deployments consumable for the mobile dashboard."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000200801192",
+                    "type": "Integration"
+                },
+                {
+                    "version": "9",
+                    "semver": "9.956642",
+                    "date": "2018.01.08 09:39",
+                    "file": "sync-ucr-plugin-9.956642.zip",
+                    "notes": [
+                        "Bug fixes.  Improved retrieval of timing on deployments.  Best used with UCR 6.2.2.1 and later."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000900956642",
+                    "type": "Integration"
+                }
+            ]
         },
         {
-            "name": "DOCS-NOT-FOUND",
-            "docs": "",
+            "name": "DOCS_NOT_FOUND",
+            "docs_folder": "",
             "docsURL": "",
-            "pluginFolder": "ucr-plugin-deploy",
-            "files": [],
+            "plugin_folder": "ucr-plugin-deploy",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "PLUGIN_FILES": [
+                {
+                    "version": "1",
+                    "semver": "1.670291",
+                    "date": "2015.05.13 18:35",
+                    "file": "ucr-plugin-deploy-1.670291.zip",
+                    "notes": [
+                        "The first version of this plugin supports full sync (import all UCD entities) and delta sync (import only objects that have been changed in UCD) with any IBM UrbanCode Deploy server (UCD 6.1.1.4 and above).",
+                        "         Performance of the full sync has been improved and delta sync should not take more than a few seconds.",
+                        "         Compatible with IBM UrbanCode Release 6.1.1.5."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000100670291",
+                    "type": ""
+                },
+                {
+                    "version": "1",
+                    "semver": "1.674622",
+                    "date": "2015.06.10 17:36",
+                    "file": "ucr-plugin-deploy-1.674622.zip",
+                    "notes": [
+                        "The first version of this plugin supports full sync (import all UCD entities) and delta sync (import only objects that have been changed in UCD) with any IBM UrbanCode Deploy server (UCD 6.1.1.4 and above).",
+                        "         Performance of the full sync has been improved and delta sync should not take more than a few seconds.",
+                        "         Compatible with IBM UrbanCode Release 6.1.1.5."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000100674622",
+                    "type": ""
+                },
+                {
+                    "version": "1",
+                    "semver": "1.692839",
+                    "date": "2015.08.25 17:05",
+                    "file": "ucr-plugin-deploy-1.692839.zip",
+                    "notes": [
+                        "The first version of this plugin supports full sync (import all UCD entities) and delta sync (import only objects that have been changed in UCD) with any IBM UrbanCode Deploy server (UCD 6.1.1.4 and above).",
+                        "         Performance of the full sync has been improved and delta sync should not take more than a few seconds.",
+                        "         Compatible with IBM UrbanCode Release 6.1.1.5."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000100692839",
+                    "type": ""
+                },
+                {
+                    "version": "1",
+                    "semver": "1.757442",
+                    "date": "2016.03.11 14:46",
+                    "file": "ucr-plugin-deploy-1.757442.zip",
+                    "notes": [
+                        "The first version of this plugin supports full sync (import all UCD entities) and delta sync (import only objects that have been changed in UCD) with any IBM UrbanCode Deploy server (UCD 6.1.1.4 and above).",
+                        "         Performance of the full sync has been improved and delta sync should not take more than a few seconds.",
+                        "         Compatible with IBM UrbanCode Release 6.1.1.5."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000100757442",
+                    "type": ""
+                },
+                {
+                    "version": "1",
+                    "semver": "1.782064",
+                    "date": "2016.05.03 17:38",
+                    "file": "ucr-plugin-deploy-1.782064.zip",
+                    "notes": [
+                        "The first version of this plugin supports full sync (import all UCD entities) and delta sync (import only objects that have been changed in UCD) with any IBM UrbanCode Deploy server (UCD 6.1.1.4 and above).",
+                        "         Performance of the full sync has been improved and delta sync should not take more than a few seconds.",
+                        "         Compatible with IBM UrbanCode Release 6.1.1.5."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000100782064",
+                    "type": ""
+                },
+                {
+                    "version": "1",
+                    "semver": "1.933451",
+                    "date": "2017.09.14 13:28",
+                    "file": "ucr-plugin-deploy-1.933451.zip",
+                    "notes": [
+                        "The first version of this plugin supports full sync (import all UCD entities) and delta sync (import only objects that have been changed in UCD) with any IBM UrbanCode Deploy server (UCD 6.1.1.4 and above).",
+                        "         Performance of the full sync has been improved and delta sync should not take more than a few seconds.",
+                        "         Compatible with IBM UrbanCode Release 6.1.1.5."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000100933451",
+                    "type": ""
+                },
+                {
+                    "version": "1",
+                    "semver": "1.946637",
+                    "date": "2017.11.17 15:40",
+                    "file": "ucr-plugin-deploy-1.946637.zip",
+                    "notes": [
+                        "The first version of this plugin supports full sync (import all UCD entities) and delta sync (import only objects that have been changed in UCD) with any IBM UrbanCode Deploy server (UCD 6.1.1.4 and above).",
+                        "         Performance of the full sync has been improved and delta sync should not take more than a few seconds.",
+                        "         Compatible with IBM UrbanCode Release 6.1.1.5."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000100946637",
+                    "type": ""
+                },
+                {
+                    "version": "1",
+                    "semver": "1.1053195",
+                    "date": "2020.04.10 06:16",
+                    "file": "ucr-plugin-deploy-1.1053195.zip",
+                    "notes": [
+                        "The first version of this plugin supports full sync (import all UCD entities) and delta sync (import only objects that have been changed in UCD) with any IBM UrbanCode Deploy server (UCD 6.1.1.4 and above).",
+                        "         Performance of the full sync has been improved and delta sync should not take more than a few seconds.",
+                        "         Compatible with IBM UrbanCode Release 6.1.1.5."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000101053195",
+                    "type": ""
+                },
+                {
+                    "version": "1",
+                    "semver": "1.1141582.ifix01",
+                    "date": "2022.09.29 12:18",
+                    "file": "ucr-plugin-deploy-1.1141582.ifix01.zip",
+                    "notes": [
+                        "The first version of this plugin supports full sync (import all UCD entities) and delta sync (import only objects that have been changed in UCD) with any IBM UrbanCode Deploy server (UCD 6.1.1.4 and above).",
+                        "         Performance of the full sync has been improved and delta sync should not take more than a few seconds.",
+                        "         Compatible with IBM UrbanCode Release 6.1.1.5."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "000000010114158200ifix01",
+                    "type": ""
+                },
+                {
+                    "version": "9",
+                    "semver": "9.1158051",
+                    "date": "2023.06.14 11:33",
+                    "file": "ucr-plugin-deploy-9.1158051.zip",
+                    "notes": [
+                        "Logs enhancement and Import of snapshots in batches for integration."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000901158051",
+                    "type": ""
+                }
+            ]
         },
         {
-            "name": "DOCS-NOT-FOUND",
-            "docs": "",
+            "name": "DOCS_NOT_FOUND",
+            "docs_folder": "",
             "docsURL": "",
-            "pluginFolder": "ucr-plugin-jenkins",
-            "files": [],
+            "plugin_folder": "ucr-plugin-jenkins",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "PLUGIN_FILES": [
+                {
+                    "version": "1",
+                    "semver": "1.1078299",
+                    "date": "2020.12.09 00:49",
+                    "file": "ucr-plugin-jenkins-1.1078299.zip",
+                    "notes": [
+                        "Initial release. Installing this plugin will give you access to the steps listed below."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000101078299",
+                    "type": ""
+                }
+            ]
         },
         {
-            "name": "DOCS-NOT-FOUND",
-            "docs": "",
+            "name": "DOCS_NOT_FOUND",
+            "docs_folder": "",
             "docsURL": "",
-            "pluginFolder": "ucr-plugin-servicenow",
-            "files": [],
+            "plugin_folder": "ucr-plugin-servicenow",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "PLUGIN_FILES": [
+                {
+                    "version": "1",
+                    "semver": "1.958213",
+                    "date": "2018.01.18 02:09",
+                    "file": "ucr-plugin-servicenow-1.958213.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000100958213",
+                    "type": ""
+                },
+                {
+                    "version": "6",
+                    "semver": "6.958218",
+                    "date": "2018.01.18 09:44",
+                    "file": "ucr-plugin-servicenow-6.958218.zip",
+                    "notes": [
+                        "Initial Public Release"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000600958218",
+                    "type": ""
+                },
+                {
+                    "version": "7",
+                    "semver": "7.1007909",
+                    "date": "2018.12.12 10:44",
+                    "file": "ucr-plugin-servicenow-7.1007909.zip",
+                    "notes": [
+                        "Initial Public Release"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000701007909",
+                    "type": ""
+                }
+            ]
         },
         {
-            "name": "DOCS-NOT-FOUND",
-            "docs": "",
+            "name": "DOCS_NOT_FOUND",
+            "docs_folder": "",
             "docsURL": "",
-            "pluginFolder": "ucr-plugin-uccloud",
-            "files": [],
+            "plugin_folder": "ucr-plugin-uccloud",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "cloud-sync-1.0.792001.zip.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "NOT PLUGIN FILE",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "1",
+                    "semver": "1.755836",
+                    "date": "2016.03.09 11:15",
+                    "file": "ucr-plugin-uccloud-1.755836.zip",
+                    "notes": [
+                        "IBM UrbanCode Release plugin to make data available for the IBM UrbanCode mobile app.",
+                        "\t\t  This will make teams and deployments consumable for the mobile dashboard."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000100755836",
+                    "type": "Artifact"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.755925",
+                    "date": "2016.03.09 15:14",
+                    "file": "ucr-plugin-mobile-1.755925.zip",
+                    "notes": [
+                        "IBM UrbanCode Release plugin to make data available for the IBM UrbanCode mobile app.",
+                        "\t\t  This will make teams and deployments consumable for the mobile dashboard."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000100755925",
+                    "type": "Artifact"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.759332",
+                    "date": "2016.03.17 11:55",
+                    "file": "ucr-plugin-mobile-1.759332.zip",
+                    "notes": [
+                        "IBM UrbanCode Release plugin to make data available for the IBM UrbanCode mobile app.",
+                        "\t\t  This will make teams and deployments consumable for the mobile dashboard."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000100759332",
+                    "type": "Artifact"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.767382",
+                    "date": "2016.03.28 19:57",
+                    "file": "ucr-plugin-mobile-1.767382.zip",
+                    "notes": [
+                        "IBM UrbanCode Release plugin to make data available for the IBM UrbanCode mobile app.",
+                        "\t\t  This will make teams and deployments consumable for the mobile dashboard."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000100767382",
+                    "type": "Artifact"
+                }
+            ]
         }
     ],
     "UCV": []
