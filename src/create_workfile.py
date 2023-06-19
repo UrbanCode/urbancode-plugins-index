@@ -77,12 +77,14 @@ def get_plugin_dir_names(src):
 # either text is found " is a community plug-in" or "This plug-in is developed and supported by the UrbanCode Deploy Community" or "This community supported plug-in " or "is a community supported plug-in"
 # or for partner "This is a partner plug-in" or "This is a partner provided plugin."
 
-def get_plugin_specification(docs_path):
+def get_plugin_specification(docs_path, ucproduct):
     plugin_specification = docutil.get_plugin_specification_template()
 
     community_indicator=["is a community plug-in", "This plug-in is developed and supported by the UrbanCode Deploy Community", "community supported plug-in", "This plug-in is developed and supported by the UrbanCode Build Community"]
     partner_indicator=["This is a partner plug-in", "This is a partner provided plugin"]
 
+    if ucproduct == "UCV": return 
+    
     filename= f"{docs_path}/{README}"
     source_repo_url = ""
     with open(filename) as file:
@@ -287,11 +289,13 @@ def get_release_date(zf, filename):
     logger1.debug(f"zipfileinfo={zipfileinfo}")
     return datetime.datetime(*zipfileinfo)
 
-def get_info_from_zip_file(plugin_path, file, file_info):
+def get_info_from_zip_file(plugin_path, file, file_info, ucproduct):
     file_with_path = f"{plugin_path}/{file}"
     logger1.info(f"file_with_path={file_with_path}")
     
     file_info[docutil.RELEASE_FILE]=file
+
+    if ucproduct == "UCV": return
 
     ## special treatment for sample application
     if ("CreateCollectiveSampleApp.zip" in file_with_path):
@@ -350,7 +354,7 @@ def get_all_doc_files(doc_path):
     
     return listofdocfiles
 
-def get_list_and_info_of_plugin_files(plugin_path):
+def get_list_and_info_of_plugin_files(plugin_path, ucproduct):
     logger1.debug(f"{plugin_path}")
     files=[]
     for file in get_files_with_dirs(plugin_path): #get_files(plugin_path):
@@ -364,7 +368,7 @@ def get_list_and_info_of_plugin_files(plugin_path):
         if (file.startswith("._")): continue
 
         file_info = get_extended_release_template()
-        get_info_from_zip_file(plugin_path,file, file_info)
+        get_info_from_zip_file(plugin_path,file, file_info, ucproduct)
         # logger1.debug(f"temp_info={temp_info}")
         # for key, value in temp_info.items():
         #     file_info[key] = value
@@ -378,7 +382,7 @@ def get_list_and_info_of_plugin_files(plugin_path):
         files = sorted(files, key=lambda k: k[SORT_VERSION])
     return files
 
-def get_list_of_all_names(docs, files):
+def get_list_of_all_names(docs, files, ucproduct):
     listofplugins=[]
 
     all_plugin_doc_dir_names=get_plugin_dir_names(docs)
@@ -394,10 +398,10 @@ def get_list_of_all_names(docs, files):
         if (docitem in all_plugin_files_dir_name):
             # oneplugin[docutil.INFO_NAME] = docitem
             oneplugin[docutil.INFO_PLUGIN_FOLDER] = docitem
-            oneplugin[PLUGIN_FILES]=get_list_and_info_of_plugin_files(f"{files}/{docitem}")
+            oneplugin[PLUGIN_FILES]=get_list_and_info_of_plugin_files(f"{files}/{docitem}", ucproduct)
         else:
             oneplugin[docutil.INFO_SOURCE_PROJECT] = docutil.get_source_repository_from_file(f"{docs}/{docitem}/{README}")
-            oneplugin[docutil.INFO_PLUGIN_SPECIFICATION] = get_plugin_specification(f"{docs}/{docitem}")
+            oneplugin[docutil.INFO_PLUGIN_SPECIFICATION] = get_plugin_specification(f"{docs}/{docitem}", ucproduct)
         
         oneplugin[docutil.INFO_DOC_FILES] = get_all_doc_files(f"{docs}/{docitem}")
         logger1.debug(f"oneplugin={oneplugin}")
@@ -408,7 +412,7 @@ def get_list_of_all_names(docs, files):
             oneplugin=docutil.get_info_template()
             oneplugin[docutil.INFO_NAME] = DOCS_NOT_FOUND
             oneplugin[docutil.INFO_PLUGIN_FOLDER] = plugitem
-            oneplugin[PLUGIN_FILES]=get_list_and_info_of_plugin_files(f"{files}/{plugitem}")
+            oneplugin[PLUGIN_FILES]=get_list_and_info_of_plugin_files(f"{files}/{plugitem}", ucproduct)
             listofplugins.append(oneplugin)        
     return listofplugins
 
@@ -425,10 +429,10 @@ def get_workfile(config):
 
     # velocity plug-in information is actually available in the velocity-plug-in index
     return {
-        "UCB": get_list_of_all_names(UCB_Docs, UCB_Files), # [],
-        "UCD": get_list_of_all_names(UCD_Docs, UCD_Files), # [],
-        "UCR": get_list_of_all_names(UCR_Docs, UCR_Files), # [], 
-        "UCV": [], #get_list_of_all_names(UCV_Docs, UCV_Files) #[] # get_list_of_all_names(UCV_Docs, UCV_Files)
+        "UCB": get_list_of_all_names(UCB_Docs, UCB_Files, "UCB"), # [], # 
+        "UCD": get_list_of_all_names(UCD_Docs, UCD_Files, "UCD"), # [], #
+        "UCR": get_list_of_all_names(UCR_Docs, UCR_Files, "UCR"), # [], #
+        "UCV": get_list_of_all_names(UCV_Docs, UCV_Files, "UCV") #[] 
     }
 
 def main():

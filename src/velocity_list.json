@@ -5,739 +5,4244 @@
     "UCV": [
         {
             "name": "Selenium",
-            "docs": "selenium-ucv",
+            "docs_folder": "selenium-ucv",
             "docsURL": "",
-            "pluginFolder": "",
-            "files": [],
+            "plugin_folder": "",
+            "source_project": "",
             "description": "",
-            "specification": {
-                "category": "",
-                "type": ""
-            },
+            "specification": null,
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "selenium-ucv",
+            "docFiles": [
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "TestComplete",
-            "docs": "testcomplete-ucv",
+            "docs_folder": "testcomplete-ucv",
             "docsURL": "",
-            "pluginFolder": "",
-            "files": [],
+            "plugin_folder": "",
+            "source_project": "",
             "description": "",
-            "specification": {
-                "category": "",
-                "type": ""
-            },
+            "specification": null,
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "testcomplete-ucv",
+            "docFiles": [
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "Digital.ai Agility",
-            "docs": "ucv-ext-agility",
+            "docs_folder": "ucv-ext-agility",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-agility",
-            "files": [],
+            "plugin_folder": "ucv-ext-agility",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-agility",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-agility-1.0.11.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-agility-1.0.20.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-agility-1.0.4.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-agility-1.0.9.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "HCL AppScan Enterprise (ASE)",
-            "docs": "ucv-ext-appscan",
+            "docs_folder": "ucv-ext-appscan",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-appscan",
-            "files": [],
+            "plugin_folder": "ucv-ext-appscan",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-appscan",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-appscan-1.0.22.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-appscan-1.0.23.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-appscan-1.0.30.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-appscan-1.0.31.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-appscan-2.0.35.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-appscan:2.0.41.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-appscan:2.0.47.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "HCL AppScan on Cloud (ASoC)",
-            "docs": "ucv-ext-asoc",
+            "docs_folder": "ucv-ext-asoc",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-asoc",
-            "files": [],
+            "plugin_folder": "ucv-ext-asoc",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-asoc",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-asoc-1.0.18.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-asoc-1.0.23.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-asoc-1.0.24.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-asoc-2.0.1.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-asoc-3.0.1.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-asoc-3.0.5.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-asoc.3.0.9.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-asoc:3.0.11.tar",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-asoc:3.0.12.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-asoc:3.0.16.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-asoc:3.0.19.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "Azure DevOps",
-            "docs": "ucv-ext-azure",
+            "docs_folder": "ucv-ext-azure",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-azure",
-            "files": [],
+            "plugin_folder": "ucv-ext-azure",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-azure",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-azure-2.0.14.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-azure-2.0.17.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-azure-2.0.4.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-azure-3.0.1.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-azure-4.0.1.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-azure-4.0.15.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-azure-4.0.16.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-azure-4.0.26.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-azure-4.0.3.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-azure:4.0.37.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-azure:4.0.38.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-azure:4.0.40.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "BitBucket Cloud",
-            "docs": "ucv-ext-bitbucket-cloud",
+            "docs_folder": "ucv-ext-bitbucket-cloud",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-bitbucket-cloud",
-            "files": [],
+            "plugin_folder": "ucv-ext-bitbucket-cloud",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-bitbucket-cloud",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-bitbucket-cloud-1.0.15.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-bitbucket-cloud-1.0.16.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-bitbucket-cloud-1.0.7.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-bitbucket-cloud-1.0.8.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-bitbucket-cloud:1.0.26.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-bitbucket-cloud:1.0.22.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-bitbucket-cloud:1.0.29.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "BitBucket Server",
-            "docs": "ucv-ext-bitbucket-server",
+            "docs_folder": "ucv-ext-bitbucket-server",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-bitbucket-server",
-            "files": [],
+            "plugin_folder": "ucv-ext-bitbucket-server",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-bitbucket-server",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-bitbucket-server-1.0.22.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-bitbucket-server-1.0.23.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-bitbucket-server-1.0.42.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-bitbucket-server-1.1.12.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-bitbucket-server-1.1.16.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-bitbucket-server-1.1.5.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-bitbucket-server:1.1.22.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-bitbucket-server:1.1.23.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-bitbucket-server:1.1.24.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-bitbucket-server:1.1.26.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "Black Duck",
-            "docs": "ucv-ext-blackduck",
+            "docs_folder": "ucv-ext-blackduck",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-blackduck",
-            "files": [],
+            "plugin_folder": "ucv-ext-blackduck",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-blackduck",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-blackduck-1.0.17.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-blackduck-1.0.4.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "CircleCI",
-            "docs": "ucv-ext-circleci",
+            "docs_folder": "ucv-ext-circleci",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-circleci",
-            "files": [],
+            "plugin_folder": "ucv-ext-circleci",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-circleci",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-circleci-1.0.13.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-circleci-1.0.16.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-circleci-1.0.3.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-circleci-1.0.6.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-circleci:1.0.22.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-circleci:1.0.24.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "Code Coverage",
-            "docs": "ucv-ext-coverage-core",
+            "docs_folder": "ucv-ext-coverage-core",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-coverage-core",
-            "files": [],
+            "plugin_folder": "ucv-ext-coverage-core",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-coverage-core",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-coverage-core-1.0.30.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "Cucumber",
-            "docs": "ucv-ext-cucumber",
+            "docs_folder": "ucv-ext-cucumber",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-cucumber",
-            "files": [],
+            "plugin_folder": "ucv-ext-cucumber",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-cucumber",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-cucumber-1.0.7.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-cucumber-1.0.8.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "GitHub Dependabot",
-            "docs": "ucv-ext-dependabot",
+            "docs_folder": "ucv-ext-dependabot",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-dependabot",
-            "files": [],
+            "plugin_folder": "ucv-ext-dependabot",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-dependabot",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-dependabot:1.0.2.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "IBM Engineering Workflow Management (EWM)",
-            "docs": "ucv-ext-ewm",
+            "docs_folder": "ucv-ext-ewm",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-ewm",
-            "files": [],
+            "plugin_folder": "ucv-ext-ewm",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-ewm",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-ewm-1.0.2.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-ewm-1.1.15.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-ewm:1.1.27.tar",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "Fortify SSC",
-            "docs": "ucv-ext-fortify-ssc",
+            "docs_folder": "ucv-ext-fortify-ssc",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-fortify-ssc",
-            "files": [],
+            "plugin_folder": "ucv-ext-fortify-ssc",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-fortify-ssc",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-fortify-ssc-1.0.1.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-fortify-ssc:1.0.19.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "GitHub",
-            "docs": "ucv-ext-github",
+            "docs_folder": "ucv-ext-github",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-github",
-            "files": [],
+            "plugin_folder": "ucv-ext-github",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-github",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-github-1.0.40.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-github-1.0.42.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-github-1.0.49.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-github-1.1.1.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-github-1.1.15.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-github-1.1.18.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-github-1.1.20.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-github-1.1.22.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-github-1.1.9.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-github-1.2.24.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-github-1.2.25.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-github:1.3.34.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-github:1.3.35.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-github:1.3.46.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-github:1.4.5.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "GitLab",
-            "docs": "ucv-ext-gitlab",
+            "docs_folder": "ucv-ext-gitlab",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-gitlab",
-            "files": [],
+            "plugin_folder": "ucv-ext-gitlab",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-gitlab",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-gitlab-2.0.10.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-gitlab-2.0.15.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-gitlab-2.0.25.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-gitlab-2.0.28.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-gitlab-2.0.30.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-gitlab-2.0.31.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-gitlab-2.0.32.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-gitlab-2.0.36.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-gitlab-2.0.37.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-gitlab-2.0.50.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-gitlab-2.0.7.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-gitlab-2.0.8.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-gitlab-2.0.9.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-gitlab:2.1.58.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-gitlab:2.1.62.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-gitlab:2.1.63.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-gitlab:2.2.66.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "Handlebar Reporter",
-            "docs": "ucv-ext-handlebars-reporter",
+            "docs_folder": "ucv-ext-handlebars-reporter",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-handlebars-reporter",
-            "files": [],
+            "plugin_folder": "ucv-ext-handlebars-reporter",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-handlebars-reporter",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-handlebars-reporter-0.0.17.tar.7z",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-handlebars-reporter-0.0.30.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-handlebars-reporter-0.0.38.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-handlebars-reporter-0.0.39.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-handlebars-reporter-0.0.41.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-handlebars-reporter-0.0.6.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-handlebars-reporter:1.0.2.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-handlebars-reporter:2.0.1.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
+        },
+        {
+            "name": "Jenkins",
+            "docs_folder": "ucv-ext-jenkins",
+            "docsURL": "",
+            "plugin_folder": "ucv-ext-jenkins",
+            "source_project": "",
+            "description": "",
+            "specification": {
+                "categories": [],
+                "type": ""
+            },
+            "author": {
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-jenkins",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jenkins:1.0.1.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jenkins:1.0.4.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jenkins:1.0.9.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "Jira",
-            "docs": "ucv-ext-jira",
+            "docs_folder": "ucv-ext-jira",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-jira",
-            "files": [],
+            "plugin_folder": "ucv-ext-jira",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-jira",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jira-1.0.39.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jira-1.0.49.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jira-1.0.50.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jira-1.0.51.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jira-1.0.52.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jira-1.0.64.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jira-1.0.65.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jira-1.0.74.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jira-1.0.80.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jira-1.0.83.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jira-1.1.89.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jira-1.1.94.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jira-1.1.95.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jira-2.0.97.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jira-2.1.96.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jira-2.2.1.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jira:2.2.5.tar",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jira:2.2.7.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jira:2.2.8.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jira:2.2.9.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jira:2.3.1.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "Apache JMeter",
-            "docs": "ucv-ext-jmeter",
+            "docs_folder": "ucv-ext-jmeter",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-jmeter",
-            "files": [],
+            "plugin_folder": "ucv-ext-jmeter",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-jmeter",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jmeter-1.0.38.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jmeter-1.0.55.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "JUnit",
-            "docs": "ucv-ext-junit",
+            "docs_folder": "ucv-ext-junit",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-junit",
-            "files": [],
+            "plugin_folder": "ucv-ext-junit",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-junit",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-junit-1.0.38.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-junit-1.0.66.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "Planview Leankit",
-            "docs": "ucv-ext-leankit",
+            "docs_folder": "ucv-ext-leankit",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-leankit",
-            "files": [],
+            "plugin_folder": "ucv-ext-leankit",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-leankit",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-leankit:1.0.1.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "HCL OneTest",
-            "docs": "ucv-ext-onetest",
+            "docs_folder": "ucv-ext-onetest",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-onetest",
-            "files": [],
+            "plugin_folder": "ucv-ext-onetest",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-onetest",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-onetest-1.0.12.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-onetest-1.0.30.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-onetest-1.0.8.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-onetest:1.0.34.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "HCL OneTest Server",
-            "docs": "ucv-ext-onetest-server",
+            "docs_folder": "ucv-ext-onetest-server",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-onetest-server",
-            "files": [],
+            "plugin_folder": "ucv-ext-onetest-server",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-onetest-server",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-onetest-server-1.0.11.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-onetest-server-1.0.15.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-onetest-server-1.0.2.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-onetest-server:1.0.17.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "Rally",
-            "docs": "ucv-ext-rally",
+            "docs_folder": "ucv-ext-rally",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-rally",
-            "files": [],
+            "plugin_folder": "ucv-ext-rally",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-rally",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-rally-1.0.16.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-rally-1.0.17.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-rally-1.0.25.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-rally-1.0.30.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-rally-1.0.33.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-rally-1.0.34.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-rally:1.0.43.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "Rational Test Automation Server",
-            "docs": "ucv-ext-rtas",
+            "docs_folder": "ucv-ext-rtas",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-rtas",
-            "files": [],
+            "plugin_folder": "ucv-ext-rtas",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-rtas",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-rtas-1.0.22.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-rtas-1.0.6.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "SAP ChaRM",
-            "docs": "ucv-ext-sap-charm",
+            "docs_folder": "ucv-ext-sap-charm",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-sap-charm",
-            "files": [],
+            "plugin_folder": "ucv-ext-sap-charm",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-sap-charm",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-sap-charm:1.0.1.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "ServiceNow",
-            "docs": "ucv-ext-servicenow",
+            "docs_folder": "ucv-ext-servicenow",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-servicenow",
-            "files": [],
+            "plugin_folder": "ucv-ext-servicenow",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-servicenow",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-servicenow-1.0.13.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-servicenow-1.0.14.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-servicenow-1.0.25.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-servicenow-1.0.27.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "Shell",
-            "docs": "ucv-ext-shell",
+            "docs_folder": "ucv-ext-shell",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-shell",
-            "files": [],
+            "plugin_folder": "ucv-ext-shell",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-shell",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-shell-0.0.7.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Automation-task",
+                    "file_name": "Automation-task.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "Snyk",
-            "docs": "ucv-ext-snyk",
+            "docs_folder": "ucv-ext-snyk",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-snyk",
-            "files": [],
+            "plugin_folder": "ucv-ext-snyk",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-snyk",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-snyk:1.0.1.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "SonarQube",
-            "docs": "ucv-ext-sonarqube",
+            "docs_folder": "ucv-ext-sonarqube",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-sonarqube",
-            "files": [],
+            "plugin_folder": "ucv-ext-sonarqube",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-sonarqube",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-sonarqube-1.0.34.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-sonarqube-1.0.42.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-sonarqube-1.0.50.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Scripts",
+                    "file_name": "scripts.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Certificate",
+                    "file_name": "certificate.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "",
+                    "file_name": "SonarQube_Velocity_Flow.png",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                }
+            ]
         },
         {
             "name": "TestNG",
-            "docs": "ucv-ext-testng",
+            "docs_folder": "ucv-ext-testng",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-testng",
-            "files": [],
+            "plugin_folder": "ucv-ext-testng",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-testng",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-testng-1.0.13.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "Twistlock",
-            "docs": "ucv-ext-twistlock",
+            "docs_folder": "ucv-ext-twistlock",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-twistlock",
-            "files": [],
+            "plugin_folder": "ucv-ext-twistlock",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-twistlock",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-twistlock-1.0.39.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-twistlock-1.0.43.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "Urbancode Deploy",
-            "docs": "ucv-ext-ucd",
+            "docs_folder": "ucv-ext-ucd",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-ucd",
-            "files": [],
+            "plugin_folder": "ucv-ext-ucd",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-ucd",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-ucd:1.0.10.tar",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-ucd:1.0.11.tar",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-ucd:1.0.12.tar",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-ucd:1.0.16.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-ucd:2.3.51.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-ucd:2.3.52.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-ucd:3.3.56.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-ucd:3.4.5.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-ucd:3.4.6.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "CollabNet VersionOne",
-            "docs": "ucv-ext-versionone",
+            "docs_folder": "ucv-ext-versionone",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-versionone",
-            "files": [],
+            "plugin_folder": "ucv-ext-versionone",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-versionone",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-versionone-1.0.11.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "Microsoft Visual Studio Testing",
-            "docs": "ucv-ext-vs-quality",
+            "docs_folder": "ucv-ext-vs-quality",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-vs-quality",
-            "files": [],
+            "plugin_folder": "ucv-ext-vs-quality",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-vs-quality",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-vs-quality-1.0.30.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-vs-quality-1.0.31.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "WhiteSource",
-            "docs": "ucv-ext-whitesource",
+            "docs_folder": "ucv-ext-whitesource",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-whitesource",
-            "files": [],
+            "plugin_folder": "ucv-ext-whitesource",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-whitesource",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-whitesource-2.0.15.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
+        },
+        {
+            "name": "YAML Executor",
+            "docs_folder": "ucv-ext-yaml-executor",
+            "docsURL": "",
+            "plugin_folder": "ucv-ext-yaml-executor",
+            "source_project": "",
+            "description": "",
+            "specification": {
+                "categories": [],
+                "type": ""
+            },
+            "author": {
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-yaml-executor",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "readme.md",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-yaml-executor:0.0.5.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Steps",
+                    "file_name": "steps.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Plugin-configurations",
+                    "file_name": "plugin-configurations.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
         },
         {
             "name": "Jenkins For Urbancode Velocity",
-            "docs": "urbancode-velocity",
+            "docs_folder": "urbancode-velocity",
             "docsURL": "",
-            "pluginFolder": "",
-            "files": [],
+            "plugin_folder": "",
+            "source_project": "",
             "description": "",
-            "specification": {
-                "category": "",
-                "type": ""
-            },
+            "specification": null,
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "urbancode-velocity",
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "",
+                    "file_name": "integrations-page.PNG",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                },
+                {
+                    "name": "",
+                    "file_name": "jenkins-dialog.PNG",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                },
+                {
+                    "name": "",
+                    "file_name": "jenkins-config.PNG",
+                    "sub_documents": [],
+                    "folder_name": "media"
+                }
+            ]
         },
         {
-            "name": "DOCS-NOT-FOUND",
-            "docs": "",
+            "name": "DOCS_NOT_FOUND",
+            "docs_folder": "",
             "docsURL": "",
-            "pluginFolder": "CICS",
-            "files": [],
+            "plugin_folder": "CICS",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "sw-devops-Launch-L3-vsm.json",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ]
         },
         {
-            "name": "DOCS-NOT-FOUND",
-            "docs": "",
+            "name": "DOCS_NOT_FOUND",
+            "docs_folder": "",
             "docsURL": "",
-            "pluginFolder": "acc-ext-generator",
-            "files": [],
+            "plugin_folder": "acc-ext-generator",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "readme.md",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "acc-ext-generator:1.0.39.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ]
         },
         {
-            "name": "DOCS-NOT-FOUND",
-            "docs": "",
+            "name": "DOCS_NOT_FOUND",
+            "docs_folder": "",
             "docsURL": "",
-            "pluginFolder": "jenkins",
-            "files": [],
+            "plugin_folder": "jenkins",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "urbancode-velocity-2.0.0.hpi",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "urbancode-velocity-2.0.1.hpi",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "urbancode-velocity-2.0.2.hpi",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "urbancode-velocity-2.0.3.hpi",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "urbancode-velocity-2.0.4.hpi",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "urbancode-velocity-2.0.5.hpi",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "urbancode-velocity-2.0.6.hpi",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "urbancode-velocity-2.1.0.hpi",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "urbancode-velocity-2.1.2.hpi",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "urbancode-velocity-2.1.3.hpi",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "urbancode-velocity-3.0.0.hpi",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "urbancode-velocity-3.0.1.hpi",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ]
         },
         {
-            "name": "DOCS-NOT-FOUND",
-            "docs": "",
+            "name": "DOCS_NOT_FOUND",
+            "docs_folder": "",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-bottleneck-detection",
-            "files": [],
+            "plugin_folder": "ucv-ext-bottleneck-detection",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-bottleneck-detection-1.0.1.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-bottleneck-detection-1.0.1.tar.txt",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-bottleneck-detection-1.0.2.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-bottleneck-detection-1.0.2.tar.txt",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ]
         },
         {
-            "name": "DOCS-NOT-FOUND",
-            "docs": "",
+            "name": "DOCS_NOT_FOUND",
+            "docs_folder": "",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-jenkins",
-            "files": [],
+            "plugin_folder": "ucv-ext-jira-test",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jira-test-1.0.17.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ]
         },
         {
-            "name": "DOCS-NOT-FOUND",
-            "docs": "",
+            "name": "DOCS_NOT_FOUND",
+            "docs_folder": "",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-jira-test",
-            "files": [],
+            "plugin_folder": "ucv-ext-salesforce",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-salesforce-1.0.14.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-salesforce-1.0.37.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-salesforce-1.0.5.tar.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ]
         },
         {
-            "name": "DOCS-NOT-FOUND",
-            "docs": "",
+            "name": "DOCS_NOT_FOUND",
+            "docs_folder": "",
             "docsURL": "",
-            "pluginFolder": "ucv-ext-salesforce",
-            "files": [],
+            "plugin_folder": "ucv-ext-sdk-template",
+            "source_project": "",
             "description": "",
             "specification": {
-                "category": "",
+                "categories": [],
                 "type": ""
             },
             "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
-        },
-        {
-            "name": "DOCS-NOT-FOUND",
-            "docs": "",
-            "docsURL": "",
-            "pluginFolder": "ucv-ext-sdk-template",
-            "files": [],
-            "description": "",
-            "specification": {
-                "category": "",
-                "type": ""
+                "name": "",
+                "email": ""
             },
-            "author": {
-                "name": "urbancode",
-                "email": "urbancode-plugin@urbancode.com"
-            }
+            "publish": true,
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "readme.md",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-sdk-template-0.1.5.tar.gz",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ]
         }
     ]
 }
