@@ -38,29 +38,62 @@ from os import walk
 import os
 
 # folder path
-dir_path = '/Volumes/T7/PLUGINS/IBM-UCD-PLUGINS/files'
+# dir_path = '/Volumes/T7/PLUGINS/IBM-UCD-PLUGINS/files'
 
-# def get_files_with_dirs(path):
-#     for (dir_path, dir_names, file_names) in os.walk(path):
-#         if file_names:
-#             newpath=dir_path.replace(f"{path}", "").replace("/", "")
-#             for file in file_names:
-#                 yield f"{newpath}/{file}" if newpath else file
-# # list to store files name
-# res = []
-# # for (dir_path, dir_names, file_names) in walk(dir_path):
-# #     print (f"dir_path = {dir_path}")
-# #     print (f"dir_names = {dir_names}")
-# #     print (f"file_names = {file_names}")
-# #     print ("------------------")
-# for file in get_files_with_dirs(dir_path):
-#     print (f"file={file}")
+# # def get_files_with_dirs(path):
+# #     for (dir_path, dir_names, file_names) in os.walk(path):
+# #         if file_names:
+# #             newpath=dir_path.replace(f"{path}", "").replace("/", "")
+# #             for file in file_names:
+# #                 yield f"{newpath}/{file}" if newpath else file
+# # # list to store files name
+# # res = []
+# # # for (dir_path, dir_names, file_names) in walk(dir_path):
+# # #     print (f"dir_path = {dir_path}")
+# # #     print (f"dir_names = {dir_names}")
+# # #     print (f"file_names = {file_names}")
+# # #     print ("------------------")
+# # for file in get_files_with_dirs(dir_path):
+# #     print (f"file={file}")
 
-docfilename = "steps and roles"
-splitted_file_name = docfilename.split(" ")
-title = ""
-for x in splitted_file_name:
-    if (x != "and"): x=x.capitalize()
-    title = title + " " + x
+# docfilename = "steps and roles"
+# splitted_file_name = docfilename.split(" ")
+# title = ""
+# for x in splitted_file_name:
+#     if (x != "and"): x=x.capitalize()
+#     title = title + " " + x
 
-print (f"TITLE={title.strip()}")
+# print (f"TITLE={title.strip()}")
+
+import json
+ 
+# Opening JSON file
+with open('/Users/ozzy/RnD/Source/PLUGINS/urbancode-plugins-index/src/UCB-list.json') as json_file:
+    plugin_data = json.load(json_file)
+ 
+template_map = {
+    "name": "",
+    "docs_folder": "",
+    "plugin_folder": "",
+    "list_of_other_plugin_folder": [""]
+}
+
+allmappings=[]
+
+for plugin in plugin_data["UCB"]:
+    # print (f"plugin={plugin}")
+    # print (f"Plugin={plugin['name']}")
+    if plugin["name"] == "DOCS_NOT_FOUND":
+        print (f'Folder={plugin["plugin_folder"]}')
+        newmapping = {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": []
+        }
+        newmapping["list_of_other_plugin_folder"].append(plugin["plugin_folder"])
+        allmappings.append(newmapping)
+
+
+with open("temp_mappings.json", "w") as f:
+    json.dump(allmappings,f, indent=4)

@@ -36,5 +36,703 @@
             "plugin_folder": "",
             "list_of_other_plugin_folder": ["jac"]
         }
+    ],
+    "UCD": [
+        {
+            "name": "7-Zip",
+            "docs_folder": "7-zip",
+            "plugin_folder": "7-zip",
+            "list_of_other_plugin_folder": ["7zip"]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "AgentPropertiesCollector"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "Android"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "Anthill"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "AnthillSourceConfig"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "ApacheHTTPServer"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "ApplicationDeploymentForWebSphere"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "ArtifactoryAuto"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "BMCRemedy"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "CloudFoundry"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "DB2z"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "Docker"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "DockerCompose"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "GeneralUtils"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "GreenHat"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "HCLOneTestServer"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "HPQTP"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "IBMAppScan"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "IBMContainers"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "IBMInstallationManager"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "IBMMiddlewareConfigurationForWebSphere"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "IBMUCDApplications"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "IBMUCDComponents"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "IBMUCDConfigurationManagement"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "IBMUCDEnvironments"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "IBMUCDProcess"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "IBMUCDResources"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "IBMUCDSystem"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "IBMUCDVersionedFileStorage"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "IBMUCDVersions"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "IBMWorklight"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "IISAdminScripts"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "IISAppCmd"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "IISMSDeploy"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "InfoSphereOptim"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "JUnit"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "Jenkins"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "LuntbuildSourceConfig"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "MaaS360"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "MavenResolve"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "MicrosoftSQLServerSQLCmd"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "MicrosoftTFS-WorkItems"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "OSB"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "OracleSQLPlus"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "PowerShell"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "RFT"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "RIT"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "RPT"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "RQM"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "RTWec"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "RationalQualityManager"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "SQLJDBC"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "ServiceVirtualization"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "SourceConfig"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "StarTeamSourceConfig"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "SubversionExport"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "TeamCity"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "UrbanCodeRelease"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "WASconfigure"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "WASinstall"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "WLIResourceMgmt"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "WLST"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "WebLogicAppDeploy"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "WebLogicResourceMgmt"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "WebUtilities"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "WindowsFailoverClusters"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "air-terraform"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "bluemix"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "iOS"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "ibm-asoc"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "ibm-rtas"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "jenkins-ucr-plugin"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "maximo"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "plugin-air-InstallationManager"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "plugin-air-iOS"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "sourceconfig-azure"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "tririga"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "zOS"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "zos-mvscommand-plugin"
+            ]
+        }
+	],
+    "UCR": [
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "jenkins-ucr-plugin"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "reporting-ucd-plugin"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "sync-ucd-plugin"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "sync-ucr-plugin"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "ucr-plugin-deploy"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "ucr-plugin-jenkins"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "ucr-plugin-servicenow"
+            ]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": [
+                "ucr-plugin-uccloud"
+            ]
+        }
     ]
 }
