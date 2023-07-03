@@ -382,20 +382,45 @@ def get_list_and_info_of_plugin_files(plugin_path, ucproduct):
         files = sorted(files, key=lambda k: k[SORT_VERSION])
     return files
 
-def get_list_of_all_names(docs, files, ucproduct):
+def get_product_readme(productpath):
+    product_readme= ""
+
+    with open(f"{productpath}/README.md", "r") as textf:
+        product_readme = textf.readlines()
+    return product_readme
+
+def get_plugin_description(pluginname, product_readme):
+    logger1.debug(f"pluginname={pluginname}")
+    plugin_description = ""
+    plugin_desc_found = False
+    for line in product_readme:
+        if f"## {pluginname}" in line and not plugin_desc_found:
+            plugin_desc_found = True
+        elif f"## {pluginname}" in line or plugin_desc_found:
+            if "---" in line: break # return plugin_description
+            plugin_description += line
+
+    # remove "\n at the beginning and the end"
+    return plugin_description.strip()
+
+def build_list(docs, files, ucproduct):
     listofplugins=[]
 
     all_plugin_doc_dir_names=get_plugin_dir_names(docs)
     all_plugin_files_dir_name=get_plugin_dir_names(files)
-
+    product_readme=get_product_readme(f"{docs}")
+    # logger1.info(f"product readme={product_readme}")
     # iterate first over doc folders
 
     for docitem in all_plugin_doc_dir_names:
         oneplugin=docutil.get_info_template()
         oneplugin[docutil.INFO_NAME] = docutil.get_title_from_file(f"{docs}/{docitem}/{README}")
+        # need oneplugin[docutil.INFO_NAME] and the product README
+        oneplugin[docutil.INFO_DESCRIPTION] = get_plugin_description (oneplugin[docutil.INFO_NAME], product_readme)
         oneplugin[docutil.INFO_DOCS_FOLDER] = docitem
         oneplugin[NEW_FOLDER_NAME]=str(docitem).lower()
-        if (docitem in all_plugin_files_dir_name):
+        # if username.upper() in (name.upper() for name in USERNAMES)
+        if (docitem.lower() in (name.lower() for name in all_plugin_files_dir_name)):
             # oneplugin[docutil.INFO_NAME] = docitem
             oneplugin[docutil.INFO_PLUGIN_FOLDER] = docitem
             oneplugin[PLUGIN_FILES]=get_list_and_info_of_plugin_files(f"{files}/{docitem}", ucproduct)
@@ -408,7 +433,7 @@ def get_list_of_all_names(docs, files, ucproduct):
         listofplugins.append(oneplugin)
 
     for plugitem in all_plugin_files_dir_name:
-        if (plugitem not in all_plugin_doc_dir_names):
+        if (plugitem.lower() not in (name.lower() for name in all_plugin_doc_dir_names)): # (plugitem not in all_plugin_doc_dir_names): # 
             oneplugin=docutil.get_info_template()
             oneplugin[docutil.INFO_NAME] = DOCS_NOT_FOUND
             oneplugin[docutil.INFO_PLUGIN_FOLDER] = plugitem
@@ -416,7 +441,7 @@ def get_list_of_all_names(docs, files, ucproduct):
             listofplugins.append(oneplugin)        
     return listofplugins
 
-def get_workfile(config):
+""" def get_workfile(config):
 
     UCB_Docs = f"{config[ucutil.PLUGIN_DOCS_ROOT]}/{config[ucutil.PLUGIN_DOCS_FOLDER]}/UCB"
     UCB_Files = f"{config[ucutil.UCB_PLUGIN_FILES_ROOT]}/{config[ucutil.UCX_PLUGIN_FILES_FOLDER]}"
@@ -429,20 +454,33 @@ def get_workfile(config):
 
     # velocity plug-in information is actually available in the velocity-plug-in index
     return {
-        "UCB": get_list_of_all_names(UCB_Docs, UCB_Files, "UCB"), # [], # 
-        "UCD": get_list_of_all_names(UCD_Docs, UCD_Files, "UCD"), # [], #
-        "UCR": get_list_of_all_names(UCR_Docs, UCR_Files, "UCR"), # [], #
-        "UCV": get_list_of_all_names(UCV_Docs, UCV_Files, "UCV") #[] 
+        "UCB": build_list(UCB_Docs, UCB_Files, "UCB"), # [], # 
+        "UCD": build_list(UCD_Docs, UCD_Files, "UCD"), # [], #
+        "UCR": build_list(UCR_Docs, UCR_Files, "UCR"), # [], #
+        "UCV": build_list(UCV_Docs, UCV_Files, "UCV") #[] 
+    } """
+
+def get_workfile(config, product):
+    product_Docs = f"{config[ucutil.PLUGIN_DOCS_ROOT]}/{config[ucutil.PLUGIN_DOCS_FOLDER]}/{product}"
+    product_ref = f"{product}_{ucutil.UCx_PLUGIN_FILES_ROOT}"
+    product_Files = f"{config[product_ref]}/{config[ucutil.UCX_PLUGIN_FILES_FOLDER]}"
+
+    return {
+        product: build_list(product_Docs, product_Files, product)
     }
 
 def main():
     config = ucutil.get_config()
 
-    adict = get_workfile(config)
-    # logger1.debug(f"adict={adict}")
+#    adict = get_workfile(config)
+ 
+    for product in ["UCB", "UCD", "UCR"]:
+        with open(f"{product}-list.json", "w") as f:
+            adict = get_workfile(config, product)
+            json.dump(adict,f, indent=4)
 
-    with open("list.json", "w") as f:
-        json.dump(adict,f, indent=4)
+#    with open("list.json", "w") as f:
+#        json.dump(adict,f, indent=4)
 if __name__ == '__main__':
     main()
                 
