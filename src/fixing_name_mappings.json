@@ -1,0 +1,40 @@
+{
+    "UCB": [
+        {
+            "name": "Sonar",
+            "docs_folder": "sonar",
+            "plugin_folder": "sonar",
+            "list_of_other_plugin_folder": ["SonarQube"]
+        },
+        {
+            "name": "UrbanCode Velocity",
+            "docs_folder": "urbancode-velocity",
+            "plugin_folder": "urbancode-velocity",
+            "list_of_other_plugin_folder": ["UCB-Velocity", "plugins-ucb-velocity"]
+        },
+        {
+            "name": "IBM UrbanCode Deploy for IBM UrbanCode Build",
+            "docs_folder": "ibmucd",
+            "plugin_folder": "ibmucd",
+            "list_of_other_plugin_folder": ["uDeploy"]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": ["digital-experience"]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": ["dimensions"]
+        },
+        {
+            "name": "",
+            "docs_folder": "",
+            "plugin_folder": "",
+            "list_of_other_plugin_folder": ["jac"]
+        }
+    ]
+}
