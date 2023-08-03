@@ -150,6 +150,22 @@ def get_title_from_file(filename):
                 titlefound = True
     return title
 
+def get_plugin_folder_from_readme(plugin_doc_path):
+    logger1.debug (f"Plugin Doc Path={plugin_doc_path}")
+    plugin_folder= ""
+    lines=[]
+    all_lines = pathlib.Path(f"{plugin_doc_path}/README.md").read_text().split("\n")
+    logger1.debug(f"all_lines={all_lines}")
+    #os.exit()
+    for line in reversed(all_lines):
+        if "|" in line: 
+            logger1.debug(f"line={line}")
+        if "-PLUGINS\/main\/files\/" in line:
+            parts = line.split("/")
+            logger1.info(f"part={parts}")
+            os.exit()
+    return plugin_folder    
+
 def get_source_repository_from_file(filename):
     source_repo_url = ""
     with open(filename) as file:

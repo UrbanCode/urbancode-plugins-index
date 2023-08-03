@@ -425,8 +425,12 @@ def build_list(docs, files, ucproduct):
             oneplugin[docutil.INFO_PLUGIN_FOLDER] = docitem
             oneplugin[PLUGIN_FILES]=get_list_and_info_of_plugin_files(f"{files}/{docitem}", ucproduct)
         else:
+            
             oneplugin[docutil.INFO_SOURCE_PROJECT] = docutil.get_source_repository_from_file(f"{docs}/{docitem}/{README}")
             oneplugin[docutil.INFO_PLUGIN_SPECIFICATION] = get_plugin_specification(f"{docs}/{docitem}", ucproduct)
+            logger1.debug(f"sourcepro={oneplugin[docutil.INFO_SOURCE_PROJECT]}")
+            if oneplugin[docutil.INFO_SOURCE_PROJECT] == "":
+                oneplugin[docutil.INFO_PLUGIN_FOLDER] = docutil.get_plugin_folder_from_readme(f"{docs}/{docitem}")
         
         oneplugin[docutil.INFO_DOC_FILES] = get_all_doc_files(f"{docs}/{docitem}")
         logger1.debug(f"oneplugin={oneplugin}")
@@ -474,7 +478,7 @@ def main():
 
 #    adict = get_workfile(config)
  
-    for product in ["UCB", "UCD", "UCR"]:
+    for product in ["UCD"]: #["UCB", "UCD", "UCR"]:
         with open(f"{product}-list.json", "w") as f:
             adict = get_workfile(config, product)
             json.dump(adict,f, indent=4)
