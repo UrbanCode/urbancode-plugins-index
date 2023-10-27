@@ -3596,34 +3596,6 @@
                     "description": "",
                     "SORT_VERSION": "0000004001139652",
                     "type": ""
-                },
-                {
-                    "version": "42",
-                    "semver": "42.1158923",
-                    "date": "2023.07.25 12:07",
-                    "file": "ucd-DockerSourceConfig-42.1158923.zip",
-                    "notes": [
-                        "Updated dependency for Log4j and Jettison ."
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "",
-                    "SORT_VERSION": "0000004201158923",
-                    "type": ""
-                },
-                {
-                    "version": "43",
-                    "semver": "43.1162237",
-                    "date": "2023.10.05 07:03",
-                    "file": "ucd-DockerSourceConfig-43.1162237.zip",
-                    "notes": [
-                        "Added support for obtaining the id/digest when a Docker V2 manifest is returned."
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "",
-                    "SORT_VERSION": "0000004301162237",
-                    "type": ""
                 }
             ],
             "docFiles": [
@@ -5714,26 +5686,6 @@
                     "publish": true,
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000009401156804",
-                    "type": "automation",
-                    "categories": [
-                        "windows",
-                        "linux",
-                        "unix",
-                        "utility"
-                    ]
-                },
-                {
-                    "version": "95",
-                    "semver": "95.1159914",
-                    "date": "2023.08.25 18:46",
-                    "file": "ucd-FileUtils-95.1159914.zip",
-                    "notes": [
-                        "Update ini4j library for CVE-2022-41404"
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
-                    "SORT_VERSION": "0000009501159914",
                     "type": "automation",
                     "categories": [
                         "windows",
@@ -9212,20 +9164,6 @@
                     "publish": true,
                     "description": "Apache Maven is a software project management and comprehension tool.\n  Based on the concept of a project object model (POM), Maven can manage a projects build,\n  reporting and documentation from a central piece of information.",
                     "SORT_VERSION": "0000002701150685",
-                    "type": "Source"
-                },
-                {
-                    "version": "28",
-                    "semver": "28.1155760",
-                    "date": "2023.04.21 12:55",
-                    "file": "ucd-MavenSourceConfig-28.1155760.zip",
-                    "notes": [
-                        "Updating Jettison library to 1.5.4 for CVE-2023-1436"
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "Apache Maven is a software project management and comprehension tool.\n  Based on the concept of a project object model (POM), Maven can manage a projects build,\n  reporting and documentation from a central piece of information.",
-                    "SORT_VERSION": "0000002801155760",
                     "type": "Source"
                 }
             ],
@@ -13141,34 +13079,6 @@
                     "description": "ServiceNow integrates ITIL v3 processes, social collaboration for IT departments, software-as-a-service delivery, and modern Web functionality to deliver a flexible, easy-to-use and self-managing application.",
                     "SORT_VERSION": "0000003701156992",
                     "type": "automation"
-                },
-                {
-                    "version": "38",
-                    "semver": "38.1159088",
-                    "date": "2023.07.31 09:39",
-                    "file": "ucd-ServiceNow-38.1159088.zip",
-                    "notes": [
-                        "RFE - URBANCODE-I-557 - Resolved issue for OR condition."
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "ServiceNow integrates ITIL v3 processes, social collaboration for IT departments, software-as-a-service delivery, and modern Web functionality to deliver a flexible, easy-to-use and self-managing application.",
-                    "SORT_VERSION": "0000003801159088",
-                    "type": "automation"
-                },
-                {
-                    "version": "39",
-                    "semver": "39.1161576",
-                    "date": "2023.09.21 04:07",
-                    "file": "ucd-ServiceNow-39.1161576.zip",
-                    "notes": [
-                        "RFE - URBANCODE-I-557 Implement OR on the key(any key)."
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "ServiceNow integrates ITIL v3 processes, social collaboration for IT departments, software-as-a-service delivery, and modern Web functionality to deliver a flexible, easy-to-use and self-managing application.",
-                    "SORT_VERSION": "0000003901161576",
-                    "type": "automation"
                 }
             ],
             "docFiles": [
@@ -13770,48 +13680,6 @@
                     ]
                 },
                 {
-                    "version": "15",
-                    "semver": "15.1150657",
-                    "date": "2023.02.01 02:44",
-                    "file": "ucd-Shell-15.1150657.zip",
-                    "notes": [
-                        "Updating jettison library for CVE-2022-45693 and CVE-2022-45685"
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
-                    "SORT_VERSION": "0000001501150657",
-                    "type": "automation",
-                    "categories": [
-                        "windows",
-                        "linux",
-                        "unix",
-                        "utility",
-                        "scripting"
-                    ]
-                },
-                {
-                    "version": "16",
-                    "semver": "16.1155715",
-                    "date": "2023.04.20 20:14",
-                    "file": "ucd-Shell-16.1155715.zip",
-                    "notes": [
-                        "Updating Jettison library to 1.5.4 for CVE-2023-1436"
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
-                    "SORT_VERSION": "0000001601155715",
-                    "type": "automation",
-                    "categories": [
-                        "windows",
-                        "linux",
-                        "unix",
-                        "utility",
-                        "scripting"
-                    ]
-                },
-                {
                     "version": "17",
                     "semver": "17.1157671",
                     "date": "2023.05.24 14:16",
@@ -13844,27 +13712,6 @@
                     "publish": true,
                     "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
                     "SORT_VERSION": "0000001801158127",
-                    "type": "automation",
-                    "categories": [
-                        "windows",
-                        "linux",
-                        "unix",
-                        "utility",
-                        "scripting"
-                    ]
-                },
-                {
-                    "version": "19",
-                    "semver": "19.1158728",
-                    "date": "2023.07.18 13:29",
-                    "file": "ucd-Shell-19.1158728.zip",
-                    "notes": [
-                        "Allow overridding of temporary directory used for running scripts."
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
-                    "SORT_VERSION": "0000001901158728",
                     "type": "automation",
                     "categories": [
                         "windows",
@@ -14242,20 +14089,6 @@
                     "publish": true,
                     "description": "Subversion software offers a versioning and a revision control system distributed under a free license. It is used to maintain current and historical versions of files such as source code, web pages, and documentation.",
                     "SORT_VERSION": "0000002401153955",
-                    "type": "Source"
-                },
-                {
-                    "version": "26",
-                    "semver": "26.1159798",
-                    "date": "2023.08.22 05:23",
-                    "file": "ucd-SubversionSourceConfig-26.1159798.zip",
-                    "notes": [
-                        "made changes to support plugin for ucd v7.1.2.1"
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "Subversion software offers a versioning and a revision control system distributed under a free license. It is used to maintain current and historical versions of files such as source code, web pages, and documentation.",
-                    "SORT_VERSION": "0000002601159798",
                     "type": "Source"
                 }
             ],
@@ -18397,20 +18230,6 @@
                     "publish": true,
                     "description": "",
                     "SORT_VERSION": "0000009201152136",
-                    "type": ""
-                },
-                {
-                    "version": "93",
-                    "semver": "93.1160857",
-                    "date": "2023.09.04 06:51",
-                    "file": "ucd-WebSphereConfiguration-93.1160857.zip",
-                    "notes": [
-                        "Fixed the defect in v92 which shows error with respect to log4j library for few steps."
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "",
-                    "SORT_VERSION": "0000009301160857",
                     "type": ""
                 }
             ],
@@ -22616,48 +22435,6 @@
                     "description": "",
                     "SORT_VERSION": "0000001501135024",
                     "type": ""
-                },
-                {
-                    "version": "22",
-                    "semver": "22.1159870",
-                    "date": "2023.08.24 06:41",
-                    "file": "ucd-appscan-22.1159870.zip",
-                    "notes": [
-                        "fixed defect to update correct testpolicyId while creating a scan."
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "",
-                    "SORT_VERSION": "0000002201159870",
-                    "type": ""
-                },
-                {
-                    "version": "23",
-                    "semver": "23.1161004",
-                    "date": "2023.09.07 04:55",
-                    "file": "ucd-appscan-23.1161004.zip",
-                    "notes": [
-                        "added code for retriving report summary file in xml format."
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "",
-                    "SORT_VERSION": "0000002301161004",
-                    "type": ""
-                },
-                {
-                    "version": "24",
-                    "semver": "24.1161014",
-                    "date": "2023.09.07 07:31",
-                    "file": "ucd-appscan-24.1161014.zip",
-                    "notes": [
-                        "Updated the plugin to use the new appscan Rest API to retrieve report summary file as a json file."
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "",
-                    "SORT_VERSION": "0000002401161014",
-                    "type": ""
                 }
             ],
             "docFiles": [
@@ -24911,30 +24688,6 @@
                     "description": "",
                     "SORT_VERSION": "0000000101147446",
                     "type": "Source"
-                },
-                {
-                    "version": "2",
-                    "semver": "2.1158723",
-                    "date": "2023.07.18 05:00",
-                    "file": "ucd-plugins-sourceconfig-gitlab-generic-packages-2.1158723.zip",
-                    "notes": [],
-                    "supports": "",
-                    "publish": true,
-                    "description": "",
-                    "SORT_VERSION": "0000000201158723",
-                    "type": "Source"
-                },
-                {
-                    "version": "3",
-                    "semver": "3.1158910",
-                    "date": "2023.07.25 04:32",
-                    "file": "ucd-plugins-sourceconfig-gitlab-generic-packages-3.1158910.zip",
-                    "notes": [],
-                    "supports": "",
-                    "publish": true,
-                    "description": "",
-                    "SORT_VERSION": "0000000301158910",
-                    "type": "Source"
                 }
             ],
             "docFiles": [
@@ -26490,6 +26243,32 @@
             ]
         },
         {
+            "name": "IBM z/TPF Beta",
+            "docs_folder": "ibm-z-tpf-beta",
+            "docsURL": "",
+            "plugin_folder": "",
+            "source_project": "",
+            "description": "IBM z/Transaction Processing Facility is a high-performance and high-reliability transaction processing operating system for airline, rail, and hotel reservations, and financial transactions systems. The z/TPF Deploy beta plug-in runs a ZOLDR LOAD command and then a ZOLDR ACTIVATE command on the target z/TPF system. The z/TPF Undeploy beta plug-in runs a ZOLDR DEACTIVATE command and then a ZOLDR DELETE command on the target z/TPF system. The z/TPF Commit beta plug-in runs a ZOLDR ACCEPT command on the target z/TPF system. Together these three plug-ins for IBM UrbanCode\u2122 Deploy can automate the build, promotion, and deployment of artifacts to z/TPF test and production systems, as part of a continuous delivery environment.",
+            "specification": {
+                "categories": [],
+                "type": ""
+            },
+            "author": {
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ibm-z-tpf-beta",
+            "docFiles": [
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
+        },
+        {
             "name": "Microsoft IIS - Configure",
             "docs_folder": "iis-configuration",
             "docsURL": "",
@@ -27404,17 +27183,6 @@
                     "publish": true,
                     "description": "",
                     "SORT_VERSION": "000000020000002701134919"
-                },
-                {
-                    "version": "2",
-                    "semver": "2.28.1161061",
-                    "date": "2023.09.08 12:45",
-                    "file": "ibm-ucdeploy-build-steps-2.28.1161061.hpi",
-                    "notes": [],
-                    "supports": "",
-                    "publish": true,
-                    "description": "",
-                    "SORT_VERSION": "000000020000002801161061"
                 }
             ],
             "docFiles": [
@@ -32744,20 +32512,6 @@
                     "description": "uDeploy is Urbancodes application release automation tool. For more information, see http://www.urbancode.com/html/products/deploy",
                     "SORT_VERSION": "0000008501132355",
                     "type": "Automation"
-                },
-                {
-                    "version": "89",
-                    "semver": "89.1159271",
-                    "date": "2023.08.03 21:48",
-                    "file": "ucd-uDeploy-Environment-89.1159271.zip",
-                    "notes": [
-                        "Fixes APAR PH55636 - Create Multiple Environments not creating with expected color."
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "uDeploy is Urbancodes application release automation tool. For more information, see http://www.urbancode.com/html/products/deploy",
-                    "SORT_VERSION": "0000008901159271",
-                    "type": "Automation"
                 }
             ],
             "docFiles": [
@@ -34987,21 +34741,6 @@
                     "description": "This plugin is used to download zOS artifacts from nexus or Artifactory.",
                     "SORT_VERSION": "0000001001152827",
                     "type": "Artifact"
-                },
-                {
-                    "version": "10",
-                    "semver": "10.1162509",
-                    "date": "2023.10.11 15:41",
-                    "file": "ucd-ExtArtRepo-10.1162509.zip",
-                    "notes": [
-                        "Added support to handle AT_TLS configuration for external servers.",
-                        "\t\t\tFix Jettison Vulnerability"
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "This plugin is used to download zOS artifacts from nexus or Artifactory.",
-                    "SORT_VERSION": "0000001001162509",
-                    "type": "Artifact"
                 }
             ],
             "docFiles": [
@@ -35286,23 +35025,6 @@
                     "publish": true,
                     "description": "",
                     "SORT_VERSION": "0000000401138411",
-                    "type": ""
-                },
-                {
-                    "version": "4",
-                    "semver": "4.1162523",
-                    "date": "2023.10.12 12:16",
-                    "file": "ucd-plugins-zos-dataset-writer-4.1162523.zip",
-                    "notes": [
-                        "Enhancement to accept multiple datasets or Files as input",
-                        "      Minor Improvements",
-                        "      Fixed security issue CVE-2021-29425",
-                        "      Fixed Jettison Vulnerability"
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "",
-                    "SORT_VERSION": "0000000401162523",
                     "type": ""
                 }
             ],
@@ -36780,54 +36502,6 @@
                     "description": "Developed by UrbanCode, for z/OS.",
                     "SORT_VERSION": "0000008401158288",
                     "type": "Automation"
-                },
-                {
-                    "version": "84",
-                    "semver": "84.1158587",
-                    "date": "2023.07.12 10:32",
-                    "file": "ucd-zos-deploy-84.1158587.zip",
-                    "notes": [
-                        "Added deploy action filter to Generate Artifact Information step",
-                        "            Added Deleted PDS Member - Exclude missing members loop Type in Generate Artifact Information step",
-                        "            Fixes issue where a process using ispf gateway that has more output data fills up output buffer and never completes",
-                        "            Fixed typo while printing for Deploy Type in Generate Artifact Information step",
-                        "            Added check for Target Dataset Filter to allow only dataset or member loop types"
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "Developed by UrbanCode, for z/OS.",
-                    "SORT_VERSION": "0000008401158587",
-                    "type": "Automation"
-                },
-                {
-                    "version": "85",
-                    "semver": "85.1159123",
-                    "date": "2023.08.01 14:45",
-                    "file": "ucd-zos-deploy-85.1159123.zip",
-                    "notes": [
-                        "Minor improvements in New Package Format Deployment and Deleting Datasets",
-                        "            Added input to pass Ispf Gateway Path for Deploy Data sets step"
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "Developed by UrbanCode, for z/OS.",
-                    "SORT_VERSION": "0000008501159123",
-                    "type": "Automation"
-                },
-                {
-                    "version": "86",
-                    "semver": "86.1162422",
-                    "date": "2023.10.09 13:02",
-                    "file": "ucd-zos-deploy-86.1162422.zip",
-                    "notes": [
-                        "Removed support for Submit Job and Wait For Job steps to run outside the mainframe systems",
-                        "            Fixed Submit Job issue with incorrect formatting - PH57188"
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "Developed by UrbanCode, for z/OS.",
-                    "SORT_VERSION": "0000008601162422",
-                    "type": "Automation"
                 }
             ],
             "docFiles": [
@@ -37148,21 +36822,6 @@
                     "description": "IBMs integration broker from the WebSphere product family that allows business information to flow between disparate applications across multiple hardware and software platforms.",
                     "SORT_VERSION": "0000000101127841",
                     "type": "deploy"
-                },
-                {
-                    "version": "1",
-                    "semver": "1.1162414",
-                    "date": "2023.10.09 05:57",
-                    "file": "ucd-zOS-WebSphereMessageBroker-CMP-1.1162414.zip",
-                    "notes": [
-                        "Optimized IIB Deploy plugin",
-                        "          Removed Jettison Library with vulnerability"
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "IBMs integration broker from the WebSphere product family that allows business information to flow between disparate applications across multiple hardware and software platforms.",
-                    "SORT_VERSION": "0000000101162414",
-                    "type": "deploy"
                 }
             ],
             "docFiles": [
@@ -37418,53 +37077,6 @@
                     "description": "",
                     "SORT_VERSION": "0000000801158293",
                     "type": ""
-                },
-                {
-                    "version": "8",
-                    "semver": "8.1158586",
-                    "date": "2023.07.12 10:20",
-                    "file": "ucd-plugins-zos-multi-generate-artifact-info-8.1158586.zip",
-                    "notes": [
-                        "Added Loop types for Directory, Files, and Generic Artifacts",
-                        "            Added check for Target Dataset Filter to allow only dataset or member loop types"
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "",
-                    "SORT_VERSION": "0000000801158586",
-                    "type": ""
-                },
-                {
-                    "version": "8",
-                    "semver": "8.1162244",
-                    "date": "2023.10.05 09:19",
-                    "file": "ucd-plugins-zos-multi-generate-artifact-info-8.1162244.zip",
-                    "notes": [
-                        "Added Loop types for Directory, Files, and Generic Artifacts",
-                        "            Added check for Target Dataset Filter to allow only dataset or member loop types",
-                        "            Removed vulnerability with Jettison Library"
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "",
-                    "SORT_VERSION": "0000000801162244",
-                    "type": ""
-                },
-                {
-                    "version": "8",
-                    "semver": "8.1162447",
-                    "date": "2023.10.10 11:27",
-                    "file": "ucd-plugins-zos-multi-generate-artifact-info-8.1162447.zip",
-                    "notes": [
-                        "Added Loop types for Directory, Files, and Generic Artifacts",
-                        "            Added check for Target Dataset Filter to allow only dataset or member loop types",
-                        "            Removed vulnerability with Jettison Library"
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "",
-                    "SORT_VERSION": "0000000801162447",
-                    "type": ""
                 }
             ],
             "docFiles": [
@@ -37586,23 +37198,6 @@
                     "description": "",
                     "SORT_VERSION": "0000000101127592",
                     "type": ""
-                },
-                {
-                    "version": "1",
-                    "semver": "1.1162235",
-                    "date": "2023.10.05 06:20",
-                    "file": "ucd-plugins-zos-replacetokens-uss-1.1162235.zip",
-                    "notes": [
-                        "Replace tokens in USS files",
-                        "      Fixed FileNotFound exception for replace token properties file",
-                        "      Removed unused log4j file",
-                        "      Removed unused Jettison file"
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "",
-                    "SORT_VERSION": "0000000101162235",
-                    "type": ""
                 }
             ],
             "docFiles": [
@@ -37697,73 +37292,6 @@
                     "publish": true,
                     "description": "",
                     "SORT_VERSION": "0000000201158244",
-                    "type": ""
-                },
-                {
-                    "version": "2",
-                    "semver": "2.1159387",
-                    "date": "2023.08.08 11:48",
-                    "file": "ucd-plugins-zos-rexx-2.1159387.zip",
-                    "notes": [
-                        "Added checkbox to print logs and minor improvements",
-                        "            Fixes issue where a process using ispf gateway that has more output data fills up output buffer and never completes",
-                        "            Increased allowed arguments size to 248 characters"
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "",
-                    "SORT_VERSION": "0000000201159387",
-                    "type": ""
-                },
-                {
-                    "version": "2",
-                    "semver": "2.1161042",
-                    "date": "2023.09.08 06:19",
-                    "file": "ucd-plugins-zos-rexx-2.1161042.zip",
-                    "notes": [
-                        "Added checkbox to print logs and minor improvements",
-                        "            Fixes issue where a process using ispf gateway that has more output data fills up output buffer and never completes",
-                        "            Increased allowed arguments size to 248 characters",
-                        "            Fixed issue with work directory during two or more parallel step execution"
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "",
-                    "SORT_VERSION": "0000000201161042",
-                    "type": ""
-                },
-                {
-                    "version": "2",
-                    "semver": "2.1161121",
-                    "date": "2023.09.11 12:53",
-                    "file": "ucd-plugins-zos-rexx-2.1161121.zip",
-                    "notes": [
-                        "Added checkbox to print logs and minor improvements",
-                        "            Fixes issue where a process using ispf gateway that has more output data fills up output buffer and never completes",
-                        "            Increased allowed arguments size to 248 characters",
-                        "            Fixed issue with work directory during two or more parallel step execution"
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "",
-                    "SORT_VERSION": "0000000201161121",
-                    "type": ""
-                },
-                {
-                    "version": "2",
-                    "semver": "2.1161998",
-                    "date": "2023.09.28 12:37",
-                    "file": "ucd-plugins-zos-rexx-2.1161998.zip",
-                    "notes": [
-                        "Added checkbox to print logs and minor improvements",
-                        "            Fixes issue where a process using ispf gateway that has more output data fills up output buffer and never completes",
-                        "            Increased allowed arguments size to 248 characters",
-                        "            Fixed issue with work directory during two or more parallel step execution"
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "",
-                    "SORT_VERSION": "0000000201161998",
                     "type": ""
                 }
             ],
