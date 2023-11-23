@@ -478,7 +478,7 @@ def main():
 
 #    adict = get_workfile(config)
  
-    for product in ["UCV"]: #["UCB", "UCD", "UCR"]:
+    for product in ["UCB"]: #  ["UCV"] ["UCB"] ["UCB", "UCD", "UCR"]
         with open(f"{product}-list.json", "w") as f:
             adict = get_workfile(config, product)
             json.dump(adict,f, indent=4)

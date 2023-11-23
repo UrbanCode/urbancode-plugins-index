@@ -1983,16 +1983,16 @@
                 },
                 {
                     "version": "44",
-                    "semver": "44.20220614-1106",
-                    "date": "2022.06.14 11:07",
-                    "file": "cics-44.20220614-1106.zip",
+                    "semver": "44.20231019-2202",
+                    "date": "2023.10.19 22:04",
+                    "file": "cics-44.20231019-2202.zip",
                     "notes": [
                         "Support deployments to CICS TS V6.1."
                     ],
                     "supports": "",
                     "publish": true,
                     "description": "CICS Transaction Server is a powerful application server that meets the transaction-processing needs of both large and small enterprises.",
-                    "SORT_VERSION": "0000004420220614-1106",
+                    "SORT_VERSION": "0000004420231019-2202",
                     "type": "Deploy"
                 }
             ],
@@ -12272,6 +12272,20 @@
                     "publish": true,
                     "description": "SQL*Plus (commonly known as sqlplus) is an Oracle database client that can run SQL and PL/SQL commands and display their results. SQL*Plus is the default, the simplest and the most basic Oracle utility, with a basic command-line interface, commonly used by users, administrators, and programmers.",
                     "SORT_VERSION": "0000002301153956",
+                    "type": "automation"
+                },
+                {
+                    "version": "24",
+                    "semver": "24.1163812",
+                    "date": "2023.11.16 07:33",
+                    "file": "ucd-SQLPlus-24.1163812.zip",
+                    "notes": [
+                        "Handling missing File issue"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "SQL*Plus (commonly known as sqlplus) is an Oracle database client that can run SQL and PL/SQL commands and display their results. SQL*Plus is the default, the simplest and the most basic Oracle utility, with a basic command-line interface, commonly used by users, administrators, and programmers.",
+                    "SORT_VERSION": "0000002401163812",
                     "type": "automation"
                 }
             ],
