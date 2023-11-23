@@ -1,0 +1,36 @@
+{
+    "UCx": [
+      {
+        "name": "PLUGINNAME",
+        "overwrite_with": {
+          "description": "xxxxx",
+          "specification": {
+            "categories": [],
+            "type": ""
+          },
+          "author": {
+            "name": "",
+            "email": ""
+          },
+          "publish": true,
+          "NEW_FOLDER_NAME": "xyz1"
+        }
+      },
+      {
+        "name": "PLUGINNAME2",
+        "overwrite_with": {
+          "description": "xxxxx",
+          "specification": {
+            "categories": [],
+            "type": ""
+          },
+          "author": {
+            "name": "",
+            "email": ""
+          },
+          "publish": true,
+          "NEW_FOLDER_NAME": "yyz2"
+        }
+      }
+    ]
+  }
