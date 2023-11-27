@@ -1,19 +1,15 @@
 {
-    "UCx": [
+    "UCB": [
       {
-        "name": "PLUGINNAME",
+        "name": "UrbanCode Velocity",
         "overwrite_with": {
-          "description": "xxxxx",
+          "plugin_folder": "UCB-Velocity",
           "specification": {
             "categories": [],
             "type": ""
           },
-          "author": {
-            "name": "",
-            "email": ""
-          },
-          "publish": true,
-          "NEW_FOLDER_NAME": "xyz1"
+          "NEW_FOLDER_NAME": "build-velocity",
+          "NEW_NAME": "DevOps Velocity"
         }
       },
       {
