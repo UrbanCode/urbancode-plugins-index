@@ -37479,6 +37479,23 @@
                     "description": "",
                     "SORT_VERSION": "0000000801162447",
                     "type": ""
+                },
+                {
+                    "version": "8",
+                    "semver": "8.1164047",
+                    "date": "2023.11.27 07:15",
+                    "file": "ucd-plugins-zos-multi-generate-artifact-info-8.1164047.zip",
+                    "notes": [
+                        "Added Loop types for Directory, Files, and Generic Artifacts",
+                        "            Added check for Target Dataset Filter to allow only dataset or member loop types",
+                        "            Removed vulnerability with Jettison Library",
+                        "            Fixed issue with stream and minor improvements"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000801164047",
+                    "type": ""
                 }
             ],
             "docFiles": [
