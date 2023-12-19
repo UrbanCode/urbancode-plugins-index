@@ -6070,6 +6070,34 @@
                     "description": "Git is a distributed revision control system with an emphasis on speed. Git was initially designed and developed by Linus Torvalds for Linux kernel development.",
                     "SORT_VERSION": "0000002601152463",
                     "type": "Source"
+                },
+                {
+                    "version": "27",
+                    "semver": "27.1155761",
+                    "date": "2023.04.21 12:56",
+                    "file": "ucd-GitSourceConfig-27.1155761.zip",
+                    "notes": [
+                        "Updating Jettison library to 1.5.4 for CVE-2023-1436"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "Git is a distributed revision control system with an emphasis on speed. Git was initially designed and developed by Linus Torvalds for Linux kernel development.",
+                    "SORT_VERSION": "0000002701155761",
+                    "type": "Source"
+                },
+                {
+                    "version": "28",
+                    "semver": "28.1164116",
+                    "date": "2023.12.05 06:52",
+                    "file": "ucd-GitSourceConfig-28.1164116.zip",
+                    "notes": [
+                        "APAR-(PH58492): Handled NPE error for few properties"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "Git is a distributed revision control system with an emphasis on speed. Git was initially designed and developed by Linus Torvalds for Linux kernel development.",
+                    "SORT_VERSION": "0000002801164116",
+                    "type": "Source"
                 }
             ],
             "docFiles": [
@@ -6624,6 +6652,18 @@
                     "description": "",
                     "SORT_VERSION": "0000000900000003",
                     "type": "Automation"
+                },
+                {
+                    "version": "10",
+                    "semver": "10.0",
+                    "date": "2023.12.04 23:22",
+                    "file": "DTPerf-DD-IBM-10.0.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000001000000000",
+                    "type": "Automation"
                 }
             ],
             "docFiles": [
@@ -6772,6 +6812,18 @@
                     "description": "",
                     "SORT_VERSION": "0000000600000001",
                     "type": "Automation"
+                },
+                {
+                    "version": "7",
+                    "semver": "7.0",
+                    "date": "2023.12.04 23:22",
+                    "file": "DTUI-FunctionalTest-DD-IBM-7.0.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000700000000",
+                    "type": "Automation"
                 }
             ],
             "docFiles": [
@@ -6847,6 +6899,18 @@
                     "publish": true,
                     "description": "HCL OneTest Virtualization",
                     "SORT_VERSION": "0000000400000000",
+                    "type": "Automation"
+                },
+                {
+                    "version": "5",
+                    "semver": "5.0",
+                    "date": "2023.12.04 23:22",
+                    "file": "DTVirtualization-DD-IBM-5.0.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "IBM DevOps Test Virtualization",
+                    "SORT_VERSION": "0000000500000000",
                     "type": "Automation"
                 }
             ],
@@ -7050,6 +7114,18 @@
                     "publish": true,
                     "description": "",
                     "SORT_VERSION": "0000001100000001",
+                    "type": "Automation"
+                },
+                {
+                    "version": "12",
+                    "semver": "12.0",
+                    "date": "2023.12.04 23:22",
+                    "file": "DTUI-UITest-DD-IBM-12.0.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000001200000000",
                     "type": "Automation"
                 }
             ],
@@ -7605,6 +7681,20 @@
                     "publish": true,
                     "description": "",
                     "SORT_VERSION": "0000000501154090",
+                    "type": ""
+                },
+                {
+                    "version": "6",
+                    "semver": "6.1164186",
+                    "date": "2023.12.07 09:04",
+                    "file": "ucd-IIS-MSDeploy-6.1164186.zip",
+                    "notes": [
+                        "Updated plugin gor groovy3 support."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000601164186",
                     "type": ""
                 }
             ],
@@ -21080,6 +21170,24 @@
                         "IBM",
                         "middleware"
                     ]
+                },
+                {
+                    "version": "130",
+                    "semver": "130.1164187",
+                    "date": "2023.12.07 09:31",
+                    "file": "ucd-WebSphere-130.1164187.zip",
+                    "notes": [
+                        "Upadted plugin to rectify shared-library creation error."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "WebSphere is the leading software for on demand business, delivering business integration, application and transaction infrastructure, portals, application transformation, mobile/speech middleware, product information management and e-commerce.",
+                    "SORT_VERSION": "0000013001164187",
+                    "type": "Deploy",
+                    "categories": [
+                        "IBM",
+                        "middleware"
+                    ]
                 }
             ],
             "docFiles": [
@@ -22331,6 +22439,20 @@
                     "description": "",
                     "SORT_VERSION": "0000000701022553",
                     "type": ""
+                },
+                {
+                    "version": "8",
+                    "semver": "8.1164159",
+                    "date": "2023.12.06 09:58",
+                    "file": "ucd-apiconnect-8.1164159.zip",
+                    "notes": [
+                        "Updated plugin to only support API Connect 10.0.x."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000801164159",
+                    "type": ""
                 }
             ],
             "docFiles": [
@@ -22678,6 +22800,72 @@
                 {
                     "name": "Overview",
                     "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Steps",
+                    "file_name": "steps.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
+        },
+        {
+            "name": "Argo CD",
+            "docs_folder": "argocd",
+            "docsURL": "",
+            "plugin_folder": "argocd",
+            "source_project": "",
+            "description": "",
+            "specification": {
+                "categories": [],
+                "type": ""
+            },
+            "author": {
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "argocd",
+            "PLUGIN_FILES": [
+                {
+                    "version": "1",
+                    "semver": "1.1164029",
+                    "date": "2023.11.22 20:51",
+                    "file": "ucd-plugins-argocd-1.1164029.zip",
+                    "notes": [
+                        "Initial release. Installing this plugin will give you access to the steps listed below."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000101164029",
+                    "type": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
                     "sub_documents": [],
                     "folder_name": ""
                 },
@@ -31223,6 +31411,22 @@
                     "description": "",
                     "SORT_VERSION": "0000000401155934",
                     "type": "Source"
+                },
+                {
+                    "version": "5",
+                    "semver": "5.1164218",
+                    "date": "2023.12.12 08:53",
+                    "file": "ucd-sourceconfig-nexus-v3-5.1164218.zip",
+                    "notes": [
+                        "RFE-URBANCODE-I-598: Updated plugin to support multiple application files import from a Raw repository in Nexus.",
+                        "      Updated deprecated library HttpClientBuilder to HttpClientBuilder2.",
+                        "      Updating Jettison library to 1.5.4 for CVE-2023-1436."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000501164218",
+                    "type": "Source"
                 }
             ],
             "docFiles": [
@@ -37796,6 +38000,24 @@
                     "description": "",
                     "SORT_VERSION": "0000000201161998",
                     "type": ""
+                },
+                {
+                    "version": "2",
+                    "semver": "2.1164307",
+                    "date": "2023.12.14 10:41",
+                    "file": "ucd-plugins-zos-rexx-2.1164307.zip",
+                    "notes": [
+                        "Added checkbox to print logs and minor improvements",
+                        "            Fixes issue where a process using ispf gateway that has more output data fills up output buffer and never completes",
+                        "            Increased allowed arguments size to 248 characters",
+                        "            Fixed issue with work directory during two or more parallel step execution",
+                        "            Handle return code for a CLIST error message response from ISPF Gateway"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000201164307",
+                    "type": ""
                 }
             ],
             "docFiles": [
@@ -39694,6 +39916,18 @@
                     "publish": true,
                     "description": "",
                     "SORT_VERSION": "0000000300000003",
+                    "type": ""
+                },
+                {
+                    "version": "4",
+                    "semver": "4.0",
+                    "date": "2023.12.04 23:22",
+                    "file": "DTHub-DD-IBM-4.0.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000400000000",
                     "type": ""
                 }
             ]
