@@ -1029,6 +1029,20 @@
                     "description": "Artifactory is an open source repository and artifacts manager. It acts as a host/proxy for Maven, Ant, Gradle, Ivy, NuGet and RubyGems repositories.",
                     "SORT_VERSION": "0000002401154918",
                     "type": "Artifact"
+                },
+                {
+                    "version": "25",
+                    "semver": "25.1167143",
+                    "date": "2024.03.26 08:25",
+                    "file": "ucd-Artifactory-25.1167143.zip",
+                    "notes": [
+                        "RFE - URBANCODE-I-626."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "Artifactory is an open source repository and artifacts manager. It acts as a host/proxy for Maven, Ant, Gradle, Ivy, NuGet and RubyGems repositories.",
+                    "SORT_VERSION": "0000002501167143",
+                    "type": "Artifact"
                 }
             ],
             "docFiles": [
@@ -5741,6 +5755,26 @@
                         "unix",
                         "utility"
                     ]
+                },
+                {
+                    "version": "96",
+                    "semver": "96.1160835",
+                    "date": "2023.08.31 20:58",
+                    "file": "ucd-FileUtils-96.1160835.zip",
+                    "notes": [
+                        "Support AES 256-bit keys for input/output property encryption if also supported by the agent."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
+                    "SORT_VERSION": "0000009601160835",
+                    "type": "automation",
+                    "categories": [
+                        "windows",
+                        "linux",
+                        "unix",
+                        "utility"
+                    ]
                 }
             ],
             "docFiles": [
@@ -6404,6 +6438,291 @@
                 {
                     "name": "Steps",
                     "file_name": "steps.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
+        },
+        {
+            "name": "HCL DevOps Test Hub (Test Hub)",
+            "docs_folder": "HCLDevOpsTestHub",
+            "docsURL": "",
+            "plugin_folder": "HCLDevOpsTestHub",
+            "source_project": "",
+            "description": "",
+            "specification": {
+                "categories": [],
+                "type": ""
+            },
+            "author": {
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "hcldevopstesthub",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "Readme.md",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "NOT PLUGIN FILE",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "4",
+                    "semver": "4.0",
+                    "date": "2023.12.02 11:22",
+                    "file": "DTHub-DD-HCL-4.0.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000400000000",
+                    "type": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
+        },
+        {
+            "name": "HCL DevOps Test Performance (Test Performance)",
+            "docs_folder": "HCLDevOpsTestPerf",
+            "docsURL": "",
+            "plugin_folder": "HCLDevOpsTestPerf",
+            "source_project": "",
+            "description": "",
+            "specification": {
+                "categories": [],
+                "type": ""
+            },
+            "author": {
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "hcldevopstestperf",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "Readme.md",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "NOT PLUGIN FILE",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "10",
+                    "semver": "10.0",
+                    "date": "2023.12.02 11:22",
+                    "file": "DTPerf-DD-HCL-10.0.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000001000000000",
+                    "type": "Automation"
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
+        },
+        {
+            "name": "HCL DevOps Test UI (Test UI)",
+            "docs_folder": "HCLDevOpsTestUI",
+            "docsURL": "",
+            "plugin_folder": "HCLDevOpsTestUI",
+            "source_project": "",
+            "description": "",
+            "specification": {
+                "categories": [],
+                "type": ""
+            },
+            "author": {
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "hcldevopstestui",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "Readme.md",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "NOT PLUGIN FILE",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "7",
+                    "semver": "7.0",
+                    "date": "2023.12.02 11:22",
+                    "file": "DTUI-FunctionalTest-DD-HCL-7.0.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000700000000",
+                    "type": "Automation"
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
+        },
+        {
+            "name": "HCL DevOps Test UI - Web UI",
+            "docs_folder": "HCLDevOpsTestUIWebUI",
+            "docsURL": "",
+            "plugin_folder": "HCLDevOpsTestUIWebUI",
+            "source_project": "",
+            "description": "",
+            "specification": {
+                "categories": [],
+                "type": ""
+            },
+            "author": {
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "hcldevopstestuiwebui",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "Readme.md",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "NOT PLUGIN FILE",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "12",
+                    "semver": "12.0",
+                    "date": "2023.12.02 11:22",
+                    "file": "DTUI-UITest-DD-HCL-12.0.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000001200000000",
+                    "type": "Automation"
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
+        },
+        {
+            "name": "HCL DevOps Test Virtualization (Test Virtualization)",
+            "docs_folder": "HCLDevOpsTestVirtualization",
+            "docsURL": "",
+            "plugin_folder": "HCLDevOpsTestVirtualization",
+            "source_project": "",
+            "description": "",
+            "specification": {
+                "categories": [],
+                "type": ""
+            },
+            "author": {
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "hcldevopstestvirtualization",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "Readme.md",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "NOT PLUGIN FILE",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "5",
+                    "semver": "5.0",
+                    "date": "2023.12.02 11:22",
+                    "file": "DTVirtualization-DD-HCL-5.0.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "HCL DevOps Test Virtualization",
+                    "SORT_VERSION": "0000000500000000",
+                    "type": "Automation"
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
                     "sub_documents": [],
                     "folder_name": ""
                 },
@@ -7416,6 +7735,351 @@
                     "file_name": "screen-shot-2017-08-17-at-1.18.24-pm.png",
                     "sub_documents": [],
                     "folder_name": "media"
+                }
+            ]
+        },
+        {
+            "name": "IBM DevOps Test Hub (Test Hub)",
+            "docs_folder": "IBMDevOpsTestHub",
+            "docsURL": "",
+            "plugin_folder": "IBMDevOpsTestHub",
+            "source_project": "",
+            "description": "",
+            "specification": {
+                "categories": [],
+                "type": ""
+            },
+            "author": {
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ibmdevopstesthub",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "Readme.md",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "NOT PLUGIN FILE",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "4",
+                    "semver": "4.0",
+                    "date": "2023.12.04 23:22",
+                    "file": "DTHub-DD-IBM-4.0.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000400000000",
+                    "type": ""
+                },
+                {
+                    "version": "4",
+                    "semver": "4.1",
+                    "date": "2024.03.18 10:22",
+                    "file": "DTHub-DD-IBM-4.1.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000400000001",
+                    "type": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
+        },
+        {
+            "name": "IBM DevOps Test Performance (Test Performance)",
+            "docs_folder": "IBMDevOpsTestPerf",
+            "docsURL": "",
+            "plugin_folder": "IBMDevOpsTestPerf",
+            "source_project": "",
+            "description": "",
+            "specification": {
+                "categories": [],
+                "type": ""
+            },
+            "author": {
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ibmdevopstestperf",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "Readme.md",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "NOT PLUGIN FILE",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "10",
+                    "semver": "10.0",
+                    "date": "2023.12.04 23:22",
+                    "file": "DTPerf-DD-IBM-10.0.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000001000000000",
+                    "type": "Automation"
+                },
+                {
+                    "version": "10",
+                    "semver": "10.1",
+                    "date": "2024.03.18 10:22",
+                    "file": "DTPerf-DD-IBM-10.1.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000001000000001",
+                    "type": "Automation"
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
+        },
+        {
+            "name": "IBM DevOps Test UI (Test UI)",
+            "docs_folder": "IBMDevOpsTestUI",
+            "docsURL": "",
+            "plugin_folder": "IBMDevOpsTestUI",
+            "source_project": "",
+            "description": "",
+            "specification": {
+                "categories": [],
+                "type": ""
+            },
+            "author": {
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ibmdevopstestui",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "Readme.md",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "NOT PLUGIN FILE",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "7",
+                    "semver": "7.0",
+                    "date": "2023.12.04 23:22",
+                    "file": "DTUI-FunctionalTest-DD-IBM-7.0.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000700000000",
+                    "type": "Automation"
+                },
+                {
+                    "version": "7",
+                    "semver": "7.1",
+                    "date": "2024.03.18 10:22",
+                    "file": "DTUI-FunctionalTest-DD-IBM-7.1.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000700000001",
+                    "type": "Automation"
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
+        },
+        {
+            "name": "IBM DevOps Test UI - Web UI",
+            "docs_folder": "IBMDevOpsTestUIWebUI",
+            "docsURL": "",
+            "plugin_folder": "IBMDevOpsTestUIWebUI",
+            "source_project": "",
+            "description": "",
+            "specification": {
+                "categories": [],
+                "type": ""
+            },
+            "author": {
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ibmdevopstestuiwebui",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "Readme.md",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "NOT PLUGIN FILE",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "12",
+                    "semver": "12.0",
+                    "date": "2023.12.04 23:22",
+                    "file": "DTUI-UITest-DD-IBM-12.0.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000001200000000",
+                    "type": "Automation"
+                },
+                {
+                    "version": "12",
+                    "semver": "12.1",
+                    "date": "2024.03.18 10:22",
+                    "file": "DTUI-UITest-DD-IBM-12.1.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000001200000001",
+                    "type": "Automation"
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
+        },
+        {
+            "name": "IBM DevOps Test Virtualization (Test Virtualization)",
+            "docs_folder": "IBMDevOpsTestVirtualization",
+            "docsURL": "",
+            "plugin_folder": "IBMDevOpsTestVirtualization",
+            "source_project": "",
+            "description": "",
+            "specification": {
+                "categories": [],
+                "type": ""
+            },
+            "author": {
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ibmdevopstestvirtualization",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "Readme.md",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "NOT PLUGIN FILE",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "5",
+                    "semver": "5.0",
+                    "date": "2023.12.04 23:22",
+                    "file": "DTVirtualization-DD-IBM-5.0.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "IBM DevOps Test Virtualization",
+                    "SORT_VERSION": "0000000500000000",
+                    "type": "Automation"
+                },
+                {
+                    "version": "5",
+                    "semver": "5.1",
+                    "date": "2024.03.18 10:22",
+                    "file": "DTVirtualization-DD-IBM-5.1.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": true,
+                    "description": "IBM DevOps Test Virtualization",
+                    "SORT_VERSION": "0000000500000001",
+                    "type": "Automation"
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
                 }
             ]
         },
@@ -8523,6 +9187,34 @@
                     "description": "JIRA is an issue tracking product, developed by Atlassian. It is used for bug tracking, issue tracking and project management.",
                     "SORT_VERSION": "0000001701154618",
                     "type": "Issue Tracking"
+                },
+                {
+                    "version": "18",
+                    "semver": "18.1166919",
+                    "date": "2024.03.14 11:30",
+                    "file": "ucd-JIRA-18.1166919.zip",
+                    "notes": [
+                        "Added compatibility for Jira Version 9."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "JIRA is an issue tracking product, developed by Atlassian. It is used for bug tracking, issue tracking and project management.",
+                    "SORT_VERSION": "0000001801166919",
+                    "type": "Issue Tracking"
+                },
+                {
+                    "version": "19",
+                    "semver": "19.1167047",
+                    "date": "2024.03.21 09:29",
+                    "file": "ucd-JIRA-19.1167047.zip",
+                    "notes": [
+                        "RFE - URBANCODE-I-635 - PAT Token feature added."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "JIRA is an issue tracking product, developed by Atlassian. It is used for bug tracking, issue tracking and project management.",
+                    "SORT_VERSION": "0000001901167047",
+                    "type": "Issue Tracking"
                 }
             ],
             "docFiles": [
@@ -9316,6 +10008,20 @@
                     "publish": true,
                     "description": "Apache Maven is a software project management and comprehension tool.\n  Based on the concept of a project object model (POM), Maven can manage a projects build,\n  reporting and documentation from a central piece of information.",
                     "SORT_VERSION": "0000002801155760",
+                    "type": "Source"
+                },
+                {
+                    "version": "29",
+                    "semver": "29.1164986",
+                    "date": "2024.01.22 15:02",
+                    "file": "ucd-MavenSourceConfig-29.1164986.zip",
+                    "notes": [
+                        "Add maven repo origin link to version when importing."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "Apache Maven is a software project management and comprehension tool.\n  Based on the concept of a project object model (POM), Maven can manage a projects build,\n  reporting and documentation from a central piece of information.",
+                    "SORT_VERSION": "0000002901164986",
                     "type": "Source"
                 }
             ],
@@ -18516,6 +19222,34 @@
                     "description": "",
                     "SORT_VERSION": "0000009301160857",
                     "type": ""
+                },
+                {
+                    "version": "93",
+                    "semver": "93.1165941",
+                    "date": "2024.02.09 02:04",
+                    "file": "ucd-WebSphereConfiguration-93.1165941.zip",
+                    "notes": [
+                        "Fixed the defect in v92 which shows error with respect to log4j library for few steps."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000009301165941",
+                    "type": ""
+                },
+                {
+                    "version": "94",
+                    "semver": "94.1165946",
+                    "date": "2024.02.09 03:01",
+                    "file": "ucd-WebSphereConfiguration-94.1165946.zip",
+                    "notes": [
+                        "Fixed the issue for securedata jar for compatibility with Java 8."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000009401165946",
+                    "type": ""
                 }
             ],
             "docFiles": [
@@ -21188,6 +21922,42 @@
                         "IBM",
                         "middleware"
                     ]
+                },
+                {
+                    "version": "130",
+                    "semver": "130.1165942",
+                    "date": "2024.02.09 02:10",
+                    "file": "ucd-WebSphere-130.1165942.zip",
+                    "notes": [
+                        "Upadted plugin to rectify shared-library creation error."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "WebSphere is the leading software for on demand business, delivering business integration, application and transaction infrastructure, portals, application transformation, mobile/speech middleware, product information management and e-commerce.",
+                    "SORT_VERSION": "0000013001165942",
+                    "type": "Deploy",
+                    "categories": [
+                        "IBM",
+                        "middleware"
+                    ]
+                },
+                {
+                    "version": "131",
+                    "semver": "131.1165947",
+                    "date": "2024.02.09 03:02",
+                    "file": "ucd-WebSphere-131.1165947.zip",
+                    "notes": [
+                        "Fixed the issue for securedata jar for compatibility with Java 8."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "WebSphere is the leading software for on demand business, delivering business integration, application and transaction infrastructure, portals, application transformation, mobile/speech middleware, product information management and e-commerce.",
+                    "SORT_VERSION": "0000013101165947",
+                    "type": "Deploy",
+                    "categories": [
+                        "IBM",
+                        "middleware"
+                    ]
                 }
             ],
             "docFiles": [
@@ -22794,6 +23564,35 @@
                     "description": "",
                     "SORT_VERSION": "0000002401161014",
                     "type": ""
+                },
+                {
+                    "version": "25",
+                    "semver": "25.1166389",
+                    "date": "2024.02.28 13:03",
+                    "file": "ucd-appscan-25.1166389.zip",
+                    "notes": [
+                        "Added property ScanType for the Configure Job Options step.",
+                        "    Modified timeout Logic for Retrieve report and Wait for scan step."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000002501166389",
+                    "type": ""
+                },
+                {
+                    "version": "26",
+                    "semver": "26.1166855",
+                    "date": "2024.03.13 06:38",
+                    "file": "ucd-appscan-26.1166855.zip",
+                    "notes": [
+                        "Modified timeout Logic for Retrieve PDF report."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000002601166855",
+                    "type": ""
                 }
             ],
             "docFiles": [
@@ -22853,6 +23652,34 @@
                     "publish": true,
                     "description": "",
                     "SORT_VERSION": "0000000101164029",
+                    "type": ""
+                },
+                {
+                    "version": "2",
+                    "semver": "2.1166082",
+                    "date": "2024.02.14 22:27",
+                    "file": "ucd-plugins-argocd-2.1166082.zip",
+                    "notes": [
+                        "Add applicationset support."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000201166082",
+                    "type": ""
+                },
+                {
+                    "version": "3",
+                    "semver": "3.1166635",
+                    "date": "2024.03.05 20:48",
+                    "file": "ucd-plugins-argocd-3.1166635.zip",
+                    "notes": [
+                        "Add inventory/snapshot support."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000301166635",
                     "type": ""
                 }
             ],
@@ -24399,6 +25226,21 @@
                     "publish": true,
                     "description": "",
                     "SORT_VERSION": "0000000900998792",
+                    "type": "deploy"
+                },
+                {
+                    "version": "10",
+                    "semver": "10.1164467",
+                    "date": "2023.12.29 08:02",
+                    "file": "ucd-datastage-10.1164467.zip",
+                    "notes": [
+                        "Made correction for default values of few attributes",
+                        "URBANCODE-I-486: Enhancing plugin to handle false import error from DataStage."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000001001164467",
                     "type": "deploy"
                 }
             ],
@@ -27130,7 +27972,7 @@
             "docsURL": "",
             "plugin_folder": "java-shell",
             "source_project": "",
-            "description": "The z/OS Shell plug-in is for the z/OS only operating system. It performs the same functions as the [Shell plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Shell/) for UrbanCode Deploy. The plug-in reduces the CPU consumption in the z/OS environment by using Java code instead of Groovy code.",
+            "description": "> **Deprecation Notice**: The z/OS Shell plugin is deprecated. It is recommended to use the [Shell plugin](#Shell) instead.\nTo download the plug-in, click the following version-specific links.\n\nThe z/OS Shell plug-in is for the z/OS only operating system. It performs the same functions as the [Shell plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Shell/) for UrbanCode Deploy. The plug-in reduces the CPU consumption in the z/OS environment by using Java code instead of Groovy code.",
             "specification": {
                 "categories": [],
                 "type": ""
@@ -29653,6 +30495,20 @@
                     "publish": true,
                     "description": "",
                     "SORT_VERSION": "0000002101157773",
+                    "type": ""
+                },
+                {
+                    "version": "22",
+                    "semver": "22.1165436",
+                    "date": "2024.02.02 02:38",
+                    "file": "ucd-openshift-22.1165436.zip",
+                    "notes": [
+                        "Fixes APAR : PH54821 oc apply command does not pass credentials in the Create Object From Template step"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000002201165436",
                     "type": ""
                 }
             ],
@@ -37046,6 +37902,146 @@
                     "description": "Developed by UrbanCode, for z/OS.",
                     "SORT_VERSION": "0000008601162422",
                     "type": "Automation"
+                },
+                {
+                    "version": "87",
+                    "semver": "87.1164411",
+                    "date": "2023.12.26 08:01",
+                    "file": "ucd-zos-deploy-87.1164411.zip",
+                    "notes": [
+                        "Added new plugin step - Restore Backup Datasets",
+                        "            Use Legacy ISPF Gateway to run programs by default"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "Developed by UrbanCode, for z/OS.",
+                    "SORT_VERSION": "0000008701164411",
+                    "type": "Automation"
+                },
+                {
+                    "version": "88",
+                    "semver": "88.1164921",
+                    "date": "2024.01.18 12:38",
+                    "file": "ucd-zos-deploy-88.1164921.zip",
+                    "notes": [
+                        "Added ISPF Gateway Path input to Rollback Data Sets step",
+                        "            Minor improvements",
+                        "            Fixed bug with deleted PDS during backup"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "Developed by UrbanCode, for z/OS.",
+                    "SORT_VERSION": "0000008801164921",
+                    "type": "Automation"
+                },
+                {
+                    "version": "88",
+                    "semver": "88.1165026",
+                    "date": "2024.01.24 07:21",
+                    "file": "ucd-zos-deploy-88.1165026.zip",
+                    "notes": [
+                        "Added ISPF Gateway Path input to Rollback Data Sets step",
+                        "            Minor improvements",
+                        "            Fixed bug with deleted PDS during backup"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "Developed by UrbanCode, for z/OS.",
+                    "SORT_VERSION": "0000008801165026",
+                    "type": "Automation"
+                },
+                {
+                    "version": "88",
+                    "semver": "88.1165235",
+                    "date": "2024.01.31 05:19",
+                    "file": "ucd-zos-deploy-88.1165235.zip",
+                    "notes": [
+                        "Added ISPF Gateway Path input to Rollback Data Sets step",
+                        "            Minor improvements",
+                        "            Fixed bug with deleted PDS during backup"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "Developed by UrbanCode, for z/OS.",
+                    "SORT_VERSION": "0000008801165235",
+                    "type": "Automation"
+                },
+                {
+                    "version": "88",
+                    "semver": "88.1165251",
+                    "date": "2024.01.31 14:33",
+                    "file": "ucd-zos-deploy-88.1165251.zip",
+                    "notes": [
+                        "Added ISPF Gateway Path input to Rollback Data Sets step",
+                        "            Minor improvements",
+                        "            Fixed bug with deleted PDS during backup",
+                        "            Exit Restore Backup step with a warning when there is no datasets backup"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "Developed by UrbanCode, for z/OS.",
+                    "SORT_VERSION": "0000008801165251",
+                    "type": "Automation"
+                },
+                {
+                    "version": "89",
+                    "semver": "89.1165949",
+                    "date": "2024.02.09 06:36",
+                    "file": "ucd-zos-deploy-89.1165949.zip",
+                    "notes": [
+                        "Added new input to TSO/ISPF step to pass temporary DSN prefix",
+                        "            Removed ibmjzos jar from the plugin as it is shipped with IBM Java for z/OS"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "Developed by UrbanCode, for z/OS.",
+                    "SORT_VERSION": "0000008901165949",
+                    "type": "Automation"
+                },
+                {
+                    "version": "89",
+                    "semver": "89.1166068",
+                    "date": "2024.02.14 06:28",
+                    "file": "ucd-zos-deploy-89.1166068.zip",
+                    "notes": [
+                        "Added new input to TSO/ISPF step to pass temporary DSN prefix",
+                        "            Removed ibmjzos jar from the plugin as it is shipped with IBM Java for z/OS",
+                        "            Fixed PH59773 - Deploy data sets step does not skip backup when the same version is deployed again"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "Developed by UrbanCode, for z/OS.",
+                    "SORT_VERSION": "0000008901166068",
+                    "type": "Automation"
+                },
+                {
+                    "version": "90",
+                    "semver": "90.1166834",
+                    "date": "2024.03.12 11:26",
+                    "file": "ucd-zos-deploy-90.1166834.zip",
+                    "notes": [
+                        "Minor code improvements"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "Developed by UrbanCode, for z/OS.",
+                    "SORT_VERSION": "0000009001166834",
+                    "type": "Automation"
+                },
+                {
+                    "version": "90",
+                    "semver": "90.1167272",
+                    "date": "2024.04.03 05:58",
+                    "file": "ucd-zos-deploy-90.1167272.zip",
+                    "notes": [
+                        "Minor code improvements",
+                        "            PH60517 - Inventory Delta deploy discards the number of HLQ set in component configuration during artifact comparison"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "Developed by UrbanCode, for z/OS.",
+                    "SORT_VERSION": "0000009001167272",
+                    "type": "Automation"
                 }
             ],
             "docFiles": [
@@ -37700,6 +38696,20 @@
                     "description": "",
                     "SORT_VERSION": "0000000801164047",
                     "type": ""
+                },
+                {
+                    "version": "9",
+                    "semver": "9.1167086",
+                    "date": "2024.03.22 05:39",
+                    "file": "ucd-plugins-zos-multi-generate-artifact-info-9.1167086.zip",
+                    "notes": [
+                        "Minor code improvements"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000901167086",
+                    "type": ""
                 }
             ],
             "docFiles": [
@@ -38017,6 +39027,25 @@
                     "publish": true,
                     "description": "",
                     "SORT_VERSION": "0000000201164307",
+                    "type": ""
+                },
+                {
+                    "version": "2",
+                    "semver": "2.1164401",
+                    "date": "2023.12.22 10:40",
+                    "file": "ucd-plugins-zos-rexx-2.1164401.zip",
+                    "notes": [
+                        "Added checkbox to print logs and minor improvements",
+                        "            Fixes issue where a process using ispf gateway that has more output data fills up output buffer and never completes",
+                        "            Increased allowed arguments size to 248 characters",
+                        "            Fixed issue with work directory during two or more parallel step execution",
+                        "            Handle return code for a CLIST error message response from ISPF Gateway",
+                        "            Use Legacy ISPF Gateway to run programs by default"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000201164401",
                     "type": ""
                 }
             ],
