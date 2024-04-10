@@ -363,6 +363,20 @@
                     "description": "",
                     "SORT_VERSION": "0000000800913229",
                     "type": ""
+                },
+                {
+                    "version": "10",
+                    "semver": "10.1165571",
+                    "date": "2024.02.02 03:20",
+                    "file": "Ant-10.1165571.zip",
+                    "notes": [
+                        "log4j and Jettison dependency updated."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000001001165571",
+                    "type": ""
                 }
             ],
             "docFiles": [
@@ -1333,6 +1347,20 @@
                     "publish": true,
                     "description": "",
                     "SORT_VERSION": "0000002401069469",
+                    "type": ""
+                },
+                {
+                    "version": "25",
+                    "semver": "25.1165172",
+                    "date": "2024.01.30 07:43",
+                    "file": "codestation-25.1165172.zip",
+                    "notes": [
+                        "Upgrade of jettison jar as part of security fix."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000002501165172",
                     "type": ""
                 }
             ],
@@ -2589,6 +2617,20 @@
                     "publish": true,
                     "description": "",
                     "SORT_VERSION": "0000000900891045",
+                    "type": ""
+                },
+                {
+                    "version": "16",
+                    "semver": "16.1164697",
+                    "date": "2024.01.09 12:11",
+                    "file": "Groovy-16.1164697.zip",
+                    "notes": [
+                        "Updating Jettison library to 1.5.4 for CVE-2023-1436"
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000001601164697",
                     "type": ""
                 }
             ],
@@ -5696,6 +5738,20 @@
                     "description": "",
                     "SORT_VERSION": "0000000800913304",
                     "type": ""
+                },
+                {
+                    "version": "8",
+                    "semver": "8.1164837",
+                    "date": "2024.01.15 08:32",
+                    "file": "Report-Publisher-8.1164837.zip",
+                    "notes": [
+                        "Support property file encryption."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "",
+                    "SORT_VERSION": "0000000801164837",
+                    "type": ""
                 }
             ],
             "docFiles": [
@@ -7623,6 +7679,48 @@
             ]
         },
         {
+            "name": "Job as Code",
+            "docs_folder": "jac",
+            "docsURL": "",
+            "plugin_folder": "jac",
+            "source_project": "",
+            "description": "",
+            "specification": {
+                "categories": [],
+                "type": ""
+            },
+            "author": {
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "jac",
+            "PLUGIN_FILES": [
+                {
+                    "version": "1",
+                    "semver": "1.1070875",
+                    "date": "2020.09.18 02:26",
+                    "file": "plugins-jac-1.1070875.zip",
+                    "notes": [
+                        "Initial release. Installing this plugin will give you access to the Job as Code Step."
+                    ],
+                    "supports": "",
+                    "publish": true,
+                    "description": "The Job As Config Plugin helps user to configure the job using a script file of YAML or JSON format.\n    The Script file should be of UrbanCode Build pre-defined format",
+                    "SORT_VERSION": "0000000101070875",
+                    "type": "automation"
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
+        },
+        {
             "name": "LogiGear TestArchitect for IBM UrbanCode Build",
             "docs_folder": "logigear-testarchitect-2",
             "docsURL": "",
@@ -7975,39 +8073,6 @@
                     "description": "",
                     "SORT_VERSION": "0000000200753376",
                     "type": "SCM"
-                }
-            ]
-        },
-        {
-            "name": "DOCS_NOT_FOUND",
-            "docs_folder": "",
-            "docsURL": "",
-            "plugin_folder": "jac",
-            "source_project": "",
-            "description": "",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
-            "author": {
-                "name": "",
-                "email": ""
-            },
-            "publish": true,
-            "PLUGIN_FILES": [
-                {
-                    "version": "1",
-                    "semver": "1.1070875",
-                    "date": "2020.09.18 02:26",
-                    "file": "plugins-jac-1.1070875.zip",
-                    "notes": [
-                        "Initial release. Installing this plugin will give you access to the Job as Code Step."
-                    ],
-                    "supports": "",
-                    "publish": true,
-                    "description": "The Job As Config Plugin helps user to configure the job using a script file of YAML or JSON format.\n    The Script file should be of UrbanCode Build pre-defined format",
-                    "SORT_VERSION": "0000000101070875",
-                    "type": "automation"
                 }
             ]
         },
