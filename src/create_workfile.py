@@ -464,6 +464,7 @@ def get_ucv_index_infos():
             file_info[docutil.RELEASE_DATE] = datetime_obj.strftime("%Y.%m.%d %H:%M")
             file_info[docutil.RELEASE_SEMVER], file_info[docutil.RELEASE_VERSION], file_info[SORT_VERSION]=get_semver_and_version(file.get("semver"))
             file_info[docutil.RELEASE_IMAGE] = file.get(docutil.RELEASE_IMAGE)
+            file_info[docutil.RELEASE_SUPPORTS] = file.get(docutil.RELEASE_SUPPORTS)
             files.append(file_info)
 
         oneplugin[docutil.INFO_NAME] = infojson.get("name")

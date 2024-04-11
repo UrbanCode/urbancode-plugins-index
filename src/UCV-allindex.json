@@ -25,7 +25,7 @@
                 "notes": [
                     "Remove need to manually specify User Access Key"
                 ],
-                "supports": "",
+                "supports": "4.0.5",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000041",
@@ -40,7 +40,7 @@
                     "Support deletion of generated demo data",
                     "Fix queries for plugins"
                 ],
-                "supports": "",
+                "supports": "4.0.5",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000039",
@@ -54,7 +54,7 @@
                 "notes": [
                     "Fixed issue with new create workflow resolver, 1.0.31"
                 ],
-                "supports": "",
+                "supports": "4.0.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000035",
@@ -68,7 +68,7 @@
                 "notes": [
                     "Enable plugin in Velocity, 1.0.31"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000031",
@@ -102,7 +102,7 @@
                 "notes": [
                     "<b>Bug Fix:</b> In earlier version of plugin data into HCL AppScan Enterprise Issues metrics was not showing in VSM."
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000051",
@@ -116,7 +116,7 @@
                 "notes": [
                     "<b>Feature Enhancement:</b> sync new scan from lastSyncDate for any application"
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000048",
@@ -131,7 +131,7 @@
                     "Resolved certificate issue",
                     "Added logic to support ASE version to 10.0.0"
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000047",
@@ -148,7 +148,7 @@
                     "<b>Added WorkflowId:</b> Under the hidden properties section of add integration page for HCL Appscan Enterprise plugin a Workflow ID field is added. This field is optional and can be used to provide HCL Accelerate WorkflowId - the ID of a Value Stream (VSM )to which HCL Appscan Enterprise vulnerability data is associated.",
                     "<b>Preventing Installation on Older Versions:</b> This version of HCL Appscan Enterprise Plugin can only be installed on HCL Accelerate version  3.0.0 and later"
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000041",
@@ -164,7 +164,7 @@
                     "UAK Changes",
                     "Issue Level Data Chart Added"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000035",
@@ -178,7 +178,7 @@
                 "notes": [
                     "Removed IBM related keywords"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000031",
@@ -192,7 +192,7 @@
                 "notes": [
                     "Updated data retrieval logic"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000030",
@@ -206,7 +206,7 @@
                 "notes": [
                     "Changed the passsword type to secure"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000023",
@@ -220,7 +220,7 @@
                 "notes": [
                     "Plugin name update"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000022",
@@ -234,7 +234,7 @@
                 "notes": [
                     "Added build URL to link scan results with VSM"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000021",
@@ -248,7 +248,7 @@
                 "notes": [
                     "Data gets mapped under right category - Risk"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000020",
@@ -262,7 +262,7 @@
                 "notes": [
                     "Renamed plugin display name"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000019",
@@ -276,7 +276,7 @@
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000018",
@@ -290,7 +290,7 @@
                 "notes": [
                     "Configure logger in wrapper and fix broken plugin."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000017",
@@ -304,7 +304,7 @@
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000016",
@@ -318,7 +318,7 @@
                 "notes": [
                     "Static v1.0.13 API Client."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000014",
@@ -332,7 +332,7 @@
                 "notes": [
                     "Containerized plugin."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000013",
@@ -366,7 +366,7 @@
                 "notes": [
                     "The Older Version of ASoC Plugin was not reporting critical issues"
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000030000000000000019",
@@ -380,7 +380,7 @@
                 "notes": [
                     "Segregated Static scan and Dynamic scan data"
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000030000000000000016",
@@ -398,7 +398,7 @@
                     "<b>Preventing Installation on Older Versions:</b> This version of ASoC Plugin can only be installed on HCL Accelerate version  3.0.0 and later",
                     "<b>Making scheduled event optional:</b> The scheduled event - <b>Sync ASoC Data</b> has been made optional from this version onwards. To enable the scheduled event please check the box in integration properties with label <b>Run as a Scheduled Event</b>."
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000030000000000000012",
@@ -412,7 +412,7 @@
                 "notes": [
                     "Fix for Changed API"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000030000000000000011",
@@ -426,7 +426,7 @@
                 "notes": [
                     "Reduced Vulnerabilities"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000030000000000000009",
@@ -440,7 +440,7 @@
                 "notes": [
                     "Auto-generated user access key related changes"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000030000000000000005",
@@ -454,7 +454,7 @@
                 "notes": [
                     "added policy support"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000030000000000000001",
@@ -468,7 +468,7 @@
                 "notes": [
                     "enabling webhook support and pulling historic data"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000001",
@@ -482,7 +482,7 @@
                 "notes": [
                     "Proxy support added"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000024",
@@ -496,7 +496,7 @@
                 "notes": [
                     "Removed IBM related keywords"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000023",
@@ -510,7 +510,7 @@
                 "notes": [
                     "Plugin name update"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000018",
@@ -524,7 +524,7 @@
                 "notes": [
                     "Added Build URL to link ASoC scan results in VSM"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000017",
@@ -538,7 +538,7 @@
                 "notes": [
                     "Integration id passed along with metrics"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000016",
@@ -552,7 +552,7 @@
                 "notes": [
                     "Renamed plugin display name"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000015",
@@ -566,7 +566,7 @@
                 "notes": [
                     "Name field in Insights section to reflect scan name in ASoC"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000014",
@@ -580,7 +580,7 @@
                 "notes": [
                     "minor bug fixes"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000013",
@@ -594,7 +594,7 @@
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000011",
@@ -608,7 +608,7 @@
                 "notes": [
                     "Configure logger in wrapper."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000010",
@@ -622,7 +622,7 @@
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000009",
@@ -638,7 +638,7 @@
                     "Add asocUrl property to define ASoC Server URL.",
                     "Automatically create metric definition."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000006",
@@ -652,7 +652,7 @@
                 "notes": [
                     "Added static UCV client object."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000004",
@@ -666,7 +666,7 @@
                 "notes": [
                     "Restructure properties."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000003",
@@ -680,7 +680,7 @@
                 "notes": [
                     "Initial version of ASoC plugin."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000002",
@@ -714,7 +714,7 @@
                 "notes": [
                     "minor fix"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000021",
@@ -728,7 +728,7 @@
                 "notes": [
                     "User Access Key Related Changes"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000017",
@@ -742,7 +742,7 @@
                 "notes": [
                     "Added build URL to link scan results with VSM"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000004",
@@ -756,7 +756,7 @@
                 "notes": [
                     "Initial Release"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000003",
@@ -790,7 +790,7 @@
                 "notes": [
                     "Minor fix"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000038",
@@ -804,7 +804,7 @@
                 "notes": [
                     "Plugin name update"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000030",
@@ -818,7 +818,7 @@
                 "notes": [
                     "handling non existent coverage rows for a source file"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000029",
@@ -832,7 +832,7 @@
                 "notes": [
                     "Updated npm-wrapper version"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000028",
@@ -846,7 +846,7 @@
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000026",
@@ -860,7 +860,7 @@
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000025",
@@ -874,7 +874,7 @@
                 "notes": [
                     "Containerized plugin."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000022",
@@ -908,7 +908,7 @@
                 "notes": [
                     "reduce vulnerabilities"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000056",
@@ -922,7 +922,7 @@
                 "notes": [
                     "Removed IBM related keywords"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000055",
@@ -936,7 +936,7 @@
                 "notes": [
                     "Plugin name update"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000038",
@@ -950,7 +950,7 @@
                 "notes": [
                     "Updated npm-wrapper version"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000037",
@@ -964,7 +964,7 @@
                 "notes": [
                     "Renamed plugin display name"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000036",
@@ -978,7 +978,7 @@
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000035",
@@ -992,7 +992,7 @@
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000034",
@@ -1006,7 +1006,7 @@
                 "notes": [
                     "Containerized plugin."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000031",
@@ -1040,7 +1040,7 @@
                 "notes": [
                     "reduce vulnerabilities"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000072",
@@ -1054,7 +1054,7 @@
                 "notes": [
                     "changes for gating"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000066",
@@ -1068,7 +1068,7 @@
                 "notes": [
                     "Plugin name update"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000038",
@@ -1082,7 +1082,7 @@
                 "notes": [
                     "Updated npm-wrapper version"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000037",
@@ -1096,7 +1096,7 @@
                 "notes": [
                     "Renamed plugin display name"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000036",
@@ -1110,7 +1110,7 @@
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000035",
@@ -1124,7 +1124,7 @@
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000034",
@@ -1136,7 +1136,7 @@
                 "date": "2019.06.03 00:00",
                 "file": "",
                 "notes": [],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000031",
@@ -1170,7 +1170,7 @@
                 "notes": [
                     "Plugin name update"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000031",
@@ -1184,7 +1184,7 @@
                 "notes": [
                     "Updated npm-wrapper version"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000030",
@@ -1198,7 +1198,7 @@
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000029",
@@ -1212,7 +1212,7 @@
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000028",
@@ -1226,7 +1226,7 @@
                 "notes": [
                     "Containerized plugin."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000025",
@@ -1260,7 +1260,7 @@
                 "notes": [
                     "<b>Rebranding:</b> Name of the plugin has been changed from HCL One Test to HCL DevOps Test."
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000037",
@@ -1275,7 +1275,7 @@
                     "<b>Preventing Installation on Older Versions:</b> This version of HCL Onetest Plugin can only be installed on HCL Accelerate version  3.0.0 and later.",
                     "<b>Added Category:</b>Quality is the category of HCL Onetest plugin."
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000034",
@@ -1289,7 +1289,7 @@
                 "notes": [
                     "minor fix"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000033",
@@ -1303,7 +1303,7 @@
                 "notes": [
                     "changes for gating"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000030",
@@ -1317,7 +1317,7 @@
                 "notes": [
                     "Added support for UI & PT json results"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000012",
@@ -1331,7 +1331,7 @@
                 "notes": [
                     "Updated npm-wrapper version"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000011",
@@ -1345,7 +1345,7 @@
                 "notes": [
                     "Renamed plugin display name"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000010",
@@ -1359,7 +1359,7 @@
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000009",
@@ -1373,7 +1373,7 @@
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000008",
@@ -1387,7 +1387,7 @@
                 "notes": [
                     "Updated to api-client 1.0.11 and transpiled tests."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000005",
@@ -1421,7 +1421,7 @@
                 "notes": [
                     "Reduced Vulnerabilities"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000065",
@@ -1435,7 +1435,7 @@
                 "notes": [
                     "User Access Key Related Changes"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000050",
@@ -1449,7 +1449,7 @@
                 "notes": [
                     "Removed IBM related keywords"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000042",
@@ -1463,7 +1463,7 @@
                 "notes": [
                     "Enhance security for property value"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000034",
@@ -1478,7 +1478,7 @@
                     "debug logs added",
                     "fix to pull the PR analysis data"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000033",
@@ -1492,7 +1492,7 @@
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000030",
@@ -1506,7 +1506,7 @@
                 "notes": [
                     "Configure logger in wrapper and fix plugin."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000029",
@@ -1520,7 +1520,7 @@
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000028",
@@ -1534,7 +1534,7 @@
                 "notes": [
                     "Fixed bug with importing more than 10,000 issues."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000026",
@@ -1548,7 +1548,7 @@
                 "notes": [
                     "Upgrade api-client; and only instantiate api-client once."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000024",
@@ -1562,7 +1562,7 @@
                 "notes": [
                     "Updated internal dependencies"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000023",
@@ -1596,7 +1596,7 @@
                 "notes": [
                     "Reduced Vulnerabilities"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000038",
@@ -1610,7 +1610,7 @@
                 "notes": [
                     "Plugin name update"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000013",
@@ -1624,7 +1624,7 @@
                 "notes": [
                     "Updated npm-wrapper version"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000012",
@@ -1638,7 +1638,7 @@
                 "notes": [
                     "Renamed plugin display name"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000011",
@@ -1652,7 +1652,7 @@
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000009",
@@ -1666,7 +1666,7 @@
                 "notes": [
                     "Added XML parsing"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000008",
@@ -1680,7 +1680,7 @@
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000007",
@@ -1694,7 +1694,7 @@
                 "notes": [
                     "Containerized plugin."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000006",
@@ -1728,7 +1728,7 @@
                 "notes": [
                     "reduced vulnerabilities"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000044",
@@ -1742,7 +1742,7 @@
                 "notes": [
                     "Removed IBM related keywords"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000043",
@@ -1756,7 +1756,7 @@
                 "notes": [
                     "Plugin name update"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000039",
@@ -1770,7 +1770,7 @@
                 "notes": [
                     "Updated npm-wrapper version"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000038",
@@ -1784,7 +1784,7 @@
                 "notes": [
                     "Renamed plugin display name"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000037",
@@ -1798,7 +1798,7 @@
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000036",
@@ -1812,7 +1812,7 @@
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000035",
@@ -1826,7 +1826,7 @@
                 "notes": [
                     "Containerized plugin."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000032",
@@ -1863,7 +1863,7 @@
                     "<b>Added Category</b>:ALM is the plugin category of Digital.ai Agility.",
                     "<b>Initial Sync Date Field Added: </b>Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync."
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000029",
@@ -1877,7 +1877,7 @@
                 "notes": [
                     "Clarifying delimitation for properties used"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000026",
@@ -1891,7 +1891,7 @@
                 "notes": [
                     "Clarifying delimitation problem for properties used"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000025",
@@ -1905,7 +1905,7 @@
                 "notes": [
                     "User Access Key Related Changes"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000020",
@@ -1919,7 +1919,7 @@
                 "notes": [
                     "Added auto-generated userAccessKey support"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000011",
@@ -1933,7 +1933,7 @@
                 "notes": [
                     "Removed IBM related keywords"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000009",
@@ -1947,7 +1947,7 @@
                 "notes": [
                     "Initial Release"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000004",
@@ -1981,7 +1981,7 @@
                 "notes": [
                     "Update business value of associated Jira items."
                 ],
-                "supports": "",
+                "supports": "5.0.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000001",
@@ -2015,7 +2015,7 @@
                 "notes": [
                     "<b>Minor Bug Fix</b>"
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000040000000000000040",
@@ -2029,7 +2029,7 @@
                 "notes": [
                     "Minor Enhancements"
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000040000000000000038",
@@ -2044,7 +2044,7 @@
                     "Minor Enhancements",
                     "Pipelines issue fixed"
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000040000000000000037",
@@ -2058,7 +2058,7 @@
                 "notes": [
                     "Manual UAK removal and preventing install on previous version"
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000040000000000000036",
@@ -2072,7 +2072,7 @@
                 "notes": [
                     "Clarifying delimitation problem for properties used"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000040000000000000035",
@@ -2087,7 +2087,7 @@
                     "Optional feature of pushing pipeline runs with predefined tags as builds",
                     "Bug fix related to build status"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000040000000000000029",
@@ -2101,7 +2101,7 @@
                 "notes": [
                     "Additional Branch field added"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000040000000000000028",
@@ -2115,7 +2115,7 @@
                 "notes": [
                     "User Access Key Related Changes"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000040000000000000026",
@@ -2129,7 +2129,7 @@
                 "notes": [
                     "UAK Changes"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000040000000000000016",
@@ -2143,7 +2143,7 @@
                 "notes": [
                     "Adding Logger and ucv functionality"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000040000000000000015",
@@ -2157,7 +2157,7 @@
                 "notes": [
                     "Resync data feature added"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000040000000000000003",
@@ -2171,7 +2171,7 @@
                 "notes": [
                     "support for release orchestration"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000040000000000000001",
@@ -2185,7 +2185,7 @@
                 "notes": [
                     "Added Deployment Orchestration Support for Azure Release pipeline"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000030000000000000001",
@@ -2199,7 +2199,7 @@
                 "notes": [
                     "Performance Improvement"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000017",
@@ -2213,7 +2213,7 @@
                 "notes": [
                     "Removed IBM related keywords"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000014",
@@ -2227,7 +2227,7 @@
                 "notes": [
                     "bug fixes for issues in sync deployments"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000004",
@@ -2241,7 +2241,7 @@
                 "notes": [
                     "Syncs deployment data"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000002",
@@ -2255,7 +2255,7 @@
                 "notes": [
                     "Pull commits from non master branch"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000041",
@@ -2269,7 +2269,7 @@
                 "notes": [
                     "Sprint related changes and fix invalid history timestamp."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000039",
@@ -2283,7 +2283,7 @@
                 "notes": [
                     "Fixed logic to acquire build commit ID."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000038",
@@ -2297,7 +2297,7 @@
                 "notes": [
                     "Fixed empty creator field while uploading issues."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000037",
@@ -2311,7 +2311,7 @@
                 "notes": [
                     "Acquire work items from specified project only."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000036",
@@ -2325,7 +2325,7 @@
                 "notes": [
                     "proxy support added"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000034",
@@ -2339,7 +2339,7 @@
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000032",
@@ -2353,7 +2353,7 @@
                 "notes": [
                     "Configure logger in wrapper."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000031",
@@ -2367,7 +2367,7 @@
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000030",
@@ -2381,7 +2381,7 @@
                 "notes": [
                     "Skip importing builds until they have started."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000027",
@@ -2395,7 +2395,7 @@
                 "notes": [
                     "Fixed skipping of issue IDs during sync."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000025",
@@ -2409,7 +2409,7 @@
                 "notes": [
                     "Ignore updates missing fields."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000022",
@@ -2423,7 +2423,7 @@
                 "notes": [
                     "Fixes encryption key deletion bug"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000021",
@@ -2437,7 +2437,7 @@
                 "notes": [
                     "Added versionName to builds."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000019",
@@ -2451,7 +2451,7 @@
                 "notes": [
                     "Added scheduled event to import builds."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000017",
@@ -2465,7 +2465,7 @@
                 "notes": [
                     "Static Velocity API Client."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000016",
@@ -2479,7 +2479,7 @@
                 "notes": [
                     "Get string representation of trackerId."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000015",
@@ -2493,7 +2493,7 @@
                 "notes": [
                     "Initial release of Azure DevOps plugin."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000014",
@@ -2527,7 +2527,7 @@
                 "notes": [
                     "<b>Initial Sync Date Field Added: </b>Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync."
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000029",
@@ -2542,7 +2542,7 @@
                     "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
                     "<b>Added Category:</b>SCM is the category of bitbucket cloud plugin ."
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000026",
@@ -2556,7 +2556,7 @@
                 "notes": [
                     "reduced vulnerability"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000022",
@@ -2572,7 +2572,7 @@
                     "added multiple repositories support in repoName",
                     "added otherBranches field"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000016",
@@ -2586,7 +2586,7 @@
                 "notes": [
                     "UAK Related Changes"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000015",
@@ -2600,7 +2600,7 @@
                 "notes": [
                     "Auto-generated UAK update"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000008",
@@ -2614,7 +2614,7 @@
                 "notes": [
                     "Initial Release"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000007",
@@ -2648,7 +2648,7 @@
                 "notes": [
                     "<b>Added Regular Expression for Additional branch</b>"
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000100000026",
@@ -2668,7 +2668,7 @@
                     "<b>Error Handling: </b> No default branch is defined - error is shown in warning logs if there is no default branch for a repository.",
                     "<b>Performance Improvement: </b> Plugin functionality is improved, previous version of the plugin was making more rest API calls to the BitBucket Server."
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000100000024",
@@ -2683,7 +2683,7 @@
                     "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
                     "<b>Added Category:</b>SCM is the category of bitbucket server plugin ."
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000100000023",
@@ -2697,7 +2697,7 @@
                 "notes": [
                     "Rate limiting and resync implementation"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000100000022",
@@ -2711,7 +2711,7 @@
                 "notes": [
                     "Reducing vulnerabilities"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000100000016",
@@ -2725,7 +2725,7 @@
                 "notes": [
                     "Enhancements done to the UI fields"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000100000012",
@@ -2740,7 +2740,7 @@
                     "Multiple Repository Support",
                     "UAK Changes"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000100000005",
@@ -2754,7 +2754,7 @@
                 "notes": [
                     "Added support to pull commits from multiple additional branches"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000042",
@@ -2768,7 +2768,7 @@
                 "notes": [
                     "Bug Fix"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000023",
@@ -2782,7 +2782,7 @@
                 "notes": [
                     "Retrieve commits from non-default branch."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000022",
@@ -2796,7 +2796,7 @@
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000021",
@@ -2810,7 +2810,7 @@
                 "notes": [
                     "Configure logger in wrapper."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000020",
@@ -2824,7 +2824,7 @@
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000019",
@@ -2838,7 +2838,7 @@
                 "notes": [
                     "Fixes encryption key deletion bug"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000018",
@@ -2852,7 +2852,7 @@
                 "notes": [
                     "Change description of properties."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000016",
@@ -2867,7 +2867,7 @@
                     "Upgrade to api-client 1.0.13",
                     "Only create api-client instance once"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000015",
@@ -2881,7 +2881,7 @@
                 "notes": [
                     "Switch build target on Jenkinsfile."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000014",
@@ -2916,7 +2916,7 @@
                     "<b>Removed Manual User Access Key:</b>From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
                     "<b>Minor Enhancement:</b> We can now identify bottlenecks for individual value streams, resolving the issue of occasionally encountering failures when attempting to identify bottlenecks for all value streams simultaneously."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000003",
@@ -2930,7 +2930,7 @@
                 "notes": [
                     "Enhancement"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000002",
@@ -2944,7 +2944,7 @@
                 "notes": [
                     "Bug fix"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000001",
@@ -2958,7 +2958,7 @@
                 "notes": [
                     "Initial release"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000000",
@@ -2995,7 +2995,7 @@
                     "<b>Added Category</b>:Build and Deploy are the plugin category of Circleci.",
                     "<b>Initial Sync Date Field Added: </b>Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync."
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000024",
@@ -3009,7 +3009,7 @@
                 "notes": [
                     "Clarifying delimitation problem for properties used"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000022",
@@ -3023,7 +3023,7 @@
                 "notes": [
                     "reduced Whitesource vulnerabilities"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000018",
@@ -3037,7 +3037,7 @@
                 "notes": [
                     "User Access Key Related Changes"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000016",
@@ -3071,7 +3071,7 @@
                 "notes": [
                     "xml2json alternative added"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000034",
@@ -3085,7 +3085,7 @@
                 "notes": [
                     "Reduced Vulnerabilities"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000033",
@@ -3099,7 +3099,7 @@
                 "notes": [
                     "Multiple Test Suites Support"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000008",
@@ -3113,7 +3113,7 @@
                 "notes": [
                     "Plugin name update"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000007",
@@ -3127,7 +3127,7 @@
                 "notes": [
                     "Updated npm-wrapper version"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000006",
@@ -3141,7 +3141,7 @@
                 "notes": [
                     "Initial release of plugin."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000003",
@@ -3179,7 +3179,7 @@
                     "Used GraphQL queries",
                     "GitHub Personal access token required"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000002",
@@ -3214,7 +3214,7 @@
                     "<b>Previous Version Bug Fix:</b> Version 1.1.28 of the plugin had a major bug related to Projects UI field.",
                     "<b>Normalise Sever URL:</b> In the previous versions of the plugin if Server URL ended with <b>/</b> , plugin was failing."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000100000030",
@@ -3228,7 +3228,7 @@
                 "notes": [
                     "Clarifying delimitation problem for properties used"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000100000028",
@@ -3242,7 +3242,7 @@
                 "notes": [
                     "Added change sets related data to history section of VSM dot."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000100000027",
@@ -3256,7 +3256,7 @@
                 "notes": [
                     "Minor fix"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000100000024",
@@ -3272,7 +3272,7 @@
                     "Additional debug logs added",
                     "Minor bug fix"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000100000022",
@@ -3290,7 +3290,7 @@
                     "Proxy Server Configuration Added",
                     "Support for EWM 7.0.2"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000100000015",
@@ -3304,7 +3304,7 @@
                 "notes": [
                     "Initial Release"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000002",
@@ -3338,7 +3338,7 @@
                 "notes": [
                     "<b>Added WorkflowId:</b> Under the hidden properties section of add integration page for the plugin a Workflow ID field is added. This field is optional and can be used to provide WorkflowId - the ID of a Value Stream (VSM )to which the vulnerability data is associated."
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000019",
@@ -3352,7 +3352,7 @@
                 "notes": [
                     "Reduced whitesource vulnerabilities"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000007",
@@ -3366,7 +3366,7 @@
                 "notes": [
                     "Initial Release"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000001",
@@ -3400,7 +3400,7 @@
                 "notes": [
                     "Renamed Plugin"
                 ],
-                "supports": "",
+                "supports": "4.0.5",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000047",
@@ -3434,7 +3434,7 @@
                 "notes": [
                     "<b>Enhancement:</b> This enhancement modifies the plugins synchronization behavior following a failure. Previously, the plugin would resume syncing from the date of the last successful synchronization. Now, it has been updated to continue syncing commits, pull-requests, and issues from the point where it last synced before the failure. This change ensures more accurate and efficient data synchronization by reducing the likelihood of missing or duplicating data in cases where the plugin had partially synced before encountering an issue."
                 ],
-                "supports": "",
+                "supports": "2.6.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000400000016",
@@ -3448,7 +3448,7 @@
                 "notes": [
                     "Wild Card feature for additional branches field in GitHub Plugin"
                 ],
-                "supports": "",
+                "supports": "2.6.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000400000007",
@@ -3462,7 +3462,7 @@
                 "notes": [
                     "<b>Feature:</b> Syncing Yaml files from different repositories"
                 ],
-                "supports": "",
+                "supports": "2.6.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000400000005",
@@ -3476,7 +3476,7 @@
                 "notes": [
                     "<b>Bug fix:</b> Previous version was failing for upload commit of large size."
                 ],
-                "supports": "",
+                "supports": "2.6.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000300000046",
@@ -3488,7 +3488,7 @@
                 "date": "2022.10.26 06:38",
                 "file": "",
                 "notes": [],
-                "supports": "",
+                "supports": "4.0.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000300000035",
@@ -3503,7 +3503,7 @@
                     "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
                     "<b>Meta data plugin updates for VSM onboarding:</b>In index.js file added <b>categories</b> and added <b>idRegExp</b> fields"
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000300000034",
@@ -3517,7 +3517,7 @@
                 "notes": [
                     "Updated rest client to latest"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000300000031",
@@ -3531,7 +3531,7 @@
                 "notes": [
                     "New feature added - Query for CI processes using GitHub Actions in a repository"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000300000029",
@@ -3545,7 +3545,7 @@
                 "notes": [
                     "Global Initial Sync date feature"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000200000025",
@@ -3564,7 +3564,7 @@
                     "Initail sync date added",
                     "Debug logs added"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000200000024",
@@ -3578,7 +3578,7 @@
                 "notes": [
                     "UAK Changes"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000100000022",
@@ -3592,7 +3592,7 @@
                 "notes": [
                     "Bug fix: UAK support for older versions"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000100000020",
@@ -3607,7 +3607,7 @@
                     "Auto-generated User Access Key support added",
                     "ReSync support added"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000100000018",
@@ -3621,7 +3621,7 @@
                 "notes": [
                     "Labels bug fix"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000100000015",
@@ -3635,7 +3635,7 @@
                 "notes": [
                     "Bug fix"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000100000009",
@@ -3649,7 +3649,7 @@
                 "notes": [
                     "Added support to pull commits from multiple additional branches"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000100000001",
@@ -3663,7 +3663,7 @@
                 "notes": [
                     "Added history for issues"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000049",
@@ -3677,7 +3677,7 @@
                 "notes": [
                     "Pull commit data from non master branch"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000042",
@@ -3691,7 +3691,7 @@
                 "notes": [
                     "Added GitHub Issues"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000040",
@@ -3705,7 +3705,7 @@
                 "notes": [
                     "Non master branch support"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000036",
@@ -3719,7 +3719,7 @@
                 "notes": [
                     "Added proxy support"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000034",
@@ -3733,7 +3733,7 @@
                 "notes": [
                     "Fix for repository url"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000032",
@@ -3747,7 +3747,7 @@
                 "notes": [
                     "Removed the Url field"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000031",
@@ -3763,7 +3763,7 @@
                     "removed name field",
                     "improved logging"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000030",
@@ -3777,7 +3777,7 @@
                 "notes": [
                     "Handled null commit author"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000029",
@@ -3791,7 +3791,7 @@
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000027",
@@ -3805,7 +3805,7 @@
                 "notes": [
                     "Bug fixes and api updates"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000026",
@@ -3819,7 +3819,7 @@
                 "notes": [
                     "Configure logger in wrapper."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000025",
@@ -3833,7 +3833,7 @@
                 "notes": [
                     "Ignore invalid timestamps."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000024",
@@ -3847,7 +3847,7 @@
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000023",
@@ -3861,7 +3861,7 @@
                 "notes": [
                     "Added ability to retrieve multiple repositories"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000021",
@@ -3875,7 +3875,7 @@
                 "notes": [
                     "Fixes encryption key deletion bug"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000019",
@@ -3890,7 +3890,7 @@
                     "Update description on properties.",
                     "Fix bug around empty commit hash."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000018",
@@ -3904,7 +3904,7 @@
                 "notes": [
                     "Upgrade to use the latest version of api-client."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000016",
@@ -3918,7 +3918,7 @@
                 "notes": [
                     "Fixed pagination bug with pull requests and commits."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000012",
@@ -3932,7 +3932,7 @@
                 "notes": [
                     "Updated to api-client 1.0.11."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000011",
@@ -3966,7 +3966,7 @@
                 "notes": [
                     "<b>Minor bug fix:</b> Dynamically getting type of Issue."
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000200000068",
@@ -3981,7 +3981,7 @@
                     "<b>Fix for Project Name Field</b>: Previous version of Gitlab plugin was not able to import data for some projects.",
                     "<b>Project IDs Field Added</b>: To import the source data you need to provide a list of GitLab Project IDs. Please note that you must provide at least one of either Project Names or Project IDs and can provide both if needed."
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000200000066",
@@ -3995,7 +3995,7 @@
                 "notes": [
                     "<b>Minor Bug Fix</b>: Previous version of plugin was giving <i>Cannot read property status of null</i> error."
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000100000063",
@@ -4009,7 +4009,7 @@
                 "notes": [
                     "<b>Resolved 502 Bad Gateway Error:</b> Previous version of plugin was giving a 502 Bad Gateway error for GitLab Server."
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000100000062",
@@ -4026,7 +4026,7 @@
                     "<b>Resolved Previous Version Issue:</b> Previous Version of plugin had some defect realted to Project Names field. The plugin was syncing data only for those projects which were owned by the user. Now the plugin syncs data for the projects in which user is a member at any level.",
                     "<b>Added Category:</b> ALM | SCM | Build | Deploy are the categories of GitLab plugin."
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000100000058",
@@ -4041,7 +4041,7 @@
                     "Adding project names instead of project IDs while integration",
                     " Wild card implementation"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000100000057",
@@ -4055,7 +4055,7 @@
                 "notes": [
                     "Minor Change"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000100000056",
@@ -4069,7 +4069,7 @@
                 "notes": [
                     "Automation Task Added"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000100000055",
@@ -4083,7 +4083,7 @@
                 "notes": [
                     " other Branches field added with datasince filed removed and historicaldata in vsm fixed"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000053",
@@ -4097,7 +4097,7 @@
                 "notes": [
                     "status value modified"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000050",
@@ -4111,7 +4111,7 @@
                 "notes": [
                     "UAK Changes"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000037",
@@ -4125,7 +4125,7 @@
                 "notes": [
                     "Support for priority using labels"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000036",
@@ -4139,7 +4139,7 @@
                 "notes": [
                     "UAK support for older versions"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000032",
@@ -4153,7 +4153,7 @@
                 "notes": [
                     "ReSync support added"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000031",
@@ -4167,7 +4167,7 @@
                 "notes": [
                     "Auto-generated UAK update"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000030",
@@ -4181,7 +4181,7 @@
                 "notes": [
                     "Bug fix"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000028",
@@ -4195,7 +4195,7 @@
                 "notes": [
                     "Added history to Issues and PR"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000025",
@@ -4209,7 +4209,7 @@
                 "notes": [
                     "bug fixed"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000015",
@@ -4223,7 +4223,7 @@
                 "notes": [
                     "Bug fix"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000010",
@@ -4237,7 +4237,7 @@
                 "notes": [
                     "Added retry for errors"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000009",
@@ -4251,7 +4251,7 @@
                 "notes": [
                     "Added proxy support"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000008",
@@ -4265,7 +4265,7 @@
                 "notes": [
                     "Pulls commit from non-master & included issues"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000007",
@@ -4279,7 +4279,7 @@
                 "notes": [
                     "post multiple builds to graphql"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000003",
@@ -4293,7 +4293,7 @@
                 "notes": [
                     "Performance Improvements"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000002",
@@ -4308,7 +4308,7 @@
                     "multi project support",
                     "added build feature"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000001",
@@ -4322,7 +4322,7 @@
                 "notes": [
                     "Enhancements for use in Kubernetes"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000007",
@@ -4336,7 +4336,7 @@
                 "notes": [
                     "Configure logger in wrapper."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000006",
@@ -4350,7 +4350,7 @@
                 "notes": [
                     "Initial Release"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000004",
@@ -4384,7 +4384,7 @@
                 "notes": [
                     "Remove required UAK in favor of dynamically generated UAK"
                 ],
-                "supports": "",
+                "supports": "4.0.4",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000001",
@@ -4398,7 +4398,7 @@
                 "notes": [
                     "Update API Schema for Accelerate versions 4.0.0 or above"
                 ],
-                "supports": "",
+                "supports": "4.0.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000001",
@@ -4412,7 +4412,7 @@
                 "notes": [
                     "Reduced Vulnerabilities"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000059",
@@ -4426,7 +4426,7 @@
                 "notes": [
                     "Updated API Client for major product release."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000041",
@@ -4440,7 +4440,7 @@
                 "notes": [
                     "Fix missing scheduledEventFunction error"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000039",
@@ -4452,7 +4452,7 @@
                 "date": "2021.07.21 15:52",
                 "file": "",
                 "notes": [],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000038",
@@ -4466,7 +4466,7 @@
                 "notes": [
                     "Add DB Support for Seeded Reports"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000030",
@@ -4480,7 +4480,7 @@
                 "notes": [
                     "Release to upgrade the plugin with base image"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000017",
@@ -4494,7 +4494,7 @@
                 "notes": [
                     "Enhancement"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000006",
@@ -4508,7 +4508,7 @@
                 "notes": [
                     "Updated API client."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000004",
@@ -4522,7 +4522,7 @@
                 "notes": [
                     "update plugin to handle files after GridFS update"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000003",
@@ -4536,7 +4536,7 @@
                 "notes": [
                     "Initial release of plugin."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000002",
@@ -4571,7 +4571,7 @@
                     "Fix xpath job filter",
                     "Use correct username on task completion"
                 ],
-                "supports": "",
+                "supports": "4.0.9",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000100000005",
@@ -4585,7 +4585,7 @@
                 "notes": [
                     "Fix for Build-Revision mismatch in Jenkins Integration"
                 ],
-                "supports": "",
+                "supports": "4.0.9",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000100000003",
@@ -4600,7 +4600,7 @@
                     "Added support for process parameters coming from Git Parameter and Active Choices plugins",
                     "Warning logs added for skipping unsupported process parameters"
                 ],
-                "supports": "",
+                "supports": "4.0.9",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000100000002",
@@ -4614,7 +4614,7 @@
                 "notes": [
                     "Default initial sync to 30 days"
                 ],
-                "supports": "",
+                "supports": "4.0.9",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000100000001",
@@ -4630,7 +4630,7 @@
                     "Retry execution and process uploads",
                     "Add revision to builds for proper dot linking"
                 ],
-                "supports": "",
+                "supports": "4.0.9",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000009",
@@ -4645,7 +4645,7 @@
                     "Fix integration name not showing in pipeline stage task selection",
                     "Fix external build link not appearing in deployment plan task"
                 ],
-                "supports": "",
+                "supports": "4.0.9",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000004",
@@ -4659,7 +4659,7 @@
                 "notes": [
                     "Public release."
                 ],
-                "supports": "",
+                "supports": "4.0.9",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000001",
@@ -4693,7 +4693,7 @@
                 "notes": [
                     "<b>Bug fix:</b> Added Proxyserver changes"
                 ],
-                "supports": "",
+                "supports": "3.1.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000300000017",
@@ -4707,7 +4707,7 @@
                 "notes": [
                     "Added request timeout option"
                 ],
-                "supports": "",
+                "supports": "3.1.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000300000012",
@@ -4721,7 +4721,7 @@
                 "notes": [
                     "<b>Bug fix:</b>First automation task was failing and also updated integration configuration property description."
                 ],
-                "supports": "",
+                "supports": "3.1.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000300000010",
@@ -4736,7 +4736,7 @@
                     "Fixed version-check bug in jira plugin",
                     "Resync functionality improved"
                 ],
-                "supports": "",
+                "supports": "3.1.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000300000009",
@@ -4750,7 +4750,7 @@
                 "notes": [
                     "<b>Bug Fix:</b> Earlier version of the Plugin could not handle 429 error (too many requests). Now it is handling it. "
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000300000006",
@@ -4764,7 +4764,7 @@
                 "notes": [
                     "<b>Personal Access Token Support</b>: The Jira Plugin was unable to use Personal Access Tokens for authentication in previous versions for Jira Server. However, a new field called Personal Access Token has been introduced to enable authentication using this feature."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000300000001",
@@ -4778,7 +4778,7 @@
                 "notes": [
                     "<b>Minor Bug Fix</b>: Previous version of plugin was failing with ECONNREFUSED error."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000200000009",
@@ -4792,7 +4792,7 @@
                 "notes": [
                     "<b>Deployment plan task added for release process: </b>Deployment plan task created in order to release selected version in the task."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000200000008",
@@ -4807,7 +4807,7 @@
                     "<b>Previous Version Bug Fix:</b> Previous versions of the plugin had a bug due to which plugin was giving 401 error.",
                     "<b>Added Category:</b> Application lifecycle management (ALM) is the category of Jira plugin."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000200000007",
@@ -4821,7 +4821,7 @@
                 "notes": [
                     "<b>Resolved Incorrect URL Link Issue:</b> The URL link of the VSM dot for redirecting to work-item on Jira server/site was incorrect in previous version of plugin."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000200000006",
@@ -4835,7 +4835,7 @@
                 "notes": [
                     "Added Project keys"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000200000005",
@@ -4849,7 +4849,7 @@
                 "notes": [
                     "Bug Fix"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000200000004",
@@ -4866,7 +4866,7 @@
                     "Initial Sync Date Removed from Plugin side",
                     "Logging Added"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000200000001",
@@ -4883,7 +4883,7 @@
                     "Initial Sync date modified",
                     "Debug logs added"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000097",
@@ -4899,7 +4899,7 @@
                     "Removed Project Keys",
                     "Added Initial Sync date from core"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000100000096",
@@ -4914,7 +4914,7 @@
                     "graphiql performance improvement",
                     "raw issue reduced"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000100000095",
@@ -4928,7 +4928,7 @@
                 "notes": [
                     "Reduced vulnerabilities"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000100000094",
@@ -4946,7 +4946,7 @@
                     "Labels Updated",
                     "Debug logs added"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000100000089",
@@ -4960,7 +4960,7 @@
                 "notes": [
                     "UAK Changes"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000083",
@@ -4974,7 +4974,7 @@
                 "notes": [
                     "epic support"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000080",
@@ -4988,7 +4988,7 @@
                 "notes": [
                     "epic support"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000074",
@@ -5002,7 +5002,7 @@
                 "notes": [
                     "Bug fix: UAK support for older versions"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000065",
@@ -5017,7 +5017,7 @@
                     "Auto-generated User Access Key support added",
                     "ReSync support added"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000064",
@@ -5031,7 +5031,7 @@
                 "notes": [
                     "remove basePath in Jira client"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000052",
@@ -5045,7 +5045,7 @@
                 "notes": [
                     "Removed the display of auth token in error logs"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000051",
@@ -5059,7 +5059,7 @@
                 "notes": [
                     "Jira rate limit issue fix"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000050",
@@ -5073,7 +5073,7 @@
                 "notes": [
                     "Removed IBM related keywords"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000049",
@@ -5087,7 +5087,7 @@
                 "notes": [
                     "Bug fix"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000039",
@@ -5101,7 +5101,7 @@
                 "notes": [
                     "Default value is set to some of the mandatory fields"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000038",
@@ -5115,7 +5115,7 @@
                 "notes": [
                     "Added Proxy support"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000036",
@@ -5129,7 +5129,7 @@
                 "notes": [
                     "Routine plugin fixes."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000035",
@@ -5143,7 +5143,7 @@
                 "notes": [
                     "Bug fixes and api updates"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000034",
@@ -5157,7 +5157,7 @@
                 "notes": [
                     "Configure logger in wrapper."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000032",
@@ -5171,7 +5171,7 @@
                 "notes": [
                     "Fixed sycing all issues with multiple projects."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000031",
@@ -5185,7 +5185,7 @@
                 "notes": [
                     "Added sprints and story points."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000029",
@@ -5199,7 +5199,7 @@
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000027",
@@ -5213,7 +5213,7 @@
                 "notes": [
                     "Wrap every Jira request and insert User-Agent header."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000025",
@@ -5227,7 +5227,7 @@
                 "notes": [
                     "Provide null check on fromString and toString."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000024",
@@ -5241,7 +5241,7 @@
                 "notes": [
                     "Fixes encryption key deletion bug"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000023",
@@ -5255,7 +5255,7 @@
                 "notes": [
                     "Fix memory leak."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000022",
@@ -5269,7 +5269,7 @@
                 "notes": [
                     "revert readme updates"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000019",
@@ -5283,7 +5283,7 @@
                 "notes": [
                     "Properly throw errors on failures."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000017",
@@ -5317,7 +5317,7 @@
                 "notes": [
                     "Sync incidents."
                 ],
-                "supports": "",
+                "supports": "5.0.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000001",
@@ -5352,7 +5352,7 @@
                     "Retrieves Leankit Cards details",
                     "Fetch multiple board cards"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000001",
@@ -5386,7 +5386,7 @@
                 "notes": [
                     "<b>Bug Fix</b>: Addressed bugs related to empty training datasets and empty prediction datasets."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000005",
@@ -5400,7 +5400,7 @@
                 "notes": [
                     "<b>Bug fix</b>: Fix related to error logs getting while performing integration - INTERNAL SERVER ERROR"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000004",
@@ -5414,7 +5414,7 @@
                 "notes": [
                     "<b>Bug fix</b>: Updated graphiql query PaginationInput to InsightsPaginationInput"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000003",
@@ -5428,7 +5428,7 @@
                 "notes": [
                     "Initial release for Milestone Risk Estimator plugin"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000001",
@@ -5462,7 +5462,7 @@
                 "notes": [
                     "<b>Rebranding</b>: Name of the plugin is changed from HCL OneTest Server to HCL DevOps Test Server."
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000027",
@@ -5476,7 +5476,7 @@
                 "notes": [
                     "<b>Minor bug fix:</b>Fixed bug related to test results URL generated in plugin."
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000026",
@@ -5493,7 +5493,7 @@
                     "<b>Preventing Installation on Older Versions:</b> This version of HCL OneTest Server Plugin can only be installed on HCL Accelerate version  3.0.0 and later",
                     "<b>Added Category</b>:Quality is the plugin category of HCL OneTest Server."
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000017",
@@ -5507,7 +5507,7 @@
                 "notes": [
                     "User Access Key Related Changes"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000015",
@@ -5521,7 +5521,7 @@
                 "notes": [
                     "changes for gating"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000011",
@@ -5535,7 +5535,7 @@
                 "notes": [
                     "Upgrade from beta version"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000002",
@@ -5549,7 +5549,7 @@
                 "notes": [
                     "Integration id passed along with metrics"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000009",
@@ -5563,7 +5563,7 @@
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000008",
@@ -5577,7 +5577,7 @@
                 "notes": [
                     "Configure logger in wrapper."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000007",
@@ -5591,7 +5591,7 @@
                 "notes": [
                     "Fixed test results to always return latest only."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000005",
@@ -5605,7 +5605,7 @@
                 "notes": [
                     "Initial plugin version."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000004",
@@ -5642,7 +5642,7 @@
                     "<b>Added Category</b>:ALM is the plugin category of Rally.",
                     "<b>Initial Sync Date Field Added: </b>Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync."
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000043",
@@ -5656,7 +5656,7 @@
                 "notes": [
                     "Clarifying delimitation problem for properties used"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000041",
@@ -5670,7 +5670,7 @@
                 "notes": [
                     "Reduced whitesource vulnerabilities"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000039",
@@ -5684,7 +5684,7 @@
                 "notes": [
                     "User Access Key Related Changes"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000034",
@@ -5698,7 +5698,7 @@
                 "notes": [
                     "User Access Key Related Changes"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000030",
@@ -5712,7 +5712,7 @@
                 "notes": [
                     "Removed IBM related keywords"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000025",
@@ -5726,7 +5726,7 @@
                 "notes": [
                     "Added Proxy support to Rally plugin"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000017",
@@ -5740,7 +5740,7 @@
                 "notes": [
                     "Sprint history changes"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000016",
@@ -5754,7 +5754,7 @@
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000014",
@@ -5768,7 +5768,7 @@
                 "notes": [
                     "Configure logger in wrapper."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000013",
@@ -5782,7 +5782,7 @@
                 "notes": [
                     "Added sprints and story points."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000012",
@@ -5796,7 +5796,7 @@
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000011",
@@ -5810,7 +5810,7 @@
                 "notes": [
                     "Ignore updates that do not provide a FROM or TO value."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000007",
@@ -5824,7 +5824,7 @@
                 "notes": [
                     "Fixes encryption key deletion bug"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000006",
@@ -5838,7 +5838,7 @@
                 "notes": [
                     "Static Velocity API Client."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000004",
@@ -5852,7 +5852,7 @@
                 "notes": [
                     "Initial release of Rally plugin."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000003",
@@ -5888,7 +5888,7 @@
                     "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
                     "<b>Added WorkflowId:</b> Under the hidden properties section of add integration page for rational-test-automation-server plugin a Workflow ID field is added. This field is optional and can be used to provide HCL Accelerate WorkflowId - the ID of a Value Stream (VSM )to which rational-test-automation-server vulnerability data is associated."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000034",
@@ -5902,7 +5902,7 @@
                 "notes": [
                     "User Access Key Related Changes"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000022",
@@ -5916,7 +5916,7 @@
                 "notes": [
                     "Integration id passed along with metrics"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000006",
@@ -5930,7 +5930,7 @@
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000005",
@@ -5944,7 +5944,7 @@
                 "notes": [
                     "Configure logger in wrapper."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000004",
@@ -5958,7 +5958,7 @@
                 "notes": [
                     "Initial plugin release."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000003",
@@ -5992,7 +5992,7 @@
                 "notes": [
                     "Initial release syncs SAP Normal changes with Jira issues"
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000001",
@@ -6026,7 +6026,7 @@
                 "notes": [
                     "<b>Minor bug fix:</b> Earlier plugin was unable to resync when incident is resolved"
                 ],
-                "supports": "",
+                "supports": "5.0.2",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000100000003",
@@ -6043,7 +6043,7 @@
                     "<b>Feature enhancement:</b> In automation task enabled to create and update change task.",
                     "<b>Bug fix:</b>  Fixed issue related to syncing of change and problem in servicenow schedule event."
                 ],
-                "supports": "",
+                "supports": "5.0.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000100000002",
@@ -6058,7 +6058,7 @@
                     "Import incidents",
                     "Add Incident creation automation task"
                 ],
-                "supports": "",
+                "supports": "5.0.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000100000001",
@@ -6072,7 +6072,7 @@
                 "notes": [
                     "<b>Minor bug fix</b>: Fixed bug related to proxy server change and related to automation task execution."
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000042",
@@ -6086,7 +6086,7 @@
                 "notes": [
                     "Manual UAK removal and preventing install on previous version"
                 ],
-                "supports": "",
+                "supports": "2.5.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000036",
@@ -6100,7 +6100,7 @@
                 "notes": [
                     "Adding Automation Functionality"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000027",
@@ -6114,7 +6114,7 @@
                 "notes": [
                     "Removed IBM related keywords"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000025",
@@ -6128,7 +6128,7 @@
                 "notes": [
                     "Added proxy support"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000014",
@@ -6142,7 +6142,7 @@
                 "notes": [
                     "Problems priority bug fix"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000013",
@@ -6156,7 +6156,7 @@
                 "notes": [
                     "Pull problems from SNOW"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000012",
@@ -6170,7 +6170,7 @@
                 "notes": [
                     "Added support for access token"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000009",
@@ -6184,7 +6184,7 @@
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000008",
@@ -6198,7 +6198,7 @@
                 "notes": [
                     "Configure logger in wrapper."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000007",
@@ -6212,7 +6212,7 @@
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000006",
@@ -6226,7 +6226,7 @@
                 "notes": [
                     "Initial Release"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000004",
@@ -6260,7 +6260,7 @@
                 "notes": [
                     "<b>Minor enhancement in code</b>: Enabled to throw error logs while executing shell automation task."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000034",
@@ -6274,7 +6274,7 @@
                 "notes": [
                     "Reduced Vulnerabilities"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000031",
@@ -6288,7 +6288,7 @@
                 "notes": [
                     "Initial release."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000007",
@@ -6324,7 +6324,7 @@
                     "Works with GitHub,GitLab and Bitbucket integrations",
                     "Vulnerabilities will be displayed as Application vulnerabilities in metrics bar"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000001",
@@ -6358,7 +6358,7 @@
                 "notes": [
                     "<b>Rebranding</b>: Name of the plugin is changed from UrbanCode Deploy to IBM DevOps Deploy. "
                 ],
-                "supports": "",
+                "supports": "4.0.13",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000040000000000000004",
@@ -6372,7 +6372,7 @@
                 "notes": [
                     "Started uploading statuses to Snapshot and Component versions"
                 ],
-                "supports": "",
+                "supports": "4.0.13",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000040000000000000003",
@@ -6386,7 +6386,7 @@
                 "notes": [
                     "Using version properties for mapping build.url parameter"
                 ],
-                "supports": "",
+                "supports": "4.0.13",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000040000000000000002",
@@ -6400,7 +6400,7 @@
                 "notes": [
                     "Removed Version as mandatory for external UCD"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000030000000400000006",
@@ -6417,7 +6417,7 @@
                     "<b>Deployment Plan Fix</b>: In previous version of plugin deployment plan was not getting completed if we have parallel and sequential tasks with UCD app.",
                     "<b>Removing Deleted Applications</b>: In the previous version of plugin the deleted Application processes were also available while selecting the process in the pipeline."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000030000000400000005",
@@ -6431,7 +6431,7 @@
                 "notes": [
                     "<b>Removed UrbanCode Deploy Status Task</b>: Assign status task is removed and made part of main UrbanCode Deploy Task as post deployment success or failure step for assigning Snapshot or Component Version status."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000030000000300000056",
@@ -6445,7 +6445,7 @@
                 "notes": [
                     "<b>Internal Server Error Fix</b>: The urbancode deploy plugin was giving internal server error while syncing the application processes from the UCD server."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000300000052",
@@ -6459,7 +6459,7 @@
                 "notes": [
                     "Major Enhancements"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000300000051",
@@ -6473,7 +6473,7 @@
                 "notes": [
                     "<b>Corrected incorrectly spelled plugin name</b>: In urbancode deploy plugin, display name was incorrectly spelled as Ubrancode deploy. Now corrected to Urbancode deploy."
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000016",
@@ -6487,7 +6487,7 @@
                 "notes": [
                     "Importing failed application deployment history"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000012",
@@ -6501,7 +6501,7 @@
                 "notes": [
                     "Using Auto-generated User Access Key"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000011",
@@ -6515,7 +6515,7 @@
                 "notes": [
                     "Internal release related changes"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000010",
@@ -6549,7 +6549,7 @@
                 "notes": [
                     "Added support for teams, backlog group, portfolio"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000011",
@@ -6564,7 +6564,7 @@
                     "updated proxy fields to be hidden",
                     "improved logging"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000009",
@@ -6578,7 +6578,7 @@
                 "notes": [
                     "Added proxy support"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000007",
@@ -6592,7 +6592,7 @@
                 "notes": [
                     "handling deleted workitems"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000006",
@@ -6606,7 +6606,7 @@
                 "notes": [
                     "Initial Release for VersionOne Plugin"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000010000000000000003",
@@ -6642,7 +6642,7 @@
                     "Added custom field mapping for pipeline",
                     "Works on product and project level"
                 ],
-                "supports": "",
+                "supports": null,
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000020000000000000015",
@@ -6676,7 +6676,7 @@
                 "notes": [
                     "Started using timeSpan for Initial Sync date."
                 ],
-                "supports": "",
+                "supports": "4.0.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000006",
@@ -6690,7 +6690,7 @@
                 "notes": [
                     "Initial Release"
                 ],
-                "supports": "",
+                "supports": "4.0.0",
                 "publish": "True",
                 "description": "",
                 "SORT_VERSION": "000000000000000000000005",
