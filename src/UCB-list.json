@@ -27,7 +27,7 @@
                         "Installing this plugin will give you access to the AccuRev commands listed below. These steps will be available for use when designing a Job."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "AccuRev is a centralized version control system which uses a client/server model. It is built around a stream-based architecture in which streams form a hierarchical structure of code changes where parent streams pass on certain properties to child streams.",
                     "SORT_VERSION": "0000000200350683",
                     "type": "SCM"
@@ -41,7 +41,7 @@
                         "Update to a newer version of a library for HTTP communication."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "AccuRev is a centralized version control system which uses a client/server model. It is built around a stream-based architecture in which streams form a hierarchical structure of code changes where parent streams pass on certain properties to child streams.",
                     "SORT_VERSION": "0000000300408166",
                     "type": "SCM"
@@ -55,7 +55,7 @@
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "AccuRev is a centralized version control system which uses a client/server model. It is built around a stream-based architecture in which streams form a hierarchical structure of code changes where parent streams pass on certain properties to child streams.",
                     "SORT_VERSION": "0000000400604289",
                     "type": "SCM"
@@ -70,7 +70,7 @@
                         "      same change ID causing issues to get picked up for depots that do not contain them."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000500669681",
                     "type": ""
@@ -85,7 +85,7 @@
                         "      Add support for using the transaction ID (revision) in the Changelog step."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000600752929",
                     "type": ""
@@ -145,7 +145,7 @@
                         "Installing this plugin will give you access to the AccuWork commands listed below. These steps will be available for use when designing a Job."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200350686",
                     "type": "Automation"
@@ -159,7 +159,7 @@
                         "Update to a newer version of a library for HTTP communication."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000300408455",
                     "type": "Automation"
@@ -173,7 +173,7 @@
                         "Changed the issue IDs that are uploaded to the Issues tab of a build life to contain their depot name so that they are always unique."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000400431001",
                     "type": "Automation"
@@ -187,7 +187,7 @@
                         "Do not process duplicate changes. Fix a memory leak that caused problems with large number of changes."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000500474440",
                     "type": "Automation"
@@ -201,7 +201,7 @@
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000600604290",
                     "type": "Automation"
@@ -215,7 +215,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000700752908",
                     "type": "Automation"
@@ -229,7 +229,7 @@
                         "Support property file encryption."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000801096129",
                     "type": "Automation"
@@ -289,7 +289,7 @@
                         "Loading the Ant plugin will give users access to the Ant Job steps for use when designing the deployment job."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Apache Ant is a software tool to automate software processes during the build or deployment of an application. Ant uses an propitiatory XML file to define build and/or deployment steps(referred to as targets by ant) . The Ant executable is called to execute the targets in the build.xml",
                     "SORT_VERSION": "0000000100349395",
                     "type": "Build"
@@ -303,7 +303,7 @@
                         "Fix parsing of properties passed to Ant on the command line that have spaces in them."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Apache Ant is a software tool to automate software processes during the build or deployment of an application. Ant uses an propitiatory XML file to define build and/or deployment steps(referred to as targets by ant) . The Ant executable is called to execute the targets in the build.xml",
                     "SORT_VERSION": "0000000200384113",
                     "type": "Build"
@@ -317,7 +317,7 @@
                         "Updated plugin to use plugin utility scripts."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Apache Ant is a software tool to automate software processes during the build or deployment of an application. Ant uses an propitiatory XML file to define build and/or deployment steps(referred to as targets by ant) . The Ant executable is called to execute the targets in the build.xml",
                     "SORT_VERSION": "0000000300630731",
                     "type": "Build"
@@ -331,7 +331,7 @@
                         "Remove the JVM Properties property because Ant ignores JAVA_OPTS"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000600718259",
                     "type": ""
@@ -345,7 +345,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000700752769",
                     "type": ""
@@ -359,7 +359,7 @@
                         "Support property file encryption."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000800913229",
                     "type": ""
@@ -373,7 +373,7 @@
                         "log4j and Jettison dependency updated."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001001165571",
                     "type": ""
@@ -433,7 +433,7 @@
                         "Install this plugin to access to the steps listed below. These steps can be used when downloading from or uploading to Artifactory repository. This requires UrbanCode Build 6.1.2.2"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000100838500",
                     "type": ""
@@ -447,7 +447,7 @@
                         "Refactor code"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000300904735",
                     "type": ""
@@ -461,7 +461,7 @@
                         "Fix MissingPropertyException when using Password Script in upload/download steps"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000400912937",
                     "type": ""
@@ -475,7 +475,7 @@
                         "Add new property to be able to set properties for artifacts when uploading"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000500915511",
                     "type": ""
@@ -489,7 +489,7 @@
                         "Add new step for uploading build information"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000700920428",
                     "type": ""
@@ -503,7 +503,7 @@
                         "Fix windows path normalization issues in upload step"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000800920677",
                     "type": ""
@@ -517,7 +517,7 @@
                         "Fix incompatibility issue with Groovy 2.4.10"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000900922826",
                     "type": ""
@@ -531,7 +531,7 @@
                         "Fix issue in Artifacts tab of UCB when uploading artifacts using the Artifactory plugin"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001000929812",
                     "type": ""
@@ -545,7 +545,7 @@
                         "Fix issue with artifact download links when preserving artifact file paths and using Artifactory Pro"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001100930715",
                     "type": ""
@@ -605,7 +605,7 @@
                         "Fixed a race condition when processing command output"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBMs ClearCase software provides tools for supporting software configuration management (SCM) of source code and other software development assets.",
                     "SORT_VERSION": "0000001200673059",
                     "type": "SCM"
@@ -619,7 +619,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBMs ClearCase software provides tools for supporting software configuration management (SCM) of source code and other software development assets.",
                     "SORT_VERSION": "0000001300753109",
                     "type": "SCM"
@@ -634,7 +634,7 @@
                         "Fix a bug around setting the latest change date in the Quiet Period step"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001400767774",
                     "type": ""
@@ -706,7 +706,7 @@
                         "Fix a bug where the changelog and quiet period steps were not respecting the view creation strategy"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBMs ClearCase software provides tools for supporting software configuration management (SCM) of source code and other software development assets.",
                     "SORT_VERSION": "0000001300673057",
                     "type": "SCM"
@@ -720,7 +720,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBMs ClearCase software provides tools for supporting software configuration management (SCM) of source code and other software development assets.",
                     "SORT_VERSION": "0000001400752906",
                     "type": "SCM"
@@ -734,7 +734,7 @@
                         "Fix bug in changelog parsing logic that caused multiple changes to be detected for each changeset."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBMs ClearCase software provides tools for supporting software configuration management (SCM) of source code and other software development assets.",
                     "SORT_VERSION": "0000001600973040",
                     "type": "SCM"
@@ -800,7 +800,7 @@
                         "Installing this plugin will give you access to the ClearQuest commands listed below. These steps will be available for use when designing a Job."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200360315",
                     "type": ""
@@ -814,7 +814,7 @@
                         "Update to a newer version of a library for HTTP communication."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000300410052",
                     "type": ""
@@ -828,7 +828,7 @@
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000400638532",
                     "type": ""
@@ -842,7 +842,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000500752905",
                     "type": ""
@@ -902,7 +902,7 @@
                         "Loading Clover will give access to steps for uploading Clover reports."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000100671550",
                     "type": ""
@@ -916,7 +916,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200752899",
                     "type": ""
@@ -976,7 +976,7 @@
                         "Loading Cobertura will give access to steps for uploading Cobertura reports."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000100349444",
                     "type": ""
@@ -990,7 +990,7 @@
                         "Fixed a bug where publishing could fail due when trying to access a Cobertura URL."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200373052",
                     "type": ""
@@ -1004,7 +1004,7 @@
                         "Update to a newer version of a library for HTTP communication."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000300542772",
                     "type": ""
@@ -1018,7 +1018,7 @@
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000400604292",
                     "type": ""
@@ -1032,7 +1032,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000500752901",
                     "type": ""
@@ -1092,7 +1092,7 @@
                         "Added in a missing useCache property for the Download Artifacts step."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000400349446",
                     "type": ""
@@ -1106,7 +1106,7 @@
                         "Version 5 requires uBuild 4.2.2 or later"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000500357765",
                     "type": ""
@@ -1120,7 +1120,7 @@
                         "Changed the CodeStation client to support dependencies.xml configurations. This version requires uBuild 4.3.1 or later"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000600382046",
                     "type": ""
@@ -1134,7 +1134,7 @@
                         "Added an option to fail an Upload Artifact step if either the directories do not exist or there are no artifacts in the directories."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000700386280",
                     "type": ""
@@ -1148,7 +1148,7 @@
                         "Updated Http Library."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000800411322",
                     "type": ""
@@ -1162,7 +1162,7 @@
                         "Updated CodeStation to properly handle empty includes strings for an artifact set"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000900429653",
                     "type": ""
@@ -1176,7 +1176,7 @@
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001100597180",
                     "type": ""
@@ -1190,7 +1190,7 @@
                         "Retry to upload files if they fail."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001200644060",
                     "type": ""
@@ -1204,7 +1204,7 @@
                         "Use a newer version of the CodeStation Client that properly handles excludes."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001300685649",
                     "type": ""
@@ -1218,7 +1218,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001400752869",
                     "type": ""
@@ -1232,7 +1232,7 @@
                         "Support property file encryption."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001500913306",
                     "type": ""
@@ -1246,7 +1246,7 @@
                         "Fix issue in Download Dependencies step when there is dependency conflict."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001600925891",
                     "type": ""
@@ -1260,7 +1260,7 @@
                         "Add missing jar required by newer version of codestation client"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001700927455",
                     "type": ""
@@ -1274,7 +1274,7 @@
                         "Add new timeout property to Upload Artifacts step to allow configuring the http request timeout when uploading artifacts"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001800928359",
                     "type": ""
@@ -1288,7 +1288,7 @@
                         "Change the tag to \"Repositories/Artifact/CodeStation\"."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000002000973508",
                     "type": ""
@@ -1302,7 +1302,7 @@
                         "Fix parsing value for the \"Additional Hashes\" field of the artifact upload steps"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000002100988495",
                     "type": ""
@@ -1316,7 +1316,7 @@
                         "Update codestation client jar dependency to be able to properly use the charset value sent by UCB, where applicable."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000002201026046",
                     "type": ""
@@ -1330,7 +1330,7 @@
                         "Fix infinite loop during artifact upload if the includes pattern resolves to empty."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000002301033008",
                     "type": ""
@@ -1344,7 +1344,7 @@
                         "Add option to set agents codestation cache dir."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000002401069469",
                     "type": ""
@@ -1358,7 +1358,7 @@
                         "Upgrade of jettison jar as part of security fix."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000002501165172",
                     "type": ""
@@ -1418,7 +1418,7 @@
                         "Installing this plugin will give you access to a CppUnit step that will publish test results to the server. The step will be available when designing a Job."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000100460123",
                     "type": ""
@@ -1432,7 +1432,7 @@
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200604293",
                     "type": ""
@@ -1446,7 +1446,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000300736890",
                     "type": ""
@@ -1506,7 +1506,7 @@
                         "Initial release. Installing this plugin will give you access to the steps listed below. These steps can be used for running Cucumber through CLI Runner."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000100922549",
                     "type": ""
@@ -1566,7 +1566,7 @@
                         "Initial release which include a step to build Docker images."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Docker - An open platform for distributed applications for developers and sysadmins. https://www.docker.com/",
                     "SORT_VERSION": "0000000100610974",
                     "type": "Build"
@@ -1580,7 +1580,7 @@
                         "Add a step to push Docker images to registry."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Docker - An open platform for distributed applications for developers and sysadmins. https://www.docker.com/",
                     "SORT_VERSION": "0000000200669357",
                     "type": "Build"
@@ -1594,7 +1594,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Docker - An open platform for distributed applications for developers and sysadmins. https://www.docker.com/",
                     "SORT_VERSION": "0000000300749188",
                     "type": "Build"
@@ -1608,7 +1608,7 @@
                         "Make the username,password,email are not required for push step"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Docker - An open platform for distributed applications for developers and sysadmins. https://www.docker.com/",
                     "SORT_VERSION": "0000000400767844",
                     "type": "Build"
@@ -1623,7 +1623,7 @@
                         "            and docker build existing plugin steps."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Docker - An open platform for distributed applications for developers and sysadmins. https://www.docker.com/",
                     "SORT_VERSION": "0000000601036529",
                     "type": "Build"
@@ -1683,7 +1683,7 @@
                         "Initial plugin version."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000100357583",
                     "type": ""
@@ -1697,7 +1697,7 @@
                         "Update to a newer version of a library for HTTP communication."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200408797",
                     "type": ""
@@ -1711,7 +1711,7 @@
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000300597183",
                     "type": ""
@@ -1725,7 +1725,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000400752912",
                     "type": ""
@@ -1739,7 +1739,7 @@
                         "Support property file encryption."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000500913286",
                     "type": ""
@@ -1797,7 +1797,7 @@
                     "file": "FileUtils-43.752843.zip",
                     "notes": [],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "ERROR FILE DAMAGED",
                     "SORT_VERSION": "0000000000000000",
                     "type": "",
@@ -1812,7 +1812,7 @@
                         "Updated Sync Dir, Copy Dir, and Move Dirs hint text so that file include and excludes proper usage is more explicitly explained."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000002700357573",
                     "type": "automation",
@@ -1832,7 +1832,7 @@
                         "Updated Update Property File step to be able to take any number of properties defined in scopes like environment, component, etc and include them in the update."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000002800411625",
                     "type": "automation",
@@ -1852,7 +1852,7 @@
                         "Updated the Update INI File plugin step. Added option to allow users to add comments to sections. Added an option to give the user a choice between ; and # for comments. The default comment charater will now be ;. Fixed a bug where sections were deleted if they did not have a property. Multiple comments are allowed but empty lines between comments will not be preserved."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000003700578851",
                     "type": "automation",
@@ -1872,7 +1872,7 @@
                         "Fix broken upgrades so the plugin can be loaded into servers with older versions of the plugin"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000004100697172",
                     "type": "automation",
@@ -1892,7 +1892,7 @@
                         "Added the ability to specify a file encoding when using Create File"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000004400754293",
                     "type": "automation",
@@ -1958,7 +1958,7 @@
                         "Added a new property that allows the user to specify the location of a FindBugs zip file that can supply detailed descriptions for any findings"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "FindBugs is an open source development tool which uses static analysis to look for bugs in Java code.",
                     "SORT_VERSION": "0000000300358060",
                     "type": "automation"
@@ -1972,7 +1972,7 @@
                         "Get full descriptions from FindBugs. This uses the descriptions of findings from FindBugs version 2.0.2."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "FindBugs is an open source development tool which uses static analysis to look for bugs in Java code.",
                     "SORT_VERSION": "0000000400358898",
                     "type": "automation"
@@ -1986,7 +1986,7 @@
                         "Add a checkbox to only publish counts of findings. This saves space if you have a large number of findings. Fix some types of findings that were reporting the wrong class. Requires uBuild 4.3."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "FindBugs is an open source development tool which uses static analysis to look for bugs in Java code.",
                     "SORT_VERSION": "0000000600379614",
                     "type": "automation"
@@ -2000,7 +2000,7 @@
                         "Update to a newer version of a library for HTTP communication."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "FindBugs is an open source development tool which uses static analysis to look for bugs in Java code.",
                     "SORT_VERSION": "0000000700409056",
                     "type": "automation"
@@ -2014,7 +2014,7 @@
                         "Fix a bug introduced in version 7."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "FindBugs is an open source development tool which uses static analysis to look for bugs in Java code.",
                     "SORT_VERSION": "0000000800425841",
                     "type": "automation"
@@ -2028,7 +2028,7 @@
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "FindBugs is an open source development tool which uses static analysis to look for bugs in Java code.",
                     "SORT_VERSION": "0000000900604317",
                     "type": "automation"
@@ -2042,7 +2042,7 @@
                         "Fixed an issue where the FindBugs plugin would fail on empty FindBugs report files."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "FindBugs is an open source development tool which uses static analysis to look for bugs in Java code.",
                     "SORT_VERSION": "0000001000640333",
                     "type": "automation"
@@ -2056,7 +2056,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001100753113",
                     "type": ""
@@ -2116,7 +2116,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200749192",
                     "type": ""
@@ -2176,7 +2176,7 @@
                         "Installing this plugin will give you access to the steps listed below. These steps will be available for use when designing a Job."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Git is a distributed revision control system with an emphasis on speed. Git was initially designed and developed by Linus Torvalds for Linux kernel development.",
                     "SORT_VERSION": "0000000200350912",
                     "type": "SCM"
@@ -2190,7 +2190,7 @@
                         "Update to a newer version of a library for HTTP communication."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Git is a distributed revision control system with an emphasis on speed. Git was initially designed and developed by Linus Torvalds for Linux kernel development.",
                     "SORT_VERSION": "0000000300409110",
                     "type": "SCM"
@@ -2204,7 +2204,7 @@
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Git is a distributed revision control system with an emphasis on speed. Git was initially designed and developed by Linus Torvalds for Linux kernel development.",
                     "SORT_VERSION": "0000000500604295",
                     "type": "SCM"
@@ -2218,7 +2218,7 @@
                         "Added support for triggering builds with GitHub or GitLab Webhooks"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Git is a distributed revision control system with an emphasis on speed. Git was initially designed and developed by Linus Torvalds for Linux kernel development.",
                     "SORT_VERSION": "0000000600678663",
                     "type": "SCM"
@@ -2232,7 +2232,7 @@
                         "Fixed upgrade for the new trigger script"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000700714450",
                     "type": ""
@@ -2246,7 +2246,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000800843054",
                     "type": ""
@@ -2260,7 +2260,7 @@
                         "Improved handling of user credentials embedded in repository base url and repository configuration"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000900851181",
                     "type": ""
@@ -2274,7 +2274,7 @@
                         "Support property file encryption."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001000869547",
                     "type": ""
@@ -2288,7 +2288,7 @@
                         "Fixed infinite build triggering issue with Github if creating a tag with the same name as an existing branch."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001100912931",
                     "type": ""
@@ -2302,7 +2302,7 @@
                         "Fixed issue with repository trigger script not resolving parameterized repository base URL"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001200916500",
                     "type": ""
@@ -2316,7 +2316,7 @@
                         "Fix intermittent IOException stream closed errors"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001500944083",
                     "type": ""
@@ -2330,7 +2330,7 @@
                         "Fix incompatibility with UCB 6.1.2.x that was introduced in version 14 and prevented triggering builds in response to push events sent by GitHub."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001600946670",
                     "type": ""
@@ -2344,7 +2344,7 @@
                         "Prefer using external web URL to construct the target URL in \"Create GitHub Status\" step when available."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001700948973",
                     "type": ""
@@ -2358,7 +2358,7 @@
                         "Avoid NullPointerException if the HTTP client fails to execute and throws an exception before returning the response object."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001800970588",
                     "type": ""
@@ -2372,7 +2372,7 @@
                         "Allow triggering builds for changes in arbitrary branches of a GitHub repository"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001900974464",
                     "type": ""
@@ -2386,7 +2386,7 @@
                         "Ignore BitBucket events related to deleting branches."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000002301019524",
                     "type": ""
@@ -2400,7 +2400,7 @@
                         "Properly handle charset when reading the response stream in changelog step."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000002401028980",
                     "type": ""
@@ -2414,7 +2414,7 @@
                         "Added provision to disable Build triggers on Draft Pull Request."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000002601071383",
                     "type": ""
@@ -2428,7 +2428,7 @@
                         "Added provision to use email id of authors instead of author name."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000002701096142",
                     "type": ""
@@ -2442,7 +2442,7 @@
                         "Fixed issue with triggering builds for GitLab Webhooks."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000002801107738",
                     "type": ""
@@ -2456,7 +2456,7 @@
                         "Added support for Git Tags"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000002901127031",
                     "type": ""
@@ -2516,7 +2516,7 @@
                         "Loading the Groovy plugin will give users access to a Groovy step that allows the execution of scripts."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Groovy is an object-oriented programming language for the Java platform. It is a dynamic language and can be used as a scripting language.",
                     "SORT_VERSION": "0000000100349453",
                     "type": "automation"
@@ -2530,7 +2530,7 @@
                         "Added a Groovy Home property to set the GROOVY_HOME value to use when running scripts."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Groovy is an object-oriented programming language for the Java platform. It is a dynamic language and can be used as a scripting language.",
                     "SORT_VERSION": "0000000200371600",
                     "type": "automation"
@@ -2544,7 +2544,7 @@
                         "Groovy steps can now run JUnit test cases"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Groovy is an object-oriented programming language for the Java platform. It is a dynamic language and can be used as a scripting language.",
                     "SORT_VERSION": "0000000300462431",
                     "type": "automation"
@@ -2558,7 +2558,7 @@
                         "Complete plugin overhaul. Script is now wrapped in another Groovy script instead of using GroovyShell. The Groovy Home now properly overrides the agents value."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000500669442",
                     "type": ""
@@ -2572,7 +2572,7 @@
                         "Complete plugin overhaul. Script is now wrapped in another Groovy script instead of using GroovyShell. The Groovy Home now properly overrides the agents value."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000500670713",
                     "type": ""
@@ -2586,7 +2586,7 @@
                         "Fixed plugin execution when running on Windows"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000600671137",
                     "type": ""
@@ -2600,7 +2600,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000700752778",
                     "type": ""
@@ -2614,7 +2614,7 @@
                         "Support property file encryption."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000900891045",
                     "type": ""
@@ -2628,7 +2628,7 @@
                         "Updating Jettison library to 1.5.4 for CVE-2023-1436"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001601164697",
                     "type": ""
@@ -2688,7 +2688,7 @@
                         "Installing this plugin will give you access to the steps listed below. These steps will be available for use when designing a Job that utilizes source code analysis."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "HPs Fortify Source Code Analyzer provides static analysis of application source code to help identify possible security vulnerabilities.",
                     "SORT_VERSION": "0000000100366381",
                     "type": "automation"
@@ -2702,7 +2702,7 @@
                         "Update to a newer version of a library for HTTP communication."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "HPs Fortify Source Code Analyzer provides static analysis of application source code to help identify possible security vulnerabilities.",
                     "SORT_VERSION": "0000000200409095",
                     "type": "automation"
@@ -2716,7 +2716,7 @@
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "HPs Fortify Source Code Analyzer provides static analysis of application source code to help identify possible security vulnerabilities.",
                     "SORT_VERSION": "0000000300638531",
                     "type": "automation"
@@ -2730,7 +2730,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "HPs Fortify Source Code Analyzer provides static analysis of application source code to help identify possible security vulnerabilities.",
                     "SORT_VERSION": "0000000400752922",
                     "type": "automation"
@@ -2790,7 +2790,7 @@
                         "This version adds in a threshold value of test pass rate on the Run Test Set step"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "HP Quality Center (QC) is a set of web-based test management software offerings from the HP Software Division of Hewlett-Packard, many of which were acquired from Mercury Interactive Corporation. HP Quality Center offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.\n    In order for this plugin to work with HP ALM 11 and later, you must open the web UI of HP ALM from the agent machine, click on their Add-ins Page link and install the HP ALM Connectivity add-in.",
                     "SORT_VERSION": "0000000300359974",
                     "type": "automation",
@@ -2809,7 +2809,7 @@
                         "Update to a newer version of a library for HTTP communication."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "HP Quality Center (QC) is a set of web-based test management software offerings from the HP Software Division of Hewlett-Packard, many of which were acquired from Mercury Interactive Corporation. HP Quality Center offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.\n    In order for this plugin to work with HP ALM 11 and later, you must open the web UI of HP ALM from the agent machine, click on their Add-ins Page link and install the HP ALM Connectivity add-in.",
                     "SORT_VERSION": "0000000400409814",
                     "type": "automation"
@@ -2823,7 +2823,7 @@
                         "Added escaping to illegal characters in the XML that gets uploaded to the uBuild server"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "HP Quality Center (QC) is a set of web-based test management software offerings from the HP Software Division of Hewlett-Packard, many of which were acquired from Mercury Interactive Corporation. HP Quality Center offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.\n    In order for this plugin to work with HP ALM 11 and later, you must open the web UI of HP ALM from the agent machine, click on their Add-ins Page link and install the HP ALM Connectivity add-in.",
                     "SORT_VERSION": "0000000500435338",
                     "type": "automation"
@@ -2837,7 +2837,7 @@
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "HP Quality Center (QC) is a set of web-based test management software offerings from the HP Software Division of Hewlett-Packard, many of which were acquired from Mercury Interactive Corporation. HP Quality Center offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.\n    In order for this plugin to work with HP ALM 11 and later, you must open the web UI of HP ALM from the agent machine, click on their Add-ins Page link and install the HP ALM Connectivity add-in.",
                     "SORT_VERSION": "0000000600604296",
                     "type": "automation"
@@ -2851,7 +2851,7 @@
                         "Fixed a bug in the Run Test Set step where the number of tests that passed was not being correctly calculated."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000700684518",
                     "type": ""
@@ -2865,7 +2865,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000800752924",
                     "type": ""
@@ -2931,7 +2931,7 @@
                         "Installing this plugin will give you access to the steps listed below. These steps will be available for use when designing a Job."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Harvest SCM is a distributed revision control system developed by CA technologies.",
                     "SORT_VERSION": "0000000100683942",
                     "type": "SCM"
@@ -2945,7 +2945,7 @@
                         "Fixes APAR PI57335 uBuild Harvest plug-in not handling changelogs correctly."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000300749197",
                     "type": ""
@@ -2959,7 +2959,7 @@
                         "Fixes APAR PI57335 uBuild Harvest plug-in not handling changelogs correctly."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000300752910",
                     "type": ""
@@ -2973,7 +2973,7 @@
                         "Support property file encryption."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000400863047",
                     "type": ""
@@ -2987,7 +2987,7 @@
                         "Support property file encryption."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000400866634",
                     "type": ""
@@ -3001,7 +3001,7 @@
                         "Fix changelog parser logic to correctly handle empty data columns."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000601014490",
                     "type": ""
@@ -3015,7 +3015,7 @@
                         "Fix APAR PH10867 - Use includeFiles source property in quiet period step."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000701018488",
                     "type": ""
@@ -3029,7 +3029,7 @@
                         "Fix APAR PH10867 - Use includeFiles source property in quiet period step."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000701098511",
                     "type": ""
@@ -3089,7 +3089,7 @@
                         "The JIRA integration provides steps to create, comment and resolve issues found in JIRA and publish a list of issues to the issues tab of a Build Life."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "JIRA is an issue tracking product, developed by Atlassian. It is used for bug tracking, issue tracking and project management.",
                     "SORT_VERSION": "0000000200358375",
                     "type": "Issue Tracking"
@@ -3103,7 +3103,7 @@
                         "Set the JIRA issue URL when reporting JIRA issues. Update to a newer version of a library for HTTP communication."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "JIRA is an issue tracking product, developed by Atlassian. It is used for bug tracking, issue tracking and project management.",
                     "SORT_VERSION": "0000000300410690",
                     "type": "Issue Tracking"
@@ -3117,7 +3117,7 @@
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "JIRA is an issue tracking product, developed by Atlassian. It is used for bug tracking, issue tracking and project management.",
                     "SORT_VERSION": "0000000400604298",
                     "type": "Issue Tracking"
@@ -3131,7 +3131,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "JIRA is an issue tracking product, developed by Atlassian. It is used for bug tracking, issue tracking and project management.",
                     "SORT_VERSION": "0000000500752907",
                     "type": "Issue Tracking"
@@ -3145,7 +3145,7 @@
                         "Migrate to Jira REST API and drop support for Jiras SOAP API. Jira versions older than 6.4 are no longer supported."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "JIRA is an issue tracking product, developed by Atlassian. It is used for bug tracking, issue tracking and project management.",
                     "SORT_VERSION": "0000000700876389",
                     "type": "Issue Tracking"
@@ -3205,7 +3205,7 @@
                         "Installing this plugin will give you access to the JUnit commands listed below. These steps will be available for use when designing a Job."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200359909",
                     "type": ""
@@ -3219,7 +3219,7 @@
                         "Update to a newer version of a library for HTTP communication."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000300410927",
                     "type": ""
@@ -3233,7 +3233,7 @@
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000400604299",
                     "type": ""
@@ -3247,7 +3247,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000500753105",
                     "type": ""
@@ -3261,7 +3261,7 @@
                         "Add optional timeout setting for calls to UCB server."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000801015721",
                     "type": ""
@@ -3275,7 +3275,7 @@
                         "Address a potential 500 server response due to having test suites with no names."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000901025642",
                     "type": ""
@@ -3289,7 +3289,7 @@
                         "Replace the markup builder with streaming markup builder for a performance improvement."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001001071521",
                     "type": ""
@@ -3349,7 +3349,7 @@
                         "Plugin to upload JaCoCo report results."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000100373054",
                     "type": "Automation"
@@ -3363,7 +3363,7 @@
                         "Update to a newer version of a library for HTTP communication."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200409836",
                     "type": "Automation"
@@ -3377,7 +3377,7 @@
                         "Added support for grouped reports"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000300519516",
                     "type": "Automation"
@@ -3391,7 +3391,7 @@
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000400604297",
                     "type": "Automation"
@@ -3405,7 +3405,7 @@
                         "Added includes and excludes properties to support parsing multiple JaCoCo output files and uploading them as a single report."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000500627788",
                     "type": "Automation"
@@ -3419,7 +3419,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000600753377",
                     "type": "Automation"
@@ -3433,7 +3433,7 @@
                         "Support property file encryption."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000700950839",
                     "type": "Automation"
@@ -3493,7 +3493,7 @@
                         "Install this plugin to be able to use the MSBuild step."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "MSBuild is the build system for Visual Studio.",
                     "SORT_VERSION": "0000000100349455",
                     "type": "automation"
@@ -3507,7 +3507,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200752736",
                     "type": ""
@@ -3567,7 +3567,7 @@
                         "Install the MSTest plugin to gain access to the steps listed below."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200359876",
                     "type": ""
@@ -3581,7 +3581,7 @@
                         "Update to a newer version of a library for HTTP communication."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000300410714",
                     "type": ""
@@ -3595,7 +3595,7 @@
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000400604301",
                     "type": ""
@@ -3609,7 +3609,7 @@
                         "Fixed a classpath issue that prevented the MSTest Report Publisher step from running."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000500683891",
                     "type": ""
@@ -3623,7 +3623,7 @@
                         "Updated MSTest output parsing so that Test Lists would be treated as Test Suites"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000600684236",
                     "type": ""
@@ -3637,7 +3637,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000700752751",
                     "type": ""
@@ -3697,7 +3697,7 @@
                         "Install this plugin to be able to use the Make step."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200358339",
                     "type": "automation"
@@ -3711,7 +3711,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000300752874",
                     "type": "automation"
@@ -3771,7 +3771,7 @@
                         "Fixed a bug with properties appending -D at the end"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a projects build, reporting and documentation from a central piece of information.",
                     "SORT_VERSION": "0000000300359912",
                     "type": "Build"
@@ -3785,7 +3785,7 @@
                         "Added the ability to define the POM file content on the step"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a projects build, reporting and documentation from a central piece of information.",
                     "SORT_VERSION": "0000000400410910",
                     "type": "Build"
@@ -3799,7 +3799,7 @@
                         "Fixed plugin when a Maven Concurrent Local Repo is specified."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a projects build, reporting and documentation from a central piece of information.",
                     "SORT_VERSION": "0000000500507933",
                     "type": "Build"
@@ -3813,7 +3813,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000800752932",
                     "type": ""
@@ -3827,7 +3827,7 @@
                         "Support property file encryption."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000900913233",
                     "type": ""
@@ -3887,7 +3887,7 @@
                         "Installing this plugin will give you access to the Mercurial commands listed below. These steps will be available for use when designing a Job."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Mercurial is a cross-platform, distributed revision control tool for software developers.",
                     "SORT_VERSION": "0000000200358308",
                     "type": "SCM"
@@ -3901,7 +3901,7 @@
                         "Update to a newer version of a library for HTTP communication."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Mercurial is a cross-platform, distributed revision control tool for software developers.",
                     "SORT_VERSION": "0000000300410716",
                     "type": "SCM"
@@ -3915,7 +3915,7 @@
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Mercurial is a cross-platform, distributed revision control tool for software developers.",
                     "SORT_VERSION": "0000000500604300",
                     "type": "SCM"
@@ -3929,7 +3929,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Mercurial is a cross-platform, distributed revision control tool for software developers.",
                     "SORT_VERSION": "0000000600753091",
                     "type": "SCM"
@@ -3989,7 +3989,7 @@
                         "Remove the publish step due to being unusable, and add a new property to \"Run Test\" step for specifying the Mocha reporter to use when generating test reports."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000201007779",
                     "type": ""
@@ -4049,7 +4049,7 @@
                         "Install this plugin to be able to use the NAnt step."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200358343",
                     "type": "automation"
@@ -4063,7 +4063,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000300752793",
                     "type": "automation"
@@ -4123,7 +4123,7 @@
                         "Installing this plugin will give you access to the steps listed below. These steps will be available for use when designing a Job."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000100759854",
                     "type": ""
@@ -4171,7 +4171,7 @@
                         "Initial NPM plugin version"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000100922546",
                     "type": ""
@@ -4185,7 +4185,7 @@
                         "Initial NPM plugin version"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000101098517",
                     "type": ""
@@ -4245,7 +4245,7 @@
                         "Initial version of the NUnit plugin to publish test results."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "NUnit is a unit-testing framework for all .Net languages.",
                     "SORT_VERSION": "0000000100370976",
                     "type": "Automation"
@@ -4259,7 +4259,7 @@
                         "Update to a newer version of a library for HTTP communication."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "NUnit is a unit-testing framework for all .Net languages.",
                     "SORT_VERSION": "0000000200410698",
                     "type": "Automation"
@@ -4273,7 +4273,7 @@
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "NUnit is a unit-testing framework for all .Net languages.",
                     "SORT_VERSION": "0000000300604302",
                     "type": "Automation"
@@ -4287,7 +4287,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "NUnit is a unit-testing framework for all .Net languages.",
                     "SORT_VERSION": "0000000400752916",
                     "type": "Automation"
@@ -4347,7 +4347,7 @@
                         "Installing this plugin will give you access to the steps listed below. These steps will be available for use when designing a Job."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "PMD is an open source software which provides static analysis for Java source code.",
                     "SORT_VERSION": "0000000100349457",
                     "type": "automation",
@@ -4362,7 +4362,7 @@
                         "Update to a newer version of a library for HTTP communication."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "PMD is an open source software which provides static analysis for Java source code.",
                     "SORT_VERSION": "0000000200410048",
                     "type": "automation"
@@ -4376,7 +4376,7 @@
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "PMD is an open source software which provides static analysis for Java source code.",
                     "SORT_VERSION": "0000000300604308",
                     "type": "automation"
@@ -4390,7 +4390,7 @@
                         "Update to handle multiple files."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "PMD is an open source software which provides static analysis for Java source code.",
                     "SORT_VERSION": "0000000500752822",
                     "type": "automation"
@@ -4450,7 +4450,7 @@
                         "Change the changelog command to use the -i flag. This will include changes that are merged into the current branch instead of just listing the merge commit"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Perforce is a commercial, proprietary, centralized revision control system developed by Perforce Software, Inc.",
                     "SORT_VERSION": "0000000300358068",
                     "type": "SCM"
@@ -4464,7 +4464,7 @@
                         "Update to a newer version of a library for HTTP communication."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Perforce is a commercial, proprietary, centralized revision control system developed by Perforce Software, Inc.",
                     "SORT_VERSION": "0000000400410059",
                     "type": "SCM"
@@ -4478,7 +4478,7 @@
                         "Fix changelog step when it runs in a different timezone than the quiet period"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Perforce is a commercial, proprietary, centralized revision control system developed by Perforce Software, Inc.",
                     "SORT_VERSION": "0000000500414563",
                     "type": "SCM"
@@ -4492,7 +4492,7 @@
                         "Fix the determination of latest change date when the Perforce client and server are in different time zones. Set the latest submitted change list identifier on the build life during the populate step."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Perforce is a commercial, proprietary, centralized revision control system developed by Perforce Software, Inc.",
                     "SORT_VERSION": "0000000600424370",
                     "type": "SCM"
@@ -4506,7 +4506,7 @@
                         "Added the ability to do a sync based on a label instead of a date"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Perforce is a commercial, proprietary, centralized revision control system developed by Perforce Software, Inc.",
                     "SORT_VERSION": "0000000700430675",
                     "type": "SCM"
@@ -4520,7 +4520,7 @@
                         "Updated the quiet period to properly handle the Client Spec Creation property when it is set to Create New Client Spec"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Perforce is a commercial, proprietary, centralized revision control system developed by Perforce Software, Inc.",
                     "SORT_VERSION": "0000000800461446",
                     "type": "SCM"
@@ -4534,7 +4534,7 @@
                         "Fixed a bug where the quiet period was closing the input stream for the client spec before it could be read"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Perforce is a commercial, proprietary, centralized revision control system developed by Perforce Software, Inc.",
                     "SORT_VERSION": "0000000900461842",
                     "type": "SCM"
@@ -4548,7 +4548,7 @@
                         "Removed client spec deletion from the quiet period step"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Perforce is a commercial, proprietary, centralized revision control system developed by Perforce Software, Inc.",
                     "SORT_VERSION": "0000001000461854",
                     "type": "SCM"
@@ -4562,7 +4562,7 @@
                         "Fix a memory leak in the get source changes step when there are many changes to process."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Perforce is a commercial, proprietary, centralized revision control system developed by Perforce Software, Inc.",
                     "SORT_VERSION": "0000001100488078",
                     "type": "SCM"
@@ -4576,7 +4576,7 @@
                         "Added an option to the source config to toggle the -i flag for the Get Source Changes step."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Perforce is a commercial, proprietary, centralized revision control system developed by Perforce Software, Inc.",
                     "SORT_VERSION": "0000001200542648",
                     "type": "SCM"
@@ -4590,7 +4590,7 @@
                         "Added a missing toggle for the -i flag when running the Populate Workspace step."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Perforce is a commercial, proprietary, centralized revision control system developed by Perforce Software, Inc.",
                     "SORT_VERSION": "0000001300543181",
                     "type": "SCM"
@@ -4604,7 +4604,7 @@
                         "Updated the Populate Workspace step to use the -m flag when getting the latest changelist."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Perforce is a commercial, proprietary, centralized revision control system developed by Perforce Software, Inc.",
                     "SORT_VERSION": "0000001400544161",
                     "type": "SCM"
@@ -4618,7 +4618,7 @@
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Perforce is a commercial, proprietary, centralized revision control system developed by Perforce Software, Inc.",
                     "SORT_VERSION": "0000001500604318",
                     "type": "SCM"
@@ -4632,7 +4632,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Perforce is a commercial, proprietary, centralized revision control system developed by Perforce Software, Inc.",
                     "SORT_VERSION": "0000001600752926",
                     "type": "SCM"
@@ -4692,7 +4692,7 @@
                         "Fixed a issue where the steps could not find JAVA_HOME to run."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200349482",
                     "type": "SCM",
@@ -4713,7 +4713,7 @@
                         "Change to a new plugin id."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000300359915",
                     "type": "SCM",
@@ -4734,7 +4734,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000400752928",
                     "type": "",
@@ -4801,7 +4801,7 @@
                         "Installing this plugin will give you access to the steps listed below. These steps can be used when designing a job."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "HP QuickTest Professional provides functional and regression test automation for software applications and environments, and can be used for enterprise quality assurance.",
                     "SORT_VERSION": "0000000100579668",
                     "type": "automation",
@@ -4820,7 +4820,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000300752827",
                     "type": "",
@@ -4885,7 +4885,7 @@
                         "Initial release of RTC Work Items plugin"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning with continuous builds and a configurable process to adapt to the way you work.",
                     "SORT_VERSION": "0000000100366418",
                     "type": "Automation"
@@ -4899,7 +4899,7 @@
                         "Changelog comments are now optional. Users may now change custom workflow work item statuses."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning with continuous builds and a configurable process to adapt to the way you work.",
                     "SORT_VERSION": "0000000200372948",
                     "type": "Automation"
@@ -4913,7 +4913,7 @@
                         "Now supports multiple source changes for work items."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning with continuous builds and a configurable process to adapt to the way you work.",
                     "SORT_VERSION": "0000000300374550",
                     "type": "Automation"
@@ -4927,7 +4927,7 @@
                         "Update to a newer version of a library for HTTP communication. Modified Change Work Item Status step."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning with continuous builds and a configurable process to adapt to the way you work.",
                     "SORT_VERSION": "0000000400413422",
                     "type": "Automation"
@@ -4941,7 +4941,7 @@
                         "Fix usage of the password script when a password is not directly used."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning with continuous builds and a configurable process to adapt to the way you work.",
                     "SORT_VERSION": "0000000500571301",
                     "type": "Automation"
@@ -4955,7 +4955,7 @@
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning with continuous builds and a configurable process to adapt to the way you work.",
                     "SORT_VERSION": "0000000700604305",
                     "type": "Automation"
@@ -4969,7 +4969,7 @@
                         "Fixed an issue where the plugin could not be upgraded if the server was currently using version 3"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning with continuous builds and a configurable process to adapt to the way you work.",
                     "SORT_VERSION": "0000000800640315",
                     "type": "Automation"
@@ -4983,7 +4983,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning with continuous builds and a configurable process to adapt to the way you work.",
                     "SORT_VERSION": "0000000900752897",
                     "type": "Automation"
@@ -4997,7 +4997,7 @@
                         "Support property file encryption."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning with continuous builds and a configurable process to adapt to the way you work.",
                     "SORT_VERSION": "0000001000866824",
                     "type": "Automation"
@@ -5057,7 +5057,7 @@
                         "Installing this plugin will give you access to the Rake commands listed below. These steps will be available for use when designing a Job."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Developed by UrbanCode, The Rake plugin automates builds with Rakefiles.",
                     "SORT_VERSION": "0000000200358076",
                     "type": "automation"
@@ -5071,7 +5071,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Developed by UrbanCode, The Rake plugin automates builds with Rakefiles.",
                     "SORT_VERSION": "0000000300752923",
                     "type": "automation"
@@ -5131,7 +5131,7 @@
                         "Updated Rally to handle the Number field on Build objects for Rally versions after 1.20"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Rally is an agile project management tool that help large enterprises perfect the art of agile development and bring products to market faster.",
                     "SORT_VERSION": "0000000300358078",
                     "type": "automation"
@@ -5145,7 +5145,7 @@
                         "Publish the item Owner as a property of created issues. This requires uBuild 4.3.0 or later to be stored."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Rally is an agile project management tool that help large enterprises perfect the art of agile development and bring products to market faster.",
                     "SORT_VERSION": "0000000600375200",
                     "type": "automation"
@@ -5159,7 +5159,7 @@
                         "Added an error message that is displayed when a workspace does not exist or a user does not have access to the workspace"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Rally is an agile project management tool that help large enterprises perfect the art of agile development and bring products to market faster.",
                     "SORT_VERSION": "0000000700383642",
                     "type": "automation"
@@ -5173,7 +5173,7 @@
                         "Update to a newer version of a library for HTTP communication."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Rally is an agile project management tool that help large enterprises perfect the art of agile development and bring products to market faster.",
                     "SORT_VERSION": "0000000800410007",
                     "type": "automation"
@@ -5187,7 +5187,7 @@
                         "Use Rallys v2.0 API. Fix some issues when using HTTP proxies requiring authentication. Support detection of types in the Change Status step and fix available states."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Rally is an agile project management tool that help large enterprises perfect the art of agile development and bring products to market faster.",
                     "SORT_VERSION": "0000001100578704",
                     "type": "automation"
@@ -5202,7 +5202,7 @@
                         "        This will break compatibility with older versions."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Rally is an agile project management tool that help large enterprises perfect the art of agile development and bring products to market faster.",
                     "SORT_VERSION": "0000001200697482",
                     "type": "automation"
@@ -5216,7 +5216,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Rally is an agile project management tool that help large enterprises perfect the art of agile development and bring products to market faster.",
                     "SORT_VERSION": "0000001300753104",
                     "type": "automation"
@@ -5230,7 +5230,7 @@
                         "Fix the defect creation submitter missing issue."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Rally is an agile project management tool that help large enterprises perfect the art of agile development and bring products to market faster.",
                     "SORT_VERSION": "0000001500930199",
                     "type": "automation"
@@ -5244,7 +5244,7 @@
                         "Add compatibility with Groovy 3."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Rally is an agile project management tool that help large enterprises perfect the art of agile development and bring products to market faster.",
                     "SORT_VERSION": "0000001701126865",
                     "type": "automation"
@@ -5304,7 +5304,7 @@
                         "Installing this plugin will give you access to the steps listed below. These steps will be available for use when designing a Job."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "AppScan Source Edition integrates security testing into the software development process while helping security and development teams strengthen application security, protect confidential data and improve compliance.",
                     "SORT_VERSION": "0000000100772903",
                     "type": "Automation"
@@ -5352,7 +5352,7 @@
                         "Installing this plugin will give you access to the steps listed below. These steps will be available for use when designing a Job."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBMs Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
                     "SORT_VERSION": "0000000100349687",
                     "type": "SCM",
@@ -5370,7 +5370,7 @@
                         "Fixed parsing error in the Get Changelog step."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBMs Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
                     "SORT_VERSION": "0000000400373166",
                     "type": "SCM",
@@ -5388,7 +5388,7 @@
                         "Fix change detection when using an existing workspace by accepting changes."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBMs Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
                     "SORT_VERSION": "0000000500382073",
                     "type": "SCM",
@@ -5406,7 +5406,7 @@
                         "Fix work item detection in source changes for RTC 4.x. Fix populate step for existing workspaces to allow for non-zero return code from the scm accept."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBMs Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
                     "SORT_VERSION": "0000000600382086",
                     "type": "SCM",
@@ -5424,7 +5424,7 @@
                         "Fix a bug preventing Quiet Period from completing successfully."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBMs Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
                     "SORT_VERSION": "0000000700382294",
                     "type": "SCM",
@@ -5442,7 +5442,7 @@
                         "Fix a bug when the populate step is run a second time in a build life and creates a duplicate a snapshot instead of using the one for the build life."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBMs Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
                     "SORT_VERSION": "0000000800384130",
                     "type": "SCM",
@@ -5460,7 +5460,7 @@
                         "Fix a bug if get status needs to be run as part of a undo during populate."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBMs Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
                     "SORT_VERSION": "0000000900384136",
                     "type": "SCM",
@@ -5478,7 +5478,7 @@
                         "Add a password script field to the repository"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBMs Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
                     "SORT_VERSION": "0000001100413536",
                     "type": "SCM"
@@ -5492,7 +5492,7 @@
                         "Fixed the load command to list the components being checked out if the Components List property is set."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBMs Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
                     "SORT_VERSION": "0000001400528121",
                     "type": "SCM"
@@ -5506,7 +5506,7 @@
                         "Fixed an issue where a component could be removed and then added again instead of just leaving the component in the workspace."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBMs Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
                     "SORT_VERSION": "0000001500556981",
                     "type": "SCM"
@@ -5520,7 +5520,7 @@
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBMs Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
                     "SORT_VERSION": "0000001800604303",
                     "type": "SCM"
@@ -5534,7 +5534,7 @@
                         "Added retries to RTC commands if the command fails due to a \"Moniker already exists\" error"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBMs Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
                     "SORT_VERSION": "0000001900612820",
                     "type": "SCM"
@@ -5548,7 +5548,7 @@
                         "Added retries to RTC commands when certain errors occur. Updated Changelog and Quiet Period steps to use the date that a change was added to the stream."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBMs Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
                     "SORT_VERSION": "0000001900672547",
                     "type": "SCM"
@@ -5562,7 +5562,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000002000752930",
                     "type": ""
@@ -5576,7 +5576,7 @@
                         "Fix incorrect scm compare syntax in changelog step."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000002200981581",
                     "type": ""
@@ -5590,7 +5590,7 @@
                         "Changelog will use numeric id instead of baseline/snapshot labels"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000002401013888",
                     "type": ""
@@ -5650,7 +5650,7 @@
                         "Fixed a bug with the working directory not taking the directory offset into account"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200359904",
                     "type": ""
@@ -5664,7 +5664,7 @@
                         "Fixed a bug with determining the current Job ID that was causing report uploads to fail"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000300378130",
                     "type": ""
@@ -5678,7 +5678,7 @@
                         "Update to a newer version of a library for HTTP communication."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000400409531",
                     "type": ""
@@ -5692,7 +5692,7 @@
                         "Fixed uploading of reports to not fail on a directory."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000500502205",
                     "type": ""
@@ -5706,7 +5706,7 @@
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000600597181",
                     "type": ""
@@ -5720,7 +5720,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000700752918",
                     "type": ""
@@ -5734,7 +5734,7 @@
                         "Support property file encryption."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000800913304",
                     "type": ""
@@ -5748,7 +5748,7 @@
                         "Support property file encryption."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000801164837",
                     "type": ""
@@ -5808,7 +5808,7 @@
                         "Fixed a bug in generating a report to CSV."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200358586",
                     "type": "Automation"
@@ -5822,7 +5822,7 @@
                         "Update to a newer version of a library for HTTP communication."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000300408566",
                     "type": "Automation"
@@ -5836,7 +5836,7 @@
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000400597179",
                     "type": "Automation"
@@ -5850,7 +5850,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000500752921",
                     "type": "Automation"
@@ -5864,7 +5864,7 @@
                         "Support property file encryption."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000600913227",
                     "type": "Automation"
@@ -5924,7 +5924,7 @@
                         "Installing this plugin will give you access to the Run Test Suite step. This step will be available for use in processes."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Selenium is a testing tool which automates web applications.  It can also be used to automate basic browser functions and administration tasks.",
                     "SORT_VERSION": "0000000300358384",
                     "type": "Automation"
@@ -5938,7 +5938,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000600752852",
                     "type": ""
@@ -6004,7 +6004,7 @@
                         "Removed the duplicate directory offset property."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
                     "SORT_VERSION": "0000000400348367",
                     "type": "automation",
@@ -6025,7 +6025,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
                     "SORT_VERSION": "0000000500752747",
                     "type": "automation",
@@ -6050,7 +6050,7 @@
                         "        Fixes APAR PI40728 - Shell (with xargs) will now correctly display the arguments in the logs."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
                     "SORT_VERSION": "0000000600810204",
                     "type": "automation",
@@ -6071,7 +6071,7 @@
                         "Support property file encryption."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
                     "SORT_VERSION": "0000000700913337",
                     "type": "automation",
@@ -6138,7 +6138,7 @@
                         "Installing this plugin will give you access to the Sonar commands listed below. These steps will be available for use when designing a Job."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Sonar is a code quality analysis tool which covers the 7 axes of code quality; comments, architecture and design, duplications, coding rules, potential bugs, unit tests, and complexity.",
                     "SORT_VERSION": "0000000200359898",
                     "type": ""
@@ -6152,7 +6152,7 @@
                         "Update to a newer version of a library for HTTP communication."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Sonar is a code quality analysis tool which covers the 7 axes of code quality; comments, architecture and design, duplications, coding rules, potential bugs, unit tests, and complexity.",
                     "SORT_VERSION": "0000000300409426",
                     "type": ""
@@ -6166,7 +6166,7 @@
                         "Change Sonar to SonarQube to reflect the new product name."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Sonar is a code quality analysis tool which covers the 7 axes of code quality; comments, architecture and design, duplications, coding rules, potential bugs, unit tests, and complexity.",
                     "SORT_VERSION": "0000000500533912",
                     "type": ""
@@ -6180,7 +6180,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Sonar is a code quality analysis tool which covers the 7 axes of code quality; comments, architecture and design, duplications, coding rules, potential bugs, unit tests, and complexity.",
                     "SORT_VERSION": "0000000700752900",
                     "type": ""
@@ -6194,7 +6194,7 @@
                         "Ensure cleanup of child maven process when terminating"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Sonar is a code quality analysis tool which covers the 7 axes of code quality; comments, architecture and design, duplications, coding rules, potential bugs, unit tests, and complexity.",
                     "SORT_VERSION": "0000000800838525",
                     "type": ""
@@ -6254,7 +6254,7 @@
                         "Add a checkbox to only publish counts of findings. This saves space if you have a large number of findings. Requires uBuild 4.3."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200378124",
                     "type": "Automation"
@@ -6268,7 +6268,7 @@
                         "Update to a newer version of a library for HTTP communication."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000300409460",
                     "type": "Automation"
@@ -6282,7 +6282,7 @@
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000400604307",
                     "type": "Automation"
@@ -6296,7 +6296,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000500752915",
                     "type": "Automation"
@@ -6356,7 +6356,7 @@
                         "Added an isSvnRepo property to determine if the supplied repository is a single repository or a collection of repositories"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Subversion software offers a versioning and a revision control system distributed under a free license. It is used to maintain current and historical versions of files such as source code, web pages, and documentation.",
                     "SORT_VERSION": "0000000300358056",
                     "type": "SCM"
@@ -6370,7 +6370,7 @@
                         "Update to a newer version of a library for HTTP communication."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Subversion software offers a versioning and a revision control system distributed under a free license. It is used to maintain current and historical versions of files such as source code, web pages, and documentation.",
                     "SORT_VERSION": "0000000400409505",
                     "type": "SCM"
@@ -6384,7 +6384,7 @@
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Subversion software offers a versioning and a revision control system distributed under a free license. It is used to maintain current and historical versions of files such as source code, web pages, and documentation.",
                     "SORT_VERSION": "0000000500638529",
                     "type": "SCM"
@@ -6398,7 +6398,7 @@
                         "Fixed an issue when a tag is copied from a branch, change logs in that branch are not listed as changes for its path does not match the tag path"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Subversion software offers a versioning and a revision control system distributed under a free license. It is used to maintain current and historical versions of files such as source code, web pages, and documentation.",
                     "SORT_VERSION": "0000000600673610",
                     "type": "SCM"
@@ -6412,7 +6412,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Subversion software offers a versioning and a revision control system distributed under a free license. It is used to maintain current and historical versions of files such as source code, web pages, and documentation.",
                     "SORT_VERSION": "0000000700752914",
                     "type": "SCM"
@@ -6426,7 +6426,7 @@
                         "Support property file encryption."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001101023828",
                     "type": ""
@@ -6486,7 +6486,7 @@
                         "Update to a newer version of a library for HTTP communication."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Microsofts Team Foundation Server (TFS) product offering includes source control, data collection, reporting, and project tracking, and is intended for collaborative software development projects.",
                     "SORT_VERSION": "0000000400409496",
                     "type": "SCM"
@@ -6500,7 +6500,7 @@
                         "Updated the Populate step to correctly use the password property from the repository."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Microsofts Team Foundation Server (TFS) product offering includes source control, data collection, reporting, and project tracking, and is intended for collaborative software development projects.",
                     "SORT_VERSION": "0000000500460931",
                     "type": "SCM"
@@ -6514,7 +6514,7 @@
                         "Delete the workspace from the server on cleanup using the configuration option Remove All Files."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Microsofts Team Foundation Server (TFS) product offering includes source control, data collection, reporting, and project tracking, and is intended for collaborative software development projects.",
                     "SORT_VERSION": "0000000600486073",
                     "type": "SCM"
@@ -6528,7 +6528,7 @@
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Microsofts Team Foundation Server (TFS) product offering includes source control, data collection, reporting, and project tracking, and is intended for collaborative software development projects.",
                     "SORT_VERSION": "0000000700604315",
                     "type": "SCM"
@@ -6542,7 +6542,7 @@
                         "Fixed a bug where an empty directory offset would not be treated as the current directory and the checkout step would run a workfold /map command."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Microsofts Team Foundation Server (TFS) product offering includes source control, data collection, reporting, and project tracking, and is intended for collaborative software development projects.",
                     "SORT_VERSION": "0000000800679324",
                     "type": "SCM"
@@ -6556,7 +6556,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Microsofts Team Foundation Server (TFS) product offering includes source control, data collection, reporting, and project tracking, and is intended for collaborative software development projects.",
                     "SORT_VERSION": "0000000900752927",
                     "type": "SCM"
@@ -6570,7 +6570,7 @@
                         "Updated change log step with additional diagnostic log"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Microsofts Team Foundation Server (TFS) product offering includes source control, data collection, reporting, and project tracking, and is intended for collaborative software development projects.",
                     "SORT_VERSION": "0000001101049734",
                     "type": "SCM"
@@ -6630,7 +6630,7 @@
                         "Install the TFS-WorkItems plugin to be able to use steps for working with TFS Work Items."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000100359972",
                     "type": ""
@@ -6644,7 +6644,7 @@
                         "Update to a newer version of a library for HTTP communication."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200409515",
                     "type": ""
@@ -6658,7 +6658,7 @@
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000300604316",
                     "type": ""
@@ -6672,7 +6672,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000400752909",
                     "type": ""
@@ -6732,7 +6732,7 @@
                         "Initial release providing two steps to create JSON files and to add properties."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000100975310",
                     "type": ""
@@ -6746,7 +6746,7 @@
                         "Added a step for HTTP call."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000201058205",
                     "type": ""
@@ -6806,7 +6806,7 @@
                         "Install this plugin to be able to use the Visual Studio step when designing jobs."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200360901",
                     "type": "automation"
@@ -6820,7 +6820,7 @@
                         "Minor updates to the step to allow it to print out the log from the build even after a build failure"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000300431223",
                     "type": "automation"
@@ -6834,7 +6834,7 @@
                         "Add a default command. Fix logic around determining if we need to add devenv to a user-specified command path"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000400707042",
                     "type": ""
@@ -6848,7 +6848,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000500752842",
                     "type": ""
@@ -6862,7 +6862,7 @@
                         "APAR:CQPAR00247534 Resolve potential hang or missing output log"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000701034910",
                     "type": ""
@@ -6876,7 +6876,7 @@
                         "APAR:CQPAR00249260 Enhancement to Mode Field"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000801050058",
                     "type": ""
@@ -6890,7 +6890,7 @@
                         "Salesforce:TS003551876 issue fix"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000901056675",
                     "type": ""
@@ -6951,7 +6951,7 @@
                         "      Added a setting to determine if the build should be for all architectures or only the active architecture."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200679361",
                     "type": ""
@@ -6967,7 +6967,7 @@
                         "      Changed ONLY_ACTIVE_ARCHS command-line argument to ONLY_ACTIVE_ARCH."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000300711406",
                     "type": ""
@@ -6981,7 +6981,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000400752919",
                     "type": ""
@@ -6995,7 +6995,7 @@
                         "Support property file encryption."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000501098513",
                     "type": ""
@@ -7061,7 +7061,7 @@
                         "First release of DevOps Insights Deployment Risk Analysis plug-in."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000100939632",
                     "type": ""
@@ -7109,7 +7109,7 @@
                         "Installing this plugin will give you access to the steps listed below. These steps will be available for use when designing a Job."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. It automates the process of checking Java code to spare humans of this boring (but important) task. This makes it ideal for projects that want to enforce a coding standard.",
                     "SORT_VERSION": "0000000100462541",
                     "type": "automation"
@@ -7123,7 +7123,7 @@
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. It automates the process of checking Java code to spare humans of this boring (but important) task. This makes it ideal for projects that want to enforce a coding standard.",
                     "SORT_VERSION": "0000000200604291",
                     "type": "automation"
@@ -7137,7 +7137,7 @@
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. It automates the process of checking Java code to spare humans of this boring (but important) task. This makes it ideal for projects that want to enforce a coding standard.",
                     "SORT_VERSION": "0000000300753093",
                     "type": "automation"
@@ -7223,7 +7223,7 @@
                         "Initial plugin version that provides a step for executing builds using IBM Dependency Based Build."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000101031727",
                     "type": ""
@@ -7237,7 +7237,7 @@
                         "Use JAVA_HOME instead of PATH for launching the executable"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000201053929",
                     "type": ""
@@ -7295,7 +7295,7 @@
                     "file": "ibm-ucd-30.752054.zip",
                     "notes": [],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "ERROR FILE DAMAGED",
                     "SORT_VERSION": "0000000000000000",
                     "type": ""
@@ -7309,7 +7309,7 @@
                         "Updated branding to IBM UrbanCode Deploy. Added support for using an auth token in place of a username/password combination."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Release management and automation to improve speed, correctness, and traceability of complex application deployments.",
                     "SORT_VERSION": "0000001800538542",
                     "type": "deploy"
@@ -7323,7 +7323,7 @@
                         "Fix the Deploy Component Version step when using and auth token."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Release management and automation to improve speed, correctness, and traceability of complex application deployments.",
                     "SORT_VERSION": "0000002200593716",
                     "type": "deploy"
@@ -7337,7 +7337,7 @@
                         "Fixed a bug where the Create Component Version and Set Component Version Properties steps could not set properties on component versions"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Release management and automation to improve speed, correctness, and traceability of complex application deployments.",
                     "SORT_VERSION": "0000002300618652",
                     "type": "deploy"
@@ -7351,7 +7351,7 @@
                         "Fixed a bug where the Upload All Artifact Sets step could not set properties on component versions"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Release management and automation to improve speed, correctness, and traceability of complex application deployments.",
                     "SORT_VERSION": "0000002400640458",
                     "type": "deploy"
@@ -7365,7 +7365,7 @@
                         "Added a Create Version Link step. Added link creation options to the Create Component Version step."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Release management and automation to improve speed, correctness, and traceability of complex application deployments.",
                     "SORT_VERSION": "0000002500677356",
                     "type": "deploy"
@@ -7379,7 +7379,7 @@
                         "Add checkbox for test success percentage, code analytics, code coverage percentage, source changes, work items in steps that have the ability to create properties."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Release management and automation to improve speed, correctness, and traceability of complex application deployments.",
                     "SORT_VERSION": "0000002700718157",
                     "type": "deploy"
@@ -7393,7 +7393,7 @@
                         "Fix a bug where not providing version properties would throw an error"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Release management and automation to improve speed, correctness, and traceability of complex application deployments.",
                     "SORT_VERSION": "0000002800719018",
                     "type": "deploy"
@@ -7407,7 +7407,7 @@
                         "Add the ability to store artifacts in the IBM UrbanCode Deploy server. This requires UrbanCode Build 6.1.2.0 and UrbanCode Deploy 6.2.0.2."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000003000752925",
                     "type": ""
@@ -7421,7 +7421,7 @@
                         "Update the Create Component Version step to set the property that tells the IBM UrbanCode Build server that artifacts are stored in an IBM UrbanCode Deploy server. This requires UrbanCode Build 6.1.2.0 and UrbanCode Deploy 6.2.0.2."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000003100775251",
                     "type": ""
@@ -7435,7 +7435,7 @@
                         "Fix for getVersionStatus to handle versions with non-url-safe characters properly"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000003200809773",
                     "type": ""
@@ -7449,7 +7449,7 @@
                         "Fix for getVersionStatus to handle versions with non-url-safe characters properly"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000003200810198",
                     "type": ""
@@ -7463,7 +7463,7 @@
                         "Support encrypted input and output properties"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000003400840850",
                     "type": ""
@@ -7477,7 +7477,7 @@
                         "Support property file encryption."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000003500864607",
                     "type": ""
@@ -7491,7 +7491,7 @@
                         "Make syncing of statuses between UCB/UCD fail-safe for UCB servers older than 6.1.2.2"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000003600913355",
                     "type": ""
@@ -7505,7 +7505,7 @@
                         "Fix incompatibility issue with Groovy 2.4.10"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000003700936528",
                     "type": ""
@@ -7519,7 +7519,7 @@
                         "Avoid terminating the step execution thread while error stream is being copied to output stream"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000003800938375",
                     "type": ""
@@ -7533,7 +7533,7 @@
                         "Add the ability to specify properties in Deploy Component Version step"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000003900942969",
                     "type": ""
@@ -7547,7 +7547,7 @@
                         "Use VersionCLIResource when creating version properties"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000004100988309",
                     "type": ""
@@ -7561,7 +7561,7 @@
                         "Added Create Environment Snapshot and Deploy With Snapshot steps."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000004201011785",
                     "type": ""
@@ -7575,7 +7575,7 @@
                         "Fixed missing AuthenticationCredentials import in Upload All Artifact Sets."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000004301012319",
                     "type": ""
@@ -7589,7 +7589,7 @@
                         "Add new steps for creating and deleting auth tokens."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000004501025581",
                     "type": ""
@@ -7603,7 +7603,7 @@
                         "Add new step for invoking Buztool from a UCD agent directory."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000004601031790",
                     "type": ""
@@ -7617,7 +7617,7 @@
                         "Address a number of issues in \"Create Component Version\", \"Add Component Version Status\", and \"Create Auth Token\" steps."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000004701032106",
                     "type": ""
@@ -7631,7 +7631,7 @@
                         "Fixed the Approval reject scenario while \"waiting for deployments\" that need approval in UCD."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000005101040216",
                     "type": ""
@@ -7645,7 +7645,7 @@
                         "Added an option to fail an Upload Artifact step if either the directories do not exist or there are no artifacts in the directories."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000005201071101",
                     "type": ""
@@ -7705,7 +7705,7 @@
                         "Initial release. Installing this plugin will give you access to the Job as Code Step."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "The Job As Config Plugin helps user to configure the job using a script file of YAML or JSON format.\n    The Script file should be of UrbanCode Build pre-defined format",
                     "SORT_VERSION": "0000000101070875",
                     "type": "automation"
@@ -7773,7 +7773,7 @@
                         "Initial release of SalesForce plugin"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000101027607",
                     "type": ""
@@ -7787,7 +7787,7 @@
                         "Included support for RetrieveCode target."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000201056278",
                     "type": ""
@@ -7884,7 +7884,7 @@
                         "Installing this plugin will give you access to the SonarQube commands listed below. These steps will be available for use when designing a Job."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000100772154",
                     "type": ""
@@ -7898,7 +7898,7 @@
                         "Fixed parse issue when a additional properties are defined for job step"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000301069360",
                     "type": ""
@@ -7931,7 +7931,7 @@
                         "Initial release, providing the capability to upload build data to UrbanCode Velocity."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000101027750",
                     "type": ""
@@ -7945,7 +7945,7 @@
                         "Add revision to build data that is sent to UrbanCode Velocity."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000201030041",
                     "type": ""
@@ -7959,7 +7959,7 @@
                         "Fix for proper revision and requester name lookup."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000301031015",
                     "type": ""
@@ -7973,7 +7973,7 @@
                         "Revision to upload metrics data that is sent to UrbanCode Velocity."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000501049716",
                     "type": ""
@@ -8006,7 +8006,7 @@
                         "Initial release. Installing this plugin will give you access to the steps listed below."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000101071324",
                     "type": ""
@@ -8020,7 +8020,7 @@
                         "This version upgrade is a rebranding to HCL family of products."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000901071405",
                     "type": "",
@@ -8055,7 +8055,7 @@
                     "file": "dimensions-2.752902.zip",
                     "notes": [],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "ERROR FILE DAMAGED",
                     "SORT_VERSION": "0000000000000000",
                     "type": ""
@@ -8069,7 +8069,7 @@
                         "Update to a newer version of a library for HTTP communication."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200753376",
                     "type": "SCM"
@@ -8102,7 +8102,7 @@
                         "Initial release. Installing this plugin will give you access to the steps listed below."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000101027120",
                     "type": ""
@@ -8135,7 +8135,7 @@
                         "Added a two new steps that allow uploading of artifact sets to an existing version"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Release management and automation to improve speed, correctness, and traceability of complex application deployments.",
                     "SORT_VERSION": "0000000800361123",
                     "type": "deploy"
@@ -8149,7 +8149,7 @@
                         "Add a optional description to created component versions. Optionally add properties in the create version step."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Release management and automation to improve speed, correctness, and traceability of complex application deployments.",
                     "SORT_VERSION": "0000000900365984",
                     "type": "deploy"
@@ -8163,7 +8163,7 @@
                         "Update the Upload All Artifact Sets to set component version description and properties."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Release management and automation to improve speed, correctness, and traceability of complex application deployments.",
                     "SORT_VERSION": "0000001000366378",
                     "type": "deploy"
@@ -8177,7 +8177,7 @@
                         "Update the Upload All Artifact Sets transfer artifacts from server to server. This requires uBuild 4.3 or later."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Release management and automation to improve speed, correctness, and traceability of complex application deployments.",
                     "SORT_VERSION": "0000001100371201",
                     "type": "deploy"
@@ -8191,7 +8191,7 @@
                         "Fix a bug in the Create Component Version step when creating multiple new properties on the component. This requires uBuild 4.3 or later."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Release management and automation to improve speed, correctness, and traceability of complex application deployments.",
                     "SORT_VERSION": "0000001200381187",
                     "type": "deploy"
@@ -8205,7 +8205,7 @@
                         "Added a step for adding statuses to versions. Updated the Create Component Version step to allow adding statuses during creation."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Release management and automation to improve speed, correctness, and traceability of complex application deployments.",
                     "SORT_VERSION": "0000001400424165",
                     "type": "deploy"
@@ -8219,7 +8219,7 @@
                         "Added compatibility with uDeploy servers before 4.8.4 when using the Create Component Version and Add Component Version Status steps."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Release management and automation to improve speed, correctness, and traceability of complex application deployments.",
                     "SORT_VERSION": "0000001500424416",
                     "type": "deploy"
@@ -8233,7 +8233,7 @@
                         "Fix a bug in the Upload All Artifact Sets step where the step would fail if a component name contained a forward slash."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Release management and automation to improve speed, correctness, and traceability of complex application deployments.",
                     "SORT_VERSION": "0000001600460963",
                     "type": "deploy"
@@ -8247,7 +8247,7 @@
                         "Fixed a bug in Set Version Properties step for uDeploy 5.0 where multiple Set Version Properties steps would overwrite each other."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "Release management and automation to improve speed, correctness, and traceability of complex application deployments.",
                     "SORT_VERSION": "0000001700522989",
                     "type": "deploy"

@@ -288,7 +288,7 @@ def get_info_from_infoxml(zf, file, file_info):
 def get_release_date(zf, filename):
     zipfileinfo=zf.getinfo(filename).date_time
     logger1.debug(f"zipfileinfo={zipfileinfo}")
-    return datetime.datetime(*zipfileinfo)
+    return datetime(*zipfileinfo)
 
 def get_velocity_file_info(file, file_info, pluginnamefolder, all_ucv_index_infos):
     # logger1.debug(f"velocity file={file} - file_info={file_info}")
@@ -560,7 +560,7 @@ def main():
 
 #    adict = get_workfile(config)
  
-    for product in ["UCV"]:                                  # ["UCB", "UCD", "UCR"]: #  ["UCV"] ["UCB"]
+    for product in ["UCB", "UCD", "UCR", "UCV"]:                                  # ["UCB", "UCD", "UCR"]: #  ["UCV"] ["UCB"]
         with open(f"{product}-list.json", "w") as f:
             adict = get_workfile(config, product)
             json.dump(adict,f, indent=4)

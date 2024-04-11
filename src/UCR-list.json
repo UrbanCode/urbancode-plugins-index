@@ -27,7 +27,7 @@
                         "Minor updates to formatting of email content."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200636808",
                     "type": "Report"
@@ -41,7 +41,7 @@
                         "Minor updates to formatting of email content."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200674415",
                     "type": "Report"
@@ -55,7 +55,7 @@
                         "Updated libraries."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000400953656",
                     "type": "Report"
@@ -69,7 +69,7 @@
                         "Updated libraries."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000400953915",
                     "type": "Report"
@@ -83,7 +83,7 @@
                         "Enhancements to Integration Row.  Added historical view of persisted reports. Added Deployments Summary Reports and enhanced other reports.  Added parameters for remote queries of reports.  Removed sample data generation."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000700987383",
                     "type": "Report"
@@ -97,7 +97,7 @@
                         "Enhancements to Integration Row.  Added historical view of persisted reports. Added Deployments Summary Reports and enhanced other reports.  Added parameters for remote queries of reports.  Removed sample data generation."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000701018228",
                     "type": "Report"
@@ -164,7 +164,7 @@
                         "          existing applications, releases, or initiatives."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning",
                     "SORT_VERSION": "0000000100615897",
                     "type": ""
@@ -179,7 +179,7 @@
                         "          existing applications, releases, or initiatives."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning",
                     "SORT_VERSION": "0000000100751917",
                     "type": ""
@@ -194,7 +194,7 @@
                         "          existing applications, releases, or initiatives."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning",
                     "SORT_VERSION": "0000000100773952",
                     "type": ""
@@ -209,7 +209,7 @@
                         "          existing applications, releases, or initiatives."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning",
                     "SORT_VERSION": "0000000100785495",
                     "type": ""
@@ -221,7 +221,7 @@
                     "file": "ucr-plugin-rtc-2.623457.zip",
                     "notes": [],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning",
                     "SORT_VERSION": "0000000200623457",
                     "type": ""
@@ -233,7 +233,7 @@
                     "file": "ucr-plugin-rtc-2.629106.zip",
                     "notes": [],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning",
                     "SORT_VERSION": "0000000200629106",
                     "type": ""
@@ -245,7 +245,7 @@
                     "file": "ucr-plugin-rtc-3.671039.zip",
                     "notes": [],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning",
                     "SORT_VERSION": "0000000300671039",
                     "type": ""
@@ -257,7 +257,7 @@
                     "file": "ucr-plugin-rtc-3.674599.zip",
                     "notes": [],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning",
                     "SORT_VERSION": "0000000300674599",
                     "type": ""
@@ -271,7 +271,7 @@
                         "Fix for SSL communication when using self signed certificates"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning",
                     "SORT_VERSION": "0000000300785496",
                     "type": ""
@@ -285,7 +285,7 @@
                         "Fix for SSL communication when using self signed certificates"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning",
                     "SORT_VERSION": "0000000300788779",
                     "type": ""
@@ -299,7 +299,7 @@
                         "Fix for SSL communication when using self signed certificates"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning",
                     "SORT_VERSION": "0000000300801190",
                     "type": ""
@@ -313,7 +313,7 @@
                         "Fix for SSL communication when using self signed certificates"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning",
                     "SORT_VERSION": "0000000300801427",
                     "type": ""
@@ -327,7 +327,7 @@
                         "Fix for SSL communication when using self signed certificates"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "IBM Rational Team Concert integrates task tracking, source control, and agile planning",
                     "SORT_VERSION": "0000000300969559",
                     "type": ""
@@ -393,7 +393,7 @@
                         "Rally Plugin for UrbanCode Release"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200690437",
                     "type": ""
@@ -715,7 +715,7 @@
                         "An initial version that supports importing jobs and related information from Jenkins."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000101112892",
                     "type": ""
@@ -729,7 +729,7 @@
                         "Support for parameterized jobs has been added."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000201124702",
                     "type": ""
@@ -797,7 +797,7 @@
                         "         Compatible with IBM UrbanCode Release 6.1.1.5."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000101079811",
                     "type": ""
@@ -811,7 +811,7 @@
                         "Provide a new HTTP Timeout field to allow timeout to be set on requests made to UCR and UCD"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000201106038",
                     "type": ""
@@ -825,7 +825,7 @@
                         "Support property file encryption."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000301145832",
                     "type": ""
@@ -891,7 +891,7 @@
                         "Urbancode Release integration."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "HP ALM is a set of web-based software lifecycle management tools. It offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.",
                     "SORT_VERSION": "0000000100782317",
                     "type": ""
@@ -905,7 +905,7 @@
                         "Urbancode Release integration."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "HP ALM is a set of web-based software lifecycle management tools. It offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.",
                     "SORT_VERSION": "0000000100810058",
                     "type": ""
@@ -919,7 +919,7 @@
                         "Urbancode Release integration."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "HP ALM is a set of web-based software lifecycle management tools. It offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.",
                     "SORT_VERSION": "0000000100827219",
                     "type": ""
@@ -933,7 +933,7 @@
                         "Fixed APAR 155582 Enables option to trust all ssl certificates."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "HP ALM is a set of web-based software lifecycle management tools. It offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.",
                     "SORT_VERSION": "0000000300927684",
                     "type": ""
@@ -948,7 +948,7 @@
                         "Added support for automatically mapping HP ALM Projects to UCR Applications via name."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "HP ALM is a set of web-based software lifecycle management tools. It offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.",
                     "SORT_VERSION": "0000000400931916",
                     "type": ""
@@ -962,7 +962,7 @@
                         "Fixed a NULL pointer error when mapping requirement statuses."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "HP ALM is a set of web-based software lifecycle management tools. It offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.",
                     "SORT_VERSION": "0000000500942932",
                     "type": ""
@@ -1024,7 +1024,7 @@
                         "    - Release Applications and JIRA Projects with the same name will be automatically mapped."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000100834579",
                     "type": ""
@@ -1038,7 +1038,7 @@
                         "Support property file encryption."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200869688",
                     "type": ""
@@ -1053,7 +1053,7 @@
                         "Mitigate NullPointerException for non existant JIRA Priority."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000500927256",
                     "type": ""
@@ -1067,7 +1067,7 @@
                         "Added proxy support."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000600932936",
                     "type": ""
@@ -1084,7 +1084,7 @@
                         "- In the Manual Mapping selection boxes, to differentiate from Project or conflicting Component names, Components are named using the following syntax: `Project: Component`."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000700953688",
                     "type": ""
@@ -1099,7 +1099,7 @@
                         "Resolved an error occurring when the mapped JIRA Release did not have a valid Release Date."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000800953913",
                     "type": ""
@@ -1113,7 +1113,7 @@
                         "Added the ability to import Jira epics as UCR Initiatives.  Child Jira tickets will be imported and associated to the proper initiative."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000900978511",
                     "type": ""
@@ -1127,7 +1127,7 @@
                         "Enhancements to Epics as Initiatives"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001000983756",
                     "type": ""
@@ -1141,7 +1141,7 @@
                         "Now imports Jira Releases as UCR Releases"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001100991598",
                     "type": ""
@@ -1155,7 +1155,7 @@
                         "Custom Issue Types are now imported as initiatives, and this uses custom issue links to associate changes."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001201012976",
                     "type": ""
@@ -1169,7 +1169,7 @@
                         "Custom Issue Types bug fixes; Now can exclude Jira Issue Types from being imported"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001401035074",
                     "type": ""
@@ -1183,7 +1183,7 @@
                         "APAR PH17367 UCR application mapping select box to be scripted."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001501036688",
                     "type": ""
@@ -1197,7 +1197,7 @@
                         "Adding \"Jira Project IDs\" field under Application Mapping for considering specified Projects for issue search."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001601065284",
                     "type": ""
@@ -1211,7 +1211,7 @@
                         "Fix the Out of Memory issue"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001701070184",
                     "type": ""
@@ -1225,7 +1225,7 @@
                         "Change Jira status to Status types"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001801079383",
                     "type": ""
@@ -1291,7 +1291,7 @@
                         "         Added a customizable full sync interval in minutes to define when items will be imported."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000401036957",
                     "type": ""
@@ -1345,7 +1345,7 @@
                         "First Demo version of the Slack Plugin for UCR with the following plugin steps: Failure Listener and Notification Task"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000101027116",
                     "type": ""
@@ -1359,7 +1359,7 @@
                         "RFE 135552 - Added proxy support."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000201033741",
                     "type": ""
@@ -1373,7 +1373,7 @@
                         "RFE 135552 - Added proxy support."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000201070743",
                     "type": ""
@@ -1387,7 +1387,7 @@
                         "Create a channel with the deployment name, and invite users to join this channel."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000301105509",
                     "type": ""
@@ -1451,7 +1451,7 @@
                     "file": "ucr-plugin-tfs-2.836018.zip",
                     "notes": [],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200836018",
                     "type": ""
@@ -1465,7 +1465,7 @@
                         "Support property file encryption."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000300882972",
                     "type": ""
@@ -1477,7 +1477,7 @@
                     "file": "ucr-plugin-tfs-5.953540.zip",
                     "notes": [],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000500953540",
                     "type": ""
@@ -1539,7 +1539,7 @@
                         "         only compares whats changed since last execution."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000101015971",
                     "type": ""
@@ -1553,7 +1553,7 @@
                         "APAR PH14403 - Spaces in object names causing failures."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000201028099",
                     "type": ""
@@ -1567,7 +1567,7 @@
                         "APAR PH17727 - Missing PercentCodec class in Check Authentication task."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000301034152",
                     "type": ""
@@ -1581,7 +1581,7 @@
                         "APAR PH18118 - Missing PercentCodec class in Execute Task."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000401034706",
                     "type": ""
@@ -1595,7 +1595,7 @@
                         "APAR PH18118 - Re-release fix for Missing PercentCodec with updated classpath."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000501035313",
                     "type": ""
@@ -1609,7 +1609,7 @@
                         "APAR PH20204 - Archive completed deployment tasks in XL Deploy."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000601039808",
                     "type": ""
@@ -1672,7 +1672,7 @@
                     "file": "ibm-ucrelease-pipeline-1.919098.hpi",
                     "notes": [],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000100919098"
                 }
@@ -1705,7 +1705,7 @@
                         "            This will make applications, environments, deployment information consumable for web-based dashboard reporting tool."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001000907592",
                     "type": "Integration"
@@ -1740,7 +1740,7 @@
                         "          ability to request UrbanCode Deploy application processes."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200801577",
                     "type": "Integration"
@@ -1754,7 +1754,7 @@
                         "Support property file encryption."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000400869522",
                     "type": "Integration"
@@ -1788,7 +1788,7 @@
                         "          This will make teams and deployments consumable for the mobile dashboard."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200801192",
                     "type": "Integration"
@@ -1802,7 +1802,7 @@
                         "Bug fixes.  Improved retrieval of timing on deployments.  Best used with UCR 6.2.2.1 and later."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000900956642",
                     "type": "Integration"
@@ -1837,7 +1837,7 @@
                         "         Compatible with IBM UrbanCode Release 6.1.1.5."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000100670291",
                     "type": ""
@@ -1853,7 +1853,7 @@
                         "         Compatible with IBM UrbanCode Release 6.1.1.5."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000100674622",
                     "type": ""
@@ -1869,7 +1869,7 @@
                         "         Compatible with IBM UrbanCode Release 6.1.1.5."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000100692839",
                     "type": ""
@@ -1885,7 +1885,7 @@
                         "         Compatible with IBM UrbanCode Release 6.1.1.5."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000100757442",
                     "type": ""
@@ -1901,7 +1901,7 @@
                         "         Compatible with IBM UrbanCode Release 6.1.1.5."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000100782064",
                     "type": ""
@@ -1917,7 +1917,7 @@
                         "         Compatible with IBM UrbanCode Release 6.1.1.5."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000100933451",
                     "type": ""
@@ -1933,7 +1933,7 @@
                         "         Compatible with IBM UrbanCode Release 6.1.1.5."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000100946637",
                     "type": ""
@@ -1949,7 +1949,7 @@
                         "         Compatible with IBM UrbanCode Release 6.1.1.5."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000101053195",
                     "type": ""
@@ -1965,7 +1965,7 @@
                         "         Compatible with IBM UrbanCode Release 6.1.1.5."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010114158200ifix01",
                     "type": ""
@@ -1979,7 +1979,7 @@
                         "Logs enhancement and Import of snapshots in batches for integration."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000901158051",
                     "type": ""
@@ -2012,7 +2012,7 @@
                         "Initial release. Installing this plugin will give you access to the steps listed below."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000101078299",
                     "type": ""
@@ -2043,7 +2043,7 @@
                     "file": "ucr-plugin-servicenow-1.958213.zip",
                     "notes": [],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000100958213",
                     "type": ""
@@ -2057,7 +2057,7 @@
                         "Initial Public Release"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000600958218",
                     "type": ""
@@ -2071,7 +2071,7 @@
                         "Initial Public Release"
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000701007909",
                     "type": ""
@@ -2102,7 +2102,7 @@
                     "file": "cloud-sync-1.0.792001.zip.001",
                     "notes": [],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "NOT PLUGIN FILE",
                     "SORT_VERSION": ""
                 },
@@ -2116,7 +2116,7 @@
                         "\t\t  This will make teams and deployments consumable for the mobile dashboard."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000100755836",
                     "type": "Artifact"
@@ -2131,7 +2131,7 @@
                         "\t\t  This will make teams and deployments consumable for the mobile dashboard."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000100755925",
                     "type": "Artifact"
@@ -2146,7 +2146,7 @@
                         "\t\t  This will make teams and deployments consumable for the mobile dashboard."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000100759332",
                     "type": "Artifact"
@@ -2161,7 +2161,7 @@
                         "\t\t  This will make teams and deployments consumable for the mobile dashboard."
                     ],
                     "supports": "",
-                    "publish": true,
+                    "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000100767382",
                     "type": "Artifact"
