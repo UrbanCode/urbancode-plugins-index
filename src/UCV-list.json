@@ -249,7 +249,7 @@
                         "<b>Added WorkflowId:</b> Under the hidden properties section of add integration page for HCL Appscan Enterprise plugin a Workflow ID field is added. This field is optional and can be used to provide HCL Accelerate WorkflowId - the ID of a Value Stream (VSM )to which HCL Appscan Enterprise vulnerability data is associated.",
                         "<b>Preventing Installation on Older Versions:</b> This version of HCL Appscan Enterprise Plugin can only be installed on HCL Accelerate version  3.0.0 and later"
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000020000000000000041",
@@ -264,7 +264,7 @@
                         "Resolved certificate issue",
                         "Added logic to support ASE version to 10.0.0"
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000020000000000000047",
@@ -278,7 +278,7 @@
                     "notes": [
                         "<b>Feature Enhancement:</b> sync new scan from lastSyncDate for any application"
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000020000000000000048",
@@ -292,7 +292,7 @@
                     "notes": [
                         "<b>Bug Fix:</b> In earlier version of plugin data into HCL AppScan Enterprise Issues metrics was not showing in VSM."
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000020000000000000051",
@@ -454,7 +454,7 @@
                         "<b>Preventing Installation on Older Versions:</b> This version of ASoC Plugin can only be installed on HCL Accelerate version  3.0.0 and later",
                         "<b>Making scheduled event optional:</b> The scheduled event - <b>Sync ASoC Data</b> has been made optional from this version onwards. To enable the scheduled event please check the box in integration properties with label <b>Run as a Scheduled Event</b>."
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000030000000000000012",
@@ -468,7 +468,7 @@
                     "notes": [
                         "Segregated Static scan and Dynamic scan data"
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000030000000000000016",
@@ -482,7 +482,7 @@
                     "notes": [
                         "The Older Version of ASoC Plugin was not reporting critical issues"
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000030000000000000019",
@@ -496,7 +496,7 @@
                     "notes": [
                         "The Older Version of ASoC Plugin was not reporting critical issues"
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000030000000000000019",
@@ -669,7 +669,7 @@
                         "Minor Enhancements",
                         "Pipelines issue fixed"
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000040000000000000037",
@@ -683,7 +683,7 @@
                     "notes": [
                         "Minor Enhancements"
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000040000000000000038",
@@ -697,7 +697,7 @@
                     "notes": [
                         "Minor Enhancements"
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000040000000000000038",
@@ -711,7 +711,7 @@
                     "notes": [
                         "<b>Minor Bug Fix</b>"
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000040000000000000040",
@@ -844,7 +844,7 @@
                         "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
                         "<b>Added Category:</b>SCM is the category of bitbucket cloud plugin ."
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000000000026",
@@ -858,7 +858,7 @@
                     "notes": [
                         "<b>Initial Sync Date Field Added: </b>Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync."
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000000000029",
@@ -1018,7 +1018,7 @@
                         "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
                         "<b>Added Category:</b>SCM is the category of bitbucket server plugin ."
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000100000023",
@@ -1038,7 +1038,7 @@
                         "<b>Error Handling: </b> No default branch is defined - error is shown in warning logs if there is no default branch for a repository.",
                         "<b>Performance Improvement: </b> Plugin functionality is improved, previous version of the plugin was making more rest API calls to the BitBucket Server."
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000100000024",
@@ -1052,7 +1052,7 @@
                     "notes": [
                         "<b>Added Regular Expression for Additional branch</b>"
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000100000026",
@@ -1250,7 +1250,7 @@
                         "<b>Added Category</b>:Build and Deploy are the plugin category of Circleci.",
                         "<b>Initial Sync Date Field Added: </b>Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync."
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000000000024",
@@ -1600,7 +1600,7 @@
                     "notes": [
                         "<b>Added WorkflowId:</b> Under the hidden properties section of add integration page for the plugin a Workflow ID field is added. This field is optional and can be used to provide WorkflowId - the ID of a Value Stream (VSM )to which the vulnerability data is associated."
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000000000019",
@@ -1614,7 +1614,7 @@
                     "notes": [
                         "<b>Added WorkflowId:</b> Under the hidden properties section of add integration page for the plugin a Workflow ID field is added. This field is optional and can be used to provide WorkflowId - the ID of a Value Stream (VSM )to which the vulnerability data is associated."
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000000000019",
@@ -1836,7 +1836,7 @@
                         "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
                         "<b>Meta data plugin updates for VSM onboarding:</b>In index.js file added <b>categories</b> and added <b>idRegExp</b> fields"
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000300000034",
@@ -1848,7 +1848,7 @@
                     "date": "2022.10.26 06:38",
                     "file": "ucv-ext-github:1.3.35.tar.7z.001",
                     "notes": [],
-                    "supports": "",
+                    "supports": "4.0.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000300000035",
@@ -1862,7 +1862,7 @@
                     "notes": [
                         "<b>Bug fix:</b> Previous version was failing for upload commit of large size."
                     ],
-                    "supports": "",
+                    "supports": "2.6.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000300000046",
@@ -1876,7 +1876,7 @@
                     "notes": [
                         "<b>Feature:</b> Syncing Yaml files from different repositories"
                     ],
-                    "supports": "",
+                    "supports": "2.6.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000400000005",
@@ -1890,7 +1890,7 @@
                     "notes": [
                         "Wild Card feature for additional branches field in GitHub Plugin"
                     ],
-                    "supports": "",
+                    "supports": "2.6.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000400000007",
@@ -1904,7 +1904,7 @@
                     "notes": [
                         "<b>Enhancement:</b> This enhancement modifies the plugins synchronization behavior following a failure. Previously, the plugin would resume syncing from the date of the last successful synchronization. Now, it has been updated to continue syncing commits, pull-requests, and issues from the point where it last synced before the failure. This change ensures more accurate and efficient data synchronization by reducing the likelihood of missing or duplicating data in cases where the plugin had partially synced before encountering an issue."
                     ],
-                    "supports": "",
+                    "supports": "2.6.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000400000016",
@@ -2149,7 +2149,7 @@
                         "<b>Resolved Previous Version Issue:</b> Previous Version of plugin had some defect realted to Project Names field. The plugin was syncing data only for those projects which were owned by the user. Now the plugin syncs data for the projects in which user is a member at any level.",
                         "<b>Added Category:</b> ALM | SCM | Build | Deploy are the categories of GitLab plugin."
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000020000000100000058",
@@ -2163,7 +2163,7 @@
                     "notes": [
                         "<b>Resolved 502 Bad Gateway Error:</b> Previous version of plugin was giving a 502 Bad Gateway error for GitLab Server."
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000020000000100000062",
@@ -2177,7 +2177,7 @@
                     "notes": [
                         "<b>Minor Bug Fix</b>: Previous version of plugin was giving <i>Cannot read property status of null</i> error."
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000020000000100000063",
@@ -2192,7 +2192,7 @@
                         "<b>Fix for Project Name Field</b>: Previous version of Gitlab plugin was not able to import data for some projects.",
                         "<b>Project IDs Field Added</b>: To import the source data you need to provide a list of GitLab Project IDs. Please note that you must provide at least one of either Project Names or Project IDs and can provide both if needed."
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000020000000200000066",
@@ -2206,7 +2206,7 @@
                     "notes": [
                         "<b>Minor bug fix:</b> Dynamically getting type of Issue."
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000020000000200000068",
@@ -2359,7 +2359,7 @@
                     "notes": [
                         "Remove required UAK in favor of dynamically generated UAK"
                     ],
-                    "supports": "",
+                    "supports": "4.0.4",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000020000000000000001",
@@ -2419,7 +2419,7 @@
                     "notes": [
                         "Public release."
                     ],
-                    "supports": "",
+                    "supports": "4.0.9",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000000000001",
@@ -2434,7 +2434,7 @@
                         "Fix integration name not showing in pipeline stage task selection",
                         "Fix external build link not appearing in deployment plan task"
                     ],
-                    "supports": "",
+                    "supports": "4.0.9",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000000000004",
@@ -2450,7 +2450,7 @@
                         "Retry execution and process uploads",
                         "Add revision to builds for proper dot linking"
                     ],
-                    "supports": "",
+                    "supports": "4.0.9",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000000000009",
@@ -2464,7 +2464,7 @@
                     "notes": [
                         "Default initial sync to 30 days"
                     ],
-                    "supports": "",
+                    "supports": "4.0.9",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000100000001",
@@ -2479,7 +2479,7 @@
                         "Added support for process parameters coming from Git Parameter and Active Choices plugins",
                         "Warning logs added for skipping unsupported process parameters"
                     ],
-                    "supports": "",
+                    "supports": "4.0.9",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000100000002",
@@ -2493,7 +2493,7 @@
                     "notes": [
                         "Fix for Build-Revision mismatch in Jenkins Integration"
                     ],
-                    "supports": "",
+                    "supports": "4.0.9",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000100000003",
@@ -2508,7 +2508,7 @@
                         "Fix xpath job filter",
                         "Use correct username on task completion"
                     ],
-                    "supports": "",
+                    "supports": "4.0.9",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000100000005",
@@ -2889,7 +2889,7 @@
                         "Fixed version-check bug in jira plugin",
                         "Resync functionality improved"
                     ],
-                    "supports": "",
+                    "supports": "3.1.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000020000000300000009",
@@ -2903,7 +2903,7 @@
                     "notes": [
                         "<b>Bug fix:</b>First automation task was failing and also updated integration configuration property description."
                     ],
-                    "supports": "",
+                    "supports": "3.1.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000020000000300000010",
@@ -2917,7 +2917,7 @@
                     "notes": [
                         "Added request timeout option"
                     ],
-                    "supports": "",
+                    "supports": "3.1.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000020000000300000012",
@@ -2931,7 +2931,7 @@
                     "notes": [
                         "<b>Bug fix:</b> Added Proxyserver changes"
                     ],
-                    "supports": "",
+                    "supports": "3.1.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000020000000300000017",
@@ -2945,7 +2945,7 @@
                     "notes": [
                         "<b>Bug fix:</b> Added Proxyserver changes"
                     ],
-                    "supports": "",
+                    "supports": "3.1.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000020000000300000017",
@@ -3524,7 +3524,7 @@
                         "<b>Preventing Installation on Older Versions:</b> This version of HCL Onetest Plugin can only be installed on HCL Accelerate version  3.0.0 and later.",
                         "<b>Added Category:</b>Quality is the category of HCL Onetest plugin."
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000000000034",
@@ -3538,7 +3538,7 @@
                     "notes": [
                         "<b>Rebranding:</b> Name of the plugin has been changed from HCL One Test to HCL DevOps Test."
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000000000037",
@@ -3629,7 +3629,7 @@
                         "<b>Preventing Installation on Older Versions:</b> This version of HCL OneTest Server Plugin can only be installed on HCL Accelerate version  3.0.0 and later",
                         "<b>Added Category</b>:Quality is the plugin category of HCL OneTest Server."
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000000000017",
@@ -3643,7 +3643,7 @@
                     "notes": [
                         "<b>Minor bug fix:</b>Fixed bug related to test results URL generated in plugin."
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000000000026",
@@ -3657,7 +3657,7 @@
                     "notes": [
                         "<b>Rebranding</b>: Name of the plugin is changed from HCL OneTest Server to HCL DevOps Test Server."
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000000000027",
@@ -3671,7 +3671,7 @@
                     "notes": [
                         "<b>Rebranding</b>: Name of the plugin is changed from HCL OneTest Server to HCL DevOps Test Server."
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000000000027",
@@ -3815,7 +3815,7 @@
                         "<b>Added Category</b>:ALM is the plugin category of Rally.",
                         "<b>Initial Sync Date Field Added: </b>Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync."
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000000000043",
@@ -3965,7 +3965,7 @@
                     "notes": [
                         "Initial release syncs SAP Normal changes with Jira issues"
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000000000001",
@@ -4092,7 +4092,7 @@
                     "notes": [
                         "<b>Minor bug fix</b>: Fixed bug related to proxy server change and related to automation task execution."
                     ],
-                    "supports": "",
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000000000042",
@@ -4107,7 +4107,7 @@
                         "Import incidents",
                         "Add Incident creation automation task"
                     ],
-                    "supports": "",
+                    "supports": "5.0.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000100000001",
@@ -4124,7 +4124,7 @@
                         "<b>Feature enhancement:</b> In automation task enabled to create and update change task.",
                         "<b>Bug fix:</b>  Fixed issue related to syncing of change and problem in servicenow schedule event."
                     ],
-                    "supports": "",
+                    "supports": "5.0.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000100000002",
@@ -4138,7 +4138,7 @@
                     "notes": [
                         "<b>Minor bug fix:</b> Earlier plugin was unable to resync when incident is resolved"
                     ],
-                    "supports": "",
+                    "supports": "5.0.2",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000100000003",
@@ -4709,7 +4709,7 @@
                     "notes": [
                         "Using version properties for mapping build.url parameter"
                     ],
-                    "supports": "",
+                    "supports": "4.0.13",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000040000000000000002",
@@ -4723,7 +4723,7 @@
                     "notes": [
                         "Started uploading statuses to Snapshot and Component versions"
                     ],
-                    "supports": "",
+                    "supports": "4.0.13",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000040000000000000003",
@@ -4737,7 +4737,7 @@
                     "notes": [
                         "<b>Rebranding</b>: Name of the plugin is changed from UrbanCode Deploy to IBM DevOps Deploy. "
                     ],
-                    "supports": "",
+                    "supports": "4.0.13",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000040000000000000004",
@@ -5004,7 +5004,7 @@
                     "notes": [
                         "Initial Release"
                     ],
-                    "supports": "",
+                    "supports": "4.0.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000000000000000000005",
@@ -5018,7 +5018,7 @@
                     "notes": [
                         "Started using timeSpan for Initial Sync date."
                     ],
-                    "supports": "",
+                    "supports": "4.0.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000000000000000000006",
@@ -5250,7 +5250,7 @@
                         "Support deletion of generated demo data",
                         "Fix queries for plugins"
                     ],
-                    "supports": "",
+                    "supports": "4.0.5",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000000000039",
@@ -5434,7 +5434,7 @@
                     "notes": [
                         "Update business value of associated Jira items."
                     ],
-                    "supports": "",
+                    "supports": "5.0.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000000000001",
@@ -5570,7 +5570,7 @@
                     "notes": [
                         "Renamed Plugin"
                     ],
-                    "supports": "",
+                    "supports": "4.0.5",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000000000047",
@@ -5603,7 +5603,7 @@
                     "notes": [
                         "Sync incidents."
                     ],
-                    "supports": "",
+                    "supports": "5.0.0",
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "000000010000000000000001",

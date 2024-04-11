@@ -319,6 +319,7 @@ def get_velocity_file_info(file, file_info, pluginnamefolder, all_ucv_index_info
                 file_info[docutil.RELEASE_NOTES]=item[docutil.RELEASE_NOTES]
                 file_info[SORT_VERSION]=item[SORT_VERSION]
                 file_info[docutil.RELEASE_IMAGE]=item[docutil.RELEASE_IMAGE]
+                file_info[docutil.RELEASE_SUPPORTS]=item.get(docutil.RELEASE_SUPPORTS, "")
                 logger1.info(f"file_info={file_info}")
                 return
 
@@ -464,7 +465,7 @@ def get_ucv_index_infos():
             file_info[docutil.RELEASE_DATE] = datetime_obj.strftime("%Y.%m.%d %H:%M")
             file_info[docutil.RELEASE_SEMVER], file_info[docutil.RELEASE_VERSION], file_info[SORT_VERSION]=get_semver_and_version(file.get("semver"))
             file_info[docutil.RELEASE_IMAGE] = file.get(docutil.RELEASE_IMAGE)
-            file_info[docutil.RELEASE_SUPPORTS] = file.get(docutil.RELEASE_SUPPORTS)
+            file_info[docutil.RELEASE_SUPPORTS] = file.get(docutil.RELEASE_SUPPORTS, "")
             files.append(file_info)
 
         oneplugin[docutil.INFO_NAME] = infojson.get("name")
