@@ -34,6 +34,7 @@ RELEASE_VERSION="version"
 RELEASE_SEMVER="semver" 
 RELEASE_DATE="date"  
 RELEASE_FILE="file"
+RELEASE_IMAGE="image"
 RELEASE_NOTES="notes"
 RELEASE_SUPPORTS="supports"
 
@@ -52,7 +53,7 @@ def get_release_template():
         RELEASE_FILE:"",
         RELEASE_NOTES:[],
         RELEASE_SUPPORTS:"",
-        PUBLISH: True
+        PUBLISH: "True"
     }
 
 # Author template field names

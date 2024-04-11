@@ -9,6 +9,7 @@ import pathlib
 import datetime
 import py7zr
 import multivolumefile
+from datetime import datetime
 
 #sys.path.append('/Users/ozzy/RnD/Source/PLUGINS/urbancode-plugins-index/src/helper')
 from helper import uc_docs_utilities as docutil 
@@ -153,7 +154,7 @@ def get_semver_and_version(semver):
         if (not version): version = "0"
         # there
         if (not int(version)): version = "0"
-    logger1.debug (f"infoxml.version={version}")
+    # logger1.debug (f"infoxml.version={version}")
 
     return semver, version, sort_version
 
@@ -289,14 +290,50 @@ def get_release_date(zf, filename):
     logger1.debug(f"zipfileinfo={zipfileinfo}")
     return datetime.datetime(*zipfileinfo)
 
-def get_info_from_zip_file(plugin_path, file, file_info, ucproduct):
+def get_velocity_file_info(file, file_info, pluginnamefolder, all_ucv_index_infos):
+    # logger1.debug(f"velocity file={file} - file_info={file_info}")
+    # fix the name "pluginnamefolder-" to "pluginnamefolder:"
+    if f"{pluginnamefolder}-" in file:
+        # replace the above with different text
+        temp = file.replace(f"{pluginnamefolder}-", f"{pluginnamefolder}:")
+        file = temp
+        # logger1.info(f"updated file = {file}")
+    if f"{pluginnamefolder}." in file:
+        # replace the above with different text
+        temp = file.replace(f"{pluginnamefolder}.", f"{pluginnamefolder}:")
+        file = temp
+        # logger1.info(f"updated file = {file}")
+
+    splitted = file.split(".tar")
+    logger1.debug(f"velocity splitted={splitted}")
+
+    for plugin in all_ucv_index_infos:
+       # logger1.debug(f"plugin={plugin}")
+        for item in plugin["PLUGIN_FILES"]:
+           # logger1.debug(f"item={item}")
+            if splitted[0] in item["image"]:
+                logger1.info(f"found={splitted[0]}")
+                file_info[docutil.RELEASE_VERSION]=item[docutil.RELEASE_VERSION]
+                file_info[docutil.RELEASE_SEMVER]=item[docutil.RELEASE_SEMVER]
+                file_info[docutil.RELEASE_DATE]=item[docutil.RELEASE_DATE]
+                file_info[docutil.RELEASE_NOTES]=item[docutil.RELEASE_NOTES]
+                file_info[SORT_VERSION]=item[SORT_VERSION]
+                file_info[docutil.RELEASE_IMAGE]=item[docutil.RELEASE_IMAGE]
+                logger1.info(f"file_info={file_info}")
+                return
+
+def get_info_from_zip_file(plugin_path, file, file_info, ucproduct, pluginnamefolder, all_ucv_index_infos = []):
     file_with_path = f"{plugin_path}/{file}"
     logger1.info(f"file_with_path={file_with_path}")
     
     file_info[docutil.RELEASE_FILE]=file
 
-    if ucproduct == "UCV": return
-
+    if ucproduct == "UCV": 
+        # search for file pattern in all_ucv_index_infos and add data to file_info
+        get_velocity_file_info(file, file_info, pluginnamefolder, all_ucv_index_infos)
+        logger1.info(f"file_info after get velocity file info={file_info}")
+        return
+    
     ## special treatment for sample application
     if ("CreateCollectiveSampleApp.zip" in file_with_path):
         logger1.error("CreateCollectiveSample.zip handling needs to be implemented")
@@ -307,6 +344,8 @@ def get_info_from_zip_file(plugin_path, file, file_info, ucproduct):
     # TODO: implement handling of 7ziped files
         
     if (".7z" in file_with_path):
+       # logger1.error(f"ucproduct={ucproduct} - filewithpath={file_with_path} - plugin_path={plugin_path} - file={file} - file_info={file_info} - pluginnamefolder={pluginnamefolder}")
+ 
         # need to extract using 7zip and then use new file name to get info...
         # file_with_path = extracted file with new path
         config = ucutil.get_config()
@@ -322,7 +361,7 @@ def get_info_from_zip_file(plugin_path, file, file_info, ucproduct):
 
         # Run 7zip command to extract multi-file 7zip archive
         subprocess.run(['7z', 'x', file_with_path, f'-o{config[ucutil.ZIP_TEMP_DIR]}'])
-        os.exit(0)
+
         return 
 
     # when not a zipfile return with info
@@ -354,8 +393,8 @@ def get_all_doc_files(doc_path):
     
     return listofdocfiles
 
-def get_list_and_info_of_plugin_files(plugin_path, ucproduct):
-    logger1.debug(f"{plugin_path}")
+def get_list_and_info_of_plugin_files(plugin_path, ucproduct, pluginnamefolder, all_ucv_index_infos = [] ):
+    logger1.debug(f"{plugin_path} - name={pluginnamefolder} - product={ucproduct}")
     files=[]
     for file in get_files_with_dirs(plugin_path): #get_files(plugin_path):
         # if zipfile extension is 002 or higher than it is zipped with 7zip and process only 001 
@@ -368,7 +407,8 @@ def get_list_and_info_of_plugin_files(plugin_path, ucproduct):
         if (file.startswith("._")): continue
 
         file_info = get_extended_release_template()
-        get_info_from_zip_file(plugin_path,file, file_info, ucproduct)
+        get_info_from_zip_file(plugin_path,file, file_info, ucproduct, pluginnamefolder , all_ucv_index_infos)
+        logger1.info(f"file_info={file_info}")
         # logger1.debug(f"temp_info={temp_info}")
         # for key, value in temp_info.items():
         #     file_info[key] = value
@@ -403,11 +443,47 @@ def get_plugin_description(pluginname, product_readme):
     # remove "\n at the beginning and the end"
     return plugin_description.strip()
 
+def get_ucv_index_infos():
+    all_ucv_index_infos=[]
+    config = ucutil.get_config()
+    ucv_list_of_plugins = f"{config[ucutil.UCV_PLUGIN_INDEX_ROOT]}/{config[ucutil.UCV_PLUGIN_INDEX_PLUGINS_FOLDER]}"
+    ucv_plugin_dir_names=get_plugin_dir_names(ucv_list_of_plugins)
+
+    for ucv_plugin in ucv_plugin_dir_names:
+        oneplugin=docutil.get_info_template()
+        with open (f"{ucv_list_of_plugins}/{ucv_plugin}/info.json", "r") as f:
+            infojson = json.loads(f.read())
+        with open (f"{ucv_list_of_plugins}/{ucv_plugin}/releases.json", "r") as f:
+            releasesjson = json.loads(f.read())
+        files=[]
+        for file in releasesjson:
+            file_info = get_extended_release_template()
+            file_info[docutil.RELEASE_NOTES]=file.get("notes")
+            datetime_obj=datetime.fromisoformat(file.get("date")[:-1])
+            # logger1.debug(f"datetime_obj={datetime_obj}")
+            file_info[docutil.RELEASE_DATE] = datetime_obj.strftime("%Y.%m.%d %H:%M")
+            file_info[docutil.RELEASE_SEMVER], file_info[docutil.RELEASE_VERSION], file_info[SORT_VERSION]=get_semver_and_version(file.get("semver"))
+            file_info[docutil.RELEASE_IMAGE] = file.get(docutil.RELEASE_IMAGE)
+            files.append(file_info)
+
+        oneplugin[docutil.INFO_NAME] = infojson.get("name")
+        oneplugin[docutil.INFO_DESCRIPTION] = infojson.get("description")
+        oneplugin[docutil.INFO_PLUGIN_FOLDER] = ucv_plugin
+        oneplugin[NEW_FOLDER_NAME]=str(ucv_plugin).lower()
+        oneplugin[PLUGIN_FILES] = files
+        all_ucv_index_infos.append(oneplugin)
+    # logger1.info(f"all ucv index infos={all_ucv_index_infos}")
+    with open(f"UCV-allindex.json", "w") as f:
+        json.dump(all_ucv_index_infos,f, indent=4)
+    return all_ucv_index_infos
+
 def build_list(docs, files, ucproduct):
     listofplugins=[]
 
     all_plugin_doc_dir_names=get_plugin_dir_names(docs)
     all_plugin_files_dir_name=get_plugin_dir_names(files)
+    # all_ucv_index_infos=[]
+    all_ucv_index_infos = get_ucv_index_infos() if ucproduct == "UCV" else []
     product_readme=get_product_readme(f"{docs}")
     # logger1.info(f"product readme={product_readme}")
     # iterate first over doc folders
@@ -421,11 +497,12 @@ def build_list(docs, files, ucproduct):
         oneplugin[NEW_FOLDER_NAME]=str(docitem).lower()
         # if username.upper() in (name.upper() for name in USERNAMES)
         if (docitem.lower() in (name.lower() for name in all_plugin_files_dir_name)):
+            logger1.info(f"docitem={docitem} found in all plugin files dir name")
             # oneplugin[docutil.INFO_NAME] = docitem
             oneplugin[docutil.INFO_PLUGIN_FOLDER] = docitem
-            oneplugin[PLUGIN_FILES]=get_list_and_info_of_plugin_files(f"{files}/{docitem}", ucproduct)
+            oneplugin[PLUGIN_FILES]=get_list_and_info_of_plugin_files(f"{files}/{docitem}", ucproduct, docitem , all_ucv_index_infos )
         else:
-            
+            logger1.info(f"docitem={docitem} NOT found in all plugin files dir name")
             oneplugin[docutil.INFO_SOURCE_PROJECT] = docutil.get_source_repository_from_file(f"{docs}/{docitem}/{README}")
             oneplugin[docutil.INFO_PLUGIN_SPECIFICATION] = get_plugin_specification(f"{docs}/{docitem}", ucproduct)
             logger1.debug(f"sourcepro={oneplugin[docutil.INFO_SOURCE_PROJECT]}")
@@ -434,6 +511,9 @@ def build_list(docs, files, ucproduct):
         
         oneplugin[docutil.INFO_DOC_FILES] = get_all_doc_files(f"{docs}/{docitem}")
         logger1.debug(f"oneplugin={oneplugin}")
+
+
+
         listofplugins.append(oneplugin)
 
     for plugitem in all_plugin_files_dir_name:
@@ -441,7 +521,7 @@ def build_list(docs, files, ucproduct):
             oneplugin=docutil.get_info_template()
             oneplugin[docutil.INFO_NAME] = DOCS_NOT_FOUND
             oneplugin[docutil.INFO_PLUGIN_FOLDER] = plugitem
-            oneplugin[PLUGIN_FILES]=get_list_and_info_of_plugin_files(f"{files}/{plugitem}", ucproduct)
+            oneplugin[PLUGIN_FILES]=get_list_and_info_of_plugin_files(f"{files}/{plugitem}",ucproduct, plugitem.lower(),all_ucv_index_infos )
             listofplugins.append(oneplugin)        
     return listofplugins
 
@@ -478,7 +558,7 @@ def main():
 
 #    adict = get_workfile(config)
  
-    for product in ["UCD", "UCR"]:                                  # ["UCB", "UCD", "UCR"]: #  ["UCV"] ["UCB"]
+    for product in ["UCV"]:                                  # ["UCB", "UCD", "UCR"]: #  ["UCV"] ["UCB"]
         with open(f"{product}-list.json", "w") as f:
             adict = get_workfile(config, product)
             json.dump(adict,f, indent=4)

@@ -22,6 +22,9 @@ export UCB_PLUGIN_FILES_REPO="https://github.com/UrbanCode/IBM-UCB-PLUGINS.git"
 
 export UCX_PLUGIN_FILES_FOLDER="files"
 
+export UCV_PLUGIN_INDEX_ROOT="/Volumes/T7/PLUGINS/velocity-plugins-index"
+export UCV_PLUGIN_INDEX_PLUGINS_FOLDER="plugins"
+
 export ZIP_TEMP_DIR="/Users/ozzy/RnD/Source/PLUGINS/TEMP"
 # target repo
 
