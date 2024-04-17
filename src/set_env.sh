@@ -30,4 +30,4 @@ export ZIP_TEMP_DIR="/Users/ozzy/RnD/Source/PLUGINS/TEMP"
 
 export PLUGIN_INDEX_REPO="https://github.com/UrbanCode/urbancode-plugins-index.git"
 export PLUGIN_INDEX_ROOT="/Users/ozzy/RnD/Source/PLUGINS/urbancode-plugins-index"
-export PLUGIN_IMDEX_FOLDER="plugins"
+export PLUGIN_INDEX_FOLDER="plugins"
