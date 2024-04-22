@@ -6489,6 +6489,18 @@
                     "description": "",
                     "SORT_VERSION": "0000000400000000",
                     "type": ""
+                },
+                {
+                    "version": "4",
+                    "semver": "4.1",
+                    "date": "2024.03.18 10:28",
+                    "file": "DTHub-DD-HCL-4.1.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000000400000001",
+                    "type": ""
                 }
             ],
             "docFiles": [
@@ -6545,6 +6557,18 @@
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001000000000",
+                    "type": "Automation"
+                },
+                {
+                    "version": "10",
+                    "semver": "10.1",
+                    "date": "2024.03.18 10:28",
+                    "file": "DTPerf-DD-HCL-10.1.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000001000000001",
                     "type": "Automation"
                 }
             ],
@@ -6603,6 +6627,18 @@
                     "description": "",
                     "SORT_VERSION": "0000000700000000",
                     "type": "Automation"
+                },
+                {
+                    "version": "7",
+                    "semver": "7.1",
+                    "date": "2024.03.18 10:28",
+                    "file": "DTUI-FunctionalTest-DD-HCL-7.1.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000000700000001",
+                    "type": "Automation"
                 }
             ],
             "docFiles": [
@@ -6660,6 +6696,18 @@
                     "description": "",
                     "SORT_VERSION": "0000001200000000",
                     "type": "Automation"
+                },
+                {
+                    "version": "12",
+                    "semver": "12.1",
+                    "date": "2024.03.18 10:28",
+                    "file": "DTUI-UITest-DD-HCL-12.1.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000001200000001",
+                    "type": "Automation"
                 }
             ],
             "docFiles": [
@@ -6716,6 +6764,18 @@
                     "publish": "True",
                     "description": "HCL DevOps Test Virtualization",
                     "SORT_VERSION": "0000000500000000",
+                    "type": "Automation"
+                },
+                {
+                    "version": "5",
+                    "semver": "5.1",
+                    "date": "2024.03.18 10:28",
+                    "file": "DTVirtualization-DD-HCL-5.1.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "HCL DevOps Test Virtualization",
+                    "SORT_VERSION": "0000000500000001",
                     "type": "Automation"
                 }
             ],
