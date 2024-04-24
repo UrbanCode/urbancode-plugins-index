@@ -5775,6 +5775,26 @@
                         "unix",
                         "utility"
                     ]
+                },
+                {
+                    "version": "97",
+                    "semver": "97.1167642",
+                    "date": "2024.04.24 11:30",
+                    "file": "ucd-FileUtils-97.1167642.zip",
+                    "notes": [
+                        "Updated securedata library, so that it will not fail to initialize if AES256 is unsupported."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
+                    "SORT_VERSION": "0000009701167642",
+                    "type": "automation",
+                    "categories": [
+                        "windows",
+                        "linux",
+                        "unix",
+                        "utility"
+                    ]
                 }
             ],
             "docFiles": [
@@ -16905,6 +16925,62 @@
                     "publish": "True",
                     "description": "UrbanCode Versioned File Storage client plugin for uploading and downloading artifacts.",
                     "SORT_VERSION": "0000004301139365",
+                    "type": "scm"
+                },
+                {
+                    "version": "44",
+                    "semver": "44.1142508",
+                    "date": "2022.10.07 15:20",
+                    "file": "ucd-UrbancodeVFS-44.1142508.zip",
+                    "notes": [
+                        "Updating jettison library for CVE-2022-40150 CVE-2022-40149"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "UrbanCode Versioned File Storage client plugin for uploading and downloading artifacts.",
+                    "SORT_VERSION": "0000004401142508",
+                    "type": "scm"
+                },
+                {
+                    "version": "45",
+                    "semver": "45.1150655",
+                    "date": "2023.02.01 02:43",
+                    "file": "ucd-UrbancodeVFS-45.1150655.zip",
+                    "notes": [
+                        "Updating jettison library for CVE-2022-45693 and CVE-2022-45685"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "UrbanCode Versioned File Storage client plugin for uploading and downloading artifacts.",
+                    "SORT_VERSION": "0000004501150655",
+                    "type": "scm"
+                },
+                {
+                    "version": "46",
+                    "semver": "46.1155706",
+                    "date": "2023.04.20 20:05",
+                    "file": "ucd-UrbancodeVFS-46.1155706.zip",
+                    "notes": [
+                        "Updating Jettison library to 1.5.4 for CVE-2023-1436"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "UrbanCode Versioned File Storage client plugin for uploading and downloading artifacts.",
+                    "SORT_VERSION": "0000004601155706",
+                    "type": "scm"
+                },
+                {
+                    "version": "47",
+                    "semver": "47.1167424",
+                    "date": "2024.04.12 20:00",
+                    "file": "ucd-UrbancodeVFS-47.1167424.zip",
+                    "notes": [
+                        "Display more information when downloading artifacts from a Relay"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "UrbanCode Versioned File Storage client plugin for uploading and downloading artifacts.",
+                    "SORT_VERSION": "0000004701167424",
                     "type": "scm"
                 }
             ],
