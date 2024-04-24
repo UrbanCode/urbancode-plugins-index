@@ -38144,6 +38144,24 @@
                     "description": "Developed by UrbanCode, for z/OS.",
                     "SORT_VERSION": "0000009001167272",
                     "type": "Automation"
+                },
+                {
+                    "version": "90",
+                    "semver": "90.1167616",
+                    "date": "2024.04.23 12:55",
+                    "file": "ucd-zos-deploy-90.1167616.zip",
+                    "notes": [
+                        "Minor code improvements",
+                        "            PH60517 - Inventory Delta deploy discards the number of HLQ set in component configuration during artifact comparison",
+                        "            Fixed bug with Rollback when two or more source PDS mapped to same target during deployment",
+                        "            Rollback Program ported from Groovy to Java",
+                        "            Dataset Mapping that have DUMMY as target containers are not checked for R/W access"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "Developed by UrbanCode, for z/OS.",
+                    "SORT_VERSION": "0000009001167616",
+                    "type": "Automation"
                 }
             ],
             "docFiles": [
