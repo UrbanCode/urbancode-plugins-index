@@ -1555,6 +1555,20 @@
                     "description": "",
                     "SORT_VERSION": "0000003201158294",
                     "type": ""
+                },
+                {
+                    "version": "33",
+                    "semver": "33.1167705",
+                    "date": "2024.04.26 17:41",
+                    "file": "ucd-ArtifactorySourceConfig-33.1167705.zip",
+                    "notes": [
+                        "Add support to configure a custom keystore to present a certificate to the artifactory server."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000003301167705",
+                    "type": ""
                 }
             ],
             "docFiles": [
@@ -10102,6 +10116,20 @@
                     "publish": "True",
                     "description": "Apache Maven is a software project management and comprehension tool.\n  Based on the concept of a project object model (POM), Maven can manage a projects build,\n  reporting and documentation from a central piece of information.",
                     "SORT_VERSION": "0000002901164986",
+                    "type": "Source"
+                },
+                {
+                    "version": "30",
+                    "semver": "30.1167665",
+                    "date": "2024.04.24 19:45",
+                    "file": "ucd-MavenSourceConfig-30.1167665.zip",
+                    "notes": [
+                        "Add support to allow pass certificates with client."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "Apache Maven is a software project management and comprehension tool.\n  Based on the concept of a project object model (POM), Maven can manage a projects build,\n  reporting and documentation from a central piece of information.",
+                    "SORT_VERSION": "0000003001167665",
                     "type": "Source"
                 }
             ],
