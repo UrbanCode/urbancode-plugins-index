@@ -9714,6 +9714,20 @@
                     "description": "Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a projects build, reporting and documentation from a central piece of information.",
                     "SORT_VERSION": "0000001001126874",
                     "type": "deploy"
+                },
+                {
+                    "version": "11",
+                    "semver": "11.1167755",
+                    "date": "2024.05.02 07:49",
+                    "file": "ucd-Maven-11.1167755.zip",
+                    "notes": [
+                        "Log4j and Jettison dependency updated."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a projects build, reporting and documentation from a central piece of information.",
+                    "SORT_VERSION": "0000001101167755",
+                    "type": "deploy"
                 }
             ],
             "docFiles": [
