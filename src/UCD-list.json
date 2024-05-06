@@ -23901,6 +23901,20 @@
                     "description": "",
                     "SORT_VERSION": "0000000301166635",
                     "type": ""
+                },
+                {
+                    "version": "4",
+                    "semver": "4.1167795",
+                    "date": "2024.05.03 18:47",
+                    "file": "ucd-plugins-argocd-4.1167795.zip",
+                    "notes": [
+                        "Update inventory management to handle digest values in imagespecs."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000000401167795",
+                    "type": ""
                 }
             ],
             "docFiles": [
