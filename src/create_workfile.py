@@ -1,4 +1,5 @@
 import os
+import shutil
 import logging
 import sys
 import json
@@ -10,12 +11,14 @@ import datetime
 # import py7zr
 # import multivolumefile
 from datetime import datetime
+import subprocess
+
 
 #sys.path.append('/Users/ozzy/RnD/Source/PLUGINS/urbancode-plugins-index/src/helper')
 from helper import uc_docs_utilities as docutil 
 from helper import uc_plugin_utilities as ucutil
 
-
+standard_plugin_indicator = "info.xml"
 script_name = "create_workfile"
 
 logging.basicConfig()
@@ -163,7 +166,7 @@ def get_integration_type(doc):
     # try integrationType found in manfest.xml
     integration_type = integration_type = doc.get("pluginInfo", {}).get("integrationType", "")
     logger1.debug (f"integration_type={integration_type}")
-    # try integrationType found in info.xml
+    # try integrationType found in standard_plugin_indicator
     # integration type 'integration': {'@type': 'Build'},
     if (not integration_type): 
         integration=doc.get("pluginInfo", {}).get("integration", "")
@@ -178,14 +181,18 @@ def get_categories(doc):
     logger1.debug (f"categories={categories}")
     return categories.get("category", []) if categories else []
 
-def get_content_from_file(file, zf):
+def get_content_from_file(file, zf, target_dir):
     doc = {"pluginInfo": {'tool-description': "ERROR FILE DAMAGED"}}
-    logger1.debug(f"accessing {file}")
-    try:
-        xfile=zf.read(file)
-    except zipfile.BadZipFile as ex:
-        logger1.warn(f"file is not good={file}")
-        return doc
+    logger1.debug(f"accessing {file} from target_dir = {target_dir}")
+    if (target_dir == ""):
+        try:
+            xfile=zf.read(file)
+        except zipfile.BadZipFile as ex:
+            logger1.error(f"ERROR FILE DAMAGED={file}")
+            return doc
+    else:
+        with open(f"{target_dir}/{file}") as readfile:
+            xfile=readfile.read()
     
     # special work with hpi files and manifest.mf
     if (file=="META-INF/MANIFEST.MF"):
@@ -208,7 +215,7 @@ def get_content_from_file(file, zf):
                     dictionary[key] = value
         doc = dictionary
     else:
-        xfile=xfile.replace(b"'", b"") #replace(b"{", b"#curlybrace-open").replace(b"}", b"#curlybrace-close").
+        if (target_dir == ""): xfile=xfile.replace(b"'", b"") #replace(b"{", b"#curlybrace-open").replace(b"}", b"#curlybrace-close").
         doc = xmltodict.parse(xfile)
         logger1.debug(f"DOC = {doc}")
     
@@ -224,52 +231,72 @@ def get_key_value_from_line(line):
         value = line
     return key.strip(),value.strip()
 
-def get_info_from_jenkins_plugin(zf, file_info):
+def get_info_from_jenkins_plugin(zf, file_info, target_dir):
     logger1.debug(f"file_list of hpi={zf.infolist()}")
     semver = "0.0"
     filename = "META-INF/MANIFEST.MF"
-    doc = get_content_from_file(filename, zf)
+    doc = get_content_from_file(filename, zf, target_dir)
     logger1.debug (f" hpi content MANIFEST.MF = {doc}")
     semver=doc.get("Plugin-Version", "0.0")
     logger1.debug (f"semver={semver}")
 
-    file_info_datetime = get_release_date(zf, filename)
+    file_info_datetime = get_release_date(zf, filename, target_dir)
                 
     logger1.debug(f"zipfileinfodatetimestring={file_info_datetime.strftime('%Y.%m.%d %H:%M')}")
     file_info[docutil.RELEASE_DATE]=file_info_datetime.strftime('%Y.%m.%d %H:%M')
 
     file_info[docutil.RELEASE_SEMVER], file_info[docutil.RELEASE_VERSION], file_info[SORT_VERSION] = get_semver_and_version(semver)
 
-def is_standard_plugin(file_with_path) -> bool:
+def is_standard_plugin(file_with_path, target_dir) -> bool:
+    logger1.debug(f"file_with_path={file_with_path} - target_dir={target_dir}")
     standard_plugin = False
-    with ZipFile(file_with_path, 'r') as zf:
-        for file in zf.infolist():
-            logger1.debug(f"file={file}")
-            if file.filename == "info.xml": 
-                standard_plugin = True
-                break
+
+    if (target_dir == ""):
+        with ZipFile(file_with_path, 'r') as zf:
+            for file in zf.infolist():
+                logger1.debug(f"file={file}")
+                if file.filename == standard_plugin_indicator: 
+                    standard_plugin = True
+                    break
+    else:
+        if (standard_plugin_indicator in os.listdir(target_dir)):
+            logger1.debug(f"{standard_plugin_indicator} found in {target_dir} -> standard plugin!")
+            standard_plugin = True
+       
     return standard_plugin
 
-def get_info_from_standard_plugin(zf, file_info):
-    for file in zf.infolist():
-        logger1.debug(f"file={file}")
-        if file.filename == "info.xml":
-            get_info_from_infoxml(zf, file, file_info)
+def get_info_from_standard_plugin(zf, file_info, target_dir):
+    logger1.debug(f"target_dir={target_dir}")
+    file_name= standard_plugin_indicator 
+    get_info_from_infoxml(zf, file_name, file_info, target_dir)
+    file_name= "manifest.xml"
+    get_info_from_manifestxml(zf, file_name, file_info, target_dir)
+    return 
 
-        if file.filename == "manifest.xml":
-            get_info_from_manifestxml(zf, file, file_info)
 
-def get_info_from_manifestxml(zf, file, file_info):
-    doc = get_content_from_file(file.filename, zf)
+def get_info_from_manifestxml(zf, file_name, file_info, target_dir):
+    if (target_dir == ""):
+        # check if manifest file is in zip
+        listoffiles = zf.namelist()
+        if (file_name not in listoffiles):
+            return
+    else:
+        if not os.path.isfile(f"{target_dir}/{file_name}"):
+            logger1.debug(f"{file_name} does not exist in {target_dir}")
+            return
+        
+    doc = get_content_from_file(file_name, zf, target_dir)
 
     file_info[docutil.PLUGIN_SPECIFICATION_TYPE] = get_integration_type(doc)
 
     file_info[docutil.PLUGIN_SPECIFICATION_CATEGORIES] = get_categories(doc)
+    return
 
-def get_info_from_infoxml(zf, file, file_info):
-    doc = get_content_from_file(file.filename, zf)
+def get_info_from_infoxml(zf, file_name, file_info, target_dir):
+    logger1.debug(f"target_dir={target_dir} - file_name={file_name}")
+    doc = get_content_from_file(file_name, zf, target_dir)
 
-    file_info_datetime = get_release_date(zf, file.filename)
+    file_info_datetime = get_release_date(zf, file_name, target_dir)
                 
     logger1.debug(f"zipfileinfodatetimestring={file_info_datetime.strftime('%Y.%m.%d %H:%M')}")
     file_info[docutil.RELEASE_DATE]=file_info_datetime.strftime('%Y.%m.%d %H:%M')
@@ -284,9 +311,13 @@ def get_info_from_infoxml(zf, file, file_info):
 
     # release notes
     file_info[docutil.RELEASE_NOTES] = get_release_notes(doc, file_info[docutil.RELEASE_SEMVER])
+    return
 
-def get_release_date(zf, filename):
-    zipfileinfo=zf.getinfo(filename).date_time
+def get_release_date(zf, filename, target_dir):
+    if (target_dir == ""):
+        zipfileinfo=zf.getinfo(filename).date_time
+    else:
+        zipfileinfo=os.path.getmtime(f"{target_dir}/{filename}")
     logger1.debug(f"zipfileinfo={zipfileinfo}")
     return datetime(*zipfileinfo)
 
@@ -323,6 +354,25 @@ def get_velocity_file_info(file, file_info, pluginnamefolder, all_ucv_index_info
                 logger1.info(f"file_info={file_info}")
                 return
 
+def unzip_file(file_with_path):
+    config = ucutil.get_config()
+    target_directory = config[ucutil.ZIP_TEMP_DIR]
+    logger1.debug(f"7z x {file_with_path} -o{target_directory}")
+    # first remove everything from target directory
+    shutil.rmtree(target_directory)
+    os.mkdir(target_directory)
+    # Run 7zip command to extract multi-file 7zip archive
+    try:
+        subprocess.run(['7z', 'x', file_with_path, f'-o{target_directory}'])
+    except:
+        logger1.error(f"could not extract file={file_with_path}")
+        return ""
+    # if "FileUtils-43.752843.zip" in file_with_path:
+    #     allfiles=os.listdir(target_directory)
+    #     logger1.debug (f"DEBUG {target_directory}- {allfiles}")
+    #     os._exit(1)
+    return target_directory
+
 def get_info_from_zip_file(plugin_path, file, file_info, ucproduct, pluginnamefolder, all_ucv_index_infos = []):
     file_with_path = f"{plugin_path}/{file}"
     logger1.info(f"file_with_path={file_with_path}")
@@ -335,6 +385,12 @@ def get_info_from_zip_file(plugin_path, file, file_info, ucproduct, pluginnamefo
         logger1.info(f"file_info after get velocity file info={file_info}")
         return
     
+    if (pluginnamefolder in ("AgentScript", "PHPCLI")):
+        logger1.warn(f"This is not a plug-in {pluginnamefolder}")
+        file_info[docutil.RELEASE_FILE]=file
+        file_info[docutil.INFO_DESCRIPTION]="NOT PLUGIN FILE"
+        return
+
     ## special treatment for sample application
     if ("CreateCollectiveSampleApp.zip" in file_with_path):
         logger1.error("CreateCollectiveSample.zip handling needs to be implemented")
@@ -342,22 +398,16 @@ def get_info_from_zip_file(plugin_path, file, file_info, ucproduct, pluginnamefo
         file_info[docutil.INFO_DESCRIPTION]="NOT PLUGIN FILE - is a Sample"
         return
     # if file extension is 00x then it is packed with 7zip -> extract and use extracted file for processing
-    # TODO: implement handling of 7ziped files
-        
+    # TODO: implement handling of 7ziped files and multivolume 7zip files...
+    # if .001 in file_with_path -> use 7zip to unzip but not deep unzip     
     if (".7z" in file_with_path):
+    # if (file_with_path.endswith(('.7z', '.001'))):
+        logger1.info(f"7z file found - {file_with_path}")
        # logger1.error(f"ucproduct={ucproduct} - filewithpath={file_with_path} - plugin_path={plugin_path} - file={file} - file_info={file_info} - pluginnamefolder={pluginnamefolder}")
  
         # need to extract using 7zip and then use new file name to get info...
         # file_with_path = extracted file with new path
         config = ucutil.get_config()
-        
-
-        # Open the multi-file 7zip archive
-
-        # new_file_with_path = os.path.splitext(file_with_path)[0]
-        # with multivolumefile.open(new_file_with_path, mode='rb') as target_archive:
-        #     with py7zr.SevenZipFile(target_archive, 'r') as archive:
-        #         archive.extractall()
         import subprocess
 
         # Run 7zip command to extract multi-file 7zip archive
@@ -373,12 +423,32 @@ def get_info_from_zip_file(plugin_path, file, file_info, ucproduct, pluginnamefo
         return
 
     with ZipFile(file_with_path, 'r') as zf:
+
+        # check if file can be manipulated with zipfile module or needs to be extracted
+        logger1.debug(f"checking if {file_with_path} can be read with zipfile module")
+        target_directory = ""
+        try:
+            if (".hpi" in file_with_path): 
+                file = "META-INF/MANIFEST.MF"
+            else:
+                file = standard_plugin_indicator
+            xfile=zf.read(file)
+        except zipfile.BadZipFile as ex:
+            logger1.warn(f"file is not good={file} try alternative method")
+            target_directory = unzip_file(file_with_path)
+            logger1.debug(f"output of unzip_file={target_directory}")
+            if (target_directory == ""):
+                file_info[docutil.INFO_DESCRIPTION]="ERROR FILE DAMAGED"
+                logger1.error(f"ERROR file is damaged file={file_with_path}")
+                return
+
         if (".hpi" in file_with_path):
-            get_info_from_jenkins_plugin(zf, file_info) # get_info_from_jenkins_plugin(plugin_path, file, file_info)
-        elif is_standard_plugin(file_with_path): 
-            get_info_from_standard_plugin(zf, file_info)
+            get_info_from_jenkins_plugin(zf, file_info, target_directory) # get_info_from_jenkins_plugin(plugin_path, file, file_info)
+        elif is_standard_plugin(file_with_path, target_directory): 
+            get_info_from_standard_plugin(zf, file_info, target_directory)
 
     logger1.debug(f"file_info={file_info}")
+    #if ("FileUtils-43.752843.zip" in file_with_path): os._exit(1)
     return
 
 
@@ -560,7 +630,7 @@ def main():
 
 #    adict = get_workfile(config)
  
-    for product in ["UCB", "UCD", "UCR", "UCV"]:                                  # ["UCB", "UCD", "UCR"]: #  ["UCV"] ["UCB"]
+    for product in ["UCB"]: #["UCB", "UCD", "UCR", "UCV"]:                                  # ["UCB", "UCD", "UCR"]: #  ["UCV"] ["UCB"]
         with open(f"{product}-list.json", "w") as f:
             adict = get_workfile(config, product)
             json.dump(adict,f, indent=4)
