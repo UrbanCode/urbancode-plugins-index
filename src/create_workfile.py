@@ -314,12 +314,14 @@ def get_info_from_infoxml(zf, file_name, file_info, target_dir):
     return
 
 def get_release_date(zf, filename, target_dir):
+    release_date=""
     if (target_dir == ""):
         zipfileinfo=zf.getinfo(filename).date_time
+        release_date = datetime(*zipfileinfo)
     else:
-        zipfileinfo=os.path.getmtime(f"{target_dir}/{filename}")
-    logger1.debug(f"zipfileinfo={zipfileinfo}")
-    return datetime(*zipfileinfo)
+        release_date=datetime.fromtimestamp(os.path.getmtime(f"{target_dir}/{filename}"))
+    logger1.debug(f"release_date={release_date}")
+    return release_date
 
 def get_velocity_file_info(file, file_info, pluginnamefolder, all_ucv_index_infos):
     # logger1.debug(f"velocity file={file} - file_info={file_info}")
@@ -385,8 +387,8 @@ def get_info_from_zip_file(plugin_path, file, file_info, ucproduct, pluginnamefo
         logger1.info(f"file_info after get velocity file info={file_info}")
         return
     
-    if (pluginnamefolder in ("AgentScript", "PHPCLI")):
-        logger1.warn(f"This is not a plug-in {pluginnamefolder}")
+    if ((pluginnamefolder in ("AgentScript", "PHPCLI")) or ("SampleApplicationDeployments" in file_with_path) or ("db2-application-deployment-template-package" in file_with_path.lower())):
+        logger1.warn(f"This is not a plug-in {pluginnamefolder}/{file}")
         file_info[docutil.RELEASE_FILE]=file
         file_info[docutil.INFO_DESCRIPTION]="NOT PLUGIN FILE"
         return
@@ -432,7 +434,7 @@ def get_info_from_zip_file(plugin_path, file, file_info, ucproduct, pluginnamefo
                 file = "META-INF/MANIFEST.MF"
             else:
                 file = standard_plugin_indicator
-            xfile=zf.read(file)
+            xfile=zf.read(file) # VERY BAD functionality, if file is OK, but the file to read is not in the zip then it fails -> is_standard_plugin should check...
         except zipfile.BadZipFile as ex:
             logger1.warn(f"file is not good={file} try alternative method")
             target_directory = unzip_file(file_with_path)
@@ -630,7 +632,7 @@ def main():
 
 #    adict = get_workfile(config)
  
-    for product in ["UCB"]: #["UCB", "UCD", "UCR", "UCV"]:                                  # ["UCB", "UCD", "UCR"]: #  ["UCV"] ["UCB"]
+    for product in ["UCB", "UCD", "UCR", "UCV"]:                                  # ["UCB", "UCD", "UCR"]: #  ["UCV"] ["UCB"]
         with open(f"{product}-list.json", "w") as f:
             adict = get_workfile(config, product)
             json.dump(adict,f, indent=4)
