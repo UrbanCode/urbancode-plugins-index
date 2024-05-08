@@ -256,7 +256,7 @@
                     "notes": [],
                     "supports": "",
                     "publish": "True",
-                    "description": "",
+                    "description": "NOT PLUGIN FILE",
                     "SORT_VERSION": ""
                 },
                 {
@@ -267,7 +267,7 @@
                     "notes": [],
                     "supports": "",
                     "publish": "True",
-                    "description": "",
+                    "description": "NOT PLUGIN FILE",
                     "SORT_VERSION": ""
                 },
                 {
@@ -278,7 +278,7 @@
                     "notes": [],
                     "supports": "",
                     "publish": "True",
-                    "description": "",
+                    "description": "NOT PLUGIN FILE",
                     "SORT_VERSION": ""
                 }
             ],
@@ -327,7 +327,7 @@
                     "publish": "True",
                     "description": "Amazon Elastic Compute Cloud (EC2) provides virtual computers to users for running their own applications and allows scalable deployments.",
                     "SORT_VERSION": "0000000500641618",
-                    "type": "Deploy",
+                    "type": "Automation",
                     "categories": [
                         "cloud",
                         "Amazon"
@@ -345,7 +345,7 @@
                     "publish": "True",
                     "description": "Amazon Elastic Compute Cloud (EC2) provides virtual computers to users for running their own applications and allows scalable deployments.",
                     "SORT_VERSION": "0000000600869043",
-                    "type": "Deploy",
+                    "type": "Automation",
                     "categories": [
                         "cloud",
                         "Amazon"
@@ -363,7 +363,7 @@
                     "publish": "True",
                     "description": "Amazon Elastic Compute Cloud (EC2) provides virtual computers to users for running their own applications and allows scalable deployments.",
                     "SORT_VERSION": "0000000601056573",
-                    "type": "Deploy",
+                    "type": "Automation",
                     "categories": [
                         "cloud",
                         "Amazon"
@@ -381,7 +381,7 @@
                     "publish": "True",
                     "description": "Amazon Elastic Compute Cloud (EC2) provides virtual computers to users for running their own applications and allows scalable deployments.",
                     "SORT_VERSION": "0000000601100863",
-                    "type": "Deploy",
+                    "type": "Automation",
                     "categories": [
                         "cloud",
                         "Amazon"
@@ -2796,7 +2796,7 @@
                     "publish": "True",
                     "description": "DBUpgrader is a plugin developed by the UrbanCode developers to help manage database changes including schema changes and rollbacks. This is done using a proprietary formatted XML file in conjunction with a version table in your database. The XML file is used to associate changes with versions and the database table tracks what changes have been applied.The plugin logic is used when performing upgrades for both the AnthillPro and UrbanDeploy applications.",
                     "SORT_VERSION": "0000000100423703",
-                    "type": "automation",
+                    "type": "Deploy",
                     "categories": "database"
                 },
                 {
@@ -2811,7 +2811,7 @@
                     "publish": "True",
                     "description": "DBUpgrader is a plugin developed by the UrbanCode developers to help manage database changes including schema changes and rollbacks. This is done using a proprietary formatted XML file in conjunction with a version table in your database. The XML file is used to associate changes with versions and the database table tracks what changes have been applied.The plugin logic is used when performing upgrades for both the AnthillPro and UrbanDeploy applications.",
                     "SORT_VERSION": "0000000100530255",
-                    "type": "automation",
+                    "type": "Deploy",
                     "categories": "database"
                 },
                 {
@@ -2826,7 +2826,7 @@
                     "publish": "True",
                     "description": "DBUpgrader is a plugin developed by the UrbanCode developers to help manage database changes including schema changes and rollbacks. This is done using a proprietary formatted XML file in conjunction with a version table in your database. The XML file is used to associate changes with versions and the database table tracks what changes have been applied.The plugin logic is used when performing upgrades for both the AnthillPro and UrbanDeploy applications.",
                     "SORT_VERSION": "0000000200641649",
-                    "type": "automation",
+                    "type": "Deploy",
                     "categories": "database"
                 },
                 {
@@ -2841,7 +2841,7 @@
                     "publish": "True",
                     "description": "DBUpgrader is a plugin developed by the UrbanCode developers to help manage database changes including schema changes and rollbacks. This is done using a proprietary formatted XML file in conjunction with a version table in your database. The XML file is used to associate changes with versions and the database table tracks what changes have been applied.The plugin logic is used when performing upgrades for both the AnthillPro and UrbanDeploy applications.",
                     "SORT_VERSION": "0000000300869017",
-                    "type": "automation",
+                    "type": "Deploy",
                     "categories": "database"
                 },
                 {
@@ -2856,7 +2856,7 @@
                     "publish": "True",
                     "description": "DBUpgrader is a plugin developed by the UrbanCode developers to help manage database changes including schema changes and rollbacks. This is done using a proprietary formatted XML file in conjunction with a version table in your database. The XML file is used to associate changes with versions and the database table tracks what changes have been applied.The plugin logic is used when performing upgrades for both the AnthillPro and UrbanDeploy applications.",
                     "SORT_VERSION": "0000000301056567",
-                    "type": "automation",
+                    "type": "Deploy",
                     "categories": "database"
                 },
                 {
@@ -2871,7 +2871,7 @@
                     "publish": "True",
                     "description": "DBUpgrader is a plugin developed by the UrbanCode developers to help manage database changes including schema changes and rollbacks. This is done using a proprietary formatted XML file in conjunction with a version table in your database. The XML file is used to associate changes with versions and the database table tracks what changes have been applied.The plugin logic is used when performing upgrades for both the AnthillPro and UrbanDeploy applications.",
                     "SORT_VERSION": "0000000301103413",
-                    "type": "automation",
+                    "type": "Deploy",
                     "categories": "database"
                 },
                 {
@@ -2886,7 +2886,7 @@
                     "publish": "True",
                     "description": "DBUpgrader is a plugin developed by the UrbanCode developers to help manage database changes including schema changes and rollbacks. This is done using a proprietary formatted XML file in conjunction with a version table in your database. The XML file is used to associate changes with versions and the database table tracks what changes have been applied.The plugin logic is used when performing upgrades for both the AnthillPro and UrbanDeploy applications.",
                     "SORT_VERSION": "0000000401127382",
-                    "type": "automation",
+                    "type": "Deploy",
                     "categories": "database"
                 },
                 {
@@ -2901,7 +2901,7 @@
                     "publish": "True",
                     "description": "DBUpgrader is a plugin developed by the UrbanCode developers to help manage database changes including schema changes and rollbacks. This is done using a proprietary formatted XML file in conjunction with a version table in your database. The XML file is used to associate changes with versions and the database table tracks what changes have been applied.The plugin logic is used when performing upgrades for both the AnthillPro and UrbanDeploy applications.",
                     "SORT_VERSION": "0000000501151802",
-                    "type": "automation",
+                    "type": "Deploy",
                     "categories": "database"
                 }
             ],
@@ -3651,6 +3651,20 @@
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000004301162237",
+                    "type": ""
+                },
+                {
+                    "version": "44",
+                    "semver": "44.1167750",
+                    "date": "2024.05.01 20:47",
+                    "file": "ucd-DockerSourceConfig-44.1167750.zip",
+                    "notes": [
+                        "Correctly handle obtaining the id/digest when a Docker V2 (or OCI) image manifest is returned.  Also add support for obtaining the id/digest of image index files/fat manifests."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000004401167750",
                     "type": ""
                 }
             ],
@@ -4597,7 +4611,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000002900423657",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -4617,7 +4631,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000003100455052",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -4637,7 +4651,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000003400545196",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -4657,7 +4671,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000003600551524",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -4677,7 +4691,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000003700576162",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -4697,7 +4711,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000003800596600",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -4717,7 +4731,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000003800600030",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -4737,7 +4751,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000003900624562",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -4759,7 +4773,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000003900627793",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -4779,7 +4793,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000004000655382",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -4799,7 +4813,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000004200712288",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -4819,7 +4833,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000004600766878",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -4839,7 +4853,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000004600785999",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -4859,7 +4873,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000004700789932",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -4879,7 +4893,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000004800793720",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -4899,7 +4913,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000004900796720",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -4920,7 +4934,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000005100845335",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -4940,7 +4954,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000005200851792",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -4960,7 +4974,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000005300855635",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -4980,7 +4994,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000005300858556",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5000,7 +5014,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000005600898690",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5020,7 +5034,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000005700910073",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5040,7 +5054,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000005800911226",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5060,7 +5074,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000005800913284",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5080,7 +5094,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000005900913780",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5100,7 +5114,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000006000917602",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5120,7 +5134,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000006000920134",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5140,7 +5154,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000006100923651",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5160,7 +5174,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000006200933165",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5180,7 +5194,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000006300959134",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5200,7 +5214,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000006400970423",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5220,7 +5234,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000006500982126",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5240,7 +5254,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000006600987267",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5260,7 +5274,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000006801000856",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5280,7 +5294,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000007001002334",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5300,7 +5314,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000007001011208",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5320,7 +5334,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000007101011293",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5341,7 +5355,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000007301016014",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5361,7 +5375,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000007401030475",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5381,7 +5395,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000007401056502",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5401,7 +5415,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000007401056564",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5421,7 +5435,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000007501057111",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5441,7 +5455,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000007501057275",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5461,7 +5475,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000007601061904",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5481,7 +5495,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000007801079804",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5501,7 +5515,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000007901098159",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5521,7 +5535,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000008101105806",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5541,7 +5555,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000008201126088",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5561,7 +5575,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000008301127364",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5581,7 +5595,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000008401128977",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5601,7 +5615,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000008501129819",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5621,7 +5635,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000008601130264",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5641,7 +5655,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000008701134890",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5661,7 +5675,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000009001150683",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5681,7 +5695,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000009101155730",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5702,7 +5716,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000009201156646",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5722,7 +5736,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000009301156702",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5742,7 +5756,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000009401156804",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5762,7 +5776,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000009501159914",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5782,7 +5796,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000009601160835",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -5802,7 +5816,7 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000009701167642",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -7587,7 +7601,7 @@
                     "publish": "True",
                     "description": "HP Quality Center (QC) is a set of web-based test management software. It offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.",
                     "SORT_VERSION": "0000000700485865",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "quality",
                         "issue tracking",
@@ -7606,7 +7620,7 @@
                     "publish": "True",
                     "description": "HP Quality Center (QC) is a set of web-based test management software. It offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.",
                     "SORT_VERSION": "0000000800641633",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "quality",
                         "issue tracking",
@@ -7625,7 +7639,7 @@
                     "publish": "True",
                     "description": "HP Quality Center (QC) is a set of web-based test management software. It offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.",
                     "SORT_VERSION": "0000001000727076",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "quality",
                         "issue tracking",
@@ -7644,7 +7658,7 @@
                     "publish": "True",
                     "description": "HP Quality Center (QC) is a set of web-based test management software. It offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.",
                     "SORT_VERSION": "0000001000833471",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "quality",
                         "issue tracking",
@@ -7663,7 +7677,7 @@
                     "publish": "True",
                     "description": "HP Quality Center (QC) is a set of web-based test management software. It offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.",
                     "SORT_VERSION": "0000001100869537",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "quality",
                         "issue tracking",
@@ -7682,7 +7696,7 @@
                     "publish": "True",
                     "description": "HP Quality Center (QC) is a set of web-based test management software. It offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.",
                     "SORT_VERSION": "0000001200901087",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "quality",
                         "issue tracking",
@@ -7702,7 +7716,7 @@
                     "publish": "True",
                     "description": "HP Quality Center (QC) is a set of web-based test management software. It offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.",
                     "SORT_VERSION": "0000001300930041",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "quality",
                         "issue tracking",
@@ -7722,7 +7736,7 @@
                     "publish": "True",
                     "description": "HP Quality Center (QC) is a set of web-based test management software. It offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.",
                     "SORT_VERSION": "0000001400939038",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "quality",
                         "issue tracking",
@@ -7741,7 +7755,7 @@
                     "publish": "True",
                     "description": "HP Quality Center (QC) is a set of web-based test management software. It offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.",
                     "SORT_VERSION": "0000001501008315",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "quality",
                         "issue tracking",
@@ -7760,7 +7774,7 @@
                     "publish": "True",
                     "description": "HP Quality Center (QC) is a set of web-based test management software. It offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.",
                     "SORT_VERSION": "0000001501011207",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "quality",
                         "issue tracking",
@@ -7779,7 +7793,7 @@
                     "publish": "True",
                     "description": "HP Quality Center (QC) is a set of web-based test management software. It offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.",
                     "SORT_VERSION": "0000001601011648",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "quality",
                         "issue tracking",
@@ -9599,7 +9613,7 @@
                     "publish": "True",
                     "description": "Microsoft Software Installer (MSI) is a software component used for the installation, maintenance, and removal of software on modern Microsoft Windows systems.",
                     "SORT_VERSION": "0000000200879047",
-                    "type": "Deploy",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "utility"
@@ -9619,7 +9633,7 @@
                     "publish": "True",
                     "description": "Microsoft Software Installer (MSI) is a software component used for the installation, maintenance, and removal of software on modern Microsoft Windows systems.",
                     "SORT_VERSION": "0000000300911818",
-                    "type": "Deploy",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "utility"
@@ -10502,7 +10516,7 @@
                     "notes": [],
                     "supports": "",
                     "publish": "True",
-                    "description": "",
+                    "description": "NOT PLUGIN FILE",
                     "SORT_VERSION": ""
                 },
                 {
@@ -10513,7 +10527,7 @@
                     "notes": [],
                     "supports": "",
                     "publish": "True",
-                    "description": "",
+                    "description": "NOT PLUGIN FILE",
                     "SORT_VERSION": ""
                 },
                 {
@@ -10524,7 +10538,7 @@
                     "notes": [],
                     "supports": "",
                     "publish": "True",
-                    "description": "",
+                    "description": "NOT PLUGIN FILE",
                     "SORT_VERSION": ""
                 }
             ],
@@ -10828,7 +10842,7 @@
                     "publish": "True",
                     "description": "HP QuickTest Professional provides functional and regression test automation for software applications and environments, and can be used for enterprise quality assurance.",
                     "SORT_VERSION": "0000000100504346",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "HP",
                         "quality",
@@ -10847,7 +10861,7 @@
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000400868943",
-                    "type": "",
+                    "type": "Automation",
                     "categories": [
                         "HP",
                         "quality",
@@ -10866,7 +10880,7 @@
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000600987837",
-                    "type": "",
+                    "type": "Automation",
                     "categories": [
                         "HP",
                         "quality",
@@ -10885,7 +10899,7 @@
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000601100726",
-                    "type": "",
+                    "type": "Automation",
                     "categories": [
                         "HP",
                         "quality",
@@ -10916,7 +10930,7 @@
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000701154086",
-                    "type": "",
+                    "type": "Automation",
                     "categories": [
                         "HP",
                         "quality",
@@ -11726,7 +11740,7 @@
                     "publish": "True",
                     "description": "The Red Hat Package Manager (RPM) is a toolset used to build and manage software packages on UNIX systems. Distributed with the Red Hat Linux distribution and its derivatives.",
                     "SORT_VERSION": "0000000200432456",
-                    "type": "deploy",
+                    "type": "Automation",
                     "categories": [
                         "linux",
                         "unix",
@@ -11745,7 +11759,7 @@
                     "publish": "True",
                     "description": "The Red Hat Package Manager (RPM) is a toolset used to build and manage software packages on UNIX systems. Distributed with the Red Hat Linux distribution and its derivatives.",
                     "SORT_VERSION": "0000000300641572",
-                    "type": "deploy",
+                    "type": "Automation",
                     "categories": [
                         "linux",
                         "unix",
@@ -11764,7 +11778,7 @@
                     "publish": "True",
                     "description": "The Red Hat Package Manager (RPM) is a toolset used to build and manage software packages on UNIX systems. Distributed with the Red Hat Linux distribution and its derivatives.",
                     "SORT_VERSION": "0000000300684585",
-                    "type": "deploy",
+                    "type": "Automation",
                     "categories": [
                         "linux",
                         "unix",
@@ -11783,7 +11797,7 @@
                     "publish": "True",
                     "description": "The Red Hat Package Manager (RPM) is a toolset used to build and manage software packages on UNIX systems. Distributed with the Red Hat Linux distribution and its derivatives.",
                     "SORT_VERSION": "0000000400868940",
-                    "type": "deploy",
+                    "type": "Automation",
                     "categories": [
                         "linux",
                         "unix",
@@ -11802,7 +11816,7 @@
                     "publish": "True",
                     "description": "The Red Hat Package Manager (RPM) is a toolset used to build and manage software packages on UNIX systems. Distributed with the Red Hat Linux distribution and its derivatives.",
                     "SORT_VERSION": "0000000401056544",
-                    "type": "deploy",
+                    "type": "Automation",
                     "categories": [
                         "linux",
                         "unix",
@@ -11821,7 +11835,7 @@
                     "publish": "True",
                     "description": "The Red Hat Package Manager (RPM) is a toolset used to build and manage software packages on UNIX systems. Distributed with the Red Hat Linux distribution and its derivatives.",
                     "SORT_VERSION": "0000000401100816",
-                    "type": "deploy",
+                    "type": "Automation",
                     "categories": [
                         "linux",
                         "unix",
@@ -12772,7 +12786,7 @@
                     "publish": "True",
                     "description": "The sqlcmd utility lets you enter Transact-SQL statements, system procedures, and script files at the command prompt, in Query Editor in SQLCMD mode, in a Windows script file or in an operating system (Cmd.exe) job step of a SQL Server Agent job. This utility uses OLE DB to execute Transact-SQL batches.",
                     "SORT_VERSION": "0000000600869041",
-                    "type": "automation",
+                    "type": "Deploy",
                     "categories": [
                         "database",
                         "Microsoft"
@@ -12790,7 +12804,7 @@
                     "publish": "True",
                     "description": "The sqlcmd utility lets you enter Transact-SQL statements, system procedures, and script files at the command prompt, in Query Editor in SQLCMD mode, in a Windows script file or in an operating system (Cmd.exe) job step of a SQL Server Agent job. This utility uses OLE DB to execute Transact-SQL batches.",
                     "SORT_VERSION": "0000000700952865",
-                    "type": "automation",
+                    "type": "Deploy",
                     "categories": [
                         "database",
                         "Microsoft"
@@ -12808,7 +12822,7 @@
                     "publish": "True",
                     "description": "The sqlcmd utility lets you enter Transact-SQL statements, system procedures, and script files at the command prompt, in Query Editor in SQLCMD mode, in a Windows script file or in an operating system (Cmd.exe) job step of a SQL Server Agent job. This utility uses OLE DB to execute Transact-SQL batches.",
                     "SORT_VERSION": "0000000800976015",
-                    "type": "automation",
+                    "type": "Deploy",
                     "categories": [
                         "database",
                         "Microsoft"
@@ -12826,7 +12840,7 @@
                     "publish": "True",
                     "description": "The sqlcmd utility lets you enter Transact-SQL statements, system procedures, and script files at the command prompt, in Query Editor in SQLCMD mode, in a Windows script file or in an operating system (Cmd.exe) job step of a SQL Server Agent job. This utility uses OLE DB to execute Transact-SQL batches.",
                     "SORT_VERSION": "0000000901008732",
-                    "type": "automation",
+                    "type": "Deploy",
                     "categories": [
                         "database",
                         "Microsoft"
@@ -12844,7 +12858,7 @@
                     "publish": "True",
                     "description": "The sqlcmd utility lets you enter Transact-SQL statements, system procedures, and script files at the command prompt, in Query Editor in SQLCMD mode, in a Windows script file or in an operating system (Cmd.exe) job step of a SQL Server Agent job. This utility uses OLE DB to execute Transact-SQL batches.",
                     "SORT_VERSION": "0000000901056538",
-                    "type": "automation",
+                    "type": "Deploy",
                     "categories": [
                         "database",
                         "Microsoft"
@@ -12862,7 +12876,7 @@
                     "publish": "True",
                     "description": "The sqlcmd utility lets you enter Transact-SQL statements, system procedures, and script files at the command prompt, in Query Editor in SQLCMD mode, in a Windows script file or in an operating system (Cmd.exe) job step of a SQL Server Agent job. This utility uses OLE DB to execute Transact-SQL batches.",
                     "SORT_VERSION": "0000000901100934",
-                    "type": "automation",
+                    "type": "Deploy",
                     "categories": [
                         "database",
                         "Microsoft"
@@ -12880,7 +12894,7 @@
                     "publish": "True",
                     "description": "The sqlcmd utility lets you enter Transact-SQL statements, system procedures, and script files at the command prompt, in Query Editor in SQLCMD mode, in a Windows script file or in an operating system (Cmd.exe) job step of a SQL Server Agent job. This utility uses OLE DB to execute Transact-SQL batches.",
                     "SORT_VERSION": "0000001001154073",
-                    "type": "automation",
+                    "type": "Deploy",
                     "categories": [
                         "database",
                         "Microsoft"
@@ -14232,7 +14246,7 @@
                     "publish": "True",
                     "description": "Microsoft SharePoint is a web application platform developed by Microsoft.  SharePoint is designed as a broad, central application platform for common enterprise web requirements. SharePoints multi-purpose design allows for management and provisioning of intranet portals, extranets, websites, document and file management, collaboration spaces, social tools, enterprise search, business intelligence, process integration, system integration, workflow automation, and core infrastructure for third-party solutions.",
                     "SORT_VERSION": "0000000400423644",
-                    "type": "deploy",
+                    "type": "Deploy",
                     "categories": [
                         "windows",
                         "Microsoft",
@@ -14251,7 +14265,7 @@
                     "publish": "True",
                     "description": "Microsoft SharePoint is a web application platform developed by Microsoft.  SharePoint is designed as a broad, central application platform for common enterprise web requirements. SharePoints multi-purpose design allows for management and provisioning of intranet portals, extranets, websites, document and file management, collaboration spaces, social tools, enterprise search, business intelligence, process integration, system integration, workflow automation, and core infrastructure for third-party solutions.",
                     "SORT_VERSION": "0000000500641662",
-                    "type": "deploy",
+                    "type": "Deploy",
                     "categories": [
                         "windows",
                         "Microsoft",
@@ -14270,7 +14284,7 @@
                     "publish": "True",
                     "description": "Microsoft SharePoint is a web application platform developed by Microsoft.  SharePoint is designed as a broad, central application platform for common enterprise web requirements. SharePoints multi-purpose design allows for management and provisioning of intranet portals, extranets, websites, document and file management, collaboration spaces, social tools, enterprise search, business intelligence, process integration, system integration, workflow automation, and core infrastructure for third-party solutions.",
                     "SORT_VERSION": "0000000600752046",
-                    "type": "deploy",
+                    "type": "Deploy",
                     "categories": [
                         "windows",
                         "Microsoft",
@@ -14291,7 +14305,7 @@
                     "publish": "True",
                     "description": "Microsoft SharePoint is a web application platform developed by Microsoft.  SharePoint is designed as a broad, central application platform for common enterprise web requirements. SharePoints multi-purpose design allows for management and provisioning of intranet portals, extranets, websites, document and file management, collaboration spaces, social tools, enterprise search, business intelligence, process integration, system integration, workflow automation, and core infrastructure for third-party solutions.",
                     "SORT_VERSION": "0000000801056539",
-                    "type": "deploy",
+                    "type": "Deploy",
                     "categories": [
                         "windows",
                         "Microsoft",
@@ -14356,7 +14370,7 @@
                     "publish": "True",
                     "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
                     "SORT_VERSION": "0000000300455056",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -14377,7 +14391,7 @@
                     "publish": "True",
                     "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
                     "SORT_VERSION": "0000000400545114",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -14398,7 +14412,7 @@
                     "publish": "True",
                     "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
                     "SORT_VERSION": "0000000500562693",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -14419,7 +14433,7 @@
                     "publish": "True",
                     "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
                     "SORT_VERSION": "0000000600641592",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -14440,7 +14454,7 @@
                     "publish": "True",
                     "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
                     "SORT_VERSION": "0000000600666966",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -14461,7 +14475,7 @@
                     "publish": "True",
                     "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
                     "SORT_VERSION": "0000000600785165",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -14482,7 +14496,7 @@
                     "publish": "True",
                     "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
                     "SORT_VERSION": "0000000700800043",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -14503,7 +14517,7 @@
                     "publish": "True",
                     "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
                     "SORT_VERSION": "0000000900855637",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -14524,7 +14538,7 @@
                     "publish": "True",
                     "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
                     "SORT_VERSION": "0000000900858557",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -14545,7 +14559,7 @@
                     "publish": "True",
                     "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
                     "SORT_VERSION": "0000000901056500",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -14566,7 +14580,7 @@
                     "publish": "True",
                     "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
                     "SORT_VERSION": "0000000901101488",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -14587,7 +14601,7 @@
                     "publish": "True",
                     "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
                     "SORT_VERSION": "0000000901108232",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -14608,7 +14622,7 @@
                     "publish": "True",
                     "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
                     "SORT_VERSION": "0000001001126079",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -14629,7 +14643,7 @@
                     "publish": "True",
                     "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
                     "SORT_VERSION": "0000001001126864",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -14650,7 +14664,7 @@
                     "publish": "True",
                     "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
                     "SORT_VERSION": "0000001101128757",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -14671,7 +14685,7 @@
                     "publish": "True",
                     "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
                     "SORT_VERSION": "0000001201131568",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -14692,7 +14706,7 @@
                     "publish": "True",
                     "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
                     "SORT_VERSION": "0000001401148560",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -14713,7 +14727,7 @@
                     "publish": "True",
                     "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
                     "SORT_VERSION": "0000001501150657",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -14734,7 +14748,7 @@
                     "publish": "True",
                     "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
                     "SORT_VERSION": "0000001601155715",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -14755,7 +14769,7 @@
                     "publish": "True",
                     "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
                     "SORT_VERSION": "0000001701157671",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -14776,7 +14790,7 @@
                     "publish": "True",
                     "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
                     "SORT_VERSION": "0000001801158127",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -14797,7 +14811,7 @@
                     "publish": "True",
                     "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
                     "SORT_VERSION": "0000001901158728",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -14818,7 +14832,7 @@
                     "publish": "True",
                     "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
                     "SORT_VERSION": "0000002001160845",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -14839,7 +14853,7 @@
                     "publish": "True",
                     "description": "A shell is a piece of software that provides an interface for users of an operating system which provides access to the services of a kernel.  Operating system shells generally fall into one of two categories: command-line and graphical. Command-line shells provide a command-line interface (CLI) to the operating system, while graphical shells provide a graphical user interface (GUI). In either category the primary purpose of the shell is to invoke or launch another program; however, shells frequently have additional capabilities such as viewing the contents of directories.",
                     "SORT_VERSION": "0000002101167618",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "windows",
                         "linux",
@@ -18498,7 +18512,7 @@
                     "notes": [],
                     "supports": "",
                     "publish": "True",
-                    "description": "",
+                    "description": "NOT PLUGIN FILE",
                     "SORT_VERSION": ""
                 },
                 {
@@ -21159,7 +21173,7 @@
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000300822919",
-                    "type": "",
+                    "type": "Deploy",
                     "categories": [
                         "IBM",
                         "middleware"
@@ -21178,7 +21192,7 @@
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000500868850",
-                    "type": "",
+                    "type": "Deploy",
                     "categories": [
                         "IBM",
                         "middleware"
@@ -21196,7 +21210,7 @@
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000700906819",
-                    "type": "",
+                    "type": "Deploy",
                     "categories": [
                         "IBM",
                         "middleware"
@@ -21214,7 +21228,7 @@
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000701056522",
-                    "type": "",
+                    "type": "Deploy",
                     "categories": [
                         "IBM",
                         "middleware"
@@ -21232,7 +21246,7 @@
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000801063734",
-                    "type": "",
+                    "type": "Deploy",
                     "categories": [
                         "IBM",
                         "middleware"
@@ -21250,7 +21264,7 @@
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000801100783",
-                    "type": "",
+                    "type": "Deploy",
                     "categories": [
                         "IBM",
                         "middleware"
@@ -22886,18 +22900,6 @@
             "NEW_FOLDER_NAME": "air-plugin-rtc-scm",
             "PLUGIN_FILES": [
                 {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "2016.02.29 15:01",
-                    "file": "air-plugin-RTC-scm-3.752064.zip",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "ERROR FILE DAMAGED",
-                    "SORT_VERSION": "0000000000000000",
-                    "type": ""
-                },
-                {
                     "version": "1",
                     "semver": "1.526059",
                     "date": "2014.05.29 09:29",
@@ -22923,6 +22925,22 @@
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200640925",
+                    "type": "SCM"
+                },
+                {
+                    "version": "3",
+                    "semver": "3.752064",
+                    "date": "2016.02.29 14:01",
+                    "file": "air-plugin-RTC-scm-3.752064.zip",
+                    "notes": [
+                        "Fix 119504 - Updated import code to upgrade, instead of recreate, when version already exists.",
+                        "Import current state from a stream.",
+                        "Option to use Snapshot ID or Name when getLatestSnapshot(). Used in both default and auto. import functionality."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000000300752064",
                     "type": "SCM"
                 },
                 {
@@ -39679,7 +39697,7 @@
                     "publish": "True",
                     "description": "7zip is a file compression and expansion utility using a variety of compression algorithms.",
                     "SORT_VERSION": "0000000201100875",
-                    "type": "Deploy",
+                    "type": "Automation",
                     "categories": "utility"
                 }
             ]
@@ -40719,7 +40737,7 @@
                     "notes": [],
                     "supports": "",
                     "publish": "True",
-                    "description": "",
+                    "description": "NOT PLUGIN FILE",
                     "SORT_VERSION": ""
                 },
                 {
@@ -40730,7 +40748,7 @@
                     "notes": [],
                     "supports": "",
                     "publish": "True",
-                    "description": "",
+                    "description": "NOT PLUGIN FILE",
                     "SORT_VERSION": ""
                 },
                 {
@@ -40741,7 +40759,7 @@
                     "notes": [],
                     "supports": "",
                     "publish": "True",
-                    "description": "",
+                    "description": "NOT PLUGIN FILE",
                     "SORT_VERSION": ""
                 },
                 {
@@ -40873,7 +40891,7 @@
                     "notes": [],
                     "supports": "",
                     "publish": "True",
-                    "description": "",
+                    "description": "NOT PLUGIN FILE",
                     "SORT_VERSION": ""
                 },
                 {
@@ -40884,7 +40902,7 @@
                     "notes": [],
                     "supports": "",
                     "publish": "True",
-                    "description": "",
+                    "description": "NOT PLUGIN FILE",
                     "SORT_VERSION": ""
                 },
                 {
@@ -41242,7 +41260,7 @@
                     "publish": "True",
                     "description": "HP QuickTest Professional provides functional and regression test automation for software applications and environments, and can be used for enterprise quality assurance.",
                     "SORT_VERSION": "0000000100504346",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "HP",
                         "quality",
@@ -41261,7 +41279,7 @@
                     "publish": "True",
                     "description": "HP QuickTest Professional provides functional and regression test automation for software applications and environments, and can be used for enterprise quality assurance.",
                     "SORT_VERSION": "0000000200641625",
-                    "type": "automation",
+                    "type": "Automation",
                     "categories": [
                         "HP",
                         "quality",
@@ -42985,7 +43003,7 @@
                     "publish": "True",
                     "description": "The sqlcmd utility lets you enter Transact-SQL statements, system procedures, and script files at the command prompt, in Query Editor in SQLCMD mode, in a Windows script file or in an operating system (Cmd.exe) job step of a SQL Server Agent job. This utility uses OLE DB to execute Transact-SQL batches.",
                     "SORT_VERSION": "0000000400455081",
-                    "type": "automation",
+                    "type": "Deploy",
                     "categories": [
                         "database",
                         "Microsoft"
@@ -43003,7 +43021,7 @@
                     "publish": "True",
                     "description": "The sqlcmd utility lets you enter Transact-SQL statements, system procedures, and script files at the command prompt, in Query Editor in SQLCMD mode, in a Windows script file or in an operating system (Cmd.exe) job step of a SQL Server Agent job. This utility uses OLE DB to execute Transact-SQL batches.",
                     "SORT_VERSION": "0000000500641684",
-                    "type": "automation",
+                    "type": "Deploy",
                     "categories": [
                         "database",
                         "Microsoft"
@@ -43120,7 +43138,7 @@
                     "publish": "True",
                     "description": "SQL*Plus (commonly known as sqlplus) is an Oracle database client that can run SQL and PL/SQL commands and display their results. SQL*Plus is the default, the simplest and the most basic Oracle utility, with a basic command-line interface, commonly used by users, administrators, and programmers.",
                     "SORT_VERSION": "0000000500423603",
-                    "type": "automation",
+                    "type": "Deploy",
                     "categories": [
                         "database",
                         "Oracle"
@@ -43357,16 +43375,19 @@
             "publish": true,
             "PLUGIN_FILES": [
                 {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "2016.03.02 13:59",
+                    "version": "4",
+                    "semver": "4.753298",
+                    "date": "2016.03.02 12:59",
                     "file": "RQM-4.753298.zip",
-                    "notes": [],
+                    "notes": [
+                        "Update RQMExecutionTool.jar to version 5 to provide support for specifying adapters by name.",
+                        "        Fixes APAR PI54019 Error using RQM version 3 in UCD 6.2.0"
+                    ],
                     "supports": "",
                     "publish": "True",
-                    "description": "ERROR FILE DAMAGED",
-                    "SORT_VERSION": "0000000000000000",
-                    "type": ""
+                    "description": "Rational Quality Manager",
+                    "SORT_VERSION": "0000000400753298",
+                    "type": "Automation"
                 }
             ]
         },
