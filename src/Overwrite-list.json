@@ -9,7 +9,7 @@
             "type": ""
           },
           "NEW_FOLDER_NAME": "build-velocity",
-          "NEW_NAME": "DevOps Velocity"
+          "name": "DevOps Velocity"
         }
       },
       {
@@ -28,5 +28,62 @@
           "NEW_FOLDER_NAME": "yyz2"
         }
       }
-    ]
+    ],
+	"UCD": [
+        {
+          "name": "7-zip",
+		  "docs_folder": "7-zip",
+          "overwrite_with": {
+            "plugin_folder": "7zip",
+            "specification": {
+                "categories": [],
+                "type": "Community"
+            },
+          }
+        },
+        {
+          "name": "IBM Db2 for z/OS Package",
+		  "docs_folder": "ibm-db2-for-z-os-package",
+          "overwrite_with": {
+            "plugin_folder": "DB2z"
+          }
+        },
+        {
+          "name": "IBM Maximo",
+		  "docs_folder": "ibm-maximo",
+          "overwrite_with": {
+            "plugin_folder": "maximo"
+          }
+        },
+        {
+          "name": "IBM Rational Quality Manager (RQM)",
+		  "docs_folder": "ibm-rational-quality-manager-rqm",
+          "overwrite_with": {
+            "plugin_folder": "RQM"
+          }
+        },
+        {
+          "name": "IBM Rational Team Concert - Build",
+		  "docs_folder": "ibm-rational-team-concert-build",
+          "overwrite_with": {
+            "publish": true
+          }
+        },		
+        {
+          "name": "PLUGINNAME2",
+          "overwrite_with": {
+            "description": "xxxxx",
+            "specification": {
+              "categories": [],
+              "type": ""
+            },
+            "author": {
+              "name": "",
+              "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "yyz2"
+          }
+        }		
+	]
   }
