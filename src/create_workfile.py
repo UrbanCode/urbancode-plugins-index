@@ -551,33 +551,33 @@ def get_ucv_index_infos():
         json.dump(all_ucv_index_infos,f, indent=4)
     return all_ucv_index_infos
 
-dummyoverride = [{
-        "name": "dummyname",
-        "docs_folder": "dummyname",
-        "overwrite_with": {
-          "description": "xxxxx",
-          "specification": {
-            "categories": [],
-            "type": ""
-          },
-          "author": {
-            "name": "",
-            "email": ""
-          },
-          "publish": False,
-          "name": "newname",
-          "NEW_FOLDER_NAME": "yyz2"
-        }
+def get_dummyoverride():
+    return [{
+        # "name": "dummyname",
+        # "docs_folder": "dummyname",
+        # "overwrite_with": {
+        #   "description": "xxxxx",
+        #   "specification": {
+        #     "categories": [],
+        #     "type": ""
+        #   },
+        #   "author": {
+        #     "name": "",
+        #     "email": ""
+        #   },
+        #   "publish": False,
+        #   "name": "newname",
+        #   "NEW_FOLDER_NAME": "yyz2"
+        # }
       }]
 
 def get_override_info_for_plugin(pluginname, ucproduct):
-    overrideinfo = dummyoverride[0]
+    overrideinfo = get_dummyoverride()[0]
     logger1.debug(f"pluginname={pluginname}")
-    overrideinfo=get_override_info(ucproduct)
+    overrideinfo_LIST=get_override_info(ucproduct)
     logger1.debug(f"overrideinfo={overrideinfo}")
-    for item in overrideinfo:
+    for item in overrideinfo_LIST:
         logger1.debug(f"item={item}")
-        pluginname
         item_plugin_name=item.get(docutil.INFO_NAME, "")
         item_docs_folder=item.get(docutil.INFO_DOCS_FOLDER, "")
         logger1.debug(f"pluginname={pluginname} - item_plugin_name={item_plugin_name} - item_docs_folder={item_docs_folder}")
@@ -593,7 +593,7 @@ def get_override_info_for_plugin(pluginname, ucproduct):
 def get_override_info(forproduct):
     with open ("Overwrite-list.json", "r") as f:
         infojson = json.loads(f.read())
-    return infojson.get(forproduct, dummyoverride)
+    return infojson.get(forproduct, get_dummyoverride())
 
 def get_plugin_folder_name_from_doc_folder_name(docfoldername, all_plugin_folder_names, ucproduct):
     lowercase_pluginfolder_list = [x.lower() for x in all_plugin_folder_names]
