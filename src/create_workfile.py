@@ -650,8 +650,7 @@ def build_list(docs, files, ucproduct):
         oneplugin[docutil.INFO_DOC_FILES] = get_all_doc_files(f"{docs}/{docitem}")
         logger1.debug(f"oneplugin={oneplugin}")
 
-        if (oneplugin[docutil.INFO_SOURCE_PROJECT] == "") and (oneplugin[docutil.INFO_PLUGIN_FOLDER] == "" ): oneplugin[docutil.PUBLISH]=False
-
+        oneplugin[docutil.PUBLISH] = get_publish_state(oneplugin, ucproduct)
         listofplugins.append(oneplugin)
 
     for plugitem in all_plugin_files_dir_name:
@@ -660,7 +659,7 @@ def build_list(docs, files, ucproduct):
             oneplugin[docutil.INFO_NAME] = DOCS_NOT_FOUND
             oneplugin[docutil.INFO_PLUGIN_FOLDER] = plugitem
             oneplugin[PLUGIN_FILES]=get_list_and_info_of_plugin_files(f"{files}/{plugitem}",ucproduct, plugitem.lower(),all_ucv_index_infos )
-            if (oneplugin[docutil.INFO_SOURCE_PROJECT] == "") and (oneplugin[docutil.INFO_PLUGIN_FOLDER] == "" ): oneplugin[docutil.PUBLISH]=False
+            oneplugin[docutil.PUBLISH] = get_publish_state(oneplugin, ucproduct)
             listofplugins.append(oneplugin)        
     return listofplugins
 
