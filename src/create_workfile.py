@@ -542,8 +542,8 @@ def get_ucv_index_infos():
 
         oneplugin[docutil.INFO_NAME] = infojson.get("name")
         oneplugin[docutil.INFO_DESCRIPTION] = infojson.get("description")
-        oneplugin[docutil.INFO_PLUGIN_FOLDER] = ucv_plugin
-        oneplugin[NEW_FOLDER_NAME]=str(ucv_plugin).lower()
+        # oneplugin[docutil.INFO_PLUGIN_FOLDER] = ucv_plugin
+        # oneplugin[NEW_FOLDER_NAME]=str(ucv_plugin).lower()
         oneplugin[PLUGIN_FILES] = files
         all_ucv_index_infos.append(oneplugin)
     # logger1.info(f"all ucv index infos={all_ucv_index_infos}")
@@ -684,7 +684,7 @@ def get_workfile(config, product):
 def main():
     config = ucutil.get_config()
 
-    for product in  ["UCD"]:                         # ["UCR", "UCV"]: #["UCB", "UCD", "UCR", "UCV"]:
+    for product in ["UCB", "UCD", "UCR", "UCV"]:                         # ["UCR", "UCV"]: #["UCB", "UCD", "UCR", "UCV"]:
         with open(f"{product}-list.json", "w") as f:
             adict = get_workfile(config, product)
             json.dump(adict,f, indent=4)
