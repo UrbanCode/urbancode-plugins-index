@@ -603,11 +603,13 @@ def get_plugin_folder_name_from_doc_folder_name(docfoldername, all_plugin_folder
     return pluginfoldername
 
 def get_publish_state(oneplugin, ucproduct):
+    pstate = True
     overrideinfo = get_override_info_for_plugin(oneplugin[docutil.INFO_NAME], ucproduct)
     overridewith = overrideinfo.get("overwrite_with", {})
     override_state = overridewith.get(docutil.PUBLISH, "")
     if override_state == "":
-        pstate = not ((oneplugin[docutil.INFO_SOURCE_PROJECT] == "") and (oneplugin[docutil.INFO_PLUGIN_FOLDER] == "" ))
+        if (oneplugin[docutil.INFO_SOURCE_PROJECT] == "") and (oneplugin[docutil.INFO_PLUGIN_FOLDER] == "" ):
+            pstate = False
     else:
         pstate = override_state
 
