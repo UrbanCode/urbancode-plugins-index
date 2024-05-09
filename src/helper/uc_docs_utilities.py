@@ -169,11 +169,13 @@ def get_plugin_folder_from_readme(plugin_doc_path):
 
 def get_source_repository_from_file(filename):
     source_repo_url = ""
+    searchstring="[source project]("
     with open(filename) as file:
        for line in file:
-        if "[Source project](" in line:
-            print ("found the line")
-            splitted = line.split("[Source project](")
+        lowerline=line.lower()
+        if searchstring in lowerline:
+            logger1.debug(f"searchstring={searchstring} found in line={lowerline}")
+            splitted = lowerline.split(searchstring)
             source_repo_url = splitted[1].strip()[:-1]
             break
     return source_repo_url

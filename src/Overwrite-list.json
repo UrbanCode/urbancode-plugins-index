@@ -38,7 +38,21 @@
             "specification": {
                 "categories": [],
                 "type": "Community"
-            },
+            }
+          }
+        },
+        {
+          "name": "DBmaestro",
+		  "docs_folder": "dbmaestro",
+          "overwrite_with": {
+            "publish": true
+          }
+        },
+        {
+          "name": "eggPlant",
+		  "docs_folder": "eggplant",
+          "overwrite_with": {
+            "publish": true
           }
         },
         {

@@ -570,6 +570,19 @@ dummyoverride = [{
         }
       }]
 
+def get_override_info_for_plugin(pluginname, ucproduct):
+    overrideinfo=get_override_info(ucproduct)
+    logger1.debug(f"overrideinfo={overrideinfo}")
+    for item in overrideinfo:
+        logger1.debug(f"item={item}")
+        pluginname
+        item_plugin_name=item.get(docutil.INFO_NAME, "")
+        item_docs_folder=item.get(docutil.INFO_DOCS_FOLDER, "")
+        logger1.debug(f"item_plugin_name={item_plugin_name} - item_docs_folder={item_docs_folder}")
+        if (item_docs_folder == pluginname) or (item_plugin_name == pluginname):
+            return item
+    return dummyoverride[0]
+
 def get_override_info(forproduct):
     with open ("Overwrite-list.json", "r") as f:
         infojson = json.loads(f.read())
@@ -584,16 +597,21 @@ def get_plugin_folder_name_from_doc_folder_name(docfoldername, all_plugin_folder
         pluginfoldername = all_plugin_folder_names[index]
     else:
         # check now the override file
-        overrideinfo=get_override_info(ucproduct)
-        logger1.debug(f"overrideinfo={overrideinfo}")
-        for item in overrideinfo:
-            logger1.debug(f"item={item}")
-            item_docs_folder=item.get(docutil.INFO_DOCS_FOLDER, "")
-            logger1.debug(f"item_docs_folder={item_docs_folder}")
-            if item_docs_folder == docfoldername:
-                overridewith=item.get("overwrite_with", {})
-                pluginfoldername = overridewith.get(docutil.INFO_PLUGIN_FOLDER, "")
+        overrideinfo = get_override_info_for_plugin(docfoldername, ucproduct)
+        overridewith = overrideinfo.get("overwrite_with", {})
+        pluginfoldername = overridewith.get(docutil.INFO_PLUGIN_FOLDER, "")
     return pluginfoldername
+
+def get_publish_state(oneplugin, ucproduct):
+    overrideinfo = get_override_info_for_plugin(oneplugin[docutil.INFO_NAME], ucproduct)
+    overridewith = overrideinfo.get("overwrite_with", {})
+    override_state = overridewith.get(docutil.PUBLISH, "")
+    if override_state == "":
+        pstate = not ((oneplugin[docutil.INFO_SOURCE_PROJECT] == "") and (oneplugin[docutil.INFO_PLUGIN_FOLDER] == "" ))
+    else:
+        pstate = override_state
+
+    return pstate
 
 def build_list(docs, files, ucproduct):
     listofplugins=[]
