@@ -571,6 +571,8 @@ dummyoverride = [{
       }]
 
 def get_override_info_for_plugin(pluginname, ucproduct):
+    overrideinfo = dummyoverride[0]
+    logger1.debug(f"pluginname={pluginname}")
     overrideinfo=get_override_info(ucproduct)
     logger1.debug(f"overrideinfo={overrideinfo}")
     for item in overrideinfo:
@@ -578,10 +580,15 @@ def get_override_info_for_plugin(pluginname, ucproduct):
         pluginname
         item_plugin_name=item.get(docutil.INFO_NAME, "")
         item_docs_folder=item.get(docutil.INFO_DOCS_FOLDER, "")
-        logger1.debug(f"item_plugin_name={item_plugin_name} - item_docs_folder={item_docs_folder}")
-        if (item_docs_folder == pluginname) or (item_plugin_name == pluginname):
-            return item
-    return dummyoverride[0]
+        logger1.debug(f"pluginname={pluginname} - item_plugin_name={item_plugin_name} - item_docs_folder={item_docs_folder}")
+        if (pluginname.lower() == item_docs_folder.lower()):
+            overrideinfo = item
+            break
+        if (pluginname.lower() == item_plugin_name.lower()):
+            overrideinfo = item
+            break
+    logger1.info(f"overrideinfo={overrideinfo}")
+    return overrideinfo
 
 def get_override_info(forproduct):
     with open ("Overwrite-list.json", "r") as f:
@@ -606,13 +613,13 @@ def get_publish_state(oneplugin, ucproduct):
     pstate = True
     overrideinfo = get_override_info_for_plugin(oneplugin[docutil.INFO_NAME], ucproduct)
     overridewith = overrideinfo.get("overwrite_with", {})
-    override_state = overridewith.get(docutil.PUBLISH, "")
+    override_state = overridewith.get(docutil.PUBLISH, pstate)
     if override_state == "":
         if (oneplugin[docutil.INFO_SOURCE_PROJECT] == "") and (oneplugin[docutil.INFO_PLUGIN_FOLDER] == "" ):
             pstate = False
     else:
         pstate = override_state
-
+    logger1.debug(f"sourceprj={oneplugin[docutil.INFO_SOURCE_PROJECT]} - pluginfolder={oneplugin[docutil.INFO_PLUGIN_FOLDER]} - overridewith={overridewith} - overridestate={override_state}")
     return pstate
 
 def build_list(docs, files, ucproduct):
