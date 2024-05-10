@@ -3,7 +3,7 @@
         "name": "Accelerate Data Generator",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "acc-ext-generator",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Accelerate Data Generator",
         "specification": {
@@ -15,7 +15,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "acc-ext-generator",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -80,7 +79,7 @@
         "name": "HCL AppScan Enterprise (ASE)",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "appscanPlugin",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Allows UrbanCode Velocity to import AppScan scan results as metrics.",
         "specification": {
@@ -92,7 +91,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "appscanplugin",
         "PLUGIN_FILES": [
             {
                 "version": "2",
@@ -344,7 +342,7 @@
         "name": "HCL AppScan on Cloud (ASoC)",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "asocPlugin",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Allows UrbanCode Velocity to import ASoC scan results as metrics.",
         "specification": {
@@ -356,7 +354,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "asocplugin",
         "PLUGIN_FILES": [
             {
                 "version": "3",
@@ -692,7 +689,7 @@
         "name": "Black Duck",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "blackDuckPlugin",
+        "plugin_folder": "",
         "source_project": "",
         "description": "This is a plugin to handle Black Duck requirement for UrbanCode Velocity",
         "specification": {
@@ -704,7 +701,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "blackduckplugin",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -768,7 +764,7 @@
         "name": "Coverage Core",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "coverageCorePlugin",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Allows UrbanCode Velocity to import Coverage Core coverage reports as metrics.",
         "specification": {
@@ -780,7 +776,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "coveragecoreplugin",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -886,7 +881,7 @@
         "name": "Apache JMeter",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "jmeterPlugin",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Allows UrbanCode Velocity to import JMeter test results as metrics.",
         "specification": {
@@ -898,7 +893,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "jmeterplugin",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -1018,7 +1012,7 @@
         "name": "JUnit",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "junitPlugin",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Allows UrbanCode Velocity to import JUnit test results as metrics.",
         "specification": {
@@ -1030,7 +1024,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "junitplugin",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -1148,7 +1141,7 @@
         "name": "Microsoft Visual Studio Testing",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "msQualityPlugin",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Allows UrbanCode Velocity to import VS Quality test results as metrics.",
         "specification": {
@@ -1160,7 +1153,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "msqualityplugin",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -1238,7 +1230,7 @@
         "name": "HCL OneTest",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "onetestPlugin",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Allows UrbanCode Velocity to import OneTest test results as metrics.",
         "specification": {
@@ -1250,7 +1242,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "onetestplugin",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -1399,7 +1390,7 @@
         "name": "SonarQube",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "sonarqubePlugin",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Allows UrbanCode Velocity to handle incoming SonarQube data.",
         "specification": {
@@ -1411,7 +1402,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "sonarqubeplugin",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -1574,7 +1564,7 @@
         "name": "TestNG",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "testngPlugin",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Allows UrbanCode Velocity to import TestNG test results as metrics.",
         "specification": {
@@ -1586,7 +1576,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "testngplugin",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -1706,7 +1695,7 @@
         "name": "Twistlock",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "twistlockPlugin",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Allows UrbanCode Velocity to import Twistlock test results as metrics.",
         "specification": {
@@ -1718,7 +1707,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "twistlockplugin",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -1838,7 +1826,7 @@
         "name": "Digital.ai Agility",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-agility",
+        "plugin_folder": "",
         "source_project": "",
         "description": "The Digital.ai Agility plug-in imports and synchronizes work items from a Digital.ai Agility server.",
         "specification": {
@@ -1850,7 +1838,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-agility",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -1959,7 +1946,7 @@
         "name": "Aha!",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-aha",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Syncs features and releases related data from Aha!",
         "specification": {
@@ -1971,7 +1958,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-aha",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -1993,7 +1979,7 @@
         "name": "Azure DevOps",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-azure",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Allows UrbanCode Velocity to sync Azure DevOps resources.",
         "specification": {
@@ -2005,7 +1991,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-azure",
         "PLUGIN_FILES": [
             {
                 "version": "4",
@@ -2505,7 +2490,7 @@
         "name": "Bitbucket Cloud",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-bitbucket-cloud",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Synchronizes pull requests and commit data from a Bitbucket cloud instance.",
         "specification": {
@@ -2517,7 +2502,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-bitbucket-cloud",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -2626,7 +2610,7 @@
         "name": "Bitbucket Server",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-bitbucket-server",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Allows UrbanCode Velocity to sync Bitbucket resources.",
         "specification": {
@@ -2638,7 +2622,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-bitbucket-server",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -2893,7 +2876,7 @@
         "name": "Bottleneck Detection",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-bottleneck-detection",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Detect bottlenecks in a Velocity value stream",
         "specification": {
@@ -2905,7 +2888,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-bottleneck-detection",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -2970,7 +2952,7 @@
         "name": "CircleCI",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-circleci",
+        "plugin_folder": "",
         "source_project": "",
         "description": "The CircleCI plug-in imports and synchronizes CI/CD data from CircleCI.",
         "specification": {
@@ -2982,7 +2964,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-circleci",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -3049,7 +3030,7 @@
         "name": "Cucumber",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-cucumber",
+        "plugin_folder": "",
         "source_project": "",
         "description": "This is a plugin to handle incoming cucumber data",
         "specification": {
@@ -3061,7 +3042,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-cucumber",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -3153,7 +3133,7 @@
         "name": "GitHub Dependabot",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-dependabot",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Sync vulnerabilities data from Github.",
         "specification": {
@@ -3165,7 +3145,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-dependabot",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -3191,7 +3170,7 @@
         "name": "IBM Engineering Workflow Management (EWM)",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-ewm",
+        "plugin_folder": "",
         "source_project": "",
         "description": "The EWM plug-in imports work item from an IBM EWM respository as issues in the UrbanCode Velocity server.",
         "specification": {
@@ -3203,7 +3182,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-ewm",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -3316,7 +3294,7 @@
         "name": "Fortify SSC",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-fortify-ssc",
+        "plugin_folder": "",
         "source_project": "",
         "description": "The Fortify SSC plug-in handles incoming data from Fortify SSC server.",
         "specification": {
@@ -3328,7 +3306,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-fortify-ssc",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -3378,7 +3355,7 @@
         "name": "DevOps Velocity Data Generator",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-generator",
+        "plugin_folder": "",
         "source_project": "",
         "description": "DevOps Velocity Data Generator",
         "specification": {
@@ -3390,7 +3367,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-generator",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -3412,7 +3388,7 @@
         "name": "Github",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-github",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Allows UrbanCode Velocity to sync Github resources.",
         "specification": {
@@ -3424,7 +3400,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-github",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -3944,7 +3919,7 @@
         "name": "GitLab",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-gitlab",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Allows UrbanCode Velocity to sync commits and merge requests from GitLab.",
         "specification": {
@@ -3956,7 +3931,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-gitlab",
         "PLUGIN_FILES": [
             {
                 "version": "2",
@@ -4362,7 +4336,7 @@
         "name": "Handlebars Reporter",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-handlebars-reporter",
+        "plugin_folder": "",
         "source_project": "",
         "description": "This plugin will take a Handlebars template and a context generator to create UCV reports",
         "specification": {
@@ -4374,7 +4348,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-handlebars-reporter",
         "PLUGIN_FILES": [
             {
                 "version": "2",
@@ -4548,7 +4521,7 @@
         "name": "Jenkins",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-jenkins",
+        "plugin_folder": "",
         "source_project": "",
         "description": "The Jenkins plugin imports jobs and builds from a Jenkins server. It also runs Jenkins jobs as automation tasks.",
         "specification": {
@@ -4560,7 +4533,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-jenkins",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -4671,7 +4643,7 @@
         "name": "Jira",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-jira",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Allows UrbanCode Velocity to sync Jira resources.",
         "specification": {
@@ -4683,7 +4655,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-jira",
         "PLUGIN_FILES": [
             {
                 "version": "2",
@@ -5295,7 +5266,7 @@
         "name": "Jira Service Management",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-jira-service-management",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Imports incidents from a Jira Service Management instance.",
         "specification": {
@@ -5307,7 +5278,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-jira-service-management",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -5329,7 +5299,7 @@
         "name": "LeanKit",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-leankit",
+        "plugin_folder": "",
         "source_project": "",
         "description": "This plug-in imports data from LeanKit",
         "specification": {
@@ -5341,7 +5311,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-leankit",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -5364,7 +5333,7 @@
         "name": "Risk Estimator",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-milestone-risk-estimator",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Probabilistic Risk Estimator",
         "specification": {
@@ -5376,7 +5345,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-milestone-risk-estimator",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -5440,7 +5408,7 @@
         "name": "HCL OneTest Server",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-onetest-server",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Allows UrbanCode Velocity to import HCL OneTest Server scan results as metrics.",
         "specification": {
@@ -5452,7 +5420,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-onetest-server",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -5617,7 +5584,7 @@
         "name": "Rally",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-rally",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Allows UrbanCode Velocity to sync Rally resources.",
         "specification": {
@@ -5629,7 +5596,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-rally",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -5864,7 +5830,7 @@
         "name": "Rational Test Automation Server",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-rtas",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Allows UrbanCode Velocity to sync RTAS metrics.",
         "specification": {
@@ -5876,7 +5842,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-rtas",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -5970,7 +5935,7 @@
         "name": "SAP Charm",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-sap-charm",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Sync issue data from Jira and SAP.",
         "specification": {
@@ -5982,7 +5947,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-sap-charm",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -6004,7 +5968,7 @@
         "name": "ServiceNow",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-servicenow",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Allows UrbanCode Velocity to sync change requests and incident from ServiceNow.",
         "specification": {
@@ -6016,7 +5980,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-servicenow",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -6255,7 +6218,7 @@
         "name": "Shell",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-shell",
+        "plugin_folder": "",
         "source_project": "",
         "description": "This plugin will execute simple shell scripts",
         "specification": {
@@ -6267,7 +6230,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-shell",
         "PLUGIN_FILES": [
             {
                 "version": "0",
@@ -6317,7 +6279,7 @@
         "name": "Snyk",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-snyk",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Sync vulnerabilities data from Snyk.",
         "specification": {
@@ -6329,7 +6291,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-snyk",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -6353,7 +6314,7 @@
         "name": "UbranCode Deploy",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-ucd",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Sync applications, components, snapshots, environments, inventories, and application processes related data from UrbanCode Deploy server.",
         "specification": {
@@ -6365,7 +6326,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-ucd",
         "PLUGIN_FILES": [
             {
                 "version": "4",
@@ -6544,7 +6504,7 @@
         "name": "CollabNet VersionOne",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-versionone",
+        "plugin_folder": "",
         "source_project": "",
         "description": "Allows UrbanCode Velocity to sync work items from CollabNet VersionOne.",
         "specification": {
@@ -6556,7 +6516,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-versionone",
         "PLUGIN_FILES": [
             {
                 "version": "1",
@@ -6635,7 +6594,7 @@
         "name": "WhiteSource",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-whitesource",
+        "plugin_folder": "",
         "source_project": "",
         "description": "This plug-in imports data from WhiteSource",
         "specification": {
@@ -6647,7 +6606,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-whitesource",
         "PLUGIN_FILES": [
             {
                 "version": "2",
@@ -6671,7 +6629,7 @@
         "name": "YAML Executor",
         "docs_folder": "",
         "docsURL": "",
-        "plugin_folder": "ucv-ext-yaml-executor",
+        "plugin_folder": "",
         "source_project": "",
         "description": "YAML Executor plugin.",
         "specification": {
@@ -6683,7 +6641,6 @@
             "email": ""
         },
         "publish": true,
-        "NEW_FOLDER_NAME": "ucv-ext-yaml-executor",
         "PLUGIN_FILES": [
             {
                 "version": "0",

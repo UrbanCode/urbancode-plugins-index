@@ -2103,7 +2103,29 @@
                     "notes": [],
                     "supports": "",
                     "publish": "True",
-                    "description": "NOT PLUGIN FILE",
+                    "description": "MULTIVOLUME FILE",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "cloud-sync-1.0.792001.zip.002",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "MULTIVOLUME FILE",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "cloud-sync-1.0.792001.zip.003",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "MULTIVOLUME FILE",
                     "SORT_VERSION": ""
                 },
                 {

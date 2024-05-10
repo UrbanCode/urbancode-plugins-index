@@ -401,6 +401,11 @@ def get_info_from_zip_file(plugin_path, file, file_info, ucproduct, pluginnamefo
         return
     # if file extension is 00x then it is packed with 7zip -> extract and use extracted file for processing
     # TODO: implement handling of 7ziped files and multivolume 7zip files...
+    if (file_with_path.endswith(('.001', '.002', '.003', '.004', '.005'))):
+        logger1.info(f"multivolume zip file - {file_with_path}")
+        file_info[docutil.INFO_DESCRIPTION]="MULTIVOLUME FILE"
+        return       
+
     # if .001 in file_with_path -> use 7zip to unzip but not deep unzip     
     if (".7z" in file_with_path):
     # if (file_with_path.endswith(('.7z', '.001'))):
@@ -421,6 +426,7 @@ def get_info_from_zip_file(plugin_path, file, file_info, ucproduct, pluginnamefo
     # version info is "" also an indicator
     file_info[docutil.RELEASE_FILE]=file
     if (not zipfile.is_zipfile(file_with_path)):
+        logger1.info(f"not a zipfile - {file_with_path}")
         file_info[docutil.INFO_DESCRIPTION]="NOT PLUGIN FILE"
         return
 
@@ -663,6 +669,7 @@ def build_list(docs, files, ucproduct):
         listofplugins.append(oneplugin)
 
     for plugitem in all_plugin_files_dir_name:
+        logger1.debug(f"checking all plugin files item={plugitem}")
         if (plugitem.lower() not in (name.lower() for name in all_plugin_doc_dir_names)): # (plugitem not in all_plugin_doc_dir_names): # 
             oneplugin=docutil.get_info_template()
             oneplugin[docutil.INFO_NAME] = DOCS_NOT_FOUND

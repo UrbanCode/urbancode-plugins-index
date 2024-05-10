@@ -2,7 +2,7 @@
     "UCB": [
       {
         "name": "UrbanCode Velocity",
-	  	"docs_folder": "urbancode-velocity",
+	  	  "docs_folder": "urbancode-velocity",
         "overwrite_with": {
           "plugin_folder": "UCB-Velocity",
           "specification": {
@@ -15,24 +15,24 @@
       },
       {
         "name": "DOCS_NOT_FOUND",
-	  	"docs_folder": "",
-	  	"plugin_folder": "SonarQube",
+	  	  "docs_folder": "",
+	  	  "plugin_folder": "SonarQube",
         "overwrite_with": {
           "publish": false
         }
       },
       {
         "name": "DOCS_NOT_FOUND",
-	  	"docs_folder": "",
-	  	"plugin_folder": "uDeploy",
+	  	  "docs_folder": "",
+	  	  "plugin_folder": "uDeploy",
         "overwrite_with": {
           "publish": false
         }
       },
       {
         "name": "DOCS_NOT_FOUND",
-	  	"docs_folder": "",
-	  	"plugin_folder": "plugins-ucb-velocity",
+	  	  "docs_folder": "",
+	  	  "plugin_folder": "plugins-ucb-velocity",
         "overwrite_with": {
           "publish": false
         }
@@ -55,85 +55,59 @@
       }
     ],
 	"UCD": [
-        {
-          "name": "7-zip",
-		  "docs_folder": "7-zip",
-          "overwrite_with": {
-            "plugin_folder": "7zip",
-            "specification": {
-                "categories": [],
-                "type": "Community"
-            }
-          }
-        },
-        {
-          "name": "DBmaestro",
-		  "docs_folder": "dbmaestro",
-          "overwrite_with": {
-            "publish": true
-          }
-        },
-        {
-          "name": "eggPlant",
-		  "docs_folder": "eggplant",
-          "overwrite_with": {
-            "publish": true
-          }
-        },
-        {
-          "name": "IBM Db2 for z/OS Package",
-		  "docs_folder": "ibm-db2-for-z-os-package",
-          "overwrite_with": {
-            "plugin_folder": "DB2z"
-          }
-        },
-        {
-          "name": "IBM Maximo",
-		  "docs_folder": "ibm-maximo",
-          "overwrite_with": {
-            "plugin_folder": "maximo"
-          }
-        },
-        {
-          "name": "IBM Rational Quality Manager (RQM)",
-		  "docs_folder": "ibm-rational-quality-manager-rqm",
-          "overwrite_with": {
-            "plugin_folder": "RQM"
-          }
-        },
-        {
-          "name": "IBM Rational Team Concert - Build",
-		  "docs_folder": "ibm-rational-team-concert-build",
-          "overwrite_with": {
-            "publish": true
-          }
-        },		
-        {
-          "name": "PLUGINNAME2",
-          "overwrite_with": {
-            "description": "xxxxx",
-            "specification": {
+      {
+        "name": "7-zip",
+        "docs_folder": "7-zip",
+        "overwrite_with": {
+          "plugin_folder": "7zip",
+          "specification": {
               "categories": [],
-              "type": ""
-            },
-            "author": {
-              "name": "",
-              "email": ""
-            },
-            "publish": true,
-            "NEW_FOLDER_NAME": "yyz2"
+              "type": "Community"
           }
-        }		
-	],
-    "UCV": [
-        {
-          "name": "DOCS_NOT_FOUND",
-		  "docs_folder": "",
-		  "plugin_folder": "CICS",
-          "overwrite_with": {
-            "publish": false
-          }
-        },
+        }
+      },
+      {
+        "name": "DBmaestro",
+        "docs_folder": "dbmaestro",
+        "overwrite_with": {
+          "publish": true
+        }
+      },
+      {
+        "name": "eggPlant",
+        "docs_folder": "eggplant",
+        "overwrite_with": {
+          "publish": true
+        }
+      },
+      {
+        "name": "IBM Db2 for z/OS Package",
+        "docs_folder": "ibm-db2-for-z-os-package",
+        "overwrite_with": {
+          "plugin_folder": "DB2z"
+        }
+      },
+      {
+        "name": "IBM Maximo",
+        "docs_folder": "ibm-maximo",
+        "overwrite_with": {
+          "plugin_folder": "maximo"
+        }
+      },
+      {
+        "name": "IBM Rational Quality Manager (RQM)",
+        "docs_folder": "ibm-rational-quality-manager-rqm",
+        "overwrite_with": {
+          "plugin_folder": "RQM"
+        }
+      },
+      {
+        "name": "IBM Rational Team Concert - Build",
+        "docs_folder": "ibm-rational-team-concert-build",
+        "overwrite_with": {
+          "publish": true
+        }
+      },		
       {
         "name": "PLUGINNAME2",
         "overwrite_with": {
@@ -149,6 +123,32 @@
           "publish": true,
           "NEW_FOLDER_NAME": "yyz2"
         }
+      }		
+	],
+  "UCV": [
+      {
+        "name": "DOCS_NOT_FOUND",
+        "docs_folder": "",
+        "plugin_folder": "CICS",
+        "overwrite_with": {
+          "publish": false
+        }
+      },
+      {
+        "name": "PLUGINNAME2",
+        "overwrite_with": {
+          "description": "xxxxx",
+          "specification": {
+            "categories": [],
+            "type": ""
+          },
+          "author": {
+            "name": "",
+            "email": ""
+          },
+          "publish": true,
+          "NEW_FOLDER_NAME": "yyz2"
       }
+    }
     ]
   }

@@ -53,10 +53,7 @@
             "plugin_folder": "ucv-ext-agility",
             "source_project": "",
             "description": "Digital.ai.Agility is Enterprise level planning and tracking platform to build agile practices that scale across the  enterprise.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -155,10 +152,7 @@
             "plugin_folder": "ucv-ext-appscan",
             "source_project": "",
             "description": "AppScan Enterprise delivers scalable application security testing and risk management capabilities, to help enterprises  manage risk and compliance. AppScan enables security, DevOps teams to collaborate, establish policies, and perform  testing throughout the application development lifecycle. The AppScan Enterprise plug-in imports scan results to  insights.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -286,9 +280,37 @@
                 },
                 {
                     "version": "2",
+                    "semver": "2.0.48",
+                    "date": "2023.09.25 10:52",
+                    "file": "ucv-ext-appscan:2.0.48.tar.7z.002",
+                    "notes": [
+                        "<b>Feature Enhancement:</b> sync new scan from lastSyncDate for any application"
+                    ],
+                    "supports": "2.5.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000000000048",
+                    "image": "urbancode/ucv-ext-appscan:2.0.48"
+                },
+                {
+                    "version": "2",
                     "semver": "2.0.51",
                     "date": "2024.04.04 08:34",
                     "file": "ucv-ext-appscan:2.0.51.tar.7z.001",
+                    "notes": [
+                        "<b>Bug Fix:</b> In earlier version of plugin data into HCL AppScan Enterprise Issues metrics was not showing in VSM."
+                    ],
+                    "supports": "2.5.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000000000051",
+                    "image": "urbancode/ucv-ext-appscan:2.0.51"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.0.51",
+                    "date": "2024.04.04 08:34",
+                    "file": "ucv-ext-appscan:2.0.51.tar.7z.002",
                     "notes": [
                         "<b>Bug Fix:</b> In earlier version of plugin data into HCL AppScan Enterprise Issues metrics was not showing in VSM."
                     ],
@@ -333,10 +355,7 @@
             "plugin_folder": "ucv-ext-asoc",
             "source_project": "",
             "description": "HCL AppScan on Cloud (ASoC) is an application security offering that allows you to scan a web URL for security  vulnerabilities.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -537,10 +556,7 @@
             "plugin_folder": "ucv-ext-azure",
             "source_project": "",
             "description": "Azure DevOps (formerly Microsoft Team Foundation Server (TFS) or Microsoft TFS)provides services to manage end-to-end  flow of a development project. It contains services to share code, track work, and ship software.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -716,6 +732,20 @@
                     "description": "",
                     "SORT_VERSION": "000000040000000000000040",
                     "image": "urbancode/ucv-ext-azure:4.0.40"
+                },
+                {
+                    "version": "4",
+                    "semver": "4.0.40",
+                    "date": "2023.02.16 05:58",
+                    "file": "ucv-ext-azure:4.0.40.tar.7z.002",
+                    "notes": [
+                        "<b>Minor Bug Fix</b>"
+                    ],
+                    "supports": "2.5.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000040000000000000040",
+                    "image": "urbancode/ucv-ext-azure:4.0.40"
                 }
             ],
             "docFiles": [
@@ -752,10 +782,7 @@
             "plugin_folder": "ucv-ext-bitbucket-cloud",
             "source_project": "",
             "description": "BitBucket Cloud is a source code version control repository hosting service owned by Atlassian. It contains tools to manage source code for a project.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -899,10 +926,7 @@
             "plugin_folder": "ucv-ext-bitbucket-server",
             "source_project": "",
             "description": "BitBucket Server is a source code version control repository hosting service owned by Atlassian. It contains tools to manage source code for a project.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -1093,10 +1117,7 @@
             "plugin_folder": "ucv-ext-blackduck",
             "source_project": "",
             "description": "Black Duck by Synopsys identifies open source related vulnerabilities in applications and containers. It tracks the open  source in code, mitigate security and license compliance, and automates enforcing open source policies.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -1167,10 +1188,7 @@
             "plugin_folder": "ucv-ext-circleci",
             "source_project": "",
             "description": "CircleCI is a modern continuous integration and continuous delivery (CI/CD) platform. CircleCI automates build, test, and deployment of software.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -1291,10 +1309,7 @@
             "plugin_folder": "ucv-ext-coverage-core",
             "source_project": "",
             "description": "The Code Coverage plug-in allows for parsing of data from several code coverage tool. Included are LCOV, Cobertura,  JaCoCo, and Clover data.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -1302,6 +1317,28 @@
             "publish": true,
             "NEW_FOLDER_NAME": "ucv-ext-coverage-core",
             "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-coverage-core:1.0.42.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-coverage-core:1.0.42.tar.7z.002",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
                 {
                     "version": "1",
                     "semver": "1.0.30",
@@ -1351,10 +1388,7 @@
             "plugin_folder": "ucv-ext-cucumber",
             "source_project": "",
             "description": "Cucumber is a software testing tool that runs automated acceptance tests written in a behavior-driven development (BDD)  style. BDD testing focuses on the behaviour of the product.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -1425,10 +1459,7 @@
             "plugin_folder": "ucv-ext-dependabot",
             "source_project": "",
             "description": "Github Dependabot plug-in scans package dependency vulnerabilities as Dependabot alerts from GitHub.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -1489,10 +1520,7 @@
             "plugin_folder": "ucv-ext-ewm",
             "source_project": "",
             "description": "The IBM Engineering Workflow Management (EWM) plug-in, previously known as the IBM Rational Team Concert, provides  integration with the IBM Workflow Management (EWM) server. This plug-in imports work items from an IBM EWM server to an  DevOps Velocity value stream map.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -1581,10 +1609,7 @@
             "plugin_folder": "ucv-ext-fortify-ssc",
             "source_project": "",
             "description": "Fortify Software security center (SSC) enables teams with the application security program automation capabilities. It enables to manage, develop, and provide security for the software protection activities.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -1655,10 +1680,7 @@
             "plugin_folder": "ucv-ext-github",
             "source_project": "",
             "description": "GitHub is a Git repository hosting service. It provides tools to manage artifacts on the Git repository. The GitHub  plug-in imports Git artifacts based on queries for issues, commits and pull requests.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -1898,9 +1920,37 @@
                 },
                 {
                     "version": "1",
+                    "semver": "1.4.7",
+                    "date": "2023.09.08 12:45",
+                    "file": "ucv-ext-github:1.4.7.tar.7z.002",
+                    "notes": [
+                        "Wild Card feature for additional branches field in GitHub Plugin"
+                    ],
+                    "supports": "2.6.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000400000007",
+                    "image": "urbancode/ucv-ext-github:1.4.7"
+                },
+                {
+                    "version": "1",
                     "semver": "1.4.16",
                     "date": "2023.11.15 11:54",
                     "file": "ucv-ext-github:1.4.16.tar.7z.001",
+                    "notes": [
+                        "<b>Enhancement:</b> This enhancement modifies the plugins synchronization behavior following a failure. Previously, the plugin would resume syncing from the date of the last successful synchronization. Now, it has been updated to continue syncing commits, pull-requests, and issues from the point where it last synced before the failure. This change ensures more accurate and efficient data synchronization by reducing the likelihood of missing or duplicating data in cases where the plugin had partially synced before encountering an issue."
+                    ],
+                    "supports": "2.6.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000400000016",
+                    "image": "urbancode/ucv-ext-github:1.4.16"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.4.16",
+                    "date": "2023.11.15 11:54",
+                    "file": "ucv-ext-github:1.4.16.tar.7z.002",
                     "notes": [
                         "<b>Enhancement:</b> This enhancement modifies the plugins synchronization behavior following a failure. Previously, the plugin would resume syncing from the date of the last successful synchronization. Now, it has been updated to continue syncing commits, pull-requests, and issues from the point where it last synced before the failure. This change ensures more accurate and efficient data synchronization by reducing the likelihood of missing or duplicating data in cases where the plugin had partially synced before encountering an issue."
                     ],
@@ -1945,10 +1995,7 @@
             "plugin_folder": "ucv-ext-gitlab",
             "source_project": "",
             "description": "GitLab provides management of git repositories. The GitLab plug-in imports issues, commits, merge requests and builds  from a GitLab server.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -2211,6 +2258,20 @@
                     "description": "",
                     "SORT_VERSION": "000000020000000200000068",
                     "image": "urbancode/ucv-ext-gitlab:2.2.68"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.2.68",
+                    "date": "2024.03.07 03:41",
+                    "file": "ucv-ext-gitlab:2.2.68.tar.7z.002",
+                    "notes": [
+                        "<b>Minor bug fix:</b> Dynamically getting type of Issue."
+                    ],
+                    "supports": "2.5.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000200000068",
+                    "image": "urbancode/ucv-ext-gitlab:2.2.68"
                 }
             ],
             "docFiles": [
@@ -2247,10 +2308,7 @@
             "plugin_folder": "ucv-ext-handlebars-reporter",
             "source_project": "",
             "description": "Handlebars is a simple templating language. It can be used to generate HTML or other text formats from a template and  input object.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -2400,10 +2458,7 @@
             "plugin_folder": "ucv-ext-jenkins",
             "source_project": "",
             "description": "A new plug-in for Jenkins works as any other plug-ins of DevOps Velocity. The old plugin has been renamed to Jenkins (Legacy). The Jenkins plug-in pull jobs from Jenkins and provide as an Input to the release pipelines and as an automation task in deployment plan.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -2472,9 +2527,38 @@
                 },
                 {
                     "version": "1",
+                    "semver": "1.1.1",
+                    "date": "2023.08.18 14:56",
+                    "file": "ucv-ext-jenkins:1.1.1.tar.7z.002",
+                    "notes": [
+                        "Default initial sync to 30 days"
+                    ],
+                    "supports": "4.0.9",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000100000001",
+                    "image": "urbancode/ucv-ext-jenkins:1.1.1"
+                },
+                {
+                    "version": "1",
                     "semver": "1.1.2",
                     "date": "2023.10.12 04:38",
                     "file": "ucv-ext-jenkins:1.1.2.tar.7z.001",
+                    "notes": [
+                        "Added support for process parameters coming from Git Parameter and Active Choices plugins",
+                        "Warning logs added for skipping unsupported process parameters"
+                    ],
+                    "supports": "4.0.9",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000100000002",
+                    "image": "urbancode/ucv-ext-jenkins:1.1.2"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.1.2",
+                    "date": "2023.10.12 04:38",
+                    "file": "ucv-ext-jenkins:1.1.2.tar.7z.002",
                     "notes": [
                         "Added support for process parameters coming from Git Parameter and Active Choices plugins",
                         "Warning logs added for skipping unsupported process parameters"
@@ -2501,9 +2585,38 @@
                 },
                 {
                     "version": "1",
+                    "semver": "1.1.3",
+                    "date": "2023.11.15 05:25",
+                    "file": "ucv-ext-jenkins:1.1.3.tar.7z.002",
+                    "notes": [
+                        "Fix for Build-Revision mismatch in Jenkins Integration"
+                    ],
+                    "supports": "4.0.9",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000100000003",
+                    "image": "urbancode/ucv-ext-jenkins:1.1.3"
+                },
+                {
+                    "version": "1",
                     "semver": "1.1.5",
                     "date": "2024.02.19 19:25",
                     "file": "ucv-ext-jenkins:1.1.5.tar.7z.001",
+                    "notes": [
+                        "Fix xpath job filter",
+                        "Use correct username on task completion"
+                    ],
+                    "supports": "4.0.9",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000100000005",
+                    "image": "urbancode/ucv-ext-jenkins:1.1.5"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.1.5",
+                    "date": "2024.02.19 19:25",
+                    "file": "ucv-ext-jenkins:1.1.5.tar.7z.002",
                     "notes": [
                         "Fix xpath job filter",
                         "Use correct username on task completion"
@@ -2549,10 +2662,7 @@
             "plugin_folder": "ucv-ext-jira",
             "source_project": "",
             "description": "Jira is an issue tracking product, developed by Atlassian. The Jira plug-in provides an integration with Jira to import  and work with Jira work items.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -2565,6 +2675,17 @@
                     "semver": "0.0",
                     "date": "",
                     "file": "ucv-ext-jira:2.3.14.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jira:2.3.14.tar.7z.002",
                     "notes": [],
                     "supports": "",
                     "publish": "True",
@@ -2882,9 +3003,38 @@
                 },
                 {
                     "version": "2",
+                    "semver": "2.3.6",
+                    "date": "2023.08.01 05:34",
+                    "file": "ucv-ext-jira:2.3.6.tar.7z.002",
+                    "notes": [
+                        "<b>Bug Fix:</b> Earlier version of the Plugin could not handle 429 error (too many requests). Now it is handling it. "
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000300000006",
+                    "image": "urbancode/ucv-ext-jira:2.3.6"
+                },
+                {
+                    "version": "2",
                     "semver": "2.3.9",
                     "date": "2023.09.13 10:45",
                     "file": "ucv-ext-jira:2.3.9.tar.7z.001",
+                    "notes": [
+                        "Fixed version-check bug in jira plugin",
+                        "Resync functionality improved"
+                    ],
+                    "supports": "3.1.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000300000009",
+                    "image": "urbancode/ucv-ext-jira:2.3.9"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.3.9",
+                    "date": "2023.09.13 10:45",
+                    "file": "ucv-ext-jira:2.3.9.tar.7z.002",
                     "notes": [
                         "Fixed version-check bug in jira plugin",
                         "Resync functionality improved"
@@ -2911,9 +3061,37 @@
                 },
                 {
                     "version": "2",
+                    "semver": "2.3.10",
+                    "date": "2023.09.26 12:16",
+                    "file": "ucv-ext-jira:2.3.10.tar.7z.002",
+                    "notes": [
+                        "<b>Bug fix:</b>First automation task was failing and also updated integration configuration property description."
+                    ],
+                    "supports": "3.1.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000300000010",
+                    "image": "urbancode/ucv-ext-jira:2.3.10"
+                },
+                {
+                    "version": "2",
                     "semver": "2.3.12",
                     "date": "2024.01.11 10:25",
                     "file": "ucv-ext-jira:2.3.12.tar.7z.001",
+                    "notes": [
+                        "Added request timeout option"
+                    ],
+                    "supports": "3.1.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000300000012",
+                    "image": "urbancode/ucv-ext-jira:2.3.12"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.3.12",
+                    "date": "2024.01.11 10:25",
+                    "file": "ucv-ext-jira:2.3.12.tar.7z.002",
                     "notes": [
                         "Added request timeout option"
                     ],
@@ -2942,6 +3120,20 @@
                     "semver": "2.3.17",
                     "date": "2024.04.04 10:17",
                     "file": "ucv-ext-jira:2.3.17.tar.7z.001",
+                    "notes": [
+                        "<b>Bug fix:</b> Added Proxyserver changes"
+                    ],
+                    "supports": "3.1.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000300000017",
+                    "image": "urbancode/ucv-ext-jira:2.3.17"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.3.17",
+                    "date": "2024.04.04 10:17",
+                    "file": "ucv-ext-jira:2.3.17.tar.7z.002",
                     "notes": [
                         "<b>Bug fix:</b> Added Proxyserver changes"
                     ],
@@ -2986,10 +3178,7 @@
             "plugin_folder": "ucv-ext-jmeter",
             "source_project": "",
             "description": "Apache JMeter is a testing tool to analyze and measure web application performance. The JMeter plug-in imports the test results  data in DevOps Velocity metrics.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -3060,10 +3249,7 @@
             "plugin_folder": "ucv-ext-junit",
             "source_project": "",
             "description": "JUnit provides a testing framework for the Java programming language. The JUnit plug-in imports the test results data in  DevOps Velocity metrics.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -3134,10 +3320,7 @@
             "plugin_folder": "ucv-ext-leankit",
             "source_project": "",
             "description": "The Planview Leankit plugin processes incoming data from Planview LeanKit server.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -3195,10 +3378,7 @@
             "plugin_folder": "ucv-ext-milestone-risk-estimator",
             "source_project": "",
             "description": "The Milestone Risk Estimator plug-in represents an innovative Machine Learning(ML) solution designed to enhance value stream management by providing accurate sprint risk estimates. The projected outcomes are presented through metrics, enabling more effective sprint management for increased productivity.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -3222,6 +3402,62 @@
                     "semver": "1.0.1",
                     "date": "2023.12.05 09:35",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.001",
+                    "notes": [
+                        "Initial release for Milestone Risk Estimator plugin"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000001",
+                    "image": "urbancode/ucv-ext-milestone-risk-estimator:1.0.1"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.1",
+                    "date": "2023.12.05 09:35",
+                    "file": "ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.002",
+                    "notes": [
+                        "Initial release for Milestone Risk Estimator plugin"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000001",
+                    "image": "urbancode/ucv-ext-milestone-risk-estimator:1.0.1"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.1",
+                    "date": "2023.12.05 09:35",
+                    "file": "ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.003",
+                    "notes": [
+                        "Initial release for Milestone Risk Estimator plugin"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000001",
+                    "image": "urbancode/ucv-ext-milestone-risk-estimator:1.0.1"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.1",
+                    "date": "2023.12.05 09:35",
+                    "file": "ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.004",
+                    "notes": [
+                        "Initial release for Milestone Risk Estimator plugin"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000001",
+                    "image": "urbancode/ucv-ext-milestone-risk-estimator:1.0.1"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.1",
+                    "date": "2023.12.05 09:35",
+                    "file": "ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.005",
                     "notes": [
                         "Initial release for Milestone Risk Estimator plugin"
                     ],
@@ -3305,6 +3541,62 @@
                     "version": "1",
                     "semver": "1.0.3",
                     "date": "2023.12.12 11:04",
+                    "file": "ucv-ext-milestone-risk-estimator:1.0.3.tar.7z.002",
+                    "notes": [
+                        "<b>Bug fix</b>: Updated graphiql query PaginationInput to InsightsPaginationInput"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000003",
+                    "image": "urbancode/ucv-ext-milestone-risk-estimator:1.0.3"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.3",
+                    "date": "2023.12.12 11:04",
+                    "file": "ucv-ext-milestone-risk-estimator:1.0.3.tar.7z.003",
+                    "notes": [
+                        "<b>Bug fix</b>: Updated graphiql query PaginationInput to InsightsPaginationInput"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000003",
+                    "image": "urbancode/ucv-ext-milestone-risk-estimator:1.0.3"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.3",
+                    "date": "2023.12.12 11:04",
+                    "file": "ucv-ext-milestone-risk-estimator:1.0.3.tar.7z.004",
+                    "notes": [
+                        "<b>Bug fix</b>: Updated graphiql query PaginationInput to InsightsPaginationInput"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000003",
+                    "image": "urbancode/ucv-ext-milestone-risk-estimator:1.0.3"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.3",
+                    "date": "2023.12.12 11:04",
+                    "file": "ucv-ext-milestone-risk-estimator:1.0.3.tar.7z.005",
+                    "notes": [
+                        "<b>Bug fix</b>: Updated graphiql query PaginationInput to InsightsPaginationInput"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000003",
+                    "image": "urbancode/ucv-ext-milestone-risk-estimator:1.0.3"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.3",
+                    "date": "2023.12.12 11:04",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.3.tar.7z.006",
                     "notes": [
                         "<b>Bug fix</b>: Updated graphiql query PaginationInput to InsightsPaginationInput"
@@ -3362,6 +3654,62 @@
                     "semver": "1.0.4",
                     "date": "2024.01.31 10:14",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.4.tar.7z.001",
+                    "notes": [
+                        "<b>Bug fix</b>: Fix related to error logs getting while performing integration - INTERNAL SERVER ERROR"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000004",
+                    "image": "urbancode/ucv-ext-milestone-risk-estimator:1.0.4"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.4",
+                    "date": "2024.01.31 10:14",
+                    "file": "ucv-ext-milestone-risk-estimator:1.0.4.tar.7z.002",
+                    "notes": [
+                        "<b>Bug fix</b>: Fix related to error logs getting while performing integration - INTERNAL SERVER ERROR"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000004",
+                    "image": "urbancode/ucv-ext-milestone-risk-estimator:1.0.4"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.4",
+                    "date": "2024.01.31 10:14",
+                    "file": "ucv-ext-milestone-risk-estimator:1.0.4.tar.7z.003",
+                    "notes": [
+                        "<b>Bug fix</b>: Fix related to error logs getting while performing integration - INTERNAL SERVER ERROR"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000004",
+                    "image": "urbancode/ucv-ext-milestone-risk-estimator:1.0.4"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.4",
+                    "date": "2024.01.31 10:14",
+                    "file": "ucv-ext-milestone-risk-estimator:1.0.4.tar.7z.004",
+                    "notes": [
+                        "<b>Bug fix</b>: Fix related to error logs getting while performing integration - INTERNAL SERVER ERROR"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000004",
+                    "image": "urbancode/ucv-ext-milestone-risk-estimator:1.0.4"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.4",
+                    "date": "2024.01.31 10:14",
+                    "file": "ucv-ext-milestone-risk-estimator:1.0.4.tar.7z.005",
                     "notes": [
                         "<b>Bug fix</b>: Fix related to error logs getting while performing integration - INTERNAL SERVER ERROR"
                     ],
@@ -3462,10 +3810,7 @@
             "plugin_folder": "ucv-ext-onetest",
             "source_project": "",
             "description": "",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -3543,6 +3888,20 @@
                     "description": "",
                     "SORT_VERSION": "000000010000000000000037",
                     "image": "urbancode/ucv-ext-onetest:1.0.37"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.37",
+                    "date": "2024.04.03 11:22",
+                    "file": "ucv-ext-onetest:1.0.37.tar.7z.002",
+                    "notes": [
+                        "<b>Rebranding:</b> Name of the plugin has been changed from HCL One Test to HCL DevOps Test."
+                    ],
+                    "supports": "2.5.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000037",
+                    "image": "urbancode/ucv-ext-onetest:1.0.37"
                 }
             ],
             "docFiles": [
@@ -3579,10 +3938,7 @@
             "plugin_folder": "ucv-ext-onetest-server",
             "source_project": "",
             "description": "",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -3651,6 +4007,20 @@
                 },
                 {
                     "version": "1",
+                    "semver": "1.0.26",
+                    "date": "2023.07.21 07:14",
+                    "file": "ucv-ext-onetest-server:1.0.26.tar.7z.002",
+                    "notes": [
+                        "<b>Minor bug fix:</b>Fixed bug related to test results URL generated in plugin."
+                    ],
+                    "supports": "2.5.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000026",
+                    "image": "urbancode/ucv-ext-onetest-server:1.0.26"
+                },
+                {
+                    "version": "1",
                     "semver": "1.0.27",
                     "date": "2024.04.09 09:34",
                     "file": "ucv-ext-onetest-server-1.0.2.tar.zip",
@@ -3668,6 +4038,20 @@
                     "semver": "1.0.27",
                     "date": "2024.04.09 09:34",
                     "file": "ucv-ext-onetest-server:1.0.27.tar.7z.001",
+                    "notes": [
+                        "<b>Rebranding</b>: Name of the plugin is changed from HCL OneTest Server to HCL DevOps Test Server."
+                    ],
+                    "supports": "2.5.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000027",
+                    "image": "urbancode/ucv-ext-onetest-server:1.0.27"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.27",
+                    "date": "2024.04.09 09:34",
+                    "file": "ucv-ext-onetest-server:1.0.27.tar.7z.002",
                     "notes": [
                         "<b>Rebranding</b>: Name of the plugin is changed from HCL OneTest Server to HCL DevOps Test Server."
                     ],
@@ -3712,10 +4096,7 @@
             "plugin_folder": "ucv-ext-rally",
             "source_project": "",
             "description": "Rally is an Agile project management tool for planning, scheduling, and tracking iterations and releases. The Rally  plug-in provides for integration with a Rally server. It imports Rally artifacts into the DevOps Velocity server.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -3856,10 +4237,7 @@
             "plugin_folder": "ucv-ext-rtas",
             "source_project": "",
             "description": "Rational Test Automation Server is a fully-containerized (Docker) server component used by test teams to consolidate  testing from each of the Test Workbench products into a single view.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -3910,6 +4288,22 @@
                     "description": "",
                     "SORT_VERSION": "000000010000000000000034",
                     "image": "urbancode/ucv-ext-rtas:1.0.34"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.34",
+                    "date": "2023.07.21 09:20",
+                    "file": "ucv-ext-rtas:1.0.34.tar.7z.002",
+                    "notes": [
+                        "<b>Minor bug fix:</b>Fixed bug related to test results URL generated in plugin.",
+                        "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
+                        "<b>Added WorkflowId:</b> Under the hidden properties section of add integration page for rational-test-automation-server plugin a Workflow ID field is added. This field is optional and can be used to provide HCL Accelerate WorkflowId - the ID of a Value Stream (VSM )to which rational-test-automation-server vulnerability data is associated."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000034",
+                    "image": "urbancode/ucv-ext-rtas:1.0.34"
                 }
             ],
             "docFiles": [
@@ -3946,10 +4340,7 @@
             "plugin_folder": "ucv-ext-sap-charm",
             "source_project": "",
             "description": "The SAP ChaRM plug-in will sync SAP Normal Changes in SAP's Change Request Management with Jira issues .",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -4006,10 +4397,7 @@
             "plugin_folder": "ucv-ext-servicenow",
             "source_project": "",
             "description": "The ServiceNow plug-in for IBM DevOps Velocity automates the importing of ServiceNow incident management(Beta),  change management and problem management data from a ServiceNow server.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -4100,9 +4488,38 @@
                 },
                 {
                     "version": "1",
+                    "semver": "1.0.42",
+                    "date": "2023.07.13 12:14",
+                    "file": "ucv-ext-servicenow:1.0.42.tar.7z.002",
+                    "notes": [
+                        "<b>Minor bug fix</b>: Fixed bug related to proxy server change and related to automation task execution."
+                    ],
+                    "supports": "2.5.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000042",
+                    "image": "urbancode/ucv-ext-servicenow:1.0.42"
+                },
+                {
+                    "version": "1",
                     "semver": "1.1.1",
                     "date": "2023.12.18 17:12",
                     "file": "ucv-ext-servicenow:1.1.1.tar.7z.001",
+                    "notes": [
+                        "Import incidents",
+                        "Add Incident creation automation task"
+                    ],
+                    "supports": "5.0.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000100000001",
+                    "image": "urbancode/ucv-ext-servicenow:1.1.1"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.1.1",
+                    "date": "2023.12.18 17:12",
+                    "file": "ucv-ext-servicenow:1.1.1.tar.7z.002",
                     "notes": [
                         "Import incidents",
                         "Add Incident creation automation task"
@@ -4132,6 +4549,23 @@
                 },
                 {
                     "version": "1",
+                    "semver": "1.1.2",
+                    "date": "2024.02.02 11:11",
+                    "file": "ucv-ext-servicenow:1.1.2.tar.7z.002",
+                    "notes": [
+                        "<b>Bug fix:</b> The previous version was failing to upload issues of large size.",
+                        "<b>Minor enhancement:</b> Previously, the number of issues per page was fixed, but now it is configurable. You can modify the number of issues per page to fetch.",
+                        "<b>Feature enhancement:</b> In automation task enabled to create and update change task.",
+                        "<b>Bug fix:</b>  Fixed issue related to syncing of change and problem in servicenow schedule event."
+                    ],
+                    "supports": "5.0.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000100000002",
+                    "image": "urbancode/ucv-ext-servicenow:1.1.2"
+                },
+                {
+                    "version": "1",
                     "semver": "1.1.3",
                     "date": "2024.02.27 10:52",
                     "file": "ucv-ext-servicenow:1.1.3.tar.7z.001",
@@ -4146,9 +4580,40 @@
                 },
                 {
                     "version": "1",
+                    "semver": "1.1.3",
+                    "date": "2024.02.27 10:52",
+                    "file": "ucv-ext-servicenow:1.1.3.tar.7z.002",
+                    "notes": [
+                        "<b>Minor bug fix:</b> Earlier plugin was unable to resync when incident is resolved"
+                    ],
+                    "supports": "5.0.2",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000100000003",
+                    "image": "urbancode/ucv-ext-servicenow:1.1.3"
+                },
+                {
+                    "version": "1",
                     "semver": "1.1.4",
                     "date": "2024.04.16 11:10",
                     "file": "ucv-ext-servicenow:1.1.4.tar.7z.001",
+                    "notes": [
+                        "<b>Add initial sync</b>: Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync.",
+                        "<b>Resync functionality</b>: After integration plugin provides an option to perform either full resync or resync from selected date so that plugin resync again.",
+                        "<b>Output Property field added</b>: For automation task create change request and change task output property field is added which stores system id of change request when created and for change task output property is provided inside object under create change task field.",
+                        "<b>Wait change task</b>: A new automation task is created for waiting change task."
+                    ],
+                    "supports": "5.0.2",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000100000004",
+                    "image": "urbancode/ucv-ext-servicenow:1.1.4"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.1.4",
+                    "date": "2024.04.16 11:10",
+                    "file": "ucv-ext-servicenow:1.1.4.tar.7z.002",
                     "notes": [
                         "<b>Add initial sync</b>: Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync.",
                         "<b>Resync functionality</b>: After integration plugin provides an option to perform either full resync or resync from selected date so that plugin resync again.",
@@ -4196,10 +4661,7 @@
             "plugin_folder": "ucv-ext-shell",
             "source_project": "",
             "description": "The Shell plug-in for IBM DevOps Velocity automates the task in releases.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -4226,6 +4688,20 @@
                     "semver": "0.0.34",
                     "date": "2024.04.04 11:53",
                     "file": "ucv-ext-shell:0.0.34.tar.7z.001",
+                    "notes": [
+                        "<b>Minor enhancement in code</b>: Enabled to throw error logs while executing shell automation task."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000000000000000000034",
+                    "image": "urbancode/ucv-ext-shell:0.0.34"
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0.34",
+                    "date": "2024.04.04 11:53",
+                    "file": "ucv-ext-shell:0.0.34.tar.7z.002",
                     "notes": [
                         "<b>Minor enhancement in code</b>: Enabled to throw error logs while executing shell automation task."
                     ],
@@ -4276,10 +4752,7 @@
             "plugin_folder": "ucv-ext-snyk",
             "source_project": "",
             "description": "The Snyk plug-in scans GitHub , GitLab and Bitbucket repositories package dependency vulnerabilities from Snyk . Works on top of existing GiHub , GitLab or Bitbucket integraions.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -4338,10 +4811,7 @@
             "plugin_folder": "ucv-ext-sonarqube",
             "source_project": "",
             "description": "SonarQube is an open source tool suite to measure and analyze the quality of source code. It focuses on the following  code quality areas, which are referred to as the \u201c7 axes of code quality\u201d: comments, architecture and design,  duplication, coding rules, potential bugs, unit tests, and complexity.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -4444,10 +4914,7 @@
             "plugin_folder": "ucv-ext-testng",
             "source_project": "",
             "description": "TestNG is a testing framework for Java programming. This plug-in provides integration of testing results into the  DevOps Velocity server.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -4504,10 +4971,7 @@
             "plugin_folder": "ucv-ext-twistlock",
             "source_project": "",
             "description": "Twistlock provides container security. It is a rule-based access control policy system for Docker and Kubernetes  containers. The Twistlock plug-in imports the Twistlock data in DevOps Velocity metrics.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -4578,10 +5042,7 @@
             "plugin_folder": "ucv-ext-ucd",
             "source_project": "",
             "description": "",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -4674,10 +5135,38 @@
                     "image": "urbancode/ucv-ext-ucd:2.3.52"
                 },
                 {
+                    "version": "2",
+                    "semver": "2.3.52",
+                    "date": "2023.01.13 09:46",
+                    "file": "ucv-ext-ucd:2.3.52.tar.7z.002",
+                    "notes": [
+                        "<b>Internal Server Error Fix</b>: The urbancode deploy plugin was giving internal server error while syncing the application processes from the UCD server."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000300000052",
+                    "image": "urbancode/ucv-ext-ucd:2.3.52"
+                },
+                {
                     "version": "3",
                     "semver": "3.3.56",
                     "date": "2023.02.21 09:59",
                     "file": "ucv-ext-ucd:3.3.56.tar.7z.001",
+                    "notes": [
+                        "<b>Removed UrbanCode Deploy Status Task</b>: Assign status task is removed and made part of main UrbanCode Deploy Task as post deployment success or failure step for assigning Snapshot or Component Version status."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000030000000300000056",
+                    "image": "urbancode/ucv-ext-ucd:3.3.56"
+                },
+                {
+                    "version": "3",
+                    "semver": "3.3.56",
+                    "date": "2023.02.21 09:59",
+                    "file": "ucv-ext-ucd:3.3.56.tar.7z.002",
                     "notes": [
                         "<b>Removed UrbanCode Deploy Status Task</b>: Assign status task is removed and made part of main UrbanCode Deploy Task as post deployment success or failure step for assigning Snapshot or Component Version status."
                     ],
@@ -4734,6 +5223,20 @@
                 },
                 {
                     "version": "4",
+                    "semver": "4.0.2",
+                    "date": "2023.09.18 11:02",
+                    "file": "ucv-ext-ucd:4.0.2.tar.7z.002",
+                    "notes": [
+                        "Using version properties for mapping build.url parameter"
+                    ],
+                    "supports": "4.0.13",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000040000000000000002",
+                    "image": "urbancode/ucv-ext-ucd:4.0.2"
+                },
+                {
+                    "version": "4",
                     "semver": "4.0.3",
                     "date": "2023.11.29 10:29",
                     "file": "ucv-ext-ucd:4.0.3.tar.7z.001",
@@ -4748,9 +5251,37 @@
                 },
                 {
                     "version": "4",
+                    "semver": "4.0.3",
+                    "date": "2023.11.29 10:29",
+                    "file": "ucv-ext-ucd:4.0.3.tar.7z.002",
+                    "notes": [
+                        "Started uploading statuses to Snapshot and Component versions"
+                    ],
+                    "supports": "4.0.13",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000040000000000000003",
+                    "image": "urbancode/ucv-ext-ucd:4.0.3"
+                },
+                {
+                    "version": "4",
                     "semver": "4.0.4",
                     "date": "2024.04.10 09:04",
                     "file": "ucv-ext-ucd:4.0.4.tar.7z.001",
+                    "notes": [
+                        "<b>Rebranding</b>: Name of the plugin is changed from UrbanCode Deploy to IBM DevOps Deploy. "
+                    ],
+                    "supports": "4.0.13",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000040000000000000004",
+                    "image": "urbancode/ucv-ext-ucd:4.0.4"
+                },
+                {
+                    "version": "4",
+                    "semver": "4.0.4",
+                    "date": "2024.04.10 09:04",
+                    "file": "ucv-ext-ucd:4.0.4.tar.7z.002",
                     "notes": [
                         "<b>Rebranding</b>: Name of the plugin is changed from UrbanCode Deploy to IBM DevOps Deploy. "
                     ],
@@ -4795,10 +5326,7 @@
             "plugin_folder": "ucv-ext-versionone",
             "source_project": "",
             "description": "CollabNet VersionOne is a web-based project management tool. It manages the entire software development life cycle.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -4855,10 +5383,7 @@
             "plugin_folder": "ucv-ext-vs-quality",
             "source_project": "",
             "description": "Microsoft Visual Studio is a testing framework which is used to define and run unit tests to verify and maintain code integerty.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -4929,10 +5454,7 @@
             "plugin_folder": "ucv-ext-whitesource",
             "source_project": "",
             "description": "WhiteSource identifies all open source components and their dependencies in software. WhiteSource secures software from vulnerabilities and enforces license policies throughout the software development lifecycle.\n\nThe WhiteSource plug-in retrieves WhiteSource scan results and displays the License Risks and Security Vulnerabilities in IBM DevOps Velocity metric displays.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -4991,10 +5513,7 @@
             "plugin_folder": "ucv-ext-yaml-executor",
             "source_project": "",
             "description": "The YAML Executor plug-in automates the initial setup process for integrating different CI/CD tools into DevOps Velocity. You can define the integration configurations in a YAML file and apply it in DevOps Velocity to automate the integration process.",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
+            "specification": null,
             "author": {
                 "name": "",
                 "email": ""
@@ -5032,6 +5551,20 @@
                     "semver": "0.0.6",
                     "date": "2023.09.01 11:12",
                     "file": "ucv-ext-yaml-executor:0.0.6.tar.7z.001",
+                    "notes": [
+                        "Started using timeSpan for Initial Sync date."
+                    ],
+                    "supports": "4.0.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000000000000000000006",
+                    "image": "urbancode/ucv-ext-yaml-executor:0.0.6"
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0.6",
+                    "date": "2023.09.01 11:12",
+                    "file": "ucv-ext-yaml-executor:0.0.6.tar.7z.002",
                     "notes": [
                         "Started using timeSpan for Initial Sync date."
                     ],
@@ -5215,7 +5748,7 @@
                 "name": "",
                 "email": ""
             },
-            "publish": true,
+            "publish": false,
             "PLUGIN_FILES": [
                 {
                     "version": "0",
@@ -5245,7 +5778,7 @@
                 "name": "",
                 "email": ""
             },
-            "publish": true,
+            "publish": false,
             "PLUGIN_FILES": [
                 {
                     "version": "0",
@@ -5263,6 +5796,36 @@
                     "semver": "1.0.39",
                     "date": "2022.11.21 22:43",
                     "file": "acc-ext-generator:1.0.39.tar.7z.001",
+                    "notes": [
+                        "Support deletion of generated demo data",
+                        "Fix queries for plugins"
+                    ],
+                    "supports": "4.0.5",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000039",
+                    "image": "urbancode/acc-ext-generator:1.0.39"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.39",
+                    "date": "2022.11.21 22:43",
+                    "file": "acc-ext-generator:1.0.39.tar.7z.002",
+                    "notes": [
+                        "Support deletion of generated demo data",
+                        "Fix queries for plugins"
+                    ],
+                    "supports": "4.0.5",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000039",
+                    "image": "urbancode/acc-ext-generator:1.0.39"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.39",
+                    "date": "2022.11.21 22:43",
+                    "file": "acc-ext-generator:1.0.39.tar.7z.003",
                     "notes": [
                         "Support deletion of generated demo data",
                         "Fix queries for plugins"
@@ -5290,7 +5853,7 @@
                 "name": "",
                 "email": ""
             },
-            "publish": true,
+            "publish": false,
             "PLUGIN_FILES": [
                 {
                     "version": "0",
@@ -5441,13 +6004,27 @@
                 "name": "",
                 "email": ""
             },
-            "publish": true,
+            "publish": false,
             "PLUGIN_FILES": [
                 {
                     "version": "1",
                     "semver": "1.0.1",
                     "date": "2023.12.19 01:20",
                     "file": "ucv-ext-aha:1.0.1.tar.7z.001",
+                    "notes": [
+                        "Update business value of associated Jira items."
+                    ],
+                    "supports": "5.0.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000001",
+                    "image": "urbancode/ucv-ext-aha:1.0.1"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.1",
+                    "date": "2023.12.19 01:20",
+                    "file": "ucv-ext-aha:1.0.1.tar.7z.002",
                     "notes": [
                         "Update business value of associated Jira items."
                     ],
@@ -5474,13 +6051,27 @@
                 "name": "",
                 "email": ""
             },
-            "publish": true,
+            "publish": false,
             "PLUGIN_FILES": [
                 {
                     "version": "1",
                     "semver": "1.0.1",
                     "date": "2020.10.16 15:19",
                     "file": "ucv-ext-bottleneck-detection-1.0.1.tar.7z.001",
+                    "notes": [
+                        "Bug fix"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000001",
+                    "image": "urbancode/ucv-ext-bottleneck-detection:1.0.1"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.1",
+                    "date": "2020.10.16 15:19",
+                    "file": "ucv-ext-bottleneck-detection-1.0.1.tar.7z.002",
                     "notes": [
                         "Bug fix"
                     ],
@@ -5522,6 +6113,34 @@
                     "version": "1",
                     "semver": "1.0.2",
                     "date": "2020.12.08 07:31",
+                    "file": "ucv-ext-bottleneck-detection-1.0.2.tar.7z.002",
+                    "notes": [
+                        "Enhancement"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000002",
+                    "image": "urbancode/ucv-ext-bottleneck-detection:1.0.2"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.2",
+                    "date": "2020.12.08 07:31",
+                    "file": "ucv-ext-bottleneck-detection-1.0.2.tar.7z.003",
+                    "notes": [
+                        "Enhancement"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000002",
+                    "image": "urbancode/ucv-ext-bottleneck-detection:1.0.2"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.2",
+                    "date": "2020.12.08 07:31",
                     "file": "ucv-ext-bottleneck-detection-1.0.2.tar.txt",
                     "notes": [
                         "Enhancement"
@@ -5537,6 +6156,62 @@
                     "semver": "1.0.2",
                     "date": "2020.12.08 07:31",
                     "file": "ucv-ext-bottleneck-detection:1.0.2.tar.7z.001",
+                    "notes": [
+                        "Enhancement"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000002",
+                    "image": "urbancode/ucv-ext-bottleneck-detection:1.0.2"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.2",
+                    "date": "2020.12.08 07:31",
+                    "file": "ucv-ext-bottleneck-detection:1.0.2.tar.7z.002",
+                    "notes": [
+                        "Enhancement"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000002",
+                    "image": "urbancode/ucv-ext-bottleneck-detection:1.0.2"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.2",
+                    "date": "2020.12.08 07:31",
+                    "file": "ucv-ext-bottleneck-detection:1.0.2.tar.7z.003",
+                    "notes": [
+                        "Enhancement"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000002",
+                    "image": "urbancode/ucv-ext-bottleneck-detection:1.0.2"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.2",
+                    "date": "2020.12.08 07:31",
+                    "file": "ucv-ext-bottleneck-detection:1.0.2.tar.7z.004",
+                    "notes": [
+                        "Enhancement"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000002",
+                    "image": "urbancode/ucv-ext-bottleneck-detection:1.0.2"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.2",
+                    "date": "2020.12.08 07:31",
+                    "file": "ucv-ext-bottleneck-detection:1.0.2.tar.7z.005",
                     "notes": [
                         "Enhancement"
                     ],
@@ -5577,13 +6252,41 @@
                 "name": "",
                 "email": ""
             },
-            "publish": true,
+            "publish": false,
             "PLUGIN_FILES": [
                 {
                     "version": "1",
                     "semver": "1.0.47",
                     "date": "2023.12.08 17:05",
                     "file": "ucv-ext-generator:1.0.47.tar.7z.001",
+                    "notes": [
+                        "Renamed Plugin"
+                    ],
+                    "supports": "4.0.5",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000047",
+                    "image": "urbancode/ucv-ext-generator:1.0.47"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.47",
+                    "date": "2023.12.08 17:05",
+                    "file": "ucv-ext-generator:1.0.47.tar.7z.002",
+                    "notes": [
+                        "Renamed Plugin"
+                    ],
+                    "supports": "4.0.5",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000047",
+                    "image": "urbancode/ucv-ext-generator:1.0.47"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.47",
+                    "date": "2023.12.08 17:05",
+                    "file": "ucv-ext-generator:1.0.47.tar.7z.003",
                     "notes": [
                         "Renamed Plugin"
                     ],
@@ -5610,13 +6313,27 @@
                 "name": "",
                 "email": ""
             },
-            "publish": true,
+            "publish": false,
             "PLUGIN_FILES": [
                 {
                     "version": "1",
                     "semver": "1.0.1",
                     "date": "2023.12.19 01:36",
                     "file": "ucv-ext-jira-service-management:1.0.1.tar.7z.001",
+                    "notes": [
+                        "Sync incidents."
+                    ],
+                    "supports": "5.0.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000001",
+                    "image": "urbancode/ucv-ext-jira-service-management:1.0.1"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.1",
+                    "date": "2023.12.19 01:36",
+                    "file": "ucv-ext-jira-service-management:1.0.1.tar.7z.002",
                     "notes": [
                         "Sync incidents."
                     ],
@@ -5643,7 +6360,7 @@
                 "name": "",
                 "email": ""
             },
-            "publish": true,
+            "publish": false,
             "PLUGIN_FILES": [
                 {
                     "version": "0",
@@ -5673,7 +6390,7 @@
                 "name": "",
                 "email": ""
             },
-            "publish": true,
+            "publish": false,
             "PLUGIN_FILES": [
                 {
                     "version": "0",
@@ -5725,7 +6442,7 @@
                 "name": "",
                 "email": ""
             },
-            "publish": true,
+            "publish": false,
             "PLUGIN_FILES": [
                 {
                     "version": "0",
