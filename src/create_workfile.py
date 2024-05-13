@@ -47,6 +47,9 @@ NEW_FOLDER_NAME = "NEW_FOLDER_NAME"
 PLUGIN_FILES = "PLUGIN_FILES"
 README = "README.md"
 DOCS_NOT_FOUND = "DOCS_NOT_FOUND"
+NOT_PLUGIN_FILE = "NOT PLUGIN FILE"
+ERROR_FILE_DAMAGED = "ERROR FILE DAMAGED"
+MULTIVOLUME_FILE = "MULTIVOLUME FILE"
 
 def get_extended_release_template():
 
@@ -182,7 +185,7 @@ def get_categories(doc):
     return categories.get("category", []) if categories else []
 
 def get_content_from_file(file, zf, target_dir):
-    doc = {"pluginInfo": {'tool-description': "ERROR FILE DAMAGED"}}
+    doc = {"pluginInfo": {'tool-description': ERROR_FILE_DAMAGED}}
     logger1.info(f"accessing {file} from target_dir = {target_dir}")
     if (target_dir == ""):
         try:
@@ -385,18 +388,18 @@ def get_is_plugin_file(pluginnamefolder, file_with_path):
 
     if not(file_with_path.endswith(('.zip', '.7z', '.hpi'))): 
         isplugin = False
-        infodesc = "NOT PLUGIN FILE"
+        infodesc = NOT_PLUGIN_FILE
         return isplugin, infodesc
     
     if lower_pluginnamefolder in list_of_not_plugin_folders:
         isplugin = False
-        infodesc = "NOT PLUGIN FILE"
+        infodesc = NOT_PLUGIN_FILE
         return isplugin, infodesc
 
     for item in list_of_not_plugin_files:
         if item in lower_filepath:
             isplugin = False
-            infodesc = "NOT PLUGIN FILE - Samples"
+            infodesc = NOT_PLUGIN_FILE
             break
 
     return isplugin, infodesc
@@ -439,7 +442,7 @@ def get_info_from_zip_file(plugin_path, file, file_info, ucproduct, pluginnamefo
     # TODO: implement handling of 7ziped files and multivolume 7zip files...
     if (file_with_path.endswith(('.001', '.002', '.003', '.004', '.005'))):
         logger1.info(f"multivolume zip file - {file_with_path}")
-        file_info[docutil.INFO_DESCRIPTION]="MULTIVOLUME FILE"
+        file_info[docutil.INFO_DESCRIPTION]=MULTIVOLUME_FILE
         return       
 
     try:
@@ -452,17 +455,17 @@ def get_info_from_zip_file(plugin_path, file, file_info, ucproduct, pluginnamefo
                 target_directory = unzip_file(file_with_path)
                 logger1.debug(f"output of unzip_file={target_directory}")
                 if (target_directory == ""):
-                    file_info[docutil.INFO_DESCRIPTION]="ERROR FILE DAMAGED"
+                    file_info[docutil.INFO_DESCRIPTION]=ERROR_FILE_DAMAGED
                     file_info[docutil.PUBLISH]=False
                     logger1.error(f"ERROR file is damaged file={file_with_path}")
                     return
     except zipfile.BadZipfile:
-        file_info[docutil.INFO_DESCRIPTION]="ERROR FILE DAMAGED"
+        file_info[docutil.INFO_DESCRIPTION]=ERROR_FILE_DAMAGED
         file_info[docutil.PUBLISH]=False
         logger1.error(f"ERROR file is damaged file={file_with_path}")
         return
     except OSError as oserr:
-        file_info[docutil.INFO_DESCRIPTION]="ERROR FILE DAMAGED"
+        file_info[docutil.INFO_DESCRIPTION]=ERROR_FILE_DAMAGED
         file_info[docutil.PUBLISH]=False
         logger1.error(f"OS-ERROR file is damaged file={file_with_path}")
         return
@@ -483,7 +486,7 @@ def get_info_from_zip_file(plugin_path, file, file_info, ucproduct, pluginnamefo
             target_directory = unzip_file(file_with_path)
             logger1.debug(f"output of unzip_file={target_directory}")
             if (target_directory == ""):
-                file_info[docutil.INFO_DESCRIPTION]="ERROR FILE DAMAGED"
+                file_info[docutil.INFO_DESCRIPTION]=ERROR_FILE_DAMAGED
                 file_info[docutil.PUBLISH]=False
                 logger1.error(f"ERROR file is damaged file={file_with_path}")
                 return
