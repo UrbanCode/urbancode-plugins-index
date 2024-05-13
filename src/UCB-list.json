@@ -1791,6 +1791,17 @@
             "NEW_FOLDER_NAME": "fileutils",
             "PLUGIN_FILES": [
                 {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "FileUtils-43.752843.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": false,
+                    "description": "ERROR FILE DAMAGED",
+                    "SORT_VERSION": ""
+                },
+                {
                     "version": "27",
                     "semver": "27.357573",
                     "date": "2013.03.19 18:07",
@@ -1862,26 +1873,6 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
                     "SORT_VERSION": "0000004100697172",
-                    "type": "Automation",
-                    "categories": [
-                        "windows",
-                        "linux",
-                        "unix",
-                        "utility"
-                    ]
-                },
-                {
-                    "version": "43",
-                    "semver": "43.752843",
-                    "date": "2016.03.01 09:51",
-                    "file": "FileUtils-43.752843.zip",
-                    "notes": [
-                        "Added RPX dependency and English translations"
-                    ],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
-                    "SORT_VERSION": "0000004300752843",
                     "type": "Automation",
                     "categories": [
                         "windows",
@@ -7296,6 +7287,17 @@
             "NEW_FOLDER_NAME": "ibmucd",
             "PLUGIN_FILES": [
                 {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ibm-ucd-30.752054.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": false,
+                    "description": "ERROR FILE DAMAGED",
+                    "SORT_VERSION": ""
+                },
+                {
                     "version": "18",
                     "semver": "18.538542",
                     "date": "2014.07.15 09:20",
@@ -7392,20 +7394,6 @@
                     "description": "Release management and automation to improve speed, correctness, and traceability of complex application deployments.",
                     "SORT_VERSION": "0000002800719018",
                     "type": "deploy"
-                },
-                {
-                    "version": "30",
-                    "semver": "30.752054",
-                    "date": "2016.02.29 13:51",
-                    "file": "ibm-ucd-30.752054.zip",
-                    "notes": [
-                        "Add the ability to store artifacts in the IBM UrbanCode Deploy server. This requires UrbanCode Build 6.1.2.0 and UrbanCode Deploy 6.2.0.2."
-                    ],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "",
-                    "SORT_VERSION": "0000003000752054",
-                    "type": ""
                 },
                 {
                     "version": "30",
@@ -7976,81 +7964,6 @@
             "name": "DOCS_NOT_FOUND",
             "docs_folder": "",
             "docsURL": "",
-            "plugin_folder": "UCB-Velocity",
-            "source_project": "",
-            "description": "",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
-            "author": {
-                "name": "",
-                "email": ""
-            },
-            "publish": false,
-            "PLUGIN_FILES": [
-                {
-                    "version": "1",
-                    "semver": "1.1027750",
-                    "date": "2019.07.11 17:26",
-                    "file": "urbancode-velocity-1.1027750.zip",
-                    "notes": [
-                        "Initial release, providing the capability to upload build data to UrbanCode Velocity."
-                    ],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "",
-                    "SORT_VERSION": "0000000101027750",
-                    "type": ""
-                },
-                {
-                    "version": "2",
-                    "semver": "2.1030041",
-                    "date": "2019.08.09 12:56",
-                    "file": "urbancode-velocity-2.1030041.zip",
-                    "notes": [
-                        "Add revision to build data that is sent to UrbanCode Velocity."
-                    ],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "",
-                    "SORT_VERSION": "0000000201030041",
-                    "type": ""
-                },
-                {
-                    "version": "3",
-                    "semver": "3.1031015",
-                    "date": "2019.08.21 16:09",
-                    "file": "urbancode-velocity-3.1031015.zip",
-                    "notes": [
-                        "Fix for proper revision and requester name lookup."
-                    ],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "",
-                    "SORT_VERSION": "0000000301031015",
-                    "type": ""
-                },
-                {
-                    "version": "5",
-                    "semver": "5.1049716",
-                    "date": "2020.03.05 15:31",
-                    "file": "urbancode-velocity-5.1049716.zip",
-                    "notes": [
-                        "Revision to upload metrics data that is sent to UrbanCode Velocity."
-                    ],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "",
-                    "SORT_VERSION": "0000000501049716",
-                    "type": ""
-                }
-            ]
-        },
-        {
-            "name": "DOCS_NOT_FOUND",
-            "docs_folder": "",
-            "docsURL": "",
             "plugin_folder": "digital-experience",
             "source_project": "",
             "description": "",
@@ -8116,18 +8029,15 @@
             "publish": false,
             "PLUGIN_FILES": [
                 {
-                    "version": "2",
-                    "semver": "2.752902",
-                    "date": "2016.03.01 09:55",
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
                     "file": "dimensions-2.752902.zip",
-                    "notes": [
-                        "Update to a newer version of a library for HTTP communication."
-                    ],
+                    "notes": [],
                     "supports": "",
-                    "publish": "True",
-                    "description": "",
-                    "SORT_VERSION": "0000000200752902",
-                    "type": "SCM"
+                    "publish": false,
+                    "description": "ERROR FILE DAMAGED",
+                    "SORT_VERSION": ""
                 },
                 {
                     "version": "2",

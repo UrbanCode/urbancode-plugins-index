@@ -779,6 +779,20 @@
         "PLUGIN_FILES": [
             {
                 "version": "1",
+                "semver": "1.0.42",
+                "date": "2024.05.09 11:33",
+                "file": "",
+                "notes": [
+                    "<b>Feature enhancement</b>: Now core coverage plugin accepts user defined record name and dataset name in payload while hitting post call/curl command. If values are not provided by user it will accept default values given by the plugin."
+                ],
+                "supports": "",
+                "publish": "True",
+                "description": "",
+                "SORT_VERSION": "000000010000000000000042",
+                "image": "urbancode/ucv-ext-coverage-core:1.0.42"
+            },
+            {
+                "version": "1",
                 "semver": "1.0.38",
                 "date": "2022.06.06 16:14",
                 "file": "",

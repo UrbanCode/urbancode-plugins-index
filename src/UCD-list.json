@@ -18529,7 +18529,7 @@
                     "notes": [],
                     "supports": "",
                     "publish": "True",
-                    "description": "NOT PLUGIN FILE",
+                    "description": "NOT PLUGIN FILE - Samples",
                     "SORT_VERSION": ""
                 },
                 {
@@ -19628,7 +19628,7 @@
                     "notes": [],
                     "supports": "",
                     "publish": "True",
-                    "description": "NOT PLUGIN FILE - is a Sample",
+                    "description": "NOT PLUGIN FILE",
                     "SORT_VERSION": ""
                 },
                 {
@@ -19639,7 +19639,7 @@
                     "notes": [],
                     "supports": "",
                     "publish": "True",
-                    "description": "NOT PLUGIN FILE - is a Sample",
+                    "description": "NOT PLUGIN FILE",
                     "SORT_VERSION": ""
                 },
                 {
@@ -19650,7 +19650,7 @@
                     "notes": [],
                     "supports": "",
                     "publish": "True",
-                    "description": "NOT PLUGIN FILE - is a Sample",
+                    "description": "NOT PLUGIN FILE",
                     "SORT_VERSION": ""
                 },
                 {
@@ -19661,7 +19661,7 @@
                     "notes": [],
                     "supports": "",
                     "publish": "True",
-                    "description": "NOT PLUGIN FILE - is a Sample",
+                    "description": "NOT PLUGIN FILE",
                     "SORT_VERSION": ""
                 },
                 {
@@ -22939,6 +22939,17 @@
             "NEW_FOLDER_NAME": "air-plugin-rtc-scm",
             "PLUGIN_FILES": [
                 {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "air-plugin-RTC-scm-3.752064.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": false,
+                    "description": "ERROR FILE DAMAGED",
+                    "SORT_VERSION": ""
+                },
+                {
                     "version": "1",
                     "semver": "1.526059",
                     "date": "2014.05.29 09:29",
@@ -22964,22 +22975,6 @@
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000200640925",
-                    "type": "SCM"
-                },
-                {
-                    "version": "3",
-                    "semver": "3.752064",
-                    "date": "2016.02.29 14:01",
-                    "file": "air-plugin-RTC-scm-3.752064.zip",
-                    "notes": [
-                        "Fix 119504 - Updated import code to upgrade, instead of recreate, when version already exists.",
-                        "Import current state from a stream.",
-                        "Option to use Snapshot ID or Name when getLatestSnapshot(). Used in both default and auto. import functionality."
-                    ],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "",
-                    "SORT_VERSION": "0000000300752064",
                     "type": "SCM"
                 },
                 {
@@ -24142,7 +24137,7 @@
                 "name": "",
                 "email": ""
             },
-            "publish": true,
+            "publish": false,
             "NEW_FOLDER_NAME": "avnet-talos",
             "docFiles": [
                 {
@@ -24861,7 +24856,7 @@
                 "name": "",
                 "email": ""
             },
-            "publish": true,
+            "publish": false,
             "NEW_FOLDER_NAME": "cloudant",
             "docFiles": [
                 {
@@ -26320,7 +26315,7 @@
                 "name": "",
                 "email": ""
             },
-            "publish": true,
+            "publish": false,
             "NEW_FOLDER_NAME": "gradle",
             "docFiles": [
                 {
@@ -26512,8 +26507,8 @@
                     "file": "plugins-ibm-ace-1.1027140.zip",
                     "notes": [],
                     "supports": "",
-                    "publish": "True",
-                    "description": "NOT PLUGIN FILE",
+                    "publish": false,
+                    "description": "ERROR FILE DAMAGED",
                     "SORT_VERSION": ""
                 },
                 {
@@ -26758,7 +26753,7 @@
                     "notes": [],
                     "supports": "",
                     "publish": "True",
-                    "description": "NOT PLUGIN FILE",
+                    "description": "NOT PLUGIN FILE - Samples",
                     "SORT_VERSION": ""
                 },
                 {
@@ -26769,7 +26764,7 @@
                     "notes": [],
                     "supports": "",
                     "publish": "True",
-                    "description": "NOT PLUGIN FILE",
+                    "description": "NOT PLUGIN FILE - Samples",
                     "SORT_VERSION": ""
                 },
                 {
@@ -26780,7 +26775,7 @@
                     "notes": [],
                     "supports": "",
                     "publish": "True",
-                    "description": "NOT PLUGIN FILE",
+                    "description": "NOT PLUGIN FILE - Samples",
                     "SORT_VERSION": ""
                 },
                 {
@@ -26912,7 +26907,7 @@
                     "notes": [],
                     "supports": "",
                     "publish": "True",
-                    "description": "NOT PLUGIN FILE",
+                    "description": "NOT PLUGIN FILE - Samples",
                     "SORT_VERSION": ""
                 },
                 {
@@ -26923,7 +26918,7 @@
                     "notes": [],
                     "supports": "",
                     "publish": "True",
-                    "description": "NOT PLUGIN FILE",
+                    "description": "NOT PLUGIN FILE - Samples",
                     "SORT_VERSION": ""
                 },
                 {
@@ -27811,7 +27806,7 @@
                 "name": "",
                 "email": ""
             },
-            "publish": true,
+            "publish": false,
             "NEW_FOLDER_NAME": "ibm-rational-automation-framework-for-websphere",
             "docFiles": [
                 {
@@ -27867,19 +27862,15 @@
             "NEW_FOLDER_NAME": "ibm-rational-quality-manager-rqm",
             "PLUGIN_FILES": [
                 {
-                    "version": "4",
-                    "semver": "4.753298",
-                    "date": "2016.03.02 12:59",
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
                     "file": "RQM-4.753298.zip",
-                    "notes": [
-                        "Update RQMExecutionTool.jar to version 5 to provide support for specifying adapters by name.",
-                        "        Fixes APAR PI54019 Error using RQM version 3 in UCD 6.2.0"
-                    ],
+                    "notes": [],
                     "supports": "",
-                    "publish": "True",
-                    "description": "Rational Quality Manager",
-                    "SORT_VERSION": "0000000400753298",
-                    "type": "Automation"
+                    "publish": false,
+                    "description": "ERROR FILE DAMAGED",
+                    "SORT_VERSION": ""
                 }
             ],
             "docFiles": [
@@ -39936,40 +39927,6 @@
             "name": "DOCS_NOT_FOUND",
             "docs_folder": "",
             "docsURL": "",
-            "plugin_folder": "7zip",
-            "source_project": "",
-            "description": "",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
-            "author": {
-                "name": "",
-                "email": ""
-            },
-            "publish": true,
-            "PLUGIN_FILES": [
-                {
-                    "version": "2",
-                    "semver": "2.1100875",
-                    "date": "2021.03.04 10:53",
-                    "file": "7zip-2.1100875.zip",
-                    "notes": [
-                        "Support property file encryption."
-                    ],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "7zip is a file compression and expansion utility using a variety of compression algorithms.",
-                    "SORT_VERSION": "0000000201100875",
-                    "type": "Automation",
-                    "categories": "utility"
-                }
-            ]
-        },
-        {
-            "name": "DOCS_NOT_FOUND",
-            "docs_folder": "",
-            "docsURL": "",
             "plugin_folder": "AgentPropertiesCollector",
             "source_project": "",
             "description": "",
@@ -40973,213 +40930,6 @@
                     "description": "",
                     "SORT_VERSION": "0000001400718056",
                     "type": ""
-                }
-            ]
-        },
-        {
-            "name": "DOCS_NOT_FOUND",
-            "docs_folder": "",
-            "docsURL": "",
-            "plugin_folder": "DB2z",
-            "source_project": "",
-            "description": "",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
-            "author": {
-                "name": "",
-                "email": ""
-            },
-            "publish": true,
-            "PLUGIN_FILES": [
-                {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
-                    "file": "Db2-application-deployment-template-package-v4.zip",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "NOT PLUGIN FILE",
-                    "SORT_VERSION": ""
-                },
-                {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
-                    "file": "db2-application-deployment-template-package-v5.zip",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "NOT PLUGIN FILE",
-                    "SORT_VERSION": ""
-                },
-                {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
-                    "file": "v2/DB2-application-deployment-template-package.zip",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "NOT PLUGIN FILE",
-                    "SORT_VERSION": ""
-                },
-                {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
-                    "file": "v2/Deployment_of_DB2_applications_against_various_environments.pdf",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "NOT PLUGIN FILE",
-                    "SORT_VERSION": ""
-                },
-                {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
-                    "file": "v2/UTAgent.json",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "NOT PLUGIN FILE",
-                    "SORT_VERSION": ""
-                },
-                {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
-                    "file": "v2/UTBaseRes.json",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "NOT PLUGIN FILE",
-                    "SORT_VERSION": ""
-                },
-                {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
-                    "file": "v2/UTResComp.json",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "NOT PLUGIN FILE",
-                    "SORT_VERSION": ""
-                },
-                {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
-                    "file": "v2/UTResPrep.json",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "NOT PLUGIN FILE",
-                    "SORT_VERSION": ""
-                },
-                {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
-                    "file": "v2/deployDemoFVTEnv.json",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "NOT PLUGIN FILE",
-                    "SORT_VERSION": ""
-                },
-                {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
-                    "file": "v2/deployDemoProvEnv.json",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "NOT PLUGIN FILE",
-                    "SORT_VERSION": ""
-                },
-                {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
-                    "file": "v2/deployDemoRegEnv.json",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "NOT PLUGIN FILE",
-                    "SORT_VERSION": ""
-                },
-                {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
-                    "file": "v2/deployDemoUTEnv.json",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "NOT PLUGIN FILE",
-                    "SORT_VERSION": ""
-                },
-                {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
-                    "file": "v2/runDeployProvEnv.bat",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "NOT PLUGIN FILE",
-                    "SORT_VERSION": ""
-                },
-                {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
-                    "file": "v2/._Deployment_of_DB2_applications_against_various_environments.pdf",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "NOT PLUGIN FILE",
-                    "SORT_VERSION": ""
-                },
-                {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
-                    "file": "v3/DB2-application-deployment-template-package-v3.fix01.zip",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "NOT PLUGIN FILE",
-                    "SORT_VERSION": ""
-                },
-                {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
-                    "file": "v3/DB2-application-deployment-template-package-v3.zip",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "NOT PLUGIN FILE",
-                    "SORT_VERSION": ""
-                },
-                {
-                    "version": "1",
-                    "semver": "1.0",
-                    "date": "2014.12.18 10:13",
-                    "file": "DB2forzOS1.0.zip",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "DB2 for zOS plugin",
-                    "SORT_VERSION": "0000000100000000",
-                    "type": "Deploy"
                 }
             ]
         },
@@ -42503,8 +42253,8 @@
                     "file": "air-worklight-5.676803.zip",
                     "notes": [],
                     "supports": "",
-                    "publish": "True",
-                    "description": "NOT PLUGIN FILE",
+                    "publish": false,
+                    "description": "ERROR FILE DAMAGED",
                     "SORT_VERSION": ""
                 },
                 {
@@ -43617,40 +43367,6 @@
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000800000007",
-                    "type": "Automation"
-                }
-            ]
-        },
-        {
-            "name": "DOCS_NOT_FOUND",
-            "docs_folder": "",
-            "docsURL": "",
-            "plugin_folder": "RQM",
-            "source_project": "",
-            "description": "",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
-            "author": {
-                "name": "",
-                "email": ""
-            },
-            "publish": true,
-            "PLUGIN_FILES": [
-                {
-                    "version": "4",
-                    "semver": "4.753298",
-                    "date": "2016.03.02 12:59",
-                    "file": "RQM-4.753298.zip",
-                    "notes": [
-                        "Update RQMExecutionTool.jar to version 5 to provide support for specifying adapters by name.",
-                        "        Fixes APAR PI54019 Error using RQM version 3 in UCD 6.2.0"
-                    ],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "Rational Quality Manager",
-                    "SORT_VERSION": "0000000400753298",
                     "type": "Automation"
                 }
             ]
@@ -45632,41 +45348,6 @@
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000100919985"
-                }
-            ]
-        },
-        {
-            "name": "DOCS_NOT_FOUND",
-            "docs_folder": "",
-            "docsURL": "",
-            "plugin_folder": "maximo",
-            "source_project": "",
-            "description": "",
-            "specification": {
-                "categories": [],
-                "type": ""
-            },
-            "author": {
-                "name": "",
-                "email": ""
-            },
-            "publish": true,
-            "PLUGIN_FILES": [
-                {
-                    "version": "1",
-                    "semver": "1.1088514",
-                    "date": "2021.01.05 17:39",
-                    "file": "plugins-maximo-1.1088514.zip",
-                    "notes": [
-                        "Initial release. Installing this plugin will give you access to the steps listed below.",
-                        "      \t- Upload migration package",
-                        "      \t- Deploy migration package"
-                    ],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "",
-                    "SORT_VERSION": "0000000101088514",
-                    "type": ""
                 }
             ]
         },
