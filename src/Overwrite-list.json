@@ -1,154 +1,218 @@
 {
-    "UCB": [
-      {
-        "name": "UrbanCode Velocity",
-	  	  "docs_folder": "urbancode-velocity",
-        "overwrite_with": {
-          "plugin_folder": "UCB-Velocity",
-          "specification": {
-            "categories": [],
-            "type": ""
-          },
-          "NEW_FOLDER_NAME": "velocity",
-          "name": "DevOps Velocity"
-        }
-      },
-      {
-        "name": "DOCS_NOT_FOUND",
-	  	  "docs_folder": "",
-	  	  "plugin_folder": "SonarQube",
-        "overwrite_with": {
-          "publish": false
-        }
-      },
-      {
-        "name": "DOCS_NOT_FOUND",
-	  	  "docs_folder": "",
-	  	  "plugin_folder": "uDeploy",
-        "overwrite_with": {
-          "publish": false
-        }
-      },
-      {
-        "name": "DOCS_NOT_FOUND",
-	  	  "docs_folder": "",
-	  	  "plugin_folder": "plugins-ucb-velocity",
-        "overwrite_with": {
-          "publish": false
-        }
-      },
-      {
-        "name": "PLUGINNAME2",
-        "overwrite_with": {
-          "description": "xxxxx",
-          "specification": {
-            "categories": [],
-            "type": ""
-          },
-          "author": {
-            "name": "",
-            "email": ""
-          },
-          "publish": true,
-          "NEW_FOLDER_NAME": "yyz2"
-        }
-      }
-    ],
-	"UCD": [
-      {
-        "name": "7-zip",
-        "docs_folder": "7-zip",
-        "overwrite_with": {
-          "plugin_folder": "7zip",
-          "specification": {
-              "categories": [],
-              "type": "Community"
-          }
-        }
-      },
-      {
-        "name": "DBmaestro",
-        "docs_folder": "dbmaestro",
-        "overwrite_with": {
-          "publish": true
-        }
-      },
-      {
-        "name": "eggPlant",
-        "docs_folder": "eggplant",
-        "overwrite_with": {
-          "publish": true
-        }
-      },
-      {
-        "name": "IBM Db2 for z/OS Package",
-        "docs_folder": "ibm-db2-for-z-os-package",
-        "overwrite_with": {
-          "plugin_folder": "DB2z"
-        }
-      },
-      {
-        "name": "IBM Maximo",
-        "docs_folder": "ibm-maximo",
-        "overwrite_with": {
-          "plugin_folder": "maximo"
-        }
-      },
-      {
-        "name": "IBM Rational Quality Manager (RQM)",
-        "docs_folder": "ibm-rational-quality-manager-rqm",
-        "overwrite_with": {
-          "plugin_folder": "RQM"
-        }
-      },
-      {
-        "name": "IBM Rational Team Concert - Build",
-        "docs_folder": "ibm-rational-team-concert-build",
-        "overwrite_with": {
-          "publish": true
-        }
-      },		
-      {
-        "name": "PLUGINNAME2",
-        "overwrite_with": {
-          "description": "xxxxx",
-          "specification": {
-            "categories": [],
-            "type": ""
-          },
-          "author": {
-            "name": "",
-            "email": ""
-          },
-          "publish": true,
-          "NEW_FOLDER_NAME": "yyz2"
-        }
-      }		
+	"UCB": [
+		{
+			"name": "UrbanCode Velocity",
+			"docs_folder": "urbancode-velocity",
+			"overwrite_with": {
+				"plugin_folder": "UCB-Velocity",
+				"specification": {
+					"categories": [
+
+					],
+					"type": ""
+				},
+				"NEW_FOLDER_NAME": "velocity",
+				"name": "DevOps Velocity"
+			}
+		},
+		{
+			"name": "DOCS_NOT_FOUND",
+			"docs_folder": "",
+			"plugin_folder": "SonarQube",
+			"overwrite_with": {
+				"publish": false
+			}
+		},
+		{
+			"name": "DOCS_NOT_FOUND",
+			"docs_folder": "",
+			"plugin_folder": "uDeploy",
+			"overwrite_with": {
+				"publish": false
+			}
+		},
+		{
+			"name": "DOCS_NOT_FOUND",
+			"docs_folder": "",
+			"plugin_folder": "plugins-ucb-velocity",
+			"overwrite_with": {
+				"publish": false
+			}
+		},
+		{
+			"name": "PLUGINNAME2",
+			"overwrite_with": {
+				"description": "xxxxx",
+				"specification": {
+					"categories": [
+
+					],
+					"type": ""
+				},
+				"author": {
+					"name": "",
+					"email": ""
+				},
+				"publish": true,
+				"NEW_FOLDER_NAME": "yyz2"
+			}
+		}
 	],
-  "UCV": [
-      {
-        "name": "DOCS_NOT_FOUND",
-        "docs_folder": "",
-        "plugin_folder": "CICS",
-        "overwrite_with": {
-          "publish": false
-        }
-      },
-      {
-        "name": "PLUGINNAME2",
-        "overwrite_with": {
-          "description": "xxxxx",
-          "specification": {
-            "categories": [],
-            "type": ""
-          },
-          "author": {
-            "name": "",
-            "email": ""
-          },
-          "publish": true,
-          "NEW_FOLDER_NAME": "yyz2"
-      }
-    }
-    ]
-  }
+	"UCD": [
+		{
+			"name": "7-zip",
+			"docs_folder": "7-zip",
+			"overwrite_with": {
+				"plugin_folder": "7zip",
+				"specification": {
+					"categories": [
+
+					],
+					"type": "Community"
+				}
+			}
+		},
+		{
+			"name": "DBmaestro",
+			"docs_folder": "dbmaestro",
+			"overwrite_with": {
+				"publish": true
+			}
+		},
+		{
+			"name": "eggPlant",
+			"docs_folder": "eggplant",
+			"overwrite_with": {
+				"publish": true
+			}
+		},
+		{
+			"name": "IBM Db2 for z/OS Package",
+			"docs_folder": "ibm-db2-for-z-os-package",
+			"overwrite_with": {
+				"plugin_folder": "DB2z"
+			}
+		},
+		{
+			"name": "IBM Maximo",
+			"docs_folder": "ibm-maximo",
+			"overwrite_with": {
+				"plugin_folder": "maximo"
+			}
+		},
+		{
+			"name": "IBM Rational Quality Manager (RQM)",
+			"docs_folder": "ibm-rational-quality-manager-rqm",
+			"overwrite_with": {
+				"plugin_folder": "RQM"
+			}
+		},
+		{
+			"name": "IBM Rational Team Concert - Build",
+			"docs_folder": "ibm-rational-team-concert-build",
+			"overwrite_with": {
+				"publish": true
+			}
+		},
+		{
+			"name": "PLUGINNAME2",
+			"overwrite_with": {
+				"description": "xxxxx",
+				"specification": {
+					"categories": [
+
+					],
+					"type": ""
+				},
+				"author": {
+					"name": "",
+					"email": ""
+				},
+				"publish": true,
+				"NEW_FOLDER_NAME": "yyz2"
+			}
+		}
+	],
+	"UCR": [
+		{
+			"name": "IBM UrbanCode Deploy",
+			"docs_folder": "ibm-urbancode-deploy",
+			"overwrite_with": {
+				"plugin_folder": "ucr-plugin-deploy",
+				"specification": {
+					"categories": [
+
+					],
+					"type": ""
+				},
+				"NEW_FOLDER_NAME": "ucr-plugin-deploy",
+				"name": "DevOps Deploy"
+			}
+		},
+		{
+			"name": "DOCS_NOT_FOUND",
+			"docs_folder": "",
+			"plugin_folder": "ucr-plugin-uccloud",
+			"overwrite_with": {
+				"publish": false
+			}
+		},
+		{
+			"name": "ServiceNow",
+			"docs_folder": "servicenow-4",
+			"overwrite_with": {
+				"plugin_folder": "ucr-plugin-servicenow",
+				"specification": {
+					"categories": [
+
+					],
+					"type": ""
+				},
+				"NEW_FOLDER_NAME": "servicenow",
+				"name": "DevOps Deploy"
+			}
+		}
+	],
+	"UCV": [
+		{
+			"name": "Jenkins For DevOps Velocity",
+			"docs_folder": "urbancode-velocity",
+			"overwrite_with": {
+				"plugin_folder": "ucv-ext-jenkins",
+				"specification": {
+					"categories": [
+
+					],
+					"type": ""
+				},
+				"NEW_FOLDER_NAME": "ucv-ext-jenkins"
+			}
+		},
+		{
+			"name": "DOCS_NOT_FOUND",
+			"docs_folder": "",
+			"plugin_folder": "CICS",
+			"overwrite_with": {
+				"publish": false
+			}
+		},
+		{
+			"name": "PLUGINNAME2",
+			"overwrite_with": {
+				"description": "xxxxx",
+				"specification": {
+					"categories": [
+
+					],
+					"type": ""
+				},
+				"author": {
+					"name": "",
+					"email": ""
+				},
+				"publish": true,
+				"NEW_FOLDER_NAME": "yyz2"
+			}
+		}
+	]
+}

@@ -642,6 +642,15 @@ def get_override_info(forproduct):
         infojson = json.loads(f.read())
     return infojson.get(forproduct, get_dummyoverride())
 
+def get_all_override_plugin_folder_names(forproduct):
+    list_of_all_override_plugins=[]
+    all_overrides=get_override_info(forproduct)
+    for overrideinfo in all_overrides:
+        overridewith = overrideinfo.get("overwrite_with", {})
+        pluginfoldername = overridewith.get(docutil.INFO_PLUGIN_FOLDER, "")
+        if (pluginfoldername != ""): list_of_all_override_plugins.append(pluginfoldername)
+    return list_of_all_override_plugins
+
 def get_plugin_folder_name_from_doc_folder_name(docfoldername, all_plugin_folder_names, ucproduct):
     lowercase_pluginfolder_list = [x.lower() for x in all_plugin_folder_names]
     lowercase_docfoldername = docfoldername.lower()
@@ -660,18 +669,20 @@ def get_publish_state(oneplugin, ucproduct):
     pstate = True
     overrideinfo = get_override_info_for_plugin(oneplugin[docutil.INFO_NAME], ucproduct)
     overridewith = overrideinfo.get("overwrite_with", {})
-    override_state = overridewith.get(docutil.PUBLISH, pstate)
+    override_state = overridewith.get(docutil.PUBLISH, "")
     if override_state == "":
         if (oneplugin[docutil.INFO_SOURCE_PROJECT] == "") and (oneplugin[docutil.INFO_PLUGIN_FOLDER] == "" ):
             pstate = False
     else:
         pstate = override_state
+    # TODO: some ucv plugins have "This is not a plug-in." info in readme...
     logger1.debug(f"sourceprj={oneplugin[docutil.INFO_SOURCE_PROJECT]} - pluginfolder={oneplugin[docutil.INFO_PLUGIN_FOLDER]} - overridewith={overridewith} - overridestate={override_state}")
     return pstate
 
 def build_list(docs, files, ucproduct):
     listofplugins=[]
 
+    all_override_plugin_folder_names=get_all_override_plugin_folder_names(ucproduct)
     all_plugin_doc_dir_names=get_plugin_dir_names(docs)
     all_plugin_files_dir_name=get_plugin_dir_names(files)
     # all_ucv_index_infos=[]
@@ -708,15 +719,19 @@ def build_list(docs, files, ucproduct):
 
         oneplugin[docutil.PUBLISH] = get_publish_state(oneplugin, ucproduct)
         listofplugins.append(oneplugin)
-
+    # add overwrite info to all_plugin_doc_dir_names
     for plugitem in all_plugin_files_dir_name:
         logger1.debug(f"checking all plugin files item={plugitem}")
+        if (plugitem in all_override_plugin_folder_names): 
+            logger1.info(f"found pluginfoldername in overridename={plugitem}")
+            continue
         if (plugitem.lower() not in (name.lower() for name in all_plugin_doc_dir_names)): # (plugitem not in all_plugin_doc_dir_names): # 
             oneplugin=docutil.get_info_template()
             oneplugin[docutil.INFO_NAME] = DOCS_NOT_FOUND
             oneplugin[docutil.INFO_PLUGIN_FOLDER] = plugitem
             oneplugin[PLUGIN_FILES]=get_list_and_info_of_plugin_files(f"{files}/{plugitem}",ucproduct, plugitem.lower(),all_ucv_index_infos )
             oneplugin[docutil.PUBLISH] = get_publish_state(oneplugin, ucproduct)
+            oneplugin[docutil.INFO_PLUGIN_SPECIFICATION] = docutil.get_plugin_specification_template()
             listofplugins.append(oneplugin)        
     return listofplugins
 
@@ -732,7 +747,7 @@ def get_workfile(config, product):
 def main():
     config = ucutil.get_config()
 
-    for product in ["UCD"]:                         # ["UCR", "UCV"]: #["UCB", "UCD", "UCR", "UCV"]:
+    for product in ["UCB", "UCD", "UCR", "UCV"]:                         # ["UCR", "UCV"]: #["UCB", "UCD", "UCR", "UCV"]:
         with open(f"{product}-list.json", "w") as f:
             adict = get_workfile(config, product)
             json.dump(adict,f, indent=4)
