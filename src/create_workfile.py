@@ -48,6 +48,8 @@ PLUGIN_FILES = "PLUGIN_FILES"
 README = "README.md"
 DOCS_NOT_FOUND = "DOCS_NOT_FOUND"
 NOT_PLUGIN_FILE = "NOT PLUGIN FILE"
+NOT_PLUGIN_FILE_SPECIAL_PLUGIN = "NOT PLUGIN FILE - SPECIAL"
+NOT_PLUGIN_FILE_SAMPLE_OR_TEMPLATE = "NOT PLUGIN FILE - SAMPLE OR TEMPLATE"
 ERROR_FILE_DAMAGED = "ERROR FILE DAMAGED"
 MULTIVOLUME_FILE = "MULTIVOLUME FILE"
 
@@ -386,21 +388,34 @@ def get_is_plugin_file(pluginnamefolder, file_with_path):
     lower_pluginnamefolder = pluginnamefolder.lower()
     lower_filepath=file_with_path.lower()
 
+    # check if special plugin type
+    if lower_pluginnamefolder in list_of_not_plugin_folders:
+        isplugin = False
+        infodesc = NOT_PLUGIN_FILE_SPECIAL_PLUGIN
+        return isplugin, infodesc
+
+    # check if sample or templte
+    for item in list_of_not_plugin_files:
+        if item in lower_filepath:
+            isplugin = False
+            infodesc = NOT_PLUGIN_FILE_SAMPLE_OR_TEMPLATE
+            break
+    if not isplugin:
+        return isplugin, infodesc
+    
+    # check if multivolume files -> will be managed outside
+    if (file_with_path.endswith(('.001', '.002', '.003', '.004', '.005'))):
+        isplugin = True
+        infodesc = MULTIVOLUME_FILE
+        return isplugin, infodesc
+    
+    # check if is NOT a plugin in zip, 7z or jenkins plugin format -> not a plugin something else
     if not(file_with_path.endswith(('.zip', '.7z', '.hpi'))): 
         isplugin = False
         infodesc = NOT_PLUGIN_FILE
         return isplugin, infodesc
     
-    if lower_pluginnamefolder in list_of_not_plugin_folders:
-        isplugin = False
-        infodesc = NOT_PLUGIN_FILE
-        return isplugin, infodesc
-
-    for item in list_of_not_plugin_files:
-        if item in lower_filepath:
-            isplugin = False
-            infodesc = NOT_PLUGIN_FILE
-            break
+    # in the end the chances are very high that this is a plugin
 
     return isplugin, infodesc
 
@@ -434,17 +449,22 @@ def get_info_from_zip_file(plugin_path, file, file_info, ucproduct, pluginnamefo
         return
 
     is_plugin, info_desc = get_is_plugin_file(pluginnamefolder, file_with_path)
+    # process not plugins:
     if not is_plugin:
         file_info[docutil.INFO_DESCRIPTION]=info_desc
+        # TODO: implement handling of 7ziped files and multivolume 7zip files...
+        if info_desc == MULTIVOLUME_FILE:
+            logger1.info(f"multivolume zip file - {file_with_path}")
+            return
+        if info_desc == NOT_PLUGIN_FILE_SAMPLE_OR_TEMPLATE:
+            logger1.info(f"Sample or a Template - {file_with_path}")
+            return
+        if info_desc == NOT_PLUGIN_FILE_SPECIAL_PLUGIN:
+            logger1.info(f"Special Plugin-File - {file_with_path}")
+            return
         return
     
-    # if file extension is 00x then it is packed with 7zip -> extract and use extracted file for processing
-    # TODO: implement handling of 7ziped files and multivolume 7zip files...
-    if (file_with_path.endswith(('.001', '.002', '.003', '.004', '.005'))):
-        logger1.info(f"multivolume zip file - {file_with_path}")
-        file_info[docutil.INFO_DESCRIPTION]=MULTIVOLUME_FILE
-        return       
-
+# TODO: REWRITE this whole mess
     try:
         logger1.info(f"testing file{file_with_path}")
         with ZipFile(file_with_path, 'r') as zf:
