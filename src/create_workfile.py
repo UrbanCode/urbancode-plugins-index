@@ -191,7 +191,8 @@ def get_content_from_file(file, zf, target_dir):
     logger1.info(f"accessing {file} from target_dir = {target_dir}")
     if (target_dir == ""):
         try:
-            xfile=zf.read(file)
+            rfile=zf.read(file)
+            xfile = rfile.decode('utf-8')
         except zipfile.BadZipFile as ex:
             logger1.error(f"ERROR FILE DAMAGED={file}")
             return doc
@@ -202,7 +203,7 @@ def get_content_from_file(file, zf, target_dir):
     # special work with hpi files and manifest.mf
     if (file=="META-INF/MANIFEST.MF"):
         logger1.info(f"content of manifest.mf={xfile}")
-        decoded_string = xfile.decode('utf-8')
+        decoded_string = xfile
 
         dictionary = {}
 #        for line in decoded_string.split('\r\n'):
@@ -236,7 +237,7 @@ def get_key_value_from_line(line):
     return key.strip(),value.strip()
 
 def get_info_from_jenkins_plugin(zf, file_info, target_dir):
-    logger1.debug(f"file_list of hpi={zf.infolist()}")
+    # logger1.debug(f"file_list of hpi={zf.infolist()}")
     semver = "0.0"
     filename = "META-INF/MANIFEST.MF"
     doc = get_content_from_file(filename, zf, target_dir)
@@ -370,14 +371,15 @@ def unzip_file(file_with_path):
     # Run 7zip command to extract multi-file 7zip archive
     logger1.debug(f"7z x {file_with_path} -o{target_directory}")
     try:
-        subprocess.run(['7z', 'x', file_with_path, f'-o{target_directory}'])
+        retcode = subprocess.call(['7z', 'x', file_with_path, '-o'+target_directory])
+        # subprocess.run(['7z', 'x', file_with_path, f'-o{target_directory}'])
     except:
-        logger1.error(f"could not extract file={file_with_path}")
+        logger1.error(f"could not extract file={file_with_path} - retcode={retcode}")
         return ""
-    # if "FileUtils-43.752843.zip" in file_with_path:
-    #     allfiles=os.listdir(target_directory)
-    #     logger1.debug (f"DEBUG {target_directory}- {allfiles}")
-    #     os._exit(1)
+    if retcode != 0: 
+        logger1.error(f"error during extraction of file={file_with_path} - retcode={retcode}")
+        target_directory = ""
+
     return target_directory
 
 def get_is_plugin_file(pluginnamefolder, file_with_path):
@@ -436,34 +438,25 @@ def process_multi_volume_files(file_with_path):
         subprocess.run(['7z', 'x', file_with_path, f'-o{config[ucutil.ZIP_TEMP_DIR]}'])
 
     return 
-def get_info_from_zip_file(plugin_path, file, file_info, ucproduct, pluginnamefolder, all_ucv_index_infos = []):
-    file_with_path = f"{plugin_path}/{file}"
-    logger1.info(f"file_with_path={file_with_path}")
-    
-    file_info[docutil.RELEASE_FILE]=file
 
-    if ucproduct == "UCV": 
-        # search for file pattern in all_ucv_index_infos and add data to file_info
-        get_velocity_file_info(file, file_info, pluginnamefolder, all_ucv_index_infos)
-        logger1.info(f"file_info after get velocity file info={file_info}")
-        return
-
-    is_plugin, info_desc = get_is_plugin_file(pluginnamefolder, file_with_path)
-    # process not plugins:
-    if not is_plugin:
-        file_info[docutil.INFO_DESCRIPTION]=info_desc
-        # TODO: implement handling of 7ziped files and multivolume 7zip files...
-        if info_desc == MULTIVOLUME_FILE:
-            logger1.info(f"multivolume zip file - {file_with_path}")
-            return
-        if info_desc == NOT_PLUGIN_FILE_SAMPLE_OR_TEMPLATE:
-            logger1.info(f"Sample or a Template - {file_with_path}")
-            return
-        if info_desc == NOT_PLUGIN_FILE_SPECIAL_PLUGIN:
-            logger1.info(f"Special Plugin-File - {file_with_path}")
-            return
-        return
+def process_plugin_file(file_with_path, file_info):
+    target_directory = unzip_file(file_with_path)
+    logger1.debug(f"output of unzip_file={target_directory}")
+    if (target_directory == ""):
+        file_info[docutil.INFO_DESCRIPTION]=ERROR_FILE_DAMAGED
+        file_info[docutil.PUBLISH]=False
+        logger1.error(f"ERROR file is damaged file={file_with_path}")
+        return    
     
+    if (".hpi" in file_with_path):
+        get_info_from_jenkins_plugin(zf=None, file_info=file_info, target_dir=target_directory) # get_info_from_jenkins_plugin(plugin_path, file, file_info)
+    elif is_standard_plugin(file_with_path, target_directory): 
+        get_info_from_standard_plugin(zf=None, file_info=file_info, target_dir=target_directory)
+
+    return
+
+def process_plugin_file_OLD(file_with_path, file_info):
+
 # TODO: REWRITE this whole mess
     try:
         logger1.info(f"testing file{file_with_path}")
@@ -515,6 +508,39 @@ def get_info_from_zip_file(plugin_path, file, file_info, ucproduct, pluginnamefo
             get_info_from_jenkins_plugin(zf, file_info, target_directory) # get_info_from_jenkins_plugin(plugin_path, file, file_info)
         elif is_standard_plugin(file_with_path, target_directory): 
             get_info_from_standard_plugin(zf, file_info, target_directory)
+
+    return
+
+def get_info_from_zip_file(plugin_path, file, file_info, ucproduct, pluginnamefolder, all_ucv_index_infos = []):
+    file_with_path = f"{plugin_path}/{file}"
+    logger1.info(f"file_with_path={file_with_path}")
+    
+    file_info[docutil.RELEASE_FILE]=file
+
+    if ucproduct == "UCV": 
+        # search for file pattern in all_ucv_index_infos and add data to file_info
+        get_velocity_file_info(file, file_info, pluginnamefolder, all_ucv_index_infos)
+        logger1.info(f"file_info after get velocity file info={file_info}")
+        return
+
+    is_plugin, info_desc = get_is_plugin_file(pluginnamefolder, file_with_path)
+    # process not plugins:
+    if not is_plugin:
+        file_info[docutil.INFO_DESCRIPTION]=info_desc
+        # TODO: implement handling of 7ziped files and multivolume 7zip files...
+        if info_desc == MULTIVOLUME_FILE:
+            logger1.info(f"multivolume zip file - {file_with_path}")
+            return
+        if info_desc == NOT_PLUGIN_FILE_SAMPLE_OR_TEMPLATE:
+            logger1.info(f"Sample or a Template - {file_with_path}")
+            return
+        if info_desc == NOT_PLUGIN_FILE_SPECIAL_PLUGIN:
+            logger1.info(f"Special Plugin-File - {file_with_path}")
+            return
+        return
+
+    process_plugin_file(file_with_path, file_info)
+
 
     logger1.debug(f"file_info={file_info}")
     #if ("FileUtils-43.752843.zip" in file_with_path): os._exit(1)

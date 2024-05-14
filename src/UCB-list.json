@@ -21,7 +21,7 @@
                 {
                     "version": "2",
                     "semver": "2.350683",
-                    "date": "2013.02.28 18:02",
+                    "date": "2013.02.28 17:02",
                     "file": "AccuRev-2.350683.zip",
                     "notes": [
                         "Installing this plugin will give you access to the AccuRev commands listed below. These steps will be available for use when designing a Job."
@@ -49,7 +49,7 @@
                 {
                     "version": "4",
                     "semver": "4.604289",
-                    "date": "2014.11.14 11:59",
+                    "date": "2014.11.14 10:59",
                     "file": "AccuRev-4.604289.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -78,7 +78,7 @@
                 {
                     "version": "6",
                     "semver": "6.752929",
-                    "date": "2016.03.01 10:56",
+                    "date": "2016.03.01 09:56",
                     "file": "AccuRev-6.752929.zip",
                     "notes": [
                         "Added RPX dependency and English translations.",
@@ -139,7 +139,7 @@
                 {
                     "version": "2",
                     "semver": "2.350686",
-                    "date": "2013.02.28 18:04",
+                    "date": "2013.02.28 17:04",
                     "file": "AccuWork-2.350686.zip",
                     "notes": [
                         "Installing this plugin will give you access to the AccuWork commands listed below. These steps will be available for use when designing a Job."
@@ -181,7 +181,7 @@
                 {
                     "version": "5",
                     "semver": "5.474440",
-                    "date": "2014.01.23 17:33",
+                    "date": "2014.01.23 16:33",
                     "file": "AccuWork-5.474440.zip",
                     "notes": [
                         "Do not process duplicate changes. Fix a memory leak that caused problems with large number of changes."
@@ -195,7 +195,7 @@
                 {
                     "version": "6",
                     "semver": "6.604290",
-                    "date": "2014.11.14 11:58",
+                    "date": "2014.11.14 10:58",
                     "file": "AccuWork-6.604290.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -209,7 +209,7 @@
                 {
                     "version": "7",
                     "semver": "7.752908",
-                    "date": "2016.03.01 10:55",
+                    "date": "2016.03.01 09:55",
                     "file": "AccuWork-7.752908.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -223,7 +223,7 @@
                 {
                     "version": "8",
                     "semver": "8.1096129",
-                    "date": "2021.02.05 13:58",
+                    "date": "2021.02.05 12:58",
                     "file": "AccuWork-8.1096129.zip",
                     "notes": [
                         "Support property file encryption."
@@ -283,7 +283,7 @@
                 {
                     "version": "1",
                     "semver": "1.349395",
-                    "date": "2013.02.27 15:09",
+                    "date": "2013.02.27 14:09",
                     "file": "Ant-1.349395.zip",
                     "notes": [
                         "Loading the Ant plugin will give users access to the Ant Job steps for use when designing the deployment job."
@@ -311,7 +311,7 @@
                 {
                     "version": "3",
                     "semver": "3.630731",
-                    "date": "2015.02.04 10:05",
+                    "date": "2015.02.04 09:05",
                     "file": "Ant-3.630731.zip",
                     "notes": [
                         "Updated plugin to use plugin utility scripts."
@@ -325,10 +325,10 @@
                 {
                     "version": "6",
                     "semver": "6.718259",
-                    "date": "2015.12.02 09:35",
+                    "date": "2015.12.02 08:35",
                     "file": "Ant-6.718259.zip",
                     "notes": [
-                        "Remove the JVM Properties property because Ant ignores JAVA_OPTS"
+                        "Remove the 'JVM Properties' property because Ant ignores JAVA_OPTS"
                     ],
                     "supports": "",
                     "publish": "True",
@@ -339,7 +339,7 @@
                 {
                     "version": "7",
                     "semver": "7.752769",
-                    "date": "2016.03.01 10:50",
+                    "date": "2016.03.01 09:50",
                     "file": "Ant-7.752769.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -367,7 +367,7 @@
                 {
                     "version": "10",
                     "semver": "10.1165571",
-                    "date": "2024.02.02 03:20",
+                    "date": "2024.02.02 02:20",
                     "file": "Ant-10.1165571.zip",
                     "notes": [
                         "log4j and Jettison dependency updated."
@@ -606,21 +606,21 @@
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "IBMs ClearCase software provides tools for supporting software configuration management (SCM) of source code and other software development assets.",
+                    "description": "IBM's ClearCase software provides tools for supporting software configuration management (SCM) of source code and other software development assets.",
                     "SORT_VERSION": "0000001200673059",
                     "type": "SCM"
                 },
                 {
                     "version": "13",
                     "semver": "13.753109",
-                    "date": "2016.03.02 12:07",
+                    "date": "2016.03.02 11:07",
                     "file": "ClearCaseBaseSnapshot-13.753109.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "IBMs ClearCase software provides tools for supporting software configuration management (SCM) of source code and other software development assets.",
+                    "description": "IBM's ClearCase software provides tools for supporting software configuration management (SCM) of source code and other software development assets.",
                     "SORT_VERSION": "0000001300753109",
                     "type": "SCM"
                 },
@@ -707,35 +707,35 @@
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "IBMs ClearCase software provides tools for supporting software configuration management (SCM) of source code and other software development assets.",
+                    "description": "IBM's ClearCase software provides tools for supporting software configuration management (SCM) of source code and other software development assets.",
                     "SORT_VERSION": "0000001300673057",
                     "type": "SCM"
                 },
                 {
                     "version": "14",
                     "semver": "14.752906",
-                    "date": "2016.03.01 10:56",
+                    "date": "2016.03.01 09:56",
                     "file": "ClearCaseUCM-14.752906.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "IBMs ClearCase software provides tools for supporting software configuration management (SCM) of source code and other software development assets.",
+                    "description": "IBM's ClearCase software provides tools for supporting software configuration management (SCM) of source code and other software development assets.",
                     "SORT_VERSION": "0000001400752906",
                     "type": "SCM"
                 },
                 {
                     "version": "16",
                     "semver": "16.973040",
-                    "date": "2018.02.28 12:11",
+                    "date": "2018.02.28 11:11",
                     "file": "ClearCaseUCM-16.973040.zip",
                     "notes": [
                         "Fix bug in changelog parsing logic that caused multiple changes to be detected for each changeset."
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "IBMs ClearCase software provides tools for supporting software configuration management (SCM) of source code and other software development assets.",
+                    "description": "IBM's ClearCase software provides tools for supporting software configuration management (SCM) of source code and other software development assets.",
                     "SORT_VERSION": "0000001600973040",
                     "type": "SCM"
                 }
@@ -794,7 +794,7 @@
                 {
                     "version": "2",
                     "semver": "2.360315",
-                    "date": "2013.03.27 09:21",
+                    "date": "2013.03.27 08:21",
                     "file": "ClearQuest-2.360315.zip",
                     "notes": [
                         "Installing this plugin will give you access to the ClearQuest commands listed below. These steps will be available for use when designing a Job."
@@ -822,7 +822,7 @@
                 {
                     "version": "4",
                     "semver": "4.638532",
-                    "date": "2015.02.12 17:54",
+                    "date": "2015.02.12 16:54",
                     "file": "ClearQuest-4.638532.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -836,7 +836,7 @@
                 {
                     "version": "5",
                     "semver": "5.752905",
-                    "date": "2016.03.01 10:55",
+                    "date": "2016.03.01 09:55",
                     "file": "ClearQuest-5.752905.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -910,7 +910,7 @@
                 {
                     "version": "2",
                     "semver": "2.752899",
-                    "date": "2016.03.01 10:55",
+                    "date": "2016.03.01 09:55",
                     "file": "clover-2.752899.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -970,7 +970,7 @@
                 {
                     "version": "1",
                     "semver": "1.349444",
-                    "date": "2013.02.27 15:26",
+                    "date": "2013.02.27 14:26",
                     "file": "cobertura-1.349444.zip",
                     "notes": [
                         "Loading Cobertura will give access to steps for uploading Cobertura reports."
@@ -1012,7 +1012,7 @@
                 {
                     "version": "4",
                     "semver": "4.604292",
-                    "date": "2014.11.14 12:00",
+                    "date": "2014.11.14 11:00",
                     "file": "cobertura-4.604292.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -1026,7 +1026,7 @@
                 {
                     "version": "5",
                     "semver": "5.752901",
-                    "date": "2016.03.01 10:54",
+                    "date": "2016.03.01 09:54",
                     "file": "cobertura-5.752901.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -1086,7 +1086,7 @@
                 {
                     "version": "4",
                     "semver": "4.349446",
-                    "date": "2013.02.27 15:42",
+                    "date": "2013.02.27 14:42",
                     "file": "codestation-4.349446.zip",
                     "notes": [
                         "Added in a missing useCache property for the Download Artifacts step."
@@ -1100,7 +1100,7 @@
                 {
                     "version": "5",
                     "semver": "5.357765",
-                    "date": "2013.03.20 09:39",
+                    "date": "2013.03.20 08:39",
                     "file": "codestation-5.357765.zip",
                     "notes": [
                         "Version 5 requires uBuild 4.2.2 or later"
@@ -1159,7 +1159,7 @@
                     "date": "2013.08.27 17:19",
                     "file": "codestation-9.429653.zip",
                     "notes": [
-                        "Updated CodeStation to properly handle empty includes strings for an artifact set"
+                        "Updated CodeStation to properly handle empty 'includes' strings for an artifact set"
                     ],
                     "supports": "",
                     "publish": "True",
@@ -1170,7 +1170,7 @@
                 {
                     "version": "11",
                     "semver": "11.597180",
-                    "date": "2014.11.05 16:48",
+                    "date": "2014.11.05 15:48",
                     "file": "codestation-11.597180.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -1184,7 +1184,7 @@
                 {
                     "version": "12",
                     "semver": "12.644060",
-                    "date": "2015.02.27 15:21",
+                    "date": "2015.02.27 14:21",
                     "file": "codestation-12.644060.zip",
                     "notes": [
                         "Retry to upload files if they fail."
@@ -1212,7 +1212,7 @@
                 {
                     "version": "14",
                     "semver": "14.752869",
-                    "date": "2016.03.01 10:54",
+                    "date": "2016.03.01 09:54",
                     "file": "codestation-14.752869.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -1282,7 +1282,7 @@
                 {
                     "version": "20",
                     "semver": "20.973508",
-                    "date": "2018.03.03 00:15",
+                    "date": "2018.03.02 23:15",
                     "file": "codestation-20.973508.zip",
                     "notes": [
                         "Change the tag to \"Repositories/Artifact/CodeStation\"."
@@ -1341,7 +1341,7 @@
                     "date": "2020.09.04 02:23",
                     "file": "codestation-24.1069469.zip",
                     "notes": [
-                        "Add option to set agents codestation cache dir."
+                        "Add option to set agent's codestation cache dir."
                     ],
                     "supports": "",
                     "publish": "True",
@@ -1352,7 +1352,7 @@
                 {
                     "version": "25",
                     "semver": "25.1165172",
-                    "date": "2024.01.30 07:43",
+                    "date": "2024.01.30 06:43",
                     "file": "codestation-25.1165172.zip",
                     "notes": [
                         "Upgrade of jettison jar as part of security fix."
@@ -1412,7 +1412,7 @@
                 {
                     "version": "1",
                     "semver": "1.460123",
-                    "date": "2013.12.11 14:08",
+                    "date": "2013.12.11 13:08",
                     "file": "CppUnit-1.460123.zip",
                     "notes": [
                         "Installing this plugin will give you access to a CppUnit step that will publish test results to the server. The step will be available when designing a Job."
@@ -1426,7 +1426,7 @@
                 {
                     "version": "2",
                     "semver": "2.604293",
-                    "date": "2014.11.14 12:01",
+                    "date": "2014.11.14 11:01",
                     "file": "CppUnit-2.604293.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -1440,7 +1440,7 @@
                 {
                     "version": "3",
                     "semver": "3.736890",
-                    "date": "2016.01.29 09:41",
+                    "date": "2016.01.29 08:41",
                     "file": "CppUnit-3.736890.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -1560,7 +1560,7 @@
                 {
                     "version": "1",
                     "semver": "1.610974",
-                    "date": "2014.12.02 16:06",
+                    "date": "2014.12.02 15:06",
                     "file": "docker-plugin-1.610974.zip",
                     "notes": [
                         "Initial release which include a step to build Docker images."
@@ -1588,7 +1588,7 @@
                 {
                     "version": "3",
                     "semver": "3.749188",
-                    "date": "2016.02.18 14:45",
+                    "date": "2016.02.18 13:45",
                     "file": "docker-plugin-3.749188.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -1616,7 +1616,7 @@
                 {
                     "version": "6",
                     "semver": "6.1036529",
-                    "date": "2019.11.12 08:11",
+                    "date": "2019.11.12 07:11",
                     "file": "docker-plugin-6.1036529.zip",
                     "notes": [
                         "Added Login, Tag, and logout steps to this plugin, cleaned up the docker push",
@@ -1677,7 +1677,7 @@
                 {
                     "version": "1",
                     "semver": "1.357583",
-                    "date": "2013.03.19 18:31",
+                    "date": "2013.03.19 17:31",
                     "file": "FileSystem-1.357583.zip",
                     "notes": [
                         "Initial plugin version."
@@ -1705,7 +1705,7 @@
                 {
                     "version": "3",
                     "semver": "3.597183",
-                    "date": "2014.11.05 16:49",
+                    "date": "2014.11.05 15:49",
                     "file": "FileSystem-3.597183.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -1719,7 +1719,7 @@
                 {
                     "version": "4",
                     "semver": "4.752912",
-                    "date": "2016.03.01 10:55",
+                    "date": "2016.03.01 09:55",
                     "file": "FileSystem-4.752912.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -1804,10 +1804,10 @@
                 {
                     "version": "27",
                     "semver": "27.357573",
-                    "date": "2013.03.19 18:07",
+                    "date": "2013.03.19 17:07",
                     "file": "FileUtils-27.357573.zip",
                     "notes": [
-                        "Updated Sync Dir, Copy Dir, and Move Dirs hint text so that file include and excludes proper usage is more explicitly explained."
+                        "Updated Sync Dir, Copy Dir, and Move Dir's hint text so that file include and exclude's proper usage is more explicitly explained."
                     ],
                     "supports": "",
                     "publish": "True",
@@ -1847,7 +1847,7 @@
                     "date": "2014.10.08 17:00",
                     "file": "FileUtils-37.578851.zip",
                     "notes": [
-                        "Updated the Update INI File plugin step. Added option to allow users to add comments to sections. Added an option to give the user a choice between ; and # for comments. The default comment charater will now be ;. Fixed a bug where sections were deleted if they did not have a property. Multiple comments are allowed but empty lines between comments will not be preserved."
+                        "Updated the 'Update INI File' plugin step. Added option to allow users to add comments to sections. Added an option to give the user a choice between ';' and '#' for comments. The default comment charater will now be ';'. Fixed a bug where sections were deleted if they did not have a property. Multiple comments are allowed but empty lines between comments will not be preserved."
                     ],
                     "supports": "",
                     "publish": "True",
@@ -1884,7 +1884,7 @@
                 {
                     "version": "44",
                     "semver": "44.754293",
-                    "date": "2016.03.07 12:08",
+                    "date": "2016.03.07 11:08",
                     "file": "FileUtils-44.754293.zip",
                     "notes": [
                         "Added the ability to specify a file encoding when using Create File"
@@ -1950,7 +1950,7 @@
                 {
                     "version": "3",
                     "semver": "3.358060",
-                    "date": "2013.03.20 12:02",
+                    "date": "2013.03.20 11:02",
                     "file": "FindBugs-3.358060.zip",
                     "notes": [
                         "Added a new property that allows the user to specify the location of a FindBugs zip file that can supply detailed descriptions for any findings"
@@ -1964,7 +1964,7 @@
                 {
                     "version": "4",
                     "semver": "4.358898",
-                    "date": "2013.03.22 15:28",
+                    "date": "2013.03.22 14:28",
                     "file": "FindBugs-4.358898.zip",
                     "notes": [
                         "Get full descriptions from FindBugs. This uses the descriptions of findings from FindBugs version 2.0.2."
@@ -2020,7 +2020,7 @@
                 {
                     "version": "9",
                     "semver": "9.604317",
-                    "date": "2014.11.14 12:14",
+                    "date": "2014.11.14 11:14",
                     "file": "FindBugs-9.604317.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -2034,7 +2034,7 @@
                 {
                     "version": "10",
                     "semver": "10.640333",
-                    "date": "2015.02.19 11:30",
+                    "date": "2015.02.19 10:30",
                     "file": "FindBugs-10.640333.zip",
                     "notes": [
                         "Fixed an issue where the FindBugs plugin would fail on empty FindBugs report files."
@@ -2048,7 +2048,7 @@
                 {
                     "version": "11",
                     "semver": "11.753113",
-                    "date": "2016.03.02 12:21",
+                    "date": "2016.03.02 11:21",
                     "file": "FindBugs-11.753113.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -2108,7 +2108,7 @@
                 {
                     "version": "2",
                     "semver": "2.749192",
-                    "date": "2016.02.18 14:47",
+                    "date": "2016.02.18 13:47",
                     "file": "gerrit-2.749192.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -2168,7 +2168,7 @@
                 {
                     "version": "2",
                     "semver": "2.350912",
-                    "date": "2013.03.01 09:31",
+                    "date": "2013.03.01 08:31",
                     "file": "Git-2.350912.zip",
                     "notes": [
                         "Installing this plugin will give you access to the steps listed below. These steps will be available for use when designing a Job."
@@ -2196,7 +2196,7 @@
                 {
                     "version": "5",
                     "semver": "5.604295",
-                    "date": "2014.11.14 12:01",
+                    "date": "2014.11.14 11:01",
                     "file": "Git-5.604295.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -2224,7 +2224,7 @@
                 {
                     "version": "7",
                     "semver": "7.714450",
-                    "date": "2015.11.13 16:01",
+                    "date": "2015.11.13 15:01",
                     "file": "Git-7.714450.zip",
                     "notes": [
                         "Fixed upgrade for the new trigger script"
@@ -2252,7 +2252,7 @@
                 {
                     "version": "9",
                     "semver": "9.851181",
-                    "date": "2016.11.14 11:17",
+                    "date": "2016.11.14 10:17",
                     "file": "Git-9.851181.zip",
                     "notes": [
                         "Improved handling of user credentials embedded in repository base url and repository configuration"
@@ -2266,7 +2266,7 @@
                 {
                     "version": "10",
                     "semver": "10.869547",
-                    "date": "2016.12.29 13:45",
+                    "date": "2016.12.29 12:45",
                     "file": "Git-10.869547.zip",
                     "notes": [
                         "Support property file encryption."
@@ -2308,7 +2308,7 @@
                 {
                     "version": "15",
                     "semver": "15.944083",
-                    "date": "2017.11.08 09:49",
+                    "date": "2017.11.08 08:49",
                     "file": "Git-15.944083.zip",
                     "notes": [
                         "Fix intermittent IOException stream closed errors"
@@ -2322,7 +2322,7 @@
                 {
                     "version": "16",
                     "semver": "16.946670",
-                    "date": "2017.11.17 16:10",
+                    "date": "2017.11.17 15:10",
                     "file": "Git-16.946670.zip",
                     "notes": [
                         "Fix incompatibility with UCB 6.1.2.x that was introduced in version 14 and prevented triggering builds in response to push events sent by GitHub."
@@ -2336,7 +2336,7 @@
                 {
                     "version": "17",
                     "semver": "17.948973",
-                    "date": "2017.11.29 14:35",
+                    "date": "2017.11.29 13:35",
                     "file": "Git-17.948973.zip",
                     "notes": [
                         "Prefer using external web URL to construct the target URL in \"Create GitHub Status\" step when available."
@@ -2350,7 +2350,7 @@
                 {
                     "version": "18",
                     "semver": "18.970588",
-                    "date": "2018.02.14 09:38",
+                    "date": "2018.02.14 08:38",
                     "file": "Git-18.970588.zip",
                     "notes": [
                         "Avoid NullPointerException if the HTTP client fails to execute and throws an exception before returning the response object."
@@ -2364,7 +2364,7 @@
                 {
                     "version": "19",
                     "semver": "19.974464",
-                    "date": "2018.03.08 09:18",
+                    "date": "2018.03.08 08:18",
                     "file": "Git-19.974464.zip",
                     "notes": [
                         "Allow triggering builds for changes in arbitrary branches of a GitHub repository"
@@ -2420,7 +2420,7 @@
                 {
                     "version": "27",
                     "semver": "27.1096142",
-                    "date": "2021.02.05 13:58",
+                    "date": "2021.02.05 12:58",
                     "file": "Git-27.1096142.zip",
                     "notes": [
                         "Added provision to use email id of authors instead of author name."
@@ -2448,7 +2448,7 @@
                 {
                     "version": "29",
                     "semver": "29.1127031",
-                    "date": "2021.12.28 05:49",
+                    "date": "2021.12.28 04:49",
                     "file": "Git-29.1127031.zip",
                     "notes": [
                         "Added support for Git Tags"
@@ -2508,7 +2508,7 @@
                 {
                     "version": "1",
                     "semver": "1.349453",
-                    "date": "2013.02.27 15:55",
+                    "date": "2013.02.27 14:55",
                     "file": "Groovy-1.349453.zip",
                     "notes": [
                         "Loading the Groovy plugin will give users access to a Groovy step that allows the execution of scripts."
@@ -2536,7 +2536,7 @@
                 {
                     "version": "3",
                     "semver": "3.462431",
-                    "date": "2013.12.20 20:26",
+                    "date": "2013.12.20 19:26",
                     "file": "Groovy-3.462431.zip",
                     "notes": [
                         "Groovy steps can now run JUnit test cases"
@@ -2553,7 +2553,7 @@
                     "date": "2015.05.08 13:44",
                     "file": "Groovy-5.669442.zip",
                     "notes": [
-                        "Complete plugin overhaul. Script is now wrapped in another Groovy script instead of using GroovyShell. The Groovy Home now properly overrides the agents value."
+                        "Complete plugin overhaul. Script is now wrapped in another Groovy script instead of using GroovyShell. The Groovy Home now properly overrides the agent's value."
                     ],
                     "supports": "",
                     "publish": "True",
@@ -2567,7 +2567,7 @@
                     "date": "2015.05.15 14:41",
                     "file": "Groovy-5.670713.zip",
                     "notes": [
-                        "Complete plugin overhaul. Script is now wrapped in another Groovy script instead of using GroovyShell. The Groovy Home now properly overrides the agents value."
+                        "Complete plugin overhaul. Script is now wrapped in another Groovy script instead of using GroovyShell. The Groovy Home now properly overrides the agent's value."
                     ],
                     "supports": "",
                     "publish": "True",
@@ -2592,7 +2592,7 @@
                 {
                     "version": "7",
                     "semver": "7.752778",
-                    "date": "2016.03.01 10:48",
+                    "date": "2016.03.01 09:48",
                     "file": "Groovy-7.752778.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -2606,7 +2606,7 @@
                 {
                     "version": "9",
                     "semver": "9.891045",
-                    "date": "2017.02.22 16:51",
+                    "date": "2017.02.22 15:51",
                     "file": "Groovy-9.891045.zip",
                     "notes": [
                         "Support property file encryption."
@@ -2620,7 +2620,7 @@
                 {
                     "version": "16",
                     "semver": "16.1164697",
-                    "date": "2024.01.09 12:11",
+                    "date": "2024.01.09 11:11",
                     "file": "Groovy-16.1164697.zip",
                     "notes": [
                         "Updating Jettison library to 1.5.4 for CVE-2023-1436"
@@ -2687,7 +2687,7 @@
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "HPs Fortify Source Code Analyzer provides static analysis of application source code to help identify possible security vulnerabilities.",
+                    "description": "HP's Fortify Source Code Analyzer provides static analysis of application source code to help identify possible security vulnerabilities.",
                     "SORT_VERSION": "0000000100366381",
                     "type": "automation"
                 },
@@ -2701,35 +2701,35 @@
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "HPs Fortify Source Code Analyzer provides static analysis of application source code to help identify possible security vulnerabilities.",
+                    "description": "HP's Fortify Source Code Analyzer provides static analysis of application source code to help identify possible security vulnerabilities.",
                     "SORT_VERSION": "0000000200409095",
                     "type": "automation"
                 },
                 {
                     "version": "3",
                     "semver": "3.638531",
-                    "date": "2015.02.12 17:54",
+                    "date": "2015.02.12 16:54",
                     "file": "Fortify-3.638531.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "HPs Fortify Source Code Analyzer provides static analysis of application source code to help identify possible security vulnerabilities.",
+                    "description": "HP's Fortify Source Code Analyzer provides static analysis of application source code to help identify possible security vulnerabilities.",
                     "SORT_VERSION": "0000000300638531",
                     "type": "automation"
                 },
                 {
                     "version": "4",
                     "semver": "4.752922",
-                    "date": "2016.03.01 10:56",
+                    "date": "2016.03.01 09:56",
                     "file": "Fortify-4.752922.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "HPs Fortify Source Code Analyzer provides static analysis of application source code to help identify possible security vulnerabilities.",
+                    "description": "HP's Fortify Source Code Analyzer provides static analysis of application source code to help identify possible security vulnerabilities.",
                     "SORT_VERSION": "0000000400752922",
                     "type": "automation"
                 }
@@ -2782,14 +2782,14 @@
                 {
                     "version": "3",
                     "semver": "3.359974",
-                    "date": "2013.03.26 18:00",
+                    "date": "2013.03.26 17:00",
                     "file": "HPQualityCenter-3.359974.zip",
                     "notes": [
                         "This version adds in a threshold value of test pass rate on the Run Test Set step"
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "HP Quality Center (QC) is a set of web-based test management software offerings from the HP Software Division of Hewlett-Packard, many of which were acquired from Mercury Interactive Corporation. HP Quality Center offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.\n    In order for this plugin to work with HP ALM 11 and later, you must open the web UI of HP ALM from the agent machine, click on their Add-ins Page link and install the HP ALM Connectivity add-in.",
+                    "description": "HP Quality Center (QC) is a set of web-based test management software offerings from the HP Software Division of Hewlett-Packard, many of which were acquired from Mercury Interactive Corporation. HP Quality Center offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.\n    In order for this plugin to work with HP ALM 11 and later, you must open the web UI of HP ALM from the agent machine, click on their 'Add-ins Page' link and install the 'HP ALM Connectivity' add-in.",
                     "SORT_VERSION": "0000000300359974",
                     "type": "Automation",
                     "categories": [
@@ -2808,7 +2808,7 @@
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "HP Quality Center (QC) is a set of web-based test management software offerings from the HP Software Division of Hewlett-Packard, many of which were acquired from Mercury Interactive Corporation. HP Quality Center offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.\n    In order for this plugin to work with HP ALM 11 and later, you must open the web UI of HP ALM from the agent machine, click on their Add-ins Page link and install the HP ALM Connectivity add-in.",
+                    "description": "HP Quality Center (QC) is a set of web-based test management software offerings from the HP Software Division of Hewlett-Packard, many of which were acquired from Mercury Interactive Corporation. HP Quality Center offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.\n    In order for this plugin to work with HP ALM 11 and later, you must open the web UI of HP ALM from the agent machine, click on their 'Add-ins Page' link and install the 'HP ALM Connectivity' add-in.",
                     "SORT_VERSION": "0000000400409814",
                     "type": "automation"
                 },
@@ -2822,21 +2822,21 @@
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "HP Quality Center (QC) is a set of web-based test management software offerings from the HP Software Division of Hewlett-Packard, many of which were acquired from Mercury Interactive Corporation. HP Quality Center offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.\n    In order for this plugin to work with HP ALM 11 and later, you must open the web UI of HP ALM from the agent machine, click on their Add-ins Page link and install the HP ALM Connectivity add-in.",
+                    "description": "HP Quality Center (QC) is a set of web-based test management software offerings from the HP Software Division of Hewlett-Packard, many of which were acquired from Mercury Interactive Corporation. HP Quality Center offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.\n    In order for this plugin to work with HP ALM 11 and later, you must open the web UI of HP ALM from the agent machine, click on their 'Add-ins Page' link and install the 'HP ALM Connectivity' add-in.",
                     "SORT_VERSION": "0000000500435338",
                     "type": "automation"
                 },
                 {
                     "version": "6",
                     "semver": "6.604296",
-                    "date": "2014.11.14 12:02",
+                    "date": "2014.11.14 11:02",
                     "file": "HPQualityCenter-6.604296.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "HP Quality Center (QC) is a set of web-based test management software offerings from the HP Software Division of Hewlett-Packard, many of which were acquired from Mercury Interactive Corporation. HP Quality Center offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.\n    In order for this plugin to work with HP ALM 11 and later, you must open the web UI of HP ALM from the agent machine, click on their Add-ins Page link and install the HP ALM Connectivity add-in.",
+                    "description": "HP Quality Center (QC) is a set of web-based test management software offerings from the HP Software Division of Hewlett-Packard, many of which were acquired from Mercury Interactive Corporation. HP Quality Center offers software quality assurance, including requirements management, test management and business process testing for IT and application environments.\n    In order for this plugin to work with HP ALM 11 and later, you must open the web UI of HP ALM from the agent machine, click on their 'Add-ins Page' link and install the 'HP ALM Connectivity' add-in.",
                     "SORT_VERSION": "0000000600604296",
                     "type": "automation"
                 },
@@ -2857,7 +2857,7 @@
                 {
                     "version": "8",
                     "semver": "8.752924",
-                    "date": "2016.03.01 10:56",
+                    "date": "2016.03.01 09:56",
                     "file": "HPQualityCenter-8.752924.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -2937,7 +2937,7 @@
                 {
                     "version": "3",
                     "semver": "3.749197",
-                    "date": "2016.02.18 14:49",
+                    "date": "2016.02.18 13:49",
                     "file": "Harvest-3.749197.zip",
                     "notes": [
                         "Fixes APAR PI57335 uBuild Harvest plug-in not handling changelogs correctly."
@@ -2951,7 +2951,7 @@
                 {
                     "version": "3",
                     "semver": "3.752910",
-                    "date": "2016.03.01 10:56",
+                    "date": "2016.03.01 09:56",
                     "file": "Harvest-3.752910.zip",
                     "notes": [
                         "Fixes APAR PI57335 uBuild Harvest plug-in not handling changelogs correctly."
@@ -2965,7 +2965,7 @@
                 {
                     "version": "4",
                     "semver": "4.863047",
-                    "date": "2016.11.30 17:45",
+                    "date": "2016.11.30 16:45",
                     "file": "Harvest-4.863047.zip",
                     "notes": [
                         "Support property file encryption."
@@ -2979,7 +2979,7 @@
                 {
                     "version": "4",
                     "semver": "4.866634",
-                    "date": "2016.12.07 16:44",
+                    "date": "2016.12.07 15:44",
                     "file": "Harvest-4.866634.zip",
                     "notes": [
                         "Support property file encryption."
@@ -2993,7 +2993,7 @@
                 {
                     "version": "6",
                     "semver": "6.1014490",
-                    "date": "2019.03.08 16:31",
+                    "date": "2019.03.08 15:31",
                     "file": "Harvest-6.1014490.zip",
                     "notes": [
                         "Fix changelog parser logic to correctly handle empty data columns."
@@ -3010,7 +3010,7 @@
                     "date": "2019.04.10 11:26",
                     "file": "Harvest-7.1018488.zip",
                     "notes": [
-                        "Fix APAR PH10867 - Use includeFiles source property in quiet period step."
+                        "Fix APAR PH10867 - Use 'includeFiles' source property in quiet period step."
                     ],
                     "supports": "",
                     "publish": "True",
@@ -3021,10 +3021,10 @@
                 {
                     "version": "7",
                     "semver": "7.1098511",
-                    "date": "2021.02.21 23:43",
+                    "date": "2021.02.21 22:43",
                     "file": "Harvest-hcl-7.1098511.zip",
                     "notes": [
-                        "Fix APAR PH10867 - Use includeFiles source property in quiet period step."
+                        "Fix APAR PH10867 - Use 'includeFiles' source property in quiet period step."
                     ],
                     "supports": "",
                     "publish": "True",
@@ -3081,7 +3081,7 @@
                 {
                     "version": "2",
                     "semver": "2.358375",
-                    "date": "2013.03.20 16:37",
+                    "date": "2013.03.20 15:37",
                     "file": "JIRA-2.358375.zip",
                     "notes": [
                         "The JIRA integration provides steps to create, comment and resolve issues found in JIRA and publish a list of issues to the issues tab of a Build Life."
@@ -3109,7 +3109,7 @@
                 {
                     "version": "4",
                     "semver": "4.604298",
-                    "date": "2014.11.14 12:03",
+                    "date": "2014.11.14 11:03",
                     "file": "JIRA-4.604298.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -3123,7 +3123,7 @@
                 {
                     "version": "5",
                     "semver": "5.752907",
-                    "date": "2016.03.01 10:56",
+                    "date": "2016.03.01 09:56",
                     "file": "JIRA-5.752907.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -3137,10 +3137,10 @@
                 {
                     "version": "7",
                     "semver": "7.876389",
-                    "date": "2017.01.20 12:05",
+                    "date": "2017.01.20 11:05",
                     "file": "JIRA-7.876389.zip",
                     "notes": [
-                        "Migrate to Jira REST API and drop support for Jiras SOAP API. Jira versions older than 6.4 are no longer supported."
+                        "Migrate to Jira REST API and drop support for Jira's SOAP API. Jira versions older than 6.4 are no longer supported."
                     ],
                     "supports": "",
                     "publish": "True",
@@ -3197,7 +3197,7 @@
                 {
                     "version": "2",
                     "semver": "2.359909",
-                    "date": "2013.03.26 15:52",
+                    "date": "2013.03.26 14:52",
                     "file": "JUnit-2.359909.zip",
                     "notes": [
                         "Installing this plugin will give you access to the JUnit commands listed below. These steps will be available for use when designing a Job."
@@ -3225,7 +3225,7 @@
                 {
                     "version": "4",
                     "semver": "4.604299",
-                    "date": "2014.11.14 12:03",
+                    "date": "2014.11.14 11:03",
                     "file": "JUnit-4.604299.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -3239,7 +3239,7 @@
                 {
                     "version": "5",
                     "semver": "5.753105",
-                    "date": "2016.03.02 12:01",
+                    "date": "2016.03.02 11:01",
                     "file": "JUnit-5.753105.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -3253,7 +3253,7 @@
                 {
                     "version": "8",
                     "semver": "8.1015721",
-                    "date": "2019.03.22 15:59",
+                    "date": "2019.03.22 14:59",
                     "file": "JUnit-8.1015721.zip",
                     "notes": [
                         "Add optional timeout setting for calls to UCB server."
@@ -3383,7 +3383,7 @@
                 {
                     "version": "4",
                     "semver": "4.604297",
-                    "date": "2014.11.14 12:03",
+                    "date": "2014.11.14 11:03",
                     "file": "JaCoCo-4.604297.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -3397,7 +3397,7 @@
                 {
                     "version": "5",
                     "semver": "5.627788",
-                    "date": "2015.01.26 16:36",
+                    "date": "2015.01.26 15:36",
                     "file": "JaCoCo-5.627788.zip",
                     "notes": [
                         "Added includes and excludes properties to support parsing multiple JaCoCo output files and uploading them as a single report."
@@ -3411,7 +3411,7 @@
                 {
                     "version": "6",
                     "semver": "6.753377",
-                    "date": "2016.03.02 14:02",
+                    "date": "2016.03.02 13:02",
                     "file": "JaCoCo-6.753377.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -3425,7 +3425,7 @@
                 {
                     "version": "7",
                     "semver": "7.950839",
-                    "date": "2017.12.05 15:56",
+                    "date": "2017.12.05 14:56",
                     "file": "JaCoCo-7.950839.zip",
                     "notes": [
                         "Support property file encryption."
@@ -3485,7 +3485,7 @@
                 {
                     "version": "1",
                     "semver": "1.349455",
-                    "date": "2013.02.27 16:05",
+                    "date": "2013.02.27 15:05",
                     "file": "MSBuild-1.349455.zip",
                     "notes": [
                         "Install this plugin to be able to use the MSBuild step."
@@ -3499,7 +3499,7 @@
                 {
                     "version": "2",
                     "semver": "2.752736",
-                    "date": "2016.03.01 10:47",
+                    "date": "2016.03.01 09:47",
                     "file": "MSBuild-2.752736.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -3559,7 +3559,7 @@
                 {
                     "version": "2",
                     "semver": "2.359876",
-                    "date": "2013.03.26 15:47",
+                    "date": "2013.03.26 14:47",
                     "file": "MSTest-2.359876.zip",
                     "notes": [
                         "Install the MSTest plugin to gain access to the steps listed below."
@@ -3587,7 +3587,7 @@
                 {
                     "version": "4",
                     "semver": "4.604301",
-                    "date": "2014.11.14 12:05",
+                    "date": "2014.11.14 11:05",
                     "file": "MSTest-4.604301.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -3629,7 +3629,7 @@
                 {
                     "version": "7",
                     "semver": "7.752751",
-                    "date": "2016.03.01 10:48",
+                    "date": "2016.03.01 09:48",
                     "file": "MSTest-7.752751.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -3689,7 +3689,7 @@
                 {
                     "version": "2",
                     "semver": "2.358339",
-                    "date": "2013.03.20 15:30",
+                    "date": "2013.03.20 14:30",
                     "file": "Make-2.358339.zip",
                     "notes": [
                         "Install this plugin to be able to use the Make step."
@@ -3703,7 +3703,7 @@
                 {
                     "version": "3",
                     "semver": "3.752874",
-                    "date": "2016.03.01 10:54",
+                    "date": "2016.03.01 09:54",
                     "file": "Make-3.752874.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -3763,14 +3763,14 @@
                 {
                     "version": "3",
                     "semver": "3.359912",
-                    "date": "2013.03.26 15:52",
+                    "date": "2013.03.26 14:52",
                     "file": "Maven-3.359912.zip",
                     "notes": [
                         "Fixed a bug with properties appending -D at the end"
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a projects build, reporting and documentation from a central piece of information.",
+                    "description": "Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.",
                     "SORT_VERSION": "0000000300359912",
                     "type": "Build"
                 },
@@ -3784,7 +3784,7 @@
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a projects build, reporting and documentation from a central piece of information.",
+                    "description": "Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.",
                     "SORT_VERSION": "0000000400410910",
                     "type": "Build"
                 },
@@ -3794,18 +3794,18 @@
                     "date": "2014.04.28 14:14",
                     "file": "Maven-5.507933.zip",
                     "notes": [
-                        "Fixed plugin when a Maven Concurrent Local Repo is specified."
+                        "Fixed plugin when a 'Maven Concurrent Local Repo' is specified."
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a projects build, reporting and documentation from a central piece of information.",
+                    "description": "Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.",
                     "SORT_VERSION": "0000000500507933",
                     "type": "Build"
                 },
                 {
                     "version": "8",
                     "semver": "8.752932",
-                    "date": "2016.03.01 10:57",
+                    "date": "2016.03.01 09:57",
                     "file": "Maven-8.752932.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -3879,7 +3879,7 @@
                 {
                     "version": "2",
                     "semver": "2.358308",
-                    "date": "2013.03.20 14:59",
+                    "date": "2013.03.20 13:59",
                     "file": "Mercurial-2.358308.zip",
                     "notes": [
                         "Installing this plugin will give you access to the Mercurial commands listed below. These steps will be available for use when designing a Job."
@@ -3907,7 +3907,7 @@
                 {
                     "version": "5",
                     "semver": "5.604300",
-                    "date": "2014.11.14 12:03",
+                    "date": "2014.11.14 11:03",
                     "file": "Mercurial-5.604300.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -3921,7 +3921,7 @@
                 {
                     "version": "6",
                     "semver": "6.753091",
-                    "date": "2016.03.02 11:25",
+                    "date": "2016.03.02 10:25",
                     "file": "Mercurial-6.753091.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -3981,7 +3981,7 @@
                 {
                     "version": "2",
                     "semver": "2.1007779",
-                    "date": "2018.12.11 15:10",
+                    "date": "2018.12.11 14:10",
                     "file": "Mocha-2.1007779.zip",
                     "notes": [
                         "Remove the publish step due to being unusable, and add a new property to \"Run Test\" step for specifying the Mocha reporter to use when generating test reports."
@@ -4041,7 +4041,7 @@
                 {
                     "version": "2",
                     "semver": "2.358343",
-                    "date": "2013.03.20 15:52",
+                    "date": "2013.03.20 14:52",
                     "file": "Nant-2.358343.zip",
                     "notes": [
                         "Install this plugin to be able to use the NAnt step."
@@ -4055,7 +4055,7 @@
                 {
                     "version": "3",
                     "semver": "3.752793",
-                    "date": "2016.03.01 10:52",
+                    "date": "2016.03.01 09:52",
                     "file": "Nant-3.752793.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -4115,7 +4115,7 @@
                 {
                     "version": "1",
                     "semver": "1.759854",
-                    "date": "2016.03.18 13:36",
+                    "date": "2016.03.18 12:36",
                     "file": "NCover-1.759854.zip",
                     "notes": [
                         "Installing this plugin will give you access to the steps listed below. These steps will be available for use when designing a Job."
@@ -4177,7 +4177,7 @@
                 {
                     "version": "1",
                     "semver": "1.1098517",
-                    "date": "2021.02.22 00:16",
+                    "date": "2021.02.21 23:16",
                     "file": "NPM-1.1098517.zip",
                     "notes": [
                         "Initial NPM plugin version"
@@ -4265,7 +4265,7 @@
                 {
                     "version": "3",
                     "semver": "3.604302",
-                    "date": "2014.11.14 12:05",
+                    "date": "2014.11.14 11:05",
                     "file": "NUnit-3.604302.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -4279,7 +4279,7 @@
                 {
                     "version": "4",
                     "semver": "4.752916",
-                    "date": "2016.03.01 10:55",
+                    "date": "2016.03.01 09:55",
                     "file": "NUnit-4.752916.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -4339,7 +4339,7 @@
                 {
                     "version": "1",
                     "semver": "1.349457",
-                    "date": "2013.02.27 16:11",
+                    "date": "2013.02.27 15:11",
                     "file": "Pmd-1.349457.zip",
                     "notes": [
                         "Installing this plugin will give you access to the steps listed below. These steps will be available for use when designing a Job."
@@ -4368,7 +4368,7 @@
                 {
                     "version": "3",
                     "semver": "3.604308",
-                    "date": "2014.11.14 12:09",
+                    "date": "2014.11.14 11:09",
                     "file": "Pmd-3.604308.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -4382,7 +4382,7 @@
                 {
                     "version": "5",
                     "semver": "5.752822",
-                    "date": "2016.03.01 10:51",
+                    "date": "2016.03.01 09:51",
                     "file": "Pmd-5.752822.zip",
                     "notes": [
                         "Update to handle multiple files."
@@ -4442,7 +4442,7 @@
                 {
                     "version": "3",
                     "semver": "3.358068",
-                    "date": "2013.03.20 12:00",
+                    "date": "2013.03.20 11:00",
                     "file": "Perforce-3.358068.zip",
                     "notes": [
                         "Change the changelog command to use the -i flag. This will include changes that are merged into the current branch instead of just listing the merge commit"
@@ -4512,7 +4512,7 @@
                 {
                     "version": "8",
                     "semver": "8.461446",
-                    "date": "2013.12.17 15:19",
+                    "date": "2013.12.17 14:19",
                     "file": "Perforce-8.461446.zip",
                     "notes": [
                         "Updated the quiet period to properly handle the Client Spec Creation property when it is set to Create New Client Spec"
@@ -4526,7 +4526,7 @@
                 {
                     "version": "9",
                     "semver": "9.461842",
-                    "date": "2013.12.18 17:10",
+                    "date": "2013.12.18 16:10",
                     "file": "Perforce-9.461842.zip",
                     "notes": [
                         "Fixed a bug where the quiet period was closing the input stream for the client spec before it could be read"
@@ -4540,7 +4540,7 @@
                 {
                     "version": "10",
                     "semver": "10.461854",
-                    "date": "2013.12.19 11:56",
+                    "date": "2013.12.19 10:56",
                     "file": "Perforce-10.461854.zip",
                     "notes": [
                         "Removed client spec deletion from the quiet period step"
@@ -4554,7 +4554,7 @@
                 {
                     "version": "11",
                     "semver": "11.488078",
-                    "date": "2014.03.05 10:35",
+                    "date": "2014.03.05 09:35",
                     "file": "Perforce-11.488078.zip",
                     "notes": [
                         "Fix a memory leak in the get source changes step when there are many changes to process."
@@ -4610,7 +4610,7 @@
                 {
                     "version": "15",
                     "semver": "15.604318",
-                    "date": "2014.11.14 12:15",
+                    "date": "2014.11.14 11:15",
                     "file": "Perforce-15.604318.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -4624,7 +4624,7 @@
                 {
                     "version": "16",
                     "semver": "16.752926",
-                    "date": "2016.03.01 10:57",
+                    "date": "2016.03.01 09:57",
                     "file": "Perforce-16.752926.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -4684,7 +4684,7 @@
                 {
                     "version": "2",
                     "semver": "2.349482",
-                    "date": "2013.02.27 16:19",
+                    "date": "2013.02.27 15:19",
                     "file": "preflight-plugin-2.349482.zip",
                     "notes": [
                         "Fixed a issue where the steps could not find JAVA_HOME to run."
@@ -4705,7 +4705,7 @@
                 {
                     "version": "3",
                     "semver": "3.359915",
-                    "date": "2013.03.26 15:53",
+                    "date": "2013.03.26 14:53",
                     "file": "preflight-plugin-3.359915.zip",
                     "notes": [
                         "Change to a new plugin id."
@@ -4726,7 +4726,7 @@
                 {
                     "version": "4",
                     "semver": "4.752928",
-                    "date": "2016.03.01 10:56",
+                    "date": "2016.03.01 09:56",
                     "file": "preflight-plugin-4.752928.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -4812,7 +4812,7 @@
                 {
                     "version": "3",
                     "semver": "3.752827",
-                    "date": "2016.03.01 10:53",
+                    "date": "2016.03.01 09:53",
                     "file": "QTP-3.752827.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -4947,7 +4947,7 @@
                 {
                     "version": "7",
                     "semver": "7.604305",
-                    "date": "2014.11.14 12:06",
+                    "date": "2014.11.14 11:06",
                     "file": "RTC-WorkItems-7.604305.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -4961,7 +4961,7 @@
                 {
                     "version": "8",
                     "semver": "8.640315",
-                    "date": "2015.02.19 09:44",
+                    "date": "2015.02.19 08:44",
                     "file": "RTC-WorkItems-8.640315.zip",
                     "notes": [
                         "Fixed an issue where the plugin could not be upgraded if the server was currently using version 3"
@@ -4975,7 +4975,7 @@
                 {
                     "version": "9",
                     "semver": "9.752897",
-                    "date": "2016.03.01 10:55",
+                    "date": "2016.03.01 09:55",
                     "file": "RTC-WorkItems-9.752897.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -4989,7 +4989,7 @@
                 {
                     "version": "10",
                     "semver": "10.866824",
-                    "date": "2016.12.08 13:25",
+                    "date": "2016.12.08 12:25",
                     "file": "RTC-WorkItems-10.866824.zip",
                     "notes": [
                         "Support property file encryption."
@@ -5049,7 +5049,7 @@
                 {
                     "version": "2",
                     "semver": "2.358076",
-                    "date": "2013.03.20 12:00",
+                    "date": "2013.03.20 11:00",
                     "file": "Rake-2.358076.zip",
                     "notes": [
                         "Installing this plugin will give you access to the Rake commands listed below. These steps will be available for use when designing a Job."
@@ -5063,7 +5063,7 @@
                 {
                     "version": "3",
                     "semver": "3.752923",
-                    "date": "2016.03.01 10:55",
+                    "date": "2016.03.01 09:55",
                     "file": "Rake-3.752923.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -5123,7 +5123,7 @@
                 {
                     "version": "3",
                     "semver": "3.358078",
-                    "date": "2013.03.20 12:00",
+                    "date": "2013.03.20 11:00",
                     "file": "Rally-3.358078.zip",
                     "notes": [
                         "Updated Rally to handle the Number field on Build objects for Rally versions after 1.20"
@@ -5182,7 +5182,7 @@
                     "date": "2014.10.08 16:49",
                     "file": "Rally-11.578704.zip",
                     "notes": [
-                        "Use Rallys v2.0 API. Fix some issues when using HTTP proxies requiring authentication. Support detection of types in the Change Status step and fix available states."
+                        "Use Rally's v2.0 API. Fix some issues when using HTTP proxies requiring authentication. Support detection of types in the 'Change Status' step and fix available states."
                     ],
                     "supports": "",
                     "publish": "True",
@@ -5196,7 +5196,7 @@
                     "date": "2015.09.14 10:59",
                     "file": "Rally-12.697482.zip",
                     "notes": [
-                        "Use Rallys v2.0 API. Fix some issues when creating defect and Changing Rally Artifact Property. change the data format from xml to json.",
+                        "Use Rally's v2.0 API. Fix some issues when creating defect and Changing Rally Artifact Property. change the data format from xml to json.",
                         "        This will break compatibility with older versions."
                     ],
                     "supports": "",
@@ -5208,7 +5208,7 @@
                 {
                     "version": "13",
                     "semver": "13.753104",
-                    "date": "2016.03.02 12:01",
+                    "date": "2016.03.02 11:01",
                     "file": "Rally-13.753104.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -5236,7 +5236,7 @@
                 {
                     "version": "17",
                     "semver": "17.1126865",
-                    "date": "2021.12.21 04:55",
+                    "date": "2021.12.21 03:55",
                     "file": "ucd-Rally-17.1126865.zip",
                     "notes": [
                         "Add compatibility with Groovy 3."
@@ -5344,14 +5344,14 @@
                 {
                     "version": "1",
                     "semver": "1.349687",
-                    "date": "2013.02.27 17:48",
+                    "date": "2013.02.27 16:48",
                     "file": "RTC-scm-1.349687.zip",
                     "notes": [
                         "Installing this plugin will give you access to the steps listed below. These steps will be available for use when designing a Job."
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "IBMs Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
+                    "description": "IBM's Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
                     "SORT_VERSION": "0000000100349687",
                     "type": "SCM",
                     "categories": [
@@ -5369,7 +5369,7 @@
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "IBMs Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
+                    "description": "IBM's Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
                     "SORT_VERSION": "0000000400373166",
                     "type": "SCM",
                     "categories": [
@@ -5387,7 +5387,7 @@
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "IBMs Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
+                    "description": "IBM's Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
                     "SORT_VERSION": "0000000500382073",
                     "type": "SCM",
                     "categories": [
@@ -5405,7 +5405,7 @@
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "IBMs Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
+                    "description": "IBM's Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
                     "SORT_VERSION": "0000000600382086",
                     "type": "SCM",
                     "categories": [
@@ -5423,7 +5423,7 @@
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "IBMs Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
+                    "description": "IBM's Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
                     "SORT_VERSION": "0000000700382294",
                     "type": "SCM",
                     "categories": [
@@ -5441,7 +5441,7 @@
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "IBMs Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
+                    "description": "IBM's Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
                     "SORT_VERSION": "0000000800384130",
                     "type": "SCM",
                     "categories": [
@@ -5459,7 +5459,7 @@
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "IBMs Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
+                    "description": "IBM's Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
                     "SORT_VERSION": "0000000900384136",
                     "type": "SCM",
                     "categories": [
@@ -5477,7 +5477,7 @@
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "IBMs Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
+                    "description": "IBM's Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
                     "SORT_VERSION": "0000001100413536",
                     "type": "SCM"
                 },
@@ -5491,7 +5491,7 @@
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "IBMs Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
+                    "description": "IBM's Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
                     "SORT_VERSION": "0000001400528121",
                     "type": "SCM"
                 },
@@ -5505,35 +5505,35 @@
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "IBMs Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
+                    "description": "IBM's Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
                     "SORT_VERSION": "0000001500556981",
                     "type": "SCM"
                 },
                 {
                     "version": "18",
                     "semver": "18.604303",
-                    "date": "2014.11.14 12:06",
+                    "date": "2014.11.14 11:06",
                     "file": "RTC-scm-18.604303.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "IBMs Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
+                    "description": "IBM's Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
                     "SORT_VERSION": "0000001800604303",
                     "type": "SCM"
                 },
                 {
                     "version": "19",
                     "semver": "19.612820",
-                    "date": "2014.12.08 17:54",
+                    "date": "2014.12.08 16:54",
                     "file": "RTC-scm-19.612820.zip",
                     "notes": [
                         "Added retries to RTC commands if the command fails due to a \"Moniker already exists\" error"
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "IBMs Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
+                    "description": "IBM's Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
                     "SORT_VERSION": "0000001900612820",
                     "type": "SCM"
                 },
@@ -5547,14 +5547,14 @@
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "IBMs Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
+                    "description": "IBM's Rational Team Concert is a software development team collaboration tool. It provides software development teams with a collaborative environment in which they can manage all aspects of their work.",
                     "SORT_VERSION": "0000001900672547",
                     "type": "SCM"
                 },
                 {
                     "version": "20",
                     "semver": "20.752930",
-                    "date": "2016.03.01 10:56",
+                    "date": "2016.03.01 09:56",
                     "file": "RTC-scm-20.752930.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -5582,7 +5582,7 @@
                 {
                     "version": "24",
                     "semver": "24.1013888",
-                    "date": "2019.02.28 16:04",
+                    "date": "2019.02.28 15:04",
                     "file": "RTC-scm-24.1013888.zip",
                     "notes": [
                         "Changelog will use numeric id instead of baseline/snapshot labels"
@@ -5642,7 +5642,7 @@
                 {
                     "version": "2",
                     "semver": "2.359904",
-                    "date": "2013.03.26 15:52",
+                    "date": "2013.03.26 14:52",
                     "file": "Report-Publisher-2.359904.zip",
                     "notes": [
                         "Fixed a bug with the working directory not taking the directory offset into account"
@@ -5698,7 +5698,7 @@
                 {
                     "version": "6",
                     "semver": "6.597181",
-                    "date": "2014.11.05 16:49",
+                    "date": "2014.11.05 15:49",
                     "file": "Report-Publisher-6.597181.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -5712,7 +5712,7 @@
                 {
                     "version": "7",
                     "semver": "7.752918",
-                    "date": "2016.03.01 10:56",
+                    "date": "2016.03.01 09:56",
                     "file": "Report-Publisher-7.752918.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -5740,7 +5740,7 @@
                 {
                     "version": "8",
                     "semver": "8.1164837",
-                    "date": "2024.01.15 08:32",
+                    "date": "2024.01.15 07:32",
                     "file": "Report-Publisher-8.1164837.zip",
                     "notes": [
                         "Support property file encryption."
@@ -5800,7 +5800,7 @@
                 {
                     "version": "2",
                     "semver": "2.358586",
-                    "date": "2013.03.21 11:17",
+                    "date": "2013.03.21 10:17",
                     "file": "urbancode-reporting-2.358586.zip",
                     "notes": [
                         "Fixed a bug in generating a report to CSV."
@@ -5828,7 +5828,7 @@
                 {
                     "version": "4",
                     "semver": "4.597179",
-                    "date": "2014.11.05 16:48",
+                    "date": "2014.11.05 15:48",
                     "file": "urbancode-reporting-4.597179.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -5842,7 +5842,7 @@
                 {
                     "version": "5",
                     "semver": "5.752921",
-                    "date": "2016.03.01 10:56",
+                    "date": "2016.03.01 09:56",
                     "file": "urbancode-reporting-5.752921.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -5916,7 +5916,7 @@
                 {
                     "version": "3",
                     "semver": "3.358384",
-                    "date": "2013.03.20 16:52",
+                    "date": "2013.03.20 15:52",
                     "file": "Selenium-3.358384.zip",
                     "notes": [
                         "Installing this plugin will give you access to the Run Test Suite step. This step will be available for use in processes."
@@ -5930,7 +5930,7 @@
                 {
                     "version": "6",
                     "semver": "6.752852",
-                    "date": "2016.03.01 10:52",
+                    "date": "2016.03.01 09:52",
                     "file": "Selenium-6.752852.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -5996,7 +5996,7 @@
                 {
                     "version": "4",
                     "semver": "4.348367",
-                    "date": "2013.02.27 08:59",
+                    "date": "2013.02.27 07:59",
                     "file": "Shell-4.348367.zip",
                     "notes": [
                         "Removed the duplicate directory offset property."
@@ -6017,7 +6017,7 @@
                 {
                     "version": "5",
                     "semver": "5.752747",
-                    "date": "2016.03.01 10:49",
+                    "date": "2016.03.01 09:49",
                     "file": "Shell-5.752747.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -6130,7 +6130,7 @@
                 {
                     "version": "2",
                     "semver": "2.359898",
-                    "date": "2013.03.26 15:52",
+                    "date": "2013.03.26 14:52",
                     "file": "Sonar-2.359898.zip",
                     "notes": [
                         "Installing this plugin will give you access to the Sonar commands listed below. These steps will be available for use when designing a Job."
@@ -6172,7 +6172,7 @@
                 {
                     "version": "7",
                     "semver": "7.752900",
-                    "date": "2016.03.01 10:55",
+                    "date": "2016.03.01 09:55",
                     "file": "SonarQube-7.752900.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -6274,7 +6274,7 @@
                 {
                     "version": "4",
                     "semver": "4.604307",
-                    "date": "2014.11.14 12:08",
+                    "date": "2014.11.14 11:08",
                     "file": "Sonargraph-4.604307.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -6288,7 +6288,7 @@
                 {
                     "version": "5",
                     "semver": "5.752915",
-                    "date": "2016.03.01 10:55",
+                    "date": "2016.03.01 09:55",
                     "file": "Sonargraph-5.752915.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -6348,7 +6348,7 @@
                 {
                     "version": "3",
                     "semver": "3.358056",
-                    "date": "2013.03.20 12:00",
+                    "date": "2013.03.20 11:00",
                     "file": "Subversion-3.358056.zip",
                     "notes": [
                         "Added an isSvnRepo property to determine if the supplied repository is a single repository or a collection of repositories"
@@ -6376,7 +6376,7 @@
                 {
                     "version": "5",
                     "semver": "5.638529",
-                    "date": "2015.02.12 17:53",
+                    "date": "2015.02.12 16:53",
                     "file": "Subversion-5.638529.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -6404,7 +6404,7 @@
                 {
                     "version": "7",
                     "semver": "7.752914",
-                    "date": "2016.03.01 10:55",
+                    "date": "2016.03.01 09:55",
                     "file": "Subversion-7.752914.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -6485,49 +6485,49 @@
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "Microsofts Team Foundation Server (TFS) product offering includes source control, data collection, reporting, and project tracking, and is intended for collaborative software development projects.",
+                    "description": "Microsoft's Team Foundation Server (TFS) product offering includes source control, data collection, reporting, and project tracking, and is intended for collaborative software development projects.",
                     "SORT_VERSION": "0000000400409496",
                     "type": "SCM"
                 },
                 {
                     "version": "5",
                     "semver": "5.460931",
-                    "date": "2013.12.13 10:05",
+                    "date": "2013.12.13 09:05",
                     "file": "TFS-5.460931.zip",
                     "notes": [
                         "Updated the Populate step to correctly use the password property from the repository."
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "Microsofts Team Foundation Server (TFS) product offering includes source control, data collection, reporting, and project tracking, and is intended for collaborative software development projects.",
+                    "description": "Microsoft's Team Foundation Server (TFS) product offering includes source control, data collection, reporting, and project tracking, and is intended for collaborative software development projects.",
                     "SORT_VERSION": "0000000500460931",
                     "type": "SCM"
                 },
                 {
                     "version": "6",
                     "semver": "6.486073",
-                    "date": "2014.02.21 09:57",
+                    "date": "2014.02.21 08:57",
                     "file": "TFS-6.486073.zip",
                     "notes": [
-                        "Delete the workspace from the server on cleanup using the configuration option Remove All Files."
+                        "Delete the workspace from the server on cleanup using the configuration option 'Remove All Files'."
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "Microsofts Team Foundation Server (TFS) product offering includes source control, data collection, reporting, and project tracking, and is intended for collaborative software development projects.",
+                    "description": "Microsoft's Team Foundation Server (TFS) product offering includes source control, data collection, reporting, and project tracking, and is intended for collaborative software development projects.",
                     "SORT_VERSION": "0000000600486073",
                     "type": "SCM"
                 },
                 {
                     "version": "7",
                     "semver": "7.604315",
-                    "date": "2014.11.14 12:14",
+                    "date": "2014.11.14 11:14",
                     "file": "TFS-7.604315.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "Microsofts Team Foundation Server (TFS) product offering includes source control, data collection, reporting, and project tracking, and is intended for collaborative software development projects.",
+                    "description": "Microsoft's Team Foundation Server (TFS) product offering includes source control, data collection, reporting, and project tracking, and is intended for collaborative software development projects.",
                     "SORT_VERSION": "0000000700604315",
                     "type": "SCM"
                 },
@@ -6537,39 +6537,39 @@
                     "date": "2015.07.09 14:26",
                     "file": "TFS-8.679324.zip",
                     "notes": [
-                        "Fixed a bug where an empty directory offset would not be treated as the current directory and the checkout step would run a workfold /map command."
+                        "Fixed a bug where an empty directory offset would not be treated as the current directory and the checkout step would run a 'workfold /map' command."
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "Microsofts Team Foundation Server (TFS) product offering includes source control, data collection, reporting, and project tracking, and is intended for collaborative software development projects.",
+                    "description": "Microsoft's Team Foundation Server (TFS) product offering includes source control, data collection, reporting, and project tracking, and is intended for collaborative software development projects.",
                     "SORT_VERSION": "0000000800679324",
                     "type": "SCM"
                 },
                 {
                     "version": "9",
                     "semver": "9.752927",
-                    "date": "2016.03.01 10:56",
+                    "date": "2016.03.01 09:56",
                     "file": "TFS-9.752927.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "Microsofts Team Foundation Server (TFS) product offering includes source control, data collection, reporting, and project tracking, and is intended for collaborative software development projects.",
+                    "description": "Microsoft's Team Foundation Server (TFS) product offering includes source control, data collection, reporting, and project tracking, and is intended for collaborative software development projects.",
                     "SORT_VERSION": "0000000900752927",
                     "type": "SCM"
                 },
                 {
                     "version": "11",
                     "semver": "11.1049734",
-                    "date": "2020.03.05 15:30",
+                    "date": "2020.03.05 14:30",
                     "file": "TFS-11.1049734.zip",
                     "notes": [
                         "Updated change log step with additional diagnostic log"
                     ],
                     "supports": "",
                     "publish": "True",
-                    "description": "Microsofts Team Foundation Server (TFS) product offering includes source control, data collection, reporting, and project tracking, and is intended for collaborative software development projects.",
+                    "description": "Microsoft's Team Foundation Server (TFS) product offering includes source control, data collection, reporting, and project tracking, and is intended for collaborative software development projects.",
                     "SORT_VERSION": "0000001101049734",
                     "type": "SCM"
                 }
@@ -6622,7 +6622,7 @@
                 {
                     "version": "1",
                     "semver": "1.359972",
-                    "date": "2013.03.26 17:55",
+                    "date": "2013.03.26 16:55",
                     "file": "TFS-WorkItems-1.359972.zip",
                     "notes": [
                         "Install the TFS-WorkItems plugin to be able to use steps for working with TFS Work Items."
@@ -6650,7 +6650,7 @@
                 {
                     "version": "3",
                     "semver": "3.604316",
-                    "date": "2014.11.14 12:14",
+                    "date": "2014.11.14 11:14",
                     "file": "TFS-WorkItems-3.604316.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -6664,7 +6664,7 @@
                 {
                     "version": "4",
                     "semver": "4.752909",
-                    "date": "2016.03.01 10:55",
+                    "date": "2016.03.01 09:55",
                     "file": "TFS-WorkItems-4.752909.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -6724,7 +6724,7 @@
                 {
                     "version": "1",
                     "semver": "1.975310",
-                    "date": "2018.03.16 15:36",
+                    "date": "2018.03.16 14:36",
                     "file": "UCBUtils-1.975310.zip",
                     "notes": [
                         "Initial release providing two steps to create JSON files and to add properties."
@@ -6798,7 +6798,7 @@
                 {
                     "version": "2",
                     "semver": "2.360901",
-                    "date": "2013.03.28 17:20",
+                    "date": "2013.03.28 16:20",
                     "file": "VisualStudio-2.360901.zip",
                     "notes": [
                         "Install this plugin to be able to use the Visual Studio step when designing jobs."
@@ -6829,7 +6829,7 @@
                     "date": "2015.10.14 17:10",
                     "file": "VisualStudio-4.707042.zip",
                     "notes": [
-                        "Add a default command. Fix logic around determining if we need to add devenv to a user-specified command path"
+                        "Add a default command. Fix logic around determining if we need to add 'devenv' to a user-specified command path"
                     ],
                     "supports": "",
                     "publish": "True",
@@ -6840,7 +6840,7 @@
                 {
                     "version": "5",
                     "semver": "5.752842",
-                    "date": "2016.03.01 10:52",
+                    "date": "2016.03.01 09:52",
                     "file": "VisualStudio-5.752842.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -6868,7 +6868,7 @@
                 {
                     "version": "8",
                     "semver": "8.1050058",
-                    "date": "2020.03.09 09:00",
+                    "date": "2020.03.09 08:00",
                     "file": "VisualStudio-8.1050058.zip",
                     "notes": [
                         "APAR:CQPAR00249260 Enhancement to Mode Field"
@@ -6957,7 +6957,7 @@
                 {
                     "version": "3",
                     "semver": "3.711406",
-                    "date": "2015.10.29 12:47",
+                    "date": "2015.10.29 11:47",
                     "file": "Xcode-3.711406.zip",
                     "notes": [
                         "Add properties for a keychain password and timeout. If a build or package tries to sign a packaged application",
@@ -6973,7 +6973,7 @@
                 {
                     "version": "4",
                     "semver": "4.752919",
-                    "date": "2016.03.01 10:56",
+                    "date": "2016.03.01 09:56",
                     "file": "Xcode-4.752919.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -6987,7 +6987,7 @@
                 {
                     "version": "5",
                     "semver": "5.1098513",
-                    "date": "2021.02.21 23:45",
+                    "date": "2021.02.21 22:45",
                     "file": "Xcode-hcl-5.1098513.zip",
                     "notes": [
                         "Support property file encryption."
@@ -7101,7 +7101,7 @@
                 {
                     "version": "1",
                     "semver": "1.462541",
-                    "date": "2013.12.27 13:49",
+                    "date": "2013.12.27 12:49",
                     "file": "checkstyle-1.462541.zip",
                     "notes": [
                         "Installing this plugin will give you access to the steps listed below. These steps will be available for use when designing a Job."
@@ -7115,7 +7115,7 @@
                 {
                     "version": "2",
                     "semver": "2.604291",
-                    "date": "2014.11.14 11:59",
+                    "date": "2014.11.14 10:59",
                     "file": "checkstyle-2.604291.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -7129,7 +7129,7 @@
                 {
                     "version": "3",
                     "semver": "3.753093",
-                    "date": "2016.03.02 11:26",
+                    "date": "2016.03.02 10:26",
                     "file": "checkstyle-3.753093.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -7314,10 +7314,10 @@
                 {
                     "version": "22",
                     "semver": "22.593716",
-                    "date": "2014.10.28 17:35",
+                    "date": "2014.10.28 16:35",
                     "file": "ibm-ucd-22.593716.zip",
                     "notes": [
-                        "Fix the Deploy Component Version step when using and auth token."
+                        "Fix the 'Deploy Component Version' step when using and auth token."
                     ],
                     "supports": "",
                     "publish": "True",
@@ -7328,10 +7328,10 @@
                 {
                     "version": "23",
                     "semver": "23.618652",
-                    "date": "2014.12.19 14:25",
+                    "date": "2014.12.19 13:25",
                     "file": "ibm-ucd-23.618652.zip",
                     "notes": [
-                        "Fixed a bug where the Create Component Version and Set Component Version Properties steps could not set properties on component versions"
+                        "Fixed a bug where the 'Create Component Version' and 'Set Component Version Properties' steps could not set properties on component versions"
                     ],
                     "supports": "",
                     "publish": "True",
@@ -7342,10 +7342,10 @@
                 {
                     "version": "24",
                     "semver": "24.640458",
-                    "date": "2015.02.20 11:10",
+                    "date": "2015.02.20 10:10",
                     "file": "ibm-ucd-24.640458.zip",
                     "notes": [
-                        "Fixed a bug where the Upload All Artifact Sets step could not set properties on component versions"
+                        "Fixed a bug where the 'Upload All Artifact Sets' step could not set properties on component versions"
                     ],
                     "supports": "",
                     "publish": "True",
@@ -7370,7 +7370,7 @@
                 {
                     "version": "27",
                     "semver": "27.718157",
-                    "date": "2015.12.01 18:01",
+                    "date": "2015.12.01 17:01",
                     "file": "ibm-ucd-27.718157.zip",
                     "notes": [
                         "Add checkbox for test success percentage, code analytics, code coverage percentage, source changes, work items in steps that have the ability to create properties."
@@ -7384,7 +7384,7 @@
                 {
                     "version": "28",
                     "semver": "28.719018",
-                    "date": "2015.12.08 11:59",
+                    "date": "2015.12.08 10:59",
                     "file": "ibm-ucd-28.719018.zip",
                     "notes": [
                         "Fix a bug where not providing version properties would throw an error"
@@ -7398,7 +7398,7 @@
                 {
                     "version": "30",
                     "semver": "30.752925",
-                    "date": "2016.03.01 10:56",
+                    "date": "2016.03.01 09:56",
                     "file": "ibm-ucd-30.752925.zip",
                     "notes": [
                         "Add the ability to store artifacts in the IBM UrbanCode Deploy server. This requires UrbanCode Build 6.1.2.0 and UrbanCode Deploy 6.2.0.2."
@@ -7468,7 +7468,7 @@
                 {
                     "version": "35",
                     "semver": "35.864607",
-                    "date": "2016.12.02 17:11",
+                    "date": "2016.12.02 16:11",
                     "file": "ibm-ucd-35.864607.zip",
                     "notes": [
                         "Support property file encryption."
@@ -7524,7 +7524,7 @@
                 {
                     "version": "39",
                     "semver": "39.942969",
-                    "date": "2017.11.01 11:28",
+                    "date": "2017.11.01 10:28",
                     "file": "ibm-ucd-39.942969.zip",
                     "notes": [
                         "Add the ability to specify properties in Deploy Component Version step"
@@ -7552,10 +7552,10 @@
                 {
                     "version": "42",
                     "semver": "42.1011785",
-                    "date": "2019.02.01 16:23",
+                    "date": "2019.02.01 15:23",
                     "file": "ibm-ucd-42.1011785.zip",
                     "notes": [
-                        "Added Create Environment Snapshot and Deploy With Snapshot steps."
+                        "Added 'Create Environment Snapshot' and 'Deploy With Snapshot' steps."
                     ],
                     "supports": "",
                     "publish": "True",
@@ -7566,7 +7566,7 @@
                 {
                     "version": "43",
                     "semver": "43.1012319",
-                    "date": "2019.02.13 11:56",
+                    "date": "2019.02.13 10:56",
                     "file": "ibm-ucd-43.1012319.zip",
                     "notes": [
                         "Fixed missing AuthenticationCredentials import in Upload All Artifact Sets."
@@ -7622,7 +7622,7 @@
                 {
                     "version": "51",
                     "semver": "51.1040216",
-                    "date": "2019.12.26 11:29",
+                    "date": "2019.12.26 10:29",
                     "file": "ibm-ucd-51.1040216.zip",
                     "notes": [
                         "Fixed the Approval reject scenario while \"waiting for deployments\" that need approval in UCD."
@@ -7880,7 +7880,7 @@
                 {
                     "version": "5",
                     "semver": "5.1049716",
-                    "date": "2020.03.05 15:31",
+                    "date": "2020.03.05 14:31",
                     "file": "urbancode-velocity-5.1049716.zip",
                     "notes": [
                         "Revision to upload metrics data that is sent to UrbanCode Velocity."
@@ -8042,7 +8042,7 @@
                 {
                     "version": "2",
                     "semver": "2.753376",
-                    "date": "2016.03.02 14:03",
+                    "date": "2016.03.02 13:03",
                     "file": "dimensions-2.753376.zip",
                     "notes": [
                         "Update to a newer version of a library for HTTP communication."
@@ -8108,7 +8108,7 @@
                 {
                     "version": "8",
                     "semver": "8.361123",
-                    "date": "2013.03.29 15:53",
+                    "date": "2013.03.29 14:53",
                     "file": "uDeploy-8.361123.zip",
                     "notes": [
                         "Added a two new steps that allow uploading of artifact sets to an existing version"
@@ -8139,7 +8139,7 @@
                     "date": "2013.04.10 17:11",
                     "file": "uDeploy-10.366378.zip",
                     "notes": [
-                        "Update the Upload All Artifact Sets to set component version description and properties."
+                        "Update the 'Upload All Artifact Sets' to set component version description and properties."
                     ],
                     "supports": "",
                     "publish": "True",
@@ -8153,7 +8153,7 @@
                     "date": "2013.04.16 14:38",
                     "file": "uDeploy-11.371201.zip",
                     "notes": [
-                        "Update the Upload All Artifact Sets transfer artifacts from server to server. This requires uBuild 4.3 or later."
+                        "Update the 'Upload All Artifact Sets' transfer artifacts from server to server. This requires uBuild 4.3 or later."
                     ],
                     "supports": "",
                     "publish": "True",
@@ -8206,7 +8206,7 @@
                 {
                     "version": "16",
                     "semver": "16.460963",
-                    "date": "2013.12.13 14:33",
+                    "date": "2013.12.13 13:33",
                     "file": "uDeploy-16.460963.zip",
                     "notes": [
                         "Fix a bug in the Upload All Artifact Sets step where the step would fail if a component name contained a forward slash."

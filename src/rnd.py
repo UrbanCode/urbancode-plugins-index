@@ -99,10 +99,23 @@
 #     json.dump(allmappings,f, indent=4)
 
 import os
-rootdir = '/Volumes/T7/PLUGINS/IBM-UCD-PLUGINS/files'
+import subprocess
+import shutil
 
-for subdir, dirs, files in os.walk(rootdir):
-    for file in files:
-        if file.endswith(".zip"): continue
-        if file.endswith(".ZIP"): continue
-        print(os.path.join(subdir, file))
+rootdir = '/Volumes/T7/PLUGINS/IBM-UCD-PLUGINS/files'
+file_with_path = '/Volumes/T7/PLUGINS/IBM-UCV-PLUGINS/files/acc-ext-generator/acc-ext-generator/1.0.39.tar.7z.001' 
+target_directory = '/Users/ozzy/RnD/Source/PLUGINS/TEMP/XXX'
+
+shutil.rmtree(target_directory)
+os.mkdir(target_directory)
+
+print (f"unzipping UCV file={file_with_path}")
+retcode = subprocess.call(['7z', 'x', file_with_path, '-o'+target_directory], capture_output=True)
+print (f"retcode of file={retcode}")
+
+# file_with_path = '/Users/ozzy/Downloads/UCD/emp/AgentPropertiesCollector-4.973426.zip' 
+# shutil.rmtree(target_directory)
+# os.mkdir(target_directory)
+
+# retcode = subprocess.call(['7z', 'x', file_with_path, '-o'+target_directory])
+# print (f"retcode={retcode}")
