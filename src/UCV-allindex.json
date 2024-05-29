@@ -6343,6 +6343,20 @@
         "PLUGIN_FILES": [
             {
                 "version": "4",
+                "semver": "4.0.5",
+                "date": "2024.05.20 10:35",
+                "file": "",
+                "notes": [
+                    "<b>Minor bug fix:</b> In previous version user who does not exist on UCD server were able to execute the task. Now User who exists on UCD Server and have sufficient permission is able to execute the task."
+                ],
+                "supports": "4.0.13",
+                "publish": "True",
+                "description": "",
+                "SORT_VERSION": "000000040000000000000005",
+                "image": "urbancode/ucv-ext-ucd:4.0.5"
+            },
+            {
+                "version": "4",
                 "semver": "4.0.4",
                 "date": "2024.04.10 09:04",
                 "file": "",

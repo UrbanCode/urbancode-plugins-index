@@ -30896,6 +30896,20 @@
                     "description": "",
                     "SORT_VERSION": "0000002201165436",
                     "type": ""
+                },
+                {
+                    "version": "23",
+                    "semver": "23.1168147",
+                    "date": "2024.05.17 14:55",
+                    "file": "ucd-openshift-23.1168147.zip",
+                    "notes": [
+                        "Fixes APAR : PH61399 oc create object from template command fails when a warning is received"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000002301168147",
+                    "type": ""
                 }
             ],
             "docFiles": [

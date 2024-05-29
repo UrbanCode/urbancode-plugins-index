@@ -5404,6 +5404,34 @@
                     "description": "",
                     "SORT_VERSION": "000000040000000000000004",
                     "image": "urbancode/ucv-ext-ucd:4.0.4"
+                },
+                {
+                    "version": "4",
+                    "semver": "4.0.5",
+                    "date": "2024.05.20 10:35",
+                    "file": "ucv-ext-ucd:4.0.5.tar.7z.001",
+                    "notes": [
+                        "<b>Minor bug fix:</b> In previous version user who does not exist on UCD server were able to execute the task. Now User who exists on UCD Server and have sufficient permission is able to execute the task."
+                    ],
+                    "supports": "4.0.13",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000040000000000000005",
+                    "image": "urbancode/ucv-ext-ucd:4.0.5"
+                },
+                {
+                    "version": "4",
+                    "semver": "4.0.5",
+                    "date": "2024.05.20 10:35",
+                    "file": "ucv-ext-ucd:4.0.5.tar.7z.002",
+                    "notes": [
+                        "<b>Minor bug fix:</b> In previous version user who does not exist on UCD server were able to execute the task. Now User who exists on UCD Server and have sufficient permission is able to execute the task."
+                    ],
+                    "supports": "4.0.13",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000040000000000000005",
+                    "image": "urbancode/ucv-ext-ucd:4.0.5"
                 }
             ],
             "docFiles": [
