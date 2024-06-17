@@ -14132,6 +14132,20 @@
                     "description": "ServiceNow integrates ITIL v3 processes, social collaboration for IT departments, software-as-a-service delivery, and modern Web functionality to deliver a flexible, easy-to-use and self-managing application.",
                     "SORT_VERSION": "0000003901161576",
                     "type": "automation"
+                },
+                {
+                    "version": "40",
+                    "semver": "40.1168551",
+                    "date": "2024.06.10 06:50",
+                    "file": "ucd-ServiceNow-40.1168551.zip",
+                    "notes": [
+                        "RFE - URBANCODE-I-648 Added Check Extension Window for compare with end date."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "ServiceNow integrates ITIL v3 processes, social collaboration for IT departments, software-as-a-service delivery, and modern Web functionality to deliver a flexible, easy-to-use and self-managing application.",
+                    "SORT_VERSION": "0000004001168551",
+                    "type": "automation"
                 }
             ],
             "docFiles": [
@@ -39464,6 +39478,26 @@
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000201164401",
+                    "type": ""
+                },
+                {
+                    "version": "2",
+                    "semver": "2.1168604",
+                    "date": "2024.06.12 05:47",
+                    "file": "ucd-plugins-zos-rexx-2.1168604.zip",
+                    "notes": [
+                        "Added checkbox to print logs and minor improvements",
+                        "            Fixes issue where a process using ispf gateway that has more output data fills up output buffer and never completes",
+                        "            Increased allowed arguments size to 248 characters",
+                        "            Fixed issue with work directory during two or more parallel step execution",
+                        "            Handle return code for a CLIST error message response from ISPF Gateway",
+                        "            Use Legacy ISPF Gateway to run programs by default",
+                        "            Improvements in ISPF gateway error handling"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000000201168604",
                     "type": ""
                 }
             ],

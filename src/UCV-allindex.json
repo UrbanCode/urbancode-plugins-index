@@ -910,6 +910,20 @@
         "PLUGIN_FILES": [
             {
                 "version": "1",
+                "semver": "1.0.62",
+                "date": "2024.06.12 06:54",
+                "file": "",
+                "notes": [
+                    "npm wrapper version update for Argo Replacement"
+                ],
+                "supports": "",
+                "publish": "True",
+                "description": "",
+                "SORT_VERSION": "000000010000000000000062",
+                "image": "urbancode/ucv-ext-jmeter:1.0.62"
+            },
+            {
+                "version": "1",
                 "semver": "1.0.56",
                 "date": "2022.05.27 04:26",
                 "file": "",
@@ -1041,6 +1055,20 @@
         "PLUGIN_FILES": [
             {
                 "version": "1",
+                "semver": "1.0.80",
+                "date": "2024.06.12 09:35",
+                "file": "",
+                "notes": [
+                    "npm wrapper version update for Argo Replacement"
+                ],
+                "supports": "",
+                "publish": "True",
+                "description": "",
+                "SORT_VERSION": "000000010000000000000080",
+                "image": "urbancode/ucv-ext-junit:1.0.80"
+            },
+            {
+                "version": "1",
                 "semver": "1.0.72",
                 "date": "2022.05.27 04:38",
                 "file": "",
@@ -1170,6 +1198,20 @@
         "PLUGIN_FILES": [
             {
                 "version": "1",
+                "semver": "1.0.49",
+                "date": "2024.06.11 10:22",
+                "file": "",
+                "notes": [
+                    "npm wrapper version update for Argo Replacement"
+                ],
+                "supports": "",
+                "publish": "True",
+                "description": "",
+                "SORT_VERSION": "000000010000000000000049",
+                "image": "urbancode/ucv-ext-vs-quality:1.0.49"
+            },
+            {
+                "version": "1",
                 "semver": "1.0.31",
                 "date": "2020.12.11 13:53",
                 "file": "",
@@ -1257,6 +1299,20 @@
         },
         "publish": true,
         "PLUGIN_FILES": [
+            {
+                "version": "1",
+                "semver": "1.0.40",
+                "date": "2024.06.11 11:20",
+                "file": "",
+                "notes": [
+                    "npm wrapper version update for Argo Replacement"
+                ],
+                "supports": "2.5.0",
+                "publish": "True",
+                "description": "",
+                "SORT_VERSION": "000000010000000000000040",
+                "image": "urbancode/ucv-ext-onetest:1.0.40"
+            },
             {
                 "version": "1",
                 "semver": "1.0.37",
@@ -1593,6 +1649,20 @@
         "PLUGIN_FILES": [
             {
                 "version": "1",
+                "semver": "1.0.41",
+                "date": "2024.06.12 06:27",
+                "file": "",
+                "notes": [
+                    "npm wrapper version update for Argo replacement"
+                ],
+                "supports": "",
+                "publish": "True",
+                "description": "",
+                "SORT_VERSION": "000000010000000000000041",
+                "image": "urbancode/ucv-ext-testng:1.0.41"
+            },
+            {
+                "version": "1",
                 "semver": "1.0.38",
                 "date": "2022.05.31 16:33",
                 "file": "",
@@ -1722,6 +1792,20 @@
         },
         "publish": true,
         "PLUGIN_FILES": [
+            {
+                "version": "1",
+                "semver": "1.0.51",
+                "date": "2024.06.12 07:46",
+                "file": "",
+                "notes": [
+                    "npm wrapper version update for Argo Replacement"
+                ],
+                "supports": "",
+                "publish": "True",
+                "description": "",
+                "SORT_VERSION": "000000010000000000000051",
+                "image": "urbancode/ucv-ext-twistlock:1.0.51"
+            },
             {
                 "version": "1",
                 "semver": "1.0.44",
@@ -3059,6 +3143,20 @@
         "PLUGIN_FILES": [
             {
                 "version": "1",
+                "semver": "1.0.39",
+                "date": "2024.06.11 09:09",
+                "file": "",
+                "notes": [
+                    "npm wrapper version update for Argo Replacement"
+                ],
+                "supports": "",
+                "publish": "True",
+                "description": "",
+                "SORT_VERSION": "000000010000000000000039",
+                "image": "urbancode/ucv-ext-cucumber:1.0.39"
+            },
+            {
+                "version": "1",
                 "semver": "1.0.34",
                 "date": "2022.05.31 18:46",
                 "file": "",
@@ -3382,6 +3480,20 @@
         },
         "publish": true,
         "PLUGIN_FILES": [
+            {
+                "version": "1",
+                "semver": "1.0.51",
+                "date": "2024.06.13 03:50",
+                "file": "",
+                "notes": [
+                    "It is now compatible with new Argo framework."
+                ],
+                "supports": "4.0.5",
+                "publish": "True",
+                "description": "",
+                "SORT_VERSION": "000000010000000000000051",
+                "image": "urbancode/ucv-ext-generator:1.0.51"
+            },
             {
                 "version": "1",
                 "semver": "1.0.47",
@@ -4548,6 +4660,34 @@
         },
         "publish": true,
         "PLUGIN_FILES": [
+            {
+                "version": "1",
+                "semver": "1.1.7",
+                "date": "2024.06.10 10:37",
+                "file": "",
+                "notes": [
+                    "<b>Minor bug fix:</b> The Jenkins task in deployment remains incomplete when the Velocity instance goes down during deployment. When the instance comes back online with the new version, the task still does not get marked as complete."
+                ],
+                "supports": "4.0.9",
+                "publish": "True",
+                "description": "",
+                "SORT_VERSION": "000000010000000100000007",
+                "image": "urbancode/ucv-ext-jenkins:1.1.7"
+            },
+            {
+                "version": "1",
+                "semver": "1.1.6",
+                "date": "2024.06.10 08:38",
+                "file": "",
+                "notes": [
+                    "<b>Bug fix:</b> The Jenkins task in deployment remains incomplete when the Velocity instance goes down during deployment. When the instance comes back online with the new version, the task still does not get marked as complete."
+                ],
+                "supports": "4.0.9",
+                "publish": "True",
+                "description": "",
+                "SORT_VERSION": "000000010000000100000006",
+                "image": "urbancode/ucv-ext-jenkins:1.1.6"
+            },
             {
                 "version": "1",
                 "semver": "1.1.5",
@@ -5995,6 +6135,21 @@
         },
         "publish": true,
         "PLUGIN_FILES": [
+            {
+                "version": "1",
+                "semver": "1.1.5",
+                "date": "2024.05.29 12:19",
+                "file": "",
+                "notes": [
+                    "<b>Bug fix</b>: Removed drop down feature in update change request and change task and wait changes automation task which was implemented to select change request number as it was uploading more data to integration details. Now user can enter change request number manually.",
+                    "<b>Bug fix</b>: Enabled to create standard and emergency change request in create change request and change task automation task by changing api request made to create.( earlier it was creating only normal change )"
+                ],
+                "supports": "5.0.2",
+                "publish": "True",
+                "description": "",
+                "SORT_VERSION": "000000010000000100000005",
+                "image": "urbancode/ucv-ext-servicenow:1.1.5"
+            },
             {
                 "version": "1",
                 "semver": "1.1.4",
