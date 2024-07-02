@@ -764,6 +764,38 @@
                     "description": "",
                     "SORT_VERSION": "000000040000000000000040",
                     "image": "urbancode/ucv-ext-azure:4.0.40"
+                },
+                {
+                    "version": "4",
+                    "semver": "4.0.43",
+                    "date": "2024.06.21 10:01",
+                    "file": "ucv-ext-azure:4.0.43.tar.7z.001",
+                    "notes": [
+                        "Uploading builds with respect to branch",
+                        "Merged syncBuildEvent into syncPipelines to maintain order of resources to sync",
+                        "Uploading builds in ascending order of start time."
+                    ],
+                    "supports": "2.5.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000040000000000000043",
+                    "image": "urbancode/ucv-ext-azure:4.0.43"
+                },
+                {
+                    "version": "4",
+                    "semver": "4.0.43",
+                    "date": "2024.06.21 10:01",
+                    "file": "ucv-ext-azure:4.0.43.tar.7z.002",
+                    "notes": [
+                        "Uploading builds with respect to branch",
+                        "Merged syncBuildEvent into syncPipelines to maintain order of resources to sync",
+                        "Uploading builds in ascending order of start time."
+                    ],
+                    "supports": "2.5.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000040000000000000043",
+                    "image": "urbancode/ucv-ext-azure:4.0.43"
                 }
             ],
             "docFiles": [

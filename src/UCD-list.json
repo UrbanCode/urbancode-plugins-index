@@ -2039,6 +2039,20 @@
                     "description": "CICS Transaction Server is a powerful application server that meets the transaction-processing needs of both large and small enterprises.",
                     "SORT_VERSION": "0000004420231019-2202",
                     "type": "Deploy"
+                },
+                {
+                    "version": "45",
+                    "semver": "45.20240620-1707",
+                    "date": "2024.06.20 17:08",
+                    "file": "cics-45.20240620-1707.zip",
+                    "notes": [
+                        "Support deployments to CICS TS V6.2."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "CICS Transaction Server is a powerful application server that meets the transaction-processing needs of both large and small enterprises.",
+                    "SORT_VERSION": "0000004520240620-1707",
+                    "type": "Deploy"
                 }
             ],
             "docFiles": [
@@ -6566,6 +6580,18 @@
                     "description": "",
                     "SORT_VERSION": "0000000400000001",
                     "type": ""
+                },
+                {
+                    "version": "4",
+                    "semver": "4.2",
+                    "date": "2024.06.10 10:42",
+                    "file": "DTHub-DD-HCL-4.2.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000000400000002",
+                    "type": ""
                 }
             ],
             "docFiles": [
@@ -6634,6 +6660,18 @@
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001000000001",
+                    "type": "Automation"
+                },
+                {
+                    "version": "10",
+                    "semver": "10.2",
+                    "date": "2024.06.10 10:42",
+                    "file": "DTPerf-DD-HCL-10.2.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000001000000002",
                     "type": "Automation"
                 }
             ],
@@ -6704,6 +6742,18 @@
                     "description": "",
                     "SORT_VERSION": "0000000700000001",
                     "type": "Automation"
+                },
+                {
+                    "version": "7",
+                    "semver": "7.2",
+                    "date": "2024.06.10 10:42",
+                    "file": "DTUI-FunctionalTest-DD-HCL-7.2.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000000700000002",
+                    "type": "Automation"
                 }
             ],
             "docFiles": [
@@ -6773,6 +6823,18 @@
                     "description": "",
                     "SORT_VERSION": "0000001200000001",
                     "type": "Automation"
+                },
+                {
+                    "version": "12",
+                    "semver": "12.2",
+                    "date": "2024.06.10 10:42",
+                    "file": "DTUI-UITest-DD-HCL-12.2.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000001200000002",
+                    "type": "Automation"
                 }
             ],
             "docFiles": [
@@ -6841,6 +6903,18 @@
                     "publish": "True",
                     "description": "HCL DevOps Test Virtualization",
                     "SORT_VERSION": "0000000500000001",
+                    "type": "Automation"
+                },
+                {
+                    "version": "5",
+                    "semver": "5.2",
+                    "date": "2024.06.10 10:42",
+                    "file": "DTVirtualization-DD-HCL-5.2.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "HCL DevOps Test Virtualization",
+                    "SORT_VERSION": "0000000500000002",
                     "type": "Automation"
                 }
             ],
@@ -7915,6 +7989,18 @@
                     "description": "",
                     "SORT_VERSION": "0000000400000001",
                     "type": ""
+                },
+                {
+                    "version": "4",
+                    "semver": "4.2",
+                    "date": "2024.06.10 10:40",
+                    "file": "DTHub-DD-IBM-4.2.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000000400000002",
+                    "type": ""
                 }
             ],
             "docFiles": [
@@ -7983,6 +8069,18 @@
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001000000001",
+                    "type": "Automation"
+                },
+                {
+                    "version": "10",
+                    "semver": "10.2",
+                    "date": "2024.06.10 10:40",
+                    "file": "DTPerf-DD-IBM-10.2.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000001000000002",
                     "type": "Automation"
                 }
             ],
@@ -8053,6 +8151,18 @@
                     "description": "",
                     "SORT_VERSION": "0000000700000001",
                     "type": "Automation"
+                },
+                {
+                    "version": "7",
+                    "semver": "7.2",
+                    "date": "2024.06.10 10:40",
+                    "file": "DTUI-FunctionalTest-DD-IBM-7.2.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000000700000002",
+                    "type": "Automation"
                 }
             ],
             "docFiles": [
@@ -8122,6 +8232,18 @@
                     "description": "",
                     "SORT_VERSION": "0000001200000001",
                     "type": "Automation"
+                },
+                {
+                    "version": "12",
+                    "semver": "12.2",
+                    "date": "2024.06.10 10:40",
+                    "file": "DTUI-UITest-DD-IBM-12.2.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000001200000002",
+                    "type": "Automation"
                 }
             ],
             "docFiles": [
@@ -8190,6 +8312,18 @@
                     "publish": "True",
                     "description": "IBM DevOps Test Virtualization",
                     "SORT_VERSION": "0000000500000001",
+                    "type": "Automation"
+                },
+                {
+                    "version": "5",
+                    "semver": "5.2",
+                    "date": "2024.06.10 10:40",
+                    "file": "DTVirtualization-DD-IBM-5.2.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "IBM DevOps Test Virtualization",
+                    "SORT_VERSION": "0000000500000002",
                     "type": "Automation"
                 }
             ],
@@ -20370,6 +20504,20 @@
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001201100959",
+                    "type": ""
+                },
+                {
+                    "version": "13",
+                    "semver": "13.1154095",
+                    "date": "2023.03.23 09:09",
+                    "file": "ucd-WebSphereMQ-13.1154095.zip",
+                    "notes": [
+                        "Updated log4j and Jettison dependencies"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000001301154095",
                     "type": ""
                 }
             ],
@@ -38473,6 +38621,22 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, for z/OS.",
                     "SORT_VERSION": "0000009001167616",
+                    "type": "Automation"
+                },
+                {
+                    "version": "91",
+                    "semver": "91.1168861",
+                    "date": "2024.07.02 07:50",
+                    "file": "ucd-zos-deploy-91.1168861.zip",
+                    "notes": [
+                        "Added support for single source to multiple targets mapping",
+                        "            Improvements in ISPF gateway error handling",
+                        "            User can set MAX-RC for copy dataset step"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "Developed by UrbanCode, for z/OS.",
+                    "SORT_VERSION": "0000009101168861",
                     "type": "Automation"
                 }
             ],

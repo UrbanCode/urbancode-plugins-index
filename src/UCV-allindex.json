@@ -2092,6 +2092,22 @@
         "PLUGIN_FILES": [
             {
                 "version": "4",
+                "semver": "4.0.43",
+                "date": "2024.06.21 10:01",
+                "file": "",
+                "notes": [
+                    "Uploading builds with respect to branch",
+                    "Merged syncBuildEvent into syncPipelines to maintain order of resources to sync",
+                    "Uploading builds in ascending order of start time."
+                ],
+                "supports": "2.5.0",
+                "publish": "True",
+                "description": "",
+                "SORT_VERSION": "000000040000000000000043",
+                "image": "urbancode/ucv-ext-azure:4.0.43"
+            },
+            {
+                "version": "4",
                 "semver": "4.0.40",
                 "date": "2023.02.16 05:58",
                 "file": "",
