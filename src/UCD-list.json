@@ -38638,6 +38638,23 @@
                     "description": "Developed by UrbanCode, for z/OS.",
                     "SORT_VERSION": "0000009101168861",
                     "type": "Automation"
+                },
+                {
+                    "version": "91",
+                    "semver": "91.1168953",
+                    "date": "2024.07.04 12:57",
+                    "file": "ucd-zos-deploy-91.1168953.zip",
+                    "notes": [
+                        "Added support for single source to multiple targets mapping",
+                        "            Improvements in ISPF gateway error handling",
+                        "            User can set MAX-RC for copy dataset step",
+                        "            Fixed PH62152 - RcException while allocating temporary datasets"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "Developed by UrbanCode, for z/OS.",
+                    "SORT_VERSION": "0000009101168953",
+                    "type": "Automation"
                 }
             ],
             "docFiles": [
@@ -39662,6 +39679,27 @@
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000201168604",
+                    "type": ""
+                },
+                {
+                    "version": "2",
+                    "semver": "2.1168947",
+                    "date": "2024.07.04 06:32",
+                    "file": "ucd-plugins-zos-rexx-2.1168947.zip",
+                    "notes": [
+                        "Added checkbox to print logs and minor improvements",
+                        "            Fixes issue where a process using ispf gateway that has more output data fills up output buffer and never completes",
+                        "            Increased allowed arguments size to 248 characters",
+                        "            Fixed issue with work directory during two or more parallel step execution",
+                        "            Handle return code for a CLIST error message response from ISPF Gateway",
+                        "            Use Legacy ISPF Gateway to run programs by default",
+                        "            Improvements in ISPF gateway error handling",
+                        "            Fixed PH62152 - RcException while allocating temporary datasets"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000000201168947",
                     "type": ""
                 }
             ],

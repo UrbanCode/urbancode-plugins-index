@@ -1055,6 +1055,20 @@
         "PLUGIN_FILES": [
             {
                 "version": "1",
+                "semver": "1.0.84",
+                "date": "2024.07.03 09:30",
+                "file": "",
+                "notes": [
+                    "Updated the metric plugins in production to align with the new Argo-less framework."
+                ],
+                "supports": "",
+                "publish": "True",
+                "description": "",
+                "SORT_VERSION": "000000010000000000000084",
+                "image": "urbancode/ucv-ext-junit:1.0.84"
+            },
+            {
+                "version": "1",
                 "semver": "1.0.80",
                 "date": "2024.06.12 09:35",
                 "file": "",
