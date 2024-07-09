@@ -39323,6 +39323,20 @@
                     "description": "",
                     "SORT_VERSION": "0000000901167086",
                     "type": ""
+                },
+                {
+                    "version": "9",
+                    "semver": "9.1168826",
+                    "date": "2024.06.28 06:02",
+                    "file": "ucd-plugins-zos-multi-generate-artifact-info-9.1168826.zip",
+                    "notes": [
+                        "Minor code improvements"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000000901168826",
+                    "type": ""
                 }
             ],
             "docFiles": [

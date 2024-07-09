@@ -2106,6 +2106,20 @@
         "PLUGIN_FILES": [
             {
                 "version": "4",
+                "semver": "4.0.44",
+                "date": "2024.07.05 08:22",
+                "file": "",
+                "notes": [
+                    "Upload builds based on the repository."
+                ],
+                "supports": "2.5.0",
+                "publish": "True",
+                "description": "",
+                "SORT_VERSION": "000000040000000000000044",
+                "image": "urbancode/ucv-ext-azure:4.0.44"
+            },
+            {
+                "version": "4",
                 "semver": "4.0.43",
                 "date": "2024.06.21 10:01",
                 "file": "",
