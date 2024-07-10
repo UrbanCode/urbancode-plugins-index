@@ -6181,6 +6181,21 @@
         "PLUGIN_FILES": [
             {
                 "version": "1",
+                "semver": "1.1.6",
+                "date": "2024.07.09 09:31",
+                "file": "",
+                "notes": [
+                    "We have added a new field for Resource Types and Sys_params, which will synchronize events based on the provided sys_params.",
+                    "When the feature flag is enabled, all data collection queries will read from the read replica instance."
+                ],
+                "supports": "5.0.2",
+                "publish": "True",
+                "description": "",
+                "SORT_VERSION": "000000010000000100000006",
+                "image": "urbancode/ucv-ext-servicenow:1.1.6"
+            },
+            {
+                "version": "1",
                 "semver": "1.1.5",
                 "date": "2024.05.29 12:19",
                 "file": "",
