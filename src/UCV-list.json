@@ -4080,6 +4080,168 @@
                     "description": "",
                     "SORT_VERSION": "000000010000000000000004",
                     "image": "urbancode/ucv-ext-milestone-risk-estimator:1.0.4"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.0.1",
+                    "date": "2024.07.10 08:22",
+                    "file": "ucv-ext-milestone-risk-estimator:2.0.1.tar.7z.001",
+                    "notes": [
+                        "Introduced simulation-based prediction of team velocities for more realistic scenarios.",
+                        "Expanded support for a broader and customizable range of work item types.",
+                        "Enhanced estimation accuracy by incorporating:",
+                        "History of ownership changes.",
+                        "Parent-child relationships among work items."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000000000001",
+                    "image": "urbancode/ucv-ext-milestone-risk-estimator:2.0.1"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.0.1",
+                    "date": "2024.07.10 08:22",
+                    "file": "ucv-ext-milestone-risk-estimator:2.0.1.tar.7z.002",
+                    "notes": [
+                        "Introduced simulation-based prediction of team velocities for more realistic scenarios.",
+                        "Expanded support for a broader and customizable range of work item types.",
+                        "Enhanced estimation accuracy by incorporating:",
+                        "History of ownership changes.",
+                        "Parent-child relationships among work items."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000000000001",
+                    "image": "urbancode/ucv-ext-milestone-risk-estimator:2.0.1"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.0.1",
+                    "date": "2024.07.10 08:22",
+                    "file": "ucv-ext-milestone-risk-estimator:2.0.1.tar.7z.003",
+                    "notes": [
+                        "Introduced simulation-based prediction of team velocities for more realistic scenarios.",
+                        "Expanded support for a broader and customizable range of work item types.",
+                        "Enhanced estimation accuracy by incorporating:",
+                        "History of ownership changes.",
+                        "Parent-child relationships among work items."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000000000001",
+                    "image": "urbancode/ucv-ext-milestone-risk-estimator:2.0.1"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.0.1",
+                    "date": "2024.07.10 08:22",
+                    "file": "ucv-ext-milestone-risk-estimator:2.0.1.tar.7z.004",
+                    "notes": [
+                        "Introduced simulation-based prediction of team velocities for more realistic scenarios.",
+                        "Expanded support for a broader and customizable range of work item types.",
+                        "Enhanced estimation accuracy by incorporating:",
+                        "History of ownership changes.",
+                        "Parent-child relationships among work items."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000000000001",
+                    "image": "urbancode/ucv-ext-milestone-risk-estimator:2.0.1"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.0.1",
+                    "date": "2024.07.10 08:22",
+                    "file": "ucv-ext-milestone-risk-estimator:2.0.1.tar.7z.005",
+                    "notes": [
+                        "Introduced simulation-based prediction of team velocities for more realistic scenarios.",
+                        "Expanded support for a broader and customizable range of work item types.",
+                        "Enhanced estimation accuracy by incorporating:",
+                        "History of ownership changes.",
+                        "Parent-child relationships among work items."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000000000001",
+                    "image": "urbancode/ucv-ext-milestone-risk-estimator:2.0.1"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.0.1",
+                    "date": "2024.07.10 08:22",
+                    "file": "ucv-ext-milestone-risk-estimator:2.0.1.tar.7z.006",
+                    "notes": [
+                        "Introduced simulation-based prediction of team velocities for more realistic scenarios.",
+                        "Expanded support for a broader and customizable range of work item types.",
+                        "Enhanced estimation accuracy by incorporating:",
+                        "History of ownership changes.",
+                        "Parent-child relationships among work items."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000000000001",
+                    "image": "urbancode/ucv-ext-milestone-risk-estimator:2.0.1"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.0.1",
+                    "date": "2024.07.10 08:22",
+                    "file": "ucv-ext-milestone-risk-estimator:2.0.1.tar.7z.007",
+                    "notes": [
+                        "Introduced simulation-based prediction of team velocities for more realistic scenarios.",
+                        "Expanded support for a broader and customizable range of work item types.",
+                        "Enhanced estimation accuracy by incorporating:",
+                        "History of ownership changes.",
+                        "Parent-child relationships among work items."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000000000001",
+                    "image": "urbancode/ucv-ext-milestone-risk-estimator:2.0.1"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.0.1",
+                    "date": "2024.07.10 08:22",
+                    "file": "ucv-ext-milestone-risk-estimator:2.0.1.tar.7z.008",
+                    "notes": [
+                        "Introduced simulation-based prediction of team velocities for more realistic scenarios.",
+                        "Expanded support for a broader and customizable range of work item types.",
+                        "Enhanced estimation accuracy by incorporating:",
+                        "History of ownership changes.",
+                        "Parent-child relationships among work items."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000000000001",
+                    "image": "urbancode/ucv-ext-milestone-risk-estimator:2.0.1"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.0.1",
+                    "date": "2024.07.10 08:22",
+                    "file": "ucv-ext-milestone-risk-estimator:2.0.1.tar.7z.009",
+                    "notes": [
+                        "Introduced simulation-based prediction of team velocities for more realistic scenarios.",
+                        "Expanded support for a broader and customizable range of work item types.",
+                        "Enhanced estimation accuracy by incorporating:",
+                        "History of ownership changes.",
+                        "Parent-child relationships among work items."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000000000001",
+                    "image": "urbancode/ucv-ext-milestone-risk-estimator:2.0.1"
                 }
             ],
             "docFiles": [
@@ -5007,6 +5169,60 @@
                     "description": "",
                     "SORT_VERSION": "000000010000000100000005",
                     "image": "urbancode/ucv-ext-servicenow:1.1.5"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.1.6",
+                    "date": "2024.07.09 09:31",
+                    "file": "ucv-ext-servicenow:1.1.6.tar.7z.001",
+                    "notes": [
+                        "We have added a new field for Resource Types and Sys_params, which will synchronize events based on the provided sys_params.",
+                        "When the feature flag is enabled, all data collection queries will read from the read replica instance."
+                    ],
+                    "supports": "5.0.2",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000100000006",
+                    "image": "urbancode/ucv-ext-servicenow:1.1.6"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.1.6",
+                    "date": "2024.07.09 09:31",
+                    "file": "ucv-ext-servicenow:1.1.6.tar.7z.002",
+                    "notes": [
+                        "We have added a new field for Resource Types and Sys_params, which will synchronize events based on the provided sys_params.",
+                        "When the feature flag is enabled, all data collection queries will read from the read replica instance."
+                    ],
+                    "supports": "5.0.2",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000100000006",
+                    "image": "urbancode/ucv-ext-servicenow:1.1.6"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.1.7",
+                    "date": "2024.07.11 13:41",
+                    "file": "ucv-ext-servicenow:1.1.7.tar.7z.001",
+                    "notes": [],
+                    "supports": "5.0.2",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000100000007",
+                    "image": "urbancode/ucv-ext-servicenow:1.1.7"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.1.7",
+                    "date": "2024.07.11 13:41",
+                    "file": "ucv-ext-servicenow:1.1.7.tar.7z.002",
+                    "notes": [],
+                    "supports": "5.0.2",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000100000007",
+                    "image": "urbancode/ucv-ext-servicenow:1.1.7"
                 }
             ],
             "docFiles": [
@@ -5774,6 +5990,34 @@
                     "description": "",
                     "SORT_VERSION": "000000040000000000000005",
                     "image": "urbancode/ucv-ext-ucd:4.0.5"
+                },
+                {
+                    "version": "4",
+                    "semver": "4.0.9",
+                    "date": "2024.07.15 12:06",
+                    "file": "ucv-ext-ucd:4.0.9.tar.7z.001",
+                    "notes": [
+                        "Releasing again for prev version changes"
+                    ],
+                    "supports": "4.0.13",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000040000000000000009",
+                    "image": "urbancode/ucv-ext-ucd:4.0.9"
+                },
+                {
+                    "version": "4",
+                    "semver": "4.0.9",
+                    "date": "2024.07.15 12:06",
+                    "file": "ucv-ext-ucd:4.0.9.tar.7z.002",
+                    "notes": [
+                        "Releasing again for prev version changes"
+                    ],
+                    "supports": "4.0.13",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000040000000000000009",
+                    "image": "urbancode/ucv-ext-ucd:4.0.9"
                 }
             ],
             "docFiles": [

@@ -36638,6 +36638,22 @@
                     "description": "This plugin is used to download zOS artifacts from nexus or Artifactory.",
                     "SORT_VERSION": "0000001001162509",
                     "type": "Artifact"
+                },
+                {
+                    "version": "10",
+                    "semver": "10.1169084",
+                    "date": "2024.07.12 13:38",
+                    "file": "ucd-ExtArtRepo-10.1169084.zip",
+                    "notes": [
+                        "Added support to handle AT_TLS configuration for external servers.",
+                        "\t\t\tFix Jettison Vulnerability",
+                        "\t\t\tEnhancement to Download artifacts without credentials"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "This plugin is used to download zOS artifacts from nexus or Artifactory.",
+                    "SORT_VERSION": "0000001001169084",
+                    "type": "Artifact"
                 }
             ],
             "docFiles": [
@@ -38654,6 +38670,20 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, for z/OS.",
                     "SORT_VERSION": "0000009101168953",
+                    "type": "Automation"
+                },
+                {
+                    "version": "92",
+                    "semver": "92.1169106",
+                    "date": "2024.07.15 14:20",
+                    "file": "ucd-zos-deploy-92.1169106.zip",
+                    "notes": [
+                        "Improvements in Runtime delta deployment"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "Developed by UrbanCode, for z/OS.",
+                    "SORT_VERSION": "0000009201169106",
                     "type": "Automation"
                 }
             ],
