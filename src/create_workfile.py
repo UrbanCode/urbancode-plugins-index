@@ -8,7 +8,7 @@ import xmltodict
 import zipfile
 import pathlib
 import datetime
-# import py7zr
+# import py7zr‚
 # import multivolumefile
 from datetime import datetime
 import subprocess
@@ -404,9 +404,18 @@ def get_is_plugin_file(pluginnamefolder, file_with_path):
             break
     if not isplugin:
         return isplugin, infodesc
-    
-    # check if multivolume files -> will be managed outside
-    if (file_with_path.endswith(('.001', '.002', '.003', '.004', '.005'))):
+
+    # # check if multivolume files -> will be managed outside
+    # if (file_with_path.endswith(('.001', '.002', '.003', '.004', '.005', '.006'))):
+    #     isplugin = True
+    #     infodesc = MULTIVOLUME_FILE
+    #     return isplugin, infodesc
+    # rewrite using regular expression
+    import re
+    file_name, file_extension = os.path.splitext(os.path.basename(file_with_path))
+    pattern = r'\.0[0-9]{2}$'
+    match = re.search(pattern, file_extension)
+    if match:
         isplugin = True
         infodesc = MULTIVOLUME_FILE
         return isplugin, infodesc
