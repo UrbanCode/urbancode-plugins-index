@@ -2101,6 +2101,34 @@
                     "description": "",
                     "SORT_VERSION": "000000010000000400000016",
                     "image": "urbancode/ucv-ext-github:1.4.16"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.4.17",
+                    "date": "2024.07.23 12:55",
+                    "file": "ucv-ext-github:1.4.17.tar.7z.001",
+                    "notes": [
+                        "Fix Pull Request sync with the newest versions of the GitHub Api."
+                    ],
+                    "supports": "2.6.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000400000017",
+                    "image": "urbancode/ucv-ext-github:1.4.17"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.4.17",
+                    "date": "2024.07.23 12:55",
+                    "file": "ucv-ext-github:1.4.17.tar.7z.002",
+                    "notes": [
+                        "Fix Pull Request sync with the newest versions of the GitHub Api."
+                    ],
+                    "supports": "2.6.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000400000017",
+                    "image": "urbancode/ucv-ext-github:1.4.17"
                 }
             ],
             "docFiles": [
