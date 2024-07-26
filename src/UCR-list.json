@@ -49,7 +49,7 @@
                 {
                     "version": "4",
                     "semver": "4.953656",
-                    "date": "2017.12.14 15:16",
+                    "date": "2017.12.14 16:16",
                     "file": "ucr-plugin-deployment-reports-4.953656.zip",
                     "notes": [
                         "Updated libraries."
@@ -63,7 +63,7 @@
                 {
                     "version": "4",
                     "semver": "4.953915",
-                    "date": "2017.12.18 10:17",
+                    "date": "2017.12.18 11:17",
                     "file": "ucr-plugin-deployment-reports-4.953915.zip",
                     "notes": [
                         "Updated libraries."
@@ -321,7 +321,7 @@
                 {
                     "version": "3",
                     "semver": "3.969559",
-                    "date": "2018.02.07 16:59",
+                    "date": "2018.02.07 17:59",
                     "file": "ucr-plugin-rtc-3.969559.zip",
                     "notes": [
                         "Fix for SSL communication when using self signed certificates"
@@ -549,7 +549,7 @@
                 {
                     "version": "1",
                     "semver": "1.946637",
-                    "date": "2017.11.17 14:40",
+                    "date": "2017.11.17 15:40",
                     "file": "ucr-plugin-deploy-1.946637.zip",
                     "notes": [
                         "The first version of this plugin supports full sync (import all UCD entities) and delta sync (import only objects that have been changed in UCD) with any IBM UrbanCode Deploy server (UCD 6.1.1.4 and above).",
@@ -663,7 +663,7 @@
                 {
                     "version": "1",
                     "semver": "1.958213",
-                    "date": "2018.01.18 01:09",
+                    "date": "2018.01.18 02:09",
                     "file": "ucr-plugin-servicenow-1.958213.zip",
                     "notes": [],
                     "supports": "",
@@ -675,7 +675,7 @@
                 {
                     "version": "6",
                     "semver": "6.958218",
-                    "date": "2018.01.18 08:44",
+                    "date": "2018.01.18 09:44",
                     "file": "ucr-plugin-servicenow-6.958218.zip",
                     "notes": [
                         "Initial Public Release"
@@ -689,7 +689,7 @@
                 {
                     "version": "7",
                     "semver": "7.1007909",
-                    "date": "2018.12.12 09:44",
+                    "date": "2018.12.12 10:44",
                     "file": "ucr-plugin-servicenow-7.1007909.zip",
                     "notes": [
                         "Initial Public Release"
@@ -991,7 +991,7 @@
                 {
                     "version": "1",
                     "semver": "1.1079811",
-                    "date": "2020.12.17 07:17",
+                    "date": "2020.12.17 08:17",
                     "file": "ucr-plugin-ansible-tower-1.1079811.zip",
                     "notes": [
                         "The first version of this plugin supports full sync (import all UCD entities) and delta sync (import only objects that have been changed in UCD) with any IBM UrbanCode Deploy server (UCD 6.1.1.4 and above).",
@@ -1021,7 +1021,7 @@
                 {
                     "version": "3",
                     "semver": "3.1145832",
-                    "date": "2022.12.02 13:59",
+                    "date": "2022.12.02 14:59",
                     "file": "ucr-plugin-ansible-tower-3.1145832.zip",
                     "notes": [
                         "Support property file encryption."
@@ -1158,7 +1158,7 @@
                 {
                     "version": "5",
                     "semver": "5.942932",
-                    "date": "2017.11.01 09:04",
+                    "date": "2017.11.01 10:04",
                     "file": "HP-ALM-5.942932.zip",
                     "notes": [
                         "Fixed a NULL pointer error when mapping requirement statuses."
@@ -1234,7 +1234,7 @@
                 {
                     "version": "2",
                     "semver": "2.869688",
-                    "date": "2016.12.30 10:01",
+                    "date": "2016.12.30 11:01",
                     "file": "ucr-plugin-jira-2.869688.zip",
                     "notes": [
                         "Support property file encryption."
@@ -1277,7 +1277,7 @@
                 {
                     "version": "7",
                     "semver": "7.953688",
-                    "date": "2017.12.15 10:36",
+                    "date": "2017.12.15 11:36",
                     "file": "ucr-plugin-jira-7.953688.zip",
                     "notes": [
                         "Added support for mapping JIRA Projects and Components as UCR Applications.",
@@ -1294,7 +1294,7 @@
                 {
                     "version": "8",
                     "semver": "8.953913",
-                    "date": "2017.12.18 09:24",
+                    "date": "2017.12.18 10:24",
                     "file": "ucr-plugin-jira-8.953913.zip",
                     "notes": [
                         "All property lists are now alphabetically sorted.",
@@ -1351,7 +1351,7 @@
                 {
                     "version": "12",
                     "semver": "12.1012976",
-                    "date": "2019.02.21 13:44",
+                    "date": "2019.02.21 14:44",
                     "file": "ucr-plugin-jira-12.1012976.zip",
                     "notes": [
                         "Custom Issue Types are now imported as initiatives, and this uses custom issue links to associate changes."
@@ -1379,7 +1379,7 @@
                 {
                     "version": "15",
                     "semver": "15.1036688",
-                    "date": "2019.11.13 15:43",
+                    "date": "2019.11.13 16:43",
                     "file": "ucr-plugin-jira-15.1036688.zip",
                     "notes": [
                         "APAR PH17367 UCR application mapping select box to be scripted."
@@ -1421,7 +1421,7 @@
                 {
                     "version": "18",
                     "semver": "18.1079383",
-                    "date": "2020.12.11 14:02",
+                    "date": "2020.12.11 15:02",
                     "file": "ucr-plugin-jira-18.1079383.zip",
                     "notes": [
                         "Change Jira status to Status types"
@@ -1481,7 +1481,7 @@
                 {
                     "version": "4",
                     "semver": "4.1036957",
-                    "date": "2019.11.15 15:09",
+                    "date": "2019.11.15 16:09",
                     "file": "ucr-plugin-nolio-4.1036957.zip",
                     "notes": [
                         "Improved sync to remove applications and templates that no longer exist in Nolio.",
@@ -1661,7 +1661,7 @@
                 {
                     "version": "3",
                     "semver": "3.882972",
-                    "date": "2017.01.30 16:26",
+                    "date": "2017.01.30 17:26",
                     "file": "ucr-plugin-tfs-3.882972.zip",
                     "notes": [
                         "Support property file encryption."
@@ -1675,7 +1675,7 @@
                 {
                     "version": "5",
                     "semver": "5.953540",
-                    "date": "2017.12.14 11:08",
+                    "date": "2017.12.14 12:08",
                     "file": "ucr-plugin-tfs-5.953540.zip",
                     "notes": [],
                     "supports": "",
@@ -1733,7 +1733,7 @@
                 {
                     "version": "1",
                     "semver": "1.1015971",
-                    "date": "2019.03.25 10:55",
+                    "date": "2019.03.25 11:55",
                     "file": "plugins-ucr-xl-deploy-1.1015971.zip",
                     "notes": [
                         "The initial version of this plugin supports both full sync and delta sync. Full sync",
@@ -1805,7 +1805,7 @@
                 {
                     "version": "6",
                     "semver": "6.1039808",
-                    "date": "2019.12.20 12:48",
+                    "date": "2019.12.20 13:48",
                     "file": "plugins-ucr-xl-deploy-6.1039808.zip",
                     "notes": [
                         "APAR PH20204 - Archive completed deployment tasks in XL Deploy."
@@ -1950,7 +1950,7 @@
                 {
                     "version": "4",
                     "semver": "4.869522",
-                    "date": "2016.12.28 09:58",
+                    "date": "2016.12.28 10:58",
                     "file": "sync-ucd-plugin-4.869522.zip",
                     "notes": [
                         "Support property file encryption."
@@ -1998,7 +1998,7 @@
                 {
                     "version": "9",
                     "semver": "9.956642",
-                    "date": "2018.01.08 08:39",
+                    "date": "2018.01.08 09:39",
                     "file": "sync-ucr-plugin-9.956642.zip",
                     "notes": [
                         "Bug fixes.  Improved retrieval of timing on deployments.  Best used with UCR 6.2.2.1 and later."
@@ -2031,7 +2031,7 @@
                 {
                     "version": "1",
                     "semver": "1.1078299",
-                    "date": "2020.12.08 23:49",
+                    "date": "2020.12.09 00:49",
                     "file": "ucr-plugin-jenkins-1.1078299.zip",
                     "notes": [
                         "Initial release. Installing this plugin will give you access to the steps listed below."

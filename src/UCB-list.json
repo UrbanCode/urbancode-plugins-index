@@ -223,7 +223,7 @@
                 {
                     "version": "8",
                     "semver": "8.1096129",
-                    "date": "2021.02.05 12:58",
+                    "date": "2021.02.05 13:58",
                     "file": "AccuWork-8.1096129.zip",
                     "notes": [
                         "Support property file encryption."
@@ -367,7 +367,7 @@
                 {
                     "version": "10",
                     "semver": "10.1165571",
-                    "date": "2024.02.02 02:20",
+                    "date": "2024.02.02 03:20",
                     "file": "Ant-10.1165571.zip",
                     "notes": [
                         "log4j and Jettison dependency updated."
@@ -728,7 +728,7 @@
                 {
                     "version": "16",
                     "semver": "16.973040",
-                    "date": "2018.02.28 11:11",
+                    "date": "2018.02.28 12:11",
                     "file": "ClearCaseUCM-16.973040.zip",
                     "notes": [
                         "Fix bug in changelog parsing logic that caused multiple changes to be detected for each changeset."
@@ -1282,7 +1282,7 @@
                 {
                     "version": "20",
                     "semver": "20.973508",
-                    "date": "2018.03.02 23:15",
+                    "date": "2018.03.03 00:15",
                     "file": "codestation-20.973508.zip",
                     "notes": [
                         "Change the tag to \"Repositories/Artifact/CodeStation\"."
@@ -1352,7 +1352,7 @@
                 {
                     "version": "25",
                     "semver": "25.1165172",
-                    "date": "2024.01.30 06:43",
+                    "date": "2024.01.30 07:43",
                     "file": "codestation-25.1165172.zip",
                     "notes": [
                         "Upgrade of jettison jar as part of security fix."
@@ -1616,7 +1616,7 @@
                 {
                     "version": "6",
                     "semver": "6.1036529",
-                    "date": "2019.11.12 07:11",
+                    "date": "2019.11.12 08:11",
                     "file": "docker-plugin-6.1036529.zip",
                     "notes": [
                         "Added Login, Tag, and logout steps to this plugin, cleaned up the docker push",
@@ -2252,7 +2252,7 @@
                 {
                     "version": "9",
                     "semver": "9.851181",
-                    "date": "2016.11.14 10:17",
+                    "date": "2016.11.14 11:17",
                     "file": "Git-9.851181.zip",
                     "notes": [
                         "Improved handling of user credentials embedded in repository base url and repository configuration"
@@ -2266,7 +2266,7 @@
                 {
                     "version": "10",
                     "semver": "10.869547",
-                    "date": "2016.12.29 12:45",
+                    "date": "2016.12.29 13:45",
                     "file": "Git-10.869547.zip",
                     "notes": [
                         "Support property file encryption."
@@ -2308,7 +2308,7 @@
                 {
                     "version": "15",
                     "semver": "15.944083",
-                    "date": "2017.11.08 08:49",
+                    "date": "2017.11.08 09:49",
                     "file": "Git-15.944083.zip",
                     "notes": [
                         "Fix intermittent IOException stream closed errors"
@@ -2322,7 +2322,7 @@
                 {
                     "version": "16",
                     "semver": "16.946670",
-                    "date": "2017.11.17 15:10",
+                    "date": "2017.11.17 16:10",
                     "file": "Git-16.946670.zip",
                     "notes": [
                         "Fix incompatibility with UCB 6.1.2.x that was introduced in version 14 and prevented triggering builds in response to push events sent by GitHub."
@@ -2336,7 +2336,7 @@
                 {
                     "version": "17",
                     "semver": "17.948973",
-                    "date": "2017.11.29 13:35",
+                    "date": "2017.11.29 14:35",
                     "file": "Git-17.948973.zip",
                     "notes": [
                         "Prefer using external web URL to construct the target URL in \"Create GitHub Status\" step when available."
@@ -2350,7 +2350,7 @@
                 {
                     "version": "18",
                     "semver": "18.970588",
-                    "date": "2018.02.14 08:38",
+                    "date": "2018.02.14 09:38",
                     "file": "Git-18.970588.zip",
                     "notes": [
                         "Avoid NullPointerException if the HTTP client fails to execute and throws an exception before returning the response object."
@@ -2364,7 +2364,7 @@
                 {
                     "version": "19",
                     "semver": "19.974464",
-                    "date": "2018.03.08 08:18",
+                    "date": "2018.03.08 09:18",
                     "file": "Git-19.974464.zip",
                     "notes": [
                         "Allow triggering builds for changes in arbitrary branches of a GitHub repository"
@@ -2420,7 +2420,7 @@
                 {
                     "version": "27",
                     "semver": "27.1096142",
-                    "date": "2021.02.05 12:58",
+                    "date": "2021.02.05 13:58",
                     "file": "Git-27.1096142.zip",
                     "notes": [
                         "Added provision to use email id of authors instead of author name."
@@ -2448,7 +2448,7 @@
                 {
                     "version": "29",
                     "semver": "29.1127031",
-                    "date": "2021.12.28 04:49",
+                    "date": "2021.12.28 05:49",
                     "file": "Git-29.1127031.zip",
                     "notes": [
                         "Added support for Git Tags"
@@ -2606,7 +2606,7 @@
                 {
                     "version": "9",
                     "semver": "9.891045",
-                    "date": "2017.02.22 15:51",
+                    "date": "2017.02.22 16:51",
                     "file": "Groovy-9.891045.zip",
                     "notes": [
                         "Support property file encryption."
@@ -2620,7 +2620,7 @@
                 {
                     "version": "16",
                     "semver": "16.1164697",
-                    "date": "2024.01.09 11:11",
+                    "date": "2024.01.09 12:11",
                     "file": "Groovy-16.1164697.zip",
                     "notes": [
                         "Updating Jettison library to 1.5.4 for CVE-2023-1436"
@@ -2965,7 +2965,7 @@
                 {
                     "version": "4",
                     "semver": "4.863047",
-                    "date": "2016.11.30 16:45",
+                    "date": "2016.11.30 17:45",
                     "file": "Harvest-4.863047.zip",
                     "notes": [
                         "Support property file encryption."
@@ -2979,7 +2979,7 @@
                 {
                     "version": "4",
                     "semver": "4.866634",
-                    "date": "2016.12.07 15:44",
+                    "date": "2016.12.07 16:44",
                     "file": "Harvest-4.866634.zip",
                     "notes": [
                         "Support property file encryption."
@@ -2993,7 +2993,7 @@
                 {
                     "version": "6",
                     "semver": "6.1014490",
-                    "date": "2019.03.08 15:31",
+                    "date": "2019.03.08 16:31",
                     "file": "Harvest-6.1014490.zip",
                     "notes": [
                         "Fix changelog parser logic to correctly handle empty data columns."
@@ -3021,7 +3021,7 @@
                 {
                     "version": "7",
                     "semver": "7.1098511",
-                    "date": "2021.02.21 22:43",
+                    "date": "2021.02.21 23:43",
                     "file": "Harvest-hcl-7.1098511.zip",
                     "notes": [
                         "Fix APAR PH10867 - Use 'includeFiles' source property in quiet period step."
@@ -3137,7 +3137,7 @@
                 {
                     "version": "7",
                     "semver": "7.876389",
-                    "date": "2017.01.20 11:05",
+                    "date": "2017.01.20 12:05",
                     "file": "JIRA-7.876389.zip",
                     "notes": [
                         "Migrate to Jira REST API and drop support for Jira's SOAP API. Jira versions older than 6.4 are no longer supported."
@@ -3253,7 +3253,7 @@
                 {
                     "version": "8",
                     "semver": "8.1015721",
-                    "date": "2019.03.22 14:59",
+                    "date": "2019.03.22 15:59",
                     "file": "JUnit-8.1015721.zip",
                     "notes": [
                         "Add optional timeout setting for calls to UCB server."
@@ -3425,7 +3425,7 @@
                 {
                     "version": "7",
                     "semver": "7.950839",
-                    "date": "2017.12.05 14:56",
+                    "date": "2017.12.05 15:56",
                     "file": "JaCoCo-7.950839.zip",
                     "notes": [
                         "Support property file encryption."
@@ -3981,7 +3981,7 @@
                 {
                     "version": "2",
                     "semver": "2.1007779",
-                    "date": "2018.12.11 14:10",
+                    "date": "2018.12.11 15:10",
                     "file": "Mocha-2.1007779.zip",
                     "notes": [
                         "Remove the publish step due to being unusable, and add a new property to \"Run Test\" step for specifying the Mocha reporter to use when generating test reports."
@@ -4177,7 +4177,7 @@
                 {
                     "version": "1",
                     "semver": "1.1098517",
-                    "date": "2021.02.21 23:16",
+                    "date": "2021.02.22 00:16",
                     "file": "NPM-1.1098517.zip",
                     "notes": [
                         "Initial NPM plugin version"
@@ -4989,7 +4989,7 @@
                 {
                     "version": "10",
                     "semver": "10.866824",
-                    "date": "2016.12.08 12:25",
+                    "date": "2016.12.08 13:25",
                     "file": "RTC-WorkItems-10.866824.zip",
                     "notes": [
                         "Support property file encryption."
@@ -5236,7 +5236,7 @@
                 {
                     "version": "17",
                     "semver": "17.1126865",
-                    "date": "2021.12.21 03:55",
+                    "date": "2021.12.21 04:55",
                     "file": "ucd-Rally-17.1126865.zip",
                     "notes": [
                         "Add compatibility with Groovy 3."
@@ -5582,7 +5582,7 @@
                 {
                     "version": "24",
                     "semver": "24.1013888",
-                    "date": "2019.02.28 15:04",
+                    "date": "2019.02.28 16:04",
                     "file": "RTC-scm-24.1013888.zip",
                     "notes": [
                         "Changelog will use numeric id instead of baseline/snapshot labels"
@@ -5740,7 +5740,7 @@
                 {
                     "version": "8",
                     "semver": "8.1164837",
-                    "date": "2024.01.15 07:32",
+                    "date": "2024.01.15 08:32",
                     "file": "Report-Publisher-8.1164837.zip",
                     "notes": [
                         "Support property file encryption."
@@ -6562,7 +6562,7 @@
                 {
                     "version": "11",
                     "semver": "11.1049734",
-                    "date": "2020.03.05 14:30",
+                    "date": "2020.03.05 15:30",
                     "file": "TFS-11.1049734.zip",
                     "notes": [
                         "Updated change log step with additional diagnostic log"
@@ -6724,7 +6724,7 @@
                 {
                     "version": "1",
                     "semver": "1.975310",
-                    "date": "2018.03.16 14:36",
+                    "date": "2018.03.16 15:36",
                     "file": "UCBUtils-1.975310.zip",
                     "notes": [
                         "Initial release providing two steps to create JSON files and to add properties."
@@ -6868,7 +6868,7 @@
                 {
                     "version": "8",
                     "semver": "8.1050058",
-                    "date": "2020.03.09 08:00",
+                    "date": "2020.03.09 09:00",
                     "file": "VisualStudio-8.1050058.zip",
                     "notes": [
                         "APAR:CQPAR00249260 Enhancement to Mode Field"
@@ -6957,7 +6957,7 @@
                 {
                     "version": "3",
                     "semver": "3.711406",
-                    "date": "2015.10.29 11:47",
+                    "date": "2015.10.29 12:47",
                     "file": "Xcode-3.711406.zip",
                     "notes": [
                         "Add properties for a keychain password and timeout. If a build or package tries to sign a packaged application",
@@ -6987,7 +6987,7 @@
                 {
                     "version": "5",
                     "semver": "5.1098513",
-                    "date": "2021.02.21 22:45",
+                    "date": "2021.02.21 23:45",
                     "file": "Xcode-hcl-5.1098513.zip",
                     "notes": [
                         "Support property file encryption."
@@ -7468,7 +7468,7 @@
                 {
                     "version": "35",
                     "semver": "35.864607",
-                    "date": "2016.12.02 16:11",
+                    "date": "2016.12.02 17:11",
                     "file": "ibm-ucd-35.864607.zip",
                     "notes": [
                         "Support property file encryption."
@@ -7524,7 +7524,7 @@
                 {
                     "version": "39",
                     "semver": "39.942969",
-                    "date": "2017.11.01 10:28",
+                    "date": "2017.11.01 11:28",
                     "file": "ibm-ucd-39.942969.zip",
                     "notes": [
                         "Add the ability to specify properties in Deploy Component Version step"
@@ -7552,7 +7552,7 @@
                 {
                     "version": "42",
                     "semver": "42.1011785",
-                    "date": "2019.02.01 15:23",
+                    "date": "2019.02.01 16:23",
                     "file": "ibm-ucd-42.1011785.zip",
                     "notes": [
                         "Added 'Create Environment Snapshot' and 'Deploy With Snapshot' steps."
@@ -7566,7 +7566,7 @@
                 {
                     "version": "43",
                     "semver": "43.1012319",
-                    "date": "2019.02.13 10:56",
+                    "date": "2019.02.13 11:56",
                     "file": "ibm-ucd-43.1012319.zip",
                     "notes": [
                         "Fixed missing AuthenticationCredentials import in Upload All Artifact Sets."
@@ -7622,7 +7622,7 @@
                 {
                     "version": "51",
                     "semver": "51.1040216",
-                    "date": "2019.12.26 10:29",
+                    "date": "2019.12.26 11:29",
                     "file": "ibm-ucd-51.1040216.zip",
                     "notes": [
                         "Fixed the Approval reject scenario while \"waiting for deployments\" that need approval in UCD."
@@ -7880,7 +7880,7 @@
                 {
                     "version": "5",
                     "semver": "5.1049716",
-                    "date": "2020.03.05 14:31",
+                    "date": "2020.03.05 15:31",
                     "file": "urbancode-velocity-5.1049716.zip",
                     "notes": [
                         "Revision to upload metrics data that is sent to UrbanCode Velocity."

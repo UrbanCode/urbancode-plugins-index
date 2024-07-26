@@ -8,6 +8,7 @@ import xmltodict
 import zipfile
 import pathlib
 import datetime
+from datetime import timezone
 # import py7zr‚
 # import multivolumefile
 from datetime import datetime
@@ -637,8 +638,9 @@ def get_ucv_index_infos():
         for file in releasesjson:
             file_info = get_extended_release_template()
             file_info[docutil.RELEASE_NOTES]=file.get("notes")
-            datetime_obj=datetime.fromisoformat(file.get("date")[:-1])
+            datetime_obj_local=datetime.fromisoformat(file.get("date")[:-1])
             # logger1.debug(f"datetime_obj={datetime_obj}")
+            datetime_obj = datetime_obj_local.astimezone(tz=timezone.utc)
             file_info[docutil.RELEASE_DATE] = datetime_obj.strftime("%Y.%m.%d %H:%M")
             file_info[docutil.RELEASE_SEMVER], file_info[docutil.RELEASE_VERSION], file_info[SORT_VERSION]=get_semver_and_version(file.get("semver"))
             file_info[docutil.RELEASE_IMAGE] = file.get(docutil.RELEASE_IMAGE)

@@ -19,7 +19,7 @@
             {
                 "version": "1",
                 "semver": "1.0.41",
-                "date": "2023.01.10 22:41",
+                "date": "2023.01.10 19:41",
                 "file": "",
                 "notes": [
                     "Remove need to manually specify User Access Key"
@@ -33,7 +33,7 @@
             {
                 "version": "1",
                 "semver": "1.0.39",
-                "date": "2022.11.21 22:43",
+                "date": "2022.11.21 19:43",
                 "file": "",
                 "notes": [
                     "Support deletion of generated demo data",
@@ -48,7 +48,7 @@
             {
                 "version": "1",
                 "semver": "1.0.35",
-                "date": "2022.09.06 15:25",
+                "date": "2022.09.06 12:25",
                 "file": "",
                 "notes": [
                     "Fixed issue with new create workflow resolver, 1.0.31"
@@ -62,7 +62,7 @@
             {
                 "version": "1",
                 "semver": "1.0.31",
-                "date": "2022.08.19 12:50",
+                "date": "2022.08.19 09:50",
                 "file": "",
                 "notes": [
                     "Enable plugin in Velocity, 1.0.31"
@@ -95,7 +95,7 @@
             {
                 "version": "2",
                 "semver": "2.0.51",
-                "date": "2024.04.04 08:34",
+                "date": "2024.04.04 05:34",
                 "file": "",
                 "notes": [
                     "<b>Bug Fix:</b> In earlier version of plugin data into HCL AppScan Enterprise Issues metrics was not showing in VSM."
@@ -109,7 +109,7 @@
             {
                 "version": "2",
                 "semver": "2.0.48",
-                "date": "2023.09.25 10:52",
+                "date": "2023.09.25 07:52",
                 "file": "",
                 "notes": [
                     "<b>Feature Enhancement:</b> sync new scan from lastSyncDate for any application"
@@ -123,7 +123,7 @@
             {
                 "version": "2",
                 "semver": "2.0.47",
-                "date": "2023.05.18 06:01",
+                "date": "2023.05.18 03:01",
                 "file": "",
                 "notes": [
                     "Resolved certificate issue",
@@ -138,7 +138,7 @@
             {
                 "version": "2",
                 "semver": "2.0.41",
-                "date": "2022.10.17 12:32",
+                "date": "2022.10.17 09:32",
                 "file": "",
                 "notes": [
                     "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
@@ -155,7 +155,7 @@
             {
                 "version": "2",
                 "semver": "2.0.35",
-                "date": "2022.03.01 09:39",
+                "date": "2022.03.01 06:39",
                 "file": "",
                 "notes": [
                     "Scheduled Event Functionality Added",
@@ -171,7 +171,7 @@
             {
                 "version": "1",
                 "semver": "1.0.31",
-                "date": "2021.05.03 13:48",
+                "date": "2021.05.03 10:48",
                 "file": "",
                 "notes": [
                     "Removed IBM related keywords"
@@ -185,7 +185,7 @@
             {
                 "version": "1",
                 "semver": "1.0.30",
-                "date": "2021.04.07 06:29",
+                "date": "2021.04.07 03:29",
                 "file": "",
                 "notes": [
                     "Updated data retrieval logic"
@@ -199,7 +199,7 @@
             {
                 "version": "1",
                 "semver": "1.0.23",
-                "date": "2020.12.08 07:36",
+                "date": "2020.12.08 04:36",
                 "file": "",
                 "notes": [
                     "Changed the passsword type to secure"
@@ -213,7 +213,7 @@
             {
                 "version": "1",
                 "semver": "1.0.22",
-                "date": "2020.12.02 13:46",
+                "date": "2020.12.02 10:46",
                 "file": "",
                 "notes": [
                     "Plugin name update"
@@ -227,7 +227,7 @@
             {
                 "version": "1",
                 "semver": "1.0.21",
-                "date": "2020.09.30 14:08",
+                "date": "2020.09.30 11:08",
                 "file": "",
                 "notes": [
                     "Added build URL to link scan results with VSM"
@@ -241,7 +241,7 @@
             {
                 "version": "1",
                 "semver": "1.0.20",
-                "date": "2020.09.29 07:29",
+                "date": "2020.09.29 04:29",
                 "file": "",
                 "notes": [
                     "Data gets mapped under right category - Risk"
@@ -255,7 +255,7 @@
             {
                 "version": "1",
                 "semver": "1.0.19",
-                "date": "2020.07.15 09:43",
+                "date": "2020.07.15 06:43",
                 "file": "",
                 "notes": [
                     "Renamed plugin display name"
@@ -269,7 +269,7 @@
             {
                 "version": "1",
                 "semver": "1.0.18",
-                "date": "2020.02.18 19:56",
+                "date": "2020.02.18 16:56",
                 "file": "",
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
@@ -283,7 +283,7 @@
             {
                 "version": "1",
                 "semver": "1.0.17",
-                "date": "2020.01.16 15:43",
+                "date": "2020.01.16 12:43",
                 "file": "",
                 "notes": [
                     "Configure logger in wrapper and fix broken plugin."
@@ -297,7 +297,7 @@
             {
                 "version": "1",
                 "semver": "1.0.16",
-                "date": "2019.11.26 16:42",
+                "date": "2019.11.26 13:42",
                 "file": "",
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
@@ -311,7 +311,7 @@
             {
                 "version": "0",
                 "semver": "0.0.14",
-                "date": "2019.07.09 20:12",
+                "date": "2019.07.09 17:12",
                 "file": "",
                 "notes": [
                     "Static v1.0.13 API Client."
@@ -325,7 +325,7 @@
             {
                 "version": "0",
                 "semver": "0.0.13",
-                "date": "2019.06.14 00:00",
+                "date": "2019.06.13 21:00",
                 "file": "",
                 "notes": [
                     "Containerized plugin."
@@ -358,7 +358,7 @@
             {
                 "version": "3",
                 "semver": "3.0.19",
-                "date": "2023.03.10 14:35",
+                "date": "2023.03.10 11:35",
                 "file": "",
                 "notes": [
                     "The Older Version of ASoC Plugin was not reporting critical issues"
@@ -372,7 +372,7 @@
             {
                 "version": "3",
                 "semver": "3.0.16",
-                "date": "2022.12.15 14:09",
+                "date": "2022.12.15 11:09",
                 "file": "",
                 "notes": [
                     "Segregated Static scan and Dynamic scan data"
@@ -386,7 +386,7 @@
             {
                 "version": "3",
                 "semver": "3.0.12",
-                "date": "2022.09.13 06:18",
+                "date": "2022.09.13 03:18",
                 "file": "",
                 "notes": [
                     "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
@@ -404,7 +404,7 @@
             {
                 "version": "3",
                 "semver": "3.0.11",
-                "date": "2022.07.07 04:37",
+                "date": "2022.07.07 01:37",
                 "file": "",
                 "notes": [
                     "Fix for Changed API"
@@ -418,7 +418,7 @@
             {
                 "version": "3",
                 "semver": "3.0.9",
-                "date": "2022.05.24 05:48",
+                "date": "2022.05.24 02:48",
                 "file": "",
                 "notes": [
                     "Reduced Vulnerabilities"
@@ -432,7 +432,7 @@
             {
                 "version": "3",
                 "semver": "3.0.5",
-                "date": "2022.01.28 16:58",
+                "date": "2022.01.28 13:58",
                 "file": "",
                 "notes": [
                     "Auto-generated user access key related changes"
@@ -446,7 +446,7 @@
             {
                 "version": "3",
                 "semver": "3.0.1",
-                "date": "2021.08.25 08:39",
+                "date": "2021.08.25 05:39",
                 "file": "",
                 "notes": [
                     "added policy support"
@@ -460,7 +460,7 @@
             {
                 "version": "2",
                 "semver": "2.0.1",
-                "date": "2021.08.03 08:49",
+                "date": "2021.08.03 05:49",
                 "file": "",
                 "notes": [
                     "enabling webhook support and pulling historic data"
@@ -474,7 +474,7 @@
             {
                 "version": "1",
                 "semver": "1.0.24",
-                "date": "2021.07.02 07:23",
+                "date": "2021.07.02 04:23",
                 "file": "",
                 "notes": [
                     "Proxy support added"
@@ -488,7 +488,7 @@
             {
                 "version": "1",
                 "semver": "1.0.23",
-                "date": "2021.05.03 13:41",
+                "date": "2021.05.03 10:41",
                 "file": "",
                 "notes": [
                     "Removed IBM related keywords"
@@ -502,7 +502,7 @@
             {
                 "version": "1",
                 "semver": "1.0.18",
-                "date": "2020.12.02 04:25",
+                "date": "2020.12.02 01:25",
                 "file": "",
                 "notes": [
                     "Plugin name update"
@@ -516,7 +516,7 @@
             {
                 "version": "1",
                 "semver": "1.0.17",
-                "date": "2020.09.25 08:15",
+                "date": "2020.09.25 05:15",
                 "file": "",
                 "notes": [
                     "Added Build URL to link ASoC scan results in VSM"
@@ -530,7 +530,7 @@
             {
                 "version": "1",
                 "semver": "1.0.16",
-                "date": "2020.09.03 07:53",
+                "date": "2020.09.03 04:53",
                 "file": "",
                 "notes": [
                     "Integration id passed along with metrics"
@@ -544,7 +544,7 @@
             {
                 "version": "1",
                 "semver": "1.0.15",
-                "date": "2020.07.17 10:40",
+                "date": "2020.07.17 07:40",
                 "file": "",
                 "notes": [
                     "Renamed plugin display name"
@@ -558,7 +558,7 @@
             {
                 "version": "1",
                 "semver": "1.0.14",
-                "date": "2020.05.25 07:46",
+                "date": "2020.05.25 04:46",
                 "file": "",
                 "notes": [
                     "Name field in Insights section to reflect scan name in ASoC"
@@ -572,7 +572,7 @@
             {
                 "version": "1",
                 "semver": "1.0.13",
-                "date": "2020.05.11 10:40",
+                "date": "2020.05.11 07:40",
                 "file": "",
                 "notes": [
                     "minor bug fixes"
@@ -586,7 +586,7 @@
             {
                 "version": "1",
                 "semver": "1.0.11",
-                "date": "2020.02.18 20:01",
+                "date": "2020.02.18 17:01",
                 "file": "",
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
@@ -600,7 +600,7 @@
             {
                 "version": "1",
                 "semver": "1.0.10",
-                "date": "2020.01.16 15:46",
+                "date": "2020.01.16 12:46",
                 "file": "",
                 "notes": [
                     "Configure logger in wrapper."
@@ -614,7 +614,7 @@
             {
                 "version": "1",
                 "semver": "1.0.9",
-                "date": "2019.11.26 16:45",
+                "date": "2019.11.26 13:45",
                 "file": "",
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
@@ -628,7 +628,7 @@
             {
                 "version": "0",
                 "semver": "0.0.6",
-                "date": "2019.10.17 18:38",
+                "date": "2019.10.17 15:38",
                 "file": "",
                 "notes": [
                     "Fix docker build",
@@ -644,7 +644,7 @@
             {
                 "version": "0",
                 "semver": "0.0.4",
-                "date": "2019.07.09 20:16",
+                "date": "2019.07.09 17:16",
                 "file": "",
                 "notes": [
                     "Added static UCV client object."
@@ -658,7 +658,7 @@
             {
                 "version": "0",
                 "semver": "0.0.3",
-                "date": "2019.06.18 00:00",
+                "date": "2019.06.17 21:00",
                 "file": "",
                 "notes": [
                     "Restructure properties."
@@ -672,7 +672,7 @@
             {
                 "version": "0",
                 "semver": "0.0.2",
-                "date": "2019.06.17 00:00",
+                "date": "2019.06.16 21:00",
                 "file": "",
                 "notes": [
                     "Initial version of ASoC plugin."
@@ -705,7 +705,7 @@
             {
                 "version": "1",
                 "semver": "1.0.21",
-                "date": "2022.05.31 14:09",
+                "date": "2022.05.31 11:09",
                 "file": "",
                 "notes": [
                     "minor fix"
@@ -719,7 +719,7 @@
             {
                 "version": "1",
                 "semver": "1.0.17",
-                "date": "2022.01.28 07:32",
+                "date": "2022.01.28 04:32",
                 "file": "",
                 "notes": [
                     "User Access Key Related Changes"
@@ -733,7 +733,7 @@
             {
                 "version": "1",
                 "semver": "1.0.4",
-                "date": "2020.09.29 07:18",
+                "date": "2020.09.29 04:18",
                 "file": "",
                 "notes": [
                     "Added build URL to link scan results with VSM"
@@ -747,7 +747,7 @@
             {
                 "version": "1",
                 "semver": "1.0.3",
-                "date": "2020.09.07 12:49",
+                "date": "2020.09.07 09:49",
                 "file": "",
                 "notes": [
                     "Initial Release"
@@ -780,7 +780,7 @@
             {
                 "version": "1",
                 "semver": "1.0.42",
-                "date": "2024.05.09 11:33",
+                "date": "2024.05.09 08:33",
                 "file": "",
                 "notes": [
                     "<b>Feature enhancement</b>: Now core coverage plugin accepts user defined record name and dataset name in payload while hitting post call/curl command. If values are not provided by user it will accept default values given by the plugin."
@@ -794,7 +794,7 @@
             {
                 "version": "1",
                 "semver": "1.0.38",
-                "date": "2022.06.06 16:14",
+                "date": "2022.06.06 13:14",
                 "file": "",
                 "notes": [
                     "Minor fix"
@@ -808,7 +808,7 @@
             {
                 "version": "1",
                 "semver": "1.0.30",
-                "date": "2020.12.03 05:27",
+                "date": "2020.12.03 02:27",
                 "file": "",
                 "notes": [
                     "Plugin name update"
@@ -822,7 +822,7 @@
             {
                 "version": "1",
                 "semver": "1.0.29",
-                "date": "2020.10.28 11:36",
+                "date": "2020.10.28 08:36",
                 "file": "",
                 "notes": [
                     "handling non existent coverage rows for a source file"
@@ -836,7 +836,7 @@
             {
                 "version": "1",
                 "semver": "1.0.28",
-                "date": "2020.08.07 11:15",
+                "date": "2020.08.07 08:15",
                 "file": "",
                 "notes": [
                     "Updated npm-wrapper version"
@@ -850,7 +850,7 @@
             {
                 "version": "1",
                 "semver": "1.0.26",
-                "date": "2020.02.18 20:16",
+                "date": "2020.02.18 17:16",
                 "file": "",
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
@@ -864,7 +864,7 @@
             {
                 "version": "1",
                 "semver": "1.0.25",
-                "date": "2019.11.26 19:19",
+                "date": "2019.11.26 16:19",
                 "file": "",
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
@@ -878,7 +878,7 @@
             {
                 "version": "0",
                 "semver": "0.0.22",
-                "date": "2019.06.17 00:00",
+                "date": "2019.06.16 21:00",
                 "file": "",
                 "notes": [
                     "Containerized plugin."
@@ -911,7 +911,7 @@
             {
                 "version": "1",
                 "semver": "1.0.62",
-                "date": "2024.06.12 06:54",
+                "date": "2024.06.12 03:54",
                 "file": "",
                 "notes": [
                     "npm wrapper version update for Argo Replacement"
@@ -925,7 +925,7 @@
             {
                 "version": "1",
                 "semver": "1.0.56",
-                "date": "2022.05.27 04:26",
+                "date": "2022.05.27 01:26",
                 "file": "",
                 "notes": [
                     "reduce vulnerabilities"
@@ -939,7 +939,7 @@
             {
                 "version": "1",
                 "semver": "1.0.55",
-                "date": "2021.05.24 11:59",
+                "date": "2021.05.24 08:59",
                 "file": "",
                 "notes": [
                     "Removed IBM related keywords"
@@ -953,7 +953,7 @@
             {
                 "version": "1",
                 "semver": "1.0.38",
-                "date": "2020.12.03 13:20",
+                "date": "2020.12.03 10:20",
                 "file": "",
                 "notes": [
                     "Plugin name update"
@@ -967,7 +967,7 @@
             {
                 "version": "1",
                 "semver": "1.0.37",
-                "date": "2020.08.07 11:02",
+                "date": "2020.08.07 08:02",
                 "file": "",
                 "notes": [
                     "Updated npm-wrapper version"
@@ -981,7 +981,7 @@
             {
                 "version": "1",
                 "semver": "1.0.36",
-                "date": "2020.07.17 11:16",
+                "date": "2020.07.17 08:16",
                 "file": "",
                 "notes": [
                     "Renamed plugin display name"
@@ -995,7 +995,7 @@
             {
                 "version": "1",
                 "semver": "1.0.35",
-                "date": "2020.02.18 20:27",
+                "date": "2020.02.18 17:27",
                 "file": "",
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
@@ -1009,7 +1009,7 @@
             {
                 "version": "1",
                 "semver": "1.0.34",
-                "date": "2019.11.26 17:52",
+                "date": "2019.11.26 14:52",
                 "file": "",
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
@@ -1023,7 +1023,7 @@
             {
                 "version": "0",
                 "semver": "0.0.31",
-                "date": "2019.06.17 00:00",
+                "date": "2019.06.16 21:00",
                 "file": "",
                 "notes": [
                     "Containerized plugin."
@@ -1056,7 +1056,7 @@
             {
                 "version": "1",
                 "semver": "1.0.84",
-                "date": "2024.07.03 09:30",
+                "date": "2024.07.03 06:30",
                 "file": "",
                 "notes": [
                     "Updated the metric plugins in production to align with the new Argo-less framework."
@@ -1070,7 +1070,7 @@
             {
                 "version": "1",
                 "semver": "1.0.80",
-                "date": "2024.06.12 09:35",
+                "date": "2024.06.12 06:35",
                 "file": "",
                 "notes": [
                     "npm wrapper version update for Argo Replacement"
@@ -1084,7 +1084,7 @@
             {
                 "version": "1",
                 "semver": "1.0.72",
-                "date": "2022.05.27 04:38",
+                "date": "2022.05.27 01:38",
                 "file": "",
                 "notes": [
                     "reduce vulnerabilities"
@@ -1098,7 +1098,7 @@
             {
                 "version": "1",
                 "semver": "1.0.66",
-                "date": "2021.09.29 05:30",
+                "date": "2021.09.29 02:30",
                 "file": "",
                 "notes": [
                     "changes for gating"
@@ -1112,7 +1112,7 @@
             {
                 "version": "1",
                 "semver": "1.0.38",
-                "date": "2020.12.07 05:51",
+                "date": "2020.12.07 02:51",
                 "file": "",
                 "notes": [
                     "Plugin name update"
@@ -1126,7 +1126,7 @@
             {
                 "version": "1",
                 "semver": "1.0.37",
-                "date": "2020.08.07 11:05",
+                "date": "2020.08.07 08:05",
                 "file": "",
                 "notes": [
                     "Updated npm-wrapper version"
@@ -1140,7 +1140,7 @@
             {
                 "version": "1",
                 "semver": "1.0.36",
-                "date": "2020.07.17 10:31",
+                "date": "2020.07.17 07:31",
                 "file": "",
                 "notes": [
                     "Renamed plugin display name"
@@ -1154,7 +1154,7 @@
             {
                 "version": "1",
                 "semver": "1.0.35",
-                "date": "2020.02.18 20:32",
+                "date": "2020.02.18 17:32",
                 "file": "",
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
@@ -1168,7 +1168,7 @@
             {
                 "version": "1",
                 "semver": "1.0.34",
-                "date": "2019.11.26 17:56",
+                "date": "2019.11.26 14:56",
                 "file": "",
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
@@ -1182,7 +1182,7 @@
             {
                 "version": "0",
                 "semver": "0.0.31",
-                "date": "2019.06.03 00:00",
+                "date": "2019.06.02 21:00",
                 "file": "",
                 "notes": [],
                 "supports": "",
@@ -1213,7 +1213,7 @@
             {
                 "version": "1",
                 "semver": "1.0.49",
-                "date": "2024.06.11 10:22",
+                "date": "2024.06.11 07:22",
                 "file": "",
                 "notes": [
                     "npm wrapper version update for Argo Replacement"
@@ -1227,7 +1227,7 @@
             {
                 "version": "1",
                 "semver": "1.0.31",
-                "date": "2020.12.11 13:53",
+                "date": "2020.12.11 10:53",
                 "file": "",
                 "notes": [
                     "Plugin name update"
@@ -1241,7 +1241,7 @@
             {
                 "version": "1",
                 "semver": "1.0.30",
-                "date": "2020.08.07 11:22",
+                "date": "2020.08.07 08:22",
                 "file": "",
                 "notes": [
                     "Updated npm-wrapper version"
@@ -1255,7 +1255,7 @@
             {
                 "version": "1",
                 "semver": "1.0.29",
-                "date": "2020.02.18 21:24",
+                "date": "2020.02.18 18:24",
                 "file": "",
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
@@ -1269,7 +1269,7 @@
             {
                 "version": "1",
                 "semver": "1.0.28",
-                "date": "2019.11.26 18:33",
+                "date": "2019.11.26 15:33",
                 "file": "",
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
@@ -1283,7 +1283,7 @@
             {
                 "version": "0",
                 "semver": "0.0.25",
-                "date": "2019.06.14 00:00",
+                "date": "2019.06.13 21:00",
                 "file": "",
                 "notes": [
                     "Containerized plugin."
@@ -1316,7 +1316,7 @@
             {
                 "version": "1",
                 "semver": "1.0.40",
-                "date": "2024.06.11 11:20",
+                "date": "2024.06.11 08:20",
                 "file": "",
                 "notes": [
                     "npm wrapper version update for Argo Replacement"
@@ -1330,7 +1330,7 @@
             {
                 "version": "1",
                 "semver": "1.0.37",
-                "date": "2024.04.03 11:22",
+                "date": "2024.04.03 08:22",
                 "file": "",
                 "notes": [
                     "<b>Rebranding:</b> Name of the plugin has been changed from HCL One Test to HCL DevOps Test."
@@ -1344,7 +1344,7 @@
             {
                 "version": "1",
                 "semver": "1.0.34",
-                "date": "2022.10.28 12:46",
+                "date": "2022.10.28 09:46",
                 "file": "",
                 "notes": [
                     "<b>Preventing Installation on Older Versions:</b> This version of HCL Onetest Plugin can only be installed on HCL Accelerate version  3.0.0 and later.",
@@ -1359,7 +1359,7 @@
             {
                 "version": "1",
                 "semver": "1.0.33",
-                "date": "2022.05.31 14:33",
+                "date": "2022.05.31 11:33",
                 "file": "",
                 "notes": [
                     "minor fix"
@@ -1373,7 +1373,7 @@
             {
                 "version": "1",
                 "semver": "1.0.30",
-                "date": "2021.09.29 05:37",
+                "date": "2021.09.29 02:37",
                 "file": "",
                 "notes": [
                     "changes for gating"
@@ -1387,7 +1387,7 @@
             {
                 "version": "1",
                 "semver": "1.0.12",
-                "date": "2020.12.03 09:35",
+                "date": "2020.12.03 06:35",
                 "file": "",
                 "notes": [
                     "Added support for UI & PT json results"
@@ -1401,7 +1401,7 @@
             {
                 "version": "1",
                 "semver": "1.0.11",
-                "date": "2020.08.07 11:20",
+                "date": "2020.08.07 08:20",
                 "file": "",
                 "notes": [
                     "Updated npm-wrapper version"
@@ -1415,7 +1415,7 @@
             {
                 "version": "1",
                 "semver": "1.0.10",
-                "date": "2020.07.17 10:36",
+                "date": "2020.07.17 07:36",
                 "file": "",
                 "notes": [
                     "Renamed plugin display name"
@@ -1429,7 +1429,7 @@
             {
                 "version": "1",
                 "semver": "1.0.9",
-                "date": "2020.02.18 20:37",
+                "date": "2020.02.18 17:37",
                 "file": "",
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
@@ -1443,7 +1443,7 @@
             {
                 "version": "1",
                 "semver": "1.0.8",
-                "date": "2019.11.26 18:01",
+                "date": "2019.11.26 15:01",
                 "file": "",
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
@@ -1457,7 +1457,7 @@
             {
                 "version": "0",
                 "semver": "0.0.5",
-                "date": "2019.06.17 00:00",
+                "date": "2019.06.16 21:00",
                 "file": "",
                 "notes": [
                     "Updated to api-client 1.0.11 and transpiled tests."
@@ -1490,7 +1490,7 @@
             {
                 "version": "1",
                 "semver": "1.0.65",
-                "date": "2022.03.31 06:23",
+                "date": "2022.03.31 03:23",
                 "file": "",
                 "notes": [
                     "Reduced Vulnerabilities"
@@ -1504,7 +1504,7 @@
             {
                 "version": "1",
                 "semver": "1.0.50",
-                "date": "2022.01.31 08:27",
+                "date": "2022.01.31 05:27",
                 "file": "",
                 "notes": [
                     "User Access Key Related Changes"
@@ -1518,7 +1518,7 @@
             {
                 "version": "1",
                 "semver": "1.0.42",
-                "date": "2021.06.14 10:24",
+                "date": "2021.06.14 07:24",
                 "file": "",
                 "notes": [
                     "Removed IBM related keywords"
@@ -1532,7 +1532,7 @@
             {
                 "version": "1",
                 "semver": "1.0.34",
-                "date": "2020.09.24 10:45",
+                "date": "2020.09.24 07:45",
                 "file": "",
                 "notes": [
                     "Enhance security for property value"
@@ -1546,7 +1546,7 @@
             {
                 "version": "1",
                 "semver": "1.0.33",
-                "date": "2020.09.04 09:15",
+                "date": "2020.09.04 06:15",
                 "file": "",
                 "notes": [
                     "debug logs added",
@@ -1561,7 +1561,7 @@
             {
                 "version": "1",
                 "semver": "1.0.30",
-                "date": "2020.02.18 20:47",
+                "date": "2020.02.18 17:47",
                 "file": "",
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
@@ -1575,7 +1575,7 @@
             {
                 "version": "1",
                 "semver": "1.0.29",
-                "date": "2020.01.16 16:16",
+                "date": "2020.01.16 13:16",
                 "file": "",
                 "notes": [
                     "Configure logger in wrapper and fix plugin."
@@ -1589,7 +1589,7 @@
             {
                 "version": "1",
                 "semver": "1.0.28",
-                "date": "2019.11.26 18:10",
+                "date": "2019.11.26 15:10",
                 "file": "",
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
@@ -1603,7 +1603,7 @@
             {
                 "version": "0",
                 "semver": "0.0.26",
-                "date": "2019.08.07 17:35",
+                "date": "2019.08.07 14:35",
                 "file": "",
                 "notes": [
                     "Fixed bug with importing more than 10,000 issues."
@@ -1617,7 +1617,7 @@
             {
                 "version": "0",
                 "semver": "0.0.24",
-                "date": "2019.07.09 20:43",
+                "date": "2019.07.09 17:43",
                 "file": "",
                 "notes": [
                     "Upgrade api-client; and only instantiate api-client once."
@@ -1631,7 +1631,7 @@
             {
                 "version": "0",
                 "semver": "0.0.23",
-                "date": "2019.06.17 00:00",
+                "date": "2019.06.16 21:00",
                 "file": "",
                 "notes": [
                     "Updated internal dependencies"
@@ -1664,7 +1664,7 @@
             {
                 "version": "1",
                 "semver": "1.0.41",
-                "date": "2024.06.12 06:27",
+                "date": "2024.06.12 03:27",
                 "file": "",
                 "notes": [
                     "npm wrapper version update for Argo replacement"
@@ -1678,7 +1678,7 @@
             {
                 "version": "1",
                 "semver": "1.0.38",
-                "date": "2022.05.31 16:33",
+                "date": "2022.05.31 13:33",
                 "file": "",
                 "notes": [
                     "Reduced Vulnerabilities"
@@ -1692,7 +1692,7 @@
             {
                 "version": "1",
                 "semver": "1.0.13",
-                "date": "2020.12.01 10:30",
+                "date": "2020.12.01 07:30",
                 "file": "",
                 "notes": [
                     "Plugin name update"
@@ -1706,7 +1706,7 @@
             {
                 "version": "1",
                 "semver": "1.0.12",
-                "date": "2020.08.07 11:08",
+                "date": "2020.08.07 08:08",
                 "file": "",
                 "notes": [
                     "Updated npm-wrapper version"
@@ -1720,7 +1720,7 @@
             {
                 "version": "1",
                 "semver": "1.0.11",
-                "date": "2020.07.17 10:29",
+                "date": "2020.07.17 07:29",
                 "file": "",
                 "notes": [
                     "Renamed plugin display name"
@@ -1734,7 +1734,7 @@
             {
                 "version": "1",
                 "semver": "1.0.9",
-                "date": "2020.02.18 20:53",
+                "date": "2020.02.18 17:53",
                 "file": "",
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
@@ -1748,7 +1748,7 @@
             {
                 "version": "1",
                 "semver": "1.0.8",
-                "date": "2020.01.07 15:16",
+                "date": "2020.01.07 12:16",
                 "file": "",
                 "notes": [
                     "Added XML parsing"
@@ -1762,7 +1762,7 @@
             {
                 "version": "1",
                 "semver": "1.0.7",
-                "date": "2019.11.26 18:13",
+                "date": "2019.11.26 15:13",
                 "file": "",
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
@@ -1776,7 +1776,7 @@
             {
                 "version": "0",
                 "semver": "0.0.6",
-                "date": "2019.06.14 00:00",
+                "date": "2019.06.13 21:00",
                 "file": "",
                 "notes": [
                     "Containerized plugin."
@@ -1809,7 +1809,7 @@
             {
                 "version": "1",
                 "semver": "1.0.51",
-                "date": "2024.06.12 07:46",
+                "date": "2024.06.12 04:46",
                 "file": "",
                 "notes": [
                     "npm wrapper version update for Argo Replacement"
@@ -1823,7 +1823,7 @@
             {
                 "version": "1",
                 "semver": "1.0.44",
-                "date": "2022.05.27 03:49",
+                "date": "2022.05.27 00:49",
                 "file": "",
                 "notes": [
                     "reduced vulnerabilities"
@@ -1837,7 +1837,7 @@
             {
                 "version": "1",
                 "semver": "1.0.43",
-                "date": "2021.06.10 06:20",
+                "date": "2021.06.10 03:20",
                 "file": "",
                 "notes": [
                     "Removed IBM related keywords"
@@ -1851,7 +1851,7 @@
             {
                 "version": "1",
                 "semver": "1.0.39",
-                "date": "2020.12.04 10:35",
+                "date": "2020.12.04 07:35",
                 "file": "",
                 "notes": [
                     "Plugin name update"
@@ -1865,7 +1865,7 @@
             {
                 "version": "1",
                 "semver": "1.0.38",
-                "date": "2020.08.07 11:06",
+                "date": "2020.08.07 08:06",
                 "file": "",
                 "notes": [
                     "Updated npm-wrapper version"
@@ -1879,7 +1879,7 @@
             {
                 "version": "1",
                 "semver": "1.0.37",
-                "date": "2020.07.17 10:38",
+                "date": "2020.07.17 07:38",
                 "file": "",
                 "notes": [
                     "Renamed plugin display name"
@@ -1893,7 +1893,7 @@
             {
                 "version": "1",
                 "semver": "1.0.36",
-                "date": "2020.02.18 20:58",
+                "date": "2020.02.18 17:58",
                 "file": "",
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
@@ -1907,7 +1907,7 @@
             {
                 "version": "1",
                 "semver": "1.0.35",
-                "date": "2019.11.26 18:17",
+                "date": "2019.11.26 15:17",
                 "file": "",
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
@@ -1921,7 +1921,7 @@
             {
                 "version": "0",
                 "semver": "0.0.32",
-                "date": "2019.06.14 00:00",
+                "date": "2019.06.13 21:00",
                 "file": "",
                 "notes": [
                     "Containerized plugin."
@@ -1954,7 +1954,7 @@
             {
                 "version": "1",
                 "semver": "1.0.29",
-                "date": "2023.01.02 08:50",
+                "date": "2023.01.02 05:50",
                 "file": "",
                 "notes": [
                     "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
@@ -1971,7 +1971,7 @@
             {
                 "version": "1",
                 "semver": "1.0.26",
-                "date": "2022.08.16 14:02",
+                "date": "2022.08.16 11:02",
                 "file": "",
                 "notes": [
                     "Clarifying delimitation for properties used"
@@ -1985,7 +1985,7 @@
             {
                 "version": "1",
                 "semver": "1.0.25",
-                "date": "2022.08.12 15:49",
+                "date": "2022.08.12 12:49",
                 "file": "",
                 "notes": [
                     "Clarifying delimitation problem for properties used"
@@ -1999,7 +1999,7 @@
             {
                 "version": "1",
                 "semver": "1.0.20",
-                "date": "2022.02.23 13:01",
+                "date": "2022.02.23 10:01",
                 "file": "",
                 "notes": [
                     "User Access Key Related Changes"
@@ -2013,7 +2013,7 @@
             {
                 "version": "1",
                 "semver": "1.0.11",
-                "date": "2021.08.10 04:37",
+                "date": "2021.08.10 01:37",
                 "file": "",
                 "notes": [
                     "Added auto-generated userAccessKey support"
@@ -2027,7 +2027,7 @@
             {
                 "version": "1",
                 "semver": "1.0.9",
-                "date": "2021.05.05 05:12",
+                "date": "2021.05.05 02:12",
                 "file": "",
                 "notes": [
                     "Removed IBM related keywords"
@@ -2041,7 +2041,7 @@
             {
                 "version": "1",
                 "semver": "1.0.4",
-                "date": "2020.11.30 08:44",
+                "date": "2020.11.30 05:44",
                 "file": "",
                 "notes": [
                     "Initial Release"
@@ -2074,7 +2074,7 @@
             {
                 "version": "1",
                 "semver": "1.0.1",
-                "date": "2023.12.19 01:20",
+                "date": "2023.12.18 22:20",
                 "file": "",
                 "notes": [
                     "Update business value of associated Jira items."
@@ -2107,7 +2107,7 @@
             {
                 "version": "4",
                 "semver": "4.0.44",
-                "date": "2024.07.05 08:22",
+                "date": "2024.07.05 05:22",
                 "file": "",
                 "notes": [
                     "Upload builds based on the repository."
@@ -2121,7 +2121,7 @@
             {
                 "version": "4",
                 "semver": "4.0.43",
-                "date": "2024.06.21 10:01",
+                "date": "2024.06.21 07:01",
                 "file": "",
                 "notes": [
                     "Uploading builds with respect to branch",
@@ -2137,7 +2137,7 @@
             {
                 "version": "4",
                 "semver": "4.0.40",
-                "date": "2023.02.16 05:58",
+                "date": "2023.02.16 02:58",
                 "file": "",
                 "notes": [
                     "<b>Minor Bug Fix</b>"
@@ -2151,7 +2151,7 @@
             {
                 "version": "4",
                 "semver": "4.0.38",
-                "date": "2022.10.10 06:03",
+                "date": "2022.10.10 03:03",
                 "file": "",
                 "notes": [
                     "Minor Enhancements"
@@ -2165,7 +2165,7 @@
             {
                 "version": "4",
                 "semver": "4.0.37",
-                "date": "2022.09.29 09:54",
+                "date": "2022.09.29 06:54",
                 "file": "",
                 "notes": [
                     "Minor Enhancements",
@@ -2180,7 +2180,7 @@
             {
                 "version": "4",
                 "semver": "4.0.36",
-                "date": "2022.08.26 09:39",
+                "date": "2022.08.26 06:39",
                 "file": "",
                 "notes": [
                     "Manual UAK removal and preventing install on previous version"
@@ -2194,7 +2194,7 @@
             {
                 "version": "4",
                 "semver": "4.0.35",
-                "date": "2022.08.17 08:01",
+                "date": "2022.08.17 05:01",
                 "file": "",
                 "notes": [
                     "Clarifying delimitation problem for properties used"
@@ -2208,7 +2208,7 @@
             {
                 "version": "4",
                 "semver": "4.0.29",
-                "date": "2022.05.02 15:51",
+                "date": "2022.05.02 12:51",
                 "file": "",
                 "notes": [
                     "Optional feature of pushing pipeline runs with predefined tags as builds",
@@ -2223,7 +2223,7 @@
             {
                 "version": "4",
                 "semver": "4.0.28",
-                "date": "2022.04.08 06:11",
+                "date": "2022.04.08 03:11",
                 "file": "",
                 "notes": [
                     "Additional Branch field added"
@@ -2237,7 +2237,7 @@
             {
                 "version": "4",
                 "semver": "4.0.26",
-                "date": "2022.03.08 13:10",
+                "date": "2022.03.08 10:10",
                 "file": "",
                 "notes": [
                     "User Access Key Related Changes"
@@ -2251,7 +2251,7 @@
             {
                 "version": "4",
                 "semver": "4.0.16",
-                "date": "2021.12.03 13:11",
+                "date": "2021.12.03 10:11",
                 "file": "",
                 "notes": [
                     "UAK Changes"
@@ -2265,7 +2265,7 @@
             {
                 "version": "4",
                 "semver": "4.0.15",
-                "date": "2021.12.01 16:19",
+                "date": "2021.12.01 13:19",
                 "file": "",
                 "notes": [
                     "Adding Logger and ucv functionality"
@@ -2279,7 +2279,7 @@
             {
                 "version": "4",
                 "semver": "4.0.3",
-                "date": "2021.09.30 05:33",
+                "date": "2021.09.30 02:33",
                 "file": "",
                 "notes": [
                     "Resync data feature added"
@@ -2293,7 +2293,7 @@
             {
                 "version": "4",
                 "semver": "4.0.1",
-                "date": "2021.07.29 11:26",
+                "date": "2021.07.29 08:26",
                 "file": "",
                 "notes": [
                     "support for release orchestration"
@@ -2307,7 +2307,7 @@
             {
                 "version": "3",
                 "semver": "3.0.1",
-                "date": "2021.07.02 14:15",
+                "date": "2021.07.02 11:15",
                 "file": "",
                 "notes": [
                     "Added Deployment Orchestration Support for Azure Release pipeline"
@@ -2321,7 +2321,7 @@
             {
                 "version": "2",
                 "semver": "2.0.17",
-                "date": "2021.06.23 05:59",
+                "date": "2021.06.23 02:59",
                 "file": "",
                 "notes": [
                     "Performance Improvement"
@@ -2335,7 +2335,7 @@
             {
                 "version": "2",
                 "semver": "2.0.14",
-                "date": "2021.05.03 13:27",
+                "date": "2021.05.03 10:27",
                 "file": "",
                 "notes": [
                     "Removed IBM related keywords"
@@ -2349,7 +2349,7 @@
             {
                 "version": "2",
                 "semver": "2.0.4",
-                "date": "2020.10.19 08:48",
+                "date": "2020.10.19 05:48",
                 "file": "",
                 "notes": [
                     "bug fixes for issues in sync deployments"
@@ -2363,7 +2363,7 @@
             {
                 "version": "2",
                 "semver": "2.0.2",
-                "date": "2020.10.14 14:30",
+                "date": "2020.10.14 11:30",
                 "file": "",
                 "notes": [
                     "Syncs deployment data"
@@ -2377,7 +2377,7 @@
             {
                 "version": "1",
                 "semver": "1.0.41",
-                "date": "2020.09.24 06:52",
+                "date": "2020.09.24 03:52",
                 "file": "",
                 "notes": [
                     "Pull commits from non master branch"
@@ -2391,7 +2391,7 @@
             {
                 "version": "1",
                 "semver": "1.0.39",
-                "date": "2020.08.24 17:13",
+                "date": "2020.08.24 14:13",
                 "file": "",
                 "notes": [
                     "Sprint related changes and fix invalid history timestamp."
@@ -2405,7 +2405,7 @@
             {
                 "version": "1",
                 "semver": "1.0.38",
-                "date": "2020.08.03 14:01",
+                "date": "2020.08.03 11:01",
                 "file": "",
                 "notes": [
                     "Fixed logic to acquire build commit ID."
@@ -2419,7 +2419,7 @@
             {
                 "version": "1",
                 "semver": "1.0.37",
-                "date": "2020.07.14 16:15",
+                "date": "2020.07.14 13:15",
                 "file": "",
                 "notes": [
                     "Fixed empty creator field while uploading issues."
@@ -2433,7 +2433,7 @@
             {
                 "version": "1",
                 "semver": "1.0.36",
-                "date": "2020.05.20 14:49",
+                "date": "2020.05.20 11:49",
                 "file": "",
                 "notes": [
                     "Acquire work items from specified project only."
@@ -2447,7 +2447,7 @@
             {
                 "version": "1",
                 "semver": "1.0.34",
-                "date": "2020.04.24 04:12",
+                "date": "2020.04.24 01:12",
                 "file": "",
                 "notes": [
                     "proxy support added"
@@ -2461,7 +2461,7 @@
             {
                 "version": "1",
                 "semver": "1.0.32",
-                "date": "2020.02.18 20:07",
+                "date": "2020.02.18 17:07",
                 "file": "",
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
@@ -2475,7 +2475,7 @@
             {
                 "version": "1",
                 "semver": "1.0.31",
-                "date": "2020.01.16 15:50",
+                "date": "2020.01.16 12:50",
                 "file": "",
                 "notes": [
                     "Configure logger in wrapper."
@@ -2489,7 +2489,7 @@
             {
                 "version": "1",
                 "semver": "1.0.30",
-                "date": "2019.11.26 16:48",
+                "date": "2019.11.26 13:48",
                 "file": "",
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
@@ -2503,7 +2503,7 @@
             {
                 "version": "0",
                 "semver": "0.0.27",
-                "date": "2019.09.19 19:29",
+                "date": "2019.09.19 16:29",
                 "file": "",
                 "notes": [
                     "Skip importing builds until they have started."
@@ -2517,7 +2517,7 @@
             {
                 "version": "0",
                 "semver": "0.0.25",
-                "date": "2019.09.16 22:05",
+                "date": "2019.09.16 19:05",
                 "file": "",
                 "notes": [
                     "Fixed skipping of issue IDs during sync."
@@ -2531,7 +2531,7 @@
             {
                 "version": "0",
                 "semver": "0.0.22",
-                "date": "2019.09.10 16:40",
+                "date": "2019.09.10 13:40",
                 "file": "",
                 "notes": [
                     "Ignore updates missing fields."
@@ -2545,7 +2545,7 @@
             {
                 "version": "0",
                 "semver": "0.0.21",
-                "date": "2019.08.08 15:53",
+                "date": "2019.08.08 12:53",
                 "file": "",
                 "notes": [
                     "Fixes encryption key deletion bug"
@@ -2559,7 +2559,7 @@
             {
                 "version": "0",
                 "semver": "0.0.19",
-                "date": "2019.07.18 18:22",
+                "date": "2019.07.18 15:22",
                 "file": "",
                 "notes": [
                     "Added versionName to builds."
@@ -2573,7 +2573,7 @@
             {
                 "version": "0",
                 "semver": "0.0.17",
-                "date": "2019.07.16 13:36",
+                "date": "2019.07.16 10:36",
                 "file": "",
                 "notes": [
                     "Added scheduled event to import builds."
@@ -2587,7 +2587,7 @@
             {
                 "version": "0",
                 "semver": "0.0.16",
-                "date": "2019.07.09 20:21",
+                "date": "2019.07.09 17:21",
                 "file": "",
                 "notes": [
                     "Static Velocity API Client."
@@ -2601,7 +2601,7 @@
             {
                 "version": "0",
                 "semver": "0.0.15",
-                "date": "2019.06.24 00:00",
+                "date": "2019.06.23 21:00",
                 "file": "",
                 "notes": [
                     "Get string representation of trackerId."
@@ -2615,7 +2615,7 @@
             {
                 "version": "0",
                 "semver": "0.0.14",
-                "date": "2019.06.14 00:00",
+                "date": "2019.06.13 21:00",
                 "file": "",
                 "notes": [
                     "Initial release of Azure DevOps plugin."
@@ -2648,7 +2648,7 @@
             {
                 "version": "1",
                 "semver": "1.0.29",
-                "date": "2022.12.27 12:01",
+                "date": "2022.12.27 09:01",
                 "file": "",
                 "notes": [
                     "<b>Initial Sync Date Field Added: </b>Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync."
@@ -2662,7 +2662,7 @@
             {
                 "version": "1",
                 "semver": "1.0.26",
-                "date": "2022.09.23 11:03",
+                "date": "2022.09.23 08:03",
                 "file": "",
                 "notes": [
                     "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
@@ -2677,7 +2677,7 @@
             {
                 "version": "1",
                 "semver": "1.0.22",
-                "date": "2022.06.07 04:01",
+                "date": "2022.06.07 01:01",
                 "file": "",
                 "notes": [
                     "reduced vulnerability"
@@ -2691,7 +2691,7 @@
             {
                 "version": "1",
                 "semver": "1.0.16",
-                "date": "2022.03.25 13:38",
+                "date": "2022.03.25 10:38",
                 "file": "",
                 "notes": [
                     "Removed repoSlug and projectName field",
@@ -2707,7 +2707,7 @@
             {
                 "version": "1",
                 "semver": "1.0.15",
-                "date": "2022.02.23 07:15",
+                "date": "2022.02.23 04:15",
                 "file": "",
                 "notes": [
                     "UAK Related Changes"
@@ -2721,7 +2721,7 @@
             {
                 "version": "1",
                 "semver": "1.0.8",
-                "date": "2021.08.09 06:33",
+                "date": "2021.08.09 03:33",
                 "file": "",
                 "notes": [
                     "Auto-generated UAK update"
@@ -2735,7 +2735,7 @@
             {
                 "version": "1",
                 "semver": "1.0.7",
-                "date": "2021.05.26 13:58",
+                "date": "2021.05.26 10:58",
                 "file": "",
                 "notes": [
                     "Initial Release"
@@ -2768,7 +2768,7 @@
             {
                 "version": "1",
                 "semver": "1.1.26",
-                "date": "2022.11.08 06:53",
+                "date": "2022.11.08 03:53",
                 "file": "",
                 "notes": [
                     "<b>Added Regular Expression for Additional branch</b>"
@@ -2782,7 +2782,7 @@
             {
                 "version": "1",
                 "semver": "1.1.24",
-                "date": "2022.10.28 06:20",
+                "date": "2022.10.28 03:20",
                 "file": "",
                 "notes": [
                     "<b>Initial Sync Date Field Added: </b>Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync.",
@@ -2802,7 +2802,7 @@
             {
                 "version": "1",
                 "semver": "1.1.23",
-                "date": "2022.09.23 09:17",
+                "date": "2022.09.23 06:17",
                 "file": "",
                 "notes": [
                     "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
@@ -2817,7 +2817,7 @@
             {
                 "version": "1",
                 "semver": "1.1.22",
-                "date": "2022.08.17 09:45",
+                "date": "2022.08.17 06:45",
                 "file": "",
                 "notes": [
                     "Rate limiting and resync implementation"
@@ -2831,7 +2831,7 @@
             {
                 "version": "1",
                 "semver": "1.1.16",
-                "date": "2022.03.28 19:53",
+                "date": "2022.03.28 16:53",
                 "file": "",
                 "notes": [
                     "Reducing vulnerabilities"
@@ -2845,7 +2845,7 @@
             {
                 "version": "1",
                 "semver": "1.1.12",
-                "date": "2022.03.10 06:39",
+                "date": "2022.03.10 03:39",
                 "file": "",
                 "notes": [
                     "Enhancements done to the UI fields"
@@ -2859,7 +2859,7 @@
             {
                 "version": "1",
                 "semver": "1.1.5",
-                "date": "2022.01.10 06:40",
+                "date": "2022.01.10 03:40",
                 "file": "",
                 "notes": [
                     "Multiple Repository Support",
@@ -2874,7 +2874,7 @@
             {
                 "version": "1",
                 "semver": "1.0.42",
-                "date": "2021.06.22 11:49",
+                "date": "2021.06.22 08:49",
                 "file": "",
                 "notes": [
                     "Added support to pull commits from multiple additional branches"
@@ -2888,7 +2888,7 @@
             {
                 "version": "1",
                 "semver": "1.0.23",
-                "date": "2020.12.18 15:31",
+                "date": "2020.12.18 12:31",
                 "file": "",
                 "notes": [
                     "Bug Fix"
@@ -2902,7 +2902,7 @@
             {
                 "version": "1",
                 "semver": "1.0.22",
-                "date": "2020.03.02 18:00",
+                "date": "2020.03.02 15:00",
                 "file": "",
                 "notes": [
                     "Retrieve commits from non-default branch."
@@ -2916,7 +2916,7 @@
             {
                 "version": "1",
                 "semver": "1.0.21",
-                "date": "2020.02.18 20:11",
+                "date": "2020.02.18 17:11",
                 "file": "",
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
@@ -2930,7 +2930,7 @@
             {
                 "version": "1",
                 "semver": "1.0.20",
-                "date": "2020.01.16 15:53",
+                "date": "2020.01.16 12:53",
                 "file": "",
                 "notes": [
                     "Configure logger in wrapper."
@@ -2944,7 +2944,7 @@
             {
                 "version": "1",
                 "semver": "1.0.19",
-                "date": "2019.11.26 16:53",
+                "date": "2019.11.26 13:53",
                 "file": "",
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
@@ -2958,7 +2958,7 @@
             {
                 "version": "0",
                 "semver": "0.0.18",
-                "date": "2019.08.08 15:57",
+                "date": "2019.08.08 12:57",
                 "file": "",
                 "notes": [
                     "Fixes encryption key deletion bug"
@@ -2972,7 +2972,7 @@
             {
                 "version": "0",
                 "semver": "0.0.16",
-                "date": "2019.08.07 17:20",
+                "date": "2019.08.07 14:20",
                 "file": "",
                 "notes": [
                     "Change description of properties."
@@ -2986,7 +2986,7 @@
             {
                 "version": "0",
                 "semver": "0.0.15",
-                "date": "2019.07.09 20:25",
+                "date": "2019.07.09 17:25",
                 "file": "",
                 "notes": [
                     "Upgrade to api-client 1.0.13",
@@ -3001,7 +3001,7 @@
             {
                 "version": "0",
                 "semver": "0.0.14",
-                "date": "2019.06.14 00:00",
+                "date": "2019.06.13 21:00",
                 "file": "",
                 "notes": [
                     "Switch build target on Jenkinsfile."
@@ -3034,7 +3034,7 @@
             {
                 "version": "1",
                 "semver": "1.0.3",
-                "date": "2024.03.13 13:06",
+                "date": "2024.03.13 10:06",
                 "file": "",
                 "notes": [
                     "<b>Removed Manual User Access Key:</b>From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
@@ -3049,7 +3049,7 @@
             {
                 "version": "1",
                 "semver": "1.0.2",
-                "date": "2020.12.08 07:31",
+                "date": "2020.12.08 04:31",
                 "file": "",
                 "notes": [
                     "Enhancement"
@@ -3063,7 +3063,7 @@
             {
                 "version": "1",
                 "semver": "1.0.1",
-                "date": "2020.10.16 15:19",
+                "date": "2020.10.16 12:19",
                 "file": "",
                 "notes": [
                     "Bug fix"
@@ -3077,7 +3077,7 @@
             {
                 "version": "1",
                 "semver": "1.0.0",
-                "date": "2020.06.12 17:55",
+                "date": "2020.06.12 14:55",
                 "file": "",
                 "notes": [
                     "Initial release"
@@ -3110,7 +3110,7 @@
             {
                 "version": "1",
                 "semver": "1.0.24",
-                "date": "2022.12.27 08:54",
+                "date": "2022.12.27 05:54",
                 "file": "",
                 "notes": [
                     "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
@@ -3127,7 +3127,7 @@
             {
                 "version": "1",
                 "semver": "1.0.22",
-                "date": "2022.08.11 15:43",
+                "date": "2022.08.11 12:43",
                 "file": "",
                 "notes": [
                     "Clarifying delimitation problem for properties used"
@@ -3141,7 +3141,7 @@
             {
                 "version": "1",
                 "semver": "1.0.18",
-                "date": "2022.06.07 05:34",
+                "date": "2022.06.07 02:34",
                 "file": "",
                 "notes": [
                     "reduced Whitesource vulnerabilities"
@@ -3155,7 +3155,7 @@
             {
                 "version": "1",
                 "semver": "1.0.16",
-                "date": "2022.03.01 09:00",
+                "date": "2022.03.01 06:00",
                 "file": "",
                 "notes": [
                     "User Access Key Related Changes"
@@ -3188,7 +3188,7 @@
             {
                 "version": "1",
                 "semver": "1.0.39",
-                "date": "2024.06.11 09:09",
+                "date": "2024.06.11 06:09",
                 "file": "",
                 "notes": [
                     "npm wrapper version update for Argo Replacement"
@@ -3202,7 +3202,7 @@
             {
                 "version": "1",
                 "semver": "1.0.34",
-                "date": "2022.05.31 18:46",
+                "date": "2022.05.31 15:46",
                 "file": "",
                 "notes": [
                     "xml2json alternative added"
@@ -3216,7 +3216,7 @@
             {
                 "version": "1",
                 "semver": "1.0.33",
-                "date": "2022.05.31 06:31",
+                "date": "2022.05.31 03:31",
                 "file": "",
                 "notes": [
                     "Reduced Vulnerabilities"
@@ -3230,7 +3230,7 @@
             {
                 "version": "1",
                 "semver": "1.0.8",
-                "date": "2021.01.15 06:33",
+                "date": "2021.01.15 03:33",
                 "file": "",
                 "notes": [
                     "Multiple Test Suites Support"
@@ -3244,7 +3244,7 @@
             {
                 "version": "1",
                 "semver": "1.0.7",
-                "date": "2020.12.03 12:41",
+                "date": "2020.12.03 09:41",
                 "file": "",
                 "notes": [
                     "Plugin name update"
@@ -3258,7 +3258,7 @@
             {
                 "version": "1",
                 "semver": "1.0.6",
-                "date": "2020.08.07 11:11",
+                "date": "2020.08.07 08:11",
                 "file": "",
                 "notes": [
                     "Updated npm-wrapper version"
@@ -3272,7 +3272,7 @@
             {
                 "version": "1",
                 "semver": "1.0.3",
-                "date": "2020.03.04 15:46",
+                "date": "2020.03.04 12:46",
                 "file": "",
                 "notes": [
                     "Initial release of plugin."
@@ -3305,7 +3305,7 @@
             {
                 "version": "1",
                 "semver": "1.0.2",
-                "date": "2022.04.18 08:19",
+                "date": "2022.04.18 05:19",
                 "file": "",
                 "notes": [
                     "Syncs with GitHub Plugin to get Dependency Vulnerabilities",
@@ -3342,7 +3342,7 @@
             {
                 "version": "1",
                 "semver": "1.1.30",
-                "date": "2022.09.06 07:34",
+                "date": "2022.09.06 04:34",
                 "file": "",
                 "notes": [
                     "<b>Previous Version Bug Fix:</b> Version 1.1.28 of the plugin had a major bug related to Projects UI field.",
@@ -3357,7 +3357,7 @@
             {
                 "version": "1",
                 "semver": "1.1.28",
-                "date": "2022.08.12 14:39",
+                "date": "2022.08.12 11:39",
                 "file": "",
                 "notes": [
                     "Clarifying delimitation problem for properties used"
@@ -3371,7 +3371,7 @@
             {
                 "version": "1",
                 "semver": "1.1.27",
-                "date": "2022.07.18 05:20",
+                "date": "2022.07.18 02:20",
                 "file": "",
                 "notes": [
                     "Added change sets related data to history section of VSM dot."
@@ -3385,7 +3385,7 @@
             {
                 "version": "1",
                 "semver": "1.1.24",
-                "date": "2022.06.07 15:16",
+                "date": "2022.06.07 12:16",
                 "file": "",
                 "notes": [
                     "Minor fix"
@@ -3399,7 +3399,7 @@
             {
                 "version": "1",
                 "semver": "1.1.22",
-                "date": "2022.04.30 17:38",
+                "date": "2022.04.30 14:38",
                 "file": "",
                 "notes": [
                     "IssueRelationIn data added",
@@ -3415,7 +3415,7 @@
             {
                 "version": "1",
                 "semver": "1.1.15",
-                "date": "2022.02.23 09:32",
+                "date": "2022.02.23 06:32",
                 "file": "",
                 "notes": [
                     "Debug Logs Added",
@@ -3433,7 +3433,7 @@
             {
                 "version": "1",
                 "semver": "1.0.2",
-                "date": "2020.03.13 16:11",
+                "date": "2020.03.13 13:11",
                 "file": "",
                 "notes": [
                     "Initial Release"
@@ -3466,7 +3466,7 @@
             {
                 "version": "1",
                 "semver": "1.0.19",
-                "date": "2022.09.22 01:33",
+                "date": "2022.09.21 22:33",
                 "file": "",
                 "notes": [
                     "<b>Added WorkflowId:</b> Under the hidden properties section of add integration page for the plugin a Workflow ID field is added. This field is optional and can be used to provide WorkflowId - the ID of a Value Stream (VSM )to which the vulnerability data is associated."
@@ -3480,7 +3480,7 @@
             {
                 "version": "1",
                 "semver": "1.0.7",
-                "date": "2022.06.08 06:56",
+                "date": "2022.06.08 03:56",
                 "file": "",
                 "notes": [
                     "Reduced whitesource vulnerabilities"
@@ -3494,7 +3494,7 @@
             {
                 "version": "1",
                 "semver": "1.0.1",
-                "date": "2022.01.24 15:43",
+                "date": "2022.01.24 12:43",
                 "file": "",
                 "notes": [
                     "Initial Release"
@@ -3527,7 +3527,7 @@
             {
                 "version": "1",
                 "semver": "1.0.51",
-                "date": "2024.06.13 03:50",
+                "date": "2024.06.13 00:50",
                 "file": "",
                 "notes": [
                     "It is now compatible with new Argo framework."
@@ -3541,7 +3541,7 @@
             {
                 "version": "1",
                 "semver": "1.0.47",
-                "date": "2023.12.08 17:05",
+                "date": "2023.12.08 14:05",
                 "file": "",
                 "notes": [
                     "Renamed Plugin"
@@ -3574,7 +3574,7 @@
             {
                 "version": "1",
                 "semver": "1.4.17",
-                "date": "2024.07.23 12:55",
+                "date": "2024.07.23 09:55",
                 "file": "",
                 "notes": [
                     "Fix Pull Request sync with the newest versions of the GitHub Api."
@@ -3588,7 +3588,7 @@
             {
                 "version": "1",
                 "semver": "1.4.16",
-                "date": "2023.11.15 11:54",
+                "date": "2023.11.15 08:54",
                 "file": "",
                 "notes": [
                     "<b>Enhancement:</b> This enhancement modifies the plugins synchronization behavior following a failure. Previously, the plugin would resume syncing from the date of the last successful synchronization. Now, it has been updated to continue syncing commits, pull-requests, and issues from the point where it last synced before the failure. This change ensures more accurate and efficient data synchronization by reducing the likelihood of missing or duplicating data in cases where the plugin had partially synced before encountering an issue."
@@ -3602,7 +3602,7 @@
             {
                 "version": "1",
                 "semver": "1.4.7",
-                "date": "2023.09.08 12:45",
+                "date": "2023.09.08 09:45",
                 "file": "",
                 "notes": [
                     "Wild Card feature for additional branches field in GitHub Plugin"
@@ -3616,7 +3616,7 @@
             {
                 "version": "1",
                 "semver": "1.4.5",
-                "date": "2023.06.05 08:32",
+                "date": "2023.06.05 05:32",
                 "file": "",
                 "notes": [
                     "<b>Feature:</b> Syncing Yaml files from different repositories"
@@ -3630,7 +3630,7 @@
             {
                 "version": "1",
                 "semver": "1.3.46",
-                "date": "2023.05.09 19:05",
+                "date": "2023.05.09 16:05",
                 "file": "",
                 "notes": [
                     "<b>Bug fix:</b> Previous version was failing for upload commit of large size."
@@ -3644,7 +3644,7 @@
             {
                 "version": "1",
                 "semver": "1.3.35",
-                "date": "2022.10.26 06:38",
+                "date": "2022.10.26 03:38",
                 "file": "",
                 "notes": [],
                 "supports": "4.0.0",
@@ -3656,7 +3656,7 @@
             {
                 "version": "1",
                 "semver": "1.3.34",
-                "date": "2022.09.23 07:53",
+                "date": "2022.09.23 04:53",
                 "file": "",
                 "notes": [
                     "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
@@ -3671,7 +3671,7 @@
             {
                 "version": "1",
                 "semver": "1.3.31",
-                "date": "2022.05.31 07:20",
+                "date": "2022.05.31 04:20",
                 "file": "",
                 "notes": [
                     "Updated rest client to latest"
@@ -3685,7 +3685,7 @@
             {
                 "version": "1",
                 "semver": "1.3.29",
-                "date": "2022.04.22 11:40",
+                "date": "2022.04.22 08:40",
                 "file": "",
                 "notes": [
                     "New feature added - Query for CI processes using GitHub Actions in a repository"
@@ -3699,7 +3699,7 @@
             {
                 "version": "1",
                 "semver": "1.2.25",
-                "date": "2022.02.28 16:39",
+                "date": "2022.02.28 13:39",
                 "file": "",
                 "notes": [
                     "Global Initial Sync date feature"
@@ -3713,7 +3713,7 @@
             {
                 "version": "1",
                 "semver": "1.2.24",
-                "date": "2022.01.28 15:03",
+                "date": "2022.01.28 12:03",
                 "file": "",
                 "notes": [
                     "Primary and secondary API rate limit fix",
@@ -3732,7 +3732,7 @@
             {
                 "version": "1",
                 "semver": "1.1.22",
-                "date": "2021.12.03 06:25",
+                "date": "2021.12.03 03:25",
                 "file": "",
                 "notes": [
                     "UAK Changes"
@@ -3746,7 +3746,7 @@
             {
                 "version": "1",
                 "semver": "1.1.20",
-                "date": "2021.08.19 12:39",
+                "date": "2021.08.19 09:39",
                 "file": "",
                 "notes": [
                     "Bug fix: UAK support for older versions"
@@ -3760,7 +3760,7 @@
             {
                 "version": "1",
                 "semver": "1.1.18",
-                "date": "2021.08.11 07:02",
+                "date": "2021.08.11 04:02",
                 "file": "",
                 "notes": [
                     "Auto-generated User Access Key support added",
@@ -3775,7 +3775,7 @@
             {
                 "version": "1",
                 "semver": "1.1.15",
-                "date": "2021.07.23 12:15",
+                "date": "2021.07.23 09:15",
                 "file": "",
                 "notes": [
                     "Labels bug fix"
@@ -3789,7 +3789,7 @@
             {
                 "version": "1",
                 "semver": "1.1.9",
-                "date": "2021.07.14 11:20",
+                "date": "2021.07.14 08:20",
                 "file": "",
                 "notes": [
                     "Bug fix"
@@ -3803,7 +3803,7 @@
             {
                 "version": "1",
                 "semver": "1.1.1",
-                "date": "2021.06.22 11:39",
+                "date": "2021.06.22 08:39",
                 "file": "",
                 "notes": [
                     "Added support to pull commits from multiple additional branches"
@@ -3817,7 +3817,7 @@
             {
                 "version": "1",
                 "semver": "1.0.49",
-                "date": "2021.05.10 08:24",
+                "date": "2021.05.10 05:24",
                 "file": "",
                 "notes": [
                     "Added history for issues"
@@ -3831,7 +3831,7 @@
             {
                 "version": "1",
                 "semver": "1.0.42",
-                "date": "2021.03.16 06:22",
+                "date": "2021.03.16 03:22",
                 "file": "",
                 "notes": [
                     "Pull commit data from non master branch"
@@ -3845,7 +3845,7 @@
             {
                 "version": "1",
                 "semver": "1.0.40",
-                "date": "2020.11.11 07:30",
+                "date": "2020.11.11 04:30",
                 "file": "",
                 "notes": [
                     "Added GitHub Issues"
@@ -3859,7 +3859,7 @@
             {
                 "version": "1",
                 "semver": "1.0.36",
-                "date": "2020.10.15 11:35",
+                "date": "2020.10.15 08:35",
                 "file": "",
                 "notes": [
                     "Non master branch support"
@@ -3873,7 +3873,7 @@
             {
                 "version": "1",
                 "semver": "1.0.34",
-                "date": "2020.09.03 07:48",
+                "date": "2020.09.03 04:48",
                 "file": "",
                 "notes": [
                     "Added proxy support"
@@ -3887,7 +3887,7 @@
             {
                 "version": "1",
                 "semver": "1.0.32",
-                "date": "2020.06.12 07:24",
+                "date": "2020.06.12 04:24",
                 "file": "",
                 "notes": [
                     "Fix for repository url"
@@ -3901,7 +3901,7 @@
             {
                 "version": "1",
                 "semver": "1.0.31",
-                "date": "2020.06.09 07:25",
+                "date": "2020.06.09 04:25",
                 "file": "",
                 "notes": [
                     "Removed the Url field"
@@ -3915,7 +3915,7 @@
             {
                 "version": "1",
                 "semver": "1.0.30",
-                "date": "2020.04.21 08:11",
+                "date": "2020.04.21 05:11",
                 "file": "",
                 "notes": [
                     "added accesskey support",
@@ -3931,7 +3931,7 @@
             {
                 "version": "1",
                 "semver": "1.0.29",
-                "date": "2020.03.03 05:52",
+                "date": "2020.03.03 02:52",
                 "file": "",
                 "notes": [
                     "Handled null commit author"
@@ -3945,7 +3945,7 @@
             {
                 "version": "1",
                 "semver": "1.0.27",
-                "date": "2020.02.18 20:22",
+                "date": "2020.02.18 17:22",
                 "file": "",
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
@@ -3959,7 +3959,7 @@
             {
                 "version": "1",
                 "semver": "1.0.26",
-                "date": "2020.01.21 21:41",
+                "date": "2020.01.21 18:41",
                 "file": "",
                 "notes": [
                     "Bug fixes and api updates"
@@ -3973,7 +3973,7 @@
             {
                 "version": "1",
                 "semver": "1.0.25",
-                "date": "2020.01.16 16:05",
+                "date": "2020.01.16 13:05",
                 "file": "",
                 "notes": [
                     "Configure logger in wrapper."
@@ -3987,7 +3987,7 @@
             {
                 "version": "1",
                 "semver": "1.0.24",
-                "date": "2019.12.18 21:31",
+                "date": "2019.12.18 18:31",
                 "file": "",
                 "notes": [
                     "Ignore invalid timestamps."
@@ -4001,7 +4001,7 @@
             {
                 "version": "1",
                 "semver": "1.0.23",
-                "date": "2019.11.26 17:46",
+                "date": "2019.11.26 14:46",
                 "file": "",
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
@@ -4015,7 +4015,7 @@
             {
                 "version": "0",
                 "semver": "0.0.21",
-                "date": "2019.09.26 17:16",
+                "date": "2019.09.26 14:16",
                 "file": "",
                 "notes": [
                     "Added ability to retrieve multiple repositories"
@@ -4029,7 +4029,7 @@
             {
                 "version": "0",
                 "semver": "0.0.19",
-                "date": "2019.08.08 16:00",
+                "date": "2019.08.08 13:00",
                 "file": "",
                 "notes": [
                     "Fixes encryption key deletion bug"
@@ -4043,7 +4043,7 @@
             {
                 "version": "0",
                 "semver": "0.0.18",
-                "date": "2019.08.07 17:24",
+                "date": "2019.08.07 14:24",
                 "file": "",
                 "notes": [
                     "Update description on properties.",
@@ -4058,7 +4058,7 @@
             {
                 "version": "0",
                 "semver": "0.0.16",
-                "date": "2019.07.09 20:28",
+                "date": "2019.07.09 17:28",
                 "file": "",
                 "notes": [
                     "Upgrade to use the latest version of api-client."
@@ -4072,7 +4072,7 @@
             {
                 "version": "0",
                 "semver": "0.0.12",
-                "date": "2019.07.03 19:09",
+                "date": "2019.07.03 16:09",
                 "file": "",
                 "notes": [
                     "Fixed pagination bug with pull requests and commits."
@@ -4086,7 +4086,7 @@
             {
                 "version": "0",
                 "semver": "0.0.11",
-                "date": "2019.06.13 00:00",
+                "date": "2019.06.12 21:00",
                 "file": "",
                 "notes": [
                     "Updated to api-client 1.0.11."
@@ -4119,7 +4119,7 @@
             {
                 "version": "2",
                 "semver": "2.2.68",
-                "date": "2024.03.07 03:41",
+                "date": "2024.03.07 00:41",
                 "file": "",
                 "notes": [
                     "<b>Minor bug fix:</b> Dynamically getting type of Issue."
@@ -4133,7 +4133,7 @@
             {
                 "version": "2",
                 "semver": "2.2.66",
-                "date": "2023.03.13 15:24",
+                "date": "2023.03.13 12:24",
                 "file": "",
                 "notes": [
                     "<b>Fix for Project Name Field</b>: Previous version of Gitlab plugin was not able to import data for some projects.",
@@ -4148,7 +4148,7 @@
             {
                 "version": "2",
                 "semver": "2.1.63",
-                "date": "2023.01.30 06:29",
+                "date": "2023.01.30 03:29",
                 "file": "",
                 "notes": [
                     "<b>Minor Bug Fix</b>: Previous version of plugin was giving <i>Cannot read property status of null</i> error."
@@ -4162,7 +4162,7 @@
             {
                 "version": "2",
                 "semver": "2.1.62",
-                "date": "2022.09.22 05:16",
+                "date": "2022.09.22 02:16",
                 "file": "",
                 "notes": [
                     "<b>Resolved 502 Bad Gateway Error:</b> Previous version of plugin was giving a 502 Bad Gateway error for GitLab Server."
@@ -4176,7 +4176,7 @@
             {
                 "version": "2",
                 "semver": "2.1.58",
-                "date": "2022.09.13 11:00",
+                "date": "2022.09.13 08:00",
                 "file": "",
                 "notes": [
                     "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
@@ -4193,7 +4193,7 @@
             {
                 "version": "2",
                 "semver": "2.1.57",
-                "date": "2022.08.18 08:40",
+                "date": "2022.08.18 05:40",
                 "file": "",
                 "notes": [
                     "Adding project names instead of project IDs while integration",
@@ -4208,7 +4208,7 @@
             {
                 "version": "2",
                 "semver": "2.1.56",
-                "date": "2022.06.13 05:32",
+                "date": "2022.06.13 02:32",
                 "file": "",
                 "notes": [
                     "Minor Change"
@@ -4222,7 +4222,7 @@
             {
                 "version": "2",
                 "semver": "2.1.55",
-                "date": "2022.06.06 02:56",
+                "date": "2022.06.05 23:56",
                 "file": "",
                 "notes": [
                     "Automation Task Added"
@@ -4236,7 +4236,7 @@
             {
                 "version": "2",
                 "semver": "2.0.53",
-                "date": "2022.04.05 12:29",
+                "date": "2022.04.05 09:29",
                 "file": "",
                 "notes": [
                     " other Branches field added with datasince filed removed and historicaldata in vsm fixed"
@@ -4250,7 +4250,7 @@
             {
                 "version": "2",
                 "semver": "2.0.50",
-                "date": "2022.02.24 03:15",
+                "date": "2022.02.24 00:15",
                 "file": "",
                 "notes": [
                     "status value modified"
@@ -4264,7 +4264,7 @@
             {
                 "version": "2",
                 "semver": "2.0.37",
-                "date": "2021.12.03 06:35",
+                "date": "2021.12.03 03:35",
                 "file": "",
                 "notes": [
                     "UAK Changes"
@@ -4278,7 +4278,7 @@
             {
                 "version": "2",
                 "semver": "2.0.36",
-                "date": "2021.09.08 13:59",
+                "date": "2021.09.08 10:59",
                 "file": "",
                 "notes": [
                     "Support for priority using labels"
@@ -4292,7 +4292,7 @@
             {
                 "version": "2",
                 "semver": "2.0.32",
-                "date": "2021.08.25 05:09",
+                "date": "2021.08.25 02:09",
                 "file": "",
                 "notes": [
                     "UAK support for older versions"
@@ -4306,7 +4306,7 @@
             {
                 "version": "2",
                 "semver": "2.0.31",
-                "date": "2021.08.11 06:55",
+                "date": "2021.08.11 03:55",
                 "file": "",
                 "notes": [
                     "ReSync support added"
@@ -4320,7 +4320,7 @@
             {
                 "version": "2",
                 "semver": "2.0.30",
-                "date": "2021.08.09 06:38",
+                "date": "2021.08.09 03:38",
                 "file": "",
                 "notes": [
                     "Auto-generated UAK update"
@@ -4334,7 +4334,7 @@
             {
                 "version": "2",
                 "semver": "2.0.28",
-                "date": "2021.06.30 09:46",
+                "date": "2021.06.30 06:46",
                 "file": "",
                 "notes": [
                     "Bug fix"
@@ -4348,7 +4348,7 @@
             {
                 "version": "2",
                 "semver": "2.0.25",
-                "date": "2021.05.04 05:12",
+                "date": "2021.05.04 02:12",
                 "file": "",
                 "notes": [
                     "Added history to Issues and PR"
@@ -4362,7 +4362,7 @@
             {
                 "version": "2",
                 "semver": "2.0.15",
-                "date": "2021.03.03 04:45",
+                "date": "2021.03.03 01:45",
                 "file": "",
                 "notes": [
                     "bug fixed"
@@ -4376,7 +4376,7 @@
             {
                 "version": "2",
                 "semver": "2.0.10",
-                "date": "2021.01.22 11:55",
+                "date": "2021.01.22 08:55",
                 "file": "",
                 "notes": [
                     "Bug fix"
@@ -4390,7 +4390,7 @@
             {
                 "version": "2",
                 "semver": "2.0.9",
-                "date": "2021.01.20 08:56",
+                "date": "2021.01.20 05:56",
                 "file": "",
                 "notes": [
                     "Added retry for errors"
@@ -4404,7 +4404,7 @@
             {
                 "version": "2",
                 "semver": "2.0.8",
-                "date": "2020.12.28 07:39",
+                "date": "2020.12.28 04:39",
                 "file": "",
                 "notes": [
                     "Added proxy support"
@@ -4418,7 +4418,7 @@
             {
                 "version": "2",
                 "semver": "2.0.7",
-                "date": "2020.11.06 14:00",
+                "date": "2020.11.06 11:00",
                 "file": "",
                 "notes": [
                     "Pulls commit from non-master & included issues"
@@ -4432,7 +4432,7 @@
             {
                 "version": "2",
                 "semver": "2.0.3",
-                "date": "2020.06.03 06:50",
+                "date": "2020.06.03 03:50",
                 "file": "",
                 "notes": [
                     "post multiple builds to graphql"
@@ -4446,7 +4446,7 @@
             {
                 "version": "2",
                 "semver": "2.0.2",
-                "date": "2020.05.19 06:00",
+                "date": "2020.05.19 03:00",
                 "file": "",
                 "notes": [
                     "Performance Improvements"
@@ -4460,7 +4460,7 @@
             {
                 "version": "2",
                 "semver": "2.0.1",
-                "date": "2020.05.11 10:38",
+                "date": "2020.05.11 07:38",
                 "file": "",
                 "notes": [
                     "multi project support",
@@ -4475,7 +4475,7 @@
             {
                 "version": "1",
                 "semver": "1.0.7",
-                "date": "2020.02.13 20:15",
+                "date": "2020.02.13 17:15",
                 "file": "",
                 "notes": [
                     "Enhancements for use in Kubernetes"
@@ -4489,7 +4489,7 @@
             {
                 "version": "1",
                 "semver": "1.0.6",
-                "date": "2020.01.16 16:23",
+                "date": "2020.01.16 13:23",
                 "file": "",
                 "notes": [
                     "Configure logger in wrapper."
@@ -4503,7 +4503,7 @@
             {
                 "version": "0",
                 "semver": "0.0.4",
-                "date": "2019.10.15 05:42",
+                "date": "2019.10.15 02:42",
                 "file": "",
                 "notes": [
                     "Initial Release"
@@ -4536,7 +4536,7 @@
             {
                 "version": "2",
                 "semver": "2.0.1",
-                "date": "2022.11.18 15:06",
+                "date": "2022.11.18 12:06",
                 "file": "",
                 "notes": [
                     "Remove required UAK in favor of dynamically generated UAK"
@@ -4550,7 +4550,7 @@
             {
                 "version": "1",
                 "semver": "1.0.1",
-                "date": "2022.09.07 18:49",
+                "date": "2022.09.07 15:49",
                 "file": "",
                 "notes": [
                     "Update API Schema for Accelerate versions 4.0.0 or above"
@@ -4564,7 +4564,7 @@
             {
                 "version": "0",
                 "semver": "0.0.59",
-                "date": "2022.06.01 18:54",
+                "date": "2022.06.01 15:54",
                 "file": "",
                 "notes": [
                     "Reduced Vulnerabilities"
@@ -4578,7 +4578,7 @@
             {
                 "version": "0",
                 "semver": "0.0.41",
-                "date": "2021.11.01 22:33",
+                "date": "2021.11.01 19:33",
                 "file": "",
                 "notes": [
                     "Updated API Client for major product release."
@@ -4592,7 +4592,7 @@
             {
                 "version": "0",
                 "semver": "0.0.39",
-                "date": "2021.07.30 19:04",
+                "date": "2021.07.30 16:04",
                 "file": "",
                 "notes": [
                     "Fix missing scheduledEventFunction error"
@@ -4606,7 +4606,7 @@
             {
                 "version": "0",
                 "semver": "0.0.38",
-                "date": "2021.07.21 15:52",
+                "date": "2021.07.21 12:52",
                 "file": "",
                 "notes": [],
                 "supports": "",
@@ -4618,7 +4618,7 @@
             {
                 "version": "0",
                 "semver": "0.0.30",
-                "date": "2021.05.17 05:02",
+                "date": "2021.05.17 02:02",
                 "file": "",
                 "notes": [
                     "Add DB Support for Seeded Reports"
@@ -4632,7 +4632,7 @@
             {
                 "version": "0",
                 "semver": "0.0.17",
-                "date": "2021.03.30 11:10",
+                "date": "2021.03.30 08:10",
                 "file": "",
                 "notes": [
                     "Release to upgrade the plugin with base image"
@@ -4646,7 +4646,7 @@
             {
                 "version": "0",
                 "semver": "0.0.6",
-                "date": "2020.12.02 11:25",
+                "date": "2020.12.02 08:25",
                 "file": "",
                 "notes": [
                     "Enhancement"
@@ -4660,7 +4660,7 @@
             {
                 "version": "0",
                 "semver": "0.0.4",
-                "date": "2020.08.24 14:52",
+                "date": "2020.08.24 11:52",
                 "file": "",
                 "notes": [
                     "Updated API client."
@@ -4674,7 +4674,7 @@
             {
                 "version": "0",
                 "semver": "0.0.3",
-                "date": "2020.05.29 19:43",
+                "date": "2020.05.29 16:43",
                 "file": "",
                 "notes": [
                     "update plugin to handle files after GridFS update"
@@ -4688,7 +4688,7 @@
             {
                 "version": "0",
                 "semver": "0.0.2",
-                "date": "2020.05.23 08:07",
+                "date": "2020.05.23 05:07",
                 "file": "",
                 "notes": [
                     "Initial release of plugin."
@@ -4721,7 +4721,7 @@
             {
                 "version": "1",
                 "semver": "1.1.7",
-                "date": "2024.06.10 10:37",
+                "date": "2024.06.10 07:37",
                 "file": "",
                 "notes": [
                     "<b>Minor bug fix:</b> The Jenkins task in deployment remains incomplete when the Velocity instance goes down during deployment. When the instance comes back online with the new version, the task still does not get marked as complete."
@@ -4735,7 +4735,7 @@
             {
                 "version": "1",
                 "semver": "1.1.6",
-                "date": "2024.06.10 08:38",
+                "date": "2024.06.10 05:38",
                 "file": "",
                 "notes": [
                     "<b>Bug fix:</b> The Jenkins task in deployment remains incomplete when the Velocity instance goes down during deployment. When the instance comes back online with the new version, the task still does not get marked as complete."
@@ -4749,7 +4749,7 @@
             {
                 "version": "1",
                 "semver": "1.1.5",
-                "date": "2024.02.19 19:25",
+                "date": "2024.02.19 16:25",
                 "file": "",
                 "notes": [
                     "Fix xpath job filter",
@@ -4764,7 +4764,7 @@
             {
                 "version": "1",
                 "semver": "1.1.3",
-                "date": "2023.11.15 05:25",
+                "date": "2023.11.15 02:25",
                 "file": "",
                 "notes": [
                     "Fix for Build-Revision mismatch in Jenkins Integration"
@@ -4778,7 +4778,7 @@
             {
                 "version": "1",
                 "semver": "1.1.2",
-                "date": "2023.10.12 04:38",
+                "date": "2023.10.12 01:38",
                 "file": "",
                 "notes": [
                     "Added support for process parameters coming from Git Parameter and Active Choices plugins",
@@ -4793,7 +4793,7 @@
             {
                 "version": "1",
                 "semver": "1.1.1",
-                "date": "2023.08.18 14:56",
+                "date": "2023.08.18 11:56",
                 "file": "",
                 "notes": [
                     "Default initial sync to 30 days"
@@ -4807,7 +4807,7 @@
             {
                 "version": "1",
                 "semver": "1.0.9",
-                "date": "2023.06.09 15:52",
+                "date": "2023.06.09 12:52",
                 "file": "",
                 "notes": [
                     "Limit maximum parallel requests",
@@ -4823,7 +4823,7 @@
             {
                 "version": "1",
                 "semver": "1.0.4",
-                "date": "2023.04.05 18:19",
+                "date": "2023.04.05 15:19",
                 "file": "",
                 "notes": [
                     "Fix integration name not showing in pipeline stage task selection",
@@ -4838,7 +4838,7 @@
             {
                 "version": "1",
                 "semver": "1.0.1",
-                "date": "2023.03.31 17:21",
+                "date": "2023.03.31 14:21",
                 "file": "",
                 "notes": [
                     "Public release."
@@ -4871,7 +4871,7 @@
             {
                 "version": "2",
                 "semver": "2.3.17",
-                "date": "2024.04.04 10:17",
+                "date": "2024.04.04 07:17",
                 "file": "",
                 "notes": [
                     "<b>Bug fix:</b> Added Proxyserver changes"
@@ -4885,7 +4885,7 @@
             {
                 "version": "2",
                 "semver": "2.3.12",
-                "date": "2024.01.11 10:25",
+                "date": "2024.01.11 07:25",
                 "file": "",
                 "notes": [
                     "Added request timeout option"
@@ -4899,7 +4899,7 @@
             {
                 "version": "2",
                 "semver": "2.3.10",
-                "date": "2023.09.26 12:16",
+                "date": "2023.09.26 09:16",
                 "file": "",
                 "notes": [
                     "<b>Bug fix:</b>First automation task was failing and also updated integration configuration property description."
@@ -4913,7 +4913,7 @@
             {
                 "version": "2",
                 "semver": "2.3.9",
-                "date": "2023.09.13 10:45",
+                "date": "2023.09.13 07:45",
                 "file": "",
                 "notes": [
                     "Fixed version-check bug in jira plugin",
@@ -4928,7 +4928,7 @@
             {
                 "version": "2",
                 "semver": "2.3.6",
-                "date": "2023.08.01 05:34",
+                "date": "2023.08.01 02:34",
                 "file": "",
                 "notes": [
                     "<b>Bug Fix:</b> Earlier version of the Plugin could not handle 429 error (too many requests). Now it is handling it. "
@@ -4942,7 +4942,7 @@
             {
                 "version": "2",
                 "semver": "2.3.1",
-                "date": "2023.03.06 08:29",
+                "date": "2023.03.06 05:29",
                 "file": "",
                 "notes": [
                     "<b>Personal Access Token Support</b>: The Jira Plugin was unable to use Personal Access Tokens for authentication in previous versions for Jira Server. However, a new field called Personal Access Token has been introduced to enable authentication using this feature."
@@ -4956,7 +4956,7 @@
             {
                 "version": "2",
                 "semver": "2.2.9",
-                "date": "2023.02.14 11:12",
+                "date": "2023.02.14 08:12",
                 "file": "",
                 "notes": [
                     "<b>Minor Bug Fix</b>: Previous version of plugin was failing with ECONNREFUSED error."
@@ -4970,7 +4970,7 @@
             {
                 "version": "2",
                 "semver": "2.2.8",
-                "date": "2022.09.26 11:28",
+                "date": "2022.09.26 08:28",
                 "file": "",
                 "notes": [
                     "<b>Deployment plan task added for release process: </b>Deployment plan task created in order to release selected version in the task."
@@ -4984,7 +4984,7 @@
             {
                 "version": "2",
                 "semver": "2.2.7",
-                "date": "2022.09.08 12:43",
+                "date": "2022.09.08 09:43",
                 "file": "",
                 "notes": [
                     "<b>Previous Version Bug Fix:</b> Previous versions of the plugin had a bug due to which plugin was giving 401 error.",
@@ -4999,7 +4999,7 @@
             {
                 "version": "2",
                 "semver": "2.2.6",
-                "date": "2022.08.24 08:29",
+                "date": "2022.08.24 05:29",
                 "file": "",
                 "notes": [
                     "<b>Resolved Incorrect URL Link Issue:</b> The URL link of the VSM dot for redirecting to work-item on Jira server/site was incorrect in previous version of plugin."
@@ -5013,7 +5013,7 @@
             {
                 "version": "2",
                 "semver": "2.2.5",
-                "date": "2022.08.02 05:44",
+                "date": "2022.08.02 02:44",
                 "file": "",
                 "notes": [
                     "Added Project keys"
@@ -5027,7 +5027,7 @@
             {
                 "version": "2",
                 "semver": "2.2.4",
-                "date": "2022.04.22 10:54",
+                "date": "2022.04.22 07:54",
                 "file": "",
                 "notes": [
                     "Bug Fix"
@@ -5041,7 +5041,7 @@
             {
                 "version": "2",
                 "semver": "2.2.1",
-                "date": "2022.03.09 14:06",
+                "date": "2022.03.09 11:06",
                 "file": "",
                 "notes": [
                     "Jira Query Language Added",
@@ -5058,7 +5058,7 @@
             {
                 "version": "2",
                 "semver": "2.0.97",
-                "date": "2022.03.09 04:18",
+                "date": "2022.03.09 01:18",
                 "file": "",
                 "notes": [
                     "Added Jira Query Language",
@@ -5075,7 +5075,7 @@
             {
                 "version": "2",
                 "semver": "2.1.96",
-                "date": "2022.03.03 12:29",
+                "date": "2022.03.03 09:29",
                 "file": "",
                 "notes": [
                     "JQL Added",
@@ -5091,7 +5091,7 @@
             {
                 "version": "1",
                 "semver": "1.1.95",
-                "date": "2022.02.28 10:29",
+                "date": "2022.02.28 07:29",
                 "file": "",
                 "notes": [
                     "graphiql performance improvement",
@@ -5106,7 +5106,7 @@
             {
                 "version": "1",
                 "semver": "1.1.94",
-                "date": "2022.02.28 09:18",
+                "date": "2022.02.28 06:18",
                 "file": "",
                 "notes": [
                     "Reduced vulnerabilities"
@@ -5120,7 +5120,7 @@
             {
                 "version": "1",
                 "semver": "1.1.89",
-                "date": "2022.01.24 06:50",
+                "date": "2022.01.24 03:50",
                 "file": "",
                 "notes": [
                     "Initial Sync Data added",
@@ -5138,7 +5138,7 @@
             {
                 "version": "1",
                 "semver": "1.0.83",
-                "date": "2021.12.03 06:31",
+                "date": "2021.12.03 03:31",
                 "file": "",
                 "notes": [
                     "UAK Changes"
@@ -5152,7 +5152,7 @@
             {
                 "version": "1",
                 "semver": "1.0.80",
-                "date": "2021.10.27 13:42",
+                "date": "2021.10.27 10:42",
                 "file": "",
                 "notes": [
                     "epic support"
@@ -5166,7 +5166,7 @@
             {
                 "version": "1",
                 "semver": "1.0.74",
-                "date": "2021.09.29 05:50",
+                "date": "2021.09.29 02:50",
                 "file": "",
                 "notes": [
                     "epic support"
@@ -5180,7 +5180,7 @@
             {
                 "version": "1",
                 "semver": "1.0.65",
-                "date": "2021.08.19 12:31",
+                "date": "2021.08.19 09:31",
                 "file": "",
                 "notes": [
                     "Bug fix: UAK support for older versions"
@@ -5194,7 +5194,7 @@
             {
                 "version": "1",
                 "semver": "1.0.64",
-                "date": "2021.08.11 06:53",
+                "date": "2021.08.11 03:53",
                 "file": "",
                 "notes": [
                     "Auto-generated User Access Key support added",
@@ -5209,7 +5209,7 @@
             {
                 "version": "1",
                 "semver": "1.0.52",
-                "date": "2021.07.06 08:13",
+                "date": "2021.07.06 05:13",
                 "file": "",
                 "notes": [
                     "remove basePath in Jira client"
@@ -5223,7 +5223,7 @@
             {
                 "version": "1",
                 "semver": "1.0.51",
-                "date": "2021.06.11 14:04",
+                "date": "2021.06.11 11:04",
                 "file": "",
                 "notes": [
                     "Removed the display of auth token in error logs"
@@ -5237,7 +5237,7 @@
             {
                 "version": "1",
                 "semver": "1.0.50",
-                "date": "2021.05.28 05:44",
+                "date": "2021.05.28 02:44",
                 "file": "",
                 "notes": [
                     "Jira rate limit issue fix"
@@ -5251,7 +5251,7 @@
             {
                 "version": "1",
                 "semver": "1.0.49",
-                "date": "2021.05.03 13:33",
+                "date": "2021.05.03 10:33",
                 "file": "",
                 "notes": [
                     "Removed IBM related keywords"
@@ -5265,7 +5265,7 @@
             {
                 "version": "1",
                 "semver": "1.0.39",
-                "date": "2020.09.21 12:11",
+                "date": "2020.09.21 09:11",
                 "file": "",
                 "notes": [
                     "Bug fix"
@@ -5279,7 +5279,7 @@
             {
                 "version": "1",
                 "semver": "1.0.38",
-                "date": "2020.08.06 13:04",
+                "date": "2020.08.06 10:04",
                 "file": "",
                 "notes": [
                     "Default value is set to some of the mandatory fields"
@@ -5293,7 +5293,7 @@
             {
                 "version": "1",
                 "semver": "1.0.36",
-                "date": "2020.05.11 13:39",
+                "date": "2020.05.11 10:39",
                 "file": "",
                 "notes": [
                     "Added Proxy support"
@@ -5307,7 +5307,7 @@
             {
                 "version": "1",
                 "semver": "1.0.35",
-                "date": "2020.03.02 18:52",
+                "date": "2020.03.02 15:52",
                 "file": "",
                 "notes": [
                     "Routine plugin fixes."
@@ -5321,7 +5321,7 @@
             {
                 "version": "1",
                 "semver": "1.0.34",
-                "date": "2020.01.21 21:47",
+                "date": "2020.01.21 18:47",
                 "file": "",
                 "notes": [
                     "Bug fixes and api updates"
@@ -5335,7 +5335,7 @@
             {
                 "version": "1",
                 "semver": "1.0.32",
-                "date": "2020.01.16 16:08",
+                "date": "2020.01.16 13:08",
                 "file": "",
                 "notes": [
                     "Configure logger in wrapper."
@@ -5349,7 +5349,7 @@
             {
                 "version": "1",
                 "semver": "1.0.31",
-                "date": "2020.01.10 22:18",
+                "date": "2020.01.10 19:18",
                 "file": "",
                 "notes": [
                     "Fixed sycing all issues with multiple projects."
@@ -5363,7 +5363,7 @@
             {
                 "version": "1",
                 "semver": "1.0.29",
-                "date": "2019.12.19 15:05",
+                "date": "2019.12.19 12:05",
                 "file": "",
                 "notes": [
                     "Added sprints and story points."
@@ -5377,7 +5377,7 @@
             {
                 "version": "1",
                 "semver": "1.0.27",
-                "date": "2019.11.26 17:49",
+                "date": "2019.11.26 14:49",
                 "file": "",
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
@@ -5391,7 +5391,7 @@
             {
                 "version": "0",
                 "semver": "0.0.25",
-                "date": "2019.10.17 18:41",
+                "date": "2019.10.17 15:41",
                 "file": "",
                 "notes": [
                     "Wrap every Jira request and insert User-Agent header."
@@ -5405,7 +5405,7 @@
             {
                 "version": "0",
                 "semver": "0.0.24",
-                "date": "2019.08.16 15:57",
+                "date": "2019.08.16 12:57",
                 "file": "",
                 "notes": [
                     "Provide null check on fromString and toString."
@@ -5419,7 +5419,7 @@
             {
                 "version": "0",
                 "semver": "0.0.23",
-                "date": "2019.08.08 16:03",
+                "date": "2019.08.08 13:03",
                 "file": "",
                 "notes": [
                     "Fixes encryption key deletion bug"
@@ -5433,7 +5433,7 @@
             {
                 "version": "0",
                 "semver": "0.0.22",
-                "date": "2019.08.07 17:29",
+                "date": "2019.08.07 14:29",
                 "file": "",
                 "notes": [
                     "Fix memory leak."
@@ -5447,7 +5447,7 @@
             {
                 "version": "0",
                 "semver": "0.0.19",
-                "date": "2019.07.09 20:32",
+                "date": "2019.07.09 17:32",
                 "file": "",
                 "notes": [
                     "revert readme updates"
@@ -5461,7 +5461,7 @@
             {
                 "version": "0",
                 "semver": "0.0.17",
-                "date": "2019.06.03 00:00",
+                "date": "2019.06.02 21:00",
                 "file": "",
                 "notes": [
                     "Properly throw errors on failures."
@@ -5494,7 +5494,7 @@
             {
                 "version": "1",
                 "semver": "1.0.1",
-                "date": "2023.12.19 01:36",
+                "date": "2023.12.18 22:36",
                 "file": "",
                 "notes": [
                     "Sync incidents."
@@ -5527,7 +5527,7 @@
             {
                 "version": "1",
                 "semver": "1.0.1",
-                "date": "2022.04.05 18:18",
+                "date": "2022.04.05 15:18",
                 "file": "",
                 "notes": [
                     "Retrieves Leankit Cards details",
@@ -5561,7 +5561,7 @@
             {
                 "version": "2",
                 "semver": "2.0.1",
-                "date": "2024.07.10 08:22",
+                "date": "2024.07.10 05:22",
                 "file": "",
                 "notes": [
                     "Introduced simulation-based prediction of team velocities for more realistic scenarios.",
@@ -5579,7 +5579,7 @@
             {
                 "version": "1",
                 "semver": "1.0.5",
-                "date": "2024.02.21 10:27",
+                "date": "2024.02.21 07:27",
                 "file": "",
                 "notes": [
                     "<b>Bug Fix</b>: Addressed bugs related to empty training datasets and empty prediction datasets."
@@ -5593,7 +5593,7 @@
             {
                 "version": "1",
                 "semver": "1.0.4",
-                "date": "2024.01.31 10:14",
+                "date": "2024.01.31 07:14",
                 "file": "",
                 "notes": [
                     "<b>Bug fix</b>: Fix related to error logs getting while performing integration - INTERNAL SERVER ERROR"
@@ -5607,7 +5607,7 @@
             {
                 "version": "1",
                 "semver": "1.0.3",
-                "date": "2023.12.12 11:04",
+                "date": "2023.12.12 08:04",
                 "file": "",
                 "notes": [
                     "<b>Bug fix</b>: Updated graphiql query PaginationInput to InsightsPaginationInput"
@@ -5621,7 +5621,7 @@
             {
                 "version": "1",
                 "semver": "1.0.1",
-                "date": "2023.12.05 09:35",
+                "date": "2023.12.05 06:35",
                 "file": "",
                 "notes": [
                     "Initial release for Milestone Risk Estimator plugin"
@@ -5654,7 +5654,7 @@
             {
                 "version": "1",
                 "semver": "1.0.27",
-                "date": "2024.04.09 09:34",
+                "date": "2024.04.09 06:34",
                 "file": "",
                 "notes": [
                     "<b>Rebranding</b>: Name of the plugin is changed from HCL OneTest Server to HCL DevOps Test Server."
@@ -5668,7 +5668,7 @@
             {
                 "version": "1",
                 "semver": "1.0.26",
-                "date": "2023.07.21 07:14",
+                "date": "2023.07.21 04:14",
                 "file": "",
                 "notes": [
                     "<b>Minor bug fix:</b>Fixed bug related to test results URL generated in plugin."
@@ -5682,7 +5682,7 @@
             {
                 "version": "1",
                 "semver": "1.0.17",
-                "date": "2022.11.08 09:19",
+                "date": "2022.11.08 06:19",
                 "file": "",
                 "notes": [
                     "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
@@ -5699,7 +5699,7 @@
             {
                 "version": "1",
                 "semver": "1.0.15",
-                "date": "2022.02.09 06:11",
+                "date": "2022.02.09 03:11",
                 "file": "",
                 "notes": [
                     "User Access Key Related Changes"
@@ -5713,7 +5713,7 @@
             {
                 "version": "1",
                 "semver": "1.0.11",
-                "date": "2021.09.29 05:56",
+                "date": "2021.09.29 02:56",
                 "file": "",
                 "notes": [
                     "changes for gating"
@@ -5727,7 +5727,7 @@
             {
                 "version": "1",
                 "semver": "1.0.2",
-                "date": "2020.11.13 09:56",
+                "date": "2020.11.13 06:56",
                 "file": "",
                 "notes": [
                     "Upgrade from beta version"
@@ -5741,7 +5741,7 @@
             {
                 "version": "0",
                 "semver": "0.0.9",
-                "date": "2020.09.03 08:04",
+                "date": "2020.09.03 05:04",
                 "file": "",
                 "notes": [
                     "Integration id passed along with metrics"
@@ -5755,7 +5755,7 @@
             {
                 "version": "0",
                 "semver": "0.0.8",
-                "date": "2020.02.18 21:08",
+                "date": "2020.02.18 18:08",
                 "file": "",
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
@@ -5769,7 +5769,7 @@
             {
                 "version": "0",
                 "semver": "0.0.7",
-                "date": "2020.01.16 16:30",
+                "date": "2020.01.16 13:30",
                 "file": "",
                 "notes": [
                     "Configure logger in wrapper."
@@ -5783,7 +5783,7 @@
             {
                 "version": "0",
                 "semver": "0.0.5",
-                "date": "2019.11.26 18:23",
+                "date": "2019.11.26 15:23",
                 "file": "",
                 "notes": [
                     "Fixed test results to always return latest only."
@@ -5797,7 +5797,7 @@
             {
                 "version": "0",
                 "semver": "0.0.4",
-                "date": "2019.10.25 18:39",
+                "date": "2019.10.25 15:39",
                 "file": "",
                 "notes": [
                     "Initial plugin version."
@@ -5830,7 +5830,7 @@
             {
                 "version": "1",
                 "semver": "1.0.43",
-                "date": "2022.12.27 06:56",
+                "date": "2022.12.27 03:56",
                 "file": "",
                 "notes": [
                     "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
@@ -5847,7 +5847,7 @@
             {
                 "version": "1",
                 "semver": "1.0.41",
-                "date": "2022.08.12 06:00",
+                "date": "2022.08.12 03:00",
                 "file": "",
                 "notes": [
                     "Clarifying delimitation problem for properties used"
@@ -5861,7 +5861,7 @@
             {
                 "version": "1",
                 "semver": "1.0.39",
-                "date": "2022.06.07 09:16",
+                "date": "2022.06.07 06:16",
                 "file": "",
                 "notes": [
                     "Reduced whitesource vulnerabilities"
@@ -5875,7 +5875,7 @@
             {
                 "version": "1",
                 "semver": "1.0.34",
-                "date": "2022.03.01 12:26",
+                "date": "2022.03.01 09:26",
                 "file": "",
                 "notes": [
                     "User Access Key Related Changes"
@@ -5889,7 +5889,7 @@
             {
                 "version": "1",
                 "semver": "1.0.30",
-                "date": "2022.02.23 13:53",
+                "date": "2022.02.23 10:53",
                 "file": "",
                 "notes": [
                     "User Access Key Related Changes"
@@ -5903,7 +5903,7 @@
             {
                 "version": "1",
                 "semver": "1.0.25",
-                "date": "2021.05.05 05:17",
+                "date": "2021.05.05 02:17",
                 "file": "",
                 "notes": [
                     "Removed IBM related keywords"
@@ -5917,7 +5917,7 @@
             {
                 "version": "1",
                 "semver": "1.0.17",
-                "date": "2021.02.15 08:36",
+                "date": "2021.02.15 05:36",
                 "file": "",
                 "notes": [
                     "Added Proxy support to Rally plugin"
@@ -5931,7 +5931,7 @@
             {
                 "version": "1",
                 "semver": "1.0.16",
-                "date": "2020.09.02 07:53",
+                "date": "2020.09.02 04:53",
                 "file": "",
                 "notes": [
                     "Sprint history changes"
@@ -5945,7 +5945,7 @@
             {
                 "version": "1",
                 "semver": "1.0.14",
-                "date": "2020.02.18 20:42",
+                "date": "2020.02.18 17:42",
                 "file": "",
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
@@ -5959,7 +5959,7 @@
             {
                 "version": "1",
                 "semver": "1.0.13",
-                "date": "2020.01.16 16:12",
+                "date": "2020.01.16 13:12",
                 "file": "",
                 "notes": [
                     "Configure logger in wrapper."
@@ -5973,7 +5973,7 @@
             {
                 "version": "1",
                 "semver": "1.0.12",
-                "date": "2019.12.19 15:08",
+                "date": "2019.12.19 12:08",
                 "file": "",
                 "notes": [
                     "Added sprints and story points."
@@ -5987,7 +5987,7 @@
             {
                 "version": "1",
                 "semver": "1.0.11",
-                "date": "2019.11.26 18:06",
+                "date": "2019.11.26 15:06",
                 "file": "",
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
@@ -6001,7 +6001,7 @@
             {
                 "version": "0",
                 "semver": "0.0.7",
-                "date": "2019.08.16 15:35",
+                "date": "2019.08.16 12:35",
                 "file": "",
                 "notes": [
                     "Ignore updates that do not provide a FROM or TO value."
@@ -6015,7 +6015,7 @@
             {
                 "version": "0",
                 "semver": "0.0.6",
-                "date": "2019.08.08 16:06",
+                "date": "2019.08.08 13:06",
                 "file": "",
                 "notes": [
                     "Fixes encryption key deletion bug"
@@ -6029,7 +6029,7 @@
             {
                 "version": "0",
                 "semver": "0.0.4",
-                "date": "2019.07.09 20:38",
+                "date": "2019.07.09 17:38",
                 "file": "",
                 "notes": [
                     "Static Velocity API Client."
@@ -6043,7 +6043,7 @@
             {
                 "version": "0",
                 "semver": "0.0.3",
-                "date": "2019.06.14 00:00",
+                "date": "2019.06.13 21:00",
                 "file": "",
                 "notes": [
                     "Initial release of Rally plugin."
@@ -6076,7 +6076,7 @@
             {
                 "version": "1",
                 "semver": "1.0.34",
-                "date": "2023.07.21 09:20",
+                "date": "2023.07.21 06:20",
                 "file": "",
                 "notes": [
                     "<b>Minor bug fix:</b>Fixed bug related to test results URL generated in plugin.",
@@ -6092,7 +6092,7 @@
             {
                 "version": "1",
                 "semver": "1.0.22",
-                "date": "2022.01.28 08:52",
+                "date": "2022.01.28 05:52",
                 "file": "",
                 "notes": [
                     "User Access Key Related Changes"
@@ -6106,7 +6106,7 @@
             {
                 "version": "1",
                 "semver": "1.0.6",
-                "date": "2020.09.03 07:50",
+                "date": "2020.09.03 04:50",
                 "file": "",
                 "notes": [
                     "Integration id passed along with metrics"
@@ -6120,7 +6120,7 @@
             {
                 "version": "1",
                 "semver": "1.0.5",
-                "date": "2020.02.18 21:14",
+                "date": "2020.02.18 18:14",
                 "file": "",
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
@@ -6134,7 +6134,7 @@
             {
                 "version": "1",
                 "semver": "1.0.4",
-                "date": "2020.01.16 16:26",
+                "date": "2020.01.16 13:26",
                 "file": "",
                 "notes": [
                     "Configure logger in wrapper."
@@ -6148,7 +6148,7 @@
             {
                 "version": "1",
                 "semver": "1.0.3",
-                "date": "2019.12.02 16:42",
+                "date": "2019.12.02 13:42",
                 "file": "",
                 "notes": [
                     "Initial plugin release."
@@ -6181,7 +6181,7 @@
             {
                 "version": "1",
                 "semver": "1.0.1",
-                "date": "2022.09.01 11:16",
+                "date": "2022.09.01 08:16",
                 "file": "",
                 "notes": [
                     "Initial release syncs SAP Normal changes with Jira issues"
@@ -6214,7 +6214,7 @@
             {
                 "version": "1",
                 "semver": "1.1.7",
-                "date": "2024.07.11 13:41",
+                "date": "2024.07.11 10:41",
                 "file": "",
                 "notes": [],
                 "supports": "5.0.2",
@@ -6226,7 +6226,7 @@
             {
                 "version": "1",
                 "semver": "1.1.6",
-                "date": "2024.07.09 09:31",
+                "date": "2024.07.09 06:31",
                 "file": "",
                 "notes": [
                     "We have added a new field for Resource Types and Sys_params, which will synchronize events based on the provided sys_params.",
@@ -6241,7 +6241,7 @@
             {
                 "version": "1",
                 "semver": "1.1.5",
-                "date": "2024.05.29 12:19",
+                "date": "2024.05.29 09:19",
                 "file": "",
                 "notes": [
                     "<b>Bug fix</b>: Removed drop down feature in update change request and change task and wait changes automation task which was implemented to select change request number as it was uploading more data to integration details. Now user can enter change request number manually.",
@@ -6256,7 +6256,7 @@
             {
                 "version": "1",
                 "semver": "1.1.4",
-                "date": "2024.04.16 11:10",
+                "date": "2024.04.16 08:10",
                 "file": "",
                 "notes": [
                     "<b>Add initial sync</b>: Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync.",
@@ -6273,7 +6273,7 @@
             {
                 "version": "1",
                 "semver": "1.1.3",
-                "date": "2024.02.27 10:52",
+                "date": "2024.02.27 07:52",
                 "file": "",
                 "notes": [
                     "<b>Minor bug fix:</b> Earlier plugin was unable to resync when incident is resolved"
@@ -6287,7 +6287,7 @@
             {
                 "version": "1",
                 "semver": "1.1.2",
-                "date": "2024.02.02 11:11",
+                "date": "2024.02.02 08:11",
                 "file": "",
                 "notes": [
                     "<b>Bug fix:</b> The previous version was failing to upload issues of large size.",
@@ -6304,7 +6304,7 @@
             {
                 "version": "1",
                 "semver": "1.1.1",
-                "date": "2023.12.18 17:12",
+                "date": "2023.12.18 14:12",
                 "file": "",
                 "notes": [
                     "Import incidents",
@@ -6319,7 +6319,7 @@
             {
                 "version": "1",
                 "semver": "1.0.42",
-                "date": "2023.07.13 12:14",
+                "date": "2023.07.13 09:14",
                 "file": "",
                 "notes": [
                     "<b>Minor bug fix</b>: Fixed bug related to proxy server change and related to automation task execution."
@@ -6333,7 +6333,7 @@
             {
                 "version": "1",
                 "semver": "1.0.36",
-                "date": "2022.08.26 08:47",
+                "date": "2022.08.26 05:47",
                 "file": "",
                 "notes": [
                     "Manual UAK removal and preventing install on previous version"
@@ -6347,7 +6347,7 @@
             {
                 "version": "1",
                 "semver": "1.0.27",
-                "date": "2021.08.19 05:29",
+                "date": "2021.08.19 02:29",
                 "file": "",
                 "notes": [
                     "Adding Automation Functionality"
@@ -6361,7 +6361,7 @@
             {
                 "version": "1",
                 "semver": "1.0.25",
-                "date": "2021.06.01 07:01",
+                "date": "2021.06.01 04:01",
                 "file": "",
                 "notes": [
                     "Removed IBM related keywords"
@@ -6375,7 +6375,7 @@
             {
                 "version": "1",
                 "semver": "1.0.14",
-                "date": "2020.12.21 07:30",
+                "date": "2020.12.21 04:30",
                 "file": "",
                 "notes": [
                     "Added proxy support"
@@ -6389,7 +6389,7 @@
             {
                 "version": "1",
                 "semver": "1.0.13",
-                "date": "2020.12.02 07:35",
+                "date": "2020.12.02 04:35",
                 "file": "",
                 "notes": [
                     "Problems priority bug fix"
@@ -6403,7 +6403,7 @@
             {
                 "version": "1",
                 "semver": "1.0.12",
-                "date": "2020.09.29 07:16",
+                "date": "2020.09.29 04:16",
                 "file": "",
                 "notes": [
                     "Pull problems from SNOW"
@@ -6417,7 +6417,7 @@
             {
                 "version": "1",
                 "semver": "1.0.9",
-                "date": "2020.05.11 13:41",
+                "date": "2020.05.11 10:41",
                 "file": "",
                 "notes": [
                     "Added support for access token"
@@ -6431,7 +6431,7 @@
             {
                 "version": "1",
                 "semver": "1.0.8",
-                "date": "2020.02.18 21:03",
+                "date": "2020.02.18 18:03",
                 "file": "",
                 "notes": [
                     "Updated to ucv-ext-npm-wrapper 1.0.41."
@@ -6445,7 +6445,7 @@
             {
                 "version": "1",
                 "semver": "1.0.7",
-                "date": "2020.01.16 16:19",
+                "date": "2020.01.16 13:19",
                 "file": "",
                 "notes": [
                     "Configure logger in wrapper."
@@ -6459,7 +6459,7 @@
             {
                 "version": "1",
                 "semver": "1.0.6",
-                "date": "2019.11.26 18:20",
+                "date": "2019.11.26 15:20",
                 "file": "",
                 "notes": [
                     "Update plugin version from 0.x.x to 1.x.x."
@@ -6473,7 +6473,7 @@
             {
                 "version": "0",
                 "semver": "0.0.4",
-                "date": "2019.10.07 21:50",
+                "date": "2019.10.07 18:50",
                 "file": "",
                 "notes": [
                     "Initial Release"
@@ -6506,7 +6506,7 @@
             {
                 "version": "0",
                 "semver": "0.0.34",
-                "date": "2024.04.04 11:53",
+                "date": "2024.04.04 08:53",
                 "file": "",
                 "notes": [
                     "<b>Minor enhancement in code</b>: Enabled to throw error logs while executing shell automation task."
@@ -6520,7 +6520,7 @@
             {
                 "version": "0",
                 "semver": "0.0.31",
-                "date": "2022.05.06 08:40",
+                "date": "2022.05.06 05:40",
                 "file": "",
                 "notes": [
                     "Reduced Vulnerabilities"
@@ -6534,7 +6534,7 @@
             {
                 "version": "0",
                 "semver": "0.0.7",
-                "date": "2020.08.21 20:16",
+                "date": "2020.08.21 17:16",
                 "file": "",
                 "notes": [
                     "Initial release."
@@ -6567,7 +6567,7 @@
             {
                 "version": "1",
                 "semver": "1.0.1",
-                "date": "2022.04.29 06:39",
+                "date": "2022.04.29 03:39",
                 "file": "",
                 "notes": [
                     "Imports Snyk vulnerability data",
@@ -6602,7 +6602,7 @@
             {
                 "version": "4",
                 "semver": "4.0.9",
-                "date": "2024.07.15 12:06",
+                "date": "2024.07.15 09:06",
                 "file": "",
                 "notes": [
                     "Releasing again for prev version changes"
@@ -6616,7 +6616,7 @@
             {
                 "version": "4",
                 "semver": "4.0.8",
-                "date": "2024.07.15 08:14",
+                "date": "2024.07.15 05:14",
                 "file": "",
                 "notes": [
                     "Releasing again for prev version changes"
@@ -6630,7 +6630,7 @@
             {
                 "version": "4",
                 "semver": "4.0.7",
-                "date": "2024.07.12 14:39",
+                "date": "2024.07.12 11:39",
                 "file": "",
                 "notes": [
                     "In this version automation task execution mechanism got modified. Previously we used to do completion of task during sync event. Now during execution of automation task, completion of task happens. It is helpful for giving exact user to the devops velocity and makes the execution faster. <b>Build Polling Timeout</b> as a new parameter is added in the plugin which indicates <b>Length of time (in minutes) to wait for build to complete if task is set to wait</b>. User can customize the <b>Build Polling Timeout</b> as per the need. Along with that a property which is a wait property is added. During the addition of task, wait property is in true state by default. It indicates plugin will wait for build to complete. If it explicitly set to false, then plugin will not for build to complete."
@@ -6644,7 +6644,7 @@
             {
                 "version": "4",
                 "semver": "4.0.6",
-                "date": "2024.07.10 14:39",
+                "date": "2024.07.10 11:39",
                 "file": "",
                 "notes": [
                     "In this version, no need to add automatedTaskRunner manually to ucd server. It will ease of work for schedule deployment and auto promotion by reducing manual intervention."
@@ -6658,7 +6658,7 @@
             {
                 "version": "4",
                 "semver": "4.0.5",
-                "date": "2024.05.20 10:35",
+                "date": "2024.05.20 07:35",
                 "file": "",
                 "notes": [
                     "<b>Minor bug fix:</b> In previous version user who does not exist on UCD server were able to execute the task. Now User who exists on UCD Server and have sufficient permission is able to execute the task."
@@ -6672,7 +6672,7 @@
             {
                 "version": "4",
                 "semver": "4.0.4",
-                "date": "2024.04.10 09:04",
+                "date": "2024.04.10 06:04",
                 "file": "",
                 "notes": [
                     "<b>Rebranding</b>: Name of the plugin is changed from UrbanCode Deploy to IBM DevOps Deploy. "
@@ -6686,7 +6686,7 @@
             {
                 "version": "4",
                 "semver": "4.0.3",
-                "date": "2023.11.29 10:29",
+                "date": "2023.11.29 07:29",
                 "file": "",
                 "notes": [
                     "Started uploading statuses to Snapshot and Component versions"
@@ -6700,7 +6700,7 @@
             {
                 "version": "4",
                 "semver": "4.0.2",
-                "date": "2023.09.18 11:02",
+                "date": "2023.09.18 08:02",
                 "file": "",
                 "notes": [
                     "Using version properties for mapping build.url parameter"
@@ -6714,7 +6714,7 @@
             {
                 "version": "3",
                 "semver": "3.4.6",
-                "date": "2023.06.09 12:02",
+                "date": "2023.06.09 09:02",
                 "file": "",
                 "notes": [
                     "Removed Version as mandatory for external UCD"
@@ -6728,7 +6728,7 @@
             {
                 "version": "3",
                 "semver": "3.4.5",
-                "date": "2023.04.10 12:28",
+                "date": "2023.04.10 09:28",
                 "file": "",
                 "notes": [
                     "<b>Bug Fix</b>: In previous version - plugin was not syncing more than 100 applications and it was resulting in Snapshot Upload failure.",
@@ -6745,7 +6745,7 @@
             {
                 "version": "3",
                 "semver": "3.3.56",
-                "date": "2023.02.21 09:59",
+                "date": "2023.02.21 06:59",
                 "file": "",
                 "notes": [
                     "<b>Removed UrbanCode Deploy Status Task</b>: Assign status task is removed and made part of main UrbanCode Deploy Task as post deployment success or failure step for assigning Snapshot or Component Version status."
@@ -6759,7 +6759,7 @@
             {
                 "version": "2",
                 "semver": "2.3.52",
-                "date": "2023.01.13 09:46",
+                "date": "2023.01.13 06:46",
                 "file": "",
                 "notes": [
                     "<b>Internal Server Error Fix</b>: The urbancode deploy plugin was giving internal server error while syncing the application processes from the UCD server."
@@ -6773,7 +6773,7 @@
             {
                 "version": "2",
                 "semver": "2.3.51",
-                "date": "2022.12.23 16:49",
+                "date": "2022.12.23 13:49",
                 "file": "",
                 "notes": [
                     "Major Enhancements"
@@ -6787,7 +6787,7 @@
             {
                 "version": "1",
                 "semver": "1.0.16",
-                "date": "2022.12.06 09:55",
+                "date": "2022.12.06 06:55",
                 "file": "",
                 "notes": [
                     "<b>Corrected incorrectly spelled plugin name</b>: In urbancode deploy plugin, display name was incorrectly spelled as Ubrancode deploy. Now corrected to Urbancode deploy."
@@ -6801,7 +6801,7 @@
             {
                 "version": "1",
                 "semver": "1.0.12",
-                "date": "2022.08.01 02:15",
+                "date": "2022.07.31 23:15",
                 "file": "",
                 "notes": [
                     "Importing failed application deployment history"
@@ -6815,7 +6815,7 @@
             {
                 "version": "1",
                 "semver": "1.0.11",
-                "date": "2022.07.25 07:43",
+                "date": "2022.07.25 04:43",
                 "file": "",
                 "notes": [
                     "Using Auto-generated User Access Key"
@@ -6829,7 +6829,7 @@
             {
                 "version": "1",
                 "semver": "1.0.10",
-                "date": "2022.07.24 22:26",
+                "date": "2022.07.24 19:26",
                 "file": "",
                 "notes": [
                     "Internal release related changes"
@@ -6862,7 +6862,7 @@
             {
                 "version": "1",
                 "semver": "1.0.11",
-                "date": "2020.05.22 14:01",
+                "date": "2020.05.22 11:01",
                 "file": "",
                 "notes": [
                     "Added support for teams, backlog group, portfolio"
@@ -6876,7 +6876,7 @@
             {
                 "version": "1",
                 "semver": "1.0.9",
-                "date": "2020.04.24 12:11",
+                "date": "2020.04.24 09:11",
                 "file": "",
                 "notes": [
                     "updated proxy fields to be hidden",
@@ -6891,7 +6891,7 @@
             {
                 "version": "1",
                 "semver": "1.0.7",
-                "date": "2020.04.14 13:22",
+                "date": "2020.04.14 10:22",
                 "file": "",
                 "notes": [
                     "Added proxy support"
@@ -6905,7 +6905,7 @@
             {
                 "version": "1",
                 "semver": "1.0.6",
-                "date": "2020.03.26 14:18",
+                "date": "2020.03.26 11:18",
                 "file": "",
                 "notes": [
                     "handling deleted workitems"
@@ -6919,7 +6919,7 @@
             {
                 "version": "1",
                 "semver": "1.0.3",
-                "date": "2020.03.09 20:27",
+                "date": "2020.03.09 17:27",
                 "file": "",
                 "notes": [
                     "Initial Release for VersionOne Plugin"
@@ -6952,7 +6952,7 @@
             {
                 "version": "2",
                 "semver": "2.0.15",
-                "date": "2022.03.29 06:29",
+                "date": "2022.03.29 03:29",
                 "file": "",
                 "notes": [
                     "Converted to scheduled event plugin",
@@ -6987,7 +6987,7 @@
             {
                 "version": "0",
                 "semver": "0.0.6",
-                "date": "2023.09.01 11:12",
+                "date": "2023.09.01 08:12",
                 "file": "",
                 "notes": [
                     "Started using timeSpan for Initial Sync date."
@@ -7001,7 +7001,7 @@
             {
                 "version": "0",
                 "semver": "0.0.5",
-                "date": "2023.06.02 07:49",
+                "date": "2023.06.02 04:49",
                 "file": "",
                 "notes": [
                     "Initial Release"
