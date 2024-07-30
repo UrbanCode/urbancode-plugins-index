@@ -1831,28 +1831,6 @@
             "NEW_FOLDER_NAME": "ucv-ext-github",
             "PLUGIN_FILES": [
                 {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
-                    "file": "ucv-ext-github:1.4.18.tar.7z.001",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "",
-                    "SORT_VERSION": ""
-                },
-                {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
-                    "file": "ucv-ext-github:1.4.18.tar.7z.002",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "",
-                    "SORT_VERSION": ""
-                },
-                {
                     "version": "1",
                     "semver": "1.0.40",
                     "date": "2020.11.11 04:30",
@@ -2151,6 +2129,34 @@
                     "description": "",
                     "SORT_VERSION": "000000010000000400000017",
                     "image": "urbancode/ucv-ext-github:1.4.17"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.4.18",
+                    "date": "2024.07.26 05:38",
+                    "file": "ucv-ext-github:1.4.18.tar.7z.001",
+                    "notes": [
+                        "Changes in the Github plugin to handle draft PR and use the new field in the DB. Have added <b>top-level field</b> for <b>draft</b> on pull requests in our GraphQL schema"
+                    ],
+                    "supports": "2.6.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000400000018",
+                    "image": "urbancode/ucv-ext-github:1.4.18"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.4.18",
+                    "date": "2024.07.26 05:38",
+                    "file": "ucv-ext-github:1.4.18.tar.7z.002",
+                    "notes": [
+                        "Changes in the Github plugin to handle draft PR and use the new field in the DB. Have added <b>top-level field</b> for <b>draft</b> on pull requests in our GraphQL schema"
+                    ],
+                    "supports": "2.6.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000400000018",
+                    "image": "urbancode/ucv-ext-github:1.4.18"
                 }
             ],
             "docFiles": [
