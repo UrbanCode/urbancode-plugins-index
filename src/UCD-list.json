@@ -24027,6 +24027,20 @@
                     "description": "",
                     "SORT_VERSION": "0000002601166855",
                     "type": ""
+                },
+                {
+                    "version": "27",
+                    "semver": "27.1169570",
+                    "date": "2024.08.06 09:22",
+                    "file": "ucd-appscan-27.1169570.zip",
+                    "notes": [
+                        "Fixed bug that doesn't allow the download report as PDF after appscan upgrade."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000002701169570",
+                    "type": ""
                 }
             ],
             "docFiles": [
@@ -26457,32 +26471,6 @@
                 {
                     "name": "Downloads",
                     "file_name": "downloads.md",
-                    "sub_documents": [],
-                    "folder_name": ""
-                }
-            ]
-        },
-        {
-            "name": "Gradle",
-            "docs_folder": "gradle",
-            "docsURL": "",
-            "plugin_folder": "",
-            "source_project": "",
-            "description": "Gradle is a tool for automating common build tasks including testing and deployment. This plug-in calls the gradle command line to run a build script with the provided options against the defined tasks. Agent system requirements Compatible Gradle version: Gradle 1.10",
-            "specification": {
-                "categories": [],
-                "type": "Community"
-            },
-            "author": {
-                "name": "",
-                "email": ""
-            },
-            "publish": false,
-            "NEW_FOLDER_NAME": "gradle",
-            "docFiles": [
-                {
-                    "name": "Readme",
-                    "file_name": "README.md",
                     "sub_documents": [],
                     "folder_name": ""
                 }

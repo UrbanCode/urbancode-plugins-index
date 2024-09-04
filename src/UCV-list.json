@@ -1583,6 +1583,80 @@
             ]
         },
         {
+            "name": "Cypress",
+            "docs_folder": "ucv-ext-cypress",
+            "docsURL": "",
+            "plugin_folder": "ucv-ext-cypress",
+            "source_project": "",
+            "description": "Cypress provides a testing framework for the Java programming language. The Cypress plug-in imports the test results data in DevOps Velocity metrics.",
+            "specification": {
+                "categories": [],
+                "type": ""
+            },
+            "author": {
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-cypress",
+            "PLUGIN_FILES": [
+                {
+                    "version": "1",
+                    "semver": "1.0.1",
+                    "date": "2024.08.14 15:50",
+                    "file": "ucv-ext-cypress:1.0.1.tar.7z.001",
+                    "notes": [
+                        "Implemented Parsing for Cypress XML and JSON formats"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000001",
+                    "image": "urbancode/ucv-ext-cypress:1.0.1"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.1",
+                    "date": "2024.08.14 15:50",
+                    "file": "ucv-ext-cypress:1.0.1.tar.7z.002",
+                    "notes": [
+                        "Implemented Parsing for Cypress XML and JSON formats"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000001",
+                    "image": "urbancode/ucv-ext-cypress:1.0.1"
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
+        },
+        {
             "name": "GitHub Dependabot",
             "docs_folder": "ucv-ext-dependabot",
             "docsURL": "",
@@ -1709,6 +1783,48 @@
                     "description": "",
                     "SORT_VERSION": "000000010000000100000027",
                     "image": "urbancode/ucv-ext-ewm:1.1.27"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.1.32",
+                    "date": "2024.08.14 05:47",
+                    "file": "ucv-ext-ewm:1.1.32.tar.7z.001",
+                    "notes": [
+                        "Fixed an issue where invalid date formats were causing errors in date processing due to a change in the EWM API date format."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000100000032",
+                    "image": "urbancode/ucv-ext-ewm:1.1.32"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.1.32",
+                    "date": "2024.08.14 05:47",
+                    "file": "ucv-ext-ewm:1.1.32.tar.7z.002",
+                    "notes": [
+                        "Fixed an issue where invalid date formats were causing errors in date processing due to a change in the EWM API date format."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000100000032",
+                    "image": "urbancode/ucv-ext-ewm:1.1.32"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.1.32",
+                    "date": "2024.08.14 05:47",
+                    "file": "ucv-ext-ewm:1.1.32.tar.7z.003",
+                    "notes": [
+                        "Fixed an issue where invalid date formats were causing errors in date processing due to a change in the EWM API date format."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000100000032",
+                    "image": "urbancode/ucv-ext-ewm:1.1.32"
                 }
             ],
             "docFiles": [
@@ -4328,6 +4444,108 @@
             ]
         },
         {
+            "name": "Njs-Unit",
+            "docs_folder": "ucv-ext-njs-unit",
+            "docsURL": "",
+            "plugin_folder": "ucv-ext-njs-unit",
+            "source_project": "",
+            "description": "You can visualize unit test results for given applications or value streams or teams in graphical format on the insight page.",
+            "specification": {
+                "categories": [],
+                "type": ""
+            },
+            "author": {
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-njs-unit",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0.2",
+                    "date": "2024.08.12 09:25",
+                    "file": "ucv-ext-njs-unit:0.0.2.tar.7z.001",
+                    "notes": [
+                        "Initial Release"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000000000000000000002",
+                    "image": "urbancode/ucv-ext-njs-unit:0.0.2"
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0.2",
+                    "date": "2024.08.12 09:25",
+                    "file": "ucv-ext-njs-unit:0.0.2.tar.7z.002",
+                    "notes": [
+                        "Initial Release"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000000000000000000002",
+                    "image": "urbancode/ucv-ext-njs-unit:0.0.2"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.4",
+                    "date": "2024.08.16 04:40",
+                    "file": "ucv-ext-njs-unit:1.0.4.tar.7z.001",
+                    "notes": [
+                        "Implemented XML/JSON parsing support for four different unit test frameworks: Mocha, Jest, Node-tap, and Tape."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000004",
+                    "image": "urbancode/ucv-ext-njs-unit:1.0.4"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.4",
+                    "date": "2024.08.16 04:40",
+                    "file": "ucv-ext-njs-unit:1.0.4.tar.7z.002",
+                    "notes": [
+                        "Implemented XML/JSON parsing support for four different unit test frameworks: Mocha, Jest, Node-tap, and Tape."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000004",
+                    "image": "urbancode/ucv-ext-njs-unit:1.0.4"
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
+        },
+        {
             "name": "HCL DevOps Test",
             "docs_folder": "ucv-ext-onetest",
             "docsURL": "",
@@ -4762,6 +4980,259 @@
                     "description": "",
                     "SORT_VERSION": "000000010000000000000043",
                     "image": "urbancode/ucv-ext-rally:1.0.43"
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
+        },
+        {
+            "name": "GenAi Summary Release - IBM",
+            "docs_folder": "ucv-ext-release-summary-ibm",
+            "docsURL": "",
+            "plugin_folder": "ucv-ext-release-summary-ibm",
+            "source_project": "",
+            "description": "",
+            "specification": {
+                "categories": [],
+                "type": ""
+            },
+            "author": {
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-release-summary-ibm",
+            "PLUGIN_FILES": [
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-release-summary-ibm:1.0.2.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-release-summary-ibm:1.0.2.tar.7z.002",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-release-summary-ibm:1.0.2.tar.7z.003",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-release-summary-ibm:1.0.2.tar.7z.004",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-release-summary-ibm:1.0.2.tar.7z.005",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-release-summary-ibm:1.0.2.tar.7z.006",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-release-summary-ibm:1.0.2.tar.7z.007",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": ""
+                }
+            ],
+            "docFiles": [
+                {
+                    "name": "Overview",
+                    "file_name": "overview.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Usage",
+                    "file_name": "usage.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Readme",
+                    "file_name": "README.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                },
+                {
+                    "name": "Downloads",
+                    "file_name": "downloads.md",
+                    "sub_documents": [],
+                    "folder_name": ""
+                }
+            ]
+        },
+        {
+            "name": "GenAi Summary Release - OpenAi",
+            "docs_folder": "ucv-ext-release-summary-openai",
+            "docsURL": "",
+            "plugin_folder": "ucv-ext-release-summary-openai",
+            "source_project": "",
+            "description": "",
+            "specification": {
+                "categories": [],
+                "type": ""
+            },
+            "author": {
+                "name": "",
+                "email": ""
+            },
+            "publish": true,
+            "NEW_FOLDER_NAME": "ucv-ext-release-summary-openai",
+            "PLUGIN_FILES": [
+                {
+                    "version": "1",
+                    "semver": "1.0.1",
+                    "date": "2024.08.13 10:40",
+                    "file": "ucv-ext-release-summary-openai:1.0.1.tar.7z.001",
+                    "notes": [
+                        "."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000001",
+                    "image": "urbancode/ucv-ext-release-summary-openai:1.0.1"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.1",
+                    "date": "2024.08.13 10:40",
+                    "file": "ucv-ext-release-summary-openai:1.0.1.tar.7z.002",
+                    "notes": [
+                        "."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000001",
+                    "image": "urbancode/ucv-ext-release-summary-openai:1.0.1"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.1",
+                    "date": "2024.08.13 10:40",
+                    "file": "ucv-ext-release-summary-openai:1.0.1.tar.7z.003",
+                    "notes": [
+                        "."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000001",
+                    "image": "urbancode/ucv-ext-release-summary-openai:1.0.1"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.1",
+                    "date": "2024.08.13 10:40",
+                    "file": "ucv-ext-release-summary-openai:1.0.1.tar.7z.004",
+                    "notes": [
+                        "."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000001",
+                    "image": "urbancode/ucv-ext-release-summary-openai:1.0.1"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.1",
+                    "date": "2024.08.13 10:40",
+                    "file": "ucv-ext-release-summary-openai:1.0.1.tar.7z.005",
+                    "notes": [
+                        "."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000001",
+                    "image": "urbancode/ucv-ext-release-summary-openai:1.0.1"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.1",
+                    "date": "2024.08.13 10:40",
+                    "file": "ucv-ext-release-summary-openai:1.0.1.tar.7z.006",
+                    "notes": [
+                        "."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000001",
+                    "image": "urbancode/ucv-ext-release-summary-openai:1.0.1"
                 }
             ],
             "docFiles": [
