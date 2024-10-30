@@ -323,9 +323,9 @@ def get_release_date(zf, filename, target_dir):
     release_date=""
     if (target_dir == ""):
         zipfileinfo=zf.getinfo(filename).date_time
-        release_date = datetime(*zipfileinfo)
+        release_date = datetime(*zipfileinfo, tzinfo=timezone.utc)
     else:
-        release_date=datetime.fromtimestamp(os.path.getmtime(f"{target_dir}/{filename}"))
+        release_date=datetime.fromtimestamp(os.path.getmtime(f"{target_dir}/{filename}"), tz=timezone.utc)
     logger1.info(f"release_date={release_date}")
     return release_date
 
