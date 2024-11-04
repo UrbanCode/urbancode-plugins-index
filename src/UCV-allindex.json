@@ -779,6 +779,20 @@
         "PLUGIN_FILES": [
             {
                 "version": "1",
+                "semver": "1.0.44",
+                "date": "2024.11.04 06:26",
+                "file": "",
+                "notes": [
+                    "fixed issue for Code Coverage plugin not supporting clover xml format"
+                ],
+                "supports": "",
+                "publish": "True",
+                "description": "",
+                "SORT_VERSION": "000000010000000000000044",
+                "image": "urbancode/ucv-ext-coverage-core:1.0.44"
+            },
+            {
+                "version": "1",
                 "semver": "1.0.42",
                 "date": "2024.05.09 09:33",
                 "file": "",
@@ -3245,6 +3259,39 @@
                 "description": "",
                 "SORT_VERSION": "000000010000000000000016",
                 "image": "urbancode/ucv-ext-circleci:1.0.16"
+            }
+        ]
+    },
+    {
+        "name": "DevOps Plan Plugin",
+        "docs_folder": "",
+        "docsURL": "",
+        "plugin_folder": "",
+        "source_project": "",
+        "description": "The DevOps Plan plug-in imports and synchronizes issues from an DevOps Plan server into an DevOps Velocity server.",
+        "specification": {
+            "categories": [],
+            "type": ""
+        },
+        "author": {
+            "name": "",
+            "email": ""
+        },
+        "publish": true,
+        "PLUGIN_FILES": [
+            {
+                "version": "1",
+                "semver": "1.1.55",
+                "date": "2024.10.23 03:44",
+                "file": "",
+                "notes": [
+                    "Initial Release of Plan Plugin"
+                ],
+                "supports": "2.5.0",
+                "publish": "True",
+                "description": "",
+                "SORT_VERSION": "000000010000000100000055",
+                "image": "urbancode/ucv-ext-compass:1.1.55"
             }
         ]
     },

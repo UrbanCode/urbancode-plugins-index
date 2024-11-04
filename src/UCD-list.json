@@ -17237,6 +17237,20 @@
                     "description": "UrbanCode Versioned File Storage client plugin for uploading and downloading artifacts.",
                     "SORT_VERSION": "0000004801170581",
                     "type": "scm"
+                },
+                {
+                    "version": "48",
+                    "semver": "48.1172096",
+                    "date": "2024.11.02 17:22",
+                    "file": "ucd-UrbancodeVFS-48.1172096.zip",
+                    "notes": [
+                        "Display server identity when downloading artifacts"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "UrbanCode Versioned File Storage client plugin for uploading and downloading artifacts.",
+                    "SORT_VERSION": "0000004801172096",
+                    "type": "scm"
                 }
             ],
             "docFiles": [
@@ -38771,6 +38785,25 @@
                     "publish": "True",
                     "description": "Developed by UrbanCode, for z/OS.",
                     "SORT_VERSION": "0000009301172017",
+                    "type": "Automation"
+                },
+                {
+                    "version": "93",
+                    "semver": "93.1172102",
+                    "date": "2024.11.04 05:14",
+                    "file": "ucd-zos-deploy-93.1172102.zip",
+                    "notes": [
+                        "Removed input to pass binder shared library path from Deploy datasets step",
+                        "            Added option to pass retain days in Remove All Versions and Remove Redundant Versions steps",
+                        "            Simplified log messages for Delete Dataset step",
+                        "            Recall DFHSMS migrated dataset during backup and deployment",
+                        "            Fixed UnsatisfiedLinkError error while running MVS Command with Java 17",
+                        "            Fixed IncompatibleClassChangeError"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "Developed by UrbanCode, for z/OS.",
+                    "SORT_VERSION": "0000009301172102",
                     "type": "Automation"
                 }
             ],

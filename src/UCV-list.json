@@ -1525,6 +1525,34 @@
                     "description": "",
                     "SORT_VERSION": "000000010000000000000042",
                     "image": "urbancode/ucv-ext-coverage-core:1.0.42"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.44",
+                    "date": "2024.11.04 06:26",
+                    "file": "ucv-ext-coverage-core:1.0.44.tar.7z.001",
+                    "notes": [
+                        "fixed issue for Code Coverage plugin not supporting clover xml format"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000044",
+                    "image": "urbancode/ucv-ext-coverage-core:1.0.44"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.44",
+                    "date": "2024.11.04 06:26",
+                    "file": "ucv-ext-coverage-core:1.0.44.tar.7z.002",
+                    "notes": [
+                        "fixed issue for Code Coverage plugin not supporting clover xml format"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000044",
+                    "image": "urbancode/ucv-ext-coverage-core:1.0.44"
                 }
             ],
             "docFiles": [
@@ -8164,26 +8192,32 @@
             "publish": false,
             "PLUGIN_FILES": [
                 {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
+                    "version": "1",
+                    "semver": "1.1.55",
+                    "date": "2024.10.23 03:44",
                     "file": "ucv-ext-compass:1.1.55.tar.7z.001",
-                    "notes": [],
-                    "supports": "",
+                    "notes": [
+                        "Initial Release of Plan Plugin"
+                    ],
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
-                    "SORT_VERSION": ""
+                    "SORT_VERSION": "000000010000000100000055",
+                    "image": "urbancode/ucv-ext-compass:1.1.55"
                 },
                 {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
+                    "version": "1",
+                    "semver": "1.1.55",
+                    "date": "2024.10.23 03:44",
                     "file": "ucv-ext-compass:1.1.55.tar.7z.002",
-                    "notes": [],
-                    "supports": "",
+                    "notes": [
+                        "Initial Release of Plan Plugin"
+                    ],
+                    "supports": "2.5.0",
                     "publish": "True",
                     "description": "",
-                    "SORT_VERSION": ""
+                    "SORT_VERSION": "000000010000000100000055",
+                    "image": "urbancode/ucv-ext-compass:1.1.55"
                 }
             ]
         },
