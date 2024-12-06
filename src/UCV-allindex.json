@@ -357,6 +357,20 @@
         "PLUGIN_FILES": [
             {
                 "version": "3",
+                "semver": "3.0.25",
+                "date": "2024.11.20 03:51",
+                "file": "",
+                "notes": [
+                    "Upgraded plugin to support ASOC API version from V2 to V4, as V2 API are deprecated by ASOC"
+                ],
+                "supports": "2.5.0",
+                "publish": "True",
+                "description": "",
+                "SORT_VERSION": "000000030000000000000025",
+                "image": "urbancode/ucv-ext-asoc:3.0.25"
+            },
+            {
+                "version": "3",
                 "semver": "3.0.19",
                 "date": "2023.03.10 13:35",
                 "file": "",
@@ -6493,6 +6507,20 @@
         },
         "publish": true,
         "PLUGIN_FILES": [
+            {
+                "version": "1",
+                "semver": "1.1.10",
+                "date": "2024.11.20 08:04",
+                "file": "",
+                "notes": [
+                    "All scheduled events have been combined into a single unified event, improving performance. This reduces redundancy and simplifies configuration for users"
+                ],
+                "supports": "5.0.2",
+                "publish": "True",
+                "description": "",
+                "SORT_VERSION": "000000010000000100000010",
+                "image": "urbancode/ucv-ext-servicenow:1.1.10"
+            },
             {
                 "version": "1",
                 "semver": "1.1.8",

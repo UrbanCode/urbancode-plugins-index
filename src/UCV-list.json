@@ -535,6 +535,34 @@
                     "description": "",
                     "SORT_VERSION": "000000030000000000000019",
                     "image": "urbancode/ucv-ext-asoc:3.0.19"
+                },
+                {
+                    "version": "3",
+                    "semver": "3.0.25",
+                    "date": "2024.11.20 03:51",
+                    "file": "ucv-ext-asoc:3.0.25.tar.7z.001",
+                    "notes": [
+                        "Upgraded plugin to support ASOC API version from V2 to V4, as V2 API are deprecated by ASOC"
+                    ],
+                    "supports": "2.5.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000030000000000000025",
+                    "image": "urbancode/ucv-ext-asoc:3.0.25"
+                },
+                {
+                    "version": "3",
+                    "semver": "3.0.25",
+                    "date": "2024.11.20 03:51",
+                    "file": "ucv-ext-asoc:3.0.25.tar.7z.002",
+                    "notes": [
+                        "Upgraded plugin to support ASOC API version from V2 to V4, as V2 API are deprecated by ASOC"
+                    ],
+                    "supports": "2.5.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000030000000000000025",
+                    "image": "urbancode/ucv-ext-asoc:3.0.25"
                 }
             ],
             "docFiles": [
@@ -5935,36 +5963,6 @@
                 },
                 {
                     "version": "1",
-                    "semver": "1.1.1",
-                    "date": "2023.12.18 16:12",
-                    "file": "ucv-ext-servicenow:1.1.1.tar.7z.001",
-                    "notes": [
-                        "Import incidents",
-                        "Add Incident creation automation task"
-                    ],
-                    "supports": "5.0.0",
-                    "publish": "True",
-                    "description": "",
-                    "SORT_VERSION": "000000010000000100000001",
-                    "image": "urbancode/ucv-ext-servicenow:1.1.1"
-                },
-                {
-                    "version": "1",
-                    "semver": "1.1.1",
-                    "date": "2023.12.18 16:12",
-                    "file": "ucv-ext-servicenow:1.1.1.tar.7z.002",
-                    "notes": [
-                        "Import incidents",
-                        "Add Incident creation automation task"
-                    ],
-                    "supports": "5.0.0",
-                    "publish": "True",
-                    "description": "",
-                    "SORT_VERSION": "000000010000000100000001",
-                    "image": "urbancode/ucv-ext-servicenow:1.1.1"
-                },
-                {
-                    "version": "1",
                     "semver": "1.1.2",
                     "date": "2024.02.02 10:11",
                     "file": "ucv-ext-servicenow:1.1.2.tar.7z.001",
@@ -6170,6 +6168,62 @@
                     "description": "",
                     "SORT_VERSION": "000000010000000100000008",
                     "image": "urbancode/ucv-ext-servicenow:1.1.8"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.1.10",
+                    "date": "2024.11.20 08:04",
+                    "file": "ucv-ext-servicenow:1.1.1.tar.7z.001",
+                    "notes": [
+                        "All scheduled events have been combined into a single unified event, improving performance. This reduces redundancy and simplifies configuration for users"
+                    ],
+                    "supports": "5.0.2",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000100000010",
+                    "image": "urbancode/ucv-ext-servicenow:1.1.10"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.1.10",
+                    "date": "2024.11.20 08:04",
+                    "file": "ucv-ext-servicenow:1.1.1.tar.7z.002",
+                    "notes": [
+                        "All scheduled events have been combined into a single unified event, improving performance. This reduces redundancy and simplifies configuration for users"
+                    ],
+                    "supports": "5.0.2",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000100000010",
+                    "image": "urbancode/ucv-ext-servicenow:1.1.10"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.1.10",
+                    "date": "2024.11.20 08:04",
+                    "file": "ucv-ext-servicenow:1.1.10.tar.7z.001",
+                    "notes": [
+                        "All scheduled events have been combined into a single unified event, improving performance. This reduces redundancy and simplifies configuration for users"
+                    ],
+                    "supports": "5.0.2",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000100000010",
+                    "image": "urbancode/ucv-ext-servicenow:1.1.10"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.1.10",
+                    "date": "2024.11.20 08:04",
+                    "file": "ucv-ext-servicenow:1.1.10.tar.7z.002",
+                    "notes": [
+                        "All scheduled events have been combined into a single unified event, improving performance. This reduces redundancy and simplifies configuration for users"
+                    ],
+                    "supports": "5.0.2",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000100000010",
+                    "image": "urbancode/ucv-ext-servicenow:1.1.10"
                 }
             ],
             "docFiles": [

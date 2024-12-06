@@ -38805,6 +38805,20 @@
                     "description": "Developed by UrbanCode, for z/OS.",
                     "SORT_VERSION": "0000009301172102",
                     "type": "Automation"
+                },
+                {
+                    "version": "94",
+                    "semver": "94.1172507",
+                    "date": "2024.11.20 10:25",
+                    "file": "ucd-zos-deploy-94.1172507.zip",
+                    "notes": [
+                        "Enable logging configurability"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "Developed by UrbanCode, for z/OS.",
+                    "SORT_VERSION": "0000009401172507",
+                    "type": "Automation"
                 }
             ],
             "docFiles": [
@@ -43528,6 +43542,39 @@
                     "semver": "0.0",
                     "date": "",
                     "file": "paac-1.0.1172045.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "paac-1.1.1172260.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "paac-1.1.1172283.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "paac-1.2.1172710.zip",
                     "notes": [],
                     "supports": "",
                     "publish": "True",
