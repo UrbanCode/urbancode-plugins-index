@@ -3227,6 +3227,28 @@
                     "SORT_VERSION": ""
                 },
                 {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jira:2.3.20.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-jira:2.3.20.tar.7z.002",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
                     "version": "1",
                     "semver": "1.0.39",
                     "date": "2020.09.21 10:11",
