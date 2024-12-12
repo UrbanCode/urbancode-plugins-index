@@ -1444,7 +1444,7 @@
                     "date": "2024.10.21 08:29",
                     "file": "ucv-ext-control:1.0.2.tar.7z.001",
                     "notes": [
-                        "Initial Release for Control Plugin"
+                        "Initial Release for DevOps Control Plugin"
                     ],
                     "supports": "",
                     "publish": "True",
@@ -1458,7 +1458,7 @@
                     "date": "2024.10.21 08:29",
                     "file": "ucv-ext-control:1.0.2.tar.7z.002",
                     "notes": [
-                        "Initial Release for Control Plugin"
+                        "Initial Release for DevOps Control Plugin"
                     ],
                     "supports": "",
                     "publish": "True",
@@ -2741,6 +2741,34 @@
                     "description": "",
                     "SORT_VERSION": "000000020000000200000068",
                     "image": "urbancode/ucv-ext-gitlab:2.2.68"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.2.69",
+                    "date": "2024.12.11 09:04",
+                    "file": "ucv-ext-gitlab:2.2.69.tar.7z.001",
+                    "notes": [
+                        "Bug fix: Fixed approvers/reviews data not present in the pullRequest data."
+                    ],
+                    "supports": "2.5.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000200000069",
+                    "image": "urbancode/ucv-ext-gitlab:2.2.69"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.2.69",
+                    "date": "2024.12.11 09:04",
+                    "file": "ucv-ext-gitlab:2.2.69.tar.7z.002",
+                    "notes": [
+                        "Bug fix: Fixed approvers/reviews data not present in the pullRequest data."
+                    ],
+                    "supports": "2.5.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000200000069",
+                    "image": "urbancode/ucv-ext-gitlab:2.2.69"
                 }
             ],
             "docFiles": [
@@ -3227,28 +3255,6 @@
                     "SORT_VERSION": ""
                 },
                 {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
-                    "file": "ucv-ext-jira:2.3.20.tar.7z.001",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "",
-                    "SORT_VERSION": ""
-                },
-                {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
-                    "file": "ucv-ext-jira:2.3.20.tar.7z.002",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "",
-                    "SORT_VERSION": ""
-                },
-                {
                     "version": "1",
                     "semver": "1.0.39",
                     "date": "2020.09.21 10:11",
@@ -3698,6 +3704,34 @@
                     "description": "",
                     "SORT_VERSION": "000000020000000300000017",
                     "image": "urbancode/ucv-ext-jira:2.3.17"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.3.20",
+                    "date": "2024.12.09 07:38",
+                    "file": "ucv-ext-jira:2.3.20.tar.7z.001",
+                    "notes": [
+                        "Bug Fix for Active Sprint Field Mapping for JIRA Cloud"
+                    ],
+                    "supports": "3.1.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000300000020",
+                    "image": "urbancode/ucv-ext-jira:2.3.20"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.3.20",
+                    "date": "2024.12.09 07:38",
+                    "file": "ucv-ext-jira:2.3.20.tar.7z.002",
+                    "notes": [
+                        "Bug Fix for Active Sprint Field Mapping for JIRA Cloud"
+                    ],
+                    "supports": "3.1.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000300000020",
+                    "image": "urbancode/ucv-ext-jira:2.3.20"
                 }
             ],
             "docFiles": [
