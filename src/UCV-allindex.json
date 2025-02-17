@@ -2214,6 +2214,20 @@
         "PLUGIN_FILES": [
             {
                 "version": "4",
+                "semver": "4.0.45",
+                "date": "2025.01.06 07:40",
+                "file": "",
+                "notes": [
+                    "Implemented context-less application, enhanced performance, and removed unnecessary VSM history for improved efficiency"
+                ],
+                "supports": "2.5.0",
+                "publish": "True",
+                "description": "",
+                "SORT_VERSION": "000000040000000000000045",
+                "image": "urbancode/ucv-ext-azure:4.0.45"
+            },
+            {
+                "version": "4",
                 "semver": "4.0.44",
                 "date": "2024.07.05 06:22",
                 "file": "",
@@ -3328,6 +3342,20 @@
         "PLUGIN_FILES": [
             {
                 "version": "1",
+                "semver": "1.0.4",
+                "date": "2024.12.23 05:51",
+                "file": "",
+                "notes": [
+                    "<b>Rebranding</b>: Name of the plugin is changed from Control to DevOps Control."
+                ],
+                "supports": "",
+                "publish": "True",
+                "description": "",
+                "SORT_VERSION": "000000010000000000000004",
+                "image": "urbancode/ucv-ext-control:1.0.4"
+            },
+            {
+                "version": "1",
                 "semver": "1.0.2",
                 "date": "2024.10.21 08:29",
                 "file": "",
@@ -3792,6 +3820,21 @@
         },
         "publish": true,
         "PLUGIN_FILES": [
+            {
+                "version": "1",
+                "semver": "1.5.1",
+                "date": "2024.12.19 08:31",
+                "file": "",
+                "notes": [
+                    "<b>Add description field to Pull Request</b>: Updated GitHub plugin to sync over PR description. In GitHubMapper function under mapGitPullRequests added description field (description: pr.bodyText).",
+                    "<b>Support version 5.0.11</b>: Our current version of GitHub Integration, only supports Velocity versions 5.0.11 and later."
+                ],
+                "supports": "5.0.11",
+                "publish": "True",
+                "description": "",
+                "SORT_VERSION": "000000010000000500000001",
+                "image": "urbancode/ucv-ext-github:1.5.1"
+            },
             {
                 "version": "1",
                 "semver": "1.4.19",
@@ -5117,6 +5160,34 @@
         },
         "publish": true,
         "PLUGIN_FILES": [
+            {
+                "version": "2",
+                "semver": "2.3.24",
+                "date": "2024.12.18 10:14",
+                "file": "",
+                "notes": [
+                    "<b>Fix for Custom Field Mapping field</b>: The update fixes a bug that prevented users from mapping custom field names for Epic Link, Sprint, and Story Points in Jira, ensuring custom names now work correctly. For instance, if the field on your issue in Jira for story points is called Story Point Estimate instead of Story Points, you had no way to import story points. The bug was that the custom mapping did not work and it always assumed the fields were as is (called Epic Link, Sprint, and Story Points) and you could not change this."
+                ],
+                "supports": "3.1.0",
+                "publish": "True",
+                "description": "",
+                "SORT_VERSION": "000000020000000300000024",
+                "image": "urbancode/ucv-ext-jira:2.3.24"
+            },
+            {
+                "version": "2",
+                "semver": "2.3.23",
+                "date": "2024.12.17 06:07",
+                "file": "",
+                "notes": [
+                    "<b>Fix for Custom Field Mapping field</b>: The update fixes a bug that prevented users from mapping custom field names for Epic Link, Sprint, and Story Points in Jira, ensuring custom names now work correctly. For instance, if the field on your issue in Jira for story points is called Story Point Estimate instead of Story Points, you had no way to import story points. The bug was that the custom mapping did not work and it always assumed the fields were as is (called Epic Link, Sprint, and Story Points) and you could not change this."
+                ],
+                "supports": "3.1.0",
+                "publish": "True",
+                "description": "",
+                "SORT_VERSION": "000000020000000300000023",
+                "image": "urbancode/ucv-ext-jira:2.3.23"
+            },
             {
                 "version": "2",
                 "semver": "2.3.20",

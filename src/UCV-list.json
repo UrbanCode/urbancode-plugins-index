@@ -852,6 +852,34 @@
                     "description": "",
                     "SORT_VERSION": "000000040000000000000044",
                     "image": "urbancode/ucv-ext-azure:4.0.44"
+                },
+                {
+                    "version": "4",
+                    "semver": "4.0.45",
+                    "date": "2025.01.06 07:40",
+                    "file": "ucv-ext-azure:4.0.45.tar.7z.001",
+                    "notes": [
+                        "Implemented context-less application, enhanced performance, and removed unnecessary VSM history for improved efficiency"
+                    ],
+                    "supports": "2.5.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000040000000000000045",
+                    "image": "urbancode/ucv-ext-azure:4.0.45"
+                },
+                {
+                    "version": "4",
+                    "semver": "4.0.45",
+                    "date": "2025.01.06 07:40",
+                    "file": "ucv-ext-azure:4.0.45.tar.7z.002",
+                    "notes": [
+                        "Implemented context-less application, enhanced performance, and removed unnecessary VSM history for improved efficiency"
+                    ],
+                    "supports": "2.5.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000040000000000000045",
+                    "image": "urbancode/ucv-ext-azure:4.0.45"
                 }
             ],
             "docFiles": [
@@ -878,6 +906,48 @@
                     "file_name": "downloads.md",
                     "sub_documents": [],
                     "folder_name": ""
+                },
+                {
+                    "name": "",
+                    "file_name": "App5.png",
+                    "sub_documents": [],
+                    "folder_name": "images"
+                },
+                {
+                    "name": "",
+                    "file_name": "App7.png",
+                    "sub_documents": [],
+                    "folder_name": "images"
+                },
+                {
+                    "name": "",
+                    "file_name": "App6.png",
+                    "sub_documents": [],
+                    "folder_name": "images"
+                },
+                {
+                    "name": "",
+                    "file_name": "App2.png",
+                    "sub_documents": [],
+                    "folder_name": "images"
+                },
+                {
+                    "name": "",
+                    "file_name": "App3.png",
+                    "sub_documents": [],
+                    "folder_name": "images"
+                },
+                {
+                    "name": "",
+                    "file_name": "App1.png",
+                    "sub_documents": [],
+                    "folder_name": "images"
+                },
+                {
+                    "name": "",
+                    "file_name": "buildtag.png",
+                    "sub_documents": [],
+                    "folder_name": "images"
                 }
             ]
         },
@@ -1421,12 +1491,12 @@
             ]
         },
         {
-            "name": "Control",
+            "name": "IBM DevOps Control",
             "docs_folder": "ucv-ext-control",
             "docsURL": "",
             "plugin_folder": "ucv-ext-control",
             "source_project": "",
-            "description": "Control is a Git repository hosting service. The Control plugin enables users to import Git artifacts by querying pull requests and commit, facilitating seamless integration and management of project resources.",
+            "description": "IBM DevOps Control is a Git repository hosting service. The IBM DevOps Control plug-in enables users to import Git artifacts by querying pull requests and commit, facilitating seamless integration and management of project resources.",
             "specification": {
                 "categories": [],
                 "type": ""
@@ -1465,6 +1535,34 @@
                     "description": "",
                     "SORT_VERSION": "000000010000000000000002",
                     "image": "urbancode/ucv-ext-control:1.0.2"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.4",
+                    "date": "2024.12.23 05:51",
+                    "file": "ucv-ext-control:1.0.4.tar.7z.001",
+                    "notes": [
+                        "<b>Rebranding</b>: Name of the plugin is changed from Control to DevOps Control."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000004",
+                    "image": "urbancode/ucv-ext-control:1.0.4"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.4",
+                    "date": "2024.12.23 05:51",
+                    "file": "ucv-ext-control:1.0.4.tar.7z.002",
+                    "notes": [
+                        "<b>Rebranding</b>: Name of the plugin is changed from Control to DevOps Control."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000004",
+                    "image": "urbancode/ucv-ext-control:1.0.4"
                 }
             ],
             "docFiles": [
@@ -2425,6 +2523,36 @@
                     "description": "",
                     "SORT_VERSION": "000000010000000400000019",
                     "image": "urbancode/ucv-ext-github:1.4.19"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.5.1",
+                    "date": "2024.12.19 08:31",
+                    "file": "ucv-ext-github:1.5.1.tar.7z.001",
+                    "notes": [
+                        "<b>Add description field to Pull Request</b>: Updated GitHub plugin to sync over PR description. In GitHubMapper function under mapGitPullRequests added description field (description: pr.bodyText).",
+                        "<b>Support version 5.0.11</b>: Our current version of GitHub Integration, only supports Velocity versions 5.0.11 and later."
+                    ],
+                    "supports": "5.0.11",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000500000001",
+                    "image": "urbancode/ucv-ext-github:1.5.1"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.5.1",
+                    "date": "2024.12.19 08:31",
+                    "file": "ucv-ext-github:1.5.1.tar.7z.002",
+                    "notes": [
+                        "<b>Add description field to Pull Request</b>: Updated GitHub plugin to sync over PR description. In GitHubMapper function under mapGitPullRequests added description field (description: pr.bodyText).",
+                        "<b>Support version 5.0.11</b>: Our current version of GitHub Integration, only supports Velocity versions 5.0.11 and later."
+                    ],
+                    "supports": "5.0.11",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000500000001",
+                    "image": "urbancode/ucv-ext-github:1.5.1"
                 }
             ],
             "docFiles": [
@@ -3732,6 +3860,62 @@
                     "description": "",
                     "SORT_VERSION": "000000020000000300000020",
                     "image": "urbancode/ucv-ext-jira:2.3.20"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.3.23",
+                    "date": "2024.12.17 06:07",
+                    "file": "ucv-ext-jira:2.3.23.tar.7z.001",
+                    "notes": [
+                        "<b>Fix for Custom Field Mapping field</b>: The update fixes a bug that prevented users from mapping custom field names for Epic Link, Sprint, and Story Points in Jira, ensuring custom names now work correctly. For instance, if the field on your issue in Jira for story points is called Story Point Estimate instead of Story Points, you had no way to import story points. The bug was that the custom mapping did not work and it always assumed the fields were as is (called Epic Link, Sprint, and Story Points) and you could not change this."
+                    ],
+                    "supports": "3.1.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000300000023",
+                    "image": "urbancode/ucv-ext-jira:2.3.23"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.3.23",
+                    "date": "2024.12.17 06:07",
+                    "file": "ucv-ext-jira:2.3.23.tar.7z.002",
+                    "notes": [
+                        "<b>Fix for Custom Field Mapping field</b>: The update fixes a bug that prevented users from mapping custom field names for Epic Link, Sprint, and Story Points in Jira, ensuring custom names now work correctly. For instance, if the field on your issue in Jira for story points is called Story Point Estimate instead of Story Points, you had no way to import story points. The bug was that the custom mapping did not work and it always assumed the fields were as is (called Epic Link, Sprint, and Story Points) and you could not change this."
+                    ],
+                    "supports": "3.1.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000300000023",
+                    "image": "urbancode/ucv-ext-jira:2.3.23"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.3.24",
+                    "date": "2024.12.18 10:14",
+                    "file": "ucv-ext-jira:2.3.24.tar.7z.001",
+                    "notes": [
+                        "<b>Fix for Custom Field Mapping field</b>: The update fixes a bug that prevented users from mapping custom field names for Epic Link, Sprint, and Story Points in Jira, ensuring custom names now work correctly. For instance, if the field on your issue in Jira for story points is called Story Point Estimate instead of Story Points, you had no way to import story points. The bug was that the custom mapping did not work and it always assumed the fields were as is (called Epic Link, Sprint, and Story Points) and you could not change this."
+                    ],
+                    "supports": "3.1.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000300000024",
+                    "image": "urbancode/ucv-ext-jira:2.3.24"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.3.24",
+                    "date": "2024.12.18 10:14",
+                    "file": "ucv-ext-jira:2.3.24.tar.7z.002",
+                    "notes": [
+                        "<b>Fix for Custom Field Mapping field</b>: The update fixes a bug that prevented users from mapping custom field names for Epic Link, Sprint, and Story Points in Jira, ensuring custom names now work correctly. For instance, if the field on your issue in Jira for story points is called Story Point Estimate instead of Story Points, you had no way to import story points. The bug was that the custom mapping did not work and it always assumed the fields were as is (called Epic Link, Sprint, and Story Points) and you could not change this."
+                    ],
+                    "supports": "3.1.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000300000024",
+                    "image": "urbancode/ucv-ext-jira:2.3.24"
                 }
             ],
             "docFiles": [
