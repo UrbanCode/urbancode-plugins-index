@@ -20206,6 +20206,20 @@
                     "description": "",
                     "SORT_VERSION": "0000002301154049",
                     "type": ""
+                },
+                {
+                    "version": "23",
+                    "semver": "23.1174431",
+                    "date": "2025.02.12 08:41",
+                    "file": "ucd-WebSphereLiberty-23.1174431.zip",
+                    "notes": [
+                        "Updated Jettison and log4j dependencies"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000002301174431",
+                    "type": ""
                 }
             ],
             "docFiles": [
@@ -23846,6 +23860,20 @@
                     "description": "",
                     "SORT_VERSION": "0000000801164159",
                     "type": ""
+                },
+                {
+                    "version": "8",
+                    "semver": "8.1171240",
+                    "date": "2024.09.20 16:18",
+                    "file": "ucd-apiconnect-8.1171240.zip",
+                    "notes": [
+                        "Updated plugin to only support API Connect 10.0.x."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000000801171240",
+                    "type": ""
                 }
             ],
             "docFiles": [
@@ -24229,6 +24257,34 @@
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000002701169570",
+                    "type": ""
+                },
+                {
+                    "version": "27",
+                    "semver": "27.1174441",
+                    "date": "2025.02.12 10:23",
+                    "file": "ucd-appscan-27.1174441 (1).zip",
+                    "notes": [
+                        "Fixed bug that doesn't allow the download report as PDF after appscan upgrade."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000002701174441",
+                    "type": ""
+                },
+                {
+                    "version": "27",
+                    "semver": "27.1174441",
+                    "date": "2025.02.12 10:23",
+                    "file": "ucd-appscan-27.1174441.zip",
+                    "notes": [
+                        "Fixed bug that doesn't allow the download report as PDF after appscan upgrade."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000002701174441",
                     "type": ""
                 }
             ],
@@ -24622,6 +24678,20 @@
                     "description": "",
                     "SORT_VERSION": "0000000200869045",
                     "type": ""
+                },
+                {
+                    "version": "2",
+                    "semver": "2.1174440",
+                    "date": "2025.02.12 10:18",
+                    "file": "ucd-bigfix-2.1174440.zip",
+                    "notes": [
+                        "Support property file encryption."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000000201174440",
+                    "type": ""
                 }
             ],
             "docFiles": [
@@ -24710,6 +24780,20 @@
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000201100942",
+                    "type": ""
+                },
+                {
+                    "version": "2",
+                    "semver": "2.1174433",
+                    "date": "2025.02.12 08:43",
+                    "file": "ucd-bluemix-autoscale-2.1174433.zip",
+                    "notes": [
+                        "Support property file encryption."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000000201174433",
                     "type": ""
                 }
             ],
@@ -27031,6 +27115,20 @@
                     "description": "",
                     "SORT_VERSION": "0000001301154087",
                     "type": ""
+                },
+                {
+                    "version": "13",
+                    "semver": "13.1174437",
+                    "date": "2025.02.12 08:50",
+                    "file": "ucd-plugins-ibm-ace-13.1174437.zip",
+                    "notes": [
+                        "Log4j and Jettison dependency updated."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000001301174437",
+                    "type": ""
                 }
             ],
             "docFiles": [
@@ -27736,6 +27834,20 @@
                     "description": "",
                     "SORT_VERSION": "0000001501149406",
                     "type": ""
+                },
+                {
+                    "version": "15",
+                    "semver": "15.1174432",
+                    "date": "2025.02.12 08:42",
+                    "file": "ucd-ibm-odm-15.1174432.zip",
+                    "notes": [
+                        "Fixed issue to support both oauth and basic auth"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000001501174432",
+                    "type": ""
                 }
             ],
             "docFiles": [
@@ -27973,6 +28085,20 @@
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000001401149407",
+                    "type": ""
+                },
+                {
+                    "version": "14",
+                    "semver": "14.1174438",
+                    "date": "2025.02.12 08:51",
+                    "file": "ucd-ibm-odm-source-config-14.1174438.zip",
+                    "notes": [
+                        "Fixed issue to support both oauth and basic auth"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000001401174438",
                     "type": ""
                 }
             ],
@@ -28661,6 +28787,20 @@
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000101003048",
+                    "type": ""
+                },
+                {
+                    "version": "1",
+                    "semver": "1.1174436",
+                    "date": "2025.02.12 08:47",
+                    "file": "ucd-plugins-infosphere-isd-1.1174436.zip",
+                    "notes": [
+                        "RFE 103489 - Initial release of InfoSphere Information Services Directory plug-in."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000000101174436",
                     "type": ""
                 }
             ],
@@ -39012,6 +39152,20 @@
                     "description": "Developed by UrbanCode, for z/OS.",
                     "SORT_VERSION": "0000009501174105",
                     "type": "Automation"
+                },
+                {
+                    "version": "96",
+                    "semver": "96.1174531",
+                    "date": "2025.02.18 06:31",
+                    "file": "ucd-zos-deploy-96.1174531.zip",
+                    "notes": [
+                        "Backup and Rollback use cp command instead of XMIT/RECEIVE for v2 format"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "Developed by UrbanCode, for z/OS.",
+                    "SORT_VERSION": "0000009601174531",
+                    "type": "Automation"
                 }
             ],
             "docFiles": [
@@ -40334,6 +40488,20 @@
                     "description": "The zOSMF plug-in performs deploy tasks by calling zOSMF",
                     "SORT_VERSION": "0000001501153789",
                     "type": "Automation"
+                },
+                {
+                    "version": "15",
+                    "semver": "15.1174435",
+                    "date": "2025.02.12 08:46",
+                    "file": "ucd-zosmf-15.1174435.zip",
+                    "notes": [
+                        "Fixed Groovy compilation issue on Groovy-3.0.11"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "The zOSMF plug-in performs deploy tasks by calling zOSMF",
+                    "SORT_VERSION": "0000001501174435",
+                    "type": "Automation"
                 }
             ],
             "docFiles": [
@@ -41517,6 +41685,21 @@
                     "description": "",
                     "SORT_VERSION": "0000000200712414",
                     "type": ""
+                },
+                {
+                    "version": "7",
+                    "semver": "7.1174434",
+                    "date": "2025.02.12 08:45",
+                    "file": "ucd-docker-plugin-7.1174434.zip",
+                    "notes": [
+                        "Added image remove, container remove, commit, save, load, import, and export",
+                        "          steps to this plugin and modify the docker build step"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "Docker - An open platform for distributed applications for developers and sysadmins. https://www.docker.com/",
+                    "SORT_VERSION": "0000000701174434",
+                    "type": "Build"
                 }
             ]
         },
@@ -41547,6 +41730,20 @@
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000900750519",
+                    "type": ""
+                },
+                {
+                    "version": "24",
+                    "semver": "24.1174442",
+                    "date": "2025.02.12 10:24",
+                    "file": "ucd-docker-compose-24.1174442.zip",
+                    "notes": [
+                        "Fixing CVE:CVE-2019-4233"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000002401174442",
                     "type": ""
                 }
             ]
