@@ -28837,7 +28837,7 @@
             "docsURL": "",
             "plugin_folder": "java-shell",
             "source_project": "",
-            "description": "> **Deprecation Notice**: The z/OS Shell plugin is deprecated. It is recommended to use the [Shell plugin](#Shell) instead.\nTo download the plug-in, click the following version-specific links.\n\nThe z/OS Shell plug-in is for the z/OS only operating system. It performs the same functions as the [Shell plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Shell/) for DevOps Deploy. The plug-in reduces the CPU consumption in the z/OS environment by using Java code instead of Groovy code.",
+            "description": "> **Deprecation Notice**: The z/OS Shell plugin is deprecated. It is recommended to use the [Shell plugin](#Shell) instead.\n\nThe z/OS Shell plug-in is for the z/OS only operating system. It performs the same functions as the [Shell plug-in](https://urbancode.github.io/IBM-UCx-PLUGIN-DOCS/UCD/Shell/) for DevOps Deploy. The plug-in reduces the CPU consumption in the z/OS environment by using Java code instead of Groovy code.",
             "specification": {
                 "categories": [],
                 "type": ""
@@ -39919,7 +39919,7 @@
             "docsURL": "",
             "plugin_folder": "zos-replacetokens-uss",
             "source_project": "",
-            "description": "The z/OS USS Utility plug-in automates working with USS files on the z/OS operating system. This plug-in supports working with the IBM z/OS version 2.2 and later and requires DevOps Deploy agent on the z/OS server.",
+            "description": "> **Deprecation Notice**: The z/OS USS Utility plugin is deprecated. It is recommended to use `Replace Tokens` step from [File Utils](#file-utils) plugin instead.\n\nThe z/OS USS Utility plug-in automates working with USS files on the z/OS operating system. This plug-in supports working with the IBM z/OS version 2.2 and later and requires DevOps Deploy agent on the z/OS server.",
             "specification": {
                 "categories": [],
                 "type": ""
@@ -45276,6 +45276,20 @@
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000101173734",
+                    "type": ""
+                },
+                {
+                    "version": "2",
+                    "semver": "2.1174542",
+                    "date": "2025.02.18 12:54",
+                    "file": "Deploy-plugins-terraform-iaac-2.1174542.zip",
+                    "notes": [
+                        "Added logic to destroy VMs in AWS."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000000201174542",
                     "type": ""
                 }
             ]
