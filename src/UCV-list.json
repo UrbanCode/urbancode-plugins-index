@@ -4268,6 +4268,61 @@
                     "SORT_VERSION": ""
                 },
                 {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-milestone-risk-estimator:2.0.4.tar.7z.001",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-milestone-risk-estimator:2.0.4.tar.7z.002",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-milestone-risk-estimator:2.0.4.tar.7z.003",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-milestone-risk-estimator:2.0.4.tar.7z.004",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "ucv-ext-milestone-risk-estimator:2.0.4.tar.7z.005",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
                     "version": "1",
                     "semver": "1.0.1",
                     "date": "2023.12.05 08:35",
@@ -6118,28 +6173,6 @@
                     "SORT_VERSION": ""
                 },
                 {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
-                    "file": "ucv-ext-servicenow:1.1.11.tar.7z.001",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "",
-                    "SORT_VERSION": ""
-                },
-                {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
-                    "file": "ucv-ext-servicenow:1.1.11.tar.7z.002",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "",
-                    "SORT_VERSION": ""
-                },
-                {
                     "version": "1",
                     "semver": "1.0.13",
                     "date": "2020.12.02 06:35",
@@ -6435,34 +6468,6 @@
                     "version": "1",
                     "semver": "1.1.10",
                     "date": "2024.11.20 08:04",
-                    "file": "ucv-ext-servicenow:1.1.1.tar.7z.001",
-                    "notes": [
-                        "All scheduled events have been combined into a single unified event, improving performance. This reduces redundancy and simplifies configuration for users"
-                    ],
-                    "supports": "5.0.2",
-                    "publish": "True",
-                    "description": "",
-                    "SORT_VERSION": "000000010000000100000010",
-                    "image": "urbancode/ucv-ext-servicenow:1.1.10"
-                },
-                {
-                    "version": "1",
-                    "semver": "1.1.10",
-                    "date": "2024.11.20 08:04",
-                    "file": "ucv-ext-servicenow:1.1.1.tar.7z.002",
-                    "notes": [
-                        "All scheduled events have been combined into a single unified event, improving performance. This reduces redundancy and simplifies configuration for users"
-                    ],
-                    "supports": "5.0.2",
-                    "publish": "True",
-                    "description": "",
-                    "SORT_VERSION": "000000010000000100000010",
-                    "image": "urbancode/ucv-ext-servicenow:1.1.10"
-                },
-                {
-                    "version": "1",
-                    "semver": "1.1.10",
-                    "date": "2024.11.20 08:04",
                     "file": "ucv-ext-servicenow:1.1.10.tar.7z.001",
                     "notes": [
                         "All scheduled events have been combined into a single unified event, improving performance. This reduces redundancy and simplifies configuration for users"
@@ -6486,6 +6491,74 @@
                     "description": "",
                     "SORT_VERSION": "000000010000000100000010",
                     "image": "urbancode/ucv-ext-servicenow:1.1.10"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.1.11",
+                    "date": "2025.02.20 12:18",
+                    "file": "ucv-ext-servicenow:1.1.1.tar.7z.001",
+                    "notes": [
+                        "<b>Replica Server Name field addition</b>: In index.js file added replica server name field, any non-empty string value to replica server name would enable read only replica.",
+                        "<b>Support for CHANGE_REQUEST normalized type</b>: Added new normalized type CHANGE_REQUEST. In value stream management page, for type filter you can see this normalized type for ServiceNow plugin integration.",
+                        "<b>Bug fix</b>: Planned start date and end date given while creating the change request via automation task was getting mismatched when checked in ServiceNow application once the task executed.",
+                        "<b>Enhancement to throw error</b>: An error gets popped up in add integration page when we give invalid json format in Resource types and sys_params field. Related UI changes also made in UCV_CORE repo."
+                    ],
+                    "supports": "5.0.10",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000100000011",
+                    "image": "urbancode/ucv-ext-servicenow:1.1.11"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.1.11",
+                    "date": "2025.02.20 12:18",
+                    "file": "ucv-ext-servicenow:1.1.1.tar.7z.002",
+                    "notes": [
+                        "<b>Replica Server Name field addition</b>: In index.js file added replica server name field, any non-empty string value to replica server name would enable read only replica.",
+                        "<b>Support for CHANGE_REQUEST normalized type</b>: Added new normalized type CHANGE_REQUEST. In value stream management page, for type filter you can see this normalized type for ServiceNow plugin integration.",
+                        "<b>Bug fix</b>: Planned start date and end date given while creating the change request via automation task was getting mismatched when checked in ServiceNow application once the task executed.",
+                        "<b>Enhancement to throw error</b>: An error gets popped up in add integration page when we give invalid json format in Resource types and sys_params field. Related UI changes also made in UCV_CORE repo."
+                    ],
+                    "supports": "5.0.10",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000100000011",
+                    "image": "urbancode/ucv-ext-servicenow:1.1.11"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.1.11",
+                    "date": "2025.02.20 12:18",
+                    "file": "ucv-ext-servicenow:1.1.11.tar.7z.001",
+                    "notes": [
+                        "<b>Replica Server Name field addition</b>: In index.js file added replica server name field, any non-empty string value to replica server name would enable read only replica.",
+                        "<b>Support for CHANGE_REQUEST normalized type</b>: Added new normalized type CHANGE_REQUEST. In value stream management page, for type filter you can see this normalized type for ServiceNow plugin integration.",
+                        "<b>Bug fix</b>: Planned start date and end date given while creating the change request via automation task was getting mismatched when checked in ServiceNow application once the task executed.",
+                        "<b>Enhancement to throw error</b>: An error gets popped up in add integration page when we give invalid json format in Resource types and sys_params field. Related UI changes also made in UCV_CORE repo."
+                    ],
+                    "supports": "5.0.10",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000100000011",
+                    "image": "urbancode/ucv-ext-servicenow:1.1.11"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.1.11",
+                    "date": "2025.02.20 12:18",
+                    "file": "ucv-ext-servicenow:1.1.11.tar.7z.002",
+                    "notes": [
+                        "<b>Replica Server Name field addition</b>: In index.js file added replica server name field, any non-empty string value to replica server name would enable read only replica.",
+                        "<b>Support for CHANGE_REQUEST normalized type</b>: Added new normalized type CHANGE_REQUEST. In value stream management page, for type filter you can see this normalized type for ServiceNow plugin integration.",
+                        "<b>Bug fix</b>: Planned start date and end date given while creating the change request via automation task was getting mismatched when checked in ServiceNow application once the task executed.",
+                        "<b>Enhancement to throw error</b>: An error gets popped up in add integration page when we give invalid json format in Resource types and sys_params field. Related UI changes also made in UCV_CORE repo."
+                    ],
+                    "supports": "5.0.10",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000100000011",
+                    "image": "urbancode/ucv-ext-servicenow:1.1.11"
                 }
             ],
             "docFiles": [

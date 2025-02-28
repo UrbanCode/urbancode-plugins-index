@@ -4356,6 +4356,20 @@
                     "description": "The File System Plugin implements importing versions from\n    a local filesystem.",
                     "SORT_VERSION": "0000001201150687",
                     "type": "Source"
+                },
+                {
+                    "version": "13",
+                    "semver": "13.1155763",
+                    "date": "2023.04.21 11:58",
+                    "file": "ucd-FileSystemSourceConfig-13.1155763.zip",
+                    "notes": [
+                        "Updating Jettison library to 1.5.4 for CVE-2023-1436"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "The File System Plugin implements importing versions from\n    a local filesystem.",
+                    "SORT_VERSION": "0000001301155763",
+                    "type": "Source"
                 }
             ],
             "docFiles": [
@@ -4576,6 +4590,20 @@
                     "publish": "True",
                     "description": "The File System Versioned Plugin implements importing versions from\n    a local versioned filesystem.",
                     "SORT_VERSION": "0000001801150658",
+                    "type": "Source"
+                },
+                {
+                    "version": "19",
+                    "semver": "19.1155762",
+                    "date": "2023.04.21 11:58",
+                    "file": "ucd-FileSystemVersionedSourceConfig-19.1155762.zip",
+                    "notes": [
+                        "Updating Jettison library to 1.5.4 for CVE-2023-1436"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "The File System Versioned Plugin implements importing versions from\n    a local versioned filesystem.",
+                    "SORT_VERSION": "0000001901155762",
                     "type": "Source"
                 }
             ],
@@ -26521,6 +26549,20 @@
                     "description": "The General Utilities plugin contains general tasks and utilities that do not fit in any other plugin.",
                     "SORT_VERSION": "0000000201056692",
                     "type": "Automation"
+                },
+                {
+                    "version": "5",
+                    "semver": "5.1155731",
+                    "date": "2023.04.20 19:22",
+                    "file": "ucd-general-utilities-5.1155731.zip",
+                    "notes": [
+                        "Updating Jettison library to 1.5.4 for CVE-2023-1436"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "The General Utilities plugin contains general tasks and utilities that do not fit in any other plugin.",
+                    "SORT_VERSION": "0000000501155731",
+                    "type": "Automation"
                 }
             ],
             "docFiles": [
@@ -34101,6 +34143,20 @@
                     "description": "uDeploy is Urbancode's application release automation tool. For more information, see http://www.urbancode.com/html/products/deploy",
                     "SORT_VERSION": "0000008401132353",
                     "type": "Automation"
+                },
+                {
+                    "version": "87",
+                    "semver": "87.1155713",
+                    "date": "2023.04.20 19:13",
+                    "file": "ucd-uDeploy-Application-87.1155713.zip",
+                    "notes": [
+                        "Updating Jettison library to 1.5.4 for CVE-2023-1436"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "uDeploy is Urbancode's application release automation tool. For more information, see http://www.urbancode.com/html/products/deploy",
+                    "SORT_VERSION": "0000008701155713",
+                    "type": "Automation"
                 }
             ],
             "docFiles": [
@@ -34377,6 +34433,20 @@
                     "publish": "True",
                     "description": "uDeploy is Urbancode's application release automation tool. For more information, see http://www.urbancode.com/html/products/deploy",
                     "SORT_VERSION": "0000007801132354",
+                    "type": "Automation"
+                },
+                {
+                    "version": "81",
+                    "semver": "81.1155712",
+                    "date": "2023.04.20 19:13",
+                    "file": "ucd-uDeploy-Component-81.1155712.zip",
+                    "notes": [
+                        "Updating Jettison library to 1.5.4 for CVE-2023-1436"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "uDeploy is Urbancode's application release automation tool. For more information, see http://www.urbancode.com/html/products/deploy",
+                    "SORT_VERSION": "0000008101155712",
                     "type": "Automation"
                 }
             ],
@@ -34945,6 +35015,20 @@
                     "description": "",
                     "SORT_VERSION": "0000001101132356",
                     "type": ""
+                },
+                {
+                    "version": "14",
+                    "semver": "14.1155709",
+                    "date": "2023.04.20 19:12",
+                    "file": "ucd-uDeploy-Process-14.1155709.zip",
+                    "notes": [
+                        "Updating Jettison library to 1.5.4 for CVE-2023-1436"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000001401155709",
+                    "type": ""
                 }
             ],
             "docFiles": [
@@ -35290,6 +35374,20 @@
                     "publish": "True",
                     "description": "uDeploy is Urbancode's application release automation tool. For more information, see http://www.urbancode.com/html/products/deploy",
                     "SORT_VERSION": "0000008301133534",
+                    "type": "Automation"
+                },
+                {
+                    "version": "86",
+                    "semver": "86.1155708",
+                    "date": "2023.04.20 19:11",
+                    "file": "ucd-uDeploy-Resource-86.1155708.zip",
+                    "notes": [
+                        "Updating Jettison library to 1.5.4 for CVE-2023-1436"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "uDeploy is Urbancode's application release automation tool. For more information, see http://www.urbancode.com/html/products/deploy",
+                    "SORT_VERSION": "0000008601155708",
                     "type": "Automation"
                 }
             ],
@@ -35952,6 +36050,20 @@
                     "publish": "True",
                     "description": "Configuration templating system built into uDeploy. Used to manage enviroment and server configurations.",
                     "SORT_VERSION": "0000001701132359",
+                    "type": "automation"
+                },
+                {
+                    "version": "20",
+                    "semver": "20.1155711",
+                    "date": "2023.04.20 19:12",
+                    "file": "ucd-uDeployConfigManagement-20.1155711.zip",
+                    "notes": [
+                        "Updating Jettison library to 1.5.4 for CVE-2023-1436"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "Configuration templating system built into uDeploy. Used to manage enviroment and server configurations.",
+                    "SORT_VERSION": "0000002001155711",
                     "type": "automation"
                 }
             ],
@@ -37148,6 +37260,21 @@
                     "publish": "True",
                     "description": "The zOS File plugin automates uploading data sets, UNIX files and generic artifacts from a z/OS system.",
                     "SORT_VERSION": "0000000701131549",
+                    "type": "Source"
+                },
+                {
+                    "version": "8",
+                    "semver": "8.1174630",
+                    "date": "2025.02.21 11:01",
+                    "file": "ucd-zOSFileSourceConfig-8.1174630.zip",
+                    "notes": [
+                        "Update udclient and uDeployRestClient",
+                        "        Fixed NoClassDefFoundError for StringUtils"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "The zOS File plugin automates uploading data sets, UNIX files and generic artifacts from a z/OS system.",
+                    "SORT_VERSION": "0000000801174630",
                     "type": "Source"
                 }
             ],
@@ -44026,6 +44153,17 @@
                     "semver": "0.0",
                     "date": "",
                     "file": "paac-2.0.1173471.zip",
+                    "notes": [],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": ""
+                },
+                {
+                    "version": "0",
+                    "semver": "0.0",
+                    "date": "",
+                    "file": "paac-2.0.1174641.zip",
                     "notes": [],
                     "supports": "",
                     "publish": "True",
