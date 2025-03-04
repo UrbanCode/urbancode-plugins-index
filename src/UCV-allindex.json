@@ -5894,6 +5894,21 @@
         "PLUGIN_FILES": [
             {
                 "version": "2",
+                "semver": "2.0.4",
+                "date": "2025.02.27 11:00",
+                "file": "",
+                "notes": [
+                    "Image size reduction",
+                    "Bug fixes"
+                ],
+                "supports": "",
+                "publish": "True",
+                "description": "",
+                "SORT_VERSION": "000000020000000000000004",
+                "image": "urbancode/ucv-ext-milestone-risk-estimator:2.0.4"
+            },
+            {
+                "version": "2",
                 "semver": "2.0.2",
                 "date": "2024.10.16 10:07",
                 "file": "",

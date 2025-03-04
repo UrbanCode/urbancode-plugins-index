@@ -4344,6 +4344,20 @@
                     "type": "Source"
                 },
                 {
+                    "version": "11",
+                    "semver": "11.1142506",
+                    "date": "2022.10.07 14:16",
+                    "file": "ucd-FileSystemSourceConfig-11.1142506.zip",
+                    "notes": [
+                        "Updating jettison library for CVE-2022-40150 CVE-2022-40149"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "The File System Plugin implements importing versions from\n    a local filesystem.",
+                    "SORT_VERSION": "0000001101142506",
+                    "type": "Source"
+                },
+                {
                     "version": "12",
                     "semver": "12.1150687",
                     "date": "2023.02.01 02:18",
@@ -4576,6 +4590,20 @@
                     "publish": "True",
                     "description": "The File System Versioned Plugin implements importing versions from\n    a local versioned filesystem.",
                     "SORT_VERSION": "0000001601131555",
+                    "type": "Source"
+                },
+                {
+                    "version": "17",
+                    "semver": "17.1142503",
+                    "date": "2022.10.07 14:09",
+                    "file": "ucd-FileSystemVersionedSourceConfig-17.1142503.zip",
+                    "notes": [
+                        "Updating jettison library for CVE-2022-40150 CVE-2022-40149"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "The File System Versioned Plugin implements importing versions from\n    a local versioned filesystem.",
+                    "SORT_VERSION": "0000001701142503",
                     "type": "Source"
                 },
                 {
@@ -26551,6 +26579,34 @@
                     "type": "Automation"
                 },
                 {
+                    "version": "3",
+                    "semver": "3.1142546",
+                    "date": "2022.10.07 14:56",
+                    "file": "ucd-general-utilities-3.1142546.zip",
+                    "notes": [
+                        "Updating jettison library for CVE-2022-40150 CVE-2022-40149"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "The General Utilities plugin contains general tasks and utilities that do not fit in any other plugin.",
+                    "SORT_VERSION": "0000000301142546",
+                    "type": "Automation"
+                },
+                {
+                    "version": "4",
+                    "semver": "4.1150659",
+                    "date": "2023.02.01 01:44",
+                    "file": "ucd-general-utilities-4.1150659.zip",
+                    "notes": [
+                        "Updating jettison library for CVE-2022-45693 and CVE-2022-45685"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "The General Utilities plugin contains general tasks and utilities that do not fit in any other plugin.",
+                    "SORT_VERSION": "0000000401150659",
+                    "type": "Automation"
+                },
+                {
                     "version": "5",
                     "semver": "5.1155731",
                     "date": "2023.04.20 19:22",
@@ -34145,6 +34201,34 @@
                     "type": "Automation"
                 },
                 {
+                    "version": "85",
+                    "semver": "85.1142530",
+                    "date": "2022.10.07 14:37",
+                    "file": "ucd-uDeploy-Application-85.1142530.zip",
+                    "notes": [
+                        "Updating jettison library for CVE-2022-40150 CVE-2022-40149"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "uDeploy is Urbancode's application release automation tool. For more information, see http://www.urbancode.com/html/products/deploy",
+                    "SORT_VERSION": "0000008501142530",
+                    "type": "Automation"
+                },
+                {
+                    "version": "86",
+                    "semver": "86.1150656",
+                    "date": "2023.02.01 01:43",
+                    "file": "ucd-uDeploy-Application-86.1150656.zip",
+                    "notes": [
+                        "Updating jettison library for CVE-2022-45693 and CVE-2022-45685"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "uDeploy is Urbancode's application release automation tool. For more information, see http://www.urbancode.com/html/products/deploy",
+                    "SORT_VERSION": "0000008601150656",
+                    "type": "Automation"
+                },
+                {
                     "version": "87",
                     "semver": "87.1155713",
                     "date": "2023.04.20 19:13",
@@ -34433,6 +34517,34 @@
                     "publish": "True",
                     "description": "uDeploy is Urbancode's application release automation tool. For more information, see http://www.urbancode.com/html/products/deploy",
                     "SORT_VERSION": "0000007801132354",
+                    "type": "Automation"
+                },
+                {
+                    "version": "79",
+                    "semver": "79.1142531",
+                    "date": "2022.10.07 14:37",
+                    "file": "ucd-uDeploy-Component-79.1142531.zip",
+                    "notes": [
+                        "Updating jettison library for CVE-2022-40150 CVE-2022-40149"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "uDeploy is Urbancode's application release automation tool. For more information, see http://www.urbancode.com/html/products/deploy",
+                    "SORT_VERSION": "0000007901142531",
+                    "type": "Automation"
+                },
+                {
+                    "version": "80",
+                    "semver": "80.1150662",
+                    "date": "2023.02.01 01:45",
+                    "file": "ucd-uDeploy-Component-80.1150662.zip",
+                    "notes": [
+                        "Updating jettison library for CVE-2022-45693 and CVE-2022-45685"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "uDeploy is Urbancode's application release automation tool. For more information, see http://www.urbancode.com/html/products/deploy",
+                    "SORT_VERSION": "0000008001150662",
                     "type": "Automation"
                 },
                 {
@@ -35017,6 +35129,34 @@
                     "type": ""
                 },
                 {
+                    "version": "12",
+                    "semver": "12.1142545",
+                    "date": "2022.10.07 14:54",
+                    "file": "ucd-uDeploy-Process-12.1142545.zip",
+                    "notes": [
+                        "Updating jettison library for CVE-2022-40150 CVE-2022-40149"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000001201142545",
+                    "type": ""
+                },
+                {
+                    "version": "13",
+                    "semver": "13.1150686",
+                    "date": "2023.02.01 02:16",
+                    "file": "ucd-uDeploy-Process-13.1150686.zip",
+                    "notes": [
+                        "Updating jettison library for CVE-2022-45693 and CVE-2022-45685"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000001301150686",
+                    "type": ""
+                },
+                {
                     "version": "14",
                     "semver": "14.1155709",
                     "date": "2023.04.20 19:12",
@@ -35374,6 +35514,34 @@
                     "publish": "True",
                     "description": "uDeploy is Urbancode's application release automation tool. For more information, see http://www.urbancode.com/html/products/deploy",
                     "SORT_VERSION": "0000008301133534",
+                    "type": "Automation"
+                },
+                {
+                    "version": "84",
+                    "semver": "84.1142511",
+                    "date": "2022.10.07 14:23",
+                    "file": "ucd-uDeploy-Resource-84.1142511.zip",
+                    "notes": [
+                        "Updating jettison library for CVE-2022-40150 CVE-2022-40149"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "uDeploy is Urbancode's application release automation tool. For more information, see http://www.urbancode.com/html/products/deploy",
+                    "SORT_VERSION": "0000008401142511",
+                    "type": "Automation"
+                },
+                {
+                    "version": "85",
+                    "semver": "85.1150670",
+                    "date": "2023.02.01 01:49",
+                    "file": "ucd-uDeploy-Resource-85.1150670.zip",
+                    "notes": [
+                        "Updating jettison library for CVE-2022-45693 and CVE-2022-45685"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "uDeploy is Urbancode's application release automation tool. For more information, see http://www.urbancode.com/html/products/deploy",
+                    "SORT_VERSION": "0000008501150670",
                     "type": "Automation"
                 },
                 {
@@ -36050,6 +36218,34 @@
                     "publish": "True",
                     "description": "Configuration templating system built into uDeploy. Used to manage enviroment and server configurations.",
                     "SORT_VERSION": "0000001701132359",
+                    "type": "automation"
+                },
+                {
+                    "version": "18",
+                    "semver": "18.1142532",
+                    "date": "2022.10.07 14:39",
+                    "file": "ucd-uDeployConfigManagement-18.1142532.zip",
+                    "notes": [
+                        "Updating jettison library for CVE-2022-40150 CVE-2022-40149"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "Configuration templating system built into uDeploy. Used to manage enviroment and server configurations.",
+                    "SORT_VERSION": "0000001801142532",
+                    "type": "automation"
+                },
+                {
+                    "version": "19",
+                    "semver": "19.1150664",
+                    "date": "2023.02.01 01:46",
+                    "file": "ucd-uDeployConfigManagement-19.1150664.zip",
+                    "notes": [
+                        "Updating jettison library for CVE-2022-45693 and CVE-2022-45685"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "Configuration templating system built into uDeploy. Used to manage enviroment and server configurations.",
+                    "SORT_VERSION": "0000001901150664",
                     "type": "automation"
                 },
                 {

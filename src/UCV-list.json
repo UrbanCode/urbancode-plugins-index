@@ -4268,61 +4268,6 @@
                     "SORT_VERSION": ""
                 },
                 {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
-                    "file": "ucv-ext-milestone-risk-estimator:2.0.4.tar.7z.001",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "",
-                    "SORT_VERSION": ""
-                },
-                {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
-                    "file": "ucv-ext-milestone-risk-estimator:2.0.4.tar.7z.002",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "",
-                    "SORT_VERSION": ""
-                },
-                {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
-                    "file": "ucv-ext-milestone-risk-estimator:2.0.4.tar.7z.003",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "",
-                    "SORT_VERSION": ""
-                },
-                {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
-                    "file": "ucv-ext-milestone-risk-estimator:2.0.4.tar.7z.004",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "",
-                    "SORT_VERSION": ""
-                },
-                {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
-                    "file": "ucv-ext-milestone-risk-estimator:2.0.4.tar.7z.005",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "",
-                    "SORT_VERSION": ""
-                },
-                {
                     "version": "1",
                     "semver": "1.0.1",
                     "date": "2023.12.05 08:35",
@@ -4987,6 +4932,81 @@
                     "description": "",
                     "SORT_VERSION": "000000020000000000000002",
                     "image": "urbancode/ucv-ext-milestone-risk-estimator:2.0.2"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.0.4",
+                    "date": "2025.02.27 11:00",
+                    "file": "ucv-ext-milestone-risk-estimator:2.0.4.tar.7z.001",
+                    "notes": [
+                        "Image size reduction",
+                        "Bug fixes"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000000000004",
+                    "image": "urbancode/ucv-ext-milestone-risk-estimator:2.0.4"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.0.4",
+                    "date": "2025.02.27 11:00",
+                    "file": "ucv-ext-milestone-risk-estimator:2.0.4.tar.7z.002",
+                    "notes": [
+                        "Image size reduction",
+                        "Bug fixes"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000000000004",
+                    "image": "urbancode/ucv-ext-milestone-risk-estimator:2.0.4"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.0.4",
+                    "date": "2025.02.27 11:00",
+                    "file": "ucv-ext-milestone-risk-estimator:2.0.4.tar.7z.003",
+                    "notes": [
+                        "Image size reduction",
+                        "Bug fixes"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000000000004",
+                    "image": "urbancode/ucv-ext-milestone-risk-estimator:2.0.4"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.0.4",
+                    "date": "2025.02.27 11:00",
+                    "file": "ucv-ext-milestone-risk-estimator:2.0.4.tar.7z.004",
+                    "notes": [
+                        "Image size reduction",
+                        "Bug fixes"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000000000004",
+                    "image": "urbancode/ucv-ext-milestone-risk-estimator:2.0.4"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.0.4",
+                    "date": "2025.02.27 11:00",
+                    "file": "ucv-ext-milestone-risk-estimator:2.0.4.tar.7z.005",
+                    "notes": [
+                        "Image size reduction",
+                        "Bug fixes"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000000000004",
+                    "image": "urbancode/ucv-ext-milestone-risk-estimator:2.0.4"
                 }
             ],
             "docFiles": [
