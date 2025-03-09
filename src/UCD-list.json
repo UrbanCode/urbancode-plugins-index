@@ -5930,6 +5930,26 @@
                         "unix",
                         "utility"
                     ]
+                },
+                {
+                    "version": "100",
+                    "semver": "100.1175039",
+                    "date": "2025.03.06 12:47",
+                    "file": "ucd-FileUtils-100.1175039.zip",
+                    "notes": [
+                        "Adding Condition to ignore token replacement for the properties file."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "Developed by UrbanCode, The File Utility plugin automates folder and file tasks.",
+                    "SORT_VERSION": "0000010001175039",
+                    "type": "Automation",
+                    "categories": [
+                        "windows",
+                        "linux",
+                        "unix",
+                        "utility"
+                    ]
                 }
             ],
             "docFiles": [
@@ -26288,6 +26308,20 @@
                     "description": "",
                     "SORT_VERSION": "0000002401103426",
                     "type": ""
+                },
+                {
+                    "version": "24",
+                    "semver": "24.1174442",
+                    "date": "2025.02.12 10:24",
+                    "file": "ucd-docker-compose-24.1174442.zip",
+                    "notes": [
+                        "Fixing CVE:CVE-2019-4233"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000002401174442",
+                    "type": ""
                 }
             ],
             "docFiles": [
@@ -30368,6 +30402,20 @@
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000300869088",
+                    "type": ""
+                },
+                {
+                    "version": "4",
+                    "semver": "4.1174443",
+                    "date": "2025.02.12 10:25",
+                    "file": "ucd-mesos-marathon-4.1174443.zip",
+                    "notes": [
+                        "Added error logging and stack traces. Changed API use to support older versions of Marathon as well."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000000401174443",
                     "type": ""
                 }
             ],
