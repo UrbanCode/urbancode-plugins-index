@@ -23555,6 +23555,20 @@
                     "description": "The IBM Worklight plug-in provides functionality for deploying artifacts to an IBM Worklight Server.",
                     "SORT_VERSION": "0000001301098510",
                     "type": "Automation"
+                },
+                {
+                    "version": "13",
+                    "semver": "13.1174444",
+                    "date": "2025.02.12 10:33",
+                    "file": "ucd-ibm-mobilefirst-13.1174444.zip",
+                    "notes": [
+                        "Fixing CVE:CVE-2019-4233"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "The IBM Worklight plug-in provides functionality for deploying artifacts to an IBM Worklight Server.",
+                    "SORT_VERSION": "0000001301174444",
+                    "type": "Automation"
                 }
             ],
             "docFiles": [
