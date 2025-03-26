@@ -1563,6 +1563,34 @@
                     "description": "",
                     "SORT_VERSION": "000000010000000000000004",
                     "image": "urbancode/ucv-ext-control:1.0.4"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.5",
+                    "date": "2025.03.25 04:44",
+                    "file": "ucv-ext-control:1.0.5.tar.7z.001",
+                    "notes": [
+                        "<b>Bug fix</b>: APIs for retrieving pull request comments and event timelines have been re-enabled, restoring functionality for the pull request schedule event in the Control plug-in."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000005",
+                    "image": "urbancode/ucv-ext-control:1.0.5"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.0.5",
+                    "date": "2025.03.25 04:44",
+                    "file": "ucv-ext-control:1.0.5.tar.7z.002",
+                    "notes": [
+                        "<b>Bug fix</b>: APIs for retrieving pull request comments and event timelines have been re-enabled, restoring functionality for the pull request schedule event in the Control plug-in."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000000000005",
+                    "image": "urbancode/ucv-ext-control:1.0.5"
                 }
             ],
             "docFiles": [
@@ -3383,28 +3411,6 @@
                     "SORT_VERSION": ""
                 },
                 {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
-                    "file": "ucv-ext-jira:2.4.2.tar.7z.001",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "",
-                    "SORT_VERSION": ""
-                },
-                {
-                    "version": "0",
-                    "semver": "0.0",
-                    "date": "",
-                    "file": "ucv-ext-jira:2.4.2.tar.7z.002",
-                    "notes": [],
-                    "supports": "",
-                    "publish": "True",
-                    "description": "",
-                    "SORT_VERSION": ""
-                },
-                {
                     "version": "1",
                     "semver": "1.0.39",
                     "date": "2020.09.21 10:11",
@@ -3938,6 +3944,34 @@
                     "description": "",
                     "SORT_VERSION": "000000020000000300000024",
                     "image": "urbancode/ucv-ext-jira:2.3.24"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.4.2",
+                    "date": "2025.03.20 05:02",
+                    "file": "ucv-ext-jira:2.4.2.tar.7z.001",
+                    "notes": [
+                        "<b>Bug fix</b>: Prevented the deletion of old history records in the issue collection normalization. Older history entries from before the last run are needed, as they are used for agile churn analysis."
+                    ],
+                    "supports": "3.1.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000400000002",
+                    "image": "urbancode/ucv-ext-jira:2.4.2"
+                },
+                {
+                    "version": "2",
+                    "semver": "2.4.2",
+                    "date": "2025.03.20 05:02",
+                    "file": "ucv-ext-jira:2.4.2.tar.7z.002",
+                    "notes": [
+                        "<b>Bug fix</b>: Prevented the deletion of old history records in the issue collection normalization. Older history entries from before the last run are needed, as they are used for agile churn analysis."
+                    ],
+                    "supports": "3.1.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000020000000400000002",
+                    "image": "urbancode/ucv-ext-jira:2.4.2"
                 }
             ],
             "docFiles": [
@@ -8649,6 +8683,34 @@
                     "description": "",
                     "SORT_VERSION": "000000010000000100000055",
                     "image": "urbancode/ucv-ext-compass:1.1.55"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.1.57",
+                    "date": "2025.03.24 07:30",
+                    "file": "ucv-ext-compass:1.1.57.tar.7z.001",
+                    "notes": [
+                        "<b>Feature enhancement</b>: We have enhanced the DevOps Plan plugin integration with Velocity by automating field mapping. This eliminates the need for manual configuration, ensuring a smoother and more efficient integration experience."
+                    ],
+                    "supports": "2.5.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000100000057",
+                    "image": "urbancode/ucv-ext-compass:1.1.57"
+                },
+                {
+                    "version": "1",
+                    "semver": "1.1.57",
+                    "date": "2025.03.24 07:30",
+                    "file": "ucv-ext-compass:1.1.57.tar.7z.002",
+                    "notes": [
+                        "<b>Feature enhancement</b>: We have enhanced the DevOps Plan plugin integration with Velocity by automating field mapping. This eliminates the need for manual configuration, ensuring a smoother and more efficient integration experience."
+                    ],
+                    "supports": "2.5.0",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "000000010000000100000057",
+                    "image": "urbancode/ucv-ext-compass:1.1.57"
                 }
             ]
         },

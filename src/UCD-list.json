@@ -17637,6 +17637,20 @@
                     "description": "The wldeploy Ant task enables you to perform weblogic.Deployer functions using attributes specified in an Ant XML file. You can use wldeploy along with other WebLogic Server Ant tasks to create a single Ant build script.",
                     "SORT_VERSION": "0000002501103454",
                     "type": "deploy"
+                },
+                {
+                    "version": "26",
+                    "semver": "26.1175365",
+                    "date": "2025.03.20 06:41",
+                    "file": "ucd-WLDeploy-26.1175365.zip",
+                    "notes": [
+                        "Fixed issue with Groovy 3.x."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "The wldeploy Ant task enables you to perform weblogic.Deployer functions using attributes specified in an Ant XML file. You can use wldeploy along with other WebLogic Server Ant tasks to create a single Ant build script.",
+                    "SORT_VERSION": "0000002601175365",
+                    "type": "deploy"
                 }
             ],
             "docFiles": [
