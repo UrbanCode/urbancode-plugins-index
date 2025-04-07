@@ -2768,6 +2768,20 @@
                     "description": "Developed by IBM, the Cognos plugin automates import/export of content.",
                     "SORT_VERSION": "0000001101107116",
                     "type": "Deploy"
+                },
+                {
+                    "version": "12",
+                    "semver": "12.1175694",
+                    "date": "2025.04.04 09:55",
+                    "file": "ucd-Cognos-12.1175694.zip",
+                    "notes": [
+                        "Fixed issues with method getStepProperties of AirPluginTool."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "Developed by IBM, the Cognos plugin automates import/export of content.",
+                    "SORT_VERSION": "0000001201175694",
+                    "type": "Deploy"
                 }
             ],
             "docFiles": [
@@ -30530,6 +30544,20 @@
                     "publish": "True",
                     "description": "",
                     "SORT_VERSION": "0000000101105366",
+                    "type": ""
+                },
+                {
+                    "version": "2",
+                    "semver": "2.1175635",
+                    "date": "2025.04.02 08:35",
+                    "file": "ucd-plugins-mulesoft-2.1175635.zip",
+                    "notes": [
+                        "Fixed issues with methods setOutputProperties and getStepProperties of AirPluginTool."
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "",
+                    "SORT_VERSION": "0000000201175635",
                     "type": ""
                 }
             ],
