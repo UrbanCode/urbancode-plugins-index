@@ -39593,6 +39593,22 @@
                     "description": "Developed by UrbanCode, for z/OS.",
                     "SORT_VERSION": "0000009601174531",
                     "type": "Automation"
+                },
+                {
+                    "version": "97",
+                    "semver": "97.1175894",
+                    "date": "2025.04.17 04:03",
+                    "file": "ucd-zos-deploy-97.1175894.zip",
+                    "notes": [
+                        "Renamed Deploy Data Sets step to Deploy Datasets and USS Files",
+                        "            Renamed Rollback Data Sets to Rollback Datasets and USS Files",
+                        "            Skip backup option for a full type version"
+                    ],
+                    "supports": "",
+                    "publish": "True",
+                    "description": "Developed by UrbanCode, for z/OS.",
+                    "SORT_VERSION": "0000009701175894",
+                    "type": "Automation"
                 }
             ],
             "docFiles": [
