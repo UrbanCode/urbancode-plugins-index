@@ -73,7 +73,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.4",
-                    "date": "2020.11.30 07:44",
+                    "date": "2020.11.30 05:44",
                     "file": "ucv-ext-agility-1.0.4.tar.zip",
                     "notes": [
                         "Initial Release"
@@ -87,7 +87,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.9",
-                    "date": "2021.05.05 03:12",
+                    "date": "2021.05.05 02:12",
                     "file": "ucv-ext-agility-1.0.9.tar.zip",
                     "notes": [
                         "Removed IBM related keywords"
@@ -101,7 +101,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.11",
-                    "date": "2021.08.10 02:37",
+                    "date": "2021.08.10 01:37",
                     "file": "ucv-ext-agility-1.0.11.tar.zip",
                     "notes": [
                         "Added auto-generated userAccessKey support"
@@ -115,7 +115,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.20",
-                    "date": "2022.02.23 12:01",
+                    "date": "2022.02.23 10:01",
                     "file": "ucv-ext-agility-1.0.20.tar.zip",
                     "notes": [
                         "User Access Key Related Changes"
@@ -175,7 +175,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.1",
-                    "date": "2023.12.19 00:20",
+                    "date": "2023.12.18 22:20",
                     "file": "ucv-ext-aha:1.0.1.tar.7z.001",
                     "notes": [
                         "Update business value of associated Jira items."
@@ -189,7 +189,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.1",
-                    "date": "2023.12.19 00:20",
+                    "date": "2023.12.18 22:20",
                     "file": "ucv-ext-aha:1.0.1.tar.7z.002",
                     "notes": [
                         "Update business value of associated Jira items."
@@ -279,7 +279,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.22",
-                    "date": "2020.12.02 12:46",
+                    "date": "2020.12.02 10:46",
                     "file": "ucv-ext-appscan-1.0.22.tar.zip",
                     "notes": [
                         "Plugin name update"
@@ -293,7 +293,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.23",
-                    "date": "2020.12.08 06:36",
+                    "date": "2020.12.08 04:36",
                     "file": "ucv-ext-appscan-1.0.23.tar.zip",
                     "notes": [
                         "Changed the passsword type to secure"
@@ -307,7 +307,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.30",
-                    "date": "2021.04.07 04:29",
+                    "date": "2021.04.07 03:29",
                     "file": "ucv-ext-appscan-1.0.30.tar.zip",
                     "notes": [
                         "Updated data retrieval logic"
@@ -321,7 +321,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.31",
-                    "date": "2021.05.03 11:48",
+                    "date": "2021.05.03 10:48",
                     "file": "ucv-ext-appscan-1.0.31.tar.zip",
                     "notes": [
                         "Removed IBM related keywords"
@@ -335,7 +335,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.35",
-                    "date": "2022.03.01 08:39",
+                    "date": "2022.03.01 06:39",
                     "file": "ucv-ext-appscan-2.0.35.tar.zip",
                     "notes": [
                         "Scheduled Event Functionality Added",
@@ -351,7 +351,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.41",
-                    "date": "2022.10.17 10:32",
+                    "date": "2022.10.17 09:32",
                     "file": "ucv-ext-appscan:2.0.41.tar.7z.001",
                     "notes": [
                         "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
@@ -368,7 +368,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.47",
-                    "date": "2023.05.18 04:01",
+                    "date": "2023.05.18 03:01",
                     "file": "ucv-ext-appscan:2.0.47.tar.7z.001",
                     "notes": [
                         "Resolved certificate issue",
@@ -383,7 +383,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.48",
-                    "date": "2023.09.25 08:52",
+                    "date": "2023.09.25 07:52",
                     "file": "ucv-ext-appscan:2.0.48.tar.7z.001",
                     "notes": [
                         "<b>Feature Enhancement:</b> sync new scan from lastSyncDate for any application"
@@ -397,7 +397,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.48",
-                    "date": "2023.09.25 08:52",
+                    "date": "2023.09.25 07:52",
                     "file": "ucv-ext-appscan:2.0.48.tar.7z.002",
                     "notes": [
                         "<b>Feature Enhancement:</b> sync new scan from lastSyncDate for any application"
@@ -411,7 +411,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.51",
-                    "date": "2024.04.04 06:34",
+                    "date": "2024.04.04 05:34",
                     "file": "ucv-ext-appscan:2.0.51.tar.7z.001",
                     "notes": [
                         "<b>Bug Fix:</b> In earlier version of plugin data into HCL AppScan Enterprise Issues metrics was not showing in VSM."
@@ -425,7 +425,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.51",
-                    "date": "2024.04.04 06:34",
+                    "date": "2024.04.04 05:34",
                     "file": "ucv-ext-appscan:2.0.51.tar.7z.002",
                     "notes": [
                         "<b>Bug Fix:</b> In earlier version of plugin data into HCL AppScan Enterprise Issues metrics was not showing in VSM."
@@ -485,7 +485,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.18",
-                    "date": "2020.12.02 03:25",
+                    "date": "2020.12.02 01:25",
                     "file": "ucv-ext-asoc-1.0.18.tar.zip",
                     "notes": [
                         "Plugin name update"
@@ -499,7 +499,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.23",
-                    "date": "2021.05.03 11:41",
+                    "date": "2021.05.03 10:41",
                     "file": "ucv-ext-asoc-1.0.23.tar.zip",
                     "notes": [
                         "Removed IBM related keywords"
@@ -513,7 +513,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.24",
-                    "date": "2021.07.02 05:23",
+                    "date": "2021.07.02 04:23",
                     "file": "ucv-ext-asoc-1.0.24.tar.zip",
                     "notes": [
                         "Proxy support added"
@@ -527,7 +527,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.1",
-                    "date": "2021.08.03 06:49",
+                    "date": "2021.08.03 05:49",
                     "file": "ucv-ext-asoc-2.0.1.tar.zip",
                     "notes": [
                         "enabling webhook support and pulling historic data"
@@ -541,7 +541,7 @@
                 {
                     "version": "3",
                     "semver": "3.0.5",
-                    "date": "2022.01.28 15:58",
+                    "date": "2022.01.28 13:58",
                     "file": "ucv-ext-asoc-3.0.5.tar.zip",
                     "notes": [
                         "Auto-generated user access key related changes"
@@ -555,7 +555,7 @@
                 {
                     "version": "3",
                     "semver": "3.0.9",
-                    "date": "2022.05.24 03:48",
+                    "date": "2022.05.24 02:48",
                     "file": "ucv-ext-asoc.3.0.9.tar.zip",
                     "notes": [
                         "Reduced Vulnerabilities"
@@ -569,7 +569,7 @@
                 {
                     "version": "3",
                     "semver": "3.0.11",
-                    "date": "2022.07.07 02:37",
+                    "date": "2022.07.07 01:37",
                     "file": "ucv-ext-asoc:3.0.11.tar",
                     "notes": [
                         "Fix for Changed API"
@@ -583,7 +583,7 @@
                 {
                     "version": "3",
                     "semver": "3.0.12",
-                    "date": "2022.09.13 04:18",
+                    "date": "2022.09.13 03:18",
                     "file": "ucv-ext-asoc:3.0.12.tar.7z.001",
                     "notes": [
                         "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
@@ -601,7 +601,7 @@
                 {
                     "version": "3",
                     "semver": "3.0.16",
-                    "date": "2022.12.15 13:09",
+                    "date": "2022.12.15 11:09",
                     "file": "ucv-ext-asoc:3.0.16.tar.7z.001",
                     "notes": [
                         "Segregated Static scan and Dynamic scan data"
@@ -615,7 +615,7 @@
                 {
                     "version": "3",
                     "semver": "3.0.19",
-                    "date": "2023.03.10 13:35",
+                    "date": "2023.03.10 11:35",
                     "file": "ucv-ext-asoc-3.0.1.tar.zip",
                     "notes": [
                         "The Older Version of ASoC Plugin was not reporting critical issues"
@@ -629,7 +629,7 @@
                 {
                     "version": "3",
                     "semver": "3.0.19",
-                    "date": "2023.03.10 13:35",
+                    "date": "2023.03.10 11:35",
                     "file": "ucv-ext-asoc:3.0.19.tar.7z.001",
                     "notes": [
                         "The Older Version of ASoC Plugin was not reporting critical issues"
@@ -643,7 +643,7 @@
                 {
                     "version": "3",
                     "semver": "3.0.25",
-                    "date": "2024.11.20 03:51",
+                    "date": "2024.11.20 01:51",
                     "file": "ucv-ext-asoc:3.0.25.tar.7z.001",
                     "notes": [
                         "Upgraded plugin to support ASOC API version from V2 to V4, as V2 API are deprecated by ASOC"
@@ -657,7 +657,7 @@
                 {
                     "version": "3",
                     "semver": "3.0.25",
-                    "date": "2024.11.20 03:51",
+                    "date": "2024.11.20 01:51",
                     "file": "ucv-ext-asoc:3.0.25.tar.7z.002",
                     "notes": [
                         "Upgraded plugin to support ASOC API version from V2 to V4, as V2 API are deprecated by ASOC"
@@ -717,7 +717,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.4",
-                    "date": "2020.10.19 06:48",
+                    "date": "2020.10.19 05:48",
                     "file": "ucv-ext-azure-2.0.4.tar.zip",
                     "notes": [
                         "bug fixes for issues in sync deployments"
@@ -731,7 +731,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.14",
-                    "date": "2021.05.03 11:27",
+                    "date": "2021.05.03 10:27",
                     "file": "ucv-ext-azure-2.0.14.tar.zip",
                     "notes": [
                         "Removed IBM related keywords"
@@ -745,7 +745,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.17",
-                    "date": "2021.06.23 03:59",
+                    "date": "2021.06.23 02:59",
                     "file": "ucv-ext-azure-2.0.17.tar.zip",
                     "notes": [
                         "Performance Improvement"
@@ -759,7 +759,7 @@
                 {
                     "version": "3",
                     "semver": "3.0.1",
-                    "date": "2021.07.02 12:15",
+                    "date": "2021.07.02 11:15",
                     "file": "ucv-ext-azure-3.0.1.tar.zip",
                     "notes": [
                         "Added Deployment Orchestration Support for Azure Release pipeline"
@@ -773,7 +773,7 @@
                 {
                     "version": "4",
                     "semver": "4.0.15",
-                    "date": "2021.12.01 15:19",
+                    "date": "2021.12.01 13:19",
                     "file": "ucv-ext-azure-4.0.15.tar.zip",
                     "notes": [
                         "Adding Logger and ucv functionality"
@@ -787,7 +787,7 @@
                 {
                     "version": "4",
                     "semver": "4.0.16",
-                    "date": "2021.12.03 12:11",
+                    "date": "2021.12.03 10:11",
                     "file": "ucv-ext-azure-4.0.1.tar.zip",
                     "notes": [
                         "UAK Changes"
@@ -801,7 +801,7 @@
                 {
                     "version": "4",
                     "semver": "4.0.16",
-                    "date": "2021.12.03 12:11",
+                    "date": "2021.12.03 10:11",
                     "file": "ucv-ext-azure-4.0.16.tar.zip",
                     "notes": [
                         "UAK Changes"
@@ -815,7 +815,7 @@
                 {
                     "version": "4",
                     "semver": "4.0.26",
-                    "date": "2022.03.08 12:10",
+                    "date": "2022.03.08 10:10",
                     "file": "ucv-ext-azure-4.0.26.tar.zip",
                     "notes": [
                         "User Access Key Related Changes"
@@ -829,7 +829,7 @@
                 {
                     "version": "4",
                     "semver": "4.0.37",
-                    "date": "2022.09.29 07:54",
+                    "date": "2022.09.29 06:54",
                     "file": "ucv-ext-azure:4.0.37.tar.7z.001",
                     "notes": [
                         "Minor Enhancements",
@@ -844,7 +844,7 @@
                 {
                     "version": "4",
                     "semver": "4.0.38",
-                    "date": "2022.10.10 04:03",
+                    "date": "2022.10.10 03:03",
                     "file": "ucv-ext-azure-4.0.3.tar.zip",
                     "notes": [
                         "Minor Enhancements"
@@ -858,7 +858,7 @@
                 {
                     "version": "4",
                     "semver": "4.0.38",
-                    "date": "2022.10.10 04:03",
+                    "date": "2022.10.10 03:03",
                     "file": "ucv-ext-azure:4.0.38.tar.7z.001",
                     "notes": [
                         "Minor Enhancements"
@@ -872,7 +872,7 @@
                 {
                     "version": "4",
                     "semver": "4.0.40",
-                    "date": "2023.02.16 04:58",
+                    "date": "2023.02.16 02:58",
                     "file": "ucv-ext-azure:4.0.40.tar.7z.001",
                     "notes": [
                         "<b>Minor Bug Fix</b>"
@@ -886,7 +886,7 @@
                 {
                     "version": "4",
                     "semver": "4.0.40",
-                    "date": "2023.02.16 04:58",
+                    "date": "2023.02.16 02:58",
                     "file": "ucv-ext-azure:4.0.40.tar.7z.002",
                     "notes": [
                         "<b>Minor Bug Fix</b>"
@@ -900,7 +900,7 @@
                 {
                     "version": "4",
                     "semver": "4.0.43",
-                    "date": "2024.06.21 08:01",
+                    "date": "2024.06.21 07:01",
                     "file": "ucv-ext-azure:4.0.43.tar.7z.001",
                     "notes": [
                         "Uploading builds with respect to branch",
@@ -916,7 +916,7 @@
                 {
                     "version": "4",
                     "semver": "4.0.43",
-                    "date": "2024.06.21 08:01",
+                    "date": "2024.06.21 07:01",
                     "file": "ucv-ext-azure:4.0.43.tar.7z.002",
                     "notes": [
                         "Uploading builds with respect to branch",
@@ -932,7 +932,7 @@
                 {
                     "version": "4",
                     "semver": "4.0.44",
-                    "date": "2024.07.05 06:22",
+                    "date": "2024.07.05 05:22",
                     "file": "ucv-ext-azure:4.0.44.tar.7z.001",
                     "notes": [
                         "Upload builds based on the repository."
@@ -946,7 +946,7 @@
                 {
                     "version": "4",
                     "semver": "4.0.44",
-                    "date": "2024.07.05 06:22",
+                    "date": "2024.07.05 05:22",
                     "file": "ucv-ext-azure:4.0.44.tar.7z.002",
                     "notes": [
                         "Upload builds based on the repository."
@@ -960,7 +960,7 @@
                 {
                     "version": "4",
                     "semver": "4.0.45",
-                    "date": "2025.01.06 07:40",
+                    "date": "2025.01.06 05:40",
                     "file": "ucv-ext-azure:4.0.45.tar.7z.001",
                     "notes": [
                         "Implemented context-less application, enhanced performance, and removed unnecessary VSM history for improved efficiency"
@@ -974,7 +974,7 @@
                 {
                     "version": "4",
                     "semver": "4.0.45",
-                    "date": "2025.01.06 07:40",
+                    "date": "2025.01.06 05:40",
                     "file": "ucv-ext-azure:4.0.45.tar.7z.002",
                     "notes": [
                         "Implemented context-less application, enhanced performance, and removed unnecessary VSM history for improved efficiency"
@@ -1076,7 +1076,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.7",
-                    "date": "2021.05.26 11:58",
+                    "date": "2021.05.26 10:58",
                     "file": "ucv-ext-bitbucket-cloud-1.0.7.tar.zip",
                     "notes": [
                         "Initial Release"
@@ -1090,7 +1090,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.8",
-                    "date": "2021.08.09 04:33",
+                    "date": "2021.08.09 03:33",
                     "file": "ucv-ext-bitbucket-cloud-1.0.8.tar.zip",
                     "notes": [
                         "Auto-generated UAK update"
@@ -1104,7 +1104,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.15",
-                    "date": "2022.02.23 06:15",
+                    "date": "2022.02.23 04:15",
                     "file": "ucv-ext-bitbucket-cloud-1.0.15.tar.zip",
                     "notes": [
                         "UAK Related Changes"
@@ -1118,7 +1118,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.16",
-                    "date": "2022.03.25 12:38",
+                    "date": "2022.03.25 10:38",
                     "file": "ucv-ext-bitbucket-cloud-1.0.16.tar.zip",
                     "notes": [
                         "Removed repoSlug and projectName field",
@@ -1134,7 +1134,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.22",
-                    "date": "2022.06.07 02:01",
+                    "date": "2022.06.07 01:01",
                     "file": "ucv-ext-bitbucket-cloud:1.0.22.tar.7z.001",
                     "notes": [
                         "reduced vulnerability"
@@ -1148,7 +1148,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.26",
-                    "date": "2022.09.23 09:03",
+                    "date": "2022.09.23 08:03",
                     "file": "ucv-ext-bitbucket-cloud:1.0.26.tar.7z.001",
                     "notes": [
                         "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
@@ -1163,7 +1163,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.29",
-                    "date": "2022.12.27 11:01",
+                    "date": "2022.12.27 09:01",
                     "file": "ucv-ext-bitbucket-cloud:1.0.29.tar.7z.001",
                     "notes": [
                         "<b>Initial Sync Date Field Added: </b>Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync."
@@ -1223,7 +1223,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.22",
-                    "date": "2020.03.02 17:00",
+                    "date": "2020.03.02 15:00",
                     "file": "ucv-ext-bitbucket-server-1.0.22.tar.zip",
                     "notes": [
                         "Retrieve commits from non-default branch."
@@ -1237,7 +1237,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.23",
-                    "date": "2020.12.18 14:31",
+                    "date": "2020.12.18 12:31",
                     "file": "ucv-ext-bitbucket-server-1.0.23.tar.zip",
                     "notes": [
                         "Bug Fix"
@@ -1251,7 +1251,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.42",
-                    "date": "2021.06.22 09:49",
+                    "date": "2021.06.22 08:49",
                     "file": "ucv-ext-bitbucket-server-1.0.42.tar.zip",
                     "notes": [
                         "Added support to pull commits from multiple additional branches"
@@ -1265,7 +1265,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.5",
-                    "date": "2022.01.10 05:40",
+                    "date": "2022.01.10 03:40",
                     "file": "ucv-ext-bitbucket-server-1.1.5.tar.zip",
                     "notes": [
                         "Multiple Repository Support",
@@ -1280,7 +1280,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.12",
-                    "date": "2022.03.10 05:39",
+                    "date": "2022.03.10 03:39",
                     "file": "ucv-ext-bitbucket-server-1.1.12.tar.zip",
                     "notes": [
                         "Enhancements done to the UI fields"
@@ -1294,7 +1294,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.16",
-                    "date": "2022.03.28 17:53",
+                    "date": "2022.03.28 16:53",
                     "file": "ucv-ext-bitbucket-server-1.1.16.tar.zip",
                     "notes": [
                         "Reducing vulnerabilities"
@@ -1308,7 +1308,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.22",
-                    "date": "2022.08.17 07:45",
+                    "date": "2022.08.17 06:45",
                     "file": "ucv-ext-bitbucket-server:1.1.22.tar.7z.001",
                     "notes": [
                         "Rate limiting and resync implementation"
@@ -1322,7 +1322,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.23",
-                    "date": "2022.09.23 07:17",
+                    "date": "2022.09.23 06:17",
                     "file": "ucv-ext-bitbucket-server:1.1.23.tar.7z.001",
                     "notes": [
                         "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
@@ -1337,7 +1337,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.24",
-                    "date": "2022.10.28 04:20",
+                    "date": "2022.10.28 03:20",
                     "file": "ucv-ext-bitbucket-server:1.1.24.tar.7z.001",
                     "notes": [
                         "<b>Initial Sync Date Field Added: </b>Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync.",
@@ -1357,7 +1357,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.26",
-                    "date": "2022.11.08 05:53",
+                    "date": "2022.11.08 03:53",
                     "file": "ucv-ext-bitbucket-server:1.1.26.tar.7z.001",
                     "notes": [
                         "<b>Added Regular Expression for Additional branch</b>"
@@ -1417,7 +1417,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.4",
-                    "date": "2020.09.29 05:18",
+                    "date": "2020.09.29 04:18",
                     "file": "ucv-ext-blackduck-1.0.4.tar.zip",
                     "notes": [
                         "Added build URL to link scan results with VSM"
@@ -1431,7 +1431,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.17",
-                    "date": "2022.01.28 06:32",
+                    "date": "2022.01.28 04:32",
                     "file": "ucv-ext-blackduck-1.0.17.tar.zip",
                     "notes": [
                         "User Access Key Related Changes"
@@ -1491,7 +1491,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.1",
-                    "date": "2020.10.16 13:19",
+                    "date": "2020.10.16 12:19",
                     "file": "ucv-ext-bottleneck-detection-1.0.1.tar.7z.001",
                     "notes": [
                         "Bug fix"
@@ -1505,7 +1505,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.1",
-                    "date": "2020.10.16 13:19",
+                    "date": "2020.10.16 12:19",
                     "file": "ucv-ext-bottleneck-detection-1.0.1.tar.7z.002",
                     "notes": [
                         "Bug fix"
@@ -1519,7 +1519,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.1",
-                    "date": "2020.10.16 13:19",
+                    "date": "2020.10.16 12:19",
                     "file": "ucv-ext-bottleneck-detection-1.0.1.tar.txt",
                     "notes": [
                         "Bug fix"
@@ -1533,7 +1533,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.2",
-                    "date": "2020.12.08 06:31",
+                    "date": "2020.12.08 04:31",
                     "file": "ucv-ext-bottleneck-detection-1.0.2.tar.7z.001",
                     "notes": [
                         "Enhancement"
@@ -1547,7 +1547,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.2",
-                    "date": "2020.12.08 06:31",
+                    "date": "2020.12.08 04:31",
                     "file": "ucv-ext-bottleneck-detection-1.0.2.tar.7z.002",
                     "notes": [
                         "Enhancement"
@@ -1561,7 +1561,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.2",
-                    "date": "2020.12.08 06:31",
+                    "date": "2020.12.08 04:31",
                     "file": "ucv-ext-bottleneck-detection-1.0.2.tar.7z.003",
                     "notes": [
                         "Enhancement"
@@ -1575,7 +1575,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.2",
-                    "date": "2020.12.08 06:31",
+                    "date": "2020.12.08 04:31",
                     "file": "ucv-ext-bottleneck-detection-1.0.2.tar.txt",
                     "notes": [
                         "Enhancement"
@@ -1589,7 +1589,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.2",
-                    "date": "2020.12.08 06:31",
+                    "date": "2020.12.08 04:31",
                     "file": "ucv-ext-bottleneck-detection:1.0.2.tar.7z.001",
                     "notes": [
                         "Enhancement"
@@ -1603,7 +1603,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.2",
-                    "date": "2020.12.08 06:31",
+                    "date": "2020.12.08 04:31",
                     "file": "ucv-ext-bottleneck-detection:1.0.2.tar.7z.002",
                     "notes": [
                         "Enhancement"
@@ -1617,7 +1617,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.2",
-                    "date": "2020.12.08 06:31",
+                    "date": "2020.12.08 04:31",
                     "file": "ucv-ext-bottleneck-detection:1.0.2.tar.7z.003",
                     "notes": [
                         "Enhancement"
@@ -1631,7 +1631,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.2",
-                    "date": "2020.12.08 06:31",
+                    "date": "2020.12.08 04:31",
                     "file": "ucv-ext-bottleneck-detection:1.0.2.tar.7z.004",
                     "notes": [
                         "Enhancement"
@@ -1645,7 +1645,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.2",
-                    "date": "2020.12.08 06:31",
+                    "date": "2020.12.08 04:31",
                     "file": "ucv-ext-bottleneck-detection:1.0.2.tar.7z.005",
                     "notes": [
                         "Enhancement"
@@ -1659,7 +1659,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.2",
-                    "date": "2020.12.08 06:31",
+                    "date": "2020.12.08 04:31",
                     "file": "ucv-ext-bottleneck-detection:1.0.2.tar.7z.006",
                     "notes": [
                         "Enhancement"
@@ -1673,7 +1673,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2024.03.13 12:06",
+                    "date": "2024.03.13 10:06",
                     "file": "ucv-ext-bottleneck-detection:1.0.3.tar.7z.001",
                     "notes": [
                         "<b>Removed Manual User Access Key:</b>From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
@@ -1688,7 +1688,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2024.03.13 12:06",
+                    "date": "2024.03.13 10:06",
                     "file": "ucv-ext-bottleneck-detection:1.0.3.tar.7z.002",
                     "notes": [
                         "<b>Removed Manual User Access Key:</b>From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
@@ -1703,7 +1703,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2024.03.13 12:06",
+                    "date": "2024.03.13 10:06",
                     "file": "ucv-ext-bottleneck-detection:1.0.3.tar.7z.003",
                     "notes": [
                         "<b>Removed Manual User Access Key:</b>From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
@@ -1718,7 +1718,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2024.03.13 12:06",
+                    "date": "2024.03.13 10:06",
                     "file": "ucv-ext-bottleneck-detection:1.0.3.tar.7z.004",
                     "notes": [
                         "<b>Removed Manual User Access Key:</b>From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
@@ -1733,7 +1733,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2024.03.13 12:06",
+                    "date": "2024.03.13 10:06",
                     "file": "ucv-ext-bottleneck-detection:1.0.3.tar.7z.005",
                     "notes": [
                         "<b>Removed Manual User Access Key:</b>From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
@@ -1748,7 +1748,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2024.03.13 12:06",
+                    "date": "2024.03.13 10:06",
                     "file": "ucv-ext-bottleneck-detection:1.0.3.tar.7z.006",
                     "notes": [
                         "<b>Removed Manual User Access Key:</b>From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
@@ -1842,7 +1842,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.16",
-                    "date": "2022.03.01 08:00",
+                    "date": "2022.03.01 06:00",
                     "file": "ucv-ext-circleci-1.0.16.tar.zip",
                     "notes": [
                         "User Access Key Related Changes"
@@ -1856,7 +1856,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.22",
-                    "date": "2022.08.11 13:43",
+                    "date": "2022.08.11 12:43",
                     "file": "ucv-ext-circleci:1.0.22.tar.7z.001",
                     "notes": [
                         "Clarifying delimitation problem for properties used"
@@ -1870,7 +1870,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.24",
-                    "date": "2022.12.27 07:54",
+                    "date": "2022.12.27 05:54",
                     "file": "ucv-ext-circleci:1.0.24.tar.7z.001",
                     "notes": [
                         "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
@@ -1933,7 +1933,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.2",
-                    "date": "2024.10.21 08:29",
+                    "date": "2024.10.21 07:29",
                     "file": "ucv-ext-control:1.0.2.tar.7z.001",
                     "notes": [
                         "Initial Release for DevOps Control Plugin"
@@ -1947,7 +1947,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.2",
-                    "date": "2024.10.21 08:29",
+                    "date": "2024.10.21 07:29",
                     "file": "ucv-ext-control:1.0.2.tar.7z.002",
                     "notes": [
                         "Initial Release for DevOps Control Plugin"
@@ -1961,7 +1961,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.4",
-                    "date": "2024.12.23 05:51",
+                    "date": "2024.12.23 03:51",
                     "file": "ucv-ext-control:1.0.4.tar.7z.001",
                     "notes": [
                         "<b>Rebranding</b>: Name of the plugin is changed from Control to DevOps Control."
@@ -1975,7 +1975,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.4",
-                    "date": "2024.12.23 05:51",
+                    "date": "2024.12.23 03:51",
                     "file": "ucv-ext-control:1.0.4.tar.7z.002",
                     "notes": [
                         "<b>Rebranding</b>: Name of the plugin is changed from Control to DevOps Control."
@@ -1989,7 +1989,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.5",
-                    "date": "2025.03.25 04:44",
+                    "date": "2025.03.25 02:44",
                     "file": "ucv-ext-control:1.0.5.tar.7z.001",
                     "notes": [
                         "<b>Bug fix</b>: APIs for retrieving pull request comments and event timelines have been re-enabled, restoring functionality for the pull request schedule event in the Control plug-in."
@@ -2003,7 +2003,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.5",
-                    "date": "2025.03.25 04:44",
+                    "date": "2025.03.25 02:44",
                     "file": "ucv-ext-control:1.0.5.tar.7z.002",
                     "notes": [
                         "<b>Bug fix</b>: APIs for retrieving pull request comments and event timelines have been re-enabled, restoring functionality for the pull request schedule event in the Control plug-in."
@@ -2063,7 +2063,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.30",
-                    "date": "2020.12.03 04:27",
+                    "date": "2020.12.03 02:27",
                     "file": "ucv-ext-coverage-core-1.0.30.tar.zip",
                     "notes": [
                         "Plugin name update"
@@ -2077,7 +2077,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.42",
-                    "date": "2024.05.09 09:33",
+                    "date": "2024.05.09 08:33",
                     "file": "ucv-ext-coverage-core:1.0.42.tar.7z.001",
                     "notes": [
                         "<b>Feature enhancement</b>: Now core coverage plugin accepts user defined record name and dataset name in payload while hitting post call/curl command. If values are not provided by user it will accept default values given by the plugin."
@@ -2091,7 +2091,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.42",
-                    "date": "2024.05.09 09:33",
+                    "date": "2024.05.09 08:33",
                     "file": "ucv-ext-coverage-core:1.0.42.tar.7z.002",
                     "notes": [
                         "<b>Feature enhancement</b>: Now core coverage plugin accepts user defined record name and dataset name in payload while hitting post call/curl command. If values are not provided by user it will accept default values given by the plugin."
@@ -2105,7 +2105,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.44",
-                    "date": "2024.11.04 06:26",
+                    "date": "2024.11.04 04:26",
                     "file": "ucv-ext-coverage-core:1.0.44.tar.7z.001",
                     "notes": [
                         "fixed issue for Code Coverage plugin not supporting clover xml format"
@@ -2119,7 +2119,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.44",
-                    "date": "2024.11.04 06:26",
+                    "date": "2024.11.04 04:26",
                     "file": "ucv-ext-coverage-core:1.0.44.tar.7z.002",
                     "notes": [
                         "fixed issue for Code Coverage plugin not supporting clover xml format"
@@ -2179,7 +2179,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.7",
-                    "date": "2020.12.03 11:41",
+                    "date": "2020.12.03 09:41",
                     "file": "ucv-ext-cucumber-1.0.7.tar.zip",
                     "notes": [
                         "Plugin name update"
@@ -2193,7 +2193,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.8",
-                    "date": "2021.01.15 05:33",
+                    "date": "2021.01.15 03:33",
                     "file": "ucv-ext-cucumber-1.0.8.tar.zip",
                     "notes": [
                         "Multiple Test Suites Support"
@@ -2207,7 +2207,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.39",
-                    "date": "2024.06.11 07:09",
+                    "date": "2024.06.11 06:09",
                     "file": "ucv-ext-cucumber:1.0.39.tar.7z.001",
                     "notes": [
                         "npm wrapper version update for Argo Replacement"
@@ -2221,7 +2221,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.39",
-                    "date": "2024.06.11 07:09",
+                    "date": "2024.06.11 06:09",
                     "file": "ucv-ext-cucumber:1.0.39.tar.7z.002",
                     "notes": [
                         "npm wrapper version update for Argo Replacement"
@@ -2281,7 +2281,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.1",
-                    "date": "2024.08.14 16:50",
+                    "date": "2024.08.14 15:50",
                     "file": "ucv-ext-cypress:1.0.1.tar.7z.001",
                     "notes": [
                         "Implemented Parsing for Cypress XML and JSON formats"
@@ -2295,7 +2295,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.1",
-                    "date": "2024.08.14 16:50",
+                    "date": "2024.08.14 15:50",
                     "file": "ucv-ext-cypress:1.0.1.tar.7z.002",
                     "notes": [
                         "Implemented Parsing for Cypress XML and JSON formats"
@@ -2355,7 +2355,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.2",
-                    "date": "2022.04.18 06:19",
+                    "date": "2022.04.18 05:19",
                     "file": "ucv-ext-dependabot:1.0.2.tar.7z.001",
                     "notes": [
                         "Syncs with GitHub Plugin to get Dependency Vulnerabilities",
@@ -2419,7 +2419,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.2",
-                    "date": "2020.03.13 15:11",
+                    "date": "2020.03.13 13:11",
                     "file": "ucv-ext-ewm-1.0.2.tar.zip",
                     "notes": [
                         "Initial Release"
@@ -2433,7 +2433,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.15",
-                    "date": "2022.02.23 08:32",
+                    "date": "2022.02.23 06:32",
                     "file": "ucv-ext-ewm-1.1.15.tar.zip",
                     "notes": [
                         "Debug Logs Added",
@@ -2451,7 +2451,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.27",
-                    "date": "2022.07.18 03:20",
+                    "date": "2022.07.18 02:20",
                     "file": "ucv-ext-ewm:1.1.27.tar",
                     "notes": [
                         "Added change sets related data to history section of VSM dot."
@@ -2465,7 +2465,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.32",
-                    "date": "2024.08.14 06:47",
+                    "date": "2024.08.14 05:47",
                     "file": "ucv-ext-ewm:1.1.32.tar.7z.001",
                     "notes": [
                         "Fixed an issue where invalid date formats were causing errors in date processing due to a change in the EWM API date format."
@@ -2479,7 +2479,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.32",
-                    "date": "2024.08.14 06:47",
+                    "date": "2024.08.14 05:47",
                     "file": "ucv-ext-ewm:1.1.32.tar.7z.002",
                     "notes": [
                         "Fixed an issue where invalid date formats were causing errors in date processing due to a change in the EWM API date format."
@@ -2493,7 +2493,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.32",
-                    "date": "2024.08.14 06:47",
+                    "date": "2024.08.14 05:47",
                     "file": "ucv-ext-ewm:1.1.32.tar.7z.003",
                     "notes": [
                         "Fixed an issue where invalid date formats were causing errors in date processing due to a change in the EWM API date format."
@@ -2553,7 +2553,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.19",
-                    "date": "2022.09.21 23:33",
+                    "date": "2022.09.21 22:33",
                     "file": "ucv-ext-fortify-ssc-1.0.1.tar.zip",
                     "notes": [
                         "<b>Added WorkflowId:</b> Under the hidden properties section of add integration page for the plugin a Workflow ID field is added. This field is optional and can be used to provide WorkflowId - the ID of a Value Stream (VSM )to which the vulnerability data is associated."
@@ -2567,7 +2567,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.19",
-                    "date": "2022.09.21 23:33",
+                    "date": "2022.09.21 22:33",
                     "file": "ucv-ext-fortify-ssc:1.0.19.tar.7z.001",
                     "notes": [
                         "<b>Added WorkflowId:</b> Under the hidden properties section of add integration page for the plugin a Workflow ID field is added. This field is optional and can be used to provide WorkflowId - the ID of a Value Stream (VSM )to which the vulnerability data is associated."
@@ -2649,7 +2649,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.40",
-                    "date": "2020.11.11 06:30",
+                    "date": "2020.11.11 04:30",
                     "file": "ucv-ext-github-1.0.40.tar.zip",
                     "notes": [
                         "Added GitHub Issues"
@@ -2663,7 +2663,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.42",
-                    "date": "2021.03.16 05:22",
+                    "date": "2021.03.16 03:22",
                     "file": "ucv-ext-github-1.0.42.tar.zip",
                     "notes": [
                         "Pull commit data from non master branch"
@@ -2677,7 +2677,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.49",
-                    "date": "2021.05.10 06:24",
+                    "date": "2021.05.10 05:24",
                     "file": "ucv-ext-github-1.0.49.tar.zip",
                     "notes": [
                         "Added history for issues"
@@ -2691,7 +2691,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.9",
-                    "date": "2021.07.14 09:20",
+                    "date": "2021.07.14 08:20",
                     "file": "ucv-ext-github-1.1.9.tar.zip",
                     "notes": [
                         "Bug fix"
@@ -2705,7 +2705,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.15",
-                    "date": "2021.07.23 10:15",
+                    "date": "2021.07.23 09:15",
                     "file": "ucv-ext-github-1.1.15.tar.zip",
                     "notes": [
                         "Labels bug fix"
@@ -2719,7 +2719,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.18",
-                    "date": "2021.08.11 05:02",
+                    "date": "2021.08.11 04:02",
                     "file": "ucv-ext-github-1.1.1.tar.zip",
                     "notes": [
                         "Auto-generated User Access Key support added",
@@ -2734,7 +2734,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.18",
-                    "date": "2021.08.11 05:02",
+                    "date": "2021.08.11 04:02",
                     "file": "ucv-ext-github-1.1.18.tar.zip",
                     "notes": [
                         "Auto-generated User Access Key support added",
@@ -2749,7 +2749,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.20",
-                    "date": "2021.08.19 10:39",
+                    "date": "2021.08.19 09:39",
                     "file": "ucv-ext-github-1.1.20.tar.zip",
                     "notes": [
                         "Bug fix: UAK support for older versions"
@@ -2763,7 +2763,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.22",
-                    "date": "2021.12.03 05:25",
+                    "date": "2021.12.03 03:25",
                     "file": "ucv-ext-github-1.1.22.tar.zip",
                     "notes": [
                         "UAK Changes"
@@ -2777,7 +2777,7 @@
                 {
                     "version": "1",
                     "semver": "1.2.24",
-                    "date": "2022.01.28 14:03",
+                    "date": "2022.01.28 12:03",
                     "file": "ucv-ext-github-1.2.24.tar.zip",
                     "notes": [
                         "Primary and secondary API rate limit fix",
@@ -2796,7 +2796,7 @@
                 {
                     "version": "1",
                     "semver": "1.2.25",
-                    "date": "2022.02.28 15:39",
+                    "date": "2022.02.28 13:39",
                     "file": "ucv-ext-github-1.2.25.tar.zip",
                     "notes": [
                         "Global Initial Sync date feature"
@@ -2810,7 +2810,7 @@
                 {
                     "version": "1",
                     "semver": "1.3.34",
-                    "date": "2022.09.23 05:53",
+                    "date": "2022.09.23 04:53",
                     "file": "ucv-ext-github:1.3.34.tar.7z.001",
                     "notes": [
                         "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
@@ -2825,7 +2825,7 @@
                 {
                     "version": "1",
                     "semver": "1.3.35",
-                    "date": "2022.10.26 04:38",
+                    "date": "2022.10.26 03:38",
                     "file": "ucv-ext-github:1.3.35.tar.7z.001",
                     "notes": [],
                     "supports": "4.0.0",
@@ -2837,7 +2837,7 @@
                 {
                     "version": "1",
                     "semver": "1.3.46",
-                    "date": "2023.05.09 17:05",
+                    "date": "2023.05.09 16:05",
                     "file": "ucv-ext-github:1.3.46.tar.7z.001",
                     "notes": [
                         "<b>Bug fix:</b> Previous version was failing for upload commit of large size."
@@ -2851,7 +2851,7 @@
                 {
                     "version": "1",
                     "semver": "1.4.5",
-                    "date": "2023.06.05 06:32",
+                    "date": "2023.06.05 05:32",
                     "file": "ucv-ext-github:1.4.5.tar.7z.001",
                     "notes": [
                         "<b>Feature:</b> Syncing Yaml files from different repositories"
@@ -2865,7 +2865,7 @@
                 {
                     "version": "1",
                     "semver": "1.4.7",
-                    "date": "2023.09.08 10:45",
+                    "date": "2023.09.08 09:45",
                     "file": "ucv-ext-github:1.4.7.tar.7z.001",
                     "notes": [
                         "Wild Card feature for additional branches field in GitHub Plugin"
@@ -2879,7 +2879,7 @@
                 {
                     "version": "1",
                     "semver": "1.4.7",
-                    "date": "2023.09.08 10:45",
+                    "date": "2023.09.08 09:45",
                     "file": "ucv-ext-github:1.4.7.tar.7z.002",
                     "notes": [
                         "Wild Card feature for additional branches field in GitHub Plugin"
@@ -2893,7 +2893,7 @@
                 {
                     "version": "1",
                     "semver": "1.4.16",
-                    "date": "2023.11.15 10:54",
+                    "date": "2023.11.15 08:54",
                     "file": "ucv-ext-github:1.4.16.tar.7z.001",
                     "notes": [
                         "<b>Enhancement:</b> This enhancement modifies the plugins synchronization behavior following a failure. Previously, the plugin would resume syncing from the date of the last successful synchronization. Now, it has been updated to continue syncing commits, pull-requests, and issues from the point where it last synced before the failure. This change ensures more accurate and efficient data synchronization by reducing the likelihood of missing or duplicating data in cases where the plugin had partially synced before encountering an issue."
@@ -2907,7 +2907,7 @@
                 {
                     "version": "1",
                     "semver": "1.4.16",
-                    "date": "2023.11.15 10:54",
+                    "date": "2023.11.15 08:54",
                     "file": "ucv-ext-github:1.4.16.tar.7z.002",
                     "notes": [
                         "<b>Enhancement:</b> This enhancement modifies the plugins synchronization behavior following a failure. Previously, the plugin would resume syncing from the date of the last successful synchronization. Now, it has been updated to continue syncing commits, pull-requests, and issues from the point where it last synced before the failure. This change ensures more accurate and efficient data synchronization by reducing the likelihood of missing or duplicating data in cases where the plugin had partially synced before encountering an issue."
@@ -2921,7 +2921,7 @@
                 {
                     "version": "1",
                     "semver": "1.4.17",
-                    "date": "2024.07.23 10:55",
+                    "date": "2024.07.23 09:55",
                     "file": "ucv-ext-github:1.4.17.tar.7z.001",
                     "notes": [
                         "Fix Pull Request sync with the newest versions of the GitHub Api."
@@ -2935,7 +2935,7 @@
                 {
                     "version": "1",
                     "semver": "1.4.17",
-                    "date": "2024.07.23 10:55",
+                    "date": "2024.07.23 09:55",
                     "file": "ucv-ext-github:1.4.17.tar.7z.002",
                     "notes": [
                         "Fix Pull Request sync with the newest versions of the GitHub Api."
@@ -2949,7 +2949,7 @@
                 {
                     "version": "1",
                     "semver": "1.4.19",
-                    "date": "2024.09.06 06:02",
+                    "date": "2024.09.06 05:02",
                     "file": "ucv-ext-github:1.4.19.tar.7z.001",
                     "notes": [
                         "Our current version of GitHub (ucv-ext-github:1.4.19) only supports Velocity versions 5.0.8 and higher"
@@ -2963,7 +2963,7 @@
                 {
                     "version": "1",
                     "semver": "1.4.19",
-                    "date": "2024.09.06 06:02",
+                    "date": "2024.09.06 05:02",
                     "file": "ucv-ext-github:1.4.19.tar.7z.002",
                     "notes": [
                         "Our current version of GitHub (ucv-ext-github:1.4.19) only supports Velocity versions 5.0.8 and higher"
@@ -2977,7 +2977,7 @@
                 {
                     "version": "1",
                     "semver": "1.5.1",
-                    "date": "2024.12.19 08:31",
+                    "date": "2024.12.19 06:31",
                     "file": "ucv-ext-github:1.5.1.tar.7z.001",
                     "notes": [
                         "<b>Add description field to Pull Request</b>: Updated GitHub plugin to sync over PR description. In GitHubMapper function under mapGitPullRequests added description field (description: pr.bodyText).",
@@ -2992,7 +2992,7 @@
                 {
                     "version": "1",
                     "semver": "1.5.1",
-                    "date": "2024.12.19 08:31",
+                    "date": "2024.12.19 06:31",
                     "file": "ucv-ext-github:1.5.1.tar.7z.002",
                     "notes": [
                         "<b>Add description field to Pull Request</b>: Updated GitHub plugin to sync over PR description. In GitHubMapper function under mapGitPullRequests added description field (description: pr.bodyText).",
@@ -3053,7 +3053,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.7",
-                    "date": "2020.11.06 13:00",
+                    "date": "2020.11.06 11:00",
                     "file": "ucv-ext-gitlab-2.0.7.tar.zip",
                     "notes": [
                         "Pulls commit from non-master & included issues"
@@ -3067,7 +3067,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.8",
-                    "date": "2020.12.28 06:39",
+                    "date": "2020.12.28 04:39",
                     "file": "ucv-ext-gitlab-2.0.8.tar.zip",
                     "notes": [
                         "Added proxy support"
@@ -3081,7 +3081,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.9",
-                    "date": "2021.01.20 07:56",
+                    "date": "2021.01.20 05:56",
                     "file": "ucv-ext-gitlab-2.0.9.tar.zip",
                     "notes": [
                         "Added retry for errors"
@@ -3095,7 +3095,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.10",
-                    "date": "2021.01.22 10:55",
+                    "date": "2021.01.22 08:55",
                     "file": "ucv-ext-gitlab-2.0.10.tar.zip",
                     "notes": [
                         "Bug fix"
@@ -3109,7 +3109,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.15",
-                    "date": "2021.03.03 03:45",
+                    "date": "2021.03.03 01:45",
                     "file": "ucv-ext-gitlab-2.0.15.tar.zip",
                     "notes": [
                         "bug fixed"
@@ -3123,7 +3123,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.25",
-                    "date": "2021.05.04 03:12",
+                    "date": "2021.05.04 02:12",
                     "file": "ucv-ext-gitlab-2.0.25.tar.zip",
                     "notes": [
                         "Added history to Issues and PR"
@@ -3137,7 +3137,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.28",
-                    "date": "2021.06.30 07:46",
+                    "date": "2021.06.30 06:46",
                     "file": "ucv-ext-gitlab-2.0.28.tar.zip",
                     "notes": [
                         "Bug fix"
@@ -3151,7 +3151,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.30",
-                    "date": "2021.08.09 04:38",
+                    "date": "2021.08.09 03:38",
                     "file": "ucv-ext-gitlab-2.0.30.tar.zip",
                     "notes": [
                         "Auto-generated UAK update"
@@ -3165,7 +3165,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.31",
-                    "date": "2021.08.11 04:55",
+                    "date": "2021.08.11 03:55",
                     "file": "ucv-ext-gitlab-2.0.31.tar.zip",
                     "notes": [
                         "ReSync support added"
@@ -3179,7 +3179,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.32",
-                    "date": "2021.08.25 03:09",
+                    "date": "2021.08.25 02:09",
                     "file": "ucv-ext-gitlab-2.0.32.tar.zip",
                     "notes": [
                         "UAK support for older versions"
@@ -3193,7 +3193,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.36",
-                    "date": "2021.09.08 11:59",
+                    "date": "2021.09.08 10:59",
                     "file": "ucv-ext-gitlab-2.0.36.tar.zip",
                     "notes": [
                         "Support for priority using labels"
@@ -3207,7 +3207,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.37",
-                    "date": "2021.12.03 05:35",
+                    "date": "2021.12.03 03:35",
                     "file": "ucv-ext-gitlab-2.0.37.tar.zip",
                     "notes": [
                         "UAK Changes"
@@ -3221,7 +3221,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.50",
-                    "date": "2022.02.24 02:15",
+                    "date": "2022.02.24 00:15",
                     "file": "ucv-ext-gitlab-2.0.50.tar.zip",
                     "notes": [
                         "status value modified"
@@ -3235,7 +3235,7 @@
                 {
                     "version": "2",
                     "semver": "2.1.58",
-                    "date": "2022.09.13 09:00",
+                    "date": "2022.09.13 08:00",
                     "file": "ucv-ext-gitlab:2.1.58.tar.7z.001",
                     "notes": [
                         "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
@@ -3252,7 +3252,7 @@
                 {
                     "version": "2",
                     "semver": "2.1.62",
-                    "date": "2022.09.22 03:16",
+                    "date": "2022.09.22 02:16",
                     "file": "ucv-ext-gitlab:2.1.62.tar.7z.001",
                     "notes": [
                         "<b>Resolved 502 Bad Gateway Error:</b> Previous version of plugin was giving a 502 Bad Gateway error for GitLab Server."
@@ -3266,7 +3266,7 @@
                 {
                     "version": "2",
                     "semver": "2.1.63",
-                    "date": "2023.01.30 05:29",
+                    "date": "2023.01.30 03:29",
                     "file": "ucv-ext-gitlab:2.1.63.tar.7z.001",
                     "notes": [
                         "<b>Minor Bug Fix</b>: Previous version of plugin was giving <i>Cannot read property status of null</i> error."
@@ -3280,7 +3280,7 @@
                 {
                     "version": "2",
                     "semver": "2.2.66",
-                    "date": "2023.03.13 14:24",
+                    "date": "2023.03.13 12:24",
                     "file": "ucv-ext-gitlab:2.2.66.tar.7z.001",
                     "notes": [
                         "<b>Fix for Project Name Field</b>: Previous version of Gitlab plugin was not able to import data for some projects.",
@@ -3295,7 +3295,7 @@
                 {
                     "version": "2",
                     "semver": "2.2.68",
-                    "date": "2024.03.07 02:41",
+                    "date": "2024.03.07 00:41",
                     "file": "ucv-ext-gitlab:2.2.68.tar.7z.001",
                     "notes": [
                         "<b>Minor bug fix:</b> Dynamically getting type of Issue."
@@ -3309,7 +3309,7 @@
                 {
                     "version": "2",
                     "semver": "2.2.68",
-                    "date": "2024.03.07 02:41",
+                    "date": "2024.03.07 00:41",
                     "file": "ucv-ext-gitlab:2.2.68.tar.7z.002",
                     "notes": [
                         "<b>Minor bug fix:</b> Dynamically getting type of Issue."
@@ -3323,7 +3323,7 @@
                 {
                     "version": "2",
                     "semver": "2.2.69",
-                    "date": "2024.12.11 09:04",
+                    "date": "2024.12.11 07:04",
                     "file": "ucv-ext-gitlab:2.2.69.tar.7z.001",
                     "notes": [
                         "Bug fix: Fixed approvers/reviews data not present in the pullRequest data."
@@ -3337,7 +3337,7 @@
                 {
                     "version": "2",
                     "semver": "2.2.69",
-                    "date": "2024.12.11 09:04",
+                    "date": "2024.12.11 07:04",
                     "file": "ucv-ext-gitlab:2.2.69.tar.7z.002",
                     "notes": [
                         "Bug fix: Fixed approvers/reviews data not present in the pullRequest data."
@@ -3408,7 +3408,7 @@
                 {
                     "version": "0",
                     "semver": "0.0.6",
-                    "date": "2020.12.02 10:25",
+                    "date": "2020.12.02 08:25",
                     "file": "ucv-ext-handlebars-reporter-0.0.6.tar.zip",
                     "notes": [
                         "Enhancement"
@@ -3422,7 +3422,7 @@
                 {
                     "version": "0",
                     "semver": "0.0.17",
-                    "date": "2021.03.30 09:10",
+                    "date": "2021.03.30 08:10",
                     "file": "ucv-ext-handlebars-reporter-0.0.17.tar.7z",
                     "notes": [
                         "Release to upgrade the plugin with base image"
@@ -3436,7 +3436,7 @@
                 {
                     "version": "0",
                     "semver": "0.0.30",
-                    "date": "2021.05.17 03:02",
+                    "date": "2021.05.17 02:02",
                     "file": "ucv-ext-handlebars-reporter-0.0.30.tar.zip",
                     "notes": [
                         "Add DB Support for Seeded Reports"
@@ -3450,7 +3450,7 @@
                 {
                     "version": "0",
                     "semver": "0.0.38",
-                    "date": "2021.07.21 13:52",
+                    "date": "2021.07.21 12:52",
                     "file": "ucv-ext-handlebars-reporter-0.0.38.tar.zip",
                     "notes": [],
                     "supports": "",
@@ -3462,7 +3462,7 @@
                 {
                     "version": "0",
                     "semver": "0.0.39",
-                    "date": "2021.07.30 17:04",
+                    "date": "2021.07.30 16:04",
                     "file": "ucv-ext-handlebars-reporter-0.0.39.tar.zip",
                     "notes": [
                         "Fix missing scheduledEventFunction error"
@@ -3476,7 +3476,7 @@
                 {
                     "version": "0",
                     "semver": "0.0.41",
-                    "date": "2021.11.01 21:33",
+                    "date": "2021.11.01 19:33",
                     "file": "ucv-ext-handlebars-reporter-0.0.41.tar.zip",
                     "notes": [
                         "Updated API Client for major product release."
@@ -3490,7 +3490,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.1",
-                    "date": "2022.11.18 14:06",
+                    "date": "2022.11.18 12:06",
                     "file": "ucv-ext-handlebars-reporter:2.0.1.tar.7z.001",
                     "notes": [
                         "Remove required UAK in favor of dynamically generated UAK"
@@ -3550,7 +3550,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.1",
-                    "date": "2023.03.31 15:21",
+                    "date": "2023.03.31 14:21",
                     "file": "ucv-ext-jenkins:1.0.1.tar.7z.001",
                     "notes": [
                         "Public release."
@@ -3564,7 +3564,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.4",
-                    "date": "2023.04.05 16:19",
+                    "date": "2023.04.05 15:19",
                     "file": "ucv-ext-jenkins:1.0.4.tar.7z.001",
                     "notes": [
                         "Fix integration name not showing in pipeline stage task selection",
@@ -3579,7 +3579,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.9",
-                    "date": "2023.06.09 13:52",
+                    "date": "2023.06.09 12:52",
                     "file": "ucv-ext-jenkins:1.0.9.tar.7z.001",
                     "notes": [
                         "Limit maximum parallel requests",
@@ -3595,7 +3595,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.1",
-                    "date": "2023.08.18 12:56",
+                    "date": "2023.08.18 11:56",
                     "file": "ucv-ext-jenkins:1.1.1.tar.7z.001",
                     "notes": [
                         "Default initial sync to 30 days"
@@ -3609,7 +3609,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.1",
-                    "date": "2023.08.18 12:56",
+                    "date": "2023.08.18 11:56",
                     "file": "ucv-ext-jenkins:1.1.1.tar.7z.002",
                     "notes": [
                         "Default initial sync to 30 days"
@@ -3623,7 +3623,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.2",
-                    "date": "2023.10.12 02:38",
+                    "date": "2023.10.12 01:38",
                     "file": "ucv-ext-jenkins:1.1.2.tar.7z.001",
                     "notes": [
                         "Added support for process parameters coming from Git Parameter and Active Choices plugins",
@@ -3638,7 +3638,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.2",
-                    "date": "2023.10.12 02:38",
+                    "date": "2023.10.12 01:38",
                     "file": "ucv-ext-jenkins:1.1.2.tar.7z.002",
                     "notes": [
                         "Added support for process parameters coming from Git Parameter and Active Choices plugins",
@@ -3653,7 +3653,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.3",
-                    "date": "2023.11.15 04:25",
+                    "date": "2023.11.15 02:25",
                     "file": "ucv-ext-jenkins:1.1.3.tar.7z.001",
                     "notes": [
                         "Fix for Build-Revision mismatch in Jenkins Integration"
@@ -3667,7 +3667,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.3",
-                    "date": "2023.11.15 04:25",
+                    "date": "2023.11.15 02:25",
                     "file": "ucv-ext-jenkins:1.1.3.tar.7z.002",
                     "notes": [
                         "Fix for Build-Revision mismatch in Jenkins Integration"
@@ -3681,7 +3681,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.5",
-                    "date": "2024.02.19 18:25",
+                    "date": "2024.02.19 16:25",
                     "file": "ucv-ext-jenkins:1.1.5.tar.7z.001",
                     "notes": [
                         "Fix xpath job filter",
@@ -3696,7 +3696,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.5",
-                    "date": "2024.02.19 18:25",
+                    "date": "2024.02.19 16:25",
                     "file": "ucv-ext-jenkins:1.1.5.tar.7z.002",
                     "notes": [
                         "Fix xpath job filter",
@@ -3711,7 +3711,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.6",
-                    "date": "2024.06.10 06:38",
+                    "date": "2024.06.10 05:38",
                     "file": "ucv-ext-jenkins:1.1.6.tar.7z.001",
                     "notes": [
                         "<b>Bug fix:</b> The Jenkins task in deployment remains incomplete when the Velocity instance goes down during deployment. When the instance comes back online with the new version, the task still does not get marked as complete."
@@ -3725,7 +3725,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.6",
-                    "date": "2024.06.10 06:38",
+                    "date": "2024.06.10 05:38",
                     "file": "ucv-ext-jenkins:1.1.6.tar.7z.002",
                     "notes": [
                         "<b>Bug fix:</b> The Jenkins task in deployment remains incomplete when the Velocity instance goes down during deployment. When the instance comes back online with the new version, the task still does not get marked as complete."
@@ -3739,7 +3739,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.7",
-                    "date": "2024.06.10 08:37",
+                    "date": "2024.06.10 07:37",
                     "file": "ucv-ext-jenkins:1.1.7.tar.7z.001",
                     "notes": [
                         "<b>Minor bug fix:</b> The Jenkins task in deployment remains incomplete when the Velocity instance goes down during deployment. When the instance comes back online with the new version, the task still does not get marked as complete."
@@ -3753,7 +3753,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.7",
-                    "date": "2024.06.10 08:37",
+                    "date": "2024.06.10 07:37",
                     "file": "ucv-ext-jenkins:1.1.7.tar.7z.002",
                     "notes": [
                         "<b>Minor bug fix:</b> The Jenkins task in deployment remains incomplete when the Velocity instance goes down during deployment. When the instance comes back online with the new version, the task still does not get marked as complete."
@@ -3835,7 +3835,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.39",
-                    "date": "2020.09.21 10:11",
+                    "date": "2020.09.21 09:11",
                     "file": "ucv-ext-jira-1.0.39.tar.zip",
                     "notes": [
                         "Bug fix"
@@ -3849,7 +3849,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.49",
-                    "date": "2021.05.03 11:33",
+                    "date": "2021.05.03 10:33",
                     "file": "ucv-ext-jira-1.0.49.tar.zip",
                     "notes": [
                         "Removed IBM related keywords"
@@ -3863,7 +3863,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.50",
-                    "date": "2021.05.28 03:44",
+                    "date": "2021.05.28 02:44",
                     "file": "ucv-ext-jira-1.0.50.tar.zip",
                     "notes": [
                         "Jira rate limit issue fix"
@@ -3877,7 +3877,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.51",
-                    "date": "2021.06.11 12:04",
+                    "date": "2021.06.11 11:04",
                     "file": "ucv-ext-jira-1.0.51.tar.zip",
                     "notes": [
                         "Removed the display of auth token in error logs"
@@ -3891,7 +3891,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.52",
-                    "date": "2021.07.06 06:13",
+                    "date": "2021.07.06 05:13",
                     "file": "ucv-ext-jira-1.0.52.tar.zip",
                     "notes": [
                         "remove basePath in Jira client"
@@ -3905,7 +3905,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.64",
-                    "date": "2021.08.11 04:53",
+                    "date": "2021.08.11 03:53",
                     "file": "ucv-ext-jira-1.0.64.tar.zip",
                     "notes": [
                         "Auto-generated User Access Key support added",
@@ -3920,7 +3920,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.65",
-                    "date": "2021.08.19 10:31",
+                    "date": "2021.08.19 09:31",
                     "file": "ucv-ext-jira-1.0.65.tar.zip",
                     "notes": [
                         "Bug fix: UAK support for older versions"
@@ -3934,7 +3934,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.74",
-                    "date": "2021.09.29 03:50",
+                    "date": "2021.09.29 02:50",
                     "file": "ucv-ext-jira-1.0.74.tar.zip",
                     "notes": [
                         "epic support"
@@ -3948,7 +3948,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.80",
-                    "date": "2021.10.27 11:42",
+                    "date": "2021.10.27 10:42",
                     "file": "ucv-ext-jira-1.0.80.tar.zip",
                     "notes": [
                         "epic support"
@@ -3962,7 +3962,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.83",
-                    "date": "2021.12.03 05:31",
+                    "date": "2021.12.03 03:31",
                     "file": "ucv-ext-jira-1.0.83.tar.zip",
                     "notes": [
                         "UAK Changes"
@@ -3976,7 +3976,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.89",
-                    "date": "2022.01.24 05:50",
+                    "date": "2022.01.24 03:50",
                     "file": "ucv-ext-jira-1.1.89.tar.zip",
                     "notes": [
                         "Initial Sync Data added",
@@ -3994,7 +3994,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.94",
-                    "date": "2022.02.28 08:18",
+                    "date": "2022.02.28 06:18",
                     "file": "ucv-ext-jira-1.1.94.tar.zip",
                     "notes": [
                         "Reduced vulnerabilities"
@@ -4008,7 +4008,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.95",
-                    "date": "2022.02.28 09:29",
+                    "date": "2022.02.28 07:29",
                     "file": "ucv-ext-jira-1.1.95.tar.zip",
                     "notes": [
                         "graphiql performance improvement",
@@ -4023,7 +4023,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.97",
-                    "date": "2022.03.09 03:18",
+                    "date": "2022.03.09 01:18",
                     "file": "ucv-ext-jira-2.0.97.tar.zip",
                     "notes": [
                         "Added Jira Query Language",
@@ -4040,7 +4040,7 @@
                 {
                     "version": "2",
                     "semver": "2.1.96",
-                    "date": "2022.03.03 11:29",
+                    "date": "2022.03.03 09:29",
                     "file": "ucv-ext-jira-2.1.96.tar.zip",
                     "notes": [
                         "JQL Added",
@@ -4056,7 +4056,7 @@
                 {
                     "version": "2",
                     "semver": "2.2.1",
-                    "date": "2022.03.09 13:06",
+                    "date": "2022.03.09 11:06",
                     "file": "ucv-ext-jira-2.2.1.tar.zip",
                     "notes": [
                         "Jira Query Language Added",
@@ -4073,7 +4073,7 @@
                 {
                     "version": "2",
                     "semver": "2.2.5",
-                    "date": "2022.08.02 03:44",
+                    "date": "2022.08.02 02:44",
                     "file": "ucv-ext-jira:2.2.5.tar",
                     "notes": [
                         "Added Project keys"
@@ -4087,7 +4087,7 @@
                 {
                     "version": "2",
                     "semver": "2.2.7",
-                    "date": "2022.09.08 10:43",
+                    "date": "2022.09.08 09:43",
                     "file": "ucv-ext-jira:2.2.7.tar.7z.001",
                     "notes": [
                         "<b>Previous Version Bug Fix:</b> Previous versions of the plugin had a bug due to which plugin was giving 401 error.",
@@ -4102,7 +4102,7 @@
                 {
                     "version": "2",
                     "semver": "2.2.8",
-                    "date": "2022.09.26 09:28",
+                    "date": "2022.09.26 08:28",
                     "file": "ucv-ext-jira:2.2.8.tar.7z.001",
                     "notes": [
                         "<b>Deployment plan task added for release process: </b>Deployment plan task created in order to release selected version in the task."
@@ -4116,7 +4116,7 @@
                 {
                     "version": "2",
                     "semver": "2.2.9",
-                    "date": "2023.02.14 10:12",
+                    "date": "2023.02.14 08:12",
                     "file": "ucv-ext-jira:2.2.9.tar.7z.001",
                     "notes": [
                         "<b>Minor Bug Fix</b>: Previous version of plugin was failing with ECONNREFUSED error."
@@ -4130,7 +4130,7 @@
                 {
                     "version": "2",
                     "semver": "2.3.6",
-                    "date": "2023.08.01 03:34",
+                    "date": "2023.08.01 02:34",
                     "file": "ucv-ext-jira:2.3.6.tar.7z.001",
                     "notes": [
                         "<b>Bug Fix:</b> Earlier version of the Plugin could not handle 429 error (too many requests). Now it is handling it. "
@@ -4144,7 +4144,7 @@
                 {
                     "version": "2",
                     "semver": "2.3.6",
-                    "date": "2023.08.01 03:34",
+                    "date": "2023.08.01 02:34",
                     "file": "ucv-ext-jira:2.3.6.tar.7z.002",
                     "notes": [
                         "<b>Bug Fix:</b> Earlier version of the Plugin could not handle 429 error (too many requests). Now it is handling it. "
@@ -4158,7 +4158,7 @@
                 {
                     "version": "2",
                     "semver": "2.3.9",
-                    "date": "2023.09.13 08:45",
+                    "date": "2023.09.13 07:45",
                     "file": "ucv-ext-jira:2.3.9.tar.7z.001",
                     "notes": [
                         "Fixed version-check bug in jira plugin",
@@ -4173,7 +4173,7 @@
                 {
                     "version": "2",
                     "semver": "2.3.9",
-                    "date": "2023.09.13 08:45",
+                    "date": "2023.09.13 07:45",
                     "file": "ucv-ext-jira:2.3.9.tar.7z.002",
                     "notes": [
                         "Fixed version-check bug in jira plugin",
@@ -4188,7 +4188,7 @@
                 {
                     "version": "2",
                     "semver": "2.3.10",
-                    "date": "2023.09.26 10:16",
+                    "date": "2023.09.26 09:16",
                     "file": "ucv-ext-jira:2.3.10.tar.7z.001",
                     "notes": [
                         "<b>Bug fix:</b>First automation task was failing and also updated integration configuration property description."
@@ -4202,7 +4202,7 @@
                 {
                     "version": "2",
                     "semver": "2.3.10",
-                    "date": "2023.09.26 10:16",
+                    "date": "2023.09.26 09:16",
                     "file": "ucv-ext-jira:2.3.10.tar.7z.002",
                     "notes": [
                         "<b>Bug fix:</b>First automation task was failing and also updated integration configuration property description."
@@ -4216,7 +4216,7 @@
                 {
                     "version": "2",
                     "semver": "2.3.12",
-                    "date": "2024.01.11 09:25",
+                    "date": "2024.01.11 07:25",
                     "file": "ucv-ext-jira:2.3.12.tar.7z.001",
                     "notes": [
                         "Added request timeout option"
@@ -4230,7 +4230,7 @@
                 {
                     "version": "2",
                     "semver": "2.3.12",
-                    "date": "2024.01.11 09:25",
+                    "date": "2024.01.11 07:25",
                     "file": "ucv-ext-jira:2.3.12.tar.7z.002",
                     "notes": [
                         "Added request timeout option"
@@ -4244,7 +4244,7 @@
                 {
                     "version": "2",
                     "semver": "2.3.17",
-                    "date": "2024.04.04 08:17",
+                    "date": "2024.04.04 07:17",
                     "file": "ucv-ext-jira:2.3.1.tar.7z.001",
                     "notes": [
                         "<b>Bug fix:</b> Added Proxyserver changes"
@@ -4258,7 +4258,7 @@
                 {
                     "version": "2",
                     "semver": "2.3.17",
-                    "date": "2024.04.04 08:17",
+                    "date": "2024.04.04 07:17",
                     "file": "ucv-ext-jira:2.3.17.tar.7z.001",
                     "notes": [
                         "<b>Bug fix:</b> Added Proxyserver changes"
@@ -4272,7 +4272,7 @@
                 {
                     "version": "2",
                     "semver": "2.3.17",
-                    "date": "2024.04.04 08:17",
+                    "date": "2024.04.04 07:17",
                     "file": "ucv-ext-jira:2.3.17.tar.7z.002",
                     "notes": [
                         "<b>Bug fix:</b> Added Proxyserver changes"
@@ -4286,7 +4286,7 @@
                 {
                     "version": "2",
                     "semver": "2.3.20",
-                    "date": "2024.12.09 07:38",
+                    "date": "2024.12.09 05:38",
                     "file": "ucv-ext-jira:2.3.20.tar.7z.001",
                     "notes": [
                         "Bug Fix for Active Sprint Field Mapping for JIRA Cloud"
@@ -4300,7 +4300,7 @@
                 {
                     "version": "2",
                     "semver": "2.3.20",
-                    "date": "2024.12.09 07:38",
+                    "date": "2024.12.09 05:38",
                     "file": "ucv-ext-jira:2.3.20.tar.7z.002",
                     "notes": [
                         "Bug Fix for Active Sprint Field Mapping for JIRA Cloud"
@@ -4314,7 +4314,7 @@
                 {
                     "version": "2",
                     "semver": "2.3.23",
-                    "date": "2024.12.17 06:07",
+                    "date": "2024.12.17 04:07",
                     "file": "ucv-ext-jira:2.3.23.tar.7z.001",
                     "notes": [
                         "<b>Fix for Custom Field Mapping field</b>: The update fixes a bug that prevented users from mapping custom field names for Epic Link, Sprint, and Story Points in Jira, ensuring custom names now work correctly. For instance, if the field on your issue in Jira for story points is called Story Point Estimate instead of Story Points, you had no way to import story points. The bug was that the custom mapping did not work and it always assumed the fields were as is (called Epic Link, Sprint, and Story Points) and you could not change this."
@@ -4328,7 +4328,7 @@
                 {
                     "version": "2",
                     "semver": "2.3.23",
-                    "date": "2024.12.17 06:07",
+                    "date": "2024.12.17 04:07",
                     "file": "ucv-ext-jira:2.3.23.tar.7z.002",
                     "notes": [
                         "<b>Fix for Custom Field Mapping field</b>: The update fixes a bug that prevented users from mapping custom field names for Epic Link, Sprint, and Story Points in Jira, ensuring custom names now work correctly. For instance, if the field on your issue in Jira for story points is called Story Point Estimate instead of Story Points, you had no way to import story points. The bug was that the custom mapping did not work and it always assumed the fields were as is (called Epic Link, Sprint, and Story Points) and you could not change this."
@@ -4342,7 +4342,7 @@
                 {
                     "version": "2",
                     "semver": "2.3.24",
-                    "date": "2024.12.18 10:14",
+                    "date": "2024.12.18 08:14",
                     "file": "ucv-ext-jira:2.3.24.tar.7z.001",
                     "notes": [
                         "<b>Fix for Custom Field Mapping field</b>: The update fixes a bug that prevented users from mapping custom field names for Epic Link, Sprint, and Story Points in Jira, ensuring custom names now work correctly. For instance, if the field on your issue in Jira for story points is called Story Point Estimate instead of Story Points, you had no way to import story points. The bug was that the custom mapping did not work and it always assumed the fields were as is (called Epic Link, Sprint, and Story Points) and you could not change this."
@@ -4356,7 +4356,7 @@
                 {
                     "version": "2",
                     "semver": "2.3.24",
-                    "date": "2024.12.18 10:14",
+                    "date": "2024.12.18 08:14",
                     "file": "ucv-ext-jira:2.3.24.tar.7z.002",
                     "notes": [
                         "<b>Fix for Custom Field Mapping field</b>: The update fixes a bug that prevented users from mapping custom field names for Epic Link, Sprint, and Story Points in Jira, ensuring custom names now work correctly. For instance, if the field on your issue in Jira for story points is called Story Point Estimate instead of Story Points, you had no way to import story points. The bug was that the custom mapping did not work and it always assumed the fields were as is (called Epic Link, Sprint, and Story Points) and you could not change this."
@@ -4370,7 +4370,7 @@
                 {
                     "version": "2",
                     "semver": "2.4.2",
-                    "date": "2025.03.20 05:02",
+                    "date": "2025.03.20 03:02",
                     "file": "ucv-ext-jira:2.4.2.tar.7z.001",
                     "notes": [
                         "<b>Bug fix</b>: Prevented the deletion of old history records in the issue collection normalization. Older history entries from before the last run are needed, as they are used for agile churn analysis."
@@ -4384,7 +4384,7 @@
                 {
                     "version": "2",
                     "semver": "2.4.2",
-                    "date": "2025.03.20 05:02",
+                    "date": "2025.03.20 03:02",
                     "file": "ucv-ext-jira:2.4.2.tar.7z.002",
                     "notes": [
                         "<b>Bug fix</b>: Prevented the deletion of old history records in the issue collection normalization. Older history entries from before the last run are needed, as they are used for agile churn analysis."
@@ -4444,7 +4444,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.38",
-                    "date": "2020.12.03 12:20",
+                    "date": "2020.12.03 10:20",
                     "file": "ucv-ext-jmeter-1.0.38.tar.zip",
                     "notes": [
                         "Plugin name update"
@@ -4458,7 +4458,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.55",
-                    "date": "2021.05.24 09:59",
+                    "date": "2021.05.24 08:59",
                     "file": "ucv-ext-jmeter-1.0.55.tar.zip",
                     "notes": [
                         "Removed IBM related keywords"
@@ -4472,7 +4472,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.62",
-                    "date": "2024.06.12 04:54",
+                    "date": "2024.06.12 03:54",
                     "file": "ucv-ext-jmeter:1.0.62.tar.7z.001",
                     "notes": [
                         "npm wrapper version update for Argo Replacement"
@@ -4486,7 +4486,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.62",
-                    "date": "2024.06.12 04:54",
+                    "date": "2024.06.12 03:54",
                     "file": "ucv-ext-jmeter:1.0.62.tar.7z.002",
                     "notes": [
                         "npm wrapper version update for Argo Replacement"
@@ -4546,7 +4546,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.38",
-                    "date": "2020.12.07 04:51",
+                    "date": "2020.12.07 02:51",
                     "file": "ucv-ext-junit-1.0.38.tar.zip",
                     "notes": [
                         "Plugin name update"
@@ -4560,7 +4560,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.66",
-                    "date": "2021.09.29 03:30",
+                    "date": "2021.09.29 02:30",
                     "file": "ucv-ext-junit-1.0.66.tar.zip",
                     "notes": [
                         "changes for gating"
@@ -4574,7 +4574,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.80",
-                    "date": "2024.06.12 07:35",
+                    "date": "2024.06.12 06:35",
                     "file": "ucv-ext-junit:1.0.80.tar.7z.001",
                     "notes": [
                         "npm wrapper version update for Argo Replacement"
@@ -4588,7 +4588,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.80",
-                    "date": "2024.06.12 07:35",
+                    "date": "2024.06.12 06:35",
                     "file": "ucv-ext-junit:1.0.80.tar.7z.002",
                     "notes": [
                         "npm wrapper version update for Argo Replacement"
@@ -4602,7 +4602,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.84",
-                    "date": "2024.07.03 07:30",
+                    "date": "2024.07.03 06:30",
                     "file": "ucv-ext-junit:1.0.84.tar.7z.001",
                     "notes": [
                         "Updated the metric plugins in production to align with the new Argo-less framework."
@@ -4616,7 +4616,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.84",
-                    "date": "2024.07.03 07:30",
+                    "date": "2024.07.03 06:30",
                     "file": "ucv-ext-junit:1.0.84.tar.7z.002",
                     "notes": [
                         "Updated the metric plugins in production to align with the new Argo-less framework."
@@ -4676,7 +4676,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.1",
-                    "date": "2022.04.05 16:18",
+                    "date": "2022.04.05 15:18",
                     "file": "ucv-ext-leankit:1.0.1.tar.7z.001",
                     "notes": [
                         "Retrieves Leankit Cards details",
@@ -4748,7 +4748,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.1",
-                    "date": "2023.12.05 08:35",
+                    "date": "2023.12.05 06:35",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.001",
                     "notes": [
                         "Initial release for Milestone Risk Estimator plugin"
@@ -4762,7 +4762,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.1",
-                    "date": "2023.12.05 08:35",
+                    "date": "2023.12.05 06:35",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.002",
                     "notes": [
                         "Initial release for Milestone Risk Estimator plugin"
@@ -4776,7 +4776,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.1",
-                    "date": "2023.12.05 08:35",
+                    "date": "2023.12.05 06:35",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.003",
                     "notes": [
                         "Initial release for Milestone Risk Estimator plugin"
@@ -4790,7 +4790,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.1",
-                    "date": "2023.12.05 08:35",
+                    "date": "2023.12.05 06:35",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.004",
                     "notes": [
                         "Initial release for Milestone Risk Estimator plugin"
@@ -4804,7 +4804,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.1",
-                    "date": "2023.12.05 08:35",
+                    "date": "2023.12.05 06:35",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.005",
                     "notes": [
                         "Initial release for Milestone Risk Estimator plugin"
@@ -4818,7 +4818,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.1",
-                    "date": "2023.12.05 08:35",
+                    "date": "2023.12.05 06:35",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.006",
                     "notes": [
                         "Initial release for Milestone Risk Estimator plugin"
@@ -4832,7 +4832,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.1",
-                    "date": "2023.12.05 08:35",
+                    "date": "2023.12.05 06:35",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.007",
                     "notes": [
                         "Initial release for Milestone Risk Estimator plugin"
@@ -4846,7 +4846,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.1",
-                    "date": "2023.12.05 08:35",
+                    "date": "2023.12.05 06:35",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.008",
                     "notes": [
                         "Initial release for Milestone Risk Estimator plugin"
@@ -4860,7 +4860,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.1",
-                    "date": "2023.12.05 08:35",
+                    "date": "2023.12.05 06:35",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.1.tar.7z.009",
                     "notes": [
                         "Initial release for Milestone Risk Estimator plugin"
@@ -4874,7 +4874,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2023.12.12 10:04",
+                    "date": "2023.12.12 08:04",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.3.tar.7z.001",
                     "notes": [
                         "<b>Bug fix</b>: Updated graphiql query PaginationInput to InsightsPaginationInput"
@@ -4888,7 +4888,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2023.12.12 10:04",
+                    "date": "2023.12.12 08:04",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.3.tar.7z.002",
                     "notes": [
                         "<b>Bug fix</b>: Updated graphiql query PaginationInput to InsightsPaginationInput"
@@ -4902,7 +4902,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2023.12.12 10:04",
+                    "date": "2023.12.12 08:04",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.3.tar.7z.003",
                     "notes": [
                         "<b>Bug fix</b>: Updated graphiql query PaginationInput to InsightsPaginationInput"
@@ -4916,7 +4916,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2023.12.12 10:04",
+                    "date": "2023.12.12 08:04",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.3.tar.7z.004",
                     "notes": [
                         "<b>Bug fix</b>: Updated graphiql query PaginationInput to InsightsPaginationInput"
@@ -4930,7 +4930,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2023.12.12 10:04",
+                    "date": "2023.12.12 08:04",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.3.tar.7z.005",
                     "notes": [
                         "<b>Bug fix</b>: Updated graphiql query PaginationInput to InsightsPaginationInput"
@@ -4944,7 +4944,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2023.12.12 10:04",
+                    "date": "2023.12.12 08:04",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.3.tar.7z.006",
                     "notes": [
                         "<b>Bug fix</b>: Updated graphiql query PaginationInput to InsightsPaginationInput"
@@ -4958,7 +4958,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2023.12.12 10:04",
+                    "date": "2023.12.12 08:04",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.3.tar.7z.007",
                     "notes": [
                         "<b>Bug fix</b>: Updated graphiql query PaginationInput to InsightsPaginationInput"
@@ -4972,7 +4972,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2023.12.12 10:04",
+                    "date": "2023.12.12 08:04",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.3.tar.7z.008",
                     "notes": [
                         "<b>Bug fix</b>: Updated graphiql query PaginationInput to InsightsPaginationInput"
@@ -4986,7 +4986,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2023.12.12 10:04",
+                    "date": "2023.12.12 08:04",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.3.tar.7z.009",
                     "notes": [
                         "<b>Bug fix</b>: Updated graphiql query PaginationInput to InsightsPaginationInput"
@@ -5000,7 +5000,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.4",
-                    "date": "2024.01.31 09:14",
+                    "date": "2024.01.31 07:14",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.4.tar.7z.001",
                     "notes": [
                         "<b>Bug fix</b>: Fix related to error logs getting while performing integration - INTERNAL SERVER ERROR"
@@ -5014,7 +5014,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.4",
-                    "date": "2024.01.31 09:14",
+                    "date": "2024.01.31 07:14",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.4.tar.7z.002",
                     "notes": [
                         "<b>Bug fix</b>: Fix related to error logs getting while performing integration - INTERNAL SERVER ERROR"
@@ -5028,7 +5028,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.4",
-                    "date": "2024.01.31 09:14",
+                    "date": "2024.01.31 07:14",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.4.tar.7z.003",
                     "notes": [
                         "<b>Bug fix</b>: Fix related to error logs getting while performing integration - INTERNAL SERVER ERROR"
@@ -5042,7 +5042,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.4",
-                    "date": "2024.01.31 09:14",
+                    "date": "2024.01.31 07:14",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.4.tar.7z.004",
                     "notes": [
                         "<b>Bug fix</b>: Fix related to error logs getting while performing integration - INTERNAL SERVER ERROR"
@@ -5056,7 +5056,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.4",
-                    "date": "2024.01.31 09:14",
+                    "date": "2024.01.31 07:14",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.4.tar.7z.005",
                     "notes": [
                         "<b>Bug fix</b>: Fix related to error logs getting while performing integration - INTERNAL SERVER ERROR"
@@ -5070,7 +5070,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.4",
-                    "date": "2024.01.31 09:14",
+                    "date": "2024.01.31 07:14",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.4.tar.7z.006",
                     "notes": [
                         "<b>Bug fix</b>: Fix related to error logs getting while performing integration - INTERNAL SERVER ERROR"
@@ -5084,7 +5084,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.4",
-                    "date": "2024.01.31 09:14",
+                    "date": "2024.01.31 07:14",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.4.tar.7z.007",
                     "notes": [
                         "<b>Bug fix</b>: Fix related to error logs getting while performing integration - INTERNAL SERVER ERROR"
@@ -5098,7 +5098,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.4",
-                    "date": "2024.01.31 09:14",
+                    "date": "2024.01.31 07:14",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.4.tar.7z.008",
                     "notes": [
                         "<b>Bug fix</b>: Fix related to error logs getting while performing integration - INTERNAL SERVER ERROR"
@@ -5112,7 +5112,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.4",
-                    "date": "2024.01.31 09:14",
+                    "date": "2024.01.31 07:14",
                     "file": "ucv-ext-milestone-risk-estimator:1.0.4.tar.7z.009",
                     "notes": [
                         "<b>Bug fix</b>: Fix related to error logs getting while performing integration - INTERNAL SERVER ERROR"
@@ -5126,7 +5126,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.1",
-                    "date": "2024.07.10 06:22",
+                    "date": "2024.07.10 05:22",
                     "file": "ucv-ext-milestone-risk-estimator:2.0.1.tar.7z.001",
                     "notes": [
                         "Introduced simulation-based prediction of team velocities for more realistic scenarios.",
@@ -5144,7 +5144,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.1",
-                    "date": "2024.07.10 06:22",
+                    "date": "2024.07.10 05:22",
                     "file": "ucv-ext-milestone-risk-estimator:2.0.1.tar.7z.002",
                     "notes": [
                         "Introduced simulation-based prediction of team velocities for more realistic scenarios.",
@@ -5162,7 +5162,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.1",
-                    "date": "2024.07.10 06:22",
+                    "date": "2024.07.10 05:22",
                     "file": "ucv-ext-milestone-risk-estimator:2.0.1.tar.7z.003",
                     "notes": [
                         "Introduced simulation-based prediction of team velocities for more realistic scenarios.",
@@ -5180,7 +5180,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.1",
-                    "date": "2024.07.10 06:22",
+                    "date": "2024.07.10 05:22",
                     "file": "ucv-ext-milestone-risk-estimator:2.0.1.tar.7z.004",
                     "notes": [
                         "Introduced simulation-based prediction of team velocities for more realistic scenarios.",
@@ -5198,7 +5198,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.1",
-                    "date": "2024.07.10 06:22",
+                    "date": "2024.07.10 05:22",
                     "file": "ucv-ext-milestone-risk-estimator:2.0.1.tar.7z.005",
                     "notes": [
                         "Introduced simulation-based prediction of team velocities for more realistic scenarios.",
@@ -5216,7 +5216,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.1",
-                    "date": "2024.07.10 06:22",
+                    "date": "2024.07.10 05:22",
                     "file": "ucv-ext-milestone-risk-estimator:2.0.1.tar.7z.006",
                     "notes": [
                         "Introduced simulation-based prediction of team velocities for more realistic scenarios.",
@@ -5234,7 +5234,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.1",
-                    "date": "2024.07.10 06:22",
+                    "date": "2024.07.10 05:22",
                     "file": "ucv-ext-milestone-risk-estimator:2.0.1.tar.7z.007",
                     "notes": [
                         "Introduced simulation-based prediction of team velocities for more realistic scenarios.",
@@ -5252,7 +5252,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.1",
-                    "date": "2024.07.10 06:22",
+                    "date": "2024.07.10 05:22",
                     "file": "ucv-ext-milestone-risk-estimator:2.0.1.tar.7z.008",
                     "notes": [
                         "Introduced simulation-based prediction of team velocities for more realistic scenarios.",
@@ -5270,7 +5270,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.1",
-                    "date": "2024.07.10 06:22",
+                    "date": "2024.07.10 05:22",
                     "file": "ucv-ext-milestone-risk-estimator:2.0.1.tar.7z.009",
                     "notes": [
                         "Introduced simulation-based prediction of team velocities for more realistic scenarios.",
@@ -5288,7 +5288,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.2",
-                    "date": "2024.10.16 10:07",
+                    "date": "2024.10.16 09:07",
                     "file": "ucv-ext-milestone-risk-estimator:2.0.2.tar.7z.001",
                     "notes": [
                         "Memory bound and description on tooltip"
@@ -5302,7 +5302,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.2",
-                    "date": "2024.10.16 10:07",
+                    "date": "2024.10.16 09:07",
                     "file": "ucv-ext-milestone-risk-estimator:2.0.2.tar.7z.002",
                     "notes": [
                         "Memory bound and description on tooltip"
@@ -5316,7 +5316,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.2",
-                    "date": "2024.10.16 10:07",
+                    "date": "2024.10.16 09:07",
                     "file": "ucv-ext-milestone-risk-estimator:2.0.2.tar.7z.003",
                     "notes": [
                         "Memory bound and description on tooltip"
@@ -5330,7 +5330,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.2",
-                    "date": "2024.10.16 10:07",
+                    "date": "2024.10.16 09:07",
                     "file": "ucv-ext-milestone-risk-estimator:2.0.2.tar.7z.004",
                     "notes": [
                         "Memory bound and description on tooltip"
@@ -5344,7 +5344,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.2",
-                    "date": "2024.10.16 10:07",
+                    "date": "2024.10.16 09:07",
                     "file": "ucv-ext-milestone-risk-estimator:2.0.2.tar.7z.005",
                     "notes": [
                         "Memory bound and description on tooltip"
@@ -5358,7 +5358,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.2",
-                    "date": "2024.10.16 10:07",
+                    "date": "2024.10.16 09:07",
                     "file": "ucv-ext-milestone-risk-estimator:2.0.2.tar.7z.006",
                     "notes": [
                         "Memory bound and description on tooltip"
@@ -5372,7 +5372,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.2",
-                    "date": "2024.10.16 10:07",
+                    "date": "2024.10.16 09:07",
                     "file": "ucv-ext-milestone-risk-estimator:2.0.2.tar.7z.007",
                     "notes": [
                         "Memory bound and description on tooltip"
@@ -5386,7 +5386,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.2",
-                    "date": "2024.10.16 10:07",
+                    "date": "2024.10.16 09:07",
                     "file": "ucv-ext-milestone-risk-estimator:2.0.2.tar.7z.008",
                     "notes": [
                         "Memory bound and description on tooltip"
@@ -5400,7 +5400,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.2",
-                    "date": "2024.10.16 10:07",
+                    "date": "2024.10.16 09:07",
                     "file": "ucv-ext-milestone-risk-estimator:2.0.2.tar.7z.009",
                     "notes": [
                         "Memory bound and description on tooltip"
@@ -5414,7 +5414,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.4",
-                    "date": "2025.02.27 11:00",
+                    "date": "2025.02.27 09:00",
                     "file": "ucv-ext-milestone-risk-estimator:2.0.4.tar.7z.001",
                     "notes": [
                         "Image size reduction",
@@ -5429,7 +5429,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.4",
-                    "date": "2025.02.27 11:00",
+                    "date": "2025.02.27 09:00",
                     "file": "ucv-ext-milestone-risk-estimator:2.0.4.tar.7z.002",
                     "notes": [
                         "Image size reduction",
@@ -5444,7 +5444,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.4",
-                    "date": "2025.02.27 11:00",
+                    "date": "2025.02.27 09:00",
                     "file": "ucv-ext-milestone-risk-estimator:2.0.4.tar.7z.003",
                     "notes": [
                         "Image size reduction",
@@ -5459,7 +5459,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.4",
-                    "date": "2025.02.27 11:00",
+                    "date": "2025.02.27 09:00",
                     "file": "ucv-ext-milestone-risk-estimator:2.0.4.tar.7z.004",
                     "notes": [
                         "Image size reduction",
@@ -5474,7 +5474,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.4",
-                    "date": "2025.02.27 11:00",
+                    "date": "2025.02.27 09:00",
                     "file": "ucv-ext-milestone-risk-estimator:2.0.4.tar.7z.005",
                     "notes": [
                         "Image size reduction",
@@ -5535,7 +5535,7 @@
                 {
                     "version": "0",
                     "semver": "0.0.2",
-                    "date": "2024.08.12 10:25",
+                    "date": "2024.08.12 09:25",
                     "file": "ucv-ext-njs-unit:0.0.2.tar.7z.001",
                     "notes": [
                         "Initial Release"
@@ -5549,7 +5549,7 @@
                 {
                     "version": "0",
                     "semver": "0.0.2",
-                    "date": "2024.08.12 10:25",
+                    "date": "2024.08.12 09:25",
                     "file": "ucv-ext-njs-unit:0.0.2.tar.7z.002",
                     "notes": [
                         "Initial Release"
@@ -5563,7 +5563,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.4",
-                    "date": "2024.08.16 05:40",
+                    "date": "2024.08.16 04:40",
                     "file": "ucv-ext-njs-unit:1.0.4.tar.7z.001",
                     "notes": [
                         "Implemented XML/JSON parsing support for four different unit test frameworks: Mocha, Jest, Node-tap, and Tape."
@@ -5577,7 +5577,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.4",
-                    "date": "2024.08.16 05:40",
+                    "date": "2024.08.16 04:40",
                     "file": "ucv-ext-njs-unit:1.0.4.tar.7z.002",
                     "notes": [
                         "Implemented XML/JSON parsing support for four different unit test frameworks: Mocha, Jest, Node-tap, and Tape."
@@ -5637,7 +5637,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.8",
-                    "date": "2019.11.26 17:01",
+                    "date": "2019.11.26 15:01",
                     "file": "ucv-ext-onetest-1.0.8.tar.zip",
                     "notes": [
                         "Update plugin version from 0.x.x to 1.x.x."
@@ -5651,7 +5651,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.12",
-                    "date": "2020.12.03 08:35",
+                    "date": "2020.12.03 06:35",
                     "file": "ucv-ext-onetest-1.0.12.tar.zip",
                     "notes": [
                         "Added support for UI & PT json results"
@@ -5665,7 +5665,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.30",
-                    "date": "2021.09.29 03:37",
+                    "date": "2021.09.29 02:37",
                     "file": "ucv-ext-onetest-1.0.30.tar.zip",
                     "notes": [
                         "changes for gating"
@@ -5679,7 +5679,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.34",
-                    "date": "2022.10.28 10:46",
+                    "date": "2022.10.28 09:46",
                     "file": "ucv-ext-onetest:1.0.34.tar.7z.001",
                     "notes": [
                         "<b>Preventing Installation on Older Versions:</b> This version of HCL Onetest Plugin can only be installed on HCL Accelerate version  3.0.0 and later.",
@@ -5694,7 +5694,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.37",
-                    "date": "2024.04.03 09:22",
+                    "date": "2024.04.03 08:22",
                     "file": "ucv-ext-onetest:1.0.37.tar.7z.001",
                     "notes": [
                         "<b>Rebranding:</b> Name of the plugin has been changed from HCL One Test to HCL DevOps Test."
@@ -5708,7 +5708,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.37",
-                    "date": "2024.04.03 09:22",
+                    "date": "2024.04.03 08:22",
                     "file": "ucv-ext-onetest:1.0.37.tar.7z.002",
                     "notes": [
                         "<b>Rebranding:</b> Name of the plugin has been changed from HCL One Test to HCL DevOps Test."
@@ -5722,7 +5722,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.40",
-                    "date": "2024.06.11 09:20",
+                    "date": "2024.06.11 08:20",
                     "file": "ucv-ext-onetest:1.0.40.tar.7z.001",
                     "notes": [
                         "npm wrapper version update for Argo Replacement"
@@ -5736,7 +5736,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.40",
-                    "date": "2024.06.11 09:20",
+                    "date": "2024.06.11 08:20",
                     "file": "ucv-ext-onetest:1.0.40.tar.7z.002",
                     "notes": [
                         "npm wrapper version update for Argo Replacement"
@@ -5796,7 +5796,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.11",
-                    "date": "2021.09.29 03:56",
+                    "date": "2021.09.29 02:56",
                     "file": "ucv-ext-onetest-server-1.0.11.tar.zip",
                     "notes": [
                         "changes for gating"
@@ -5810,7 +5810,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.15",
-                    "date": "2022.02.09 05:11",
+                    "date": "2022.02.09 03:11",
                     "file": "ucv-ext-onetest-server-1.0.15.tar.zip",
                     "notes": [
                         "User Access Key Related Changes"
@@ -5824,7 +5824,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.17",
-                    "date": "2022.11.08 08:19",
+                    "date": "2022.11.08 06:19",
                     "file": "ucv-ext-onetest-server:1.0.17.tar.7z.001",
                     "notes": [
                         "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
@@ -5841,7 +5841,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.26",
-                    "date": "2023.07.21 05:14",
+                    "date": "2023.07.21 04:14",
                     "file": "ucv-ext-onetest-server:1.0.26.tar.7z.001",
                     "notes": [
                         "<b>Minor bug fix:</b>Fixed bug related to test results URL generated in plugin."
@@ -5855,7 +5855,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.26",
-                    "date": "2023.07.21 05:14",
+                    "date": "2023.07.21 04:14",
                     "file": "ucv-ext-onetest-server:1.0.26.tar.7z.002",
                     "notes": [
                         "<b>Minor bug fix:</b>Fixed bug related to test results URL generated in plugin."
@@ -5869,7 +5869,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.27",
-                    "date": "2024.04.09 07:34",
+                    "date": "2024.04.09 06:34",
                     "file": "ucv-ext-onetest-server-1.0.2.tar.zip",
                     "notes": [
                         "<b>Rebranding</b>: Name of the plugin is changed from HCL OneTest Server to HCL DevOps Test Server."
@@ -5883,7 +5883,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.27",
-                    "date": "2024.04.09 07:34",
+                    "date": "2024.04.09 06:34",
                     "file": "ucv-ext-onetest-server:1.0.27.tar.7z.001",
                     "notes": [
                         "<b>Rebranding</b>: Name of the plugin is changed from HCL OneTest Server to HCL DevOps Test Server."
@@ -5897,7 +5897,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.27",
-                    "date": "2024.04.09 07:34",
+                    "date": "2024.04.09 06:34",
                     "file": "ucv-ext-onetest-server:1.0.27.tar.7z.002",
                     "notes": [
                         "<b>Rebranding</b>: Name of the plugin is changed from HCL OneTest Server to HCL DevOps Test Server."
@@ -6012,7 +6012,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.16",
-                    "date": "2020.09.02 05:53",
+                    "date": "2020.09.02 04:53",
                     "file": "ucv-ext-rally-1.0.16.tar.zip",
                     "notes": [
                         "Sprint history changes"
@@ -6026,7 +6026,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.17",
-                    "date": "2021.02.15 07:36",
+                    "date": "2021.02.15 05:36",
                     "file": "ucv-ext-rally-1.0.17.tar.zip",
                     "notes": [
                         "Added Proxy support to Rally plugin"
@@ -6040,7 +6040,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.25",
-                    "date": "2021.05.05 03:17",
+                    "date": "2021.05.05 02:17",
                     "file": "ucv-ext-rally-1.0.25.tar.zip",
                     "notes": [
                         "Removed IBM related keywords"
@@ -6054,7 +6054,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.30",
-                    "date": "2022.02.23 12:53",
+                    "date": "2022.02.23 10:53",
                     "file": "ucv-ext-rally-1.0.30.tar.zip",
                     "notes": [
                         "User Access Key Related Changes"
@@ -6068,7 +6068,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.34",
-                    "date": "2022.03.01 11:26",
+                    "date": "2022.03.01 09:26",
                     "file": "ucv-ext-rally-1.0.34.tar.zip",
                     "notes": [
                         "User Access Key Related Changes"
@@ -6082,7 +6082,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.43",
-                    "date": "2022.12.27 05:56",
+                    "date": "2022.12.27 03:56",
                     "file": "ucv-ext-rally:1.0.43.tar.7z.001",
                     "notes": [
                         "<b>Removed Manual User Access Key:</b> From current version onwards this plugin will only support Auto Generated User Access Key feature of HCL Accelerate.",
@@ -6222,7 +6222,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2024.09.05 06:55",
+                    "date": "2024.09.05 05:55",
                     "file": "ucv-ext-release-summary-ibm:1.0.3.tar.7z.001",
                     "notes": [
                         "Fixed issue to load the plugin to DevOps Velocity"
@@ -6236,7 +6236,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2024.09.05 06:55",
+                    "date": "2024.09.05 05:55",
                     "file": "ucv-ext-release-summary-ibm:1.0.3.tar.7z.002",
                     "notes": [
                         "Fixed issue to load the plugin to DevOps Velocity"
@@ -6250,7 +6250,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2024.09.05 06:55",
+                    "date": "2024.09.05 05:55",
                     "file": "ucv-ext-release-summary-ibm:1.0.3.tar.7z.003",
                     "notes": [
                         "Fixed issue to load the plugin to DevOps Velocity"
@@ -6264,7 +6264,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2024.09.05 06:55",
+                    "date": "2024.09.05 05:55",
                     "file": "ucv-ext-release-summary-ibm:1.0.3.tar.7z.004",
                     "notes": [
                         "Fixed issue to load the plugin to DevOps Velocity"
@@ -6278,7 +6278,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2024.09.05 06:55",
+                    "date": "2024.09.05 05:55",
                     "file": "ucv-ext-release-summary-ibm:1.0.3.tar.7z.005",
                     "notes": [
                         "Fixed issue to load the plugin to DevOps Velocity"
@@ -6292,7 +6292,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2024.09.05 06:55",
+                    "date": "2024.09.05 05:55",
                     "file": "ucv-ext-release-summary-ibm:1.0.3.tar.7z.006",
                     "notes": [
                         "Fixed issue to load the plugin to DevOps Velocity"
@@ -6306,7 +6306,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2024.09.05 06:55",
+                    "date": "2024.09.05 05:55",
                     "file": "ucv-ext-release-summary-ibm:1.0.3.tar.7z.007",
                     "notes": [
                         "Fixed issue to load the plugin to DevOps Velocity"
@@ -6320,7 +6320,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.7",
-                    "date": "2025.04.07 02:57",
+                    "date": "2025.04.07 01:57",
                     "file": "ucv-ext-release-summary-ibm:1.0.7.tar.7z.001",
                     "notes": [
                         "<b>Feature enhancement</b> : The summary now features a dedicated section offering insights into release quality and readiness. Users can set a monthly limit on token usage. New language models have been integrated with support for WatsonX plugins."
@@ -6334,7 +6334,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.7",
-                    "date": "2025.04.07 02:57",
+                    "date": "2025.04.07 01:57",
                     "file": "ucv-ext-release-summary-ibm:1.0.7.tar.7z.002",
                     "notes": [
                         "<b>Feature enhancement</b> : The summary now features a dedicated section offering insights into release quality and readiness. Users can set a monthly limit on token usage. New language models have been integrated with support for WatsonX plugins."
@@ -6348,7 +6348,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.7",
-                    "date": "2025.04.07 02:57",
+                    "date": "2025.04.07 01:57",
                     "file": "ucv-ext-release-summary-ibm:1.0.7.tar.7z.003",
                     "notes": [
                         "<b>Feature enhancement</b> : The summary now features a dedicated section offering insights into release quality and readiness. Users can set a monthly limit on token usage. New language models have been integrated with support for WatsonX plugins."
@@ -6362,7 +6362,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.7",
-                    "date": "2025.04.07 02:57",
+                    "date": "2025.04.07 01:57",
                     "file": "ucv-ext-release-summary-ibm:1.0.7.tar.7z.004",
                     "notes": [
                         "<b>Feature enhancement</b> : The summary now features a dedicated section offering insights into release quality and readiness. Users can set a monthly limit on token usage. New language models have been integrated with support for WatsonX plugins."
@@ -6376,7 +6376,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.7",
-                    "date": "2025.04.07 02:57",
+                    "date": "2025.04.07 01:57",
                     "file": "ucv-ext-release-summary-ibm:1.0.7.tar.7z.005",
                     "notes": [
                         "<b>Feature enhancement</b> : The summary now features a dedicated section offering insights into release quality and readiness. Users can set a monthly limit on token usage. New language models have been integrated with support for WatsonX plugins."
@@ -6390,7 +6390,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.7",
-                    "date": "2025.04.07 02:57",
+                    "date": "2025.04.07 01:57",
                     "file": "ucv-ext-release-summary-ibm:1.0.7.tar.7z.006",
                     "notes": [
                         "<b>Feature enhancement</b> : The summary now features a dedicated section offering insights into release quality and readiness. Users can set a monthly limit on token usage. New language models have been integrated with support for WatsonX plugins."
@@ -6404,7 +6404,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.7",
-                    "date": "2025.04.07 02:57",
+                    "date": "2025.04.07 01:57",
                     "file": "ucv-ext-release-summary-ibm:1.0.7.tar.7z.007",
                     "notes": [
                         "<b>Feature enhancement</b> : The summary now features a dedicated section offering insights into release quality and readiness. Users can set a monthly limit on token usage. New language models have been integrated with support for WatsonX plugins."
@@ -6418,7 +6418,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.7",
-                    "date": "2025.04.07 02:57",
+                    "date": "2025.04.07 01:57",
                     "file": "ucv-ext-release-summary-ibm:1.0.7.tar.7z.008",
                     "notes": [
                         "<b>Feature enhancement</b> : The summary now features a dedicated section offering insights into release quality and readiness. Users can set a monthly limit on token usage. New language models have been integrated with support for WatsonX plugins."
@@ -6478,7 +6478,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.1",
-                    "date": "2024.08.13 11:40",
+                    "date": "2024.08.13 10:40",
                     "file": "ucv-ext-release-summary-openai:1.0.1.tar.7z.001",
                     "notes": [
                         "."
@@ -6492,7 +6492,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.1",
-                    "date": "2024.08.13 11:40",
+                    "date": "2024.08.13 10:40",
                     "file": "ucv-ext-release-summary-openai:1.0.1.tar.7z.002",
                     "notes": [
                         "."
@@ -6506,7 +6506,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.1",
-                    "date": "2024.08.13 11:40",
+                    "date": "2024.08.13 10:40",
                     "file": "ucv-ext-release-summary-openai:1.0.1.tar.7z.003",
                     "notes": [
                         "."
@@ -6520,7 +6520,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.1",
-                    "date": "2024.08.13 11:40",
+                    "date": "2024.08.13 10:40",
                     "file": "ucv-ext-release-summary-openai:1.0.1.tar.7z.004",
                     "notes": [
                         "."
@@ -6534,7 +6534,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.1",
-                    "date": "2024.08.13 11:40",
+                    "date": "2024.08.13 10:40",
                     "file": "ucv-ext-release-summary-openai:1.0.1.tar.7z.005",
                     "notes": [
                         "."
@@ -6548,7 +6548,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.1",
-                    "date": "2024.08.13 11:40",
+                    "date": "2024.08.13 10:40",
                     "file": "ucv-ext-release-summary-openai:1.0.1.tar.7z.006",
                     "notes": [
                         "."
@@ -6562,7 +6562,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2025.04.04 09:16",
+                    "date": "2025.04.04 08:16",
                     "file": "ucv-ext-release-summary-openai:1.0.3.tar.7z.001",
                     "notes": [
                         "<b>Feature enhancement</b> : The summary now features a dedicated section offering insights into release quality and readiness. Users can set a monthly limit on token usage. New language models have been integrated with support for OpenAI plugins."
@@ -6576,7 +6576,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2025.04.04 09:16",
+                    "date": "2025.04.04 08:16",
                     "file": "ucv-ext-release-summary-openai:1.0.3.tar.7z.002",
                     "notes": [
                         "<b>Feature enhancement</b> : The summary now features a dedicated section offering insights into release quality and readiness. Users can set a monthly limit on token usage. New language models have been integrated with support for OpenAI plugins."
@@ -6590,7 +6590,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2025.04.04 09:16",
+                    "date": "2025.04.04 08:16",
                     "file": "ucv-ext-release-summary-openai:1.0.3.tar.7z.003",
                     "notes": [
                         "<b>Feature enhancement</b> : The summary now features a dedicated section offering insights into release quality and readiness. Users can set a monthly limit on token usage. New language models have been integrated with support for OpenAI plugins."
@@ -6604,7 +6604,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2025.04.04 09:16",
+                    "date": "2025.04.04 08:16",
                     "file": "ucv-ext-release-summary-openai:1.0.3.tar.7z.004",
                     "notes": [
                         "<b>Feature enhancement</b> : The summary now features a dedicated section offering insights into release quality and readiness. Users can set a monthly limit on token usage. New language models have been integrated with support for OpenAI plugins."
@@ -6618,7 +6618,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2025.04.04 09:16",
+                    "date": "2025.04.04 08:16",
                     "file": "ucv-ext-release-summary-openai:1.0.3.tar.7z.005",
                     "notes": [
                         "<b>Feature enhancement</b> : The summary now features a dedicated section offering insights into release quality and readiness. Users can set a monthly limit on token usage. New language models have been integrated with support for OpenAI plugins."
@@ -6632,7 +6632,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2025.04.04 09:16",
+                    "date": "2025.04.04 08:16",
                     "file": "ucv-ext-release-summary-openai:1.0.3.tar.7z.006",
                     "notes": [
                         "<b>Feature enhancement</b> : The summary now features a dedicated section offering insights into release quality and readiness. Users can set a monthly limit on token usage. New language models have been integrated with support for OpenAI plugins."
@@ -6646,7 +6646,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2025.04.04 09:16",
+                    "date": "2025.04.04 08:16",
                     "file": "ucv-ext-release-summary-openai:1.0.3.tar.7z.007",
                     "notes": [
                         "<b>Feature enhancement</b> : The summary now features a dedicated section offering insights into release quality and readiness. Users can set a monthly limit on token usage. New language models have been integrated with support for OpenAI plugins."
@@ -6660,7 +6660,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.3",
-                    "date": "2025.04.04 09:16",
+                    "date": "2025.04.04 08:16",
                     "file": "ucv-ext-release-summary-openai:1.0.3.tar.7z.008",
                     "notes": [
                         "<b>Feature enhancement</b> : The summary now features a dedicated section offering insights into release quality and readiness. Users can set a monthly limit on token usage. New language models have been integrated with support for OpenAI plugins."
@@ -6720,7 +6720,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.6",
-                    "date": "2020.09.03 05:50",
+                    "date": "2020.09.03 04:50",
                     "file": "ucv-ext-rtas-1.0.6.tar.zip",
                     "notes": [
                         "Integration id passed along with metrics"
@@ -6734,7 +6734,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.22",
-                    "date": "2022.01.28 07:52",
+                    "date": "2022.01.28 05:52",
                     "file": "ucv-ext-rtas-1.0.22.tar.zip",
                     "notes": [
                         "User Access Key Related Changes"
@@ -6748,7 +6748,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.34",
-                    "date": "2023.07.21 07:20",
+                    "date": "2023.07.21 06:20",
                     "file": "ucv-ext-rtas:1.0.34.tar.7z.001",
                     "notes": [
                         "<b>Minor bug fix:</b>Fixed bug related to test results URL generated in plugin.",
@@ -6764,7 +6764,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.34",
-                    "date": "2023.07.21 07:20",
+                    "date": "2023.07.21 06:20",
                     "file": "ucv-ext-rtas:1.0.34.tar.7z.002",
                     "notes": [
                         "<b>Minor bug fix:</b>Fixed bug related to test results URL generated in plugin.",
@@ -6826,7 +6826,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.1",
-                    "date": "2022.09.01 09:16",
+                    "date": "2022.09.01 08:16",
                     "file": "ucv-ext-sap-charm:1.0.1.tar.7z.001",
                     "notes": [
                         "Initial release syncs SAP Normal changes with Jira issues"
@@ -6897,7 +6897,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.13",
-                    "date": "2020.12.02 06:35",
+                    "date": "2020.12.02 04:35",
                     "file": "ucv-ext-servicenow-1.0.13.tar.zip",
                     "notes": [
                         "Problems priority bug fix"
@@ -6911,7 +6911,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.14",
-                    "date": "2020.12.21 06:30",
+                    "date": "2020.12.21 04:30",
                     "file": "ucv-ext-servicenow-1.0.14.tar.zip",
                     "notes": [
                         "Added proxy support"
@@ -6925,7 +6925,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.25",
-                    "date": "2021.06.01 05:01",
+                    "date": "2021.06.01 04:01",
                     "file": "ucv-ext-servicenow-1.0.25.tar.zip",
                     "notes": [
                         "Removed IBM related keywords"
@@ -6939,7 +6939,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.27",
-                    "date": "2021.08.19 03:29",
+                    "date": "2021.08.19 02:29",
                     "file": "ucv-ext-servicenow-1.0.27.tar.zip",
                     "notes": [
                         "Adding Automation Functionality"
@@ -6953,7 +6953,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.42",
-                    "date": "2023.07.13 10:14",
+                    "date": "2023.07.13 09:14",
                     "file": "ucv-ext-servicenow:1.0.42.tar.7z.001",
                     "notes": [
                         "<b>Minor bug fix</b>: Fixed bug related to proxy server change and related to automation task execution."
@@ -6967,7 +6967,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.42",
-                    "date": "2023.07.13 10:14",
+                    "date": "2023.07.13 09:14",
                     "file": "ucv-ext-servicenow:1.0.42.tar.7z.002",
                     "notes": [
                         "<b>Minor bug fix</b>: Fixed bug related to proxy server change and related to automation task execution."
@@ -6981,7 +6981,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.2",
-                    "date": "2024.02.02 10:11",
+                    "date": "2024.02.02 08:11",
                     "file": "ucv-ext-servicenow:1.1.2.tar.7z.001",
                     "notes": [
                         "<b>Bug fix:</b> The previous version was failing to upload issues of large size.",
@@ -6998,7 +6998,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.2",
-                    "date": "2024.02.02 10:11",
+                    "date": "2024.02.02 08:11",
                     "file": "ucv-ext-servicenow:1.1.2.tar.7z.002",
                     "notes": [
                         "<b>Bug fix:</b> The previous version was failing to upload issues of large size.",
@@ -7015,7 +7015,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.3",
-                    "date": "2024.02.27 09:52",
+                    "date": "2024.02.27 07:52",
                     "file": "ucv-ext-servicenow:1.1.3.tar.7z.001",
                     "notes": [
                         "<b>Minor bug fix:</b> Earlier plugin was unable to resync when incident is resolved"
@@ -7029,7 +7029,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.3",
-                    "date": "2024.02.27 09:52",
+                    "date": "2024.02.27 07:52",
                     "file": "ucv-ext-servicenow:1.1.3.tar.7z.002",
                     "notes": [
                         "<b>Minor bug fix:</b> Earlier plugin was unable to resync when incident is resolved"
@@ -7043,7 +7043,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.4",
-                    "date": "2024.04.16 09:10",
+                    "date": "2024.04.16 08:10",
                     "file": "ucv-ext-servicenow:1.1.4.tar.7z.001",
                     "notes": [
                         "<b>Add initial sync</b>: Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync.",
@@ -7060,7 +7060,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.4",
-                    "date": "2024.04.16 09:10",
+                    "date": "2024.04.16 08:10",
                     "file": "ucv-ext-servicenow:1.1.4.tar.7z.002",
                     "notes": [
                         "<b>Add initial sync</b>: Under the hidden properties section of add integration page for the plugin an Initial Sync Date field is added. This field is optional and can be used only for the first sync.",
@@ -7077,7 +7077,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.5",
-                    "date": "2024.05.29 10:19",
+                    "date": "2024.05.29 09:19",
                     "file": "ucv-ext-servicenow:1.1.5.tar.7z.001",
                     "notes": [
                         "<b>Bug fix</b>: Removed drop down feature in update change request and change task and wait changes automation task which was implemented to select change request number as it was uploading more data to integration details. Now user can enter change request number manually.",
@@ -7092,7 +7092,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.5",
-                    "date": "2024.05.29 10:19",
+                    "date": "2024.05.29 09:19",
                     "file": "ucv-ext-servicenow:1.1.5.tar.7z.002",
                     "notes": [
                         "<b>Bug fix</b>: Removed drop down feature in update change request and change task and wait changes automation task which was implemented to select change request number as it was uploading more data to integration details. Now user can enter change request number manually.",
@@ -7107,7 +7107,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.6",
-                    "date": "2024.07.09 07:31",
+                    "date": "2024.07.09 06:31",
                     "file": "ucv-ext-servicenow:1.1.6.tar.7z.001",
                     "notes": [
                         "We have added a new field for Resource Types and Sys_params, which will synchronize events based on the provided sys_params.",
@@ -7122,7 +7122,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.6",
-                    "date": "2024.07.09 07:31",
+                    "date": "2024.07.09 06:31",
                     "file": "ucv-ext-servicenow:1.1.6.tar.7z.002",
                     "notes": [
                         "We have added a new field for Resource Types and Sys_params, which will synchronize events based on the provided sys_params.",
@@ -7137,7 +7137,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.7",
-                    "date": "2024.07.11 11:41",
+                    "date": "2024.07.11 10:41",
                     "file": "ucv-ext-servicenow:1.1.7.tar.7z.001",
                     "notes": [],
                     "supports": "5.0.2",
@@ -7149,7 +7149,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.7",
-                    "date": "2024.07.11 11:41",
+                    "date": "2024.07.11 10:41",
                     "file": "ucv-ext-servicenow:1.1.7.tar.7z.002",
                     "notes": [],
                     "supports": "5.0.2",
@@ -7161,7 +7161,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.8",
-                    "date": "2024.09.19 07:23",
+                    "date": "2024.09.19 06:23",
                     "file": "ucv-ext-servicenow:1.1.8.tar.7z.001",
                     "notes": [
                         "Implemented OAuth 2.0 authentication for secure communication with third-party services"
@@ -7175,7 +7175,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.8",
-                    "date": "2024.09.19 07:23",
+                    "date": "2024.09.19 06:23",
                     "file": "ucv-ext-servicenow:1.1.8.tar.7z.002",
                     "notes": [
                         "Implemented OAuth 2.0 authentication for secure communication with third-party services"
@@ -7189,7 +7189,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.10",
-                    "date": "2024.11.20 08:04",
+                    "date": "2024.11.20 06:04",
                     "file": "ucv-ext-servicenow:1.1.10.tar.7z.001",
                     "notes": [
                         "All scheduled events have been combined into a single unified event, improving performance. This reduces redundancy and simplifies configuration for users"
@@ -7203,7 +7203,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.10",
-                    "date": "2024.11.20 08:04",
+                    "date": "2024.11.20 06:04",
                     "file": "ucv-ext-servicenow:1.1.10.tar.7z.002",
                     "notes": [
                         "All scheduled events have been combined into a single unified event, improving performance. This reduces redundancy and simplifies configuration for users"
@@ -7217,7 +7217,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.11",
-                    "date": "2025.02.20 12:18",
+                    "date": "2025.02.20 10:18",
                     "file": "ucv-ext-servicenow:1.1.11.tar.7z.001",
                     "notes": [
                         "<b>Replica Server Name field addition</b>: In index.js file added replica server name field, any non-empty string value to replica server name would enable read only replica.",
@@ -7234,7 +7234,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.11",
-                    "date": "2025.02.20 12:18",
+                    "date": "2025.02.20 10:18",
                     "file": "ucv-ext-servicenow:1.1.11.tar.7z.002",
                     "notes": [
                         "<b>Replica Server Name field addition</b>: In index.js file added replica server name field, any non-empty string value to replica server name would enable read only replica.",
@@ -7251,7 +7251,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.13",
-                    "date": "2025.03.28 06:32",
+                    "date": "2025.03.28 04:32",
                     "file": "ucv-ext-servicenow:1.1.1.tar.7z.001",
                     "notes": [
                         "<b>Feature enhancement</b>: ServiceNow now supports user-defined fields. To enable mapping of these fields to Velocity fields, a custom field mapping option has been introduced in the index.js file within the ServiceNow plugin. Additionally, ServiceNow allows custom values for any field. To implement the change failure rate matrix, it is essential to determine which change requests have a failed status, making value mapping necessary."
@@ -7265,7 +7265,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.13",
-                    "date": "2025.03.28 06:32",
+                    "date": "2025.03.28 04:32",
                     "file": "ucv-ext-servicenow:1.1.1.tar.7z.002",
                     "notes": [
                         "<b>Feature enhancement</b>: ServiceNow now supports user-defined fields. To enable mapping of these fields to Velocity fields, a custom field mapping option has been introduced in the index.js file within the ServiceNow plugin. Additionally, ServiceNow allows custom values for any field. To implement the change failure rate matrix, it is essential to determine which change requests have a failed status, making value mapping necessary."
@@ -7279,7 +7279,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.13",
-                    "date": "2025.03.28 06:32",
+                    "date": "2025.03.28 04:32",
                     "file": "ucv-ext-servicenow:1.1.13.tar.7z.001",
                     "notes": [
                         "<b>Feature enhancement</b>: ServiceNow now supports user-defined fields. To enable mapping of these fields to Velocity fields, a custom field mapping option has been introduced in the index.js file within the ServiceNow plugin. Additionally, ServiceNow allows custom values for any field. To implement the change failure rate matrix, it is essential to determine which change requests have a failed status, making value mapping necessary."
@@ -7293,7 +7293,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.13",
-                    "date": "2025.03.28 06:32",
+                    "date": "2025.03.28 04:32",
                     "file": "ucv-ext-servicenow:1.1.13.tar.7z.002",
                     "notes": [
                         "<b>Feature enhancement</b>: ServiceNow now supports user-defined fields. To enable mapping of these fields to Velocity fields, a custom field mapping option has been introduced in the index.js file within the ServiceNow plugin. Additionally, ServiceNow allows custom values for any field. To implement the change failure rate matrix, it is essential to determine which change requests have a failed status, making value mapping necessary."
@@ -7353,7 +7353,7 @@
                 {
                     "version": "0",
                     "semver": "0.0.7",
-                    "date": "2020.08.21 18:16",
+                    "date": "2020.08.21 17:16",
                     "file": "ucv-ext-shell-0.0.7.tar.zip",
                     "notes": [
                         "Initial release."
@@ -7367,7 +7367,7 @@
                 {
                     "version": "0",
                     "semver": "0.0.34",
-                    "date": "2024.04.04 09:53",
+                    "date": "2024.04.04 08:53",
                     "file": "ucv-ext-shell:0.0.34.tar.7z.001",
                     "notes": [
                         "<b>Minor enhancement in code</b>: Enabled to throw error logs while executing shell automation task."
@@ -7381,7 +7381,7 @@
                 {
                     "version": "0",
                     "semver": "0.0.34",
-                    "date": "2024.04.04 09:53",
+                    "date": "2024.04.04 08:53",
                     "file": "ucv-ext-shell:0.0.34.tar.7z.002",
                     "notes": [
                         "<b>Minor enhancement in code</b>: Enabled to throw error logs while executing shell automation task."
@@ -7447,7 +7447,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.1",
-                    "date": "2022.04.29 04:39",
+                    "date": "2022.04.29 03:39",
                     "file": "ucv-ext-snyk:1.0.1.tar.7z.001",
                     "notes": [
                         "Imports Snyk vulnerability data",
@@ -7509,7 +7509,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.34",
-                    "date": "2020.09.24 08:45",
+                    "date": "2020.09.24 07:45",
                     "file": "ucv-ext-sonarqube-1.0.34.tar.zip",
                     "notes": [
                         "Enhance security for property value"
@@ -7523,7 +7523,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.42",
-                    "date": "2021.06.14 08:24",
+                    "date": "2021.06.14 07:24",
                     "file": "ucv-ext-sonarqube-1.0.42.tar.zip",
                     "notes": [
                         "Removed IBM related keywords"
@@ -7537,7 +7537,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.50",
-                    "date": "2022.01.31 07:27",
+                    "date": "2022.01.31 05:27",
                     "file": "ucv-ext-sonarqube-1.0.50.tar.zip",
                     "notes": [
                         "User Access Key Related Changes"
@@ -7615,7 +7615,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.13",
-                    "date": "2020.12.01 09:30",
+                    "date": "2020.12.01 07:30",
                     "file": "ucv-ext-testng-1.0.13.tar.zip",
                     "notes": [
                         "Plugin name update"
@@ -7629,7 +7629,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.41",
-                    "date": "2024.06.12 04:27",
+                    "date": "2024.06.12 03:27",
                     "file": "ucv-ext-testng:1.0.41.tar.7z.001",
                     "notes": [
                         "npm wrapper version update for Argo replacement"
@@ -7643,7 +7643,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.41",
-                    "date": "2024.06.12 04:27",
+                    "date": "2024.06.12 03:27",
                     "file": "ucv-ext-testng:1.0.41.tar.7z.002",
                     "notes": [
                         "npm wrapper version update for Argo replacement"
@@ -7703,7 +7703,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.39",
-                    "date": "2020.12.04 09:35",
+                    "date": "2020.12.04 07:35",
                     "file": "ucv-ext-twistlock-1.0.39.tar.zip",
                     "notes": [
                         "Plugin name update"
@@ -7717,7 +7717,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.43",
-                    "date": "2021.06.10 04:20",
+                    "date": "2021.06.10 03:20",
                     "file": "ucv-ext-twistlock-1.0.43.tar.zip",
                     "notes": [
                         "Removed IBM related keywords"
@@ -7731,7 +7731,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.51",
-                    "date": "2024.06.12 05:46",
+                    "date": "2024.06.12 04:46",
                     "file": "ucv-ext-twistlock:1.0.51.tar.7z.001",
                     "notes": [
                         "npm wrapper version update for Argo Replacement"
@@ -7745,7 +7745,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.51",
-                    "date": "2024.06.12 05:46",
+                    "date": "2024.06.12 04:46",
                     "file": "ucv-ext-twistlock:1.0.51.tar.7z.002",
                     "notes": [
                         "npm wrapper version update for Argo Replacement"
@@ -7805,7 +7805,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.10",
-                    "date": "2022.07.24 20:26",
+                    "date": "2022.07.24 19:26",
                     "file": "ucv-ext-ucd:1.0.10.tar",
                     "notes": [
                         "Internal release related changes"
@@ -7819,7 +7819,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.11",
-                    "date": "2022.07.25 05:43",
+                    "date": "2022.07.25 04:43",
                     "file": "ucv-ext-ucd:1.0.11.tar",
                     "notes": [
                         "Using Auto-generated User Access Key"
@@ -7833,7 +7833,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.12",
-                    "date": "2022.08.01 00:15",
+                    "date": "2022.07.31 23:15",
                     "file": "ucv-ext-ucd:1.0.12.tar",
                     "notes": [
                         "Importing failed application deployment history"
@@ -7847,7 +7847,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.16",
-                    "date": "2022.12.06 08:55",
+                    "date": "2022.12.06 06:55",
                     "file": "ucv-ext-ucd:1.0.16.tar.7z.001",
                     "notes": [
                         "<b>Corrected incorrectly spelled plugin name</b>: In urbancode deploy plugin, display name was incorrectly spelled as Ubrancode deploy. Now corrected to Urbancode deploy."
@@ -7861,7 +7861,7 @@
                 {
                     "version": "2",
                     "semver": "2.3.51",
-                    "date": "2022.12.23 15:49",
+                    "date": "2022.12.23 13:49",
                     "file": "ucv-ext-ucd:2.3.51.tar.7z.001",
                     "notes": [
                         "Major Enhancements"
@@ -7875,7 +7875,7 @@
                 {
                     "version": "2",
                     "semver": "2.3.52",
-                    "date": "2023.01.13 08:46",
+                    "date": "2023.01.13 06:46",
                     "file": "ucv-ext-ucd:2.3.52.tar.7z.001",
                     "notes": [
                         "<b>Internal Server Error Fix</b>: The urbancode deploy plugin was giving internal server error while syncing the application processes from the UCD server."
@@ -7889,7 +7889,7 @@
                 {
                     "version": "2",
                     "semver": "2.3.52",
-                    "date": "2023.01.13 08:46",
+                    "date": "2023.01.13 06:46",
                     "file": "ucv-ext-ucd:2.3.52.tar.7z.002",
                     "notes": [
                         "<b>Internal Server Error Fix</b>: The urbancode deploy plugin was giving internal server error while syncing the application processes from the UCD server."
@@ -7903,7 +7903,7 @@
                 {
                     "version": "3",
                     "semver": "3.3.56",
-                    "date": "2023.02.21 08:59",
+                    "date": "2023.02.21 06:59",
                     "file": "ucv-ext-ucd:3.3.56.tar.7z.001",
                     "notes": [
                         "<b>Removed UrbanCode Deploy Status Task</b>: Assign status task is removed and made part of main UrbanCode Deploy Task as post deployment success or failure step for assigning Snapshot or Component Version status."
@@ -7917,7 +7917,7 @@
                 {
                     "version": "3",
                     "semver": "3.3.56",
-                    "date": "2023.02.21 08:59",
+                    "date": "2023.02.21 06:59",
                     "file": "ucv-ext-ucd:3.3.56.tar.7z.002",
                     "notes": [
                         "<b>Removed UrbanCode Deploy Status Task</b>: Assign status task is removed and made part of main UrbanCode Deploy Task as post deployment success or failure step for assigning Snapshot or Component Version status."
@@ -7931,7 +7931,7 @@
                 {
                     "version": "3",
                     "semver": "3.4.5",
-                    "date": "2023.04.10 10:28",
+                    "date": "2023.04.10 09:28",
                     "file": "ucv-ext-ucd:3.4.5.tar.7z.001",
                     "notes": [
                         "<b>Bug Fix</b>: In previous version - plugin was not syncing more than 100 applications and it was resulting in Snapshot Upload failure.",
@@ -7948,7 +7948,7 @@
                 {
                     "version": "3",
                     "semver": "3.4.6",
-                    "date": "2023.06.09 10:02",
+                    "date": "2023.06.09 09:02",
                     "file": "ucv-ext-ucd:3.4.6.tar.7z.001",
                     "notes": [
                         "Removed Version as mandatory for external UCD"
@@ -7962,7 +7962,7 @@
                 {
                     "version": "4",
                     "semver": "4.0.2",
-                    "date": "2023.09.18 09:02",
+                    "date": "2023.09.18 08:02",
                     "file": "ucv-ext-ucd:4.0.2.tar.7z.001",
                     "notes": [
                         "Using version properties for mapping build.url parameter"
@@ -7976,7 +7976,7 @@
                 {
                     "version": "4",
                     "semver": "4.0.2",
-                    "date": "2023.09.18 09:02",
+                    "date": "2023.09.18 08:02",
                     "file": "ucv-ext-ucd:4.0.2.tar.7z.002",
                     "notes": [
                         "Using version properties for mapping build.url parameter"
@@ -7990,7 +7990,7 @@
                 {
                     "version": "4",
                     "semver": "4.0.3",
-                    "date": "2023.11.29 09:29",
+                    "date": "2023.11.29 07:29",
                     "file": "ucv-ext-ucd:4.0.3.tar.7z.001",
                     "notes": [
                         "Started uploading statuses to Snapshot and Component versions"
@@ -8004,7 +8004,7 @@
                 {
                     "version": "4",
                     "semver": "4.0.3",
-                    "date": "2023.11.29 09:29",
+                    "date": "2023.11.29 07:29",
                     "file": "ucv-ext-ucd:4.0.3.tar.7z.002",
                     "notes": [
                         "Started uploading statuses to Snapshot and Component versions"
@@ -8018,7 +8018,7 @@
                 {
                     "version": "4",
                     "semver": "4.0.4",
-                    "date": "2024.04.10 07:04",
+                    "date": "2024.04.10 06:04",
                     "file": "ucv-ext-ucd:4.0.4.tar.7z.001",
                     "notes": [
                         "<b>Rebranding</b>: Name of the plugin is changed from UrbanCode Deploy to IBM DevOps Deploy. "
@@ -8032,7 +8032,7 @@
                 {
                     "version": "4",
                     "semver": "4.0.4",
-                    "date": "2024.04.10 07:04",
+                    "date": "2024.04.10 06:04",
                     "file": "ucv-ext-ucd:4.0.4.tar.7z.002",
                     "notes": [
                         "<b>Rebranding</b>: Name of the plugin is changed from UrbanCode Deploy to IBM DevOps Deploy. "
@@ -8046,7 +8046,7 @@
                 {
                     "version": "4",
                     "semver": "4.0.5",
-                    "date": "2024.05.20 08:35",
+                    "date": "2024.05.20 07:35",
                     "file": "ucv-ext-ucd:4.0.5.tar.7z.001",
                     "notes": [
                         "<b>Minor bug fix:</b> In previous version user who does not exist on UCD server were able to execute the task. Now User who exists on UCD Server and have sufficient permission is able to execute the task."
@@ -8060,7 +8060,7 @@
                 {
                     "version": "4",
                     "semver": "4.0.5",
-                    "date": "2024.05.20 08:35",
+                    "date": "2024.05.20 07:35",
                     "file": "ucv-ext-ucd:4.0.5.tar.7z.002",
                     "notes": [
                         "<b>Minor bug fix:</b> In previous version user who does not exist on UCD server were able to execute the task. Now User who exists on UCD Server and have sufficient permission is able to execute the task."
@@ -8074,7 +8074,7 @@
                 {
                     "version": "4",
                     "semver": "4.0.9",
-                    "date": "2024.07.15 10:06",
+                    "date": "2024.07.15 09:06",
                     "file": "ucv-ext-ucd:4.0.9.tar.7z.001",
                     "notes": [
                         "Releasing again for prev version changes"
@@ -8088,7 +8088,7 @@
                 {
                     "version": "4",
                     "semver": "4.0.9",
-                    "date": "2024.07.15 10:06",
+                    "date": "2024.07.15 09:06",
                     "file": "ucv-ext-ucd:4.0.9.tar.7z.002",
                     "notes": [
                         "Releasing again for prev version changes"
@@ -8148,7 +8148,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.11",
-                    "date": "2020.05.22 12:01",
+                    "date": "2020.05.22 11:01",
                     "file": "ucv-ext-versionone-1.0.11.tar.zip",
                     "notes": [
                         "Added support for teams, backlog group, portfolio"
@@ -8208,7 +8208,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.30",
-                    "date": "2020.08.07 09:22",
+                    "date": "2020.08.07 08:22",
                     "file": "ucv-ext-vs-quality-1.0.30.tar.zip",
                     "notes": [
                         "Updated npm-wrapper version"
@@ -8222,7 +8222,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.31",
-                    "date": "2020.12.11 12:53",
+                    "date": "2020.12.11 10:53",
                     "file": "ucv-ext-vs-quality-1.0.31.tar.zip",
                     "notes": [
                         "Plugin name update"
@@ -8236,7 +8236,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.49",
-                    "date": "2024.06.11 08:22",
+                    "date": "2024.06.11 07:22",
                     "file": "ucv-ext-vs-quality:1.0.49.tar.7z.001",
                     "notes": [
                         "npm wrapper version update for Argo Replacement"
@@ -8250,7 +8250,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.49",
-                    "date": "2024.06.11 08:22",
+                    "date": "2024.06.11 07:22",
                     "file": "ucv-ext-vs-quality:1.0.49.tar.7z.002",
                     "notes": [
                         "npm wrapper version update for Argo Replacement"
@@ -8310,7 +8310,7 @@
                 {
                     "version": "2",
                     "semver": "2.0.15",
-                    "date": "2022.03.29 04:29",
+                    "date": "2022.03.29 03:29",
                     "file": "ucv-ext-whitesource-2.0.15.tar.zip",
                     "notes": [
                         "Converted to scheduled event plugin",
@@ -8383,7 +8383,7 @@
                 {
                     "version": "0",
                     "semver": "0.0.5",
-                    "date": "2023.06.02 05:49",
+                    "date": "2023.06.02 04:49",
                     "file": "ucv-ext-yaml-executor:0.0.5.tar.7z.001",
                     "notes": [
                         "Initial Release"
@@ -8397,7 +8397,7 @@
                 {
                     "version": "0",
                     "semver": "0.0.6",
-                    "date": "2023.09.01 09:12",
+                    "date": "2023.09.01 08:12",
                     "file": "ucv-ext-yaml-executor:0.0.6.tar.7z.001",
                     "notes": [
                         "Started using timeSpan for Initial Sync date."
@@ -8411,7 +8411,7 @@
                 {
                     "version": "0",
                     "semver": "0.0.6",
-                    "date": "2023.09.01 09:12",
+                    "date": "2023.09.01 08:12",
                     "file": "ucv-ext-yaml-executor:0.0.6.tar.7z.002",
                     "notes": [
                         "Started using timeSpan for Initial Sync date."
@@ -8543,7 +8543,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.1",
-                    "date": "2023.03.31 15:21",
+                    "date": "2023.03.31 14:21",
                     "file": "ucv-ext-jenkins:1.0.1.tar.7z.001",
                     "notes": [
                         "Public release."
@@ -8557,7 +8557,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.4",
-                    "date": "2023.04.05 16:19",
+                    "date": "2023.04.05 15:19",
                     "file": "ucv-ext-jenkins:1.0.4.tar.7z.001",
                     "notes": [
                         "Fix integration name not showing in pipeline stage task selection",
@@ -8572,7 +8572,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.9",
-                    "date": "2023.06.09 13:52",
+                    "date": "2023.06.09 12:52",
                     "file": "ucv-ext-jenkins:1.0.9.tar.7z.001",
                     "notes": [
                         "Limit maximum parallel requests",
@@ -8588,7 +8588,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.1",
-                    "date": "2023.08.18 12:56",
+                    "date": "2023.08.18 11:56",
                     "file": "ucv-ext-jenkins:1.1.1.tar.7z.001",
                     "notes": [
                         "Default initial sync to 30 days"
@@ -8602,7 +8602,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.1",
-                    "date": "2023.08.18 12:56",
+                    "date": "2023.08.18 11:56",
                     "file": "ucv-ext-jenkins:1.1.1.tar.7z.002",
                     "notes": [
                         "Default initial sync to 30 days"
@@ -8616,7 +8616,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.2",
-                    "date": "2023.10.12 02:38",
+                    "date": "2023.10.12 01:38",
                     "file": "ucv-ext-jenkins:1.1.2.tar.7z.001",
                     "notes": [
                         "Added support for process parameters coming from Git Parameter and Active Choices plugins",
@@ -8631,7 +8631,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.2",
-                    "date": "2023.10.12 02:38",
+                    "date": "2023.10.12 01:38",
                     "file": "ucv-ext-jenkins:1.1.2.tar.7z.002",
                     "notes": [
                         "Added support for process parameters coming from Git Parameter and Active Choices plugins",
@@ -8646,7 +8646,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.3",
-                    "date": "2023.11.15 04:25",
+                    "date": "2023.11.15 02:25",
                     "file": "ucv-ext-jenkins:1.1.3.tar.7z.001",
                     "notes": [
                         "Fix for Build-Revision mismatch in Jenkins Integration"
@@ -8660,7 +8660,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.3",
-                    "date": "2023.11.15 04:25",
+                    "date": "2023.11.15 02:25",
                     "file": "ucv-ext-jenkins:1.1.3.tar.7z.002",
                     "notes": [
                         "Fix for Build-Revision mismatch in Jenkins Integration"
@@ -8674,7 +8674,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.5",
-                    "date": "2024.02.19 18:25",
+                    "date": "2024.02.19 16:25",
                     "file": "ucv-ext-jenkins:1.1.5.tar.7z.001",
                     "notes": [
                         "Fix xpath job filter",
@@ -8689,7 +8689,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.5",
-                    "date": "2024.02.19 18:25",
+                    "date": "2024.02.19 16:25",
                     "file": "ucv-ext-jenkins:1.1.5.tar.7z.002",
                     "notes": [
                         "Fix xpath job filter",
@@ -8704,7 +8704,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.6",
-                    "date": "2024.06.10 06:38",
+                    "date": "2024.06.10 05:38",
                     "file": "ucv-ext-jenkins:1.1.6.tar.7z.001",
                     "notes": [
                         "<b>Bug fix:</b> The Jenkins task in deployment remains incomplete when the Velocity instance goes down during deployment. When the instance comes back online with the new version, the task still does not get marked as complete."
@@ -8718,7 +8718,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.6",
-                    "date": "2024.06.10 06:38",
+                    "date": "2024.06.10 05:38",
                     "file": "ucv-ext-jenkins:1.1.6.tar.7z.002",
                     "notes": [
                         "<b>Bug fix:</b> The Jenkins task in deployment remains incomplete when the Velocity instance goes down during deployment. When the instance comes back online with the new version, the task still does not get marked as complete."
@@ -8732,7 +8732,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.7",
-                    "date": "2024.06.10 08:37",
+                    "date": "2024.06.10 07:37",
                     "file": "ucv-ext-jenkins:1.1.7.tar.7z.001",
                     "notes": [
                         "<b>Minor bug fix:</b> The Jenkins task in deployment remains incomplete when the Velocity instance goes down during deployment. When the instance comes back online with the new version, the task still does not get marked as complete."
@@ -8746,7 +8746,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.7",
-                    "date": "2024.06.10 08:37",
+                    "date": "2024.06.10 07:37",
                     "file": "ucv-ext-jenkins:1.1.7.tar.7z.002",
                     "notes": [
                         "<b>Minor bug fix:</b> The Jenkins task in deployment remains incomplete when the Velocity instance goes down during deployment. When the instance comes back online with the new version, the task still does not get marked as complete."
@@ -8864,7 +8864,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.39",
-                    "date": "2022.11.21 21:43",
+                    "date": "2022.11.21 19:43",
                     "file": "acc-ext-generator:1.0.39.tar.7z.001",
                     "notes": [
                         "Support deletion of generated demo data",
@@ -8879,7 +8879,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.39",
-                    "date": "2022.11.21 21:43",
+                    "date": "2022.11.21 19:43",
                     "file": "acc-ext-generator:1.0.39.tar.7z.002",
                     "notes": [
                         "Support deletion of generated demo data",
@@ -8894,7 +8894,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.39",
-                    "date": "2022.11.21 21:43",
+                    "date": "2022.11.21 19:43",
                     "file": "acc-ext-generator:1.0.39.tar.7z.003",
                     "notes": [
                         "Support deletion of generated demo data",
@@ -9079,7 +9079,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.55",
-                    "date": "2024.10.23 03:44",
+                    "date": "2024.10.23 02:44",
                     "file": "ucv-ext-compass:1.1.55.tar.7z.001",
                     "notes": [
                         "Initial Release of Plan Plugin"
@@ -9093,7 +9093,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.55",
-                    "date": "2024.10.23 03:44",
+                    "date": "2024.10.23 02:44",
                     "file": "ucv-ext-compass:1.1.55.tar.7z.002",
                     "notes": [
                         "Initial Release of Plan Plugin"
@@ -9107,7 +9107,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.57",
-                    "date": "2025.03.24 07:30",
+                    "date": "2025.03.24 05:30",
                     "file": "ucv-ext-compass:1.1.57.tar.7z.001",
                     "notes": [
                         "<b>Feature enhancement</b>: We have enhanced the DevOps Plan plugin integration with Velocity by automating field mapping. This eliminates the need for manual configuration, ensuring a smoother and more efficient integration experience."
@@ -9121,7 +9121,7 @@
                 {
                     "version": "1",
                     "semver": "1.1.57",
-                    "date": "2025.03.24 07:30",
+                    "date": "2025.03.24 05:30",
                     "file": "ucv-ext-compass:1.1.57.tar.7z.002",
                     "notes": [
                         "<b>Feature enhancement</b>: We have enhanced the DevOps Plan plugin integration with Velocity by automating field mapping. This eliminates the need for manual configuration, ensuring a smoother and more efficient integration experience."
@@ -9154,7 +9154,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.47",
-                    "date": "2023.12.08 16:05",
+                    "date": "2023.12.08 14:05",
                     "file": "ucv-ext-generator:1.0.47.tar.7z.001",
                     "notes": [
                         "Renamed Plugin"
@@ -9168,7 +9168,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.47",
-                    "date": "2023.12.08 16:05",
+                    "date": "2023.12.08 14:05",
                     "file": "ucv-ext-generator:1.0.47.tar.7z.002",
                     "notes": [
                         "Renamed Plugin"
@@ -9182,7 +9182,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.47",
-                    "date": "2023.12.08 16:05",
+                    "date": "2023.12.08 14:05",
                     "file": "ucv-ext-generator:1.0.47.tar.7z.003",
                     "notes": [
                         "Renamed Plugin"
@@ -9196,7 +9196,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.52",
-                    "date": "2025.03.11 09:59",
+                    "date": "2025.03.11 07:59",
                     "file": "ucv-ext-generator:1.0.52.tar.7z.001",
                     "notes": [
                         "<b>Bug fix</b>: GitHub integration was not happening second time, it was using existing integration, as apiUrl was not unique in workflow.json file under VSMCookBooks integration properties of GitHub. In older version of GitHub URL field was removed, plugin was looking for apiUrl.",
@@ -9211,7 +9211,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.52",
-                    "date": "2025.03.11 09:59",
+                    "date": "2025.03.11 07:59",
                     "file": "ucv-ext-generator:1.0.52.tar.7z.002",
                     "notes": [
                         "<b>Bug fix</b>: GitHub integration was not happening second time, it was using existing integration, as apiUrl was not unique in workflow.json file under VSMCookBooks integration properties of GitHub. In older version of GitHub URL field was removed, plugin was looking for apiUrl.",
@@ -9226,7 +9226,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.52",
-                    "date": "2025.03.11 09:59",
+                    "date": "2025.03.11 07:59",
                     "file": "ucv-ext-generator:1.0.52.tar.7z.003",
                     "notes": [
                         "<b>Bug fix</b>: GitHub integration was not happening second time, it was using existing integration, as apiUrl was not unique in workflow.json file under VSMCookBooks integration properties of GitHub. In older version of GitHub URL field was removed, plugin was looking for apiUrl.",
@@ -9260,7 +9260,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.1",
-                    "date": "2023.12.19 00:36",
+                    "date": "2023.12.18 22:36",
                     "file": "ucv-ext-jira-service-management:1.0.1.tar.7z.001",
                     "notes": [
                         "Sync incidents."
@@ -9274,7 +9274,7 @@
                 {
                     "version": "1",
                     "semver": "1.0.1",
-                    "date": "2023.12.19 00:36",
+                    "date": "2023.12.18 22:36",
                     "file": "ucv-ext-jira-service-management:1.0.1.tar.7z.002",
                     "notes": [
                         "Sync incidents."

@@ -21,7 +21,7 @@
                 {
                     "version": "2",
                     "semver": "2.350683",
-                    "date": "2013.02.28 16:02",
+                    "date": "2013.02.28 15:02",
                     "file": "AccuRev-2.350683.zip",
                     "notes": [
                         "Installing this plugin will give you access to the AccuRev commands listed below. These steps will be available for use when designing a Job."
@@ -35,7 +35,7 @@
                 {
                     "version": "3",
                     "semver": "3.408166",
-                    "date": "2013.07.16 09:42",
+                    "date": "2013.07.16 08:42",
                     "file": "AccuRev-3.408166.zip",
                     "notes": [
                         "Update to a newer version of a library for HTTP communication."
@@ -49,7 +49,7 @@
                 {
                     "version": "4",
                     "semver": "4.604289",
-                    "date": "2014.11.14 09:59",
+                    "date": "2014.11.14 08:59",
                     "file": "AccuRev-4.604289.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -63,7 +63,7 @@
                 {
                     "version": "5",
                     "semver": "5.669681",
-                    "date": "2015.05.11 09:37",
+                    "date": "2015.05.11 08:37",
                     "file": "AccuRev-5.669681.zip",
                     "notes": [
                         "Updated to append the depot name to all change IDs. This prevents an issue where multiple depots can have the",
@@ -78,7 +78,7 @@
                 {
                     "version": "6",
                     "semver": "6.752929",
-                    "date": "2016.03.01 08:56",
+                    "date": "2016.03.01 07:56",
                     "file": "AccuRev-6.752929.zip",
                     "notes": [
                         "Added RPX dependency and English translations.",
@@ -139,7 +139,7 @@
                 {
                     "version": "2",
                     "semver": "2.350686",
-                    "date": "2013.02.28 16:04",
+                    "date": "2013.02.28 15:04",
                     "file": "AccuWork-2.350686.zip",
                     "notes": [
                         "Installing this plugin will give you access to the AccuWork commands listed below. These steps will be available for use when designing a Job."
@@ -153,7 +153,7 @@
                 {
                     "version": "3",
                     "semver": "3.408455",
-                    "date": "2013.07.16 12:29",
+                    "date": "2013.07.16 11:29",
                     "file": "AccuWork-3.408455.zip",
                     "notes": [
                         "Update to a newer version of a library for HTTP communication."
@@ -167,7 +167,7 @@
                 {
                     "version": "4",
                     "semver": "4.431001",
-                    "date": "2013.09.06 08:03",
+                    "date": "2013.09.06 07:03",
                     "file": "AccuWork-4.431001.zip",
                     "notes": [
                         "Changed the issue IDs that are uploaded to the Issues tab of a build life to contain their depot name so that they are always unique."
@@ -181,7 +181,7 @@
                 {
                     "version": "5",
                     "semver": "5.474440",
-                    "date": "2014.01.23 15:33",
+                    "date": "2014.01.23 14:33",
                     "file": "AccuWork-5.474440.zip",
                     "notes": [
                         "Do not process duplicate changes. Fix a memory leak that caused problems with large number of changes."
@@ -195,7 +195,7 @@
                 {
                     "version": "6",
                     "semver": "6.604290",
-                    "date": "2014.11.14 09:58",
+                    "date": "2014.11.14 08:58",
                     "file": "AccuWork-6.604290.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -209,7 +209,7 @@
                 {
                     "version": "7",
                     "semver": "7.752908",
-                    "date": "2016.03.01 08:55",
+                    "date": "2016.03.01 07:55",
                     "file": "AccuWork-7.752908.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -223,7 +223,7 @@
                 {
                     "version": "8",
                     "semver": "8.1096129",
-                    "date": "2021.02.05 11:58",
+                    "date": "2021.02.05 10:58",
                     "file": "AccuWork-8.1096129.zip",
                     "notes": [
                         "Support property file encryption."
@@ -283,7 +283,7 @@
                 {
                     "version": "1",
                     "semver": "1.349395",
-                    "date": "2013.02.27 13:09",
+                    "date": "2013.02.27 12:09",
                     "file": "Ant-1.349395.zip",
                     "notes": [
                         "Loading the Ant plugin will give users access to the Ant Job steps for use when designing the deployment job."
@@ -297,7 +297,7 @@
                 {
                     "version": "2",
                     "semver": "2.384113",
-                    "date": "2013.06.01 21:59",
+                    "date": "2013.06.01 20:59",
                     "file": "Ant-2.384113.zip",
                     "notes": [
                         "Fix parsing of properties passed to Ant on the command line that have spaces in them."
@@ -311,7 +311,7 @@
                 {
                     "version": "3",
                     "semver": "3.630731",
-                    "date": "2015.02.04 08:05",
+                    "date": "2015.02.04 07:05",
                     "file": "Ant-3.630731.zip",
                     "notes": [
                         "Updated plugin to use plugin utility scripts."
@@ -325,7 +325,7 @@
                 {
                     "version": "6",
                     "semver": "6.718259",
-                    "date": "2015.12.02 07:35",
+                    "date": "2015.12.02 06:35",
                     "file": "Ant-6.718259.zip",
                     "notes": [
                         "Remove the 'JVM Properties' property because Ant ignores JAVA_OPTS"
@@ -339,7 +339,7 @@
                 {
                     "version": "7",
                     "semver": "7.752769",
-                    "date": "2016.03.01 08:50",
+                    "date": "2016.03.01 07:50",
                     "file": "Ant-7.752769.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -353,7 +353,7 @@
                 {
                     "version": "8",
                     "semver": "8.913229",
-                    "date": "2017.05.15 09:41",
+                    "date": "2017.05.15 08:41",
                     "file": "Ant-8.913229.zip",
                     "notes": [
                         "Support property file encryption."
@@ -367,7 +367,7 @@
                 {
                     "version": "10",
                     "semver": "10.1165571",
-                    "date": "2024.02.02 01:20",
+                    "date": "2024.02.02 00:20",
                     "file": "Ant-10.1165571.zip",
                     "notes": [
                         "log4j and Jettison dependency updated."
@@ -427,7 +427,7 @@
                 {
                     "version": "1",
                     "semver": "1.838500",
-                    "date": "2016.10.14 15:05",
+                    "date": "2016.10.14 14:05",
                     "file": "Artifactory-1.838500.zip",
                     "notes": [
                         "Install this plugin to access to the steps listed below. These steps can be used when downloading from or uploading to Artifactory repository. This requires UrbanCode Build 6.1.2.2"
@@ -441,7 +441,7 @@
                 {
                     "version": "3",
                     "semver": "3.904735",
-                    "date": "2017.04.04 14:09",
+                    "date": "2017.04.04 13:09",
                     "file": "Artifactory-3.904735.zip",
                     "notes": [
                         "Refactor code"
@@ -455,7 +455,7 @@
                 {
                     "version": "4",
                     "semver": "4.912937",
-                    "date": "2017.05.12 15:10",
+                    "date": "2017.05.12 14:10",
                     "file": "Artifactory-4.912937.zip",
                     "notes": [
                         "Fix MissingPropertyException when using Password Script in upload/download steps"
@@ -469,7 +469,7 @@
                 {
                     "version": "5",
                     "semver": "5.915511",
-                    "date": "2017.05.23 07:19",
+                    "date": "2017.05.23 06:19",
                     "file": "Artifactory-5.915511.zip",
                     "notes": [
                         "Add new property to be able to set properties for artifacts when uploading"
@@ -483,7 +483,7 @@
                 {
                     "version": "7",
                     "semver": "7.920428",
-                    "date": "2017.06.09 15:32",
+                    "date": "2017.06.09 14:32",
                     "file": "Artifactory-7.920428.zip",
                     "notes": [
                         "Add new step for uploading build information"
@@ -497,7 +497,7 @@
                 {
                     "version": "8",
                     "semver": "8.920677",
-                    "date": "2017.06.12 12:46",
+                    "date": "2017.06.12 11:46",
                     "file": "Artifactory-8.920677.zip",
                     "notes": [
                         "Fix windows path normalization issues in upload step"
@@ -511,7 +511,7 @@
                 {
                     "version": "9",
                     "semver": "9.922826",
-                    "date": "2017.06.29 09:18",
+                    "date": "2017.06.29 08:18",
                     "file": "Artifactory-9.922826.zip",
                     "notes": [
                         "Fix incompatibility issue with Groovy 2.4.10"
@@ -525,7 +525,7 @@
                 {
                     "version": "10",
                     "semver": "10.929812",
-                    "date": "2017.08.17 08:50",
+                    "date": "2017.08.17 07:50",
                     "file": "Artifactory-10.929812.zip",
                     "notes": [
                         "Fix issue in Artifacts tab of UCB when uploading artifacts using the Artifactory plugin"
@@ -539,7 +539,7 @@
                 {
                     "version": "11",
                     "semver": "11.930715",
-                    "date": "2017.08.24 09:09",
+                    "date": "2017.08.24 08:09",
                     "file": "Artifactory-11.930715.zip",
                     "notes": [
                         "Fix issue with artifact download links when preserving artifact file paths and using Artifactory Pro"
@@ -599,7 +599,7 @@
                 {
                     "version": "12",
                     "semver": "12.673059",
-                    "date": "2015.06.03 15:47",
+                    "date": "2015.06.03 14:47",
                     "file": "ClearCaseBaseSnapshot-12.673059.zip",
                     "notes": [
                         "Fixed a race condition when processing command output"
@@ -613,7 +613,7 @@
                 {
                     "version": "13",
                     "semver": "13.753109",
-                    "date": "2016.03.02 10:07",
+                    "date": "2016.03.02 09:07",
                     "file": "ClearCaseBaseSnapshot-13.753109.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -627,7 +627,7 @@
                 {
                     "version": "14",
                     "semver": "14.767774",
-                    "date": "2016.03.30 08:05",
+                    "date": "2016.03.30 07:05",
                     "file": "ClearCaseBaseSnapshot-14.767774.zip",
                     "notes": [
                         "Fix change set parsing in the Changelog step",
@@ -700,7 +700,7 @@
                 {
                     "version": "13",
                     "semver": "13.673057",
-                    "date": "2015.06.03 15:46",
+                    "date": "2015.06.03 14:46",
                     "file": "ClearCaseUCM-13.673057.zip",
                     "notes": [
                         "Fix a bug where the changelog and quiet period steps were not respecting the view creation strategy"
@@ -714,7 +714,7 @@
                 {
                     "version": "14",
                     "semver": "14.752906",
-                    "date": "2016.03.01 08:56",
+                    "date": "2016.03.01 07:56",
                     "file": "ClearCaseUCM-14.752906.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -728,7 +728,7 @@
                 {
                     "version": "16",
                     "semver": "16.973040",
-                    "date": "2018.02.28 10:11",
+                    "date": "2018.02.28 09:11",
                     "file": "ClearCaseUCM-16.973040.zip",
                     "notes": [
                         "Fix bug in changelog parsing logic that caused multiple changes to be detected for each changeset."
@@ -794,7 +794,7 @@
                 {
                     "version": "2",
                     "semver": "2.360315",
-                    "date": "2013.03.27 07:21",
+                    "date": "2013.03.27 06:21",
                     "file": "ClearQuest-2.360315.zip",
                     "notes": [
                         "Installing this plugin will give you access to the ClearQuest commands listed below. These steps will be available for use when designing a Job."
@@ -808,7 +808,7 @@
                 {
                     "version": "3",
                     "semver": "3.410052",
-                    "date": "2013.07.17 15:09",
+                    "date": "2013.07.17 14:09",
                     "file": "ClearQuest-3.410052.zip",
                     "notes": [
                         "Update to a newer version of a library for HTTP communication."
@@ -822,7 +822,7 @@
                 {
                     "version": "4",
                     "semver": "4.638532",
-                    "date": "2015.02.12 15:54",
+                    "date": "2015.02.12 14:54",
                     "file": "ClearQuest-4.638532.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -836,7 +836,7 @@
                 {
                     "version": "5",
                     "semver": "5.752905",
-                    "date": "2016.03.01 08:55",
+                    "date": "2016.03.01 07:55",
                     "file": "ClearQuest-5.752905.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -896,7 +896,7 @@
                 {
                     "version": "1",
                     "semver": "1.671550",
-                    "date": "2015.05.26 09:34",
+                    "date": "2015.05.26 08:34",
                     "file": "clover-1.671550.zip",
                     "notes": [
                         "Loading Clover will give access to steps for uploading Clover reports."
@@ -910,7 +910,7 @@
                 {
                     "version": "2",
                     "semver": "2.752899",
-                    "date": "2016.03.01 08:55",
+                    "date": "2016.03.01 07:55",
                     "file": "clover-2.752899.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -970,7 +970,7 @@
                 {
                     "version": "1",
                     "semver": "1.349444",
-                    "date": "2013.02.27 13:26",
+                    "date": "2013.02.27 12:26",
                     "file": "cobertura-1.349444.zip",
                     "notes": [
                         "Loading Cobertura will give access to steps for uploading Cobertura reports."
@@ -984,7 +984,7 @@
                 {
                     "version": "2",
                     "semver": "2.373052",
-                    "date": "2013.04.19 06:08",
+                    "date": "2013.04.19 05:08",
                     "file": "cobertura-2.373052.zip",
                     "notes": [
                         "Fixed a bug where publishing could fail due when trying to access a Cobertura URL."
@@ -998,7 +998,7 @@
                 {
                     "version": "3",
                     "semver": "3.542772",
-                    "date": "2014.07.27 21:47",
+                    "date": "2014.07.27 20:47",
                     "file": "cobertura-3.542772.zip",
                     "notes": [
                         "Update to a newer version of a library for HTTP communication."
@@ -1012,7 +1012,7 @@
                 {
                     "version": "4",
                     "semver": "4.604292",
-                    "date": "2014.11.14 10:00",
+                    "date": "2014.11.14 09:00",
                     "file": "cobertura-4.604292.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -1026,7 +1026,7 @@
                 {
                     "version": "5",
                     "semver": "5.752901",
-                    "date": "2016.03.01 08:54",
+                    "date": "2016.03.01 07:54",
                     "file": "cobertura-5.752901.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -1086,7 +1086,7 @@
                 {
                     "version": "4",
                     "semver": "4.349446",
-                    "date": "2013.02.27 13:42",
+                    "date": "2013.02.27 12:42",
                     "file": "codestation-4.349446.zip",
                     "notes": [
                         "Added in a missing useCache property for the Download Artifacts step."
@@ -1100,7 +1100,7 @@
                 {
                     "version": "5",
                     "semver": "5.357765",
-                    "date": "2013.03.20 07:39",
+                    "date": "2013.03.20 06:39",
                     "file": "codestation-5.357765.zip",
                     "notes": [
                         "Version 5 requires uBuild 4.2.2 or later"
@@ -1114,7 +1114,7 @@
                 {
                     "version": "6",
                     "semver": "6.382046",
-                    "date": "2013.05.21 13:19",
+                    "date": "2013.05.21 12:19",
                     "file": "codestation-6.382046.zip",
                     "notes": [
                         "Changed the CodeStation client to support dependencies.xml configurations. This version requires uBuild 4.3.1 or later"
@@ -1128,7 +1128,7 @@
                 {
                     "version": "7",
                     "semver": "7.386280",
-                    "date": "2013.06.12 13:20",
+                    "date": "2013.06.12 12:20",
                     "file": "codestation-7.386280.zip",
                     "notes": [
                         "Added an option to fail an Upload Artifact step if either the directories do not exist or there are no artifacts in the directories."
@@ -1142,7 +1142,7 @@
                 {
                     "version": "8",
                     "semver": "8.411322",
-                    "date": "2013.07.18 13:48",
+                    "date": "2013.07.18 12:48",
                     "file": "codestation-8.411322.zip",
                     "notes": [
                         "Updated Http Library."
@@ -1156,7 +1156,7 @@
                 {
                     "version": "9",
                     "semver": "9.429653",
-                    "date": "2013.08.27 15:19",
+                    "date": "2013.08.27 14:19",
                     "file": "codestation-9.429653.zip",
                     "notes": [
                         "Updated CodeStation to properly handle empty 'includes' strings for an artifact set"
@@ -1170,7 +1170,7 @@
                 {
                     "version": "11",
                     "semver": "11.597180",
-                    "date": "2014.11.05 14:48",
+                    "date": "2014.11.05 13:48",
                     "file": "codestation-11.597180.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -1184,7 +1184,7 @@
                 {
                     "version": "12",
                     "semver": "12.644060",
-                    "date": "2015.02.27 13:21",
+                    "date": "2015.02.27 12:21",
                     "file": "codestation-12.644060.zip",
                     "notes": [
                         "Retry to upload files if they fail."
@@ -1198,7 +1198,7 @@
                 {
                     "version": "13",
                     "semver": "13.685649",
-                    "date": "2015.08.03 10:08",
+                    "date": "2015.08.03 09:08",
                     "file": "codestation-13.685649.zip",
                     "notes": [
                         "Use a newer version of the CodeStation Client that properly handles excludes."
@@ -1212,7 +1212,7 @@
                 {
                     "version": "14",
                     "semver": "14.752869",
-                    "date": "2016.03.01 08:54",
+                    "date": "2016.03.01 07:54",
                     "file": "codestation-14.752869.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -1226,7 +1226,7 @@
                 {
                     "version": "15",
                     "semver": "15.913306",
-                    "date": "2017.05.15 09:58",
+                    "date": "2017.05.15 08:58",
                     "file": "codestation-15.913306.zip",
                     "notes": [
                         "Support property file encryption."
@@ -1240,7 +1240,7 @@
                 {
                     "version": "16",
                     "semver": "16.925891",
-                    "date": "2017.07.24 08:17",
+                    "date": "2017.07.24 07:17",
                     "file": "codestation-16.925891.zip",
                     "notes": [
                         "Fix issue in Download Dependencies step when there is dependency conflict."
@@ -1254,7 +1254,7 @@
                 {
                     "version": "17",
                     "semver": "17.927455",
-                    "date": "2017.08.01 13:39",
+                    "date": "2017.08.01 12:39",
                     "file": "codestation-17.927455.zip",
                     "notes": [
                         "Add missing jar required by newer version of codestation client"
@@ -1268,7 +1268,7 @@
                 {
                     "version": "18",
                     "semver": "18.928359",
-                    "date": "2017.08.09 14:19",
+                    "date": "2017.08.09 13:19",
                     "file": "codestation-18.928359.zip",
                     "notes": [
                         "Add new timeout property to Upload Artifacts step to allow configuring the http request timeout when uploading artifacts"
@@ -1282,7 +1282,7 @@
                 {
                     "version": "20",
                     "semver": "20.973508",
-                    "date": "2018.03.02 22:15",
+                    "date": "2018.03.02 21:15",
                     "file": "codestation-20.973508.zip",
                     "notes": [
                         "Change the tag to \"Repositories/Artifact/CodeStation\"."
@@ -1296,7 +1296,7 @@
                 {
                     "version": "21",
                     "semver": "21.988495",
-                    "date": "2018.08.03 12:43",
+                    "date": "2018.08.03 11:43",
                     "file": "codestation-21.988495.zip",
                     "notes": [
                         "Fix parsing value for the \"Additional Hashes\" field of the artifact upload steps"
@@ -1310,7 +1310,7 @@
                 {
                     "version": "22",
                     "semver": "22.1026046",
-                    "date": "2019.06.17 08:43",
+                    "date": "2019.06.17 07:43",
                     "file": "codestation-22.1026046.zip",
                     "notes": [
                         "Update codestation client jar dependency to be able to properly use the charset value sent by UCB, where applicable."
@@ -1324,7 +1324,7 @@
                 {
                     "version": "23",
                     "semver": "23.1033008",
-                    "date": "2019.09.13 14:38",
+                    "date": "2019.09.13 13:38",
                     "file": "codestation-23.1033008.zip",
                     "notes": [
                         "Fix infinite loop during artifact upload if the includes pattern resolves to empty."
@@ -1338,7 +1338,7 @@
                 {
                     "version": "24",
                     "semver": "24.1069469",
-                    "date": "2020.09.04 00:23",
+                    "date": "2020.09.03 23:23",
                     "file": "codestation-24.1069469.zip",
                     "notes": [
                         "Add option to set agent's codestation cache dir."
@@ -1352,7 +1352,7 @@
                 {
                     "version": "25",
                     "semver": "25.1165172",
-                    "date": "2024.01.30 05:43",
+                    "date": "2024.01.30 04:43",
                     "file": "codestation-25.1165172.zip",
                     "notes": [
                         "Upgrade of jettison jar as part of security fix."
@@ -1412,7 +1412,7 @@
                 {
                     "version": "1",
                     "semver": "1.460123",
-                    "date": "2013.12.11 12:08",
+                    "date": "2013.12.11 11:08",
                     "file": "CppUnit-1.460123.zip",
                     "notes": [
                         "Installing this plugin will give you access to a CppUnit step that will publish test results to the server. The step will be available when designing a Job."
@@ -1426,7 +1426,7 @@
                 {
                     "version": "2",
                     "semver": "2.604293",
-                    "date": "2014.11.14 10:01",
+                    "date": "2014.11.14 09:01",
                     "file": "CppUnit-2.604293.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -1440,7 +1440,7 @@
                 {
                     "version": "3",
                     "semver": "3.736890",
-                    "date": "2016.01.29 07:41",
+                    "date": "2016.01.29 06:41",
                     "file": "CppUnit-3.736890.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -1500,7 +1500,7 @@
                 {
                     "version": "1",
                     "semver": "1.922549",
-                    "date": "2017.06.27 13:22",
+                    "date": "2017.06.27 12:22",
                     "file": "Cucumber-1.922549.zip",
                     "notes": [
                         "Initial release. Installing this plugin will give you access to the steps listed below. These steps can be used for running Cucumber through CLI Runner."
@@ -1560,7 +1560,7 @@
                 {
                     "version": "1",
                     "semver": "1.610974",
-                    "date": "2014.12.02 14:06",
+                    "date": "2014.12.02 13:06",
                     "file": "docker-plugin-1.610974.zip",
                     "notes": [
                         "Initial release which include a step to build Docker images."
@@ -1574,7 +1574,7 @@
                 {
                     "version": "2",
                     "semver": "2.669357",
-                    "date": "2015.05.07 14:41",
+                    "date": "2015.05.07 13:41",
                     "file": "docker-plugin-2.669357.zip",
                     "notes": [
                         "Add a step to push Docker images to registry."
@@ -1588,7 +1588,7 @@
                 {
                     "version": "3",
                     "semver": "3.749188",
-                    "date": "2016.02.18 12:45",
+                    "date": "2016.02.18 11:45",
                     "file": "docker-plugin-3.749188.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -1602,7 +1602,7 @@
                 {
                     "version": "4",
                     "semver": "4.767844",
-                    "date": "2016.03.30 09:24",
+                    "date": "2016.03.30 08:24",
                     "file": "docker-plugin-4.767844.zip",
                     "notes": [
                         "Make the username,password,email are not required for push step"
@@ -1616,7 +1616,7 @@
                 {
                     "version": "6",
                     "semver": "6.1036529",
-                    "date": "2019.11.12 06:11",
+                    "date": "2019.11.12 05:11",
                     "file": "docker-plugin-6.1036529.zip",
                     "notes": [
                         "Added Login, Tag, and logout steps to this plugin, cleaned up the docker push",
@@ -1677,7 +1677,7 @@
                 {
                     "version": "1",
                     "semver": "1.357583",
-                    "date": "2013.03.19 16:31",
+                    "date": "2013.03.19 15:31",
                     "file": "FileSystem-1.357583.zip",
                     "notes": [
                         "Initial plugin version."
@@ -1691,7 +1691,7 @@
                 {
                     "version": "2",
                     "semver": "2.408797",
-                    "date": "2013.07.16 14:13",
+                    "date": "2013.07.16 13:13",
                     "file": "FileSystem-2.408797.zip",
                     "notes": [
                         "Update to a newer version of a library for HTTP communication."
@@ -1705,7 +1705,7 @@
                 {
                     "version": "3",
                     "semver": "3.597183",
-                    "date": "2014.11.05 14:49",
+                    "date": "2014.11.05 13:49",
                     "file": "FileSystem-3.597183.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -1719,7 +1719,7 @@
                 {
                     "version": "4",
                     "semver": "4.752912",
-                    "date": "2016.03.01 08:55",
+                    "date": "2016.03.01 07:55",
                     "file": "FileSystem-4.752912.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -1733,7 +1733,7 @@
                 {
                     "version": "5",
                     "semver": "5.913286",
-                    "date": "2017.05.15 09:54",
+                    "date": "2017.05.15 08:54",
                     "file": "FileSystem-5.913286.zip",
                     "notes": [
                         "Support property file encryption."
@@ -1804,7 +1804,7 @@
                 {
                     "version": "27",
                     "semver": "27.357573",
-                    "date": "2013.03.19 16:07",
+                    "date": "2013.03.19 15:07",
                     "file": "FileUtils-27.357573.zip",
                     "notes": [
                         "Updated Sync Dir, Copy Dir, and Move Dir's hint text so that file include and exclude's proper usage is more explicitly explained."
@@ -1824,7 +1824,7 @@
                 {
                     "version": "28",
                     "semver": "28.411625",
-                    "date": "2013.07.18 14:34",
+                    "date": "2013.07.18 13:34",
                     "file": "FileUtils-28.411625.zip",
                     "notes": [
                         "Updated Update Property File step to be able to take any number of properties defined in scopes like environment, component, etc and include them in the update."
@@ -1844,7 +1844,7 @@
                 {
                     "version": "37",
                     "semver": "37.578851",
-                    "date": "2014.10.08 15:00",
+                    "date": "2014.10.08 14:00",
                     "file": "FileUtils-37.578851.zip",
                     "notes": [
                         "Updated the 'Update INI File' plugin step. Added option to allow users to add comments to sections. Added an option to give the user a choice between ';' and '#' for comments. The default comment charater will now be ';'. Fixed a bug where sections were deleted if they did not have a property. Multiple comments are allowed but empty lines between comments will not be preserved."
@@ -1864,7 +1864,7 @@
                 {
                     "version": "41",
                     "semver": "41.697172",
-                    "date": "2015.09.10 13:44",
+                    "date": "2015.09.10 12:44",
                     "file": "FileUtils-41.697172.zip",
                     "notes": [
                         "Fix broken upgrades so the plugin can be loaded into servers with older versions of the plugin"
@@ -1884,7 +1884,7 @@
                 {
                     "version": "44",
                     "semver": "44.754293",
-                    "date": "2016.03.07 10:08",
+                    "date": "2016.03.07 09:08",
                     "file": "FileUtils-44.754293.zip",
                     "notes": [
                         "Added the ability to specify a file encoding when using Create File"
@@ -1950,7 +1950,7 @@
                 {
                     "version": "3",
                     "semver": "3.358060",
-                    "date": "2013.03.20 10:02",
+                    "date": "2013.03.20 09:02",
                     "file": "FindBugs-3.358060.zip",
                     "notes": [
                         "Added a new property that allows the user to specify the location of a FindBugs zip file that can supply detailed descriptions for any findings"
@@ -1964,7 +1964,7 @@
                 {
                     "version": "4",
                     "semver": "4.358898",
-                    "date": "2013.03.22 13:28",
+                    "date": "2013.03.22 12:28",
                     "file": "FindBugs-4.358898.zip",
                     "notes": [
                         "Get full descriptions from FindBugs. This uses the descriptions of findings from FindBugs version 2.0.2."
@@ -1978,7 +1978,7 @@
                 {
                     "version": "6",
                     "semver": "6.379614",
-                    "date": "2013.05.14 06:25",
+                    "date": "2013.05.14 05:25",
                     "file": "FindBugs-6.379614.zip",
                     "notes": [
                         "Add a checkbox to only publish counts of findings. This saves space if you have a large number of findings. Fix some types of findings that were reporting the wrong class. Requires uBuild 4.3."
@@ -1992,7 +1992,7 @@
                 {
                     "version": "7",
                     "semver": "7.409056",
-                    "date": "2013.07.16 15:27",
+                    "date": "2013.07.16 14:27",
                     "file": "FindBugs-7.409056.zip",
                     "notes": [
                         "Update to a newer version of a library for HTTP communication."
@@ -2006,7 +2006,7 @@
                 {
                     "version": "8",
                     "semver": "8.425841",
-                    "date": "2013.08.19 14:24",
+                    "date": "2013.08.19 13:24",
                     "file": "FindBugs-8.425841.zip",
                     "notes": [
                         "Fix a bug introduced in version 7."
@@ -2020,7 +2020,7 @@
                 {
                     "version": "9",
                     "semver": "9.604317",
-                    "date": "2014.11.14 10:14",
+                    "date": "2014.11.14 09:14",
                     "file": "FindBugs-9.604317.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -2034,7 +2034,7 @@
                 {
                     "version": "10",
                     "semver": "10.640333",
-                    "date": "2015.02.19 09:30",
+                    "date": "2015.02.19 08:30",
                     "file": "FindBugs-10.640333.zip",
                     "notes": [
                         "Fixed an issue where the FindBugs plugin would fail on empty FindBugs report files."
@@ -2048,7 +2048,7 @@
                 {
                     "version": "11",
                     "semver": "11.753113",
-                    "date": "2016.03.02 10:21",
+                    "date": "2016.03.02 09:21",
                     "file": "FindBugs-11.753113.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -2108,7 +2108,7 @@
                 {
                     "version": "2",
                     "semver": "2.749192",
-                    "date": "2016.02.18 12:47",
+                    "date": "2016.02.18 11:47",
                     "file": "gerrit-2.749192.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -2168,7 +2168,7 @@
                 {
                     "version": "2",
                     "semver": "2.350912",
-                    "date": "2013.03.01 07:31",
+                    "date": "2013.03.01 06:31",
                     "file": "Git-2.350912.zip",
                     "notes": [
                         "Installing this plugin will give you access to the steps listed below. These steps will be available for use when designing a Job."
@@ -2182,7 +2182,7 @@
                 {
                     "version": "3",
                     "semver": "3.409110",
-                    "date": "2013.07.17 06:43",
+                    "date": "2013.07.17 05:43",
                     "file": "Git-3.409110.zip",
                     "notes": [
                         "Update to a newer version of a library for HTTP communication."
@@ -2196,7 +2196,7 @@
                 {
                     "version": "5",
                     "semver": "5.604295",
-                    "date": "2014.11.14 10:01",
+                    "date": "2014.11.14 09:01",
                     "file": "Git-5.604295.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -2210,7 +2210,7 @@
                 {
                     "version": "6",
                     "semver": "6.678663",
-                    "date": "2015.07.06 13:02",
+                    "date": "2015.07.06 12:02",
                     "file": "Git-6.678663.zip",
                     "notes": [
                         "Added support for triggering builds with GitHub or GitLab Webhooks"
@@ -2224,7 +2224,7 @@
                 {
                     "version": "7",
                     "semver": "7.714450",
-                    "date": "2015.11.13 14:01",
+                    "date": "2015.11.13 13:01",
                     "file": "Git-7.714450.zip",
                     "notes": [
                         "Fixed upgrade for the new trigger script"
@@ -2238,7 +2238,7 @@
                 {
                     "version": "8",
                     "semver": "8.843054",
-                    "date": "2016.10.27 08:47",
+                    "date": "2016.10.27 07:47",
                     "file": "Git-8.843054.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -2252,7 +2252,7 @@
                 {
                     "version": "9",
                     "semver": "9.851181",
-                    "date": "2016.11.14 09:17",
+                    "date": "2016.11.14 08:17",
                     "file": "Git-9.851181.zip",
                     "notes": [
                         "Improved handling of user credentials embedded in repository base url and repository configuration"
@@ -2266,7 +2266,7 @@
                 {
                     "version": "10",
                     "semver": "10.869547",
-                    "date": "2016.12.29 11:45",
+                    "date": "2016.12.29 10:45",
                     "file": "Git-10.869547.zip",
                     "notes": [
                         "Support property file encryption."
@@ -2280,7 +2280,7 @@
                 {
                     "version": "11",
                     "semver": "11.912931",
-                    "date": "2017.05.12 14:16",
+                    "date": "2017.05.12 13:16",
                     "file": "Git-11.912931.zip",
                     "notes": [
                         "Fixed infinite build triggering issue with Github if creating a tag with the same name as an existing branch."
@@ -2294,7 +2294,7 @@
                 {
                     "version": "12",
                     "semver": "12.916500",
-                    "date": "2017.05.24 14:25",
+                    "date": "2017.05.24 13:25",
                     "file": "Git-12.916500.zip",
                     "notes": [
                         "Fixed issue with repository trigger script not resolving parameterized repository base URL"
@@ -2308,7 +2308,7 @@
                 {
                     "version": "15",
                     "semver": "15.944083",
-                    "date": "2017.11.08 07:49",
+                    "date": "2017.11.08 06:49",
                     "file": "Git-15.944083.zip",
                     "notes": [
                         "Fix intermittent IOException stream closed errors"
@@ -2322,7 +2322,7 @@
                 {
                     "version": "16",
                     "semver": "16.946670",
-                    "date": "2017.11.17 14:10",
+                    "date": "2017.11.17 13:10",
                     "file": "Git-16.946670.zip",
                     "notes": [
                         "Fix incompatibility with UCB 6.1.2.x that was introduced in version 14 and prevented triggering builds in response to push events sent by GitHub."
@@ -2336,7 +2336,7 @@
                 {
                     "version": "17",
                     "semver": "17.948973",
-                    "date": "2017.11.29 12:35",
+                    "date": "2017.11.29 11:35",
                     "file": "Git-17.948973.zip",
                     "notes": [
                         "Prefer using external web URL to construct the target URL in \"Create GitHub Status\" step when available."
@@ -2350,7 +2350,7 @@
                 {
                     "version": "18",
                     "semver": "18.970588",
-                    "date": "2018.02.14 07:38",
+                    "date": "2018.02.14 06:38",
                     "file": "Git-18.970588.zip",
                     "notes": [
                         "Avoid NullPointerException if the HTTP client fails to execute and throws an exception before returning the response object."
@@ -2364,7 +2364,7 @@
                 {
                     "version": "19",
                     "semver": "19.974464",
-                    "date": "2018.03.08 07:18",
+                    "date": "2018.03.08 06:18",
                     "file": "Git-19.974464.zip",
                     "notes": [
                         "Allow triggering builds for changes in arbitrary branches of a GitHub repository"
@@ -2378,7 +2378,7 @@
                 {
                     "version": "23",
                     "semver": "23.1019524",
-                    "date": "2019.04.16 12:02",
+                    "date": "2019.04.16 11:02",
                     "file": "Git-23.1019524.zip",
                     "notes": [
                         "Ignore BitBucket events related to deleting branches."
@@ -2392,7 +2392,7 @@
                 {
                     "version": "24",
                     "semver": "24.1028980",
-                    "date": "2019.08.02 09:41",
+                    "date": "2019.08.02 08:41",
                     "file": "Git-24.1028980.zip",
                     "notes": [
                         "Properly handle charset when reading the response stream in changelog step."
@@ -2406,7 +2406,7 @@
                 {
                     "version": "26",
                     "semver": "26.1071383",
-                    "date": "2020.09.21 07:09",
+                    "date": "2020.09.21 06:09",
                     "file": "Git-26.1071383.zip",
                     "notes": [
                         "Added provision to disable Build triggers on Draft Pull Request."
@@ -2420,7 +2420,7 @@
                 {
                     "version": "27",
                     "semver": "27.1096142",
-                    "date": "2021.02.05 11:58",
+                    "date": "2021.02.05 10:58",
                     "file": "Git-27.1096142.zip",
                     "notes": [
                         "Added provision to use email id of authors instead of author name."
@@ -2434,7 +2434,7 @@
                 {
                     "version": "28",
                     "semver": "28.1107738",
-                    "date": "2021.05.31 05:55",
+                    "date": "2021.05.31 04:55",
                     "file": "Git-28.1107738.zip",
                     "notes": [
                         "Fixed issue with triggering builds for GitLab Webhooks."
@@ -2448,7 +2448,7 @@
                 {
                     "version": "29",
                     "semver": "29.1127031",
-                    "date": "2021.12.28 03:49",
+                    "date": "2021.12.28 02:49",
                     "file": "Git-29.1127031.zip",
                     "notes": [
                         "Added support for Git Tags"
@@ -2508,7 +2508,7 @@
                 {
                     "version": "1",
                     "semver": "1.349453",
-                    "date": "2013.02.27 13:55",
+                    "date": "2013.02.27 12:55",
                     "file": "Groovy-1.349453.zip",
                     "notes": [
                         "Loading the Groovy plugin will give users access to a Groovy step that allows the execution of scripts."
@@ -2522,7 +2522,7 @@
                 {
                     "version": "2",
                     "semver": "2.371600",
-                    "date": "2013.04.16 14:11",
+                    "date": "2013.04.16 13:11",
                     "file": "Groovy-2.371600.zip",
                     "notes": [
                         "Added a Groovy Home property to set the GROOVY_HOME value to use when running scripts."
@@ -2536,7 +2536,7 @@
                 {
                     "version": "3",
                     "semver": "3.462431",
-                    "date": "2013.12.20 18:26",
+                    "date": "2013.12.20 17:26",
                     "file": "Groovy-3.462431.zip",
                     "notes": [
                         "Groovy steps can now run JUnit test cases"
@@ -2550,7 +2550,7 @@
                 {
                     "version": "5",
                     "semver": "5.669442",
-                    "date": "2015.05.08 11:44",
+                    "date": "2015.05.08 10:44",
                     "file": "Groovy-5.669442.zip",
                     "notes": [
                         "Complete plugin overhaul. Script is now wrapped in another Groovy script instead of using GroovyShell. The Groovy Home now properly overrides the agent's value."
@@ -2564,7 +2564,7 @@
                 {
                     "version": "5",
                     "semver": "5.670713",
-                    "date": "2015.05.15 12:41",
+                    "date": "2015.05.15 11:41",
                     "file": "Groovy-5.670713.zip",
                     "notes": [
                         "Complete plugin overhaul. Script is now wrapped in another Groovy script instead of using GroovyShell. The Groovy Home now properly overrides the agent's value."
@@ -2578,7 +2578,7 @@
                 {
                     "version": "6",
                     "semver": "6.671137",
-                    "date": "2015.05.19 17:48",
+                    "date": "2015.05.19 16:48",
                     "file": "Groovy-6.671137.zip",
                     "notes": [
                         "Fixed plugin execution when running on Windows"
@@ -2592,7 +2592,7 @@
                 {
                     "version": "7",
                     "semver": "7.752778",
-                    "date": "2016.03.01 08:48",
+                    "date": "2016.03.01 07:48",
                     "file": "Groovy-7.752778.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -2606,7 +2606,7 @@
                 {
                     "version": "9",
                     "semver": "9.891045",
-                    "date": "2017.02.22 14:51",
+                    "date": "2017.02.22 13:51",
                     "file": "Groovy-9.891045.zip",
                     "notes": [
                         "Support property file encryption."
@@ -2620,7 +2620,7 @@
                 {
                     "version": "16",
                     "semver": "16.1164697",
-                    "date": "2024.01.09 10:11",
+                    "date": "2024.01.09 09:11",
                     "file": "Groovy-16.1164697.zip",
                     "notes": [
                         "Updating Jettison library to 1.5.4 for CVE-2023-1436"
@@ -2680,7 +2680,7 @@
                 {
                     "version": "1",
                     "semver": "1.366381",
-                    "date": "2013.04.10 15:38",
+                    "date": "2013.04.10 14:38",
                     "file": "Fortify-1.366381.zip",
                     "notes": [
                         "Installing this plugin will give you access to the steps listed below. These steps will be available for use when designing a Job that utilizes source code analysis."
@@ -2694,7 +2694,7 @@
                 {
                     "version": "2",
                     "semver": "2.409095",
-                    "date": "2013.07.16 16:06",
+                    "date": "2013.07.16 15:06",
                     "file": "Fortify-2.409095.zip",
                     "notes": [
                         "Update to a newer version of a library for HTTP communication."
@@ -2708,7 +2708,7 @@
                 {
                     "version": "3",
                     "semver": "3.638531",
-                    "date": "2015.02.12 15:54",
+                    "date": "2015.02.12 14:54",
                     "file": "Fortify-3.638531.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -2722,7 +2722,7 @@
                 {
                     "version": "4",
                     "semver": "4.752922",
-                    "date": "2016.03.01 08:56",
+                    "date": "2016.03.01 07:56",
                     "file": "Fortify-4.752922.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -2782,7 +2782,7 @@
                 {
                     "version": "3",
                     "semver": "3.359974",
-                    "date": "2013.03.26 16:00",
+                    "date": "2013.03.26 15:00",
                     "file": "HPQualityCenter-3.359974.zip",
                     "notes": [
                         "This version adds in a threshold value of test pass rate on the Run Test Set step"
@@ -2801,7 +2801,7 @@
                 {
                     "version": "4",
                     "semver": "4.409814",
-                    "date": "2013.07.17 13:18",
+                    "date": "2013.07.17 12:18",
                     "file": "HPQualityCenter-4.409814.zip",
                     "notes": [
                         "Update to a newer version of a library for HTTP communication."
@@ -2815,7 +2815,7 @@
                 {
                     "version": "5",
                     "semver": "5.435338",
-                    "date": "2013.09.27 13:04",
+                    "date": "2013.09.27 12:04",
                     "file": "HPQualityCenter-5.435338.zip",
                     "notes": [
                         "Added escaping to illegal characters in the XML that gets uploaded to the uBuild server"
@@ -2829,7 +2829,7 @@
                 {
                     "version": "6",
                     "semver": "6.604296",
-                    "date": "2014.11.14 10:02",
+                    "date": "2014.11.14 09:02",
                     "file": "HPQualityCenter-6.604296.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -2843,7 +2843,7 @@
                 {
                     "version": "7",
                     "semver": "7.684518",
-                    "date": "2015.07.30 10:54",
+                    "date": "2015.07.30 09:54",
                     "file": "HPQualityCenter-7.684518.zip",
                     "notes": [
                         "Fixed a bug in the Run Test Set step where the number of tests that passed was not being correctly calculated."
@@ -2857,7 +2857,7 @@
                 {
                     "version": "8",
                     "semver": "8.752924",
-                    "date": "2016.03.01 08:56",
+                    "date": "2016.03.01 07:56",
                     "file": "HPQualityCenter-8.752924.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -2923,7 +2923,7 @@
                 {
                     "version": "1",
                     "semver": "1.683942",
-                    "date": "2015.07.27 13:14",
+                    "date": "2015.07.27 12:14",
                     "file": "Harvest-1.683942.zip",
                     "notes": [
                         "Installing this plugin will give you access to the steps listed below. These steps will be available for use when designing a Job."
@@ -2937,7 +2937,7 @@
                 {
                     "version": "3",
                     "semver": "3.749197",
-                    "date": "2016.02.18 12:49",
+                    "date": "2016.02.18 11:49",
                     "file": "Harvest-3.749197.zip",
                     "notes": [
                         "Fixes APAR PI57335 uBuild Harvest plug-in not handling changelogs correctly."
@@ -2951,7 +2951,7 @@
                 {
                     "version": "3",
                     "semver": "3.752910",
-                    "date": "2016.03.01 08:56",
+                    "date": "2016.03.01 07:56",
                     "file": "Harvest-3.752910.zip",
                     "notes": [
                         "Fixes APAR PI57335 uBuild Harvest plug-in not handling changelogs correctly."
@@ -2965,7 +2965,7 @@
                 {
                     "version": "4",
                     "semver": "4.863047",
-                    "date": "2016.11.30 15:45",
+                    "date": "2016.11.30 14:45",
                     "file": "Harvest-4.863047.zip",
                     "notes": [
                         "Support property file encryption."
@@ -2979,7 +2979,7 @@
                 {
                     "version": "4",
                     "semver": "4.866634",
-                    "date": "2016.12.07 14:44",
+                    "date": "2016.12.07 13:44",
                     "file": "Harvest-4.866634.zip",
                     "notes": [
                         "Support property file encryption."
@@ -2993,7 +2993,7 @@
                 {
                     "version": "6",
                     "semver": "6.1014490",
-                    "date": "2019.03.08 14:31",
+                    "date": "2019.03.08 13:31",
                     "file": "Harvest-6.1014490.zip",
                     "notes": [
                         "Fix changelog parser logic to correctly handle empty data columns."
@@ -3007,7 +3007,7 @@
                 {
                     "version": "7",
                     "semver": "7.1018488",
-                    "date": "2019.04.10 09:26",
+                    "date": "2019.04.10 08:26",
                     "file": "Harvest-7.1018488.zip",
                     "notes": [
                         "Fix APAR PH10867 - Use 'includeFiles' source property in quiet period step."
@@ -3021,7 +3021,7 @@
                 {
                     "version": "7",
                     "semver": "7.1098511",
-                    "date": "2021.02.21 21:43",
+                    "date": "2021.02.21 20:43",
                     "file": "Harvest-hcl-7.1098511.zip",
                     "notes": [
                         "Fix APAR PH10867 - Use 'includeFiles' source property in quiet period step."
@@ -3081,7 +3081,7 @@
                 {
                     "version": "2",
                     "semver": "2.358375",
-                    "date": "2013.03.20 14:37",
+                    "date": "2013.03.20 13:37",
                     "file": "JIRA-2.358375.zip",
                     "notes": [
                         "The JIRA integration provides steps to create, comment and resolve issues found in JIRA and publish a list of issues to the issues tab of a Build Life."
@@ -3095,7 +3095,7 @@
                 {
                     "version": "3",
                     "semver": "3.410690",
-                    "date": "2013.07.18 06:38",
+                    "date": "2013.07.18 05:38",
                     "file": "JIRA-3.410690.zip",
                     "notes": [
                         "Set the JIRA issue URL when reporting JIRA issues. Update to a newer version of a library for HTTP communication."
@@ -3109,7 +3109,7 @@
                 {
                     "version": "4",
                     "semver": "4.604298",
-                    "date": "2014.11.14 10:03",
+                    "date": "2014.11.14 09:03",
                     "file": "JIRA-4.604298.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -3123,7 +3123,7 @@
                 {
                     "version": "5",
                     "semver": "5.752907",
-                    "date": "2016.03.01 08:56",
+                    "date": "2016.03.01 07:56",
                     "file": "JIRA-5.752907.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -3137,7 +3137,7 @@
                 {
                     "version": "7",
                     "semver": "7.876389",
-                    "date": "2017.01.20 10:05",
+                    "date": "2017.01.20 09:05",
                     "file": "JIRA-7.876389.zip",
                     "notes": [
                         "Migrate to Jira REST API and drop support for Jira's SOAP API. Jira versions older than 6.4 are no longer supported."
@@ -3197,7 +3197,7 @@
                 {
                     "version": "2",
                     "semver": "2.359909",
-                    "date": "2013.03.26 13:52",
+                    "date": "2013.03.26 12:52",
                     "file": "JUnit-2.359909.zip",
                     "notes": [
                         "Installing this plugin will give you access to the JUnit commands listed below. These steps will be available for use when designing a Job."
@@ -3211,7 +3211,7 @@
                 {
                     "version": "3",
                     "semver": "3.410927",
-                    "date": "2013.07.18 09:33",
+                    "date": "2013.07.18 08:33",
                     "file": "JUnit-3.410927.zip",
                     "notes": [
                         "Update to a newer version of a library for HTTP communication."
@@ -3225,7 +3225,7 @@
                 {
                     "version": "4",
                     "semver": "4.604299",
-                    "date": "2014.11.14 10:03",
+                    "date": "2014.11.14 09:03",
                     "file": "JUnit-4.604299.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -3239,7 +3239,7 @@
                 {
                     "version": "5",
                     "semver": "5.753105",
-                    "date": "2016.03.02 10:01",
+                    "date": "2016.03.02 09:01",
                     "file": "JUnit-5.753105.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -3253,7 +3253,7 @@
                 {
                     "version": "8",
                     "semver": "8.1015721",
-                    "date": "2019.03.22 13:59",
+                    "date": "2019.03.22 12:59",
                     "file": "JUnit-8.1015721.zip",
                     "notes": [
                         "Add optional timeout setting for calls to UCB server."
@@ -3267,7 +3267,7 @@
                 {
                     "version": "9",
                     "semver": "9.1025642",
-                    "date": "2019.06.12 12:58",
+                    "date": "2019.06.12 11:58",
                     "file": "JUnit-9.1025642.zip",
                     "notes": [
                         "Address a potential 500 server response due to having test suites with no names."
@@ -3281,7 +3281,7 @@
                 {
                     "version": "10",
                     "semver": "10.1071521",
-                    "date": "2020.09.23 07:46",
+                    "date": "2020.09.23 06:46",
                     "file": "JUnit-10.1071521.zip",
                     "notes": [
                         "Replace the markup builder with streaming markup builder for a performance improvement."
@@ -3341,7 +3341,7 @@
                 {
                     "version": "1",
                     "semver": "1.373054",
-                    "date": "2013.04.19 06:17",
+                    "date": "2013.04.19 05:17",
                     "file": "JaCoCo-1.373054.zip",
                     "notes": [
                         "Plugin to upload JaCoCo report results."
@@ -3355,7 +3355,7 @@
                 {
                     "version": "2",
                     "semver": "2.409836",
-                    "date": "2013.07.17 13:44",
+                    "date": "2013.07.17 12:44",
                     "file": "JaCoCo-2.409836.zip",
                     "notes": [
                         "Update to a newer version of a library for HTTP communication."
@@ -3369,7 +3369,7 @@
                 {
                     "version": "3",
                     "semver": "3.519516",
-                    "date": "2014.05.13 13:36",
+                    "date": "2014.05.13 12:36",
                     "file": "JaCoCo-3.519516.zip",
                     "notes": [
                         "Added support for grouped reports"
@@ -3383,7 +3383,7 @@
                 {
                     "version": "4",
                     "semver": "4.604297",
-                    "date": "2014.11.14 10:03",
+                    "date": "2014.11.14 09:03",
                     "file": "JaCoCo-4.604297.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -3397,7 +3397,7 @@
                 {
                     "version": "5",
                     "semver": "5.627788",
-                    "date": "2015.01.26 14:36",
+                    "date": "2015.01.26 13:36",
                     "file": "JaCoCo-5.627788.zip",
                     "notes": [
                         "Added includes and excludes properties to support parsing multiple JaCoCo output files and uploading them as a single report."
@@ -3411,7 +3411,7 @@
                 {
                     "version": "6",
                     "semver": "6.753377",
-                    "date": "2016.03.02 12:02",
+                    "date": "2016.03.02 11:02",
                     "file": "JaCoCo-6.753377.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -3425,7 +3425,7 @@
                 {
                     "version": "7",
                     "semver": "7.950839",
-                    "date": "2017.12.05 13:56",
+                    "date": "2017.12.05 12:56",
                     "file": "JaCoCo-7.950839.zip",
                     "notes": [
                         "Support property file encryption."
@@ -3485,7 +3485,7 @@
                 {
                     "version": "1",
                     "semver": "1.349455",
-                    "date": "2013.02.27 14:05",
+                    "date": "2013.02.27 13:05",
                     "file": "MSBuild-1.349455.zip",
                     "notes": [
                         "Install this plugin to be able to use the MSBuild step."
@@ -3499,7 +3499,7 @@
                 {
                     "version": "2",
                     "semver": "2.752736",
-                    "date": "2016.03.01 08:47",
+                    "date": "2016.03.01 07:47",
                     "file": "MSBuild-2.752736.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -3559,7 +3559,7 @@
                 {
                     "version": "2",
                     "semver": "2.359876",
-                    "date": "2013.03.26 13:47",
+                    "date": "2013.03.26 12:47",
                     "file": "MSTest-2.359876.zip",
                     "notes": [
                         "Install the MSTest plugin to gain access to the steps listed below."
@@ -3573,7 +3573,7 @@
                 {
                     "version": "3",
                     "semver": "3.410714",
-                    "date": "2013.07.18 08:46",
+                    "date": "2013.07.18 07:46",
                     "file": "MSTest-3.410714.zip",
                     "notes": [
                         "Update to a newer version of a library for HTTP communication."
@@ -3587,7 +3587,7 @@
                 {
                     "version": "4",
                     "semver": "4.604301",
-                    "date": "2014.11.14 10:05",
+                    "date": "2014.11.14 09:05",
                     "file": "MSTest-4.604301.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -3601,7 +3601,7 @@
                 {
                     "version": "5",
                     "semver": "5.683891",
-                    "date": "2015.07.27 08:53",
+                    "date": "2015.07.27 07:53",
                     "file": "MSTest-5.683891.zip",
                     "notes": [
                         "Fixed a classpath issue that prevented the MSTest Report Publisher step from running."
@@ -3615,7 +3615,7 @@
                 {
                     "version": "6",
                     "semver": "6.684236",
-                    "date": "2015.07.28 11:47",
+                    "date": "2015.07.28 10:47",
                     "file": "MSTest-6.684236.zip",
                     "notes": [
                         "Updated MSTest output parsing so that Test Lists would be treated as Test Suites"
@@ -3629,7 +3629,7 @@
                 {
                     "version": "7",
                     "semver": "7.752751",
-                    "date": "2016.03.01 08:48",
+                    "date": "2016.03.01 07:48",
                     "file": "MSTest-7.752751.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -3689,7 +3689,7 @@
                 {
                     "version": "2",
                     "semver": "2.358339",
-                    "date": "2013.03.20 13:30",
+                    "date": "2013.03.20 12:30",
                     "file": "Make-2.358339.zip",
                     "notes": [
                         "Install this plugin to be able to use the Make step."
@@ -3703,7 +3703,7 @@
                 {
                     "version": "3",
                     "semver": "3.752874",
-                    "date": "2016.03.01 08:54",
+                    "date": "2016.03.01 07:54",
                     "file": "Make-3.752874.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -3763,7 +3763,7 @@
                 {
                     "version": "3",
                     "semver": "3.359912",
-                    "date": "2013.03.26 13:52",
+                    "date": "2013.03.26 12:52",
                     "file": "Maven-3.359912.zip",
                     "notes": [
                         "Fixed a bug with properties appending -D at the end"
@@ -3777,7 +3777,7 @@
                 {
                     "version": "4",
                     "semver": "4.410910",
-                    "date": "2013.07.18 09:24",
+                    "date": "2013.07.18 08:24",
                     "file": "Maven-4.410910.zip",
                     "notes": [
                         "Added the ability to define the POM file content on the step"
@@ -3791,7 +3791,7 @@
                 {
                     "version": "5",
                     "semver": "5.507933",
-                    "date": "2014.04.28 12:14",
+                    "date": "2014.04.28 11:14",
                     "file": "Maven-5.507933.zip",
                     "notes": [
                         "Fixed plugin when a 'Maven Concurrent Local Repo' is specified."
@@ -3805,7 +3805,7 @@
                 {
                     "version": "8",
                     "semver": "8.752932",
-                    "date": "2016.03.01 08:57",
+                    "date": "2016.03.01 07:57",
                     "file": "Maven-8.752932.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -3819,7 +3819,7 @@
                 {
                     "version": "9",
                     "semver": "9.913233",
-                    "date": "2017.05.15 09:42",
+                    "date": "2017.05.15 08:42",
                     "file": "Maven-9.913233.zip",
                     "notes": [
                         "Support property file encryption."
@@ -3879,7 +3879,7 @@
                 {
                     "version": "2",
                     "semver": "2.358308",
-                    "date": "2013.03.20 12:59",
+                    "date": "2013.03.20 11:59",
                     "file": "Mercurial-2.358308.zip",
                     "notes": [
                         "Installing this plugin will give you access to the Mercurial commands listed below. These steps will be available for use when designing a Job."
@@ -3893,7 +3893,7 @@
                 {
                     "version": "3",
                     "semver": "3.410716",
-                    "date": "2013.07.18 08:49",
+                    "date": "2013.07.18 07:49",
                     "file": "Mercurial-3.410716.zip",
                     "notes": [
                         "Update to a newer version of a library for HTTP communication."
@@ -3907,7 +3907,7 @@
                 {
                     "version": "5",
                     "semver": "5.604300",
-                    "date": "2014.11.14 10:03",
+                    "date": "2014.11.14 09:03",
                     "file": "Mercurial-5.604300.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -3921,7 +3921,7 @@
                 {
                     "version": "6",
                     "semver": "6.753091",
-                    "date": "2016.03.02 09:25",
+                    "date": "2016.03.02 08:25",
                     "file": "Mercurial-6.753091.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -3981,7 +3981,7 @@
                 {
                     "version": "2",
                     "semver": "2.1007779",
-                    "date": "2018.12.11 13:10",
+                    "date": "2018.12.11 12:10",
                     "file": "Mocha-2.1007779.zip",
                     "notes": [
                         "Remove the publish step due to being unusable, and add a new property to \"Run Test\" step for specifying the Mocha reporter to use when generating test reports."
@@ -4041,7 +4041,7 @@
                 {
                     "version": "2",
                     "semver": "2.358343",
-                    "date": "2013.03.20 13:52",
+                    "date": "2013.03.20 12:52",
                     "file": "Nant-2.358343.zip",
                     "notes": [
                         "Install this plugin to be able to use the NAnt step."
@@ -4055,7 +4055,7 @@
                 {
                     "version": "3",
                     "semver": "3.752793",
-                    "date": "2016.03.01 08:52",
+                    "date": "2016.03.01 07:52",
                     "file": "Nant-3.752793.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -4115,7 +4115,7 @@
                 {
                     "version": "1",
                     "semver": "1.759854",
-                    "date": "2016.03.18 11:36",
+                    "date": "2016.03.18 10:36",
                     "file": "NCover-1.759854.zip",
                     "notes": [
                         "Installing this plugin will give you access to the steps listed below. These steps will be available for use when designing a Job."
@@ -4163,7 +4163,7 @@
                 {
                     "version": "1",
                     "semver": "1.922546",
-                    "date": "2017.06.27 13:12",
+                    "date": "2017.06.27 12:12",
                     "file": "NPM-1.922546.zip",
                     "notes": [
                         "Initial NPM plugin version"
@@ -4177,7 +4177,7 @@
                 {
                     "version": "1",
                     "semver": "1.1098517",
-                    "date": "2021.02.21 22:16",
+                    "date": "2021.02.21 21:16",
                     "file": "NPM-1.1098517.zip",
                     "notes": [
                         "Initial NPM plugin version"
@@ -4237,7 +4237,7 @@
                 {
                     "version": "1",
                     "semver": "1.370976",
-                    "date": "2013.04.16 09:17",
+                    "date": "2013.04.16 08:17",
                     "file": "NUnit-1.370976.zip",
                     "notes": [
                         "Initial version of the NUnit plugin to publish test results."
@@ -4251,7 +4251,7 @@
                 {
                     "version": "2",
                     "semver": "2.410698",
-                    "date": "2013.07.18 08:00",
+                    "date": "2013.07.18 07:00",
                     "file": "NUnit-2.410698.zip",
                     "notes": [
                         "Update to a newer version of a library for HTTP communication."
@@ -4265,7 +4265,7 @@
                 {
                     "version": "3",
                     "semver": "3.604302",
-                    "date": "2014.11.14 10:05",
+                    "date": "2014.11.14 09:05",
                     "file": "NUnit-3.604302.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -4279,7 +4279,7 @@
                 {
                     "version": "4",
                     "semver": "4.752916",
-                    "date": "2016.03.01 08:55",
+                    "date": "2016.03.01 07:55",
                     "file": "NUnit-4.752916.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -4339,7 +4339,7 @@
                 {
                     "version": "1",
                     "semver": "1.349457",
-                    "date": "2013.02.27 14:11",
+                    "date": "2013.02.27 13:11",
                     "file": "Pmd-1.349457.zip",
                     "notes": [
                         "Installing this plugin will give you access to the steps listed below. These steps will be available for use when designing a Job."
@@ -4354,7 +4354,7 @@
                 {
                     "version": "2",
                     "semver": "2.410048",
-                    "date": "2013.07.17 14:39",
+                    "date": "2013.07.17 13:39",
                     "file": "Pmd-2.410048.zip",
                     "notes": [
                         "Update to a newer version of a library for HTTP communication."
@@ -4368,7 +4368,7 @@
                 {
                     "version": "3",
                     "semver": "3.604308",
-                    "date": "2014.11.14 10:09",
+                    "date": "2014.11.14 09:09",
                     "file": "Pmd-3.604308.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -4382,7 +4382,7 @@
                 {
                     "version": "5",
                     "semver": "5.752822",
-                    "date": "2016.03.01 08:51",
+                    "date": "2016.03.01 07:51",
                     "file": "Pmd-5.752822.zip",
                     "notes": [
                         "Update to handle multiple files."
@@ -4442,7 +4442,7 @@
                 {
                     "version": "3",
                     "semver": "3.358068",
-                    "date": "2013.03.20 10:00",
+                    "date": "2013.03.20 09:00",
                     "file": "Perforce-3.358068.zip",
                     "notes": [
                         "Change the changelog command to use the -i flag. This will include changes that are merged into the current branch instead of just listing the merge commit"
@@ -4456,7 +4456,7 @@
                 {
                     "version": "4",
                     "semver": "4.410059",
-                    "date": "2013.07.17 15:15",
+                    "date": "2013.07.17 14:15",
                     "file": "Perforce-4.410059.zip",
                     "notes": [
                         "Update to a newer version of a library for HTTP communication."
@@ -4470,7 +4470,7 @@
                 {
                     "version": "5",
                     "semver": "5.414563",
-                    "date": "2013.07.23 14:42",
+                    "date": "2013.07.23 13:42",
                     "file": "Perforce-5.414563.zip",
                     "notes": [
                         "Fix changelog step when it runs in a different timezone than the quiet period"
@@ -4484,7 +4484,7 @@
                 {
                     "version": "6",
                     "semver": "6.424370",
-                    "date": "2013.08.12 12:36",
+                    "date": "2013.08.12 11:36",
                     "file": "Perforce-6.424370.zip",
                     "notes": [
                         "Fix the determination of latest change date when the Perforce client and server are in different time zones. Set the latest submitted change list identifier on the build life during the populate step."
@@ -4498,7 +4498,7 @@
                 {
                     "version": "7",
                     "semver": "7.430675",
-                    "date": "2013.09.04 14:50",
+                    "date": "2013.09.04 13:50",
                     "file": "Perforce-7.430675.zip",
                     "notes": [
                         "Added the ability to do a sync based on a label instead of a date"
@@ -4512,7 +4512,7 @@
                 {
                     "version": "8",
                     "semver": "8.461446",
-                    "date": "2013.12.17 13:19",
+                    "date": "2013.12.17 12:19",
                     "file": "Perforce-8.461446.zip",
                     "notes": [
                         "Updated the quiet period to properly handle the Client Spec Creation property when it is set to Create New Client Spec"
@@ -4526,7 +4526,7 @@
                 {
                     "version": "9",
                     "semver": "9.461842",
-                    "date": "2013.12.18 15:10",
+                    "date": "2013.12.18 14:10",
                     "file": "Perforce-9.461842.zip",
                     "notes": [
                         "Fixed a bug where the quiet period was closing the input stream for the client spec before it could be read"
@@ -4540,7 +4540,7 @@
                 {
                     "version": "10",
                     "semver": "10.461854",
-                    "date": "2013.12.19 09:56",
+                    "date": "2013.12.19 08:56",
                     "file": "Perforce-10.461854.zip",
                     "notes": [
                         "Removed client spec deletion from the quiet period step"
@@ -4554,7 +4554,7 @@
                 {
                     "version": "11",
                     "semver": "11.488078",
-                    "date": "2014.03.05 08:35",
+                    "date": "2014.03.05 07:35",
                     "file": "Perforce-11.488078.zip",
                     "notes": [
                         "Fix a memory leak in the get source changes step when there are many changes to process."
@@ -4568,7 +4568,7 @@
                 {
                     "version": "12",
                     "semver": "12.542648",
-                    "date": "2014.07.24 12:14",
+                    "date": "2014.07.24 11:14",
                     "file": "Perforce-12.542648.zip",
                     "notes": [
                         "Added an option to the source config to toggle the -i flag for the Get Source Changes step."
@@ -4582,7 +4582,7 @@
                 {
                     "version": "13",
                     "semver": "13.543181",
-                    "date": "2014.07.29 09:54",
+                    "date": "2014.07.29 08:54",
                     "file": "Perforce-13.543181.zip",
                     "notes": [
                         "Added a missing toggle for the -i flag when running the Populate Workspace step."
@@ -4596,7 +4596,7 @@
                 {
                     "version": "14",
                     "semver": "14.544161",
-                    "date": "2014.07.29 14:25",
+                    "date": "2014.07.29 13:25",
                     "file": "Perforce-14.544161.zip",
                     "notes": [
                         "Updated the Populate Workspace step to use the -m flag when getting the latest changelist."
@@ -4610,7 +4610,7 @@
                 {
                     "version": "15",
                     "semver": "15.604318",
-                    "date": "2014.11.14 10:15",
+                    "date": "2014.11.14 09:15",
                     "file": "Perforce-15.604318.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -4624,7 +4624,7 @@
                 {
                     "version": "16",
                     "semver": "16.752926",
-                    "date": "2016.03.01 08:57",
+                    "date": "2016.03.01 07:57",
                     "file": "Perforce-16.752926.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -4684,7 +4684,7 @@
                 {
                     "version": "2",
                     "semver": "2.349482",
-                    "date": "2013.02.27 14:19",
+                    "date": "2013.02.27 13:19",
                     "file": "preflight-plugin-2.349482.zip",
                     "notes": [
                         "Fixed a issue where the steps could not find JAVA_HOME to run."
@@ -4705,7 +4705,7 @@
                 {
                     "version": "3",
                     "semver": "3.359915",
-                    "date": "2013.03.26 13:53",
+                    "date": "2013.03.26 12:53",
                     "file": "preflight-plugin-3.359915.zip",
                     "notes": [
                         "Change to a new plugin id."
@@ -4726,7 +4726,7 @@
                 {
                     "version": "4",
                     "semver": "4.752928",
-                    "date": "2016.03.01 08:56",
+                    "date": "2016.03.01 07:56",
                     "file": "preflight-plugin-4.752928.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -4793,7 +4793,7 @@
                 {
                     "version": "1",
                     "semver": "1.579668",
-                    "date": "2014.10.09 10:26",
+                    "date": "2014.10.09 09:26",
                     "file": "QTP-1.579668.zip",
                     "notes": [
                         "Installing this plugin will give you access to the steps listed below. These steps can be used when designing a job."
@@ -4812,7 +4812,7 @@
                 {
                     "version": "3",
                     "semver": "3.752827",
-                    "date": "2016.03.01 08:53",
+                    "date": "2016.03.01 07:53",
                     "file": "QTP-3.752827.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -4877,7 +4877,7 @@
                 {
                     "version": "1",
                     "semver": "1.366418",
-                    "date": "2013.04.11 07:08",
+                    "date": "2013.04.11 06:08",
                     "file": "RTC-WorkItems-1.366418.zip",
                     "notes": [
                         "Initial release of RTC Work Items plugin"
@@ -4891,7 +4891,7 @@
                 {
                     "version": "2",
                     "semver": "2.372948",
-                    "date": "2013.04.18 11:51",
+                    "date": "2013.04.18 10:51",
                     "file": "RTC-WorkItems-2.372948.zip",
                     "notes": [
                         "Changelog comments are now optional. Users may now change custom workflow work item statuses."
@@ -4905,7 +4905,7 @@
                 {
                     "version": "3",
                     "semver": "3.374550",
-                    "date": "2013.04.24 15:01",
+                    "date": "2013.04.24 14:01",
                     "file": "RTC-WorkItems-3.374550.zip",
                     "notes": [
                         "Now supports multiple source changes for work items."
@@ -4919,7 +4919,7 @@
                 {
                     "version": "4",
                     "semver": "4.413422",
-                    "date": "2013.07.22 12:11",
+                    "date": "2013.07.22 11:11",
                     "file": "RTC-WorkItems-4.413422.zip",
                     "notes": [
                         "Update to a newer version of a library for HTTP communication. Modified Change Work Item Status step."
@@ -4933,7 +4933,7 @@
                 {
                     "version": "5",
                     "semver": "5.571301",
-                    "date": "2014.09.24 13:17",
+                    "date": "2014.09.24 12:17",
                     "file": "RTC-WorkItems-5.571301.zip",
                     "notes": [
                         "Fix usage of the password script when a password is not directly used."
@@ -4947,7 +4947,7 @@
                 {
                     "version": "7",
                     "semver": "7.604305",
-                    "date": "2014.11.14 10:06",
+                    "date": "2014.11.14 09:06",
                     "file": "RTC-WorkItems-7.604305.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -4961,7 +4961,7 @@
                 {
                     "version": "8",
                     "semver": "8.640315",
-                    "date": "2015.02.19 07:44",
+                    "date": "2015.02.19 06:44",
                     "file": "RTC-WorkItems-8.640315.zip",
                     "notes": [
                         "Fixed an issue where the plugin could not be upgraded if the server was currently using version 3"
@@ -4975,7 +4975,7 @@
                 {
                     "version": "9",
                     "semver": "9.752897",
-                    "date": "2016.03.01 08:55",
+                    "date": "2016.03.01 07:55",
                     "file": "RTC-WorkItems-9.752897.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -4989,7 +4989,7 @@
                 {
                     "version": "10",
                     "semver": "10.866824",
-                    "date": "2016.12.08 11:25",
+                    "date": "2016.12.08 10:25",
                     "file": "RTC-WorkItems-10.866824.zip",
                     "notes": [
                         "Support property file encryption."
@@ -5049,7 +5049,7 @@
                 {
                     "version": "2",
                     "semver": "2.358076",
-                    "date": "2013.03.20 10:00",
+                    "date": "2013.03.20 09:00",
                     "file": "Rake-2.358076.zip",
                     "notes": [
                         "Installing this plugin will give you access to the Rake commands listed below. These steps will be available for use when designing a Job."
@@ -5063,7 +5063,7 @@
                 {
                     "version": "3",
                     "semver": "3.752923",
-                    "date": "2016.03.01 08:55",
+                    "date": "2016.03.01 07:55",
                     "file": "Rake-3.752923.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -5123,7 +5123,7 @@
                 {
                     "version": "3",
                     "semver": "3.358078",
-                    "date": "2013.03.20 10:00",
+                    "date": "2013.03.20 09:00",
                     "file": "Rally-3.358078.zip",
                     "notes": [
                         "Updated Rally to handle the Number field on Build objects for Rally versions after 1.20"
@@ -5137,7 +5137,7 @@
                 {
                     "version": "6",
                     "semver": "6.375200",
-                    "date": "2013.04.26 08:10",
+                    "date": "2013.04.26 07:10",
                     "file": "Rally-6.375200.zip",
                     "notes": [
                         "Publish the item Owner as a property of created issues. This requires uBuild 4.3.0 or later to be stored."
@@ -5151,7 +5151,7 @@
                 {
                     "version": "7",
                     "semver": "7.383642",
-                    "date": "2013.05.30 08:50",
+                    "date": "2013.05.30 07:50",
                     "file": "Rally-7.383642.zip",
                     "notes": [
                         "Added an error message that is displayed when a workspace does not exist or a user does not have access to the workspace"
@@ -5165,7 +5165,7 @@
                 {
                     "version": "8",
                     "semver": "8.410007",
-                    "date": "2013.07.17 14:26",
+                    "date": "2013.07.17 13:26",
                     "file": "Rally-8.410007.zip",
                     "notes": [
                         "Update to a newer version of a library for HTTP communication."
@@ -5179,7 +5179,7 @@
                 {
                     "version": "11",
                     "semver": "11.578704",
-                    "date": "2014.10.08 14:49",
+                    "date": "2014.10.08 13:49",
                     "file": "Rally-11.578704.zip",
                     "notes": [
                         "Use Rally's v2.0 API. Fix some issues when using HTTP proxies requiring authentication. Support detection of types in the 'Change Status' step and fix available states."
@@ -5193,7 +5193,7 @@
                 {
                     "version": "12",
                     "semver": "12.697482",
-                    "date": "2015.09.14 08:59",
+                    "date": "2015.09.14 07:59",
                     "file": "Rally-12.697482.zip",
                     "notes": [
                         "Use Rally's v2.0 API. Fix some issues when creating defect and Changing Rally Artifact Property. change the data format from xml to json.",
@@ -5208,7 +5208,7 @@
                 {
                     "version": "13",
                     "semver": "13.753104",
-                    "date": "2016.03.02 10:01",
+                    "date": "2016.03.02 09:01",
                     "file": "Rally-13.753104.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -5222,7 +5222,7 @@
                 {
                     "version": "15",
                     "semver": "15.930199",
-                    "date": "2017.08.21 14:56",
+                    "date": "2017.08.21 13:56",
                     "file": "Rally-15.930199.zip",
                     "notes": [
                         "Fix the defect creation submitter missing issue."
@@ -5236,7 +5236,7 @@
                 {
                     "version": "17",
                     "semver": "17.1126865",
-                    "date": "2021.12.21 02:55",
+                    "date": "2021.12.21 01:55",
                     "file": "ucd-Rally-17.1126865.zip",
                     "notes": [
                         "Add compatibility with Groovy 3."
@@ -5296,7 +5296,7 @@
                 {
                     "version": "1",
                     "semver": "1.772903",
-                    "date": "2016.04.11 08:06",
+                    "date": "2016.04.11 07:06",
                     "file": "RationalAppScan-1.772903.zip",
                     "notes": [
                         "Installing this plugin will give you access to the steps listed below. These steps will be available for use when designing a Job."
@@ -5344,7 +5344,7 @@
                 {
                     "version": "1",
                     "semver": "1.349687",
-                    "date": "2013.02.27 15:48",
+                    "date": "2013.02.27 14:48",
                     "file": "RTC-scm-1.349687.zip",
                     "notes": [
                         "Installing this plugin will give you access to the steps listed below. These steps will be available for use when designing a Job."
@@ -5362,7 +5362,7 @@
                 {
                     "version": "4",
                     "semver": "4.373166",
-                    "date": "2013.04.19 12:26",
+                    "date": "2013.04.19 11:26",
                     "file": "RTC-scm-4.373166.zip",
                     "notes": [
                         "Fixed parsing error in the Get Changelog step."
@@ -5380,7 +5380,7 @@
                 {
                     "version": "5",
                     "semver": "5.382073",
-                    "date": "2013.05.21 15:15",
+                    "date": "2013.05.21 14:15",
                     "file": "RTC-scm-5.382073.zip",
                     "notes": [
                         "Fix change detection when using an existing workspace by accepting changes."
@@ -5398,7 +5398,7 @@
                 {
                     "version": "6",
                     "semver": "6.382086",
-                    "date": "2013.05.21 16:19",
+                    "date": "2013.05.21 15:19",
                     "file": "RTC-scm-6.382086.zip",
                     "notes": [
                         "Fix work item detection in source changes for RTC 4.x. Fix populate step for existing workspaces to allow for non-zero return code from the scm accept."
@@ -5416,7 +5416,7 @@
                 {
                     "version": "7",
                     "semver": "7.382294",
-                    "date": "2013.05.24 12:04",
+                    "date": "2013.05.24 11:04",
                     "file": "RTC-scm-7.382294.zip",
                     "notes": [
                         "Fix a bug preventing Quiet Period from completing successfully."
@@ -5434,7 +5434,7 @@
                 {
                     "version": "8",
                     "semver": "8.384130",
-                    "date": "2013.06.03 17:51",
+                    "date": "2013.06.03 16:51",
                     "file": "RTC-scm-8.384130.zip",
                     "notes": [
                         "Fix a bug when the populate step is run a second time in a build life and creates a duplicate a snapshot instead of using the one for the build life."
@@ -5452,7 +5452,7 @@
                 {
                     "version": "9",
                     "semver": "9.384136",
-                    "date": "2013.06.05 08:03",
+                    "date": "2013.06.05 07:03",
                     "file": "RTC-scm-9.384136.zip",
                     "notes": [
                         "Fix a bug if get status needs to be run as part of a undo during populate."
@@ -5470,7 +5470,7 @@
                 {
                     "version": "11",
                     "semver": "11.413536",
-                    "date": "2013.07.23 07:19",
+                    "date": "2013.07.23 06:19",
                     "file": "RTC-scm-11.413536.zip",
                     "notes": [
                         "Add a password script field to the repository"
@@ -5484,7 +5484,7 @@
                 {
                     "version": "14",
                     "semver": "14.528121",
-                    "date": "2014.06.09 17:33",
+                    "date": "2014.06.09 16:33",
                     "file": "RTC-scm-14.528121.zip",
                     "notes": [
                         "Fixed the load command to list the components being checked out if the Components List property is set."
@@ -5498,7 +5498,7 @@
                 {
                     "version": "15",
                     "semver": "15.556981",
-                    "date": "2014.08.28 16:45",
+                    "date": "2014.08.28 15:45",
                     "file": "RTC-scm-15.556981.zip",
                     "notes": [
                         "Fixed an issue where a component could be removed and then added again instead of just leaving the component in the workspace."
@@ -5512,7 +5512,7 @@
                 {
                     "version": "18",
                     "semver": "18.604303",
-                    "date": "2014.11.14 10:06",
+                    "date": "2014.11.14 09:06",
                     "file": "RTC-scm-18.604303.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -5526,7 +5526,7 @@
                 {
                     "version": "19",
                     "semver": "19.612820",
-                    "date": "2014.12.08 15:54",
+                    "date": "2014.12.08 14:54",
                     "file": "RTC-scm-19.612820.zip",
                     "notes": [
                         "Added retries to RTC commands if the command fails due to a \"Moniker already exists\" error"
@@ -5540,7 +5540,7 @@
                 {
                     "version": "19",
                     "semver": "19.672547",
-                    "date": "2015.06.03 14:22",
+                    "date": "2015.06.03 13:22",
                     "file": "RTC-scm-19.672547.zip",
                     "notes": [
                         "Added retries to RTC commands when certain errors occur. Updated Changelog and Quiet Period steps to use the date that a change was added to the stream."
@@ -5554,7 +5554,7 @@
                 {
                     "version": "20",
                     "semver": "20.752930",
-                    "date": "2016.03.01 08:56",
+                    "date": "2016.03.01 07:56",
                     "file": "RTC-scm-20.752930.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -5568,7 +5568,7 @@
                 {
                     "version": "22",
                     "semver": "22.981581",
-                    "date": "2018.06.06 07:19",
+                    "date": "2018.06.06 06:19",
                     "file": "RTC-scm-22.981581.zip",
                     "notes": [
                         "Fix incorrect scm compare syntax in changelog step."
@@ -5582,7 +5582,7 @@
                 {
                     "version": "24",
                     "semver": "24.1013888",
-                    "date": "2019.02.28 14:04",
+                    "date": "2019.02.28 13:04",
                     "file": "RTC-scm-24.1013888.zip",
                     "notes": [
                         "Changelog will use numeric id instead of baseline/snapshot labels"
@@ -5642,7 +5642,7 @@
                 {
                     "version": "2",
                     "semver": "2.359904",
-                    "date": "2013.03.26 13:52",
+                    "date": "2013.03.26 12:52",
                     "file": "Report-Publisher-2.359904.zip",
                     "notes": [
                         "Fixed a bug with the working directory not taking the directory offset into account"
@@ -5656,7 +5656,7 @@
                 {
                     "version": "3",
                     "semver": "3.378130",
-                    "date": "2013.05.06 09:15",
+                    "date": "2013.05.06 08:15",
                     "file": "Report-Publisher-3.378130.zip",
                     "notes": [
                         "Fixed a bug with determining the current Job ID that was causing report uploads to fail"
@@ -5670,7 +5670,7 @@
                 {
                     "version": "4",
                     "semver": "4.409531",
-                    "date": "2013.07.17 09:00",
+                    "date": "2013.07.17 08:00",
                     "file": "Report-Publisher-4.409531.zip",
                     "notes": [
                         "Update to a newer version of a library for HTTP communication."
@@ -5684,7 +5684,7 @@
                 {
                     "version": "5",
                     "semver": "5.502205",
-                    "date": "2014.04.11 07:00",
+                    "date": "2014.04.11 06:00",
                     "file": "Report-Publisher-5.502205.zip",
                     "notes": [
                         "Fixed uploading of reports to not fail on a directory."
@@ -5698,7 +5698,7 @@
                 {
                     "version": "6",
                     "semver": "6.597181",
-                    "date": "2014.11.05 14:49",
+                    "date": "2014.11.05 13:49",
                     "file": "Report-Publisher-6.597181.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -5712,7 +5712,7 @@
                 {
                     "version": "7",
                     "semver": "7.752918",
-                    "date": "2016.03.01 08:56",
+                    "date": "2016.03.01 07:56",
                     "file": "Report-Publisher-7.752918.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -5726,7 +5726,7 @@
                 {
                     "version": "8",
                     "semver": "8.913304",
-                    "date": "2017.05.15 09:57",
+                    "date": "2017.05.15 08:57",
                     "file": "Report-Publisher-8.913304.zip",
                     "notes": [
                         "Support property file encryption."
@@ -5740,7 +5740,7 @@
                 {
                     "version": "8",
                     "semver": "8.1164837",
-                    "date": "2024.01.15 06:32",
+                    "date": "2024.01.15 05:32",
                     "file": "Report-Publisher-8.1164837.zip",
                     "notes": [
                         "Support property file encryption."
@@ -5800,7 +5800,7 @@
                 {
                     "version": "2",
                     "semver": "2.358586",
-                    "date": "2013.03.21 09:17",
+                    "date": "2013.03.21 08:17",
                     "file": "urbancode-reporting-2.358586.zip",
                     "notes": [
                         "Fixed a bug in generating a report to CSV."
@@ -5814,7 +5814,7 @@
                 {
                     "version": "3",
                     "semver": "3.408566",
-                    "date": "2013.07.16 12:43",
+                    "date": "2013.07.16 11:43",
                     "file": "urbancode-reporting-3.408566.zip",
                     "notes": [
                         "Update to a newer version of a library for HTTP communication."
@@ -5828,7 +5828,7 @@
                 {
                     "version": "4",
                     "semver": "4.597179",
-                    "date": "2014.11.05 14:48",
+                    "date": "2014.11.05 13:48",
                     "file": "urbancode-reporting-4.597179.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -5842,7 +5842,7 @@
                 {
                     "version": "5",
                     "semver": "5.752921",
-                    "date": "2016.03.01 08:56",
+                    "date": "2016.03.01 07:56",
                     "file": "urbancode-reporting-5.752921.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -5856,7 +5856,7 @@
                 {
                     "version": "6",
                     "semver": "6.913227",
-                    "date": "2017.05.15 09:41",
+                    "date": "2017.05.15 08:41",
                     "file": "urbancode-reporting-6.913227.zip",
                     "notes": [
                         "Support property file encryption."
@@ -5916,7 +5916,7 @@
                 {
                     "version": "3",
                     "semver": "3.358384",
-                    "date": "2013.03.20 14:52",
+                    "date": "2013.03.20 13:52",
                     "file": "Selenium-3.358384.zip",
                     "notes": [
                         "Installing this plugin will give you access to the Run Test Suite step. This step will be available for use in processes."
@@ -5930,7 +5930,7 @@
                 {
                     "version": "6",
                     "semver": "6.752852",
-                    "date": "2016.03.01 08:52",
+                    "date": "2016.03.01 07:52",
                     "file": "Selenium-6.752852.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -5996,7 +5996,7 @@
                 {
                     "version": "4",
                     "semver": "4.348367",
-                    "date": "2013.02.27 06:59",
+                    "date": "2013.02.27 05:59",
                     "file": "Shell-4.348367.zip",
                     "notes": [
                         "Removed the duplicate directory offset property."
@@ -6017,7 +6017,7 @@
                 {
                     "version": "5",
                     "semver": "5.752747",
-                    "date": "2016.03.01 08:49",
+                    "date": "2016.03.01 07:49",
                     "file": "Shell-5.752747.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -6038,7 +6038,7 @@
                 {
                     "version": "6",
                     "semver": "6.810204",
-                    "date": "2016.08.02 12:32",
+                    "date": "2016.08.02 11:32",
                     "file": "Shell-6.810204.zip",
                     "notes": [
                         "This version allows the user to specify a delimiter with xargs.",
@@ -6063,7 +6063,7 @@
                 {
                     "version": "7",
                     "semver": "7.913337",
-                    "date": "2017.05.15 11:35",
+                    "date": "2017.05.15 10:35",
                     "file": "Shell-7.913337.zip",
                     "notes": [
                         "Support property file encryption."
@@ -6130,7 +6130,7 @@
                 {
                     "version": "2",
                     "semver": "2.359898",
-                    "date": "2013.03.26 13:52",
+                    "date": "2013.03.26 12:52",
                     "file": "Sonar-2.359898.zip",
                     "notes": [
                         "Installing this plugin will give you access to the Sonar commands listed below. These steps will be available for use when designing a Job."
@@ -6144,7 +6144,7 @@
                 {
                     "version": "3",
                     "semver": "3.409426",
-                    "date": "2013.07.17 08:56",
+                    "date": "2013.07.17 07:56",
                     "file": "Sonar-3.409426.zip",
                     "notes": [
                         "Update to a newer version of a library for HTTP communication."
@@ -6158,7 +6158,7 @@
                 {
                     "version": "5",
                     "semver": "5.533912",
-                    "date": "2014.06.25 14:39",
+                    "date": "2014.06.25 13:39",
                     "file": "SonarQube-5.533912.zip",
                     "notes": [
                         "Change Sonar to SonarQube to reflect the new product name."
@@ -6172,7 +6172,7 @@
                 {
                     "version": "7",
                     "semver": "7.752900",
-                    "date": "2016.03.01 08:55",
+                    "date": "2016.03.01 07:55",
                     "file": "SonarQube-7.752900.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -6186,7 +6186,7 @@
                 {
                     "version": "8",
                     "semver": "8.838525",
-                    "date": "2016.10.14 15:05",
+                    "date": "2016.10.14 14:05",
                     "file": "SonarQube-8.838525.zip",
                     "notes": [
                         "Ensure cleanup of child maven process when terminating"
@@ -6246,7 +6246,7 @@
                 {
                     "version": "2",
                     "semver": "2.378124",
-                    "date": "2013.05.06 08:05",
+                    "date": "2013.05.06 07:05",
                     "file": "Sonargraph-2.378124.zip",
                     "notes": [
                         "Add a checkbox to only publish counts of findings. This saves space if you have a large number of findings. Requires uBuild 4.3."
@@ -6260,7 +6260,7 @@
                 {
                     "version": "3",
                     "semver": "3.409460",
-                    "date": "2013.07.17 08:55",
+                    "date": "2013.07.17 07:55",
                     "file": "Sonargraph-3.409460.zip",
                     "notes": [
                         "Update to a newer version of a library for HTTP communication."
@@ -6274,7 +6274,7 @@
                 {
                     "version": "4",
                     "semver": "4.604307",
-                    "date": "2014.11.14 10:08",
+                    "date": "2014.11.14 09:08",
                     "file": "Sonargraph-4.604307.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -6288,7 +6288,7 @@
                 {
                     "version": "5",
                     "semver": "5.752915",
-                    "date": "2016.03.01 08:55",
+                    "date": "2016.03.01 07:55",
                     "file": "Sonargraph-5.752915.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -6348,7 +6348,7 @@
                 {
                     "version": "3",
                     "semver": "3.358056",
-                    "date": "2013.03.20 10:00",
+                    "date": "2013.03.20 09:00",
                     "file": "Subversion-3.358056.zip",
                     "notes": [
                         "Added an isSvnRepo property to determine if the supplied repository is a single repository or a collection of repositories"
@@ -6362,7 +6362,7 @@
                 {
                     "version": "4",
                     "semver": "4.409505",
-                    "date": "2013.07.17 08:52",
+                    "date": "2013.07.17 07:52",
                     "file": "Subversion-4.409505.zip",
                     "notes": [
                         "Update to a newer version of a library for HTTP communication."
@@ -6376,7 +6376,7 @@
                 {
                     "version": "5",
                     "semver": "5.638529",
-                    "date": "2015.02.12 15:53",
+                    "date": "2015.02.12 14:53",
                     "file": "Subversion-5.638529.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -6390,7 +6390,7 @@
                 {
                     "version": "6",
                     "semver": "6.673610",
-                    "date": "2015.06.04 15:58",
+                    "date": "2015.06.04 14:58",
                     "file": "Subversion-6.673610.zip",
                     "notes": [
                         "Fixed an issue when a tag is copied from a branch, change logs in that branch are not listed as changes for its path does not match the tag path"
@@ -6404,7 +6404,7 @@
                 {
                     "version": "7",
                     "semver": "7.752914",
-                    "date": "2016.03.01 08:55",
+                    "date": "2016.03.01 07:55",
                     "file": "Subversion-7.752914.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -6418,7 +6418,7 @@
                 {
                     "version": "11",
                     "semver": "11.1023828",
-                    "date": "2019.05.22 08:52",
+                    "date": "2019.05.22 07:52",
                     "file": "Subversion-11.1023828.zip",
                     "notes": [
                         "Support property file encryption."
@@ -6478,7 +6478,7 @@
                 {
                     "version": "4",
                     "semver": "4.409496",
-                    "date": "2013.07.17 08:53",
+                    "date": "2013.07.17 07:53",
                     "file": "TFS-4.409496.zip",
                     "notes": [
                         "Update to a newer version of a library for HTTP communication."
@@ -6492,7 +6492,7 @@
                 {
                     "version": "5",
                     "semver": "5.460931",
-                    "date": "2013.12.13 08:05",
+                    "date": "2013.12.13 07:05",
                     "file": "TFS-5.460931.zip",
                     "notes": [
                         "Updated the Populate step to correctly use the password property from the repository."
@@ -6506,7 +6506,7 @@
                 {
                     "version": "6",
                     "semver": "6.486073",
-                    "date": "2014.02.21 07:57",
+                    "date": "2014.02.21 06:57",
                     "file": "TFS-6.486073.zip",
                     "notes": [
                         "Delete the workspace from the server on cleanup using the configuration option 'Remove All Files'."
@@ -6520,7 +6520,7 @@
                 {
                     "version": "7",
                     "semver": "7.604315",
-                    "date": "2014.11.14 10:14",
+                    "date": "2014.11.14 09:14",
                     "file": "TFS-7.604315.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -6534,7 +6534,7 @@
                 {
                     "version": "8",
                     "semver": "8.679324",
-                    "date": "2015.07.09 12:26",
+                    "date": "2015.07.09 11:26",
                     "file": "TFS-8.679324.zip",
                     "notes": [
                         "Fixed a bug where an empty directory offset would not be treated as the current directory and the checkout step would run a 'workfold /map' command."
@@ -6548,7 +6548,7 @@
                 {
                     "version": "9",
                     "semver": "9.752927",
-                    "date": "2016.03.01 08:56",
+                    "date": "2016.03.01 07:56",
                     "file": "TFS-9.752927.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -6562,7 +6562,7 @@
                 {
                     "version": "11",
                     "semver": "11.1049734",
-                    "date": "2020.03.05 13:30",
+                    "date": "2020.03.05 12:30",
                     "file": "TFS-11.1049734.zip",
                     "notes": [
                         "Updated change log step with additional diagnostic log"
@@ -6622,7 +6622,7 @@
                 {
                     "version": "1",
                     "semver": "1.359972",
-                    "date": "2013.03.26 15:55",
+                    "date": "2013.03.26 14:55",
                     "file": "TFS-WorkItems-1.359972.zip",
                     "notes": [
                         "Install the TFS-WorkItems plugin to be able to use steps for working with TFS Work Items."
@@ -6636,7 +6636,7 @@
                 {
                     "version": "2",
                     "semver": "2.409515",
-                    "date": "2013.07.17 08:53",
+                    "date": "2013.07.17 07:53",
                     "file": "TFS-WorkItems-2.409515.zip",
                     "notes": [
                         "Update to a newer version of a library for HTTP communication."
@@ -6650,7 +6650,7 @@
                 {
                     "version": "3",
                     "semver": "3.604316",
-                    "date": "2014.11.14 10:14",
+                    "date": "2014.11.14 09:14",
                     "file": "TFS-WorkItems-3.604316.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -6664,7 +6664,7 @@
                 {
                     "version": "4",
                     "semver": "4.752909",
-                    "date": "2016.03.01 08:55",
+                    "date": "2016.03.01 07:55",
                     "file": "TFS-WorkItems-4.752909.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -6724,7 +6724,7 @@
                 {
                     "version": "1",
                     "semver": "1.975310",
-                    "date": "2018.03.16 13:36",
+                    "date": "2018.03.16 12:36",
                     "file": "UCBUtils-1.975310.zip",
                     "notes": [
                         "Initial release providing two steps to create JSON files and to add properties."
@@ -6738,7 +6738,7 @@
                 {
                     "version": "2",
                     "semver": "2.1058205",
-                    "date": "2020.06.01 04:50",
+                    "date": "2020.06.01 03:50",
                     "file": "UCBUtils-2.1058205.zip",
                     "notes": [
                         "Added a step for HTTP call."
@@ -6798,7 +6798,7 @@
                 {
                     "version": "2",
                     "semver": "2.360901",
-                    "date": "2013.03.28 15:20",
+                    "date": "2013.03.28 14:20",
                     "file": "VisualStudio-2.360901.zip",
                     "notes": [
                         "Install this plugin to be able to use the Visual Studio step when designing jobs."
@@ -6812,7 +6812,7 @@
                 {
                     "version": "3",
                     "semver": "3.431223",
-                    "date": "2013.09.10 13:37",
+                    "date": "2013.09.10 12:37",
                     "file": "VisualStudio-3.431223.zip",
                     "notes": [
                         "Minor updates to the step to allow it to print out the log from the build even after a build failure"
@@ -6826,7 +6826,7 @@
                 {
                     "version": "4",
                     "semver": "4.707042",
-                    "date": "2015.10.14 15:10",
+                    "date": "2015.10.14 14:10",
                     "file": "VisualStudio-4.707042.zip",
                     "notes": [
                         "Add a default command. Fix logic around determining if we need to add 'devenv' to a user-specified command path"
@@ -6840,7 +6840,7 @@
                 {
                     "version": "5",
                     "semver": "5.752842",
-                    "date": "2016.03.01 08:52",
+                    "date": "2016.03.01 07:52",
                     "file": "VisualStudio-5.752842.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -6854,7 +6854,7 @@
                 {
                     "version": "7",
                     "semver": "7.1034910",
-                    "date": "2019.10.18 09:18",
+                    "date": "2019.10.18 08:18",
                     "file": "VisualStudio-7.1034910.zip",
                     "notes": [
                         "APAR:CQPAR00247534 Resolve potential hang or missing output log"
@@ -6868,7 +6868,7 @@
                 {
                     "version": "8",
                     "semver": "8.1050058",
-                    "date": "2020.03.09 07:00",
+                    "date": "2020.03.09 06:00",
                     "file": "VisualStudio-8.1050058.zip",
                     "notes": [
                         "APAR:CQPAR00249260 Enhancement to Mode Field"
@@ -6882,7 +6882,7 @@
                 {
                     "version": "9",
                     "semver": "9.1056675",
-                    "date": "2020.05.14 04:46",
+                    "date": "2020.05.14 03:46",
                     "file": "VisualStudio-9.1056675.zip",
                     "notes": [
                         "Salesforce:TS003551876 issue fix"
@@ -6942,7 +6942,7 @@
                 {
                     "version": "2",
                     "semver": "2.679361",
-                    "date": "2015.07.09 15:48",
+                    "date": "2015.07.09 14:48",
                     "file": "Xcode-2.679361.zip",
                     "notes": [
                         "Updated the build step to reflect that schemes and targets are mutually exclusive.",
@@ -6957,7 +6957,7 @@
                 {
                     "version": "3",
                     "semver": "3.711406",
-                    "date": "2015.10.29 10:47",
+                    "date": "2015.10.29 09:47",
                     "file": "Xcode-3.711406.zip",
                     "notes": [
                         "Add properties for a keychain password and timeout. If a build or package tries to sign a packaged application",
@@ -6973,7 +6973,7 @@
                 {
                     "version": "4",
                     "semver": "4.752919",
-                    "date": "2016.03.01 08:56",
+                    "date": "2016.03.01 07:56",
                     "file": "Xcode-4.752919.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -6987,7 +6987,7 @@
                 {
                     "version": "5",
                     "semver": "5.1098513",
-                    "date": "2021.02.21 21:45",
+                    "date": "2021.02.21 20:45",
                     "file": "Xcode-hcl-5.1098513.zip",
                     "notes": [
                         "Support property file encryption."
@@ -7053,7 +7053,7 @@
                 {
                     "version": "1",
                     "semver": "1.939632",
-                    "date": "2017.10.16 12:35",
+                    "date": "2017.10.16 11:35",
                     "file": "devops-insights-deployment-risk-analytics-ubuild-1.939632.zip",
                     "notes": [
                         "First release of DevOps Insights Deployment Risk Analysis plug-in."
@@ -7101,7 +7101,7 @@
                 {
                     "version": "1",
                     "semver": "1.462541",
-                    "date": "2013.12.27 11:49",
+                    "date": "2013.12.27 10:49",
                     "file": "checkstyle-1.462541.zip",
                     "notes": [
                         "Installing this plugin will give you access to the steps listed below. These steps will be available for use when designing a Job."
@@ -7115,7 +7115,7 @@
                 {
                     "version": "2",
                     "semver": "2.604291",
-                    "date": "2014.11.14 09:59",
+                    "date": "2014.11.14 08:59",
                     "file": "checkstyle-2.604291.zip",
                     "notes": [
                         "Fixed an issue where communication with the UrbanCode Build server would fail if it was running with an IBM JDK/JRE."
@@ -7129,7 +7129,7 @@
                 {
                     "version": "3",
                     "semver": "3.753093",
-                    "date": "2016.03.02 09:26",
+                    "date": "2016.03.02 08:26",
                     "file": "checkstyle-3.753093.zip",
                     "notes": [
                         "Added RPX dependency and English translations"
@@ -7215,7 +7215,7 @@
                 {
                     "version": "1",
                     "semver": "1.1031727",
-                    "date": "2019.08.28 08:22",
+                    "date": "2019.08.28 07:22",
                     "file": "ibm-dbb-1.1031727.zip",
                     "notes": [
                         "Initial plugin version that provides a step for executing builds using IBM Dependency Based Build."
@@ -7229,7 +7229,7 @@
                 {
                     "version": "2",
                     "semver": "2.1053929",
-                    "date": "2020.04.23 06:06",
+                    "date": "2020.04.23 05:06",
                     "file": "ibm-dbb-2.1053929.zip",
                     "notes": [
                         "Use JAVA_HOME instead of PATH for launching the executable"
@@ -7300,7 +7300,7 @@
                 {
                     "version": "18",
                     "semver": "18.538542",
-                    "date": "2014.07.15 07:20",
+                    "date": "2014.07.15 06:20",
                     "file": "ibm-ucd-18.538542.zip",
                     "notes": [
                         "Updated branding to IBM UrbanCode Deploy. Added support for using an auth token in place of a username/password combination."
@@ -7314,7 +7314,7 @@
                 {
                     "version": "22",
                     "semver": "22.593716",
-                    "date": "2014.10.28 15:35",
+                    "date": "2014.10.28 14:35",
                     "file": "ibm-ucd-22.593716.zip",
                     "notes": [
                         "Fix the 'Deploy Component Version' step when using and auth token."
@@ -7328,7 +7328,7 @@
                 {
                     "version": "23",
                     "semver": "23.618652",
-                    "date": "2014.12.19 12:25",
+                    "date": "2014.12.19 11:25",
                     "file": "ibm-ucd-23.618652.zip",
                     "notes": [
                         "Fixed a bug where the 'Create Component Version' and 'Set Component Version Properties' steps could not set properties on component versions"
@@ -7342,7 +7342,7 @@
                 {
                     "version": "24",
                     "semver": "24.640458",
-                    "date": "2015.02.20 09:10",
+                    "date": "2015.02.20 08:10",
                     "file": "ibm-ucd-24.640458.zip",
                     "notes": [
                         "Fixed a bug where the 'Upload All Artifact Sets' step could not set properties on component versions"
@@ -7356,7 +7356,7 @@
                 {
                     "version": "25",
                     "semver": "25.677356",
-                    "date": "2015.06.30 09:24",
+                    "date": "2015.06.30 08:24",
                     "file": "ibm-ucd-25.677356.zip",
                     "notes": [
                         "Added a Create Version Link step. Added link creation options to the Create Component Version step."
@@ -7370,7 +7370,7 @@
                 {
                     "version": "27",
                     "semver": "27.718157",
-                    "date": "2015.12.01 16:01",
+                    "date": "2015.12.01 15:01",
                     "file": "ibm-ucd-27.718157.zip",
                     "notes": [
                         "Add checkbox for test success percentage, code analytics, code coverage percentage, source changes, work items in steps that have the ability to create properties."
@@ -7384,7 +7384,7 @@
                 {
                     "version": "28",
                     "semver": "28.719018",
-                    "date": "2015.12.08 09:59",
+                    "date": "2015.12.08 08:59",
                     "file": "ibm-ucd-28.719018.zip",
                     "notes": [
                         "Fix a bug where not providing version properties would throw an error"
@@ -7398,7 +7398,7 @@
                 {
                     "version": "30",
                     "semver": "30.752925",
-                    "date": "2016.03.01 08:56",
+                    "date": "2016.03.01 07:56",
                     "file": "ibm-ucd-30.752925.zip",
                     "notes": [
                         "Add the ability to store artifacts in the IBM UrbanCode Deploy server. This requires UrbanCode Build 6.1.2.0 and UrbanCode Deploy 6.2.0.2."
@@ -7412,7 +7412,7 @@
                 {
                     "version": "31",
                     "semver": "31.775251",
-                    "date": "2016.04.15 08:23",
+                    "date": "2016.04.15 07:23",
                     "file": "ibm-ucd-31.775251.zip",
                     "notes": [
                         "Update the Create Component Version step to set the property that tells the IBM UrbanCode Build server that artifacts are stored in an IBM UrbanCode Deploy server. This requires UrbanCode Build 6.1.2.0 and UrbanCode Deploy 6.2.0.2."
@@ -7426,7 +7426,7 @@
                 {
                     "version": "32",
                     "semver": "32.809773",
-                    "date": "2016.08.01 14:24",
+                    "date": "2016.08.01 13:24",
                     "file": "ibm-ucd-32.809773.zip",
                     "notes": [
                         "Fix for getVersionStatus to handle versions with non-url-safe characters properly"
@@ -7440,7 +7440,7 @@
                 {
                     "version": "32",
                     "semver": "32.810198",
-                    "date": "2016.08.02 12:30",
+                    "date": "2016.08.02 11:30",
                     "file": "ibm-ucd-32.810198.zip",
                     "notes": [
                         "Fix for getVersionStatus to handle versions with non-url-safe characters properly"
@@ -7454,7 +7454,7 @@
                 {
                     "version": "34",
                     "semver": "34.840850",
-                    "date": "2016.10.20 15:08",
+                    "date": "2016.10.20 14:08",
                     "file": "ibm-ucd-34.840850.zip",
                     "notes": [
                         "Support encrypted input and output properties"
@@ -7468,7 +7468,7 @@
                 {
                     "version": "35",
                     "semver": "35.864607",
-                    "date": "2016.12.02 15:11",
+                    "date": "2016.12.02 14:11",
                     "file": "ibm-ucd-35.864607.zip",
                     "notes": [
                         "Support property file encryption."
@@ -7482,7 +7482,7 @@
                 {
                     "version": "36",
                     "semver": "36.913355",
-                    "date": "2017.05.15 11:38",
+                    "date": "2017.05.15 10:38",
                     "file": "ibm-ucd-36.913355.zip",
                     "notes": [
                         "Make syncing of statuses between UCB/UCD fail-safe for UCB servers older than 6.1.2.2"
@@ -7496,7 +7496,7 @@
                 {
                     "version": "37",
                     "semver": "37.936528",
-                    "date": "2017.09.26 13:11",
+                    "date": "2017.09.26 12:11",
                     "file": "ibm-ucd-37.936528.zip",
                     "notes": [
                         "Fix incompatibility issue with Groovy 2.4.10"
@@ -7510,7 +7510,7 @@
                 {
                     "version": "38",
                     "semver": "38.938375",
-                    "date": "2017.10.05 13:42",
+                    "date": "2017.10.05 12:42",
                     "file": "ibm-ucd-38.938375.zip",
                     "notes": [
                         "Avoid terminating the step execution thread while error stream is being copied to output stream"
@@ -7524,7 +7524,7 @@
                 {
                     "version": "39",
                     "semver": "39.942969",
-                    "date": "2017.11.01 09:28",
+                    "date": "2017.11.01 08:28",
                     "file": "ibm-ucd-39.942969.zip",
                     "notes": [
                         "Add the ability to specify properties in Deploy Component Version step"
@@ -7538,7 +7538,7 @@
                 {
                     "version": "41",
                     "semver": "41.988309",
-                    "date": "2018.08.01 09:12",
+                    "date": "2018.08.01 08:12",
                     "file": "ibm-ucd-41.988309.zip",
                     "notes": [
                         "Use VersionCLIResource when creating version properties"
@@ -7552,7 +7552,7 @@
                 {
                     "version": "42",
                     "semver": "42.1011785",
-                    "date": "2019.02.01 14:23",
+                    "date": "2019.02.01 13:23",
                     "file": "ibm-ucd-42.1011785.zip",
                     "notes": [
                         "Added 'Create Environment Snapshot' and 'Deploy With Snapshot' steps."
@@ -7566,7 +7566,7 @@
                 {
                     "version": "43",
                     "semver": "43.1012319",
-                    "date": "2019.02.13 09:56",
+                    "date": "2019.02.13 08:56",
                     "file": "ibm-ucd-43.1012319.zip",
                     "notes": [
                         "Fixed missing AuthenticationCredentials import in Upload All Artifact Sets."
@@ -7580,7 +7580,7 @@
                 {
                     "version": "45",
                     "semver": "45.1025581",
-                    "date": "2019.06.10 15:10",
+                    "date": "2019.06.10 14:10",
                     "file": "ibm-ucd-45.1025581.zip",
                     "notes": [
                         "Add new steps for creating and deleting auth tokens."
@@ -7594,7 +7594,7 @@
                 {
                     "version": "46",
                     "semver": "46.1031790",
-                    "date": "2019.08.29 11:04",
+                    "date": "2019.08.29 10:04",
                     "file": "ibm-ucd-46.1031790.zip",
                     "notes": [
                         "Add new step for invoking Buztool from a UCD agent directory."
@@ -7608,7 +7608,7 @@
                 {
                     "version": "47",
                     "semver": "47.1032106",
-                    "date": "2019.09.03 11:50",
+                    "date": "2019.09.03 10:50",
                     "file": "ibm-ucd-47.1032106.zip",
                     "notes": [
                         "Address a number of issues in \"Create Component Version\", \"Add Component Version Status\", and \"Create Auth Token\" steps."
@@ -7622,7 +7622,7 @@
                 {
                     "version": "51",
                     "semver": "51.1040216",
-                    "date": "2019.12.26 09:29",
+                    "date": "2019.12.26 08:29",
                     "file": "ibm-ucd-51.1040216.zip",
                     "notes": [
                         "Fixed the Approval reject scenario while \"waiting for deployments\" that need approval in UCD."
@@ -7636,7 +7636,7 @@
                 {
                     "version": "52",
                     "semver": "52.1071101",
-                    "date": "2020.09.21 06:56",
+                    "date": "2020.09.21 05:56",
                     "file": "ibm-ucd-52.1071101.zip",
                     "notes": [
                         "Added an option to fail an Upload Artifact step if either the directories do not exist or there are no artifacts in the directories."
@@ -7696,7 +7696,7 @@
                 {
                     "version": "1",
                     "semver": "1.1070875",
-                    "date": "2020.09.18 00:26",
+                    "date": "2020.09.17 23:26",
                     "file": "plugins-jac-1.1070875.zip",
                     "notes": [
                         "Initial release. Installing this plugin will give you access to the Job as Code Step."
@@ -7764,7 +7764,7 @@
                 {
                     "version": "1",
                     "semver": "1.1027607",
-                    "date": "2019.07.09 09:51",
+                    "date": "2019.07.09 08:51",
                     "file": "salesforce-1.1027607.zip",
                     "notes": [
                         "Initial release of SalesForce plugin"
@@ -7778,7 +7778,7 @@
                 {
                     "version": "2",
                     "semver": "2.1056278",
-                    "date": "2020.05.10 23:23",
+                    "date": "2020.05.10 22:23",
                     "file": "salesforce-2.1056278.zip",
                     "notes": [
                         "Included support for RetrieveCode target."
@@ -7838,7 +7838,7 @@
                 {
                     "version": "1",
                     "semver": "1.1027750",
-                    "date": "2019.07.11 15:26",
+                    "date": "2019.07.11 14:26",
                     "file": "urbancode-velocity-1.1027750.zip",
                     "notes": [
                         "Initial release, providing the capability to upload build data to UrbanCode Velocity."
@@ -7852,7 +7852,7 @@
                 {
                     "version": "2",
                     "semver": "2.1030041",
-                    "date": "2019.08.09 10:56",
+                    "date": "2019.08.09 09:56",
                     "file": "urbancode-velocity-2.1030041.zip",
                     "notes": [
                         "Add revision to build data that is sent to UrbanCode Velocity."
@@ -7866,7 +7866,7 @@
                 {
                     "version": "3",
                     "semver": "3.1031015",
-                    "date": "2019.08.21 14:09",
+                    "date": "2019.08.21 13:09",
                     "file": "urbancode-velocity-3.1031015.zip",
                     "notes": [
                         "Fix for proper revision and requester name lookup."
@@ -7880,7 +7880,7 @@
                 {
                     "version": "5",
                     "semver": "5.1049716",
-                    "date": "2020.03.05 13:31",
+                    "date": "2020.03.05 12:31",
                     "file": "urbancode-velocity-5.1049716.zip",
                     "notes": [
                         "Revision to upload metrics data that is sent to UrbanCode Velocity."
@@ -7933,7 +7933,7 @@
                 {
                     "version": "1",
                     "semver": "1.772154",
-                    "date": "2016.04.06 12:08",
+                    "date": "2016.04.06 11:08",
                     "file": "SonarQube-1.772154.zip",
                     "notes": [
                         "Installing this plugin will give you access to the SonarQube commands listed below. These steps will be available for use when designing a Job."
@@ -7947,7 +7947,7 @@
                 {
                     "version": "3",
                     "semver": "3.1069360",
-                    "date": "2020.09.02 06:28",
+                    "date": "2020.09.02 05:28",
                     "file": "SonarQube-3.1069360.zip",
                     "notes": [
                         "Fixed parse issue when a additional properties are defined for job step"
@@ -7980,7 +7980,7 @@
                 {
                     "version": "1",
                     "semver": "1.1071324",
-                    "date": "2020.09.21 07:06",
+                    "date": "2020.09.21 06:06",
                     "file": "plugins-digital-experience-1.1071324.zip",
                     "notes": [
                         "Initial release. Installing this plugin will give you access to the steps listed below."
@@ -7994,7 +7994,7 @@
                 {
                     "version": "9",
                     "semver": "9.1071405",
-                    "date": "2020.09.21 08:25",
+                    "date": "2020.09.21 07:25",
                     "file": "plugins-digital-experience-9.1071405.zip",
                     "notes": [
                         "This version upgrade is a rebranding to HCL family of products."
@@ -8042,7 +8042,7 @@
                 {
                     "version": "2",
                     "semver": "2.753376",
-                    "date": "2016.03.02 12:03",
+                    "date": "2016.03.02 11:03",
                     "file": "dimensions-2.753376.zip",
                     "notes": [
                         "Update to a newer version of a library for HTTP communication."
@@ -8075,7 +8075,7 @@
                 {
                     "version": "1",
                     "semver": "1.1027120",
-                    "date": "2019.07.02 13:25",
+                    "date": "2019.07.02 12:25",
                     "file": "plugins-ucb-velocity-1.1027120.zip",
                     "notes": [
                         "Initial release. Installing this plugin will give you access to the steps listed below."
@@ -8108,7 +8108,7 @@
                 {
                     "version": "8",
                     "semver": "8.361123",
-                    "date": "2013.03.29 13:53",
+                    "date": "2013.03.29 12:53",
                     "file": "uDeploy-8.361123.zip",
                     "notes": [
                         "Added a two new steps that allow uploading of artifact sets to an existing version"
@@ -8122,7 +8122,7 @@
                 {
                     "version": "9",
                     "semver": "9.365984",
-                    "date": "2013.04.09 15:38",
+                    "date": "2013.04.09 14:38",
                     "file": "uDeploy-9.365984.zip",
                     "notes": [
                         "Add a optional description to created component versions. Optionally add properties in the create version step."
@@ -8136,7 +8136,7 @@
                 {
                     "version": "10",
                     "semver": "10.366378",
-                    "date": "2013.04.10 15:11",
+                    "date": "2013.04.10 14:11",
                     "file": "uDeploy-10.366378.zip",
                     "notes": [
                         "Update the 'Upload All Artifact Sets' to set component version description and properties."
@@ -8150,7 +8150,7 @@
                 {
                     "version": "11",
                     "semver": "11.371201",
-                    "date": "2013.04.16 12:38",
+                    "date": "2013.04.16 11:38",
                     "file": "uDeploy-11.371201.zip",
                     "notes": [
                         "Update the 'Upload All Artifact Sets' transfer artifacts from server to server. This requires uBuild 4.3 or later."
@@ -8164,7 +8164,7 @@
                 {
                     "version": "12",
                     "semver": "12.381187",
-                    "date": "2013.05.19 16:27",
+                    "date": "2013.05.19 15:27",
                     "file": "uDeploy-12.381187.zip",
                     "notes": [
                         "Fix a bug in the Create Component Version step when creating multiple new properties on the component. This requires uBuild 4.3 or later."
@@ -8178,7 +8178,7 @@
                 {
                     "version": "14",
                     "semver": "14.424165",
-                    "date": "2013.08.09 15:06",
+                    "date": "2013.08.09 14:06",
                     "file": "uDeploy-14.424165.zip",
                     "notes": [
                         "Added a step for adding statuses to versions. Updated the Create Component Version step to allow adding statuses during creation."
@@ -8192,7 +8192,7 @@
                 {
                     "version": "15",
                     "semver": "15.424416",
-                    "date": "2013.08.12 14:36",
+                    "date": "2013.08.12 13:36",
                     "file": "uDeploy-15.424416.zip",
                     "notes": [
                         "Added compatibility with uDeploy servers before 4.8.4 when using the Create Component Version and Add Component Version Status steps."
@@ -8206,7 +8206,7 @@
                 {
                     "version": "16",
                     "semver": "16.460963",
-                    "date": "2013.12.13 12:33",
+                    "date": "2013.12.13 11:33",
                     "file": "uDeploy-16.460963.zip",
                     "notes": [
                         "Fix a bug in the Upload All Artifact Sets step where the step would fail if a component name contained a forward slash."
@@ -8220,7 +8220,7 @@
                 {
                     "version": "17",
                     "semver": "17.522989",
-                    "date": "2014.05.21 15:48",
+                    "date": "2014.05.21 14:48",
                     "file": "uDeploy-17.522989.zip",
                     "notes": [
                         "Fixed a bug in Set Version Properties step for uDeploy 5.0 where multiple Set Version Properties steps would overwrite each other."
